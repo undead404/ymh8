@@ -1,0 +1,12 @@
+{
+    "dependencies": {
+        "pm2": "~6.0.14"
+    },
+    "name": "ymh8",
+    "private": true,
+    "scripts": {
+        "build": "pnpm -r run build",
+        "clean": "rm -rf apps/*/dist packages/*/dist",
+        "dev": "pnpm -r run dev"
+    }
+}

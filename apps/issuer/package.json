@@ -1,0 +1,22 @@
+{
+    "dependencies": {
+        "@ymh8/schemata": "workspace:*",
+        "bullmq": "~5.65.1",
+        "dotenv": "~17.2.3",
+        "ioredis": "~5.8.2",
+        "valibot": "~1.2.0"
+    },
+    "devDependencies": {
+        "@types/node": "22",
+        "tsx": "~4.21.0",
+        "typescript": "~5.9.3"
+    },
+    "name": "@ymh8/issuer",
+    "private": true,
+    "scripts": {
+        "build": "tsc -b tsconfig.build.json",
+        "dev": "tsx ./src/index.ts -w tsconfig.build.json",
+        "start": "node ./dist/index.js"
+    },
+    "type": "module"
+}

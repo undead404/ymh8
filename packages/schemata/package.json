@@ -1,0 +1,9 @@
+{
+    "dependencies": {
+        "valibot": "~1.2.0"
+    },
+    "main": "index.ts",
+    "name": "@ymh8/schemata",
+    "type": "module",
+    "private": true
+}
