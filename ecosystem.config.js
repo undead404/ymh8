@@ -2,19 +2,25 @@ module.exports = {
   apps: [
     // 1. THE ISSUER
     {
-      name: "ymh-issuer",
-      script: "./apps/issuer/dist/index.js", 
+      name: 'ymh-issuer',
+      script: './apps/issuer/dist/index.js',
       instances: 1,
       autorestart: true,
-      env: { NODE_ENV: "production" }
+      env: { NODE_ENV: 'production' },
     },
 
-    // 2. THE COP (Limited)
-    // {
-    //   name: "ymh-cop",
-    //   script: "./apps/cop/dist/index.js",
-    //   instances: 1, 
-    // },
+    // 2. THE WORKER (Limited)
+    {
+      name: 'ymh-lastfm-worker',
+      script: './apps/lastfm-worker/dist/index.js',
+      instances: 1,
+    },
+    {
+      name: 'ymh-bull-board',
+      script: './apps/bull-board/dist/index.js',
+      instances: 1,
+      autorestart: true,
+    },
 
     // 3. THE MONITOR
     // {
@@ -23,5 +29,5 @@ module.exports = {
     //   instances: 1,
     //   env: { PORT: 3000 }
     // }
-  ]
+  ],
 };

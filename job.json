@@ -1,0 +1,23 @@
+{
+  "name": "album:update:stats:02b8fb16b1dd3f2438d7955d1174102a",
+  "data": {
+    "artist": "Mindi Abair",
+    "name": "Always and Never the Same"
+  },
+  "opts": {
+    "attempts": 0
+  },
+  "id": "190",
+  "progress": 0,
+  "returnvalue": null,
+  "stacktrace": [],
+  "delay": 0,
+  "priority": 0,
+  "attemptsStarted": 1,
+  "attemptsMade": 0,
+  "stalledCounter": 0,
+  "timestamp": 1765101094519,
+  "queueQualifiedName": "bull:LastfmQueue",
+  "processedOn": 1765101162319,
+  "token": "0fc66c5b-6ec4-41fd-8e2a-5c33e4919c40:69"
+}

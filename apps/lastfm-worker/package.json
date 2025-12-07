@@ -13,7 +13,7 @@
     "tsx": "~4.21.0",
     "typescript": "~5.9.3"
   },
-  "name": "@ymh8/issuer",
+  "name": "@ymh8/lastfm-worker",
   "private": true,
   "scripts": {
     "build": "tsc -b tsconfig.build.json",

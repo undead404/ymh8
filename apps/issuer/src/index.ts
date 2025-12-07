@@ -1,9 +1,9 @@
-import { Queue, Worker } from 'bullmq';
-import { Redis as IORedis } from 'ioredis';
+import fixStatlessAlbum from './checks/fix-statless-album.js';
+import fixTaglessAlbum from './checks/fix-tagless-album.js';
+import renewOldStats from './checks/renew-old-stats.js';
+import renewOldTags from './checks/renew-old-tags.js';
 
-const connection = new IORedis({ maxRetriesPerRequest: null });
-
-// 1. The Queue (Traffic Cop)
-const myQueue = new Queue('LastfmQueue', { connection });
-
-console.log('Hello from Issuer service!');
+await renewOldStats();
+await renewOldTags();
+await fixTaglessAlbum();
+await fixStatlessAlbum();

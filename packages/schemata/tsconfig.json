@@ -1,6 +1,8 @@
 {
   // Visit https://aka.ms/tsconfig to read more about this file
   "compilerOptions": {
+    "composite": true,
+    // "allowImportingTsExtensions": true,
     "declaration": true,
     "declarationMap": true,
     "exactOptionalPropertyTypes": true,
@@ -10,12 +12,13 @@
     // See also https://aka.ms/tsconfig/module
     "module": "nodenext",
     "moduleDetection": "force",
+    // "noEmit": true,
     // Stricter Typechecking Options
     "noUncheckedIndexedAccess": true,
     "noUncheckedSideEffectImports": true,
-    "outDir": "./dist",
     // File Layout
     "rootDir": "./src",
+    "outDir": "./dist",
     "skipLibCheck": true,
     // For nodejs:
     // "lib": ["esnext"],
@@ -35,5 +38,6 @@
     "target": "esnext",
     "types": [],
     "verbatimModuleSyntax": true
-  }
+  },
+  "include": ["src"]
 }

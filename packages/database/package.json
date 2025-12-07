@@ -1,12 +1,15 @@
 {
   "dependencies": {
+    "pg": "~8.16.3",
     "valibot": "~1.2.0"
   },
   "devDependencies": {
+    "@nearform/sql": "~1.10.7",
+    "@types/pg": "~8.15.6",
     "typescript": "~5.9.3"
   },
   "main": "dist/index.js",
-  "name": "@ymh8/schemata",
+  "name": "@ymh8/database",
   "type": "module",
   "private": true,
   "scripts": {

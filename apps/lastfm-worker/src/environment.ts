@@ -9,6 +9,7 @@ const environmentSchema = v.object({
   DB: nonEmptyString,
   DB_USER: nonEmptyString,
   DB_PASSWORD: nonEmptyString,
+  LASTFM_API_KEY: nonEmptyString,
 });
 
 export const environment = v.parse(environmentSchema, process.env);

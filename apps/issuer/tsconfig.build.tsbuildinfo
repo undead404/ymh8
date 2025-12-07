@@ -1,1 +1,1 @@
-{"root":["./src/environment.ts","./src/index.ts"],"version":"5.9.3"}
+{"root":["./src/environment.ts","./src/index.ts","./src/queues.ts","./src/checks/fix-statless-album.ts","./src/checks/fix-tagless-album.ts","./src/checks/renew-old-stats.ts","./src/checks/renew-old-tags.ts","./src/database/find-old-stats-bare-album.ts","./src/database/find-old-tags-bare-album.ts","./src/database/find-statless-album.ts","./src/database/find-tagless-album.ts","./src/database/index.ts","./src/utils/generate-job-name.ts"],"version":"5.9.3"}

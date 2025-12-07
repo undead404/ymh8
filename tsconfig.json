@@ -1,0 +1,17 @@
+{
+  "files": [],
+  "references": [
+    { "path": "packages/database" },
+    { "path": "packages/schemata" },
+    { "path": "apps/bull-board" },
+    { "path": "apps/issuer" },
+    { "path": "apps/lastfm-worker" }
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@ymh8/*": ["packages/*/src"]
+    },
+    "skipLibCheck": true
+  }
+}
