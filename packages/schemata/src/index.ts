@@ -25,3 +25,29 @@ export const lastfmTagSchema = v.object({
 });
 
 export type LastfmTag = v.InferInput<typeof lastfmTagSchema>;
+
+export const bareTagSchema = v.object({
+  name: nonEmptyString,
+});
+
+export type BareTag = v.InferInput<typeof bareTagSchema>;
+
+export const tagListItemSchema = v.object({
+  albumArtist: nonEmptyString,
+  albumName: nonEmptyString,
+  place: positivePercentage,
+});
+
+export type TagListItem = v.InferInput<typeof tagListItemSchema>;
+
+export const dateString = v.pipe(
+  v.string(),
+  v.regex(/\d{4}(?:-\d{2}(?:-\d{2})?)?/),
+  v.transform((value) => {
+    const valueToChange = value;
+    while (valueToChange.endsWith('-00')) {
+      valueToChange.slice(0, -3);
+    }
+    return valueToChange;
+  }),
+);

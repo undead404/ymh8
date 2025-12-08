@@ -1,0 +1,233 @@
+{
+  "id": 35764051,
+  "status": "Accepted",
+  "year": 1990,
+  "resource_url": "https://api.discogs.com/releases/35764051",
+  "uri": "https://www.discogs.com/release/35764051-Trouble-Trouble",
+  "artists": [
+    {
+      "name": "Trouble",
+      "anv": "",
+      "join": "",
+      "role": "",
+      "tracks": "",
+      "id": 72353,
+      "resource_url": "https://api.discogs.com/artists/72353",
+      "thumbnail_url": "https://i.discogs.com/Qz3cM7aKB2DJrR0Jb2b3qzk_qBV8rrnnmsn2MBKA1iU/rs:fit/g:sm/q:90/h:500/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTcyMzUz/LTE2MDIxODQwNzMt/ODUwNy5qcGVn.jpeg"
+    }
+  ],
+  "artists_sort": "Trouble",
+  "labels": [
+    {
+      "name": "Def American Recordings",
+      "catno": "9 24267-2",
+      "entity_type": "1",
+      "entity_type_name": "Label",
+      "id": 19048,
+      "resource_url": "https://api.discogs.com/labels/19048",
+      "thumbnail_url": "https://i.discogs.com/RslCsC5HjYBfLW_v67MId-_dj2hHM8tilZvXgDZLvzQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTE5MDQ4/LTE1NjA4MTEzNDEt/MTk3Ny5qcGVn.jpeg"
+    }
+  ],
+  "series": [],
+  "companies": [],
+  "formats": [
+    {
+      "name": "CD",
+      "qty": "1",
+      "descriptions": ["Album"],
+      "text": "Longbox"
+    }
+  ],
+  "data_quality": "Needs Vote",
+  "community": {
+    "have": 0,
+    "want": 1,
+    "rating": {
+      "count": 0,
+      "average": 0
+    },
+    "submitter": {
+      "username": "MightyKrusher",
+      "resource_url": "https://api.discogs.com/users/MightyKrusher"
+    },
+    "contributors": [
+      {
+        "username": "MightyKrusher",
+        "resource_url": "https://api.discogs.com/users/MightyKrusher"
+      }
+    ],
+    "data_quality": "Needs Vote",
+    "status": "Accepted"
+  },
+  "format_quantity": 1,
+  "date_added": "2025-11-25T13:49:28-08:00",
+  "date_changed": "2025-11-25T13:55:53-08:00",
+  "num_for_sale": 0,
+  "lowest_price": null,
+  "master_id": 106203,
+  "master_url": "https://api.discogs.com/masters/106203",
+  "title": "Trouble",
+  "country": "US",
+  "released": "1990",
+  "notes": "Longbox Edition",
+  "released_formatted": "1990",
+  "identifiers": [],
+  "videos": [
+    {
+      "uri": "https://www.youtube.com/watch?v=vAoWuTb7wN4",
+      "title": "TROUBLE - At The End Of My Daze",
+      "description": "TROUBLE - At The End Of My Daze",
+      "duration": 202,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=V40VdPaDvYE",
+      "title": "Trouble - The Wolf",
+      "description": " ",
+      "duration": 275,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=Kg_hYpdKC64",
+      "title": "TROUBLE - Phychotic Reaction",
+      "description": "TROUBLE - Phychotic Reaction",
+      "duration": 195,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=-3L6IwvDfjw",
+      "title": "Trouble - A Sinner's Fame",
+      "description": "4th track from “Trouble”, Trouble’s fourth studio album.",
+      "duration": 260,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=CSfUNTXacZY",
+      "title": "TROUBLE - The Misery Show(ActII)",
+      "description": "TROUBLE - The Misery Show(ActII)",
+      "duration": 212,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=c2nJK_6idQM",
+      "title": "TROUBLE - R.I.P.",
+      "description": "TROUBLE - R.I.P.",
+      "duration": 252,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=EmqA6FNHGUo",
+      "title": "trouble black shapes of doom",
+      "description": " ",
+      "duration": 232,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=tOcV2HRmX68",
+      "title": "Trouble Heaven On My Mind 1990",
+      "description": "From the Self-Titled 1990 album.  Their first album with Def American Recordings.",
+      "duration": 256,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=zxnJNRpMmxM",
+      "title": "Trouble - All Is Forgiven",
+      "description": "",
+      "duration": 311,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=SJma9x2Tlrw",
+      "title": "Trouble - At the End of My Daze",
+      "description": " ",
+      "duration": 192,
+      "embed": true
+    }
+  ],
+  "genres": ["Rock"],
+  "styles": ["Doom Metal", "Stoner Rock"],
+  "tracklist": [
+    {
+      "position": "1",
+      "type_": "track",
+      "title": "At The End Of My Daze",
+      "duration": ""
+    },
+    {
+      "position": "2",
+      "type_": "track",
+      "title": "The Wolf",
+      "duration": ""
+    },
+    {
+      "position": "3",
+      "type_": "track",
+      "title": "Psychotic Reaction",
+      "duration": ""
+    },
+    {
+      "position": "4",
+      "type_": "track",
+      "title": "A Sinner's Fame",
+      "duration": ""
+    },
+    {
+      "position": "5",
+      "type_": "track",
+      "title": "The Misery Shows (Act II)",
+      "duration": ""
+    },
+    {
+      "position": "6",
+      "type_": "track",
+      "title": "R.I.P.",
+      "duration": ""
+    },
+    {
+      "position": "7",
+      "type_": "track",
+      "title": "Black Shapes Of Doom",
+      "duration": ""
+    },
+    {
+      "position": "8",
+      "type_": "track",
+      "title": "Heaven On My Mind",
+      "duration": ""
+    },
+    {
+      "position": "9",
+      "type_": "track",
+      "title": "E.N.D.",
+      "duration": ""
+    },
+    {
+      "position": "10",
+      "type_": "track",
+      "title": "All Is Forgiven",
+      "duration": ""
+    }
+  ],
+  "images": [
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/HctBpG1OaTCJi7mIEuH-w2lno-jX6d3uag2JwP0vpCg/rs:fit/g:sm/q:90/h:600/w:449/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1NzY0/MDUxLTE3NjQxMDcz/NzAtNTU4NS5qcGVn.jpeg",
+      "resource_url": "https://i.discogs.com/HctBpG1OaTCJi7mIEuH-w2lno-jX6d3uag2JwP0vpCg/rs:fit/g:sm/q:90/h:600/w:449/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1NzY0/MDUxLTE3NjQxMDcz/NzAtNTU4NS5qcGVn.jpeg",
+      "uri150": "https://i.discogs.com/nd1HkOpkx5V9OKnvp39QaxzGusj-WDTnSMQPqN5_ccU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1NzY0/MDUxLTE3NjQxMDcz/NzAtNTU4NS5qcGVn.jpeg",
+      "width": 449,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/zlF8tUkrXLKTnp10ZXrtzQxoEBD9k1DbLJhhUXU1T6U/rs:fit/g:sm/q:90/h:600/w:449/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1NzY0/MDUxLTE3NjQxMDcz/NzEtMTkyNy5qcGVn.jpeg",
+      "resource_url": "https://i.discogs.com/zlF8tUkrXLKTnp10ZXrtzQxoEBD9k1DbLJhhUXU1T6U/rs:fit/g:sm/q:90/h:600/w:449/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1NzY0/MDUxLTE3NjQxMDcz/NzEtMTkyNy5qcGVn.jpeg",
+      "uri150": "https://i.discogs.com/qTdHdXa1PZUrYD6IAZrCteWAkyR_XmRJcuFi4VyCY8I/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1NzY0/MDUxLTE3NjQxMDcz/NzEtMTkyNy5qcGVn.jpeg",
+      "width": 449,
+      "height": 600
+    }
+  ],
+  "thumb": "https://i.discogs.com/nd1HkOpkx5V9OKnvp39QaxzGusj-WDTnSMQPqN5_ccU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1NzY0/MDUxLTE3NjQxMDcz/NzAtNTU4NS5qcGVn.jpeg",
+  "estimated_weight": 85,
+  "blocked_from_sale": false,
+  "is_offensive": false
+}

@@ -1,0 +1,577 @@
+{
+  "id": 9482959,
+  "status": "Accepted",
+  "year": 1984,
+  "resource_url": "https://api.discogs.com/releases/9482959",
+  "uri": "https://www.discogs.com/release/9482959-Cirith-Ungol-King-Of-The-Dead",
+  "artists": [
+    {
+      "name": "Cirith Ungol",
+      "anv": "",
+      "join": "",
+      "role": "",
+      "tracks": "",
+      "id": 313929,
+      "resource_url": "https://api.discogs.com/artists/313929",
+      "thumbnail_url": "https://i.discogs.com/Nhjn3cTrEwamL21F4Jf2hL5c7wScqRjZgUskwbskQ0A/rs:fit/g:sm/q:90/h:440/w:561/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTMxMzky/OS0xNjk2NTI5MzMz/LTM0MzEucG5n.jpeg"
+    }
+  ],
+  "artists_sort": "Cirith Ungol",
+  "labels": [
+    {
+      "name": "Roadrunner Records",
+      "catno": "RR 9832",
+      "entity_type": "1",
+      "entity_type_name": "Label",
+      "id": 34268,
+      "resource_url": "https://api.discogs.com/labels/34268",
+      "thumbnail_url": "https://i.discogs.com/8B-kJeV8jUnajTVvipNsOl3WDRCyDRIi1OWjHdNDb6M/rs:fit/g:sm/q:90/h:155/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTM0MjY4/LTE1MTQzMjg5NjEt/NDU3OC5qcGVn.jpeg"
+    }
+  ],
+  "series": [],
+  "companies": [
+    {
+      "name": "Enigma Records (3)",
+      "catno": "",
+      "entity_type": "6",
+      "entity_type_name": "Licensed From",
+      "id": 755,
+      "resource_url": "https://api.discogs.com/labels/755",
+      "thumbnail_url": "https://i.discogs.com/ef8yNpM0eddhP_R9RDbb8GC_JaEA21efYFf0WqBDPrM/rs:fit/g:sm/q:90/h:204/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTc1NS0x/NzQ1NTA1ODIyLTc4/NzQuanBlZw.jpeg"
+    },
+    {
+      "name": "CNR",
+      "catno": "",
+      "entity_type": "9",
+      "entity_type_name": "Distributed By",
+      "id": 67897,
+      "resource_url": "https://api.discogs.com/labels/67897",
+      "thumbnail_url": "https://i.discogs.com/sufSVo5Guys0zo7fWwDLHXD7h1l-RPm_NMjnU_Yt0II/rs:fit/g:sm/q:90/h:493/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTY3ODk3/LTE2MTI0MTAxODkt/ODM0Mi5qcGVn.jpeg"
+    },
+    {
+      "name": "Indisc",
+      "catno": "",
+      "entity_type": "9",
+      "entity_type_name": "Distributed By",
+      "id": 4020,
+      "resource_url": "https://api.discogs.com/labels/4020",
+      "thumbnail_url": "https://i.discogs.com/zUSihLbBFcOvvzc0lQs05gkdpDiv6TdnqcxtRk46wnE/rs:fit/g:sm/q:90/h:208/w:480/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTQwMjAt/MTI0NTU5NjAwMi5q/cGVn.jpeg"
+    },
+    {
+      "name": "Disctrade",
+      "catno": "",
+      "entity_type": "9",
+      "entity_type_name": "Distributed By",
+      "id": 161950,
+      "resource_url": "https://api.discogs.com/labels/161950",
+      "thumbnail_url": "https://i.discogs.com/t0ySg3S1jmw7Hw6fExTjwUy-tCdajIyMUc9l_tM2olU/rs:fit/g:sm/q:90/h:261/w:272/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTE2MTk1/MC0xNjAzMTk3NzM0/LTk2ODUuanBlZw.jpeg"
+    },
+    {
+      "name": "SPV GmbH",
+      "catno": "",
+      "entity_type": "9",
+      "entity_type_name": "Distributed By",
+      "id": 96109,
+      "resource_url": "https://api.discogs.com/labels/96109",
+      "thumbnail_url": "https://i.discogs.com/B1CxPOvE6wwhWm9uawIG6i-a9kj_K8wZMXRSDtCzPJg/rs:fit/g:sm/q:90/h:420/w:420/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTk2MTA5/LTE1MTYyOTc1Nzgt/MTc3Ni5wbmc.jpeg"
+    },
+    {
+      "name": "Roadrunner Productions B.V.",
+      "catno": "",
+      "entity_type": "13",
+      "entity_type_name": "Phonographic Copyright (p)",
+      "id": 261823,
+      "resource_url": "https://api.discogs.com/labels/261823"
+    },
+    {
+      "name": "Enigma Records (3)",
+      "catno": "",
+      "entity_type": "13",
+      "entity_type_name": "Phonographic Copyright (p)",
+      "id": 755,
+      "resource_url": "https://api.discogs.com/labels/755",
+      "thumbnail_url": "https://i.discogs.com/ef8yNpM0eddhP_R9RDbb8GC_JaEA21efYFf0WqBDPrM/rs:fit/g:sm/q:90/h:204/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTc1NS0x/NzQ1NTA1ODIyLTc4/NzQuanBlZw.jpeg"
+    },
+    {
+      "name": "Enigma Records (3)",
+      "catno": "",
+      "entity_type": "14",
+      "entity_type_name": "Copyright (c)",
+      "id": 755,
+      "resource_url": "https://api.discogs.com/labels/755",
+      "thumbnail_url": "https://i.discogs.com/ef8yNpM0eddhP_R9RDbb8GC_JaEA21efYFf0WqBDPrM/rs:fit/g:sm/q:90/h:204/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTc1NS0x/NzQ1NTA1ODIyLTc4/NzQuanBlZw.jpeg"
+    },
+    {
+      "name": "Molten Metal Music",
+      "catno": "",
+      "entity_type": "21",
+      "entity_type_name": "Published By",
+      "id": 578678,
+      "resource_url": "https://api.discogs.com/labels/578678"
+    },
+    {
+      "name": "Amgine Music",
+      "catno": "",
+      "entity_type": "21",
+      "entity_type_name": "Published By",
+      "id": 297433,
+      "resource_url": "https://api.discogs.com/labels/297433"
+    },
+    {
+      "name": "Bug Music",
+      "catno": "",
+      "entity_type": "21",
+      "entity_type_name": "Published By",
+      "id": 113723,
+      "resource_url": "https://api.discogs.com/labels/113723",
+      "thumbnail_url": "https://i.discogs.com/SoyF6-FqkTSt1eVYafoYKgCf61TpBofsPoQPtlz709w/rs:fit/g:sm/q:90/h:210/w:576/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTExMzcy/My0xNjQyNDY0Mzky/LTM0MjkuanBlZw.jpeg"
+    },
+    {
+      "name": "Goldmine Recording Studios",
+      "catno": "",
+      "entity_type": "23",
+      "entity_type_name": "Recorded At",
+      "id": 367895,
+      "resource_url": "https://api.discogs.com/labels/367895",
+      "thumbnail_url": "https://i.discogs.com/Aa6RymY1noNZZUGgWu6dMLQwXA1rr10VwpKGf-tLpVc/rs:fit/g:sm/q:90/h:165/w:353/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTM2Nzg5/NS0xMzMyMDgwMjc2/LmpwZWc.jpeg"
+    },
+    {
+      "name": "Allen Zentz Mastering",
+      "catno": "",
+      "entity_type": "29",
+      "entity_type_name": "Mastered At",
+      "id": 254254,
+      "resource_url": "https://api.discogs.com/labels/254254",
+      "thumbnail_url": "https://i.discogs.com/q7WgB2NDpcU4SIqt08AT_7Cc5yhE74kdfzI80es-e1A/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTI1NDI1/NC0xNzQwMDUzNDUz/LTMyODMuanBlZw.jpeg"
+    },
+    {
+      "name": "MPO",
+      "catno": "",
+      "entity_type": "17",
+      "entity_type_name": "Pressed By",
+      "id": 56025,
+      "resource_url": "https://api.discogs.com/labels/56025",
+      "thumbnail_url": "https://i.discogs.com/ESRU3eTUmc1632Us6_7LBipnaQGV6lJe-D5nyFxssyw/rs:fit/g:sm/q:90/h:336/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTU2MDI1/LTEzMTQ2OTg5ODQu/anBlZw.jpeg"
+    }
+  ],
+  "formats": [
+    {
+      "name": "Vinyl",
+      "qty": "1",
+      "descriptions": ["LP", "Album"]
+    }
+  ],
+  "data_quality": "Correct",
+  "community": {
+    "have": 218,
+    "want": 281,
+    "rating": {
+      "count": 20,
+      "average": 4.05
+    },
+    "submitter": {
+      "username": "Uffe2",
+      "resource_url": "https://api.discogs.com/users/Uffe2"
+    },
+    "contributors": [
+      {
+        "username": "Uffe2",
+        "resource_url": "https://api.discogs.com/users/Uffe2"
+      },
+      {
+        "username": "shiremen",
+        "resource_url": "https://api.discogs.com/users/shiremen"
+      },
+      {
+        "username": "mr_mando",
+        "resource_url": "https://api.discogs.com/users/mr_mando"
+      },
+      {
+        "username": "Klanzky",
+        "resource_url": "https://api.discogs.com/users/Klanzky"
+      }
+    ],
+    "data_quality": "Correct",
+    "status": "Accepted"
+  },
+  "format_quantity": 1,
+  "date_added": "2016-12-10T01:41:49-08:00",
+  "date_changed": "2023-11-25T11:28:55-08:00",
+  "num_for_sale": 2,
+  "lowest_price": 58.14,
+  "master_id": 127099,
+  "master_url": "https://api.discogs.com/masters/127099",
+  "title": "King Of The Dead",
+  "country": "Europe",
+  "released": "1984",
+  "notes": "Recorded at Goldmine Studios, Ventura.\n\nDistributed by:\nNetherlands - CNR, Weesp, Belgium - Indisc, Brussel, Germany - SPV GmbH, Hannover, Switzerland - Disctrade, Zürich.\n\nManufactured in the Netherlands. / Made in Holland.\n\n℗ 1984, Roadrunner Productions BV. / Enigma Records\n© 1984, Enigma Records\n\nQuite similar to this version, [r2427509], but there are some variations on the labeltext",
+  "released_formatted": "1984",
+  "identifiers": [
+    {
+      "type": "Matrix / Runout",
+      "value": "RR 9832-A1 MPO",
+      "description": "Runout side A"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "RR 9832-B1 MPO",
+      "description": "Runout side B"
+    }
+  ],
+  "videos": [
+    {
+      "uri": "https://www.youtube.com/watch?v=_srGcPp5mLA",
+      "title": "Cirith Ungol - King of the Dead (Ultimate Edition) (FULL ALBUM)",
+      "description": "Cirith Ungol album \"King of the Dead (Ultimate Edition)\" available worldwide now.\nBuy Here: http://www.metalblade.com/cirithungol\n\n01. Atom Smasher (00:00)\n02. Black Machine (04:11)\n03. Master of the Pit (08:28)\n04. King of the Dead (15:38)\n05. Death of t",
+      "duration": 0,
+      "embed": true
+    }
+  ],
+  "genres": ["Rock"],
+  "styles": ["Heavy Metal"],
+  "tracklist": [
+    {
+      "position": "A1",
+      "type_": "track",
+      "title": "Atom Smasher",
+      "extraartists": [
+        {
+          "name": "Cirith Ungol",
+          "anv": "",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 313929,
+          "resource_url": "https://api.discogs.com/artists/313929"
+        },
+        {
+          "name": "Greg Lindstrom",
+          "anv": "",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 505331,
+          "resource_url": "https://api.discogs.com/artists/505331"
+        }
+      ],
+      "duration": "4:08"
+    },
+    {
+      "position": "A2",
+      "type_": "track",
+      "title": "Black Machine",
+      "extraartists": [
+        {
+          "name": "Cirith Ungol",
+          "anv": "",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 313929,
+          "resource_url": "https://api.discogs.com/artists/313929"
+        }
+      ],
+      "duration": "4:13"
+    },
+    {
+      "position": "A3",
+      "type_": "track",
+      "title": "Master Of The Pit",
+      "extraartists": [
+        {
+          "name": "Cirith Ungol",
+          "anv": "",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 313929,
+          "resource_url": "https://api.discogs.com/artists/313929"
+        }
+      ],
+      "duration": "7:06"
+    },
+    {
+      "position": "A4",
+      "type_": "track",
+      "title": "King Of The Dead",
+      "extraartists": [
+        {
+          "name": "Cirith Ungol",
+          "anv": "",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 313929,
+          "resource_url": "https://api.discogs.com/artists/313929"
+        }
+      ],
+      "duration": "6:49"
+    },
+    {
+      "position": "B1",
+      "type_": "track",
+      "title": "Death Of The Sun",
+      "extraartists": [
+        {
+          "name": "Cirith Ungol",
+          "anv": "",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 313929,
+          "resource_url": "https://api.discogs.com/artists/313929"
+        }
+      ],
+      "duration": "3:52"
+    },
+    {
+      "position": "B2",
+      "type_": "track",
+      "title": "Finger Of Scorn",
+      "extraartists": [
+        {
+          "name": "Greg Lindstrom",
+          "anv": "",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 505331,
+          "resource_url": "https://api.discogs.com/artists/505331"
+        }
+      ],
+      "duration": "8:30"
+    },
+    {
+      "position": "B3",
+      "type_": "track",
+      "title": "Toccata In Dm",
+      "extraartists": [
+        {
+          "name": "Johann Sebastian Bach",
+          "anv": "J. S. Bach",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 95537,
+          "resource_url": "https://api.discogs.com/artists/95537"
+        }
+      ],
+      "duration": "4:34"
+    },
+    {
+      "position": "B4",
+      "type_": "track",
+      "title": "Cirith Ungol",
+      "extraartists": [
+        {
+          "name": "Cirith Ungol",
+          "anv": "",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 313929,
+          "resource_url": "https://api.discogs.com/artists/313929"
+        },
+        {
+          "name": "Greg Lindstrom",
+          "anv": "",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 505331,
+          "resource_url": "https://api.discogs.com/artists/505331"
+        }
+      ],
+      "duration": "6:17"
+    }
+  ],
+  "extraartists": [
+    {
+      "name": "Cirith Ungol",
+      "anv": "",
+      "join": "",
+      "role": "Arranged By",
+      "tracks": "",
+      "id": 313929,
+      "resource_url": "https://api.discogs.com/artists/313929"
+    },
+    {
+      "name": "Robert Garven",
+      "anv": "Robert W. Garven Jr.",
+      "join": "",
+      "role": "Art Direction",
+      "tracks": "",
+      "id": 505330,
+      "resource_url": "https://api.discogs.com/artists/505330"
+    },
+    {
+      "name": "Michael Flint",
+      "anv": "Flint",
+      "join": "",
+      "role": "Bass Guitar [Guitars]",
+      "tracks": "",
+      "id": 592065,
+      "resource_url": "https://api.discogs.com/artists/592065"
+    },
+    {
+      "name": "Michael R. Whelan",
+      "anv": "Michael Whelan",
+      "join": "",
+      "role": "Cover",
+      "tracks": "",
+      "id": 2252289,
+      "resource_url": "https://api.discogs.com/artists/2252289"
+    },
+    {
+      "name": "Jerry Evans (3)",
+      "anv": "",
+      "join": "",
+      "role": "Crew [Road Crew]",
+      "tracks": "",
+      "id": 3607279,
+      "resource_url": "https://api.discogs.com/artists/3607279"
+    },
+    {
+      "name": "John Doane",
+      "anv": "",
+      "join": "",
+      "role": "Crew [Road Crew]",
+      "tracks": "",
+      "id": 376749,
+      "resource_url": "https://api.discogs.com/artists/376749"
+    },
+    {
+      "name": "Patrick Lysaght",
+      "anv": "",
+      "join": "",
+      "role": "Crew [Road Crew]",
+      "tracks": "",
+      "id": 3439275,
+      "resource_url": "https://api.discogs.com/artists/3439275"
+    },
+    {
+      "name": "Robert Garven",
+      "anv": "",
+      "join": "",
+      "role": "Drums",
+      "tracks": "",
+      "id": 505330,
+      "resource_url": "https://api.discogs.com/artists/505330"
+    },
+    {
+      "name": "Tim Nelson",
+      "anv": "Adm. Tim Nelson",
+      "join": "",
+      "role": "Engineer",
+      "tracks": "",
+      "id": 393669,
+      "resource_url": "https://api.discogs.com/artists/393669"
+    },
+    {
+      "name": "Jerry Fogle",
+      "anv": "",
+      "join": "",
+      "role": "Guitar [Guitars]",
+      "tracks": "",
+      "id": 592064,
+      "resource_url": "https://api.discogs.com/artists/592064"
+    },
+    {
+      "name": "Chris Bellman",
+      "anv": "",
+      "join": "",
+      "role": "Mastered By",
+      "tracks": "",
+      "id": 359447,
+      "resource_url": "https://api.discogs.com/artists/359447"
+    },
+    {
+      "name": "Greg Hazard",
+      "anv": "",
+      "join": "",
+      "role": "Photography By",
+      "tracks": "",
+      "id": 2259394,
+      "resource_url": "https://api.discogs.com/artists/2259394"
+    },
+    {
+      "name": "Tim Baker (2)",
+      "anv": "",
+      "join": "",
+      "role": "Vocals",
+      "tracks": "",
+      "id": 706517,
+      "resource_url": "https://api.discogs.com/artists/706517"
+    }
+  ],
+  "images": [
+    {
+      "type": "primary",
+      "uri": "https://i.discogs.com/yvqMnX-BjHS4v4mtaUfXvErY084qbmZTeCB9sipuEso/rs:fit/g:sm/q:90/h:591/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk0ODI5/NTktMTQ4MTM2OTQ0/Mi01MDYyLmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/yvqMnX-BjHS4v4mtaUfXvErY084qbmZTeCB9sipuEso/rs:fit/g:sm/q:90/h:591/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk0ODI5/NTktMTQ4MTM2OTQ0/Mi01MDYyLmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/JxeRy3BxNdcDg9uKMgARG6vy8ZXG2Was2YNX0hJ3UJI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk0ODI5/NTktMTQ4MTM2OTQ0/Mi01MDYyLmpwZWc.jpeg",
+      "width": 600,
+      "height": 591
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/NyYWTUytIxKo_SE1dB3Qb-YXyfhnca7MfO1u_MfrrRc/rs:fit/g:sm/q:90/h:590/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk0ODI5/NTktMTQ4MTM2OTQ0/My04OTM2LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/NyYWTUytIxKo_SE1dB3Qb-YXyfhnca7MfO1u_MfrrRc/rs:fit/g:sm/q:90/h:590/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk0ODI5/NTktMTQ4MTM2OTQ0/My04OTM2LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/7BvyEDS3UD9FZdIs4XfWhshGIuUiw7XkEvdeY-CeWYo/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk0ODI5/NTktMTQ4MTM2OTQ0/My04OTM2LmpwZWc.jpeg",
+      "width": 600,
+      "height": 590
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/SZ4Tw-ZfpqOFbSSKrfkX5pX-kOfTEgOIlfv41q14yCA/rs:fit/g:sm/q:90/h:593/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk0ODI5/NTktMTQ4MTM2OTQ0/My02MTE1LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/SZ4Tw-ZfpqOFbSSKrfkX5pX-kOfTEgOIlfv41q14yCA/rs:fit/g:sm/q:90/h:593/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk0ODI5/NTktMTQ4MTM2OTQ0/My02MTE1LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/vgK456ZbBiuvUP0Fv4nhhw1Mwmdwnn83eZGHh-xOxok/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk0ODI5/NTktMTQ4MTM2OTQ0/My02MTE1LmpwZWc.jpeg",
+      "width": 600,
+      "height": 593
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/2e5-4rmTadeq5wOctbm9fYkEZvuO_-hSUbnhUK9Pxms/rs:fit/g:sm/q:90/h:595/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk0ODI5/NTktMTQ4MTM2OTQ0/My0zNzk1LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/2e5-4rmTadeq5wOctbm9fYkEZvuO_-hSUbnhUK9Pxms/rs:fit/g:sm/q:90/h:595/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk0ODI5/NTktMTQ4MTM2OTQ0/My0zNzk1LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/t3AaKVC3TaCNk4jIIYYnLWMkpEPYj50nRZh4dPRUQOg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk0ODI5/NTktMTQ4MTM2OTQ0/My0zNzk1LmpwZWc.jpeg",
+      "width": 600,
+      "height": 595
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/3ZIyaUWv-loLMEFbhF0TLUGQenBXG404q3n8DEqkQBM/rs:fit/g:sm/q:90/h:595/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk0ODI5/NTktMTQ4MTM2OTQ0/My00MjQ2LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/3ZIyaUWv-loLMEFbhF0TLUGQenBXG404q3n8DEqkQBM/rs:fit/g:sm/q:90/h:595/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk0ODI5/NTktMTQ4MTM2OTQ0/My00MjQ2LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/Eltt7Qrdj0azUBY3TD3v4C0eeVOVRT6c5kcuqgPXsfk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk0ODI5/NTktMTQ4MTM2OTQ0/My00MjQ2LmpwZWc.jpeg",
+      "width": 600,
+      "height": 595
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/gQjIwXZPk7Mte8U7GaQ5bJohah3Nz_pj5tgLhgVNN5k/rs:fit/g:sm/q:90/h:586/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk0ODI5/NTktMTQ4MTM2OTQ0/NC02NjA5LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/gQjIwXZPk7Mte8U7GaQ5bJohah3Nz_pj5tgLhgVNN5k/rs:fit/g:sm/q:90/h:586/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk0ODI5/NTktMTQ4MTM2OTQ0/NC02NjA5LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/38jUbcm6qqALjuoNqwnXVFzBKlvbLQEptCygZwdpDOo/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk0ODI5/NTktMTQ4MTM2OTQ0/NC02NjA5LmpwZWc.jpeg",
+      "width": 600,
+      "height": 586
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/IqhIDls08EpIYdRVTeRvtyjqZwrJryWGrbnC-GQayjs/rs:fit/g:sm/q:90/h:267/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk0ODI5/NTktMTcwMDk0MDUx/NC0zMzMzLmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/IqhIDls08EpIYdRVTeRvtyjqZwrJryWGrbnC-GQayjs/rs:fit/g:sm/q:90/h:267/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk0ODI5/NTktMTcwMDk0MDUx/NC0zMzMzLmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/XkilNpADko5PVvLzjlkiIIhXuBofhux99juQv03mBMg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk0ODI5/NTktMTcwMDk0MDUx/NC0zMzMzLmpwZWc.jpeg",
+      "width": 600,
+      "height": 267
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/zdcKXrzdT9c9jwhD2e1TVQM0VzyBameDQ-mhTF3o4ak/rs:fit/g:sm/q:90/h:265/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk0ODI5/NTktMTcwMDk0MDUx/NS02ODMxLmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/zdcKXrzdT9c9jwhD2e1TVQM0VzyBameDQ-mhTF3o4ak/rs:fit/g:sm/q:90/h:265/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk0ODI5/NTktMTcwMDk0MDUx/NS02ODMxLmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/IGrRydsxQ3ntdmC9i7BRSgWelHpY9hEKkX-b1ylo-Sk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk0ODI5/NTktMTcwMDk0MDUx/NS02ODMxLmpwZWc.jpeg",
+      "width": 600,
+      "height": 265
+    }
+  ],
+  "thumb": "https://i.discogs.com/JxeRy3BxNdcDg9uKMgARG6vy8ZXG2Was2YNX0hJ3UJI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk0ODI5/NTktMTQ4MTM2OTQ0/Mi01MDYyLmpwZWc.jpeg",
+  "estimated_weight": 230,
+  "blocked_from_sale": false,
+  "is_offensive": false
+}

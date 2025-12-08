@@ -1,0 +1,206 @@
+{
+  "id": 8284441,
+  "status": "Draft",
+  "year": 1998,
+  "resource_url": "https://api.discogs.com/releases/8284441",
+  "uri": "https://www.discogs.com/release/8284441-Pagan-Altar-Volume-1",
+  "artists": [
+    {
+      "name": "Pagan Altar",
+      "anv": "",
+      "join": "",
+      "role": "",
+      "tracks": "",
+      "id": 647590,
+      "resource_url": "https://api.discogs.com/artists/647590",
+      "thumbnail_url": "https://i.discogs.com/jSZvC9ThPS0gSBVUjSyxzTF_AyTtD0YUVrlDZd6lC6g/rs:fit/g:sm/q:90/h:130/w:400/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTY0NzU5/MC0xNTE3MTc0MzYy/LTU1NjcuanBlZw.jpeg"
+    }
+  ],
+  "artists_sort": "Pagan Altar",
+  "labels": [
+    {
+      "name": "Oracle Records Ltd.",
+      "catno": "none",
+      "entity_type": "1",
+      "entity_type_name": "Label",
+      "id": 112942,
+      "resource_url": "https://api.discogs.com/labels/112942"
+    }
+  ],
+  "series": [],
+  "companies": [],
+  "formats": [
+    {
+      "name": "CD",
+      "qty": "1",
+      "descriptions": ["Album", "Reissue", "Remastered"]
+    }
+  ],
+  "data_quality": "Correct",
+  "community": {
+    "have": 4,
+    "want": 5,
+    "rating": {
+      "count": 0,
+      "average": 0
+    },
+    "submitter": {
+      "username": "Wayward_Craft",
+      "resource_url": "https://api.discogs.com/users/Wayward_Craft"
+    },
+    "contributors": [
+      {
+        "username": "Wayward_Craft",
+        "resource_url": "https://api.discogs.com/users/Wayward_Craft"
+      }
+    ],
+    "data_quality": "Correct",
+    "status": "Draft"
+  },
+  "format_quantity": 1,
+  "date_added": "2016-03-21T19:38:53-07:00",
+  "date_changed": "2016-03-21T19:38:53-07:00",
+  "num_for_sale": 0,
+  "lowest_price": null,
+  "title": "Volume 1",
+  "country": "UK",
+  "released": "1998-02-00",
+  "notes": "CD reissue of the band's 1982 demo tape. 1st pressing.",
+  "released_formatted": "Feb 1998",
+  "identifiers": [
+    {
+      "type": "Matrix / Runout",
+      "value": "HGCD637 HILTONGROVE"
+    },
+    {
+      "type": "Mastering SID Code",
+      "value": "IFPI LD11"
+    }
+  ],
+  "videos": [],
+  "genres": ["Rock"],
+  "styles": ["Doom Metal", "Heavy Metal"],
+  "tracklist": [
+    {
+      "position": "1",
+      "type_": "track",
+      "title": "Pagan Altar",
+      "duration": "7:12"
+    },
+    {
+      "position": "2",
+      "type_": "track",
+      "title": "In The Wake Of Armadeus",
+      "duration": "3:59"
+    },
+    {
+      "position": "3",
+      "type_": "track",
+      "title": "Judgement Of The Dead",
+      "duration": "7:30"
+    },
+    {
+      "position": "4",
+      "type_": "track",
+      "title": "The Black Mass",
+      "duration": "5:07"
+    },
+    {
+      "position": "5",
+      "type_": "track",
+      "title": "Night Rider",
+      "duration": "4:05"
+    },
+    {
+      "position": "6",
+      "type_": "track",
+      "title": "Acoustics",
+      "duration": "1:30"
+    },
+    {
+      "position": "7",
+      "type_": "track",
+      "title": "Reincarnation",
+      "duration": "8:36"
+    }
+  ],
+  "extraartists": [
+    {
+      "name": "Trevor Portch",
+      "anv": "",
+      "join": "",
+      "role": "Bass",
+      "tracks": "",
+      "id": 1110666,
+      "resource_url": "https://api.discogs.com/artists/1110666"
+    },
+    {
+      "name": "John Mizrahi",
+      "anv": "",
+      "join": "",
+      "role": "Drums",
+      "tracks": "",
+      "id": 1110667,
+      "resource_url": "https://api.discogs.com/artists/1110667"
+    },
+    {
+      "name": "Alan Jones (11)",
+      "anv": "",
+      "join": "",
+      "role": "Guitar",
+      "tracks": "",
+      "id": 1084584,
+      "resource_url": "https://api.discogs.com/artists/1084584"
+    },
+    {
+      "name": "Terry Jones (5)",
+      "anv": "",
+      "join": "",
+      "role": "Lyrics By",
+      "tracks": "",
+      "id": 1110668,
+      "resource_url": "https://api.discogs.com/artists/1110668"
+    },
+    {
+      "name": "Alan Jones (11)",
+      "anv": "",
+      "join": "",
+      "role": "Music By",
+      "tracks": "",
+      "id": 1084584,
+      "resource_url": "https://api.discogs.com/artists/1084584"
+    },
+    {
+      "name": "Pagan Altar",
+      "anv": "",
+      "join": "",
+      "role": "Producer",
+      "tracks": "",
+      "id": 647590,
+      "resource_url": "https://api.discogs.com/artists/647590"
+    },
+    {
+      "name": "Phil Hearne",
+      "anv": "",
+      "join": "",
+      "role": "Producer",
+      "tracks": "",
+      "id": 1110665,
+      "resource_url": "https://api.discogs.com/artists/1110665"
+    },
+    {
+      "name": "Terry Jones (5)",
+      "anv": "",
+      "join": "",
+      "role": "Vocals",
+      "tracks": "",
+      "id": 1110668,
+      "resource_url": "https://api.discogs.com/artists/1110668"
+    }
+  ],
+  "images": [],
+  "thumb": "",
+  "estimated_weight": 85,
+  "blocked_from_sale": false,
+  "is_offensive": false
+}

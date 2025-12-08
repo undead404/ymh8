@@ -1,0 +1,179 @@
+{
+  "id": 11587188,
+  "status": "Accepted",
+  "year": 2008,
+  "resource_url": "https://api.discogs.com/releases/11587188",
+  "uri": "https://www.discogs.com/release/11587188-Witchfinder-General-Resurrected",
+  "artists": [
+    {
+      "name": "Witchfinder General",
+      "anv": "",
+      "join": "",
+      "role": "",
+      "tracks": "",
+      "id": 379788,
+      "resource_url": "https://api.discogs.com/artists/379788",
+      "thumbnail_url": "https://i.discogs.com/oqT084MeQp0YLf9mykt1j8b86VKTy5GP2de1R9HSEMQ/rs:fit/g:sm/q:90/h:402/w:400/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTM3OTc4/OC0xMjYzMjI3MDY3/LmpwZWc.jpeg"
+    }
+  ],
+  "artists_sort": "Witchfinder General",
+  "labels": [
+    {
+      "name": "Buried By Time And Dust Records",
+      "catno": "DUST 003",
+      "entity_type": "1",
+      "entity_type_name": "Label",
+      "id": 116595,
+      "resource_url": "https://api.discogs.com/labels/116595",
+      "thumbnail_url": "https://i.discogs.com/or8b8cJA5W2Cb9g4C60RqgedSbuvReDwCAX4vuCl8sk/rs:fit/g:sm/q:90/h:600/w:420/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTExNjU5/NS0xMzQ1Mjc5NDk4/LTk5OTguanBlZw.jpeg"
+    }
+  ],
+  "series": [],
+  "companies": [],
+  "formats": [
+    {
+      "name": "Vinyl",
+      "qty": "1",
+      "descriptions": ["LP", "Test Pressing"]
+    }
+  ],
+  "data_quality": "Needs Vote",
+  "community": {
+    "have": 0,
+    "want": 34,
+    "rating": {
+      "count": 0,
+      "average": 0
+    },
+    "submitter": {
+      "username": "vinyl-hound",
+      "resource_url": "https://api.discogs.com/users/vinyl-hound"
+    },
+    "contributors": [
+      {
+        "username": "vinyl-hound",
+        "resource_url": "https://api.discogs.com/users/vinyl-hound"
+      }
+    ],
+    "data_quality": "Needs Vote",
+    "status": "Accepted"
+  },
+  "format_quantity": 1,
+  "date_added": "2018-02-18T09:01:13-08:00",
+  "date_changed": "2018-02-18T09:22:49-08:00",
+  "num_for_sale": 0,
+  "lowest_price": null,
+  "master_id": 42698,
+  "master_url": "https://api.discogs.com/masters/42698",
+  "title": "Resurrected",
+  "country": "US",
+  "released": "2008-08-30",
+  "notes": "Test pressing of this release, 5 copies were manufactured.  \n\nThe copy pictured has title and catalog number handwritten on plain white inner sleeve.",
+  "released_formatted": "30 Aug 2008",
+  "identifiers": [],
+  "videos": [
+    {
+      "uri": "https://www.youtube.com/watch?v=VfTuPRJhpbg",
+      "title": "Witchfinder General - Resurrected (Full Album) 2008",
+      "description": "Witchfinder General's latest album from 2008\n\nTracklist:\n1. The Living Hell 07:50\n2. The Gift of Life 05:47\n3. Final Justice 04:20\n4. Bryn-y-Mor 02:18\n5. Brutal Existence 05:15\n6. Euthanasia 05:25\n7. A Night to Remember 04:28\n8. The Funeral / Beyond the G",
+      "duration": 2550,
+      "embed": true
+    }
+  ],
+  "genres": ["Rock"],
+  "styles": ["Doom Metal"],
+  "tracklist": [
+    {
+      "position": "A1",
+      "type_": "track",
+      "title": "The Living Hell",
+      "duration": ""
+    },
+    {
+      "position": "A2",
+      "type_": "track",
+      "title": "The Gift Of Life",
+      "duration": ""
+    },
+    {
+      "position": "A3",
+      "type_": "track",
+      "title": "Final Justice",
+      "extraartists": [
+        {
+          "name": "Dan Wood (2)",
+          "anv": "",
+          "join": "",
+          "role": "Lyrics By [Lyrics Co-written With]",
+          "tracks": "",
+          "id": 1222126,
+          "resource_url": "https://api.discogs.com/artists/1222126"
+        }
+      ],
+      "duration": ""
+    },
+    {
+      "position": "A4",
+      "type_": "track",
+      "title": "Bryn-Y-Mor",
+      "duration": ""
+    },
+    {
+      "position": "B1",
+      "type_": "track",
+      "title": "Brutal Existence",
+      "extraartists": [
+        {
+          "name": "Dan Wood (2)",
+          "anv": "",
+          "join": "",
+          "role": "Lyrics By",
+          "tracks": "",
+          "id": 1222126,
+          "resource_url": "https://api.discogs.com/artists/1222126"
+        }
+      ],
+      "duration": ""
+    },
+    {
+      "position": "B2",
+      "type_": "track",
+      "title": "Euthanasia",
+      "duration": ""
+    },
+    {
+      "position": "B3",
+      "type_": "track",
+      "title": "A Night To Remember",
+      "duration": ""
+    },
+    {
+      "position": "B4",
+      "type_": "track",
+      "title": "The Funeral/Beyond The Grave",
+      "duration": ""
+    }
+  ],
+  "images": [
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/kUIMxdcWo6jmnVHg0XBWSPAibg3z_7tSP0PZXd66Vts/rs:fit/g:sm/q:90/h:579/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExNTg3/MTg4LTE1MTg5NzQw/NzgtODQ0MS5qcGVn.jpeg",
+      "resource_url": "https://i.discogs.com/kUIMxdcWo6jmnVHg0XBWSPAibg3z_7tSP0PZXd66Vts/rs:fit/g:sm/q:90/h:579/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExNTg3/MTg4LTE1MTg5NzQw/NzgtODQ0MS5qcGVn.jpeg",
+      "uri150": "https://i.discogs.com/6U9oXTWQUkL5mS3P6L1j-hdAtV7DmY4IC-sMk1xwuCo/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExNTg3/MTg4LTE1MTg5NzQw/NzgtODQ0MS5qcGVn.jpeg",
+      "width": 600,
+      "height": 579
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/9GuRX0T-RbG928kIgsuzsK4OGbHNdugAG2pVS3MESjw/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExNTg3/MTg4LTE1MTg5NzQw/ODAtMzMyMy5qcGVn.jpeg",
+      "resource_url": "https://i.discogs.com/9GuRX0T-RbG928kIgsuzsK4OGbHNdugAG2pVS3MESjw/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExNTg3/MTg4LTE1MTg5NzQw/ODAtMzMyMy5qcGVn.jpeg",
+      "uri150": "https://i.discogs.com/2t3lXlYIMMyHGDYlVyUgF-0MFZr3H6WkIiIS6BnGuEk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExNTg3/MTg4LTE1MTg5NzQw/ODAtMzMyMy5qcGVn.jpeg",
+      "width": 600,
+      "height": 596
+    }
+  ],
+  "thumb": "https://i.discogs.com/6U9oXTWQUkL5mS3P6L1j-hdAtV7DmY4IC-sMk1xwuCo/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExNTg3/MTg4LTE1MTg5NzQw/NzgtODQ0MS5qcGVn.jpeg",
+  "estimated_weight": 230,
+  "blocked_from_sale": false,
+  "is_offensive": false
+}

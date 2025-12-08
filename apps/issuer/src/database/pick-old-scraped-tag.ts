@@ -1,0 +1,29 @@
+import { type BareTag, bareTagSchema } from '@ymh8/schemata';
+import { countSchema } from '../count-schema.js';
+
+import database from './index.js';
+
+export async function countOldScrapedTags(): Promise<number> {
+  const sql = `
+    SELECT COUNT(*) AS "count"
+    FROM "Tag"
+    WHERE "albumsScrapedAt" IS NOT NULL
+    AND "albumsScrapedAt" < (NOW() - interval '1 month')
+  `;
+  const countBearer = await database.queryOne(countSchema, sql);
+  if (!countBearer) {
+    throw new Error('Failed to count');
+  }
+  return countBearer.count;
+}
+export default function pickOldScrapedTag(): Promise<null | BareTag> {
+  const sql = `
+    SELECT "name"
+    FROM "Tag"
+    WHERE "albumsScrapedAt" IS NOT NULL
+    AND "albumsScrapedAt" < (NOW() - interval '1 month')
+    ORDER BY "albumsScrapedAt" ASC
+    LIMIT 1
+  `;
+  return database.queryOne(bareTagSchema, sql);
+}

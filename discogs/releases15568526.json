@@ -1,0 +1,219 @@
+{
+  "id": 15568526,
+  "status": "Accepted",
+  "year": 1999,
+  "resource_url": "https://api.discogs.com/releases/15568526",
+  "uri": "https://www.discogs.com/release/15568526-Pentagram-Review-Your-Choices",
+  "artists": [
+    {
+      "name": "Pentagram",
+      "anv": "",
+      "join": "",
+      "role": "",
+      "tracks": "",
+      "id": 275370,
+      "resource_url": "https://api.discogs.com/artists/275370",
+      "thumbnail_url": "https://i.discogs.com/guQscJ3BilJw4dkahHdC1v59KZJrB9A6mcQnysnV5a8/rs:fit/g:sm/q:90/h:544/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI3NTM3/MC0xNzMwMjM3NDMz/LTk3NjcuanBlZw.jpeg"
+    }
+  ],
+  "artists_sort": "Pentagram",
+  "labels": [
+    {
+      "name": "Black Widow Records",
+      "catno": "BWR 031",
+      "entity_type": "1",
+      "entity_type_name": "Label",
+      "id": 44262,
+      "resource_url": "https://api.discogs.com/labels/44262",
+      "thumbnail_url": "https://i.discogs.com/DuuQpe7YNLCxBYTgPfMikvzkh7SEseJS0hn-feOyGkw/rs:fit/g:sm/q:90/h:90/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTQ0MjYy/LTE3NTQ5MjY3MDgt/NjAxOC5qcGVn.jpeg"
+    }
+  ],
+  "series": [],
+  "companies": [],
+  "formats": [
+    {
+      "name": "Vinyl",
+      "qty": "1",
+      "descriptions": ["LP", "Album", "Limited Edition"],
+      "text": "BWR"
+    }
+  ],
+  "data_quality": "Needs Vote",
+  "community": {
+    "have": 28,
+    "want": 71,
+    "rating": {
+      "count": 4,
+      "average": 3.75
+    },
+    "submitter": {
+      "username": "Zikhurat",
+      "resource_url": "https://api.discogs.com/users/Zikhurat"
+    },
+    "contributors": [
+      {
+        "username": "Zikhurat",
+        "resource_url": "https://api.discogs.com/users/Zikhurat"
+      },
+      {
+        "username": "ProgressistiCancro",
+        "resource_url": "https://api.discogs.com/users/ProgressistiCancro"
+      },
+      {
+        "username": "azzurro",
+        "resource_url": "https://api.discogs.com/users/azzurro"
+      }
+    ],
+    "data_quality": "Needs Vote",
+    "status": "Accepted"
+  },
+  "format_quantity": 1,
+  "date_added": "2020-07-03T05:52:33-07:00",
+  "date_changed": "2022-01-15T00:52:11-08:00",
+  "num_for_sale": 0,
+  "lowest_price": null,
+  "master_id": 61985,
+  "master_url": "https://api.discogs.com/masters/61985",
+  "title": "Review Your Choices",
+  "country": "Italy",
+  "released": "1999",
+  "notes": "Different Variant: \nMatrix reads BWR 031 (not \"PENTAGR. A\" etc.)\nLabel reads \"edizione limitata\"\nNO SIAE Sticker on inner sleeve\n\nGatefold sleeve is NOT embossed",
+  "released_formatted": "1999",
+  "identifiers": [
+    {
+      "type": "Matrix / Runout",
+      "value": "BWR031 A",
+      "description": "Side A"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "BWR031 B",
+      "description": "Side B"
+    },
+    {
+      "type": "Rights Society",
+      "value": "S.I.A.E."
+    }
+  ],
+  "videos": [
+    {
+      "uri": "https://www.youtube.com/watch?v=x6NN9OQlxF8",
+      "title": "Pentagram~ Review you Choices [FULL ALBUM] 1999",
+      "description": "Feel free to comment.\nShare and Subscribe for more full albums!\n\nTrack listing\n\n\"Burning Rays\" - 0:00\n\"Change of Heart\"  - 2:36\n\"Living in a Ram's Head\"  - 8:03\n\"Gorgon's Slave\"  - 10:41\n\"Review Your Choices\"  - 17:12\n\"The Diver\"  - 20:33\n\"The Bees\"  - 23",
+      "duration": 2947,
+      "embed": true
+    }
+  ],
+  "genres": ["Rock"],
+  "styles": ["Doom Metal"],
+  "tracklist": [
+    {
+      "position": "A1",
+      "type_": "track",
+      "title": "Burning Rays",
+      "duration": "2:36"
+    },
+    {
+      "position": "A2",
+      "type_": "track",
+      "title": "Change Of Heart",
+      "duration": "5:28"
+    },
+    {
+      "position": "A3",
+      "type_": "track",
+      "title": "Living In A Ram's Head",
+      "duration": "2:35"
+    },
+    {
+      "position": "A4",
+      "type_": "track",
+      "title": "Gorgon's Slave",
+      "duration": "6:34"
+    },
+    {
+      "position": "A5",
+      "type_": "track",
+      "title": "Mow You Down",
+      "duration": "3:22"
+    },
+    {
+      "position": "A6",
+      "type_": "track",
+      "title": "Review Your Choices",
+      "duration": "3:22"
+    },
+    {
+      "position": "B1",
+      "type_": "track",
+      "title": "The Diver",
+      "duration": "2:52"
+    },
+    {
+      "position": "B2",
+      "type_": "track",
+      "title": "The Bees",
+      "duration": "2:29"
+    },
+    {
+      "position": "B3",
+      "type_": "track",
+      "title": "I Am Vengeance",
+      "duration": "5:25"
+    },
+    {
+      "position": "B4",
+      "type_": "track",
+      "title": "Forever My Queen",
+      "duration": "2:38"
+    },
+    {
+      "position": "B5",
+      "type_": "track",
+      "title": "Downhill Slope",
+      "duration": "3:58"
+    },
+    {
+      "position": "B6",
+      "type_": "track",
+      "title": "Megalania",
+      "duration": "7:02"
+    },
+    {
+      "position": "B7",
+      "type_": "track",
+      "title": "Gilla?",
+      "duration": "0:53"
+    }
+  ],
+  "images": [
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/PoJzoX3Akuu25V0ha128sjCPGKXKqQAaN1xvWEBnHnQ/rs:fit/g:sm/q:90/h:594/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1NTY4/NTI2LTE1OTM3ODA3/NTQtNzA3OC5qcGVn.jpeg",
+      "resource_url": "https://i.discogs.com/PoJzoX3Akuu25V0ha128sjCPGKXKqQAaN1xvWEBnHnQ/rs:fit/g:sm/q:90/h:594/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1NTY4/NTI2LTE1OTM3ODA3/NTQtNzA3OC5qcGVn.jpeg",
+      "uri150": "https://i.discogs.com/IIjMay7Kg5O2-y56GFfRwPOdfW-jaaCOqs0dtkuExCo/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1NTY4/NTI2LTE1OTM3ODA3/NTQtNzA3OC5qcGVn.jpeg",
+      "width": 600,
+      "height": 594
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/hONNENMgHihiXiMxHEeQ3zSwWQA8JStM_9akSYv5iwQ/rs:fit/g:sm/q:90/h:600/w:450/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1NTY4/NTI2LTE1OTM3ODEy/OTItOTgyOC5qcGVn.jpeg",
+      "resource_url": "https://i.discogs.com/hONNENMgHihiXiMxHEeQ3zSwWQA8JStM_9akSYv5iwQ/rs:fit/g:sm/q:90/h:600/w:450/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1NTY4/NTI2LTE1OTM3ODEy/OTItOTgyOC5qcGVn.jpeg",
+      "uri150": "https://i.discogs.com/koB1uOCAt2S_j_M107kMcY_sDASpgmiCX634htnw4AU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1NTY4/NTI2LTE1OTM3ODEy/OTItOTgyOC5qcGVn.jpeg",
+      "width": 450,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/GSsRp8QiNcfqJiqJDiyfAi0LjmYE6aVU7sj6jpimXlA/rs:fit/g:sm/q:90/h:450/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1NTY4/NTI2LTE1OTM3ODEy/OTUtNjY4MC5qcGVn.jpeg",
+      "resource_url": "https://i.discogs.com/GSsRp8QiNcfqJiqJDiyfAi0LjmYE6aVU7sj6jpimXlA/rs:fit/g:sm/q:90/h:450/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1NTY4/NTI2LTE1OTM3ODEy/OTUtNjY4MC5qcGVn.jpeg",
+      "uri150": "https://i.discogs.com/JDFEX9pG9BoxhhtqYUbnSUXgR2xWJTT72CDZdFI-MH0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1NTY4/NTI2LTE1OTM3ODEy/OTUtNjY4MC5qcGVn.jpeg",
+      "width": 600,
+      "height": 450
+    }
+  ],
+  "thumb": "https://i.discogs.com/IIjMay7Kg5O2-y56GFfRwPOdfW-jaaCOqs0dtkuExCo/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1NTY4/NTI2LTE1OTM3ODA3/NTQtNzA3OC5qcGVn.jpeg",
+  "estimated_weight": 230,
+  "blocked_from_sale": false,
+  "is_offensive": false
+}

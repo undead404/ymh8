@@ -1,0 +1,513 @@
+{
+  "id": 4891113,
+  "status": "Accepted",
+  "year": 2005,
+  "resource_url": "https://api.discogs.com/releases/4891113",
+  "uri": "https://www.discogs.com/release/4891113-Candlemass-Candlemass",
+  "artists": [
+    {
+      "name": "Candlemass",
+      "anv": "",
+      "join": "",
+      "role": "",
+      "tracks": "",
+      "id": 311088,
+      "resource_url": "https://api.discogs.com/artists/311088",
+      "thumbnail_url": "https://i.discogs.com/dS0XldUxjLBldKFmgnKz1gXDa1sETLqik3AXhJu_qTo/rs:fit/g:sm/q:90/h:337/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTMxMTA4/OC0xNjYyMjk5OTM3/LTE0OTIuanBlZw.jpeg"
+    }
+  ],
+  "artists_sort": "Candlemass",
+  "labels": [
+    {
+      "name": "NEMS Enterprises",
+      "catno": "NEMS 358",
+      "entity_type": "1",
+      "entity_type_name": "Label",
+      "id": 97247,
+      "resource_url": "https://api.discogs.com/labels/97247",
+      "thumbnail_url": "https://i.discogs.com/-TEnwv6ndlWxl68_1LgnQpIXCkN85-fip_Ae7NYFOx0/rs:fit/g:sm/q:90/h:196/w:299/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTk3MjQ3/LTEzNTI0NjgzNzIt/MjU5NS5qcGVn.jpeg"
+    }
+  ],
+  "series": [],
+  "companies": [
+    {
+      "name": "Nuclear Blast",
+      "catno": "",
+      "entity_type": "6",
+      "entity_type_name": "Licensed From",
+      "id": 11499,
+      "resource_url": "https://api.discogs.com/labels/11499",
+      "thumbnail_url": "https://i.discogs.com/pDTsV8iZuPrNkDNKbOYsOIqEEvA4ybN0NG-vGEYCEiY/rs:fit/g:sm/q:90/h:45/w:120/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTExNDk5/LTExMDU5ODI4MTku/anBn.jpeg"
+    },
+    {
+      "name": "Nuclear Blast GmbH",
+      "catno": "",
+      "entity_type": "14",
+      "entity_type_name": "Copyright (c)",
+      "id": 222987,
+      "resource_url": "https://api.discogs.com/labels/222987",
+      "thumbnail_url": "https://i.discogs.com/d_ygdGij3o5k6weaoq6uzLmadG-xeV0gBkNdF2Nfojo/rs:fit/g:sm/q:90/h:393/w:530/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTIyMjk4/Ny0xNjg3NjIwMTA2/LTU3OTkucG5n.jpeg"
+    },
+    {
+      "name": "NEMS Enterprises",
+      "catno": "",
+      "entity_type": "13",
+      "entity_type_name": "Phonographic Copyright (p)",
+      "id": 97247,
+      "resource_url": "https://api.discogs.com/labels/97247",
+      "thumbnail_url": "https://i.discogs.com/-TEnwv6ndlWxl68_1LgnQpIXCkN85-fip_Ae7NYFOx0/rs:fit/g:sm/q:90/h:196/w:299/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTk3MjQ3/LTEzNTI0NjgzNzIt/MjU5NS5qcGVn.jpeg"
+    },
+    {
+      "name": "Polar Studios",
+      "catno": "",
+      "entity_type": "23",
+      "entity_type_name": "Recorded At",
+      "id": 268275,
+      "resource_url": "https://api.discogs.com/labels/268275",
+      "thumbnail_url": "https://i.discogs.com/ZTix5h23J-HUHnYdMNVkpGp4qneCOQrLdowlvn86bQU/rs:fit/g:sm/q:90/h:138/w:290/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTI2ODI3/NS0xNjM1MTY0NzI3/LTUzNzguanBlZw.jpeg"
+    },
+    {
+      "name": "Platform Studio, Sweden",
+      "catno": "",
+      "entity_type": "23",
+      "entity_type_name": "Recorded At",
+      "id": 465068,
+      "resource_url": "https://api.discogs.com/labels/465068"
+    },
+    {
+      "name": "Airplay Studios",
+      "catno": "",
+      "entity_type": "23",
+      "entity_type_name": "Recorded At",
+      "id": 636242,
+      "resource_url": "https://api.discogs.com/labels/636242"
+    },
+    {
+      "name": "Universal Music Publishing",
+      "catno": "",
+      "entity_type": "21",
+      "entity_type_name": "Published By",
+      "id": 193558,
+      "resource_url": "https://api.discogs.com/labels/193558",
+      "thumbnail_url": "https://i.discogs.com/8JfQxX4GdfEjS770zVg2u_MNt5kHr8j0hBhuLa6D0XE/rs:fit/g:sm/q:90/h:176/w:286/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTE5MzU1/OC0xMzg0NzQ0MDI5/LTk1NTIuanBlZw.jpeg"
+    },
+    {
+      "name": "CRP Recording",
+      "catno": "",
+      "entity_type": "29",
+      "entity_type_name": "Mastered At",
+      "id": 270809,
+      "resource_url": "https://api.discogs.com/labels/270809",
+      "thumbnail_url": "https://i.discogs.com/H7JYuOlQwTiu7iEkTkPM6JuM8Pc-Ycm-QqYTrHOdLb0/rs:fit/g:sm/q:90/h:200/w:200/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTI3MDgw/OS0xNDAwMDg4MjA1/LTEwMjQuanBlZw.jpeg"
+    },
+    {
+      "name": "Khabang Studio",
+      "catno": "",
+      "entity_type": "27",
+      "entity_type_name": "Mixed At",
+      "id": 434400,
+      "resource_url": "https://api.discogs.com/labels/434400",
+      "thumbnail_url": "https://i.discogs.com/B8ieJAZDjsp2GyyYOqPX5jSL13KUrxB3BRwDaiBEJE0/rs:fit/g:sm/q:90/h:168/w:489/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTQzNDQw/MC0xMzQ1OTMyNDM1/LTc2MzguZ2lm.jpeg"
+    },
+    {
+      "name": "Laser Disc Argentina",
+      "catno": "30242",
+      "entity_type": "17",
+      "entity_type_name": "Pressed By",
+      "id": 437805,
+      "resource_url": "https://api.discogs.com/labels/437805",
+      "thumbnail_url": "https://i.discogs.com/862Cz1NyY39KOrYwYVxQBd171ojrM-s3HSjitPTPtGU/rs:fit/g:sm/q:90/h:199/w:325/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTQzNzgw/NS0xMzg4NTc1Njg2/LTM3NTcuanBlZw.jpeg"
+    }
+  ],
+  "formats": [
+    {
+      "name": "CD",
+      "qty": "1",
+      "descriptions": ["Album"]
+    }
+  ],
+  "data_quality": "Needs Vote",
+  "community": {
+    "have": 52,
+    "want": 33,
+    "rating": {
+      "count": 4,
+      "average": 3.75
+    },
+    "submitter": {
+      "username": "Embridioum",
+      "resource_url": "https://api.discogs.com/users/Embridioum"
+    },
+    "contributors": [
+      {
+        "username": "Embridioum",
+        "resource_url": "https://api.discogs.com/users/Embridioum"
+      },
+      {
+        "username": "aleman74",
+        "resource_url": "https://api.discogs.com/users/aleman74"
+      },
+      {
+        "username": "macaumetal",
+        "resource_url": "https://api.discogs.com/users/macaumetal"
+      }
+    ],
+    "data_quality": "Needs Vote",
+    "status": "Accepted"
+  },
+  "format_quantity": 1,
+  "date_added": "2013-09-08T02:15:05-07:00",
+  "date_changed": "2019-11-22T14:16:57-08:00",
+  "num_for_sale": 2,
+  "lowest_price": 25,
+  "master_id": 42715,
+  "master_url": "https://api.discogs.com/masters/42715",
+  "title": "Candlemass",
+  "country": "Argentina",
+  "released": "2005",
+  "released_formatted": "2005",
+  "identifiers": [
+    {
+      "type": "Barcode",
+      "value": "7 27361 14482 1"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "30242 - L.D.A. - INDUSTRIA ARGENTINA - 358 NEMS"
+    },
+    {
+      "type": "Mastering SID Code",
+      "value": "IFPI 0000S20907"
+    },
+    {
+      "type": "Mould SID Code",
+      "value": "IFPI 1R09"
+    },
+    {
+      "type": "Rights Society",
+      "value": "SADAIC-BIEM-AADI-CAPIF"
+    }
+  ],
+  "videos": [
+    {
+      "uri": "https://www.youtube.com/watch?v=A8ltdukMBoY",
+      "title": "Witches",
+      "description": "Provided to YouTube by Nuclear Blast\n\nWitches · Candlemass\n\nCandlemass\n\n℗ 2005 Nuclear Blast\n\nReleased on: 2005-05-02\n\nComposer: Leif Edling\nLyricist: Leif Edling\n\nAuto-generated by YouTube.",
+      "duration": 383,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=hUzlsbwdOvY",
+      "title": "Assassin of the Light",
+      "description": "Provided to YouTube by Nuclear Blast\n\nAssassin of the Light · Candlemass\n\nCandlemass\n\n℗ 2005 Nuclear Blast\n\nReleased on: 2005-05-02\n\nComposer: Leif Edling\nLyricist: Leif Edling\n\nAuto-generated by YouTube.",
+      "duration": 390,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=7jbevkR745s",
+      "title": "Spellbreaker",
+      "description": "Provided to YouTube by Nuclear Blast\n\nSpellbreaker · Candlemass\n\nCandlemass\n\n℗ 2005 Nuclear Blast\n\nReleased on: 2005-05-02\n\nComposer: Leif Edling\nLyricist: Leif Edling\n\nAuto-generated by YouTube.",
+      "duration": 423,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=qAD5NloRTGw",
+      "title": "The Day and the Night",
+      "description": "Provided to YouTube by Nuclear Blast\n\nThe Day and the Night · Candlemass\n\nCandlemass\n\n℗ 2005 Nuclear Blast\n\nReleased on: 2005-05-02\n\nComposer: Leif Edling\nLyricist: Leif Edling\n\nAuto-generated by YouTube.",
+      "duration": 533,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=DlWR7HGorWo",
+      "title": "Copernicus",
+      "description": "Provided to YouTube by Nuclear Blast\n\nCopernicus · Candlemass\n\nCandlemass\n\n℗ 2005 Nuclear Blast\n\nReleased on: 2005-05-02\n\nComposer: Leif Edling\nLyricist: Leif Edling\n\nAuto-generated by YouTube.",
+      "duration": 438,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=Jw2v_ZQerEQ",
+      "title": "Born in a Tank",
+      "description": "Provided to YouTube by Nuclear Blast\n\nBorn in a Tank · Candlemass\n\nCandlemass\n\n℗ 2005 Nuclear Blast\n\nReleased on: 2005-05-02\n\nComposer: Leif Edling\nLyricist: Leif Edling\n\nAuto-generated by YouTube.",
+      "duration": 297,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=iVf8BRa9yko",
+      "title": "The Man Who Fell from the Sky",
+      "description": "Provided to YouTube by Nuclear Blast\n\nThe Man Who Fell from the Sky · Candlemass\n\nCandlemass\n\n℗ 2005 Nuclear Blast\n\nReleased on: 2005-05-02\n\nComposer: Leif Edling\nLyricist: Leif Edling\n\nAuto-generated by YouTube.",
+      "duration": 207,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=6dVHkwMn-Yw",
+      "title": "Seven Silver Keys",
+      "description": "Provided to YouTube by Nuclear Blast\n\nSeven Silver Keys · Candlemass\n\nCandlemass\n\n℗ 2005 Nuclear Blast\n\nReleased on: 2005-05-02\n\nComposer: Leif Edling\nLyricist: Leif Edling\n\nAuto-generated by YouTube.",
+      "duration": 300,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=8th_3AoTm_E",
+      "title": "CANDLEMASS - Black Dwarf (OFFICIAL MUSIC VIDEO)",
+      "description": "Official music video for the Candlemass track \"Black Dwarf.\"\nOrder at: http://smarturl.it/CNDLM-ST-NB\nSUBSCRIBE to NUCLEAR BLAST: http://bit.ly/subs-nb-yt\n\nORDER AT\nNuclear Blast: http://smarturl.it/CNDLM-ST-NB\niTunes: http://georiot.co/1SvW\nAmazon: http:",
+      "duration": 256,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=6dVHkwMn-Yw",
+      "title": "Seven Silver Keys",
+      "description": "Provided to YouTube by Nuclear Blast\n\nSeven Silver Keys · Candlemass\n\nCandlemass\n\n℗ 2005 Nuclear Blast\n\nReleased on: 2005-05-02\n\nComposer: Leif Edling\nLyricist: Leif Edling\n\nAuto-generated by YouTube.",
+      "duration": 300,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=RBWIBzZOJNE",
+      "title": "CANDLEMASS - Black Star (Official Video) | Napalm Records",
+      "description": "CANDLEMASS, the Swedish godfathers of epic doom, honour their 40th anniversary of pioneering the genre with a four-track EP, Black Star. Packed with canyon-deep riffs, this celebration of doom metal mastery is set for release on May 9, 2025 via Napalm Rec",
+      "duration": 394,
+      "embed": true
+    }
+  ],
+  "genres": ["Rock"],
+  "styles": ["Doom Metal"],
+  "tracklist": [
+    {
+      "position": "1",
+      "type_": "track",
+      "title": "Black Dwarf",
+      "duration": "5:43"
+    },
+    {
+      "position": "2",
+      "type_": "track",
+      "title": "Seven Silver Keys",
+      "duration": "4:59"
+    },
+    {
+      "position": "3",
+      "type_": "track",
+      "title": "Assassin Of The Light",
+      "duration": "6:29"
+    },
+    {
+      "position": "4",
+      "type_": "track",
+      "title": "Copernicus",
+      "duration": "7:17"
+    },
+    {
+      "position": "5",
+      "type_": "track",
+      "title": "The Man Who Fell From The Sky",
+      "duration": "3:26"
+    },
+    {
+      "position": "6",
+      "type_": "track",
+      "title": "Witches",
+      "duration": "6:22"
+    },
+    {
+      "position": "7",
+      "type_": "track",
+      "title": "Born In A Tank",
+      "duration": "4:56"
+    },
+    {
+      "position": "8",
+      "type_": "track",
+      "title": "Spellbreaker",
+      "duration": "7:02"
+    },
+    {
+      "position": "9",
+      "type_": "track",
+      "title": "The Day And The Night",
+      "duration": "8:52"
+    },
+    {
+      "position": "",
+      "type_": "heading",
+      "title": "Bonus Track",
+      "duration": ""
+    },
+    {
+      "position": "10",
+      "type_": "track",
+      "title": "Mars And Volcanos",
+      "duration": "3:23"
+    }
+  ],
+  "extraartists": [
+    {
+      "name": "Leif Edling",
+      "anv": "",
+      "join": "",
+      "role": "Bass",
+      "tracks": "",
+      "id": 320872,
+      "resource_url": "https://api.discogs.com/artists/320872"
+    },
+    {
+      "name": "Tomas Arfert",
+      "anv": "",
+      "join": "",
+      "role": "Cover, Artwork",
+      "tracks": "",
+      "id": 766057,
+      "resource_url": "https://api.discogs.com/artists/766057"
+    },
+    {
+      "name": "Jan Lindh",
+      "anv": "",
+      "join": "",
+      "role": "Drums",
+      "tracks": "",
+      "id": 429360,
+      "resource_url": "https://api.discogs.com/artists/429360"
+    },
+    {
+      "name": "Mats Björkman",
+      "anv": "",
+      "join": "",
+      "role": "Guitar",
+      "tracks": "",
+      "id": 429361,
+      "resource_url": "https://api.discogs.com/artists/429361"
+    },
+    {
+      "name": "Lars Johansson",
+      "anv": "",
+      "join": "",
+      "role": "Guitar, Lead Guitar",
+      "tracks": "",
+      "id": 429359,
+      "resource_url": "https://api.discogs.com/artists/429359"
+    },
+    {
+      "name": "Carl Westholm",
+      "anv": "",
+      "join": "",
+      "role": "Keyboards [Additional]",
+      "tracks": "",
+      "id": 471619,
+      "resource_url": "https://api.discogs.com/artists/471619"
+    },
+    {
+      "name": "Claes Persson",
+      "anv": "",
+      "join": "",
+      "role": "Mastered By",
+      "tracks": "",
+      "id": 418325,
+      "resource_url": "https://api.discogs.com/artists/418325"
+    },
+    {
+      "name": "Anders Ringman",
+      "anv": "",
+      "join": "",
+      "role": "Overdubbed By [Vocal Overdubs]",
+      "tracks": "",
+      "id": 471618,
+      "resource_url": "https://api.discogs.com/artists/471618"
+    },
+    {
+      "name": "Ulf Larsson",
+      "anv": "Uffe Larsson",
+      "join": "",
+      "role": "Overdubbed By [Vocal Overdubs]",
+      "tracks": "",
+      "id": 391776,
+      "resource_url": "https://api.discogs.com/artists/391776"
+    },
+    {
+      "name": "Ulf Magnusson",
+      "anv": "Uffe Magnusson",
+      "join": "",
+      "role": "Photography By",
+      "tracks": "",
+      "id": 1431338,
+      "resource_url": "https://api.discogs.com/artists/1431338"
+    },
+    {
+      "name": "Pontus Norgren",
+      "anv": "",
+      "join": "",
+      "role": "Producer",
+      "tracks": "",
+      "id": 392708,
+      "resource_url": "https://api.discogs.com/artists/392708"
+    },
+    {
+      "name": "Messiah Marcolin",
+      "anv": "",
+      "join": "",
+      "role": "Vocals",
+      "tracks": "",
+      "id": 255358,
+      "resource_url": "https://api.discogs.com/artists/255358"
+    },
+    {
+      "name": "Leif Edling",
+      "anv": "",
+      "join": "",
+      "role": "Written-By",
+      "tracks": "",
+      "id": 320872,
+      "resource_url": "https://api.discogs.com/artists/320872"
+    }
+  ],
+  "images": [
+    {
+      "type": "primary",
+      "uri": "https://i.discogs.com/b73Xhgz0CZjs8LcyavQJF91CF0RNYBX1jHN6zb9avEw/rs:fit/g:sm/q:90/h:586/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ4OTEx/MTMtMTU3NDQ2MTAw/Ny02OTM2LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/b73Xhgz0CZjs8LcyavQJF91CF0RNYBX1jHN6zb9avEw/rs:fit/g:sm/q:90/h:586/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ4OTEx/MTMtMTU3NDQ2MTAw/Ny02OTM2LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/3LVFqPDsCiTgjpMuyKdVjZJHwgumcE4Wrkiyw9mvg-Q/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ4OTEx/MTMtMTU3NDQ2MTAw/Ny02OTM2LmpwZWc.jpeg",
+      "width": 600,
+      "height": 586
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/HW4mE2AGhZsHF757DH8LCgPoe-yhG42JWR_MnvRF8G0/rs:fit/g:sm/q:90/h:470/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ4OTEx/MTMtMTU3NDQ2MTAw/Ny0yNTc0LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/HW4mE2AGhZsHF757DH8LCgPoe-yhG42JWR_MnvRF8G0/rs:fit/g:sm/q:90/h:470/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ4OTEx/MTMtMTU3NDQ2MTAw/Ny0yNTc0LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/Y2MlDYxdLFY4LZj6UnbfGDPDkJNmOyoGG2kDkzsUBoM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ4OTEx/MTMtMTU3NDQ2MTAw/Ny0yNTc0LmpwZWc.jpeg",
+      "width": 600,
+      "height": 470
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/mxyAnlfSa7BMs4qWWIm8Wz_Xa2x7AboroQnq7hCzGJk/rs:fit/g:sm/q:90/h:588/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ4OTEx/MTMtMTU3NDQ2MTAw/Ny02OTE3LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/mxyAnlfSa7BMs4qWWIm8Wz_Xa2x7AboroQnq7hCzGJk/rs:fit/g:sm/q:90/h:588/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ4OTEx/MTMtMTU3NDQ2MTAw/Ny02OTE3LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/AruihPsYlgJm3W-eULCUrTh1mjwphWc2vk1MGVZ6mMc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ4OTEx/MTMtMTU3NDQ2MTAw/Ny02OTE3LmpwZWc.jpeg",
+      "width": 600,
+      "height": 588
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/7Dbs0iTssXsuVnu2CA-19N9JZan7fe5_s9iN27IvLCg/rs:fit/g:sm/q:90/h:590/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ4OTEx/MTMtMTU3NDQ2MTAw/Ni05OTc1LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/7Dbs0iTssXsuVnu2CA-19N9JZan7fe5_s9iN27IvLCg/rs:fit/g:sm/q:90/h:590/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ4OTEx/MTMtMTU3NDQ2MTAw/Ni05OTc1LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/RRSnZ8QFX9m_amWYhd-KUtrmwOgNrKy09Lhk2zyKT8E/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ4OTEx/MTMtMTU3NDQ2MTAw/Ni05OTc1LmpwZWc.jpeg",
+      "width": 600,
+      "height": 590
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/b118CUjkizdnoGBoWemZbzHcKCB3WpNenLzAyipwpyo/rs:fit/g:sm/q:90/h:394/w:385/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ4OTEx/MTMtMTU3NDQ2MTAw/Ni0yNzA3LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/b118CUjkizdnoGBoWemZbzHcKCB3WpNenLzAyipwpyo/rs:fit/g:sm/q:90/h:394/w:385/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ4OTEx/MTMtMTU3NDQ2MTAw/Ni0yNzA3LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/QYjndJNyhacyAJL-X-KTT-kFsKn_Ffctpl0QASTLPjM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ4OTEx/MTMtMTU3NDQ2MTAw/Ni0yNzA3LmpwZWc.jpeg",
+      "width": 385,
+      "height": 394
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/RFXjfvBvO_rl7vYCSl2wmsG90WvezoXf9ctQyCR1W8k/rs:fit/g:sm/q:90/h:471/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ4OTEx/MTMtMTU3NDQ2MTAw/Ny04MDE5LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/RFXjfvBvO_rl7vYCSl2wmsG90WvezoXf9ctQyCR1W8k/rs:fit/g:sm/q:90/h:471/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ4OTEx/MTMtMTU3NDQ2MTAw/Ny04MDE5LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/A5M1PR8RW3HscLpM9t1soiZYxRATjFxaxwLxbqLUBFw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ4OTEx/MTMtMTU3NDQ2MTAw/Ny04MDE5LmpwZWc.jpeg",
+      "width": 600,
+      "height": 471
+    }
+  ],
+  "thumb": "https://i.discogs.com/3LVFqPDsCiTgjpMuyKdVjZJHwgumcE4Wrkiyw9mvg-Q/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ4OTEx/MTMtMTU3NDQ2MTAw/Ny02OTM2LmpwZWc.jpeg",
+  "estimated_weight": 85,
+  "blocked_from_sale": false,
+  "is_offensive": false
+}

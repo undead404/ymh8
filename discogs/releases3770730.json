@@ -1,0 +1,291 @@
+{
+  "id": 3770730,
+  "status": "Accepted",
+  "year": 1999,
+  "resource_url": "https://api.discogs.com/releases/3770730",
+  "uri": "https://www.discogs.com/release/3770730-Pentagram-Review-Your-Choices",
+  "artists": [
+    {
+      "name": "Pentagram",
+      "anv": "",
+      "join": "",
+      "role": "",
+      "tracks": "",
+      "id": 275370,
+      "resource_url": "https://api.discogs.com/artists/275370",
+      "thumbnail_url": "https://i.discogs.com/guQscJ3BilJw4dkahHdC1v59KZJrB9A6mcQnysnV5a8/rs:fit/g:sm/q:90/h:544/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI3NTM3/MC0xNzMwMjM3NDMz/LTk3NjcuanBlZw.jpeg"
+    }
+  ],
+  "artists_sort": "Pentagram",
+  "labels": [
+    {
+      "name": "Black Widow Records",
+      "catno": "BWR 031",
+      "entity_type": "1",
+      "entity_type_name": "Label",
+      "id": 44262,
+      "resource_url": "https://api.discogs.com/labels/44262",
+      "thumbnail_url": "https://i.discogs.com/DuuQpe7YNLCxBYTgPfMikvzkh7SEseJS0hn-feOyGkw/rs:fit/g:sm/q:90/h:90/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTQ0MjYy/LTE3NTQ5MjY3MDgt/NjAxOC5qcGVn.jpeg"
+    }
+  ],
+  "series": [],
+  "companies": [],
+  "formats": [
+    {
+      "name": "Vinyl",
+      "qty": "1",
+      "descriptions": ["LP", "Album", "Limited Edition"],
+      "text": "Violet"
+    }
+  ],
+  "data_quality": "Needs Vote",
+  "community": {
+    "have": 131,
+    "want": 201,
+    "rating": {
+      "count": 16,
+      "average": 4.25
+    },
+    "submitter": {
+      "username": "DerFeindHoertMit",
+      "resource_url": "https://api.discogs.com/users/DerFeindHoertMit"
+    },
+    "contributors": [
+      {
+        "username": "DerFeindHoertMit",
+        "resource_url": "https://api.discogs.com/users/DerFeindHoertMit"
+      },
+      {
+        "username": "Black_Widow_Records",
+        "resource_url": "https://api.discogs.com/users/Black_Widow_Records"
+      },
+      {
+        "username": "devildick",
+        "resource_url": "https://api.discogs.com/users/devildick"
+      },
+      {
+        "username": "azzurro",
+        "resource_url": "https://api.discogs.com/users/azzurro"
+      }
+    ],
+    "data_quality": "Needs Vote",
+    "status": "Accepted"
+  },
+  "format_quantity": 1,
+  "date_added": "2012-07-31T04:33:47-07:00",
+  "date_changed": "2022-01-15T00:51:44-08:00",
+  "num_for_sale": 2,
+  "lowest_price": 84.99,
+  "master_id": 61985,
+  "master_url": "https://api.discogs.com/masters/61985",
+  "title": "Review Your Choices",
+  "country": "Italy",
+  "released": "1999",
+  "notes": "first pressing Gatefold Cover with embossed Band Logo and Title on front and printed inner sleeve\ntotally pressed 400 copies in black vinyl and 100 copies in colored vinyl\n\nsecond pressing has a more shining cover and has no embossed logo and title, with printed inner sleeve with SIAE sticker on it\nsecond pressing total 500 copies all in black vinyl",
+  "released_formatted": "1999",
+  "identifiers": [
+    {
+      "type": "Matrix / Runout",
+      "value": "PENTAGR. A",
+      "description": "A"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "PENTAGR. B",
+      "description": "B"
+    },
+    {
+      "type": "Rights Society",
+      "value": "S.I.A.E."
+    }
+  ],
+  "videos": [
+    {
+      "uri": "https://www.youtube.com/watch?v=x6NN9OQlxF8",
+      "title": "Pentagram~ Review you Choices [FULL ALBUM] 1999",
+      "description": "Feel free to comment.\nShare and Subscribe for more full albums!\n\nTrack listing\n\n\"Burning Rays\" - 0:00\n\"Change of Heart\"  - 2:36\n\"Living in a Ram's Head\"  - 8:03\n\"Gorgon's Slave\"  - 10:41\n\"Review Your Choices\"  - 17:12\n\"The Diver\"  - 20:33\n\"The Bees\"  - 23",
+      "duration": 2947,
+      "embed": true
+    }
+  ],
+  "genres": ["Rock"],
+  "styles": ["Doom Metal"],
+  "tracklist": [
+    {
+      "position": "A1",
+      "type_": "track",
+      "title": "Burning Rays",
+      "duration": ""
+    },
+    {
+      "position": "A2",
+      "type_": "track",
+      "title": "Change Of Heart",
+      "duration": ""
+    },
+    {
+      "position": "A3",
+      "type_": "track",
+      "title": "Living In A Ram's Head",
+      "duration": ""
+    },
+    {
+      "position": "A4",
+      "type_": "track",
+      "title": "Gorgon's Slave",
+      "duration": ""
+    },
+    {
+      "position": "A5",
+      "type_": "track",
+      "title": "Mow You Down",
+      "duration": ""
+    },
+    {
+      "position": "A6",
+      "type_": "track",
+      "title": "Review You Choices",
+      "duration": ""
+    },
+    {
+      "position": "B1",
+      "type_": "track",
+      "title": "The Diver",
+      "duration": ""
+    },
+    {
+      "position": "B2",
+      "type_": "track",
+      "title": "The Bees",
+      "duration": ""
+    },
+    {
+      "position": "B3",
+      "type_": "track",
+      "title": "I Am Vengeance",
+      "duration": ""
+    },
+    {
+      "position": "B4",
+      "type_": "track",
+      "title": "Forever My Queen",
+      "duration": ""
+    },
+    {
+      "position": "B5",
+      "type_": "track",
+      "title": "Downhill Slope",
+      "duration": ""
+    },
+    {
+      "position": "B6",
+      "type_": "track",
+      "title": "Megalania",
+      "duration": ""
+    },
+    {
+      "position": "B7",
+      "type_": "track",
+      "title": "Gilla?",
+      "duration": ""
+    }
+  ],
+  "extraartists": [
+    {
+      "name": "Joe Hasselvander",
+      "anv": "",
+      "join": "",
+      "role": "Performer [All Instruments]",
+      "tracks": "",
+      "id": 557909,
+      "resource_url": "https://api.discogs.com/artists/557909"
+    },
+    {
+      "name": "Bobby Liebling",
+      "anv": "",
+      "join": "",
+      "role": "Vocals",
+      "tracks": "",
+      "id": 568439,
+      "resource_url": "https://api.discogs.com/artists/568439"
+    }
+  ],
+  "images": [
+    {
+      "type": "primary",
+      "uri": "https://i.discogs.com/izP-UnZhmg4UgwwlPpxzjh32ra7epEKHjIbAF0k9cwY/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NzA3/MzAtMTYyMTUzODEy/My05NTQ4LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/izP-UnZhmg4UgwwlPpxzjh32ra7epEKHjIbAF0k9cwY/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NzA3/MzAtMTYyMTUzODEy/My05NTQ4LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/BA7JelFOKuhSvPovAwbHZ2Yhj_ydxugBHJEQj1Zf8fM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NzA3/MzAtMTYyMTUzODEy/My05NTQ4LmpwZWc.jpeg",
+      "width": 600,
+      "height": 599
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/ozZA3mTbIPPGvGxtVyrMKCcuPyas5Zx6ireZTLqSLbM/rs:fit/g:sm/q:90/h:450/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NzA3/MzAtMTU4Njc3ODgw/MC03OTQxLmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/ozZA3mTbIPPGvGxtVyrMKCcuPyas5Zx6ireZTLqSLbM/rs:fit/g:sm/q:90/h:450/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NzA3/MzAtMTU4Njc3ODgw/MC03OTQxLmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/9SrH5a6TJPaJ2Dt115pXt998YF7BWqJj7tFt3Q54Dlg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NzA3/MzAtMTU4Njc3ODgw/MC03OTQxLmpwZWc.jpeg",
+      "width": 600,
+      "height": 450
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/mAx-enzPdyb2mDCZ7J8N8eo_DQUBupRVRJHttReIaFY/rs:fit/g:sm/q:90/h:450/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NzA3/MzAtMTU4Njc3ODgw/MC00MzM0LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/mAx-enzPdyb2mDCZ7J8N8eo_DQUBupRVRJHttReIaFY/rs:fit/g:sm/q:90/h:450/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NzA3/MzAtMTU4Njc3ODgw/MC00MzM0LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/tro5V-tFotwWio79MP9zQgHWn5IrrD9WG1h5BDQAlic/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NzA3/MzAtMTU4Njc3ODgw/MC00MzM0LmpwZWc.jpeg",
+      "width": 600,
+      "height": 450
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/tvI4kF4L7yzMHQorSA_-T42kr2k8N2QBkqORtCN-gao/rs:fit/g:sm/q:90/h:566/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NzA3/MzAtMTU4Njc3ODgx/Ny0zNDMxLmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/tvI4kF4L7yzMHQorSA_-T42kr2k8N2QBkqORtCN-gao/rs:fit/g:sm/q:90/h:566/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NzA3/MzAtMTU4Njc3ODgx/Ny0zNDMxLmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/vQvSYCCn_jHE0cgmvco2Qp8-uOeZG8nHHFeTf0lJQQg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NzA3/MzAtMTU4Njc3ODgx/Ny0zNDMxLmpwZWc.jpeg",
+      "width": 600,
+      "height": 566
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/66KYqs2Y9sHtWb_Y8yS1K-_IkX52Yi4PEC0kAdoDHUs/rs:fit/g:sm/q:90/h:315/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NzA3/MzAtMTU4Njc3ODgx/Ny00NDc2LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/66KYqs2Y9sHtWb_Y8yS1K-_IkX52Yi4PEC0kAdoDHUs/rs:fit/g:sm/q:90/h:315/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NzA3/MzAtMTU4Njc3ODgx/Ny00NDc2LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/lx0naiWA1g62CJOfbEHAsvyvlxeEXgjSUtGsYMKZllM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NzA3/MzAtMTU4Njc3ODgx/Ny00NDc2LmpwZWc.jpeg",
+      "width": 600,
+      "height": 315
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/mttytdIKdiNyb2fPw6as_t26dn9QLBjQ15MQju6el8I/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NzA3/MzAtMTU4Njc3ODg1/MS02MDA5LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/mttytdIKdiNyb2fPw6as_t26dn9QLBjQ15MQju6el8I/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NzA3/MzAtMTU4Njc3ODg1/MS02MDA5LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/JFxLkFAVlf21CxbeaEtDH9ylYAC-_mIX1fF21RdxH_E/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NzA3/MzAtMTU4Njc3ODg1/MS02MDA5LmpwZWc.jpeg",
+      "width": 600,
+      "height": 596
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/Q8Vl7CeQZHwxlidogak5RQa_jVhNn_AX99P-KTI7WX8/rs:fit/g:sm/q:90/h:581/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NzA3/MzAtMTU4Njc3ODg1/Mi04MTk0LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/Q8Vl7CeQZHwxlidogak5RQa_jVhNn_AX99P-KTI7WX8/rs:fit/g:sm/q:90/h:581/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NzA3/MzAtMTU4Njc3ODg1/Mi04MTk0LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/TaB7pQc-GfWebGz_Ks2wSWVxG9DI57F2GkxB19_pXh8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NzA3/MzAtMTU4Njc3ODg1/Mi04MTk0LmpwZWc.jpeg",
+      "width": 600,
+      "height": 581
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/8g_hhPeenF05Z_ezZI6aThI_AjJBvX57eYBwijBeirc/rs:fit/g:sm/q:90/h:600/w:596/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NzA3/MzAtMTU4Njc3ODg1/Mi02MTg3LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/8g_hhPeenF05Z_ezZI6aThI_AjJBvX57eYBwijBeirc/rs:fit/g:sm/q:90/h:600/w:596/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NzA3/MzAtMTU4Njc3ODg1/Mi02MTg3LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/bHPKuW6pc2w51BPF36f89BzzTcMxyoeHsR5_ormPrRA/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NzA3/MzAtMTU4Njc3ODg1/Mi02MTg3LmpwZWc.jpeg",
+      "width": 596,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/v7LzqhYvee4f69PwnYBCpM9qEotLn4ZvNYZz-tnnfY8/rs:fit/g:sm/q:90/h:556/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NzA3/MzAtMTU4Njc3ODg1/Mi0xMjgxLmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/v7LzqhYvee4f69PwnYBCpM9qEotLn4ZvNYZz-tnnfY8/rs:fit/g:sm/q:90/h:556/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NzA3/MzAtMTU4Njc3ODg1/Mi0xMjgxLmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/bGEn8qX-Hw19wbjH7ulmAlXFtjZGcvifUEGJK5TTvlo/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NzA3/MzAtMTU4Njc3ODg1/Mi0xMjgxLmpwZWc.jpeg",
+      "width": 600,
+      "height": 556
+    }
+  ],
+  "thumb": "https://i.discogs.com/BA7JelFOKuhSvPovAwbHZ2Yhj_ydxugBHJEQj1Zf8fM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NzA3/MzAtMTYyMTUzODEy/My05NTQ4LmpwZWc.jpeg",
+  "estimated_weight": 230,
+  "blocked_from_sale": false,
+  "is_offensive": false
+}

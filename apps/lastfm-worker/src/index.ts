@@ -1,13 +1,18 @@
 import { Worker } from 'bullmq';
 import { Redis as IORedis } from 'ioredis';
 
+import { QUEUES } from '@ymh8/queues';
+
+import escapeForTelegram from './utils/escape-for-telegram.js';
 import processJob from './process-job.js';
+import postToTelegram from './telegram.js';
+
 const connection = new IORedis({ maxRetriesPerRequest: null });
 
 console.log('hello from worker');
 
 const worker = new Worker(
-  'LastfmQueue',
+  QUEUES.LASTFM,
   async (job) => {
     return await processJob(job);
   },
@@ -20,6 +25,10 @@ const worker = new Worker(
   },
 );
 
-worker.on('error', (reason) => {
-  console.error(reason);
+worker.on('failed', (job) => {
+  const message = escapeForTelegram(
+    'Discogs worker - ' + job?.stacktrace.join('\n'),
+  );
+  console.error(job?.stacktrace);
+  postToTelegram(message).catch((error) => console.error(error));
 });

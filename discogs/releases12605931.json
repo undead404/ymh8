@@ -1,0 +1,256 @@
+{
+  "id": 12605931,
+  "status": "Accepted",
+  "year": 1978,
+  "resource_url": "https://api.discogs.com/releases/12605931",
+  "uri": "https://www.discogs.com/release/12605931-Black-Sabbath-Never-Say-Die",
+  "artists": [
+    {
+      "name": "Black Sabbath",
+      "anv": "",
+      "join": "",
+      "role": "",
+      "tracks": "",
+      "id": 144998,
+      "resource_url": "https://api.discogs.com/artists/144998",
+      "thumbnail_url": "https://i.discogs.com/Cmw5vVHa8YTjAizq1xI_KZia-ZmgGZJa0hOd8tTl37w/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE0NDk5/OC0xNTg0OTkyNjIz/LTU2NjAuanBlZw.jpeg"
+    }
+  ],
+  "artists_sort": "Black Sabbath",
+  "labels": [
+    {
+      "name": "vertigo",
+      "catno": "7131 002",
+      "entity_type": "1",
+      "entity_type_name": "Label",
+      "id": 2266,
+      "resource_url": "https://api.discogs.com/labels/2266",
+      "thumbnail_url": "https://i.discogs.com/IXD4UNEl2ua_UhW-rwh3CbuGDQdNcF36aczeSH3P3f8/rs:fit/g:sm/q:90/h:600/w:493/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTIyNjYt/MTU4MjM3NjUxMy03/NDQzLnBuZw.jpeg"
+    }
+  ],
+  "series": [],
+  "companies": [],
+  "formats": [
+    {
+      "name": "Cassette",
+      "qty": "1",
+      "descriptions": ["Album"]
+    }
+  ],
+  "data_quality": "Needs Vote",
+  "community": {
+    "have": 6,
+    "want": 81,
+    "rating": {
+      "count": 1,
+      "average": 5
+    },
+    "submitter": {
+      "username": "Vinyle07",
+      "resource_url": "https://api.discogs.com/users/Vinyle07"
+    },
+    "contributors": [
+      {
+        "username": "Vinyle07",
+        "resource_url": "https://api.discogs.com/users/Vinyle07"
+      },
+      {
+        "username": "bungabunga",
+        "resource_url": "https://api.discogs.com/users/bungabunga"
+      },
+      {
+        "username": "LeDji",
+        "resource_url": "https://api.discogs.com/users/LeDji"
+      },
+      {
+        "username": "pradesrecords",
+        "resource_url": "https://api.discogs.com/users/pradesrecords"
+      },
+      {
+        "username": "CykoMF",
+        "resource_url": "https://api.discogs.com/users/CykoMF"
+      },
+      {
+        "username": "FPL",
+        "resource_url": "https://api.discogs.com/users/FPL"
+      }
+    ],
+    "data_quality": "Needs Vote",
+    "status": "Accepted"
+  },
+  "format_quantity": 1,
+  "date_added": "2018-10-02T02:28:23-07:00",
+  "date_changed": "2023-09-24T06:00:38-07:00",
+  "num_for_sale": 0,
+  "lowest_price": null,
+  "master_id": 5527,
+  "master_url": "https://api.discogs.com/masters/5527",
+  "title": "Never Say Die",
+  "country": "France",
+  "released": "1978",
+  "notes": "black",
+  "released_formatted": "1978",
+  "identifiers": [],
+  "videos": [
+    {
+      "uri": "https://www.youtube.com/watch?v=9oJ05XC9JG4",
+      "title": "BLACK SABBATH - Never Say Die! (FULL ALBUM)",
+      "description": "℗ & © 1970 Warner Bros. Records Inc. All Rights Reserved 1887\n\n #BlackSabbath #Album #NeverSayDie ! #JOHNNYBLADE\n\nBlack Sabbath's 'Never Say Die!' Album\nReleased 1978\n\nNever Say Die! is the eighth studio album by English Metal band Black Sabbath, released",
+      "duration": 0,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=y1qDr2FBsoE",
+      "title": "Never Say Die! - Black Sabbath (Full Album Vinyl Rip) 1978",
+      "description": "Side One:\n1. Never Say Die\n2. Johnny Blade\n3. Junior's Eyes \n4. A Hard Road\nSide Two\n5. Shock Wave\n6. Air Dance\n7. Over to You\n8. Breakout\n9. Swinging the Chain\n\nhttps://www.discogs.com/release/21667741-Black-Sabbath-Never-Say-Die",
+      "duration": 0,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=-6Xq0eb8TbU",
+      "title": "Black Sabbath - Never Say Die! (1978)",
+      "description": "",
+      "duration": 0,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=KJRXypUMD_w",
+      "title": "Black Sabbath  Never Say Die!  Full Album",
+      "description": "00:00 \"Never Say Die\" 03:49\n \"Johnny Blade  10:18\n Junior's Eyes\"17:00 \n\"A Hard Road\"23:03 \n\"Shock Wave\"28:19\n\"Air Dance\"33:36\n\"Over to You\"39:00\n\"Breakout\"41:38\n\"Swinging the Chain\"\n\nIf you like what you're hearing please support the artist, buy the albu",
+      "duration": 0,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=-qak0qnEfLk",
+      "title": "Black Sabbath - (Never Say Die) - Full Album 1979",
+      "description": "",
+      "duration": 0,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=4p5WUYDPV-o",
+      "title": "BLACK SABBATH - Never Say Die! (FULL ALBUM)",
+      "description": "#BlackSabbath #Album #NeverSayDie ! #JOHNNYBLADE\n℗ & © 1970 Warner Bros. Records Inc. All Rights Reserved 1887\n\n #BlackSabbath #Album #NeverSayDie ! #JOHNNYBLADE\n\nBlack Sabbath's 'Never Say Die!' Album\nReleased 1978\n\nNever Say Die! is the eighth studio al",
+      "duration": 0,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=Suvy-elqA1k",
+      "title": "Black Sabbath - Never Say Die! (full album) 1978",
+      "description": "1. Never Say Die 00:00\n2. Johnny Blade 03:48\n3. Junior's Eyes  10:16\n4. A Hard Road 17:00\n5. Shock Wave 22:54\n6. Air Dance 28:07\n7. Over to You 33:22\n8. Breakout 38:39   instrumental\n9. Swinging the Chain  41:13",
+      "duration": 0,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=UaKrwluYg4w",
+      "title": "1978 - BLACK SABBATH - Never Say Die!  (Full Album)",
+      "description": "",
+      "duration": 0,
+      "embed": true
+    }
+  ],
+  "genres": ["Rock"],
+  "styles": ["Classic Rock", "Hard Rock"],
+  "tracklist": [
+    {
+      "position": "A1",
+      "type_": "track",
+      "title": "\tNever Say Die",
+      "duration": "3:47"
+    },
+    {
+      "position": "A2",
+      "type_": "track",
+      "title": "\tJohnny Blade",
+      "duration": "6:27"
+    },
+    {
+      "position": "A3",
+      "type_": "track",
+      "title": "\tJunior's Eyes",
+      "duration": "6:47"
+    },
+    {
+      "position": "A4",
+      "type_": "track",
+      "title": "\tA Hard Road",
+      "duration": "6:03"
+    },
+    {
+      "position": "B1",
+      "type_": "track",
+      "title": "\tShock Wave",
+      "duration": "5:13"
+    },
+    {
+      "position": "B2",
+      "type_": "track",
+      "title": "\tAir Dance",
+      "duration": "5:15"
+    },
+    {
+      "position": "B3",
+      "type_": "track",
+      "title": "\tOver To You",
+      "duration": "5:21"
+    },
+    {
+      "position": "B4",
+      "type_": "track",
+      "title": "\tBreakout",
+      "duration": "2:36"
+    },
+    {
+      "position": "B5",
+      "type_": "track",
+      "title": "\tSwinging The Chain",
+      "duration": "4:18"
+    }
+  ],
+  "images": [
+    {
+      "type": "primary",
+      "uri": "https://i.discogs.com/jaFVp65wveSVkJpJN--zOLO40aGkkkqAZ2wQcxulRBY/rs:fit/g:sm/q:90/h:593/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNjA1/OTMxLTE2OTU1NjA0/MjctMTcyNi5qcGVn.jpeg",
+      "resource_url": "https://i.discogs.com/jaFVp65wveSVkJpJN--zOLO40aGkkkqAZ2wQcxulRBY/rs:fit/g:sm/q:90/h:593/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNjA1/OTMxLTE2OTU1NjA0/MjctMTcyNi5qcGVn.jpeg",
+      "uri150": "https://i.discogs.com/ZmuiVFoKjumEwAKloCI2C2U4PrsL6hdwALPkKWEk6ls/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNjA1/OTMxLTE2OTU1NjA0/MjctMTcyNi5qcGVn.jpeg",
+      "width": 600,
+      "height": 593
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/gj-KX8mV5ZAFsY5cVJh10e1tRW0wbQnnfpmk-5EwK7w/rs:fit/g:sm/q:90/h:600/w:404/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNjA1/OTMxLTE2OTU1NjA0/MjctODc4OS5qcGVn.jpeg",
+      "resource_url": "https://i.discogs.com/gj-KX8mV5ZAFsY5cVJh10e1tRW0wbQnnfpmk-5EwK7w/rs:fit/g:sm/q:90/h:600/w:404/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNjA1/OTMxLTE2OTU1NjA0/MjctODc4OS5qcGVn.jpeg",
+      "uri150": "https://i.discogs.com/Z2tD6ChTsPsyhS-LRrXhgpYf2hAulUQjktsUABW8ukY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNjA1/OTMxLTE2OTU1NjA0/MjctODc4OS5qcGVn.jpeg",
+      "width": 404,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/XrC1wxDo0pPoWHHrTYrmdyrJMio0vULhVKWnd2eLzHw/rs:fit/g:sm/q:90/h:348/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNjA1/OTMxLTE2OTU1NjA0/MjctMTU5NS5qcGVn.jpeg",
+      "resource_url": "https://i.discogs.com/XrC1wxDo0pPoWHHrTYrmdyrJMio0vULhVKWnd2eLzHw/rs:fit/g:sm/q:90/h:348/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNjA1/OTMxLTE2OTU1NjA0/MjctMTU5NS5qcGVn.jpeg",
+      "uri150": "https://i.discogs.com/usagVz0DHHpH1GhO6x2PukzZmXqGgghdtitv0IBIMtY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNjA1/OTMxLTE2OTU1NjA0/MjctMTU5NS5qcGVn.jpeg",
+      "width": 600,
+      "height": 348
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/j6TbHwkyvgfTTkqPiff4m_9mrSLVy3y--UEjFa646tk/rs:fit/g:sm/q:90/h:391/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNjA1/OTMxLTE2OTU1NjA0/MjctNzE4MS5qcGVn.jpeg",
+      "resource_url": "https://i.discogs.com/j6TbHwkyvgfTTkqPiff4m_9mrSLVy3y--UEjFa646tk/rs:fit/g:sm/q:90/h:391/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNjA1/OTMxLTE2OTU1NjA0/MjctNzE4MS5qcGVn.jpeg",
+      "uri150": "https://i.discogs.com/DspcSQHH0Y194Xxoz2wLMKmGs2B1OtxeXB5YVEGw-v4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNjA1/OTMxLTE2OTU1NjA0/MjctNzE4MS5qcGVn.jpeg",
+      "width": 600,
+      "height": 391
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/V4uTd9yVtnt4x7dJ9TDhXQ6IpBerFY52JXkJn3at14E/rs:fit/g:sm/q:90/h:393/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNjA1/OTMxLTE2OTU1NjA0/MjctNTczMS5qcGVn.jpeg",
+      "resource_url": "https://i.discogs.com/V4uTd9yVtnt4x7dJ9TDhXQ6IpBerFY52JXkJn3at14E/rs:fit/g:sm/q:90/h:393/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNjA1/OTMxLTE2OTU1NjA0/MjctNTczMS5qcGVn.jpeg",
+      "uri150": "https://i.discogs.com/taQYIk59UYcIBEg4EMGlOihAE2CnVsI5tCUvZKLB9hU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNjA1/OTMxLTE2OTU1NjA0/MjctNTczMS5qcGVn.jpeg",
+      "width": 600,
+      "height": 393
+    }
+  ],
+  "thumb": "https://i.discogs.com/ZmuiVFoKjumEwAKloCI2C2U4PrsL6hdwALPkKWEk6ls/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNjA1/OTMxLTE2OTU1NjA0/MjctMTcyNi5qcGVn.jpeg",
+  "estimated_weight": 65,
+  "blocked_from_sale": false,
+  "is_offensive": false
+}

@@ -1,0 +1,344 @@
+{
+  "id": 3639202,
+  "status": "Accepted",
+  "year": 2012,
+  "resource_url": "https://api.discogs.com/releases/3639202",
+  "uri": "https://www.discogs.com/release/3639202-Witch-Mountain-Cauldron-Of-The-Wild",
+  "artists": [
+    {
+      "name": "Witch Mountain",
+      "anv": "",
+      "join": "",
+      "role": "",
+      "tracks": "",
+      "id": 1751456,
+      "resource_url": "https://api.discogs.com/artists/1751456",
+      "thumbnail_url": "https://i.discogs.com/jw5P5pj0VLQpkmG8E3O1j4IPDG2TCCH61F1DlxKqb3A/rs:fit/g:sm/q:90/h:157/w:240/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE3NTE0/NTYtMTM0MzgyMTcy/NC0xMDE3LnBuZw.jpeg"
+    }
+  ],
+  "artists_sort": "Witch Mountain",
+  "labels": [
+    {
+      "name": "Profound Lore Records",
+      "catno": "PFL 098",
+      "entity_type": "1",
+      "entity_type_name": "Label",
+      "id": 43646,
+      "resource_url": "https://api.discogs.com/labels/43646",
+      "thumbnail_url": "https://i.discogs.com/JT1sds81xGjS9o7I9wU1Pp69TQiE9U4p0FDaTa-MAIY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTQzNjQ2/LTE0ODk2OTA2Njgt/ODQyMC5qcGVn.jpeg"
+    }
+  ],
+  "series": [],
+  "companies": [],
+  "formats": [
+    {
+      "name": "CD",
+      "qty": "1",
+      "descriptions": ["Album"],
+      "text": "Digipak"
+    }
+  ],
+  "data_quality": "Correct",
+  "community": {
+    "have": 240,
+    "want": 43,
+    "rating": {
+      "count": 20,
+      "average": 4.15
+    },
+    "submitter": {
+      "username": "Amplifier_Worshipper",
+      "resource_url": "https://api.discogs.com/users/Amplifier_Worshipper"
+    },
+    "contributors": [
+      {
+        "username": "Amplifier_Worshipper",
+        "resource_url": "https://api.discogs.com/users/Amplifier_Worshipper"
+      },
+      {
+        "username": "Wegi",
+        "resource_url": "https://api.discogs.com/users/Wegi"
+      },
+      {
+        "username": "Vortexsurfer75",
+        "resource_url": "https://api.discogs.com/users/Vortexsurfer75"
+      },
+      {
+        "username": "Vinterskinn",
+        "resource_url": "https://api.discogs.com/users/Vinterskinn"
+      },
+      {
+        "username": "MottersMusikSammlung",
+        "resource_url": "https://api.discogs.com/users/MottersMusikSammlung"
+      }
+    ],
+    "data_quality": "Correct",
+    "status": "Accepted"
+  },
+  "format_quantity": 1,
+  "date_added": "2012-05-30T14:26:35-07:00",
+  "date_changed": "2025-08-15T12:43:38-07:00",
+  "num_for_sale": 6,
+  "lowest_price": 10.82,
+  "master_id": 505238,
+  "master_url": "https://api.discogs.com/masters/505238",
+  "title": "Cauldron Of The Wild",
+  "country": "Canada",
+  "released": "2012-06-18",
+  "notes": "Produced and engineered at Audible Alchemy Studios.\r\n",
+  "released_formatted": "18 Jun 2012",
+  "identifiers": [
+    {
+      "type": "Barcode",
+      "value": "616892050148"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": ">PFL098 S2412D 01"
+    },
+    {
+      "type": "Mastering SID Code",
+      "value": "IFPI LL29"
+    },
+    {
+      "type": "Mould SID Code",
+      "value": "IFPI 9221"
+    }
+  ],
+  "videos": [
+    {
+      "uri": "https://www.youtube.com/watch?v=8ko4YwjB2wY",
+      "title": "Witch Mountain - Shelter",
+      "description": null,
+      "duration": 446,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=i32nr3ocBk8",
+      "title": "Witch Mountain - Veil Of The Forgotten",
+      "description": null,
+      "duration": 329,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=f9Q3aQc2lD8",
+      "title": "Witch Mountain - Never Know",
+      "description": null,
+      "duration": 563,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=luBFS6uHL04",
+      "title": "Witch Mountain - Aurelia",
+      "description": null,
+      "duration": 716,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=_4vaKsdvUsw",
+      "title": "WITCH MOUNTAIN - Beekeeper (2012)",
+      "description": null,
+      "duration": 331,
+      "embed": true
+    }
+  ],
+  "genres": ["Rock", "Blues"],
+  "styles": ["Doom Metal"],
+  "tracklist": [
+    {
+      "position": "1",
+      "type_": "track",
+      "title": "The Ballad Of Lanky Rae",
+      "duration": "5:47"
+    },
+    {
+      "position": "2",
+      "type_": "track",
+      "title": "Beekeeper",
+      "duration": "5:30"
+    },
+    {
+      "position": "3",
+      "type_": "track",
+      "title": "Shelter",
+      "duration": "7:26"
+    },
+    {
+      "position": "4",
+      "type_": "track",
+      "title": "Veil Of The Forgotten",
+      "duration": "5:29"
+    },
+    {
+      "position": "5",
+      "type_": "track",
+      "title": "Aurelia",
+      "duration": "11:49"
+    },
+    {
+      "position": "6",
+      "type_": "track",
+      "title": "Never Know",
+      "duration": "9:22"
+    }
+  ],
+  "extraartists": [
+    {
+      "name": "Jason Lewis",
+      "anv": "",
+      "join": "",
+      "role": "Artwork By [Cover Color]",
+      "tracks": "",
+      "id": 0,
+      "resource_url": ""
+    },
+    {
+      "name": "Sam Ford",
+      "anv": "",
+      "join": "",
+      "role": "Artwork By [Cover Illustration]",
+      "tracks": "",
+      "id": 0,
+      "resource_url": ""
+    },
+    {
+      "name": "Mark McCormick",
+      "anv": "",
+      "join": "",
+      "role": "Layout",
+      "tracks": "",
+      "id": 244143,
+      "resource_url": "https://api.discogs.com/artists/244143"
+    },
+    {
+      "name": "Uta Plotkin",
+      "anv": "",
+      "join": "",
+      "role": "Lyrics By",
+      "tracks": "",
+      "id": 2257060,
+      "resource_url": "https://api.discogs.com/artists/2257060"
+    },
+    {
+      "name": "Mell Dettmer",
+      "anv": "",
+      "join": "",
+      "role": "Mastered By",
+      "tracks": "",
+      "id": 404534,
+      "resource_url": "https://api.discogs.com/artists/404534"
+    },
+    {
+      "name": "Justine Murphy",
+      "anv": "",
+      "join": "",
+      "role": "Photography By",
+      "tracks": "",
+      "id": 2774175,
+      "resource_url": "https://api.discogs.com/artists/2774175"
+    },
+    {
+      "name": "Billy Anderson",
+      "anv": "",
+      "join": "",
+      "role": "Producer, Engineer",
+      "tracks": "",
+      "id": 252355,
+      "resource_url": "https://api.discogs.com/artists/252355"
+    }
+  ],
+  "images": [
+    {
+      "type": "primary",
+      "uri": "https://i.discogs.com/Ze05gXGP92O1wZVWAy9cQ2_l6c7rXG4HMtoqK-_Dq7s/rs:fit/g:sm/q:90/h:500/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2Mzky/MDItMTMzODQxMjg4/Mi0yMTU0LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/Ze05gXGP92O1wZVWAy9cQ2_l6c7rXG4HMtoqK-_Dq7s/rs:fit/g:sm/q:90/h:500/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2Mzky/MDItMTMzODQxMjg4/Mi0yMTU0LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/HS1Yrhul4ua8lAfeSp2KaxVemzNGlJyeKzTYOtObdpQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2Mzky/MDItMTMzODQxMjg4/Mi0yMTU0LmpwZWc.jpeg",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/2ZLirBwajEFQoDOc5_xO3SCa2jTNd3nGa6-Iey2Exck/rs:fit/g:sm/q:90/h:600/w:598/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2Mzky/MDItMTYxMjkwODgz/MC02MjM3LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/2ZLirBwajEFQoDOc5_xO3SCa2jTNd3nGa6-Iey2Exck/rs:fit/g:sm/q:90/h:600/w:598/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2Mzky/MDItMTYxMjkwODgz/MC02MjM3LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/AEr3qEZ0ToVQed2IGhfYeU6YIfa759UAMnHV4e9t00c/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2Mzky/MDItMTYxMjkwODgz/MC02MjM3LmpwZWc.jpeg",
+      "width": 598,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/7cHDnwiJSEt5o5eC-R-uCHLCkoPtKqm3pN2A384jNxA/rs:fit/g:sm/q:90/h:594/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2Mzky/MDItMTYxMjkwODgz/OC04MjY1LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/7cHDnwiJSEt5o5eC-R-uCHLCkoPtKqm3pN2A384jNxA/rs:fit/g:sm/q:90/h:594/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2Mzky/MDItMTYxMjkwODgz/OC04MjY1LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/fN3zGwsAqge2TI0k2t6lQ1pSWfnyUCMpREQRnVkYf8A/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2Mzky/MDItMTYxMjkwODgz/OC04MjY1LmpwZWc.jpeg",
+      "width": 600,
+      "height": 594
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/nx-V3y4QvacCoo1ozChGbbWIcRRBxoGP5Kfs-jrqa7g/rs:fit/g:sm/q:90/h:593/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2Mzky/MDItMTYxMjkwODg0/NC01NDYwLmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/nx-V3y4QvacCoo1ozChGbbWIcRRBxoGP5Kfs-jrqa7g/rs:fit/g:sm/q:90/h:593/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2Mzky/MDItMTYxMjkwODg0/NC01NDYwLmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/4YhxrU9RflljH1TPmYiI_XDICVGhBrLWb9sMPoM1aeU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2Mzky/MDItMTYxMjkwODg0/NC01NDYwLmpwZWc.jpeg",
+      "width": 600,
+      "height": 593
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/eIdcz4B6hOwHL-bJXPYRyNKf8DjR1pmKZJ1vXRsn7w4/rs:fit/g:sm/q:90/h:594/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2Mzky/MDItMTYxMjkwODgz/Ni00NTQ4LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/eIdcz4B6hOwHL-bJXPYRyNKf8DjR1pmKZJ1vXRsn7w4/rs:fit/g:sm/q:90/h:594/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2Mzky/MDItMTYxMjkwODgz/Ni00NTQ4LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/FJ9aweFs9-r3SO4lnLZNMh9U-EgWO5Fn7XQm1lu36cw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2Mzky/MDItMTYxMjkwODgz/Ni00NTQ4LmpwZWc.jpeg",
+      "width": 600,
+      "height": 594
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/0FqR4KMClgDSjATScSj9GpDbYQkIT9uX4pATelnWLU0/rs:fit/g:sm/q:90/h:591/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2Mzky/MDItMTYxMjkwODg0/Ni0xMDQ4LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/0FqR4KMClgDSjATScSj9GpDbYQkIT9uX4pATelnWLU0/rs:fit/g:sm/q:90/h:591/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2Mzky/MDItMTYxMjkwODg0/Ni0xMDQ4LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/wwTdc3O0o1G8qL5gApo3Xk_IzjVgglX0DTB0PCO42bU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2Mzky/MDItMTYxMjkwODg0/Ni0xMDQ4LmpwZWc.jpeg",
+      "width": 600,
+      "height": 591
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/v9ZjW5cmQU3SA0asgaKT6m3h-JZ3XgUKvWR-b-o4SWw/rs:fit/g:sm/q:90/h:587/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2Mzky/MDItMTYxMjkwODg0/NC03OTI4LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/v9ZjW5cmQU3SA0asgaKT6m3h-JZ3XgUKvWR-b-o4SWw/rs:fit/g:sm/q:90/h:587/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2Mzky/MDItMTYxMjkwODg0/NC03OTI4LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/ueF00lFqn3nb-Pd1Tl8VYyCLa89VnDfhOB-kW3i6YLY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2Mzky/MDItMTYxMjkwODg0/NC03OTI4LmpwZWc.jpeg",
+      "width": 600,
+      "height": 587
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/MLtWKIH-Oqfk0u4hepqQ0zPMb7-uXaEGmHN7TGIcMBY/rs:fit/g:sm/q:90/h:589/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2Mzky/MDItMTYxMjkwODg0/NC0yMTA2LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/MLtWKIH-Oqfk0u4hepqQ0zPMb7-uXaEGmHN7TGIcMBY/rs:fit/g:sm/q:90/h:589/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2Mzky/MDItMTYxMjkwODg0/NC0yMTA2LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/mIMukoIEIHX7zdzpT9otUl-O_3tLOBwjuBFIDn332Ro/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2Mzky/MDItMTYxMjkwODg0/NC0yMTA2LmpwZWc.jpeg",
+      "width": 600,
+      "height": 589
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/bbQcDwZtixDTMjLffZUpL_IsVWdgFhDVpmARoQJptl8/rs:fit/g:sm/q:90/h:588/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2Mzky/MDItMTYxMjkwODg0/MC01MTQxLmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/bbQcDwZtixDTMjLffZUpL_IsVWdgFhDVpmARoQJptl8/rs:fit/g:sm/q:90/h:588/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2Mzky/MDItMTYxMjkwODg0/MC01MTQxLmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/o2vYsmVwldx9BttG0AKRBYF6eZ-hGDo7SWn4vJbKRMQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2Mzky/MDItMTYxMjkwODg0/MC01MTQxLmpwZWc.jpeg",
+      "width": 600,
+      "height": 588
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/YFgayyAMiWtpi10pPlxWxqGGIxbgV4RyhaOlmdzSBII/rs:fit/g:sm/q:90/h:592/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2Mzky/MDItMTYxMjkwODg0/My05Mzg4LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/YFgayyAMiWtpi10pPlxWxqGGIxbgV4RyhaOlmdzSBII/rs:fit/g:sm/q:90/h:592/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2Mzky/MDItMTYxMjkwODg0/My05Mzg4LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/0eA7UgG23IMLdqG3cooZqQmKypyO35TxZ5qMdTiBXbY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2Mzky/MDItMTYxMjkwODg0/My05Mzg4LmpwZWc.jpeg",
+      "width": 600,
+      "height": 592
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/Ear6iSMGyfx9f4OKPHv46S1dPNDNkKREAN9jE4e-18o/rs:fit/g:sm/q:90/h:533/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2Mzky/MDItMTc1NTI4NzAw/OC04MTkwLmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/Ear6iSMGyfx9f4OKPHv46S1dPNDNkKREAN9jE4e-18o/rs:fit/g:sm/q:90/h:533/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2Mzky/MDItMTc1NTI4NzAw/OC04MTkwLmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/EfrxQBJetisodEdKRJhN8diTF7onEmbZYJCHSXiXMII/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2Mzky/MDItMTc1NTI4NzAw/OC04MTkwLmpwZWc.jpeg",
+      "width": 600,
+      "height": 533
+    }
+  ],
+  "thumb": "https://i.discogs.com/HS1Yrhul4ua8lAfeSp2KaxVemzNGlJyeKzTYOtObdpQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2Mzky/MDItMTMzODQxMjg4/Mi0yMTU0LmpwZWc.jpeg",
+  "estimated_weight": 85,
+  "blocked_from_sale": false,
+  "is_offensive": false
+}

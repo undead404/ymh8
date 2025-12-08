@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "bullmq": "~5.65.1",
+    "ioredis": "~5.8.2"
+  },
+  "devDependencies": {
+    "typescript": "~5.9.3"
+  },
+  "main": "dist/index.js",
+  "name": "@ymh8/queues",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "tsc -b",
+    "dev": "tsc -b --watch"
+  }
+}

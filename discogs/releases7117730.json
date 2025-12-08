@@ -1,0 +1,130 @@
+{
+  "id": 7117730,
+  "status": "Draft",
+  "year": 1984,
+  "resource_url": "https://api.discogs.com/releases/7117730",
+  "uri": "https://www.discogs.com/release/7117730-Cirith-Ungol-King-Of-The-Dead",
+  "artists": [
+    {
+      "name": "Cirith Ungol",
+      "anv": "",
+      "join": "",
+      "role": "",
+      "tracks": "",
+      "id": 313929,
+      "resource_url": "https://api.discogs.com/artists/313929",
+      "thumbnail_url": "https://i.discogs.com/Nhjn3cTrEwamL21F4Jf2hL5c7wScqRjZgUskwbskQ0A/rs:fit/g:sm/q:90/h:440/w:561/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTMxMzky/OS0xNjk2NTI5MzMz/LTM0MzEucG5n.jpeg"
+    }
+  ],
+  "artists_sort": "Cirith Ungol",
+  "labels": [
+    {
+      "name": "Enigma Records (3)",
+      "catno": "E 1089",
+      "entity_type": "1",
+      "entity_type_name": "Label",
+      "id": 755,
+      "resource_url": "https://api.discogs.com/labels/755",
+      "thumbnail_url": "https://i.discogs.com/ef8yNpM0eddhP_R9RDbb8GC_JaEA21efYFf0WqBDPrM/rs:fit/g:sm/q:90/h:204/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTc1NS0x/NzQ1NTA1ODIyLTc4/NzQuanBlZw.jpeg"
+    }
+  ],
+  "series": [],
+  "companies": [],
+  "formats": [
+    {
+      "name": "Vinyl",
+      "qty": "1",
+      "descriptions": ["LP", "Album"]
+    }
+  ],
+  "data_quality": "Correct",
+  "community": {
+    "have": 0,
+    "want": 0,
+    "rating": {
+      "count": 0,
+      "average": 0
+    },
+    "submitter": {
+      "username": "The_Millennium_King",
+      "resource_url": "https://api.discogs.com/users/The_Millennium_King"
+    },
+    "contributors": [
+      {
+        "username": "The_Millennium_King",
+        "resource_url": "https://api.discogs.com/users/The_Millennium_King"
+      }
+    ],
+    "data_quality": "Correct",
+    "status": "Draft"
+  },
+  "format_quantity": 1,
+  "date_added": "2015-06-12T05:28:03-07:00",
+  "date_changed": "2015-06-12T05:28:03-07:00",
+  "num_for_sale": 0,
+  "lowest_price": null,
+  "title": "King Of The Dead",
+  "country": "US",
+  "released": "1984",
+  "notes": "Comes with lyric/photo sheet.",
+  "released_formatted": "1984",
+  "identifiers": [],
+  "videos": [],
+  "genres": ["Rock"],
+  "styles": ["Heavy Metal"],
+  "tracklist": [
+    {
+      "position": "A1",
+      "type_": "track",
+      "title": "Atom Smasher",
+      "duration": "4:11"
+    },
+    {
+      "position": "A2",
+      "type_": "track",
+      "title": "Black Machine",
+      "duration": "4:15"
+    },
+    {
+      "position": "A3",
+      "type_": "track",
+      "title": "Master Of The Pit",
+      "duration": "7:08"
+    },
+    {
+      "position": "A4",
+      "type_": "track",
+      "title": "King Of The Dead",
+      "duration": "6:48"
+    },
+    {
+      "position": "B1",
+      "type_": "track",
+      "title": "Death Of The Sun",
+      "duration": "3:54"
+    },
+    {
+      "position": "B2",
+      "type_": "track",
+      "title": "Finger Of Scorn",
+      "duration": "8:33"
+    },
+    {
+      "position": "B3",
+      "type_": "track",
+      "title": "Toccata In Dm",
+      "duration": "4:36"
+    },
+    {
+      "position": "B4",
+      "type_": "track",
+      "title": "Cirith Ungol",
+      "duration": "6:21"
+    }
+  ],
+  "images": [],
+  "thumb": "",
+  "estimated_weight": 230,
+  "blocked_from_sale": false,
+  "is_offensive": false
+}

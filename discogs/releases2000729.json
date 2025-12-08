@@ -1,0 +1,250 @@
+{
+  "id": 2000729,
+  "status": "Accepted",
+  "year": 1993,
+  "resource_url": "https://api.discogs.com/releases/2000729",
+  "uri": "https://www.discogs.com/release/2000729-Pentagram-Relentless",
+  "artists": [
+    {
+      "name": "Pentagram",
+      "anv": "",
+      "join": "",
+      "role": "",
+      "tracks": "",
+      "id": 275370,
+      "resource_url": "https://api.discogs.com/artists/275370",
+      "thumbnail_url": "https://i.discogs.com/guQscJ3BilJw4dkahHdC1v59KZJrB9A6mcQnysnV5a8/rs:fit/g:sm/q:90/h:544/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI3NTM3/MC0xNzMwMjM3NDMz/LTk3NjcuanBlZw.jpeg"
+    }
+  ],
+  "artists_sort": "Pentagram",
+  "labels": [
+    {
+      "name": "Peaceville",
+      "catno": "CC 1",
+      "entity_type": "1",
+      "entity_type_name": "Label",
+      "id": 14465,
+      "resource_url": "https://api.discogs.com/labels/14465",
+      "thumbnail_url": "https://i.discogs.com/qra7b3VTdA3XPKopnElwzxCu4hEyM7sqZPtexYyhVBQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTE0NDY1/LTE2MDg5MDA2MTct/MjQzNi5qcGVn.jpeg"
+    }
+  ],
+  "series": [
+    {
+      "name": "Collectors Club",
+      "catno": "",
+      "entity_type": "2",
+      "entity_type_name": "Series",
+      "id": 410826,
+      "resource_url": "https://api.discogs.com/labels/410826"
+    }
+  ],
+  "companies": [
+    {
+      "name": "Peaceville",
+      "catno": "",
+      "entity_type": "13",
+      "entity_type_name": "Phonographic Copyright (p)",
+      "id": 14465,
+      "resource_url": "https://api.discogs.com/labels/14465",
+      "thumbnail_url": "https://i.discogs.com/qra7b3VTdA3XPKopnElwzxCu4hEyM7sqZPtexYyhVBQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTE0NDY1/LTE2MDg5MDA2MTct/MjQzNi5qcGVn.jpeg"
+    },
+    {
+      "name": "Vile Music (2)",
+      "catno": "",
+      "entity_type": "14",
+      "entity_type_name": "Copyright (c)",
+      "id": 272087,
+      "resource_url": "https://api.discogs.com/labels/272087"
+    },
+    {
+      "name": "Orlake Records",
+      "catno": "",
+      "entity_type": "17",
+      "entity_type_name": "Pressed By",
+      "id": 266587,
+      "resource_url": "https://api.discogs.com/labels/266587",
+      "thumbnail_url": "https://i.discogs.com/J-SJMJss0foAuxTrDROlU311GSTrZpzlRXsypCQCNUo/rs:fit/g:sm/q:90/h:164/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTI2NjU4/Ny0xNTI1NzczMTMx/LTI5MTUuanBlZw.jpeg"
+    },
+    {
+      "name": "Vile Music (2)",
+      "catno": "",
+      "entity_type": "21",
+      "entity_type_name": "Published By",
+      "id": 272087,
+      "resource_url": "https://api.discogs.com/labels/272087"
+    }
+  ],
+  "formats": [
+    {
+      "name": "Vinyl",
+      "qty": "1",
+      "descriptions": [
+        "7\"",
+        "Single",
+        "45 RPM",
+        "Limited Edition",
+        "Club Edition"
+      ],
+      "text": "White Marbled"
+    }
+  ],
+  "data_quality": "Needs Vote",
+  "community": {
+    "have": 155,
+    "want": 308,
+    "rating": {
+      "count": 17,
+      "average": 4.47
+    },
+    "submitter": {
+      "username": "timeless76",
+      "resource_url": "https://api.discogs.com/users/timeless76"
+    },
+    "contributors": [
+      {
+        "username": "timeless76",
+        "resource_url": "https://api.discogs.com/users/timeless76"
+      },
+      {
+        "username": "jh59095",
+        "resource_url": "https://api.discogs.com/users/jh59095"
+      },
+      {
+        "username": "AFigureInBlack",
+        "resource_url": "https://api.discogs.com/users/AFigureInBlack"
+      },
+      {
+        "username": "wrongdoze",
+        "resource_url": "https://api.discogs.com/users/wrongdoze"
+      }
+    ],
+    "data_quality": "Needs Vote",
+    "status": "Accepted"
+  },
+  "format_quantity": 1,
+  "date_added": "2009-11-09T07:50:18-08:00",
+  "date_changed": "2014-05-24T10:43:15-07:00",
+  "num_for_sale": 2,
+  "lowest_price": 65.78,
+  "master_id": 283516,
+  "master_url": "https://api.discogs.com/masters/283516",
+  "title": "Relentless",
+  "country": "UK",
+  "released": "1993",
+  "notes": "This 7\" is the first in the exclusive Collectors Club series.\r\n\r\nTrack A originally released in 1985 on the LP 'Pentagram' (Pentagram Records / Dutch East India Trading). Re-released May 1993 on the LP 'Relentless' (Peaceville Records).\r\nTrack B released in 1987 on the LP 'Day Of Reckoning' (Napalm / Dutch East India Trading). Re-released June 1993 on the LP 'Day Of Reckoning' (Peaceville Records).\r\n\r\nAll tracks published by Vile Music (P.R.S.) UK.\r\n\r\nPressing plant identified by the runout etchings.\r\n\r\n© Vile Music 1993 ℗ Peaceville 1992",
+  "released_formatted": "1993",
+  "identifiers": [
+    {
+      "type": "Matrix / Runout",
+      "value": "CC+1+A ORLAKE",
+      "description": "Runout Side A"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "CC+1+B ORLAKE",
+      "description": "Runout Side B"
+    },
+    {
+      "type": "Rights Society",
+      "value": "P.R.S."
+    }
+  ],
+  "videos": [
+    {
+      "uri": "https://www.youtube.com/watch?v=c6i8BFA3uEo",
+      "title": "Pentagram - Relentless [ Full Album | 1993]",
+      "description": "Follow us on https://www.instagram.com/void.sdw/\nBand: Pentagram\nAlbum: Relentless\nReleased: February 1993\n\n01. Death Row - 00:00\n02. All Your Sins - 04:14\n03. Sign of the Wolf (Pentagram) - 08:52 \n04. The Ghoul - 12:02\n05. Relentless - 17:16\n06. Run My C",
+      "duration": 0,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=IZi4bm_LS6g",
+      "title": "Pentagram - Relentless",
+      "description": "classic doom metal band from the 1980s (of course they formed in the 70's but didn't get big till the mid 80s)  This song is taken from there debut album Relentless",
+      "duration": 230,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=MZNhzhPjD2g",
+      "title": "Pentagram - Day of Reckoning - Broken Vows",
+      "description": null,
+      "duration": 279,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=c6i8BFA3uEo",
+      "title": "Pentagram - Relentless [ Full Album | 1993]",
+      "description": "Follow us on https://www.instagram.com/void.sdw/\nBand: Pentagram\nAlbum: Relentless\nReleased: February 1993\n\n01. Death Row - 00:00\n02. All Your Sins - 04:14\n03. Sign of the Wolf (Pentagram) - 08:52 \n04. The Ghoul - 12:02\n05. Relentless - 17:16\n06. Run My C",
+      "duration": 0,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=IZi4bm_LS6g",
+      "title": "Pentagram - Relentless",
+      "description": "classic doom metal band from the 1980s (of course they formed in the 70's but didn't get big till the mid 80s)  This song is taken from there debut album Relentless",
+      "duration": 230,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=MZNhzhPjD2g",
+      "title": "Pentagram - Day of Reckoning - Broken Vows",
+      "description": null,
+      "duration": 279,
+      "embed": true
+    }
+  ],
+  "genres": ["Rock"],
+  "styles": ["Doom Metal"],
+  "tracklist": [
+    {
+      "position": "A",
+      "type_": "track",
+      "title": "Relentless",
+      "duration": ""
+    },
+    {
+      "position": "B",
+      "type_": "track",
+      "title": "Day Of Reckoning",
+      "duration": ""
+    }
+  ],
+  "images": [
+    {
+      "type": "primary",
+      "uri": "https://i.discogs.com/0nQiQRw23XyJrME9PdS0gdCzO01MU3_QyGjdslKZzh0/rs:fit/g:sm/q:90/h:590/w:590/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwMDA3/MjktMTMwNDcxNjI0/Mi5qcGVn.jpeg",
+      "resource_url": "https://i.discogs.com/0nQiQRw23XyJrME9PdS0gdCzO01MU3_QyGjdslKZzh0/rs:fit/g:sm/q:90/h:590/w:590/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwMDA3/MjktMTMwNDcxNjI0/Mi5qcGVn.jpeg",
+      "uri150": "https://i.discogs.com/NkvXhWptBS7beiYAaq1kuMU6mRk0tCzYZ4LeMSfCuB0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwMDA3/MjktMTMwNDcxNjI0/Mi5qcGVn.jpeg",
+      "width": 590,
+      "height": 590
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/v8oiX1dy4yIDLhw9vS4zM-NdW6YJ5dfwOJByFO7zQW8/rs:fit/g:sm/q:90/h:597/w:597/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwMDA3/MjktMTMwNDcxNjI1/MC5qcGVn.jpeg",
+      "resource_url": "https://i.discogs.com/v8oiX1dy4yIDLhw9vS4zM-NdW6YJ5dfwOJByFO7zQW8/rs:fit/g:sm/q:90/h:597/w:597/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwMDA3/MjktMTMwNDcxNjI1/MC5qcGVn.jpeg",
+      "uri150": "https://i.discogs.com/9xXjzCQNjky1INfliPqFRnpXhpR0q5nPtoWAo411Fek/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwMDA3/MjktMTMwNDcxNjI1/MC5qcGVn.jpeg",
+      "width": 597,
+      "height": 597
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/OjrpN8tQLgYe-3e20fcS4bC_27p5jmq92aLgHyiCzSk/rs:fit/g:sm/q:90/h:592/w:592/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwMDA3/MjktMTMwNDcxNjI1/Ny5qcGVn.jpeg",
+      "resource_url": "https://i.discogs.com/OjrpN8tQLgYe-3e20fcS4bC_27p5jmq92aLgHyiCzSk/rs:fit/g:sm/q:90/h:592/w:592/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwMDA3/MjktMTMwNDcxNjI1/Ny5qcGVn.jpeg",
+      "uri150": "https://i.discogs.com/QjKdGd2uOmyl6hnA1cYk6O-DPSMdCUtm1va6G6wCaUA/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwMDA3/MjktMTMwNDcxNjI1/Ny5qcGVn.jpeg",
+      "width": 592,
+      "height": 592
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/4SJnobPcKOgsefwKmBJkZDe5qSEYzKAyl1OfzxiLhfM/rs:fit/g:sm/q:90/h:597/w:597/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwMDA3/MjktMTMwNDcxNjI2/NC5qcGVn.jpeg",
+      "resource_url": "https://i.discogs.com/4SJnobPcKOgsefwKmBJkZDe5qSEYzKAyl1OfzxiLhfM/rs:fit/g:sm/q:90/h:597/w:597/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwMDA3/MjktMTMwNDcxNjI2/NC5qcGVn.jpeg",
+      "uri150": "https://i.discogs.com/Y8tqqA9VmaS0XQUCSRyhRx0d8guaOYuy1w7D1t0zErc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwMDA3/MjktMTMwNDcxNjI2/NC5qcGVn.jpeg",
+      "width": 597,
+      "height": 597
+    }
+  ],
+  "thumb": "https://i.discogs.com/NkvXhWptBS7beiYAaq1kuMU6mRk0tCzYZ4LeMSfCuB0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwMDA3/MjktMTMwNDcxNjI0/Mi5qcGVn.jpeg",
+  "estimated_weight": 230,
+  "blocked_from_sale": false,
+  "is_offensive": false
+}

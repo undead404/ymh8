@@ -1,0 +1,322 @@
+{
+  "id": 1489385,
+  "status": "Accepted",
+  "year": 2004,
+  "resource_url": "https://api.discogs.com/releases/1489385",
+  "uri": "https://www.discogs.com/release/1489385-Pagan-Altar-The-Time-Lord",
+  "artists": [
+    {
+      "name": "Pagan Altar",
+      "anv": "",
+      "join": "",
+      "role": "",
+      "tracks": "",
+      "id": 647590,
+      "resource_url": "https://api.discogs.com/artists/647590",
+      "thumbnail_url": "https://i.discogs.com/jSZvC9ThPS0gSBVUjSyxzTF_AyTtD0YUVrlDZd6lC6g/rs:fit/g:sm/q:90/h:130/w:400/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTY0NzU5/MC0xNTE3MTc0MzYy/LTU1NjcuanBlZw.jpeg"
+    }
+  ],
+  "artists_sort": "Pagan Altar",
+  "labels": [
+    {
+      "name": "I Hate Records",
+      "catno": "IHR 006",
+      "entity_type": "1",
+      "entity_type_name": "Label",
+      "id": 47073,
+      "resource_url": "https://api.discogs.com/labels/47073",
+      "thumbnail_url": "https://i.discogs.com/yRoaKMNPXky7Y15zvbRrG7ma3y68XyCYf1PTdwnLgK4/rs:fit/g:sm/q:90/h:364/w:364/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTQ3MDcz/LTE1MjIyNTI2NTEt/NzU5OC5qcGVn.jpeg"
+    }
+  ],
+  "series": [],
+  "companies": [
+    {
+      "name": "Pagan Altar",
+      "catno": "",
+      "entity_type": "14",
+      "entity_type_name": "Copyright (c)",
+      "id": 430157,
+      "resource_url": "https://api.discogs.com/labels/430157"
+    },
+    {
+      "name": "Oracle Records Ltd.",
+      "catno": "",
+      "entity_type": "14",
+      "entity_type_name": "Copyright (c)",
+      "id": 112942,
+      "resource_url": "https://api.discogs.com/labels/112942"
+    },
+    {
+      "name": "www.gzvinyl.com",
+      "catno": "",
+      "entity_type": "10",
+      "entity_type_name": "Manufactured By",
+      "id": 265320,
+      "resource_url": "https://api.discogs.com/labels/265320",
+      "thumbnail_url": "https://i.discogs.com/PhLFBXiYfwHjodq2WKnkOU-GTsyPfFJDwNVgdUB7pJU/rs:fit/g:sm/q:90/h:200/w:200/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTI2NTMy/MC0xNDk3NDM4OTk3/LTk5MTIuanBlZw.jpeg"
+    },
+    {
+      "name": "GZ Digital Media",
+      "catno": "55680E",
+      "entity_type": "17",
+      "entity_type_name": "Pressed By",
+      "id": 264517,
+      "resource_url": "https://api.discogs.com/labels/264517",
+      "thumbnail_url": "https://i.discogs.com/aEwTSyNrsYoMB8Ch6dp8hQQCfzLB06Yf0DWhVWf8tTI/rs:fit/g:sm/q:90/h:207/w:413/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTI2NDUx/Ny0xMzIwNjUzODA2/LmdpZg.jpeg"
+    },
+    {
+      "name": "New Cross Studios",
+      "catno": "",
+      "entity_type": "23",
+      "entity_type_name": "Recorded At",
+      "id": 587861,
+      "resource_url": "https://api.discogs.com/labels/587861"
+    },
+    {
+      "name": "Pagan Studios (2)",
+      "catno": "",
+      "entity_type": "23",
+      "entity_type_name": "Recorded At",
+      "id": 587851,
+      "resource_url": "https://api.discogs.com/labels/587851"
+    }
+  ],
+  "formats": [
+    {
+      "name": "Vinyl",
+      "qty": "1",
+      "descriptions": ["12\"", "EP", "33 ⅓ RPM", "Limited Edition", "Reissue"],
+      "text": "Second Edition"
+    }
+  ],
+  "data_quality": "Needs Vote",
+  "community": {
+    "have": 166,
+    "want": 197,
+    "rating": {
+      "count": 13,
+      "average": 4.54
+    },
+    "submitter": {
+      "username": "BeastmasterGeneral",
+      "resource_url": "https://api.discogs.com/users/BeastmasterGeneral"
+    },
+    "contributors": [
+      {
+        "username": "BeastmasterGeneral",
+        "resource_url": "https://api.discogs.com/users/BeastmasterGeneral"
+      },
+      {
+        "username": "haecceitas",
+        "resource_url": "https://api.discogs.com/users/haecceitas"
+      },
+      {
+        "username": "AFigureInBlack",
+        "resource_url": "https://api.discogs.com/users/AFigureInBlack"
+      },
+      {
+        "username": "zoon21",
+        "resource_url": "https://api.discogs.com/users/zoon21"
+      },
+      {
+        "username": "seergjej",
+        "resource_url": "https://api.discogs.com/users/seergjej"
+      },
+      {
+        "username": "reknuggets",
+        "resource_url": "https://api.discogs.com/users/reknuggets"
+      }
+    ],
+    "data_quality": "Needs Vote",
+    "status": "Accepted"
+  },
+  "format_quantity": 1,
+  "date_added": "2008-10-08T15:23:20-07:00",
+  "date_changed": "2015-12-12T05:11:25-08:00",
+  "num_for_sale": 4,
+  "lowest_price": 60,
+  "master_id": 409030,
+  "master_url": "https://api.discogs.com/masters/409030",
+  "title": "The Time Lord",
+  "country": "Sweden",
+  "released": "2004",
+  "notes": "Tracks A1 & A2 recorded in 1978 at a 24 track studio in New Cross, London. Track A3 recorded in 1978 at the Pagan Altar studio. Tracks B1 & B2 recorded in 1978-79 at the Pagan Altar studio.\r\n\r\nSecond edition limited to 500. Originally released as a cassette.\r\n\r\n© 2004, Pagan Altar / Oracle Promotions",
+  "released_formatted": "2004",
+  "identifiers": [
+    {
+      "type": "Matrix / Runout",
+      "value": "55680E1/A www.gzvinyl.com",
+      "description": "Runout Side A"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "55680E2/A",
+      "description": "Runout Side B"
+    }
+  ],
+  "videos": [
+    {
+      "uri": "https://www.youtube.com/watch?v=mWRKsVMs958",
+      "title": "Pagan Altar - Highway Cavalier",
+      "description": "Great NWOBHM by legends Pagan Altar.  This is one of the bands weaker tracks, by their standards, and yet it still is fantastic.",
+      "duration": 157,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=2pkrv-1X_84",
+      "title": "Pagan Altar - The Time Lord",
+      "description": "The title track of the bands first EP.  This song dates back to the bands origins in the 70's.  Great NWOBHM.",
+      "duration": 481,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=3G-xYLHwH0o",
+      "title": "Pagan Altar -  Judgement of the Dead",
+      "description": "Pagan Altar's epic Judgement of the Dead, from the 2004 Time Lord EP.  I prefer this version to the Volume I version.  Enjoy.",
+      "duration": 404,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=LSftDEA11rQ",
+      "title": "Pagan Altar - The Black Mass",
+      "description": "The second of three rerecordings for The Time Lord EP.  Sandwiched inbetween classics Judgement of the Dead and Reincarnation, this is certainly in the same class as the other tracks.",
+      "duration": 343,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=RG_YRI0JdqY",
+      "title": "Pagan Altar - Reincarnation",
+      "description": "Pagan Altar's epic Reincarnation, from 2004's The Time Lord EP.  I personally prefer this version to the one that appeared on Volume I.  Enjoy.",
+      "duration": 533,
+      "embed": true
+    }
+  ],
+  "genres": ["Rock"],
+  "styles": ["Doom Metal", "Heavy Metal"],
+  "tracklist": [
+    {
+      "position": "A1",
+      "type_": "track",
+      "title": "Highway Cavalier",
+      "duration": ""
+    },
+    {
+      "position": "A2",
+      "type_": "track",
+      "title": "The Time Lord",
+      "duration": ""
+    },
+    {
+      "position": "A3",
+      "type_": "track",
+      "title": "Judgement Of The Dead",
+      "duration": ""
+    },
+    {
+      "position": "B1",
+      "type_": "track",
+      "title": "The Black Mass",
+      "duration": ""
+    },
+    {
+      "position": "B2",
+      "type_": "track",
+      "title": "Reincarnation",
+      "duration": ""
+    }
+  ],
+  "extraartists": [
+    {
+      "name": "Glen Robinson (2)",
+      "anv": "",
+      "join": "",
+      "role": "Bass",
+      "tracks": "",
+      "id": 1243791,
+      "resource_url": "https://api.discogs.com/artists/1243791"
+    },
+    {
+      "name": "Ivor Harper",
+      "anv": "",
+      "join": "",
+      "role": "Drums",
+      "tracks": "A1 to A3",
+      "id": 1243792,
+      "resource_url": "https://api.discogs.com/artists/1243792"
+    },
+    {
+      "name": "Mark Elliot (3)",
+      "anv": "",
+      "join": "",
+      "role": "Drums",
+      "tracks": "B1, B2",
+      "id": 1124569,
+      "resource_url": "https://api.discogs.com/artists/1124569"
+    },
+    {
+      "name": "Alan Jones (11)",
+      "anv": "",
+      "join": "",
+      "role": "Guitar",
+      "tracks": "",
+      "id": 1084584,
+      "resource_url": "https://api.discogs.com/artists/1084584"
+    },
+    {
+      "name": "Les Moody",
+      "anv": "",
+      "join": "",
+      "role": "Guitar",
+      "tracks": "A1, A2",
+      "id": 1243790,
+      "resource_url": "https://api.discogs.com/artists/1243790"
+    },
+    {
+      "name": "Terry Jones (5)",
+      "anv": "",
+      "join": "",
+      "role": "Vocals",
+      "tracks": "",
+      "id": 1110668,
+      "resource_url": "https://api.discogs.com/artists/1110668"
+    }
+  ],
+  "images": [
+    {
+      "type": "primary",
+      "uri": "https://i.discogs.com/Vxhrtf7w5Bcz5Wp7MAzHT4jo6yWsN9FXmIDVN4mSHZk/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0ODkz/ODUtMTM5NzEzMTU2/Mi04MTM2LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/Vxhrtf7w5Bcz5Wp7MAzHT4jo6yWsN9FXmIDVN4mSHZk/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0ODkz/ODUtMTM5NzEzMTU2/Mi04MTM2LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/TjM7Ladd4_wzIP7NKy4rjHqzjeSWD-6ZMI0Xldt28tc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0ODkz/ODUtMTM5NzEzMTU2/Mi04MTM2LmpwZWc.jpeg",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/V0xv0laQUptDQw19AWv56UznHLa1cxqkly0BfcBHks8/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0ODkz/ODUtMTM5NzEzMTU2/Mi0zNzAyLmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/V0xv0laQUptDQw19AWv56UznHLa1cxqkly0BfcBHks8/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0ODkz/ODUtMTM5NzEzMTU2/Mi0zNzAyLmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/Dz2N4FL-KekKkQ0lbVzWNg6Dtl3nnIxK0N_V7R4EiL8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0ODkz/ODUtMTM5NzEzMTU2/Mi0zNzAyLmpwZWc.jpeg",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/J9O9sL1ARcuQa1FSeTQUbz38QzKFpIAAJHyX8HAplc0/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0ODkz/ODUtMTM5NzEzMTU2/Mi04Njg5LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/J9O9sL1ARcuQa1FSeTQUbz38QzKFpIAAJHyX8HAplc0/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0ODkz/ODUtMTM5NzEzMTU2/Mi04Njg5LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/9BPK4LNdwIOED27VarmKeUaKJvr-kTsFWXzSpBWAooc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0ODkz/ODUtMTM5NzEzMTU2/Mi04Njg5LmpwZWc.jpeg",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/gVRVjqIgdfYIChTOuyW72GCa_COBNZl03PKkHREP_Bg/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0ODkz/ODUtMTM5NzEzMTU2/Mi03Nzg3LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/gVRVjqIgdfYIChTOuyW72GCa_COBNZl03PKkHREP_Bg/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0ODkz/ODUtMTM5NzEzMTU2/Mi03Nzg3LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/uMe6DvuBNn9-QO1CRPHjPvLxbea7yPtBcX3eFUHXttM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0ODkz/ODUtMTM5NzEzMTU2/Mi03Nzg3LmpwZWc.jpeg",
+      "width": 600,
+      "height": 600
+    }
+  ],
+  "thumb": "https://i.discogs.com/TjM7Ladd4_wzIP7NKy4rjHqzjeSWD-6ZMI0Xldt28tc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0ODkz/ODUtMTM5NzEzMTU2/Mi04MTM2LmpwZWc.jpeg",
+  "estimated_weight": 230,
+  "blocked_from_sale": false,
+  "is_offensive": false
+}

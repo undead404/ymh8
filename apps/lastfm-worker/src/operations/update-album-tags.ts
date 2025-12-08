@@ -8,6 +8,7 @@ import filterTags from '../filter-tags.js';
 import getAlbumTags from '../lastfm/get-album-tags.js';
 import getArtistTags from '../lastfm/get-artist-tags.js';
 import normalizeTags from '../normalize-tags.js';
+import sleep from '../utils/sleep.js';
 
 export default async function updateAlbumTags(
   jobData: unknown,
@@ -16,6 +17,7 @@ export default async function updateAlbumTags(
   let tags = await getAlbumTags(bareAlbum);
   tags = normalizeTags(filterTags(tags));
   if (tags.length === 0) {
+    await sleep(1100);
     tags = await getArtistTags(bareAlbum);
     tags = normalizeTags(filterTags(tags));
   }
@@ -46,7 +48,7 @@ export default async function updateAlbumTags(
   for (const tag of tagsToUpdate) {
     await database.update(
       SQL`
-        INSERT INTO public."Tag"("name")
+        INSERT INTO "Tag"("name")
         VALUES (${tag.name})
         ON CONFLICT ("name") DO NOTHING;
     `,

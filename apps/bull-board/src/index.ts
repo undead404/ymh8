@@ -5,6 +5,8 @@ import { Queue as QueueMQ, type RedisOptions } from 'bullmq';
 import express from 'express';
 import * as v from 'valibot';
 
+import { QUEUES } from '@ymh8/queues';
+
 // const sleep = (t: number) =>
 //   new Promise((resolve) => setTimeout(resolve, t * 1000));
 
@@ -22,7 +24,9 @@ const createQueueMQ = (name: string) =>
   new QueueMQ(name, { connection: redisOptions });
 
 const run = () => {
-  const lastfmBullMq = createQueueMQ('LastfmQueue');
+  const discogsBullMq = createQueueMQ(QUEUES.DISCOGS);
+  const lastfmBullMq = createQueueMQ(QUEUES.LASTFM);
+  const internalBullMq = createQueueMQ(QUEUES.INTERNAL);
 
   const app = express();
 
@@ -30,7 +34,11 @@ const run = () => {
   serverAdapter.setBasePath('/ui');
 
   createBullBoard({
-    queues: [new BullMQAdapter(lastfmBullMq)],
+    queues: [
+      new BullMQAdapter(discogsBullMq),
+      new BullMQAdapter(lastfmBullMq),
+      new BullMQAdapter(internalBullMq),
+    ],
     serverAdapter,
   });
 

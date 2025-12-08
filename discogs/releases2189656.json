@@ -1,0 +1,262 @@
+{
+  "id": 2189656,
+  "status": "Accepted",
+  "year": 1989,
+  "resource_url": "https://api.discogs.com/releases/2189656",
+  "uri": "https://www.discogs.com/release/2189656-Candlemass-Tales-Of-Creation",
+  "artists": [
+    {
+      "name": "Candlemass",
+      "anv": "",
+      "join": "",
+      "role": "",
+      "tracks": "",
+      "id": 311088,
+      "resource_url": "https://api.discogs.com/artists/311088",
+      "thumbnail_url": "https://i.discogs.com/dS0XldUxjLBldKFmgnKz1gXDa1sETLqik3AXhJu_qTo/rs:fit/g:sm/q:90/h:337/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTMxMTA4/OC0xNjYyMjk5OTM3/LTE0OTIuanBlZw.jpeg"
+    }
+  ],
+  "artists_sort": "Candlemass",
+  "labels": [
+    {
+      "name": "Music For Nations",
+      "catno": "MFN 95P",
+      "entity_type": "1",
+      "entity_type_name": "Label",
+      "id": 16279,
+      "resource_url": "https://api.discogs.com/labels/16279",
+      "thumbnail_url": "https://i.discogs.com/8-do4iBmKyvQW-cfkhQqAbUnzRMPdHNyVjeTO9Gy_ts/rs:fit/g:sm/q:90/h:164/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTE2Mjc5/LTE1ODIzOTY4MDIt/MTM1MS5wbmc.jpeg"
+    }
+  ],
+  "series": [],
+  "companies": [
+    {
+      "name": "The Town House",
+      "catno": "",
+      "entity_type": "29",
+      "entity_type_name": "Mastered At",
+      "id": 87246,
+      "resource_url": "https://api.discogs.com/labels/87246",
+      "thumbnail_url": "https://i.discogs.com/maEyQ-gXPLemRMh05rjoukLx1e5nI36SXZv2NbvRaXE/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTg3MjQ2/LTE3NTYyMzg3MzEt/OTQ3NC5qcGVn.jpeg"
+    }
+  ],
+  "formats": [
+    {
+      "name": "Vinyl",
+      "qty": "1",
+      "descriptions": [
+        "LP",
+        "Album",
+        "Limited Edition",
+        "Numbered",
+        "Picture Disc"
+      ]
+    }
+  ],
+  "data_quality": "Needs Vote",
+  "community": {
+    "have": 361,
+    "want": 156,
+    "rating": {
+      "count": 29,
+      "average": 4.28
+    },
+    "submitter": {
+      "username": "BACKSTAGE",
+      "resource_url": "https://api.discogs.com/users/BACKSTAGE"
+    },
+    "contributors": [
+      {
+        "username": "BACKSTAGE",
+        "resource_url": "https://api.discogs.com/users/BACKSTAGE"
+      },
+      {
+        "username": "Myriad",
+        "resource_url": "https://api.discogs.com/users/Myriad"
+      },
+      {
+        "username": "rjramalho",
+        "resource_url": "https://api.discogs.com/users/rjramalho"
+      },
+      {
+        "username": "AFigureInBlack",
+        "resource_url": "https://api.discogs.com/users/AFigureInBlack"
+      },
+      {
+        "username": "gatogato",
+        "resource_url": "https://api.discogs.com/users/gatogato"
+      },
+      {
+        "username": "METALWORLD",
+        "resource_url": "https://api.discogs.com/users/METALWORLD"
+      }
+    ],
+    "data_quality": "Needs Vote",
+    "status": "Accepted"
+  },
+  "format_quantity": 1,
+  "date_added": "2010-03-17T09:36:40-07:00",
+  "date_changed": "2024-05-01T10:15:57-07:00",
+  "num_for_sale": 8,
+  "lowest_price": 46.09,
+  "master_id": 42713,
+  "master_url": "https://api.discogs.com/masters/42713",
+  "title": "Tales Of Creation",
+  "country": "UK",
+  "released": "1989",
+  "notes": "A6 consists of 7 parts:\n Pt. I: Dance Of The Fay\n Pt. II: Magic / Entering The Tower\n Pt. III: Dance Of The Fay (Reprise)\n Pt. IV: Souls Flight\n Pt. V: Towards The Unknown\n Pt. VI: Choir Of Angels\n Pt. VII: Outside The Gates Of Heaven\n\nMade in England",
+  "released_formatted": "1989",
+  "identifiers": [
+    {
+      "type": "Barcode",
+      "value": "5 016583 109509"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "M⃫P⃫O⃫  MFN 95 A1 TOWNHOUSE DMM",
+      "description": "Runout Side A"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "M⃫P⃫O⃫  MFN 95 B1 TOWNHOUSE DMM",
+      "description": "Runout Side B"
+    }
+  ],
+  "videos": [
+    {
+      "uri": "https://www.youtube.com/watch?v=2kVBigoCmdU",
+      "title": "Candlemass - The Prophecy / Dark Reflections (Studio Version)",
+      "description": "Candlemass - The Prophecy / Dark Reflections from the 1989 album \"Tales of Creation\"\r\n\r\n\"Holy was the star from which you were born, \r\nto a world where darkness and fear take form \r\nA lonely soul with a heart of light to find \r\nbeyond reality, forgotten i",
+      "duration": 396,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=oGHcrR7X1bE",
+      "title": "Candlemass - Tales Of Creation (full album) [1989]",
+      "description": "All rights to [Merlin] Essential Music.\nThe only one Candlemass album with Messiah, which has not been published there yet.\n\nTrack list:\n\nAll songs written by Leif Edling\n\"The Prophecy\" -- 0:01\n\"Dark Reflections\" -- 1:28\n\"Voices in the Wind\" -- 6:34\n\"Unde",
+      "duration": 2571,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=SqMemdSc_lY",
+      "title": "Candlemass - \"Dark Reflections\" Official Video (1989)",
+      "description": "the official music video for \"Dark Reflections\" by the Swedish doom metal band Candlemass. The song is from their 4th album \"Tales Of Creation\" (1989). Candlemass pioneered the subgenre of \"epic doom metal\". Doom metal is a subgenre of metal heavily influ",
+      "duration": 288,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=_5kIzKJO-bM",
+      "title": "Candlemass - Tales Of Creation (demo) 1985 very rare",
+      "description": "1-Dark Reflections\n2-Under To Oak\n3-Into The Unfathomed Tower\n4-Somewhere In Nowhere\n5-A Tale From Creation",
+      "duration": 1499,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=fHqPQWQuXM4",
+      "title": "Candlemass - Somewhere In Nowhere (Demo)",
+      "description": "Tema cantado por Leif Edling, esta es la versión que aparece en el demo Tales of Creation.",
+      "duration": 278,
+      "embed": true
+    }
+  ],
+  "genres": ["Rock"],
+  "styles": ["Doom Metal"],
+  "tracklist": [
+    {
+      "position": "A1",
+      "type_": "track",
+      "title": "The Prophecy",
+      "duration": ""
+    },
+    {
+      "position": "A2",
+      "type_": "track",
+      "title": "Dark Reflections",
+      "duration": ""
+    },
+    {
+      "position": "A3",
+      "type_": "track",
+      "title": "Voices In The Wind",
+      "duration": ""
+    },
+    {
+      "position": "A4",
+      "type_": "track",
+      "title": "Under The Oak",
+      "duration": ""
+    },
+    {
+      "position": "A5",
+      "type_": "track",
+      "title": "Tears",
+      "duration": ""
+    },
+    {
+      "position": "A6",
+      "type_": "track",
+      "title": "Into The Unfathomed Tower",
+      "duration": ""
+    },
+    {
+      "position": "B1",
+      "type_": "track",
+      "title": "The Edge Of Heaven",
+      "duration": ""
+    },
+    {
+      "position": "B2",
+      "type_": "track",
+      "title": "Somewhere In Nowhere",
+      "duration": ""
+    },
+    {
+      "position": "B3",
+      "type_": "track",
+      "title": "Through The Infinitive Halls Of Death",
+      "duration": ""
+    },
+    {
+      "position": "B4",
+      "type_": "track",
+      "title": "Dawn",
+      "duration": ""
+    },
+    {
+      "position": "B5",
+      "type_": "track",
+      "title": "A Tale Of Creation",
+      "duration": ""
+    }
+  ],
+  "images": [
+    {
+      "type": "primary",
+      "uri": "https://i.discogs.com/KZEiqMPrS7kVQw7M5ZqzqFDDwXvacKOuFgsKoA6BKE8/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIxODk2/NTYtMTM4NzMwOTky/My03NDkzLmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/KZEiqMPrS7kVQw7M5ZqzqFDDwXvacKOuFgsKoA6BKE8/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIxODk2/NTYtMTM4NzMwOTky/My03NDkzLmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/r9DcvSPMOlliCML7ZEUck55ScKigVN0JdeTO9g1Fs9g/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIxODk2/NTYtMTM4NzMwOTky/My03NDkzLmpwZWc.jpeg",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/IqiW8LyiKcqgPIUGZqsZ37x-mJzCk3Hj4-g8zvE9HFE/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIxODk2/NTYtMTM4NzMwOTkz/My02MjMxLmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/IqiW8LyiKcqgPIUGZqsZ37x-mJzCk3Hj4-g8zvE9HFE/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIxODk2/NTYtMTM4NzMwOTkz/My02MjMxLmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/CqX2ckP2suB-UZverxx_bbAIGL7RGSaufO_-1OV9SiQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIxODk2/NTYtMTM4NzMwOTkz/My02MjMxLmpwZWc.jpeg",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/AcTg958GAreA6gEchHbAQvBVcR8QqQ-ZAAJvDC7Fr9U/rs:fit/g:sm/q:90/h:600/w:594/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIxODk2/NTYtMTYxMTkxNjk4/NC03NjI1LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/AcTg958GAreA6gEchHbAQvBVcR8QqQ-ZAAJvDC7Fr9U/rs:fit/g:sm/q:90/h:600/w:594/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIxODk2/NTYtMTYxMTkxNjk4/NC03NjI1LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/ysxsqctV892F51rsl3HllX21PAsSz2JyZN_sT2Ja4NA/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIxODk2/NTYtMTYxMTkxNjk4/NC03NjI1LmpwZWc.jpeg",
+      "width": 594,
+      "height": 600
+    }
+  ],
+  "thumb": "https://i.discogs.com/r9DcvSPMOlliCML7ZEUck55ScKigVN0JdeTO9g1Fs9g/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIxODk2/NTYtMTM4NzMwOTky/My03NDkzLmpwZWc.jpeg",
+  "estimated_weight": 230,
+  "blocked_from_sale": false,
+  "is_offensive": false
+}

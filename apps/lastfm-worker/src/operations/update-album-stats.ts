@@ -1,9 +1,9 @@
 import SQL from '@nearform/sql';
 import * as v from 'valibot';
 
+import { readAlbumNumberOfTracks } from '@ymh8/database';
 import { type BareAlbum, bareAlbumSchema } from '@ymh8/schemata';
 import database from '../database/index.js';
-import readAlbumNumberOfTracks from '../database/read-album-number-of-tracks.js';
 import getAlbumStats from '../lastfm/get-album-stats.js';
 
 async function updateAlbumStatsAndNumberOfTracks(
@@ -36,7 +36,7 @@ export default async function updateAlbumStats(
   const bareAlbum = v.parse(bareAlbumSchema, jobData);
   const stats = await getAlbumStats(bareAlbum);
   if (stats.numberOfTracks) {
-    const numberOfTracks = await readAlbumNumberOfTracks(bareAlbum);
+    const numberOfTracks = await readAlbumNumberOfTracks(database, bareAlbum);
     if (!numberOfTracks) {
       await updateAlbumStatsAndNumberOfTracks(bareAlbum, {
         ...stats,

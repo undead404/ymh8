@@ -1,0 +1,135 @@
+{
+  "id": 12080601,
+  "status": "Accepted",
+  "year": 2018,
+  "resource_url": "https://api.discogs.com/releases/12080601",
+  "uri": "https://www.discogs.com/release/12080601-Witch-Mountain-Witch-Mountain",
+  "artists": [
+    {
+      "name": "Witch Mountain",
+      "anv": "",
+      "join": "",
+      "role": "",
+      "tracks": "",
+      "id": 1751456,
+      "resource_url": "https://api.discogs.com/artists/1751456",
+      "thumbnail_url": "https://i.discogs.com/jw5P5pj0VLQpkmG8E3O1j4IPDG2TCCH61F1DlxKqb3A/rs:fit/g:sm/q:90/h:157/w:240/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE3NTE0/NTYtMTM0MzgyMTcy/NC0xMDE3LnBuZw.jpeg"
+    }
+  ],
+  "artists_sort": "Witch Mountain",
+  "labels": [
+    {
+      "name": "Svart Records",
+      "catno": "SVART164",
+      "entity_type": "1",
+      "entity_type_name": "Label",
+      "id": 156020,
+      "resource_url": "https://api.discogs.com/labels/156020",
+      "thumbnail_url": "https://i.discogs.com/TaCBMqXRFKBmeSX_Lx67KusAjO4SXOe_t0lANNzx_sg/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTE1NjAy/MC0xNTAwNzYwMDQy/LTcyODIucG5n.jpeg"
+    }
+  ],
+  "series": [],
+  "companies": [],
+  "formats": [
+    {
+      "name": "Vinyl",
+      "qty": "1",
+      "descriptions": ["LP", "Album"]
+    }
+  ],
+  "data_quality": "Needs Vote",
+  "community": {
+    "have": 148,
+    "want": 35,
+    "rating": {
+      "count": 11,
+      "average": 3.91
+    },
+    "submitter": {
+      "username": "zionsgate",
+      "resource_url": "https://api.discogs.com/users/zionsgate"
+    },
+    "contributors": [
+      {
+        "username": "zionsgate",
+        "resource_url": "https://api.discogs.com/users/zionsgate"
+      }
+    ],
+    "data_quality": "Needs Vote",
+    "status": "Accepted"
+  },
+  "format_quantity": 1,
+  "date_added": "2018-06-01T16:15:59-07:00",
+  "date_changed": "2018-06-01T16:18:55-07:00",
+  "num_for_sale": 11,
+  "lowest_price": 12.58,
+  "master_id": 1372844,
+  "master_url": "https://api.discogs.com/masters/1372844",
+  "title": "Witch Mountain",
+  "country": "Finland",
+  "released": "2018-05-25",
+  "released_formatted": "25 May 2018",
+  "identifiers": [
+    {
+      "type": "Barcode",
+      "value": "6430065584469"
+    }
+  ],
+  "videos": [
+    {
+      "uri": "https://www.youtube.com/watch?v=da2_C_1Lc2o",
+      "title": "Witch Mountain - Witch Mountain (2018) (Full Album)",
+      "description": "Released May 25, 2018.\n\nRob Wrong (Guitar)\nNathan Carson (Percussion)\nKayla Dixon (Vocals)\nJustin Brown (Bass)\n\n*Tracks: \n1. Midnight 00:00\n2. Mechanical World 04:53 \n3. Burn You Down 10:40 \n4. Hellfire 18:20   \n5. Nighthawk 20:49\n\n*Links:\nhttps://witchmo",
+      "duration": 2109,
+      "embed": true
+    }
+  ],
+  "genres": ["Rock"],
+  "styles": ["Doom Metal", "Stoner Rock"],
+  "tracklist": [
+    {
+      "position": "A1",
+      "type_": "track",
+      "title": "Midnight",
+      "duration": "4:53"
+    },
+    {
+      "position": "A2",
+      "type_": "track",
+      "title": "Mechanical World",
+      "duration": "5:47"
+    },
+    {
+      "position": "A3",
+      "type_": "track",
+      "title": "Burn You Down",
+      "duration": "7:40"
+    },
+    {
+      "position": "B4",
+      "type_": "track",
+      "title": "Hellfire",
+      "duration": "2:29"
+    },
+    {
+      "position": "B5",
+      "type_": "track",
+      "title": "Nighthawk",
+      "duration": "14:17"
+    }
+  ],
+  "images": [
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/buckL_5NGiv92KXP5L9uTs0cwXFNQZt2I7sMA5hdYEk/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMDgw/NjAxLTE1Mjc4OTUw/MTQtMjU0OC5qcGVn.jpeg",
+      "resource_url": "https://i.discogs.com/buckL_5NGiv92KXP5L9uTs0cwXFNQZt2I7sMA5hdYEk/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMDgw/NjAxLTE1Mjc4OTUw/MTQtMjU0OC5qcGVn.jpeg",
+      "uri150": "https://i.discogs.com/3f21mll_wgNh_mwLygynWa79Oi2FFz-CzFSSc70TZhk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMDgw/NjAxLTE1Mjc4OTUw/MTQtMjU0OC5qcGVn.jpeg",
+      "width": 600,
+      "height": 600
+    }
+  ],
+  "thumb": "https://i.discogs.com/3f21mll_wgNh_mwLygynWa79Oi2FFz-CzFSSc70TZhk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMDgw/NjAxLTE1Mjc4OTUw/MTQtMjU0OC5qcGVn.jpeg",
+  "estimated_weight": 230,
+  "blocked_from_sale": false,
+  "is_offensive": false
+}

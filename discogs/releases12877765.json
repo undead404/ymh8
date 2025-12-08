@@ -1,0 +1,206 @@
+{
+  "id": 12877765,
+  "status": "Accepted",
+  "year": 1989,
+  "resource_url": "https://api.discogs.com/releases/12877765",
+  "uri": "https://www.discogs.com/release/12877765-Candlemass-Tales-Of-Creation",
+  "artists": [
+    {
+      "name": "Candlemass",
+      "anv": "",
+      "join": "",
+      "role": "",
+      "tracks": "",
+      "id": 311088,
+      "resource_url": "https://api.discogs.com/artists/311088",
+      "thumbnail_url": "https://i.discogs.com/dS0XldUxjLBldKFmgnKz1gXDa1sETLqik3AXhJu_qTo/rs:fit/g:sm/q:90/h:337/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTMxMTA4/OC0xNjYyMjk5OTM3/LTE0OTIuanBlZw.jpeg"
+    }
+  ],
+  "artists_sort": "Candlemass",
+  "labels": [
+    {
+      "name": "Music For Nations",
+      "catno": "104604",
+      "entity_type": "1",
+      "entity_type_name": "Label",
+      "id": 16279,
+      "resource_url": "https://api.discogs.com/labels/16279",
+      "thumbnail_url": "https://i.discogs.com/8-do4iBmKyvQW-cfkhQqAbUnzRMPdHNyVjeTO9Gy_ts/rs:fit/g:sm/q:90/h:164/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTE2Mjc5/LTE1ODIzOTY4MDIt/MTM1MS5wbmc.jpeg"
+    }
+  ],
+  "series": [],
+  "companies": [],
+  "formats": [
+    {
+      "name": "Cassette",
+      "qty": "1",
+      "descriptions": ["Album"]
+    }
+  ],
+  "data_quality": "Needs Vote",
+  "community": {
+    "have": 5,
+    "want": 47,
+    "rating": {
+      "count": 1,
+      "average": 5
+    },
+    "submitter": {
+      "username": "zlatinfich",
+      "resource_url": "https://api.discogs.com/users/zlatinfich"
+    },
+    "contributors": [
+      {
+        "username": "zlatinfich",
+        "resource_url": "https://api.discogs.com/users/zlatinfich"
+      },
+      {
+        "username": "HungryAK47",
+        "resource_url": "https://api.discogs.com/users/HungryAK47"
+      }
+    ],
+    "data_quality": "Needs Vote",
+    "status": "Accepted"
+  },
+  "format_quantity": 1,
+  "date_added": "2018-12-01T09:46:57-08:00",
+  "date_changed": "2018-12-02T04:17:34-08:00",
+  "num_for_sale": 1,
+  "lowest_price": 27.04,
+  "master_id": 42713,
+  "master_url": "https://api.discogs.com/masters/42713",
+  "title": "Tales Of Creation",
+  "country": "France",
+  "released": "1989",
+  "released_formatted": "1989",
+  "identifiers": [],
+  "videos": [
+    {
+      "uri": "https://www.youtube.com/watch?v=2kVBigoCmdU",
+      "title": "Candlemass - The Prophecy / Dark Reflections (Studio Version)",
+      "description": "Candlemass - The Prophecy / Dark Reflections from the 1989 album \"Tales of Creation\"\r\n\r\n\"Holy was the star from which you were born, \r\nto a world where darkness and fear take form \r\nA lonely soul with a heart of light to find \r\nbeyond reality, forgotten i",
+      "duration": 396,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=oGHcrR7X1bE",
+      "title": "Candlemass - Tales Of Creation (full album) [1989]",
+      "description": "All rights to [Merlin] Essential Music.\nThe only one Candlemass album with Messiah, which has not been published there yet.\n\nTrack list:\n\nAll songs written by Leif Edling\n\"The Prophecy\" -- 0:01\n\"Dark Reflections\" -- 1:28\n\"Voices in the Wind\" -- 6:34\n\"Unde",
+      "duration": 2571,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=SqMemdSc_lY",
+      "title": "Candlemass - \"Dark Reflections\" Official Video (1989)",
+      "description": "the official music video for \"Dark Reflections\" by the Swedish doom metal band Candlemass. The song is from their 4th album \"Tales Of Creation\" (1989). Candlemass pioneered the subgenre of \"epic doom metal\". Doom metal is a subgenre of metal heavily influ",
+      "duration": 288,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=_5kIzKJO-bM",
+      "title": "Candlemass - Tales Of Creation (demo) 1985 very rare",
+      "description": "1-Dark Reflections\n2-Under To Oak\n3-Into The Unfathomed Tower\n4-Somewhere In Nowhere\n5-A Tale From Creation",
+      "duration": 1499,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=fHqPQWQuXM4",
+      "title": "Candlemass - Somewhere In Nowhere (Demo)",
+      "description": "Tema cantado por Leif Edling, esta es la versión que aparece en el demo Tales of Creation.",
+      "duration": 278,
+      "embed": true
+    }
+  ],
+  "genres": ["Rock"],
+  "styles": ["Doom Metal"],
+  "tracklist": [
+    {
+      "position": "1",
+      "type_": "track",
+      "title": "The Prophecy",
+      "duration": ""
+    },
+    {
+      "position": "2",
+      "type_": "track",
+      "title": "Dark Reflections",
+      "duration": ""
+    },
+    {
+      "position": "3",
+      "type_": "track",
+      "title": "Voices In The Wind",
+      "duration": ""
+    },
+    {
+      "position": "4",
+      "type_": "track",
+      "title": "Under The Oak",
+      "duration": ""
+    },
+    {
+      "position": "5",
+      "type_": "track",
+      "title": "Tears",
+      "duration": ""
+    },
+    {
+      "position": "6",
+      "type_": "track",
+      "title": "Into The Unfathomed Tower",
+      "duration": ""
+    },
+    {
+      "position": "7",
+      "type_": "track",
+      "title": "The Edge Of Heaven",
+      "duration": ""
+    },
+    {
+      "position": "8",
+      "type_": "track",
+      "title": "Somewhere In Nowhere",
+      "duration": ""
+    },
+    {
+      "position": "9",
+      "type_": "track",
+      "title": "Through The Infinitive Halls Of Death",
+      "duration": ""
+    },
+    {
+      "position": "10",
+      "type_": "track",
+      "title": "Dawn",
+      "duration": ""
+    },
+    {
+      "position": "11",
+      "type_": "track",
+      "title": "A Tale Of Creation",
+      "duration": ""
+    }
+  ],
+  "images": [
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/tBFBKD6XDG0wo5LTOnQxZqTh_KeQbHVse97v67aWmn0/rs:fit/g:sm/q:90/h:600/w:450/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyODc3/NzY1LTE1NDM2ODY0/MjItNTg0MC5qcGVn.jpeg",
+      "resource_url": "https://i.discogs.com/tBFBKD6XDG0wo5LTOnQxZqTh_KeQbHVse97v67aWmn0/rs:fit/g:sm/q:90/h:600/w:450/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyODc3/NzY1LTE1NDM2ODY0/MjItNTg0MC5qcGVn.jpeg",
+      "uri150": "https://i.discogs.com/oDk7K4fazrDHNY9SGrLfWzWsSpN3D-B2mpBVl2WoZf4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyODc3/NzY1LTE1NDM2ODY0/MjItNTg0MC5qcGVn.jpeg",
+      "width": 450,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/RWjvCTfpDQeWGeTDOVOQu7J7oj8rGbtdMA7StbH60Io/rs:fit/g:sm/q:90/h:600/w:450/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyODc3/NzY1LTE1NDM2ODY0/MjItMTAxOS5qcGVn.jpeg",
+      "resource_url": "https://i.discogs.com/RWjvCTfpDQeWGeTDOVOQu7J7oj8rGbtdMA7StbH60Io/rs:fit/g:sm/q:90/h:600/w:450/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyODc3/NzY1LTE1NDM2ODY0/MjItMTAxOS5qcGVn.jpeg",
+      "uri150": "https://i.discogs.com/n3kAVnH-IQrYeFgHF17dawAjCSTWc0Fbq9XE-JvnE2k/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyODc3/NzY1LTE1NDM2ODY0/MjItMTAxOS5qcGVn.jpeg",
+      "width": 450,
+      "height": 600
+    }
+  ],
+  "thumb": "https://i.discogs.com/oDk7K4fazrDHNY9SGrLfWzWsSpN3D-B2mpBVl2WoZf4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyODc3/NzY1LTE1NDM2ODY0/MjItNTg0MC5qcGVn.jpeg",
+  "estimated_weight": 65,
+  "blocked_from_sale": false,
+  "is_offensive": false
+}

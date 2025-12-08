@@ -1,0 +1,416 @@
+{
+  "id": 1227227,
+  "status": "Accepted",
+  "year": 2007,
+  "resource_url": "https://api.discogs.com/releases/1227227",
+  "uri": "https://www.discogs.com/release/1227227-Hour-Of-13-Hour-Of-13",
+  "artists": [
+    {
+      "name": "Hour Of 13",
+      "anv": "",
+      "join": "",
+      "role": "",
+      "tracks": "",
+      "id": 1039914,
+      "resource_url": "https://api.discogs.com/artists/1039914",
+      "thumbnail_url": "https://i.discogs.com/SjwjGOY8hFVcF3-frCe5Nx6QuOiZLWx9jSU0IRe7__8/rs:fit/g:sm/q:90/h:400/w:380/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEwMzk5/MTQtMTQyNjcxMDY0/Ny05MTU2LmpwZWc.jpeg"
+    }
+  ],
+  "artists_sort": "Hour Of 13",
+  "labels": [
+    {
+      "name": "Shadow Kingdom Records",
+      "catno": "SKR002CD",
+      "entity_type": "1",
+      "entity_type_name": "Label",
+      "id": 104549,
+      "resource_url": "https://api.discogs.com/labels/104549",
+      "thumbnail_url": "https://i.discogs.com/OPJlW7N6cTCSOk2PeTPwasTuWmPzq0xwgyId3SICDmA/rs:fit/g:sm/q:90/h:220/w:220/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTEwNDU0/OS0xNDk1OTk3MTY4/LTI4MDAucG5n.jpeg"
+    }
+  ],
+  "series": [],
+  "companies": [
+    {
+      "name": "Shadow Kingdom Records",
+      "catno": "",
+      "entity_type": "13",
+      "entity_type_name": "Phonographic Copyright (p)",
+      "id": 104549,
+      "resource_url": "https://api.discogs.com/labels/104549",
+      "thumbnail_url": "https://i.discogs.com/OPJlW7N6cTCSOk2PeTPwasTuWmPzq0xwgyId3SICDmA/rs:fit/g:sm/q:90/h:220/w:220/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTEwNDU0/OS0xNDk1OTk3MTY4/LTI4MDAucG5n.jpeg"
+    },
+    {
+      "name": "Shadow Kingdom Records",
+      "catno": "",
+      "entity_type": "14",
+      "entity_type_name": "Copyright (c)",
+      "id": 104549,
+      "resource_url": "https://api.discogs.com/labels/104549",
+      "thumbnail_url": "https://i.discogs.com/OPJlW7N6cTCSOk2PeTPwasTuWmPzq0xwgyId3SICDmA/rs:fit/g:sm/q:90/h:220/w:220/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTEwNDU0/OS0xNDk1OTk3MTY4/LTI4MDAucG5n.jpeg"
+    },
+    {
+      "name": "Epiphonic Studios",
+      "catno": "",
+      "entity_type": "23",
+      "entity_type_name": "Recorded At",
+      "id": 701161,
+      "resource_url": "https://api.discogs.com/labels/701161",
+      "thumbnail_url": "https://i.discogs.com/KIuEL9aosVZgABoRIuhaU3fR_DVqJKMZY1VgrbsA0uM/rs:fit/g:sm/q:90/h:121/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTcwMTE2/MS0xNDAyNDYyNTU1/LTE5MTEuanBlZw.jpeg"
+    },
+    {
+      "name": "Studio B Mastering",
+      "catno": "",
+      "entity_type": "29",
+      "entity_type_name": "Mastered At",
+      "id": 267617,
+      "resource_url": "https://api.discogs.com/labels/267617",
+      "thumbnail_url": "https://i.discogs.com/ixAjxOUD7pIcAukJYp8oDkgPUOH_tfjE2vut93JHs9I/rs:fit/g:sm/q:90/h:185/w:251/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTI2NzYx/Ny0xMzMwODI2NTg4/LmdpZg.jpeg"
+    },
+    {
+      "name": "A to Z Media",
+      "catno": "",
+      "entity_type": "10",
+      "entity_type_name": "Manufactured By",
+      "id": 441323,
+      "resource_url": "https://api.discogs.com/labels/441323",
+      "thumbnail_url": "https://i.discogs.com/l5jDaWiGNIFe8OmgoPPgJcvb8Kx4HdfQtZfsxgPttns/rs:fit/g:sm/q:90/h:375/w:375/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTQ0MTMy/My0xNTQ3NjcwMzI4/LTk5NjMuanBlZw.jpeg"
+    },
+    {
+      "name": "Zomax, Orem, UT",
+      "catno": "",
+      "entity_type": "17",
+      "entity_type_name": "Pressed By",
+      "id": 3768976,
+      "resource_url": "https://api.discogs.com/labels/3768976",
+      "thumbnail_url": "https://i.discogs.com/l5GuDysFpTUNFcnjgDb19kxRGeBgcXZgOSgZkkXgtcI/rs:fit/g:sm/q:90/h:599/w:594/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTM3Njg5/NzYtMTcyMTIyMzUw/NS02Njg1LmpwZWc.jpeg"
+    }
+  ],
+  "formats": [
+    {
+      "name": "CD",
+      "qty": "1",
+      "descriptions": ["Album"]
+    }
+  ],
+  "data_quality": "Needs Vote",
+  "community": {
+    "have": 260,
+    "want": 52,
+    "rating": {
+      "count": 27,
+      "average": 4.52
+    },
+    "submitter": {
+      "username": "BlackKommunion",
+      "resource_url": "https://api.discogs.com/users/BlackKommunion"
+    },
+    "contributors": [
+      {
+        "username": "BlackKommunion",
+        "resource_url": "https://api.discogs.com/users/BlackKommunion"
+      },
+      {
+        "username": "seppuku",
+        "resource_url": "https://api.discogs.com/users/seppuku"
+      },
+      {
+        "username": "The_Civilized_Worm",
+        "resource_url": "https://api.discogs.com/users/The_Civilized_Worm"
+      },
+      {
+        "username": "Myriad",
+        "resource_url": "https://api.discogs.com/users/Myriad"
+      },
+      {
+        "username": "Amsreddevil",
+        "resource_url": "https://api.discogs.com/users/Amsreddevil"
+      },
+      {
+        "username": "frippwashboard",
+        "resource_url": "https://api.discogs.com/users/frippwashboard"
+      },
+      {
+        "username": "Danthewhippet",
+        "resource_url": "https://api.discogs.com/users/Danthewhippet"
+      }
+    ],
+    "data_quality": "Needs Vote",
+    "status": "Accepted"
+  },
+  "format_quantity": 1,
+  "date_added": "2008-02-10T07:24:30-08:00",
+  "date_changed": "2024-11-20T15:35:35-08:00",
+  "num_for_sale": 13,
+  "lowest_price": 5.11,
+  "master_id": 245226,
+  "master_url": "https://api.discogs.com/masters/245226",
+  "title": "Hour Of 13",
+  "country": "US",
+  "released": "2007-12-03",
+  "notes": "On the back cover:\r\n℗ & © 2007 Shadow Kingdom Records.\r\n\r\nIn the booklet:\r\nRecorded between December 2006 and September 2007 at Epiphonic Studios in Lenoir, NC\r\nMastered at Studio B Mastering in Charlotte, NC",
+  "released_formatted": "03 Dec 2007",
+  "identifiers": [
+    {
+      "type": "Barcode",
+      "value": "6 16892 93852 1"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "MD01T9Yxx WWW.ATOZMEDIA.COM 01"
+    },
+    {
+      "type": "Mastering SID Code",
+      "value": "IFPI LL27"
+    },
+    {
+      "type": "Mould SID Code",
+      "value": "IFPI KZ05"
+    }
+  ],
+  "videos": [
+    {
+      "uri": "https://www.youtube.com/watch?v=0tzfXyFhEkc",
+      "title": "Hour of 13 (self-titled)",
+      "description": "Hour of 13 2007 Shadow Kingdom Records\nHeavy/Doom Metal (San Francisco, CA)\nhttps://hourof13official.bandcamp.com/album/hour-of-13\n☠️ ☠️ ☠️\n𝐀𝐥𝐥 𝐇𝐚𝐥𝐥𝐨𝐰'𝐬 𝐃𝐨𝐨𝐦 𝐑𝐚𝐫𝐢𝐭𝐢𝐞𝐬 (𝐏𝐭 ",
+      "duration": 2570,
+      "embed": true
+    }
+  ],
+  "genres": ["Rock"],
+  "styles": ["Doom Metal", "Heavy Metal"],
+  "tracklist": [
+    {
+      "position": "1",
+      "type_": "track",
+      "title": "Call To Satan",
+      "duration": ""
+    },
+    {
+      "position": "2",
+      "type_": "track",
+      "title": "Submissive To Evil",
+      "extraartists": [
+        {
+          "name": "Corey Leonard",
+          "anv": "",
+          "join": "",
+          "role": "Lead Guitar",
+          "tracks": "",
+          "id": 1125721,
+          "resource_url": "https://api.discogs.com/artists/1125721"
+        }
+      ],
+      "duration": ""
+    },
+    {
+      "position": "3",
+      "type_": "track",
+      "title": "The Correlation",
+      "duration": ""
+    },
+    {
+      "position": "4",
+      "type_": "track",
+      "title": "Endurement To The Heirs Of Shame",
+      "duration": ""
+    },
+    {
+      "position": "5",
+      "type_": "track",
+      "title": "Grim Reality",
+      "extraartists": [
+        {
+          "name": "Chad Davis",
+          "anv": "",
+          "join": "",
+          "role": "Lead Guitar",
+          "tracks": "",
+          "id": 847107,
+          "resource_url": "https://api.discogs.com/artists/847107"
+        }
+      ],
+      "duration": ""
+    },
+    {
+      "position": "6",
+      "type_": "track",
+      "title": "Hex Of Harm",
+      "extraartists": [
+        {
+          "name": "Corey Leonard",
+          "anv": "",
+          "join": "",
+          "role": "Guitar [Guitar Themes]",
+          "tracks": "",
+          "id": 1125721,
+          "resource_url": "https://api.discogs.com/artists/1125721"
+        }
+      ],
+      "duration": ""
+    },
+    {
+      "position": "7",
+      "type_": "track",
+      "title": "Allowance Of Sin",
+      "extraartists": [
+        {
+          "name": "Corey Leonard",
+          "anv": "",
+          "join": "",
+          "role": "Lead Guitar",
+          "tracks": "",
+          "id": 1125721,
+          "resource_url": "https://api.discogs.com/artists/1125721"
+        }
+      ],
+      "duration": ""
+    },
+    {
+      "position": "8",
+      "type_": "track",
+      "title": "Missing Girl",
+      "duration": ""
+    }
+  ],
+  "extraartists": [
+    {
+      "name": "Corey Leonard",
+      "anv": "",
+      "join": "",
+      "role": "Engineer",
+      "tracks": "",
+      "id": 1125721,
+      "resource_url": "https://api.discogs.com/artists/1125721"
+    },
+    {
+      "name": "Phil Swanson",
+      "anv": "",
+      "join": "",
+      "role": "Lyrics By, Arranged By [Vocal Arrangements], Vocals [Melodies]",
+      "tracks": "",
+      "id": 1125719,
+      "resource_url": "https://api.discogs.com/artists/1125719"
+    },
+    {
+      "name": "Corey Leonard",
+      "anv": "",
+      "join": "",
+      "role": "Mixed By",
+      "tracks": "",
+      "id": 1125721,
+      "resource_url": "https://api.discogs.com/artists/1125721"
+    },
+    {
+      "name": "Hour Of 13",
+      "anv": "",
+      "join": "",
+      "role": "Mixed By",
+      "tracks": "",
+      "id": 1039914,
+      "resource_url": "https://api.discogs.com/artists/1039914"
+    },
+    {
+      "name": "Chad Davis",
+      "anv": "",
+      "join": "",
+      "role": "Songwriter [All Songwriting], Guitar, Bass, Drums, Guitar [Themes]",
+      "tracks": "",
+      "id": 847107,
+      "resource_url": "https://api.discogs.com/artists/847107"
+    }
+  ],
+  "images": [
+    {
+      "type": "primary",
+      "uri": "https://i.discogs.com/GhcViVdVoHXb0Uh4l0qK6Djfvg2KhTPtEwj6E5sfM0k/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMjcy/MjctMTQwMjM3Mzkw/OS0xODgxLmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/GhcViVdVoHXb0Uh4l0qK6Djfvg2KhTPtEwj6E5sfM0k/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMjcy/MjctMTQwMjM3Mzkw/OS0xODgxLmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/NRr1pTFLVZ7CS8SbduRmVKPxVlV4esUE5jOTTnqQUAs/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMjcy/MjctMTQwMjM3Mzkw/OS0xODgxLmpwZWc.jpeg",
+      "width": 600,
+      "height": 598
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/GUrHp3L3d-EoVRO0mFSTa2TnaturU7K5hJmWAr3WGeQ/rs:fit/g:sm/q:90/h:472/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMjcy/MjctMTQwMjM3NDU1/NS03ODA2LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/GUrHp3L3d-EoVRO0mFSTa2TnaturU7K5hJmWAr3WGeQ/rs:fit/g:sm/q:90/h:472/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMjcy/MjctMTQwMjM3NDU1/NS03ODA2LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/2Ey8rxe4-PTDeE3NTklbG_C8WvFkhMyGS8cMnKBMifQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMjcy/MjctMTQwMjM3NDU1/NS03ODA2LmpwZWc.jpeg",
+      "width": 600,
+      "height": 472
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/yZmqDoB2u_0pWN1OdBNiBr7a3qyZSMWxA5ugzpOIq3A/rs:fit/g:sm/q:90/h:600/w:595/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMjcy/MjctMTQwMjM3NDU1/Ni02MjIyLmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/yZmqDoB2u_0pWN1OdBNiBr7a3qyZSMWxA5ugzpOIq3A/rs:fit/g:sm/q:90/h:600/w:595/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMjcy/MjctMTQwMjM3NDU1/Ni02MjIyLmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/Uf2sh0RPjOcZTXSTTNFHN1N3BihbruEUA_wHLxtJq0M/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMjcy/MjctMTQwMjM3NDU1/Ni02MjIyLmpwZWc.jpeg",
+      "width": 595,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/x7uIc-IvOer-gyVc6lp4TsRTEtVRG8-vlGppql53AQg/rs:fit/g:sm/q:90/h:594/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMjcy/MjctMTQwMjM3NDU2/My03OTQ3LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/x7uIc-IvOer-gyVc6lp4TsRTEtVRG8-vlGppql53AQg/rs:fit/g:sm/q:90/h:594/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMjcy/MjctMTQwMjM3NDU2/My03OTQ3LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/CSbL61_4PZc_UgfBOY2cF62pN4gkJ_LRc3FOHDtFvfc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMjcy/MjctMTQwMjM3NDU2/My03OTQ3LmpwZWc.jpeg",
+      "width": 600,
+      "height": 594
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/mONuLEFAFfRKbOgEzG_5gvbYuDz-hT4MshMvAJbsz9E/rs:fit/g:sm/q:90/h:593/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMjcy/MjctMTQwMjM3NDU2/NS03NDQ4LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/mONuLEFAFfRKbOgEzG_5gvbYuDz-hT4MshMvAJbsz9E/rs:fit/g:sm/q:90/h:593/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMjcy/MjctMTQwMjM3NDU2/NS03NDQ4LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/5rWwOcXBeijacY2nif6pEBSGV_bGmYAuOjlOheHT81c/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMjcy/MjctMTQwMjM3NDU2/NS03NDQ4LmpwZWc.jpeg",
+      "width": 600,
+      "height": 593
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/SkeXUNaM_mZnmcA6i_xf12qAZYCvvoNQyuiBeRB1beI/rs:fit/g:sm/q:90/h:592/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMjcy/MjctMTQwMjM3NDYw/OC02OTI3LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/SkeXUNaM_mZnmcA6i_xf12qAZYCvvoNQyuiBeRB1beI/rs:fit/g:sm/q:90/h:592/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMjcy/MjctMTQwMjM3NDYw/OC02OTI3LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/h0xvTPeQTVIGuM-v3JAySwlbavExAyhI7wyVX7qK0gw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMjcy/MjctMTQwMjM3NDYw/OC02OTI3LmpwZWc.jpeg",
+      "width": 600,
+      "height": 592
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/aQ7EPJZjg0dyEjGAP2cdHLnY_ea6CBwNjzeJG9-QpOg/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMjcy/MjctMTQwMjM3NDYx/My01NDk2LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/aQ7EPJZjg0dyEjGAP2cdHLnY_ea6CBwNjzeJG9-QpOg/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMjcy/MjctMTQwMjM3NDYx/My01NDk2LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/izBC0X0GTH8gmjTcI9dOioyyAE5hdO3aH7gGMJJ_wHY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMjcy/MjctMTQwMjM3NDYx/My01NDk2LmpwZWc.jpeg",
+      "width": 600,
+      "height": 596
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/s9bxhMPRAj1ARQ2h8zn_3I0aN3MxyV6FSWlaxYP_HWw/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMjcy/MjctMTQwMjM3NDYx/Ni0yNzA5LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/s9bxhMPRAj1ARQ2h8zn_3I0aN3MxyV6FSWlaxYP_HWw/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMjcy/MjctMTQwMjM3NDYx/Ni0yNzA5LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/nZy5LBQsINIWuoRpWc441kV-qQsKePweS-HEbR2LVzs/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMjcy/MjctMTQwMjM3NDYx/Ni0yNzA5LmpwZWc.jpeg",
+      "width": 600,
+      "height": 596
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/JLFftUIOBFobSEuJDlFuZhc00ye0dY0TMZSM1EDekPg/rs:fit/g:sm/q:90/h:583/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMjcy/MjctMTQwMjM3NDYx/OC01ODg4LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/JLFftUIOBFobSEuJDlFuZhc00ye0dY0TMZSM1EDekPg/rs:fit/g:sm/q:90/h:583/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMjcy/MjctMTQwMjM3NDYx/OC01ODg4LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/meCxkK5sbxoMMnLOmpmVVveHBKQRcGokZqfDIfZ5oYI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMjcy/MjctMTQwMjM3NDYx/OC01ODg4LmpwZWc.jpeg",
+      "width": 600,
+      "height": 583
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/y7g1Xb4uUU7Jo7kucgLOJws_TSNo9FJD1hGjqJGouWs/rs:fit/g:sm/q:90/h:600/w:599/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMjcy/MjctMTQwMjM3NDU2/MS02NzAxLmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/y7g1Xb4uUU7Jo7kucgLOJws_TSNo9FJD1hGjqJGouWs/rs:fit/g:sm/q:90/h:600/w:599/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMjcy/MjctMTQwMjM3NDU2/MS02NzAxLmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/D4939Lg4mtNdaIec4c05EESg5X4PCcfYw0-ir1BsXhA/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMjcy/MjctMTQwMjM3NDU2/MS02NzAxLmpwZWc.jpeg",
+      "width": 599,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/ylWQAMg13O4bR8yS7DReieNIlFqSKn-oWgW3xAGMHoc/rs:fit/g:sm/q:90/h:471/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMjcy/MjctMTQwMjM3NDYy/MC0zNjExLmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/ylWQAMg13O4bR8yS7DReieNIlFqSKn-oWgW3xAGMHoc/rs:fit/g:sm/q:90/h:471/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMjcy/MjctMTQwMjM3NDYy/MC0zNjExLmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/FeJB2IAZ2r_KvYqciIArwLH4fgg6UKjqMbDA_irFA2w/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMjcy/MjctMTQwMjM3NDYy/MC0zNjExLmpwZWc.jpeg",
+      "width": 600,
+      "height": 471
+    }
+  ],
+  "thumb": "https://i.discogs.com/NRr1pTFLVZ7CS8SbduRmVKPxVlV4esUE5jOTTnqQUAs/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMjcy/MjctMTQwMjM3Mzkw/OS0xODgxLmpwZWc.jpeg",
+  "estimated_weight": 85,
+  "blocked_from_sale": false,
+  "is_offensive": false
+}

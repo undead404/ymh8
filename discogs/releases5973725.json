@@ -1,0 +1,230 @@
+{
+  "id": 5973725,
+  "status": "Accepted",
+  "year": 1978,
+  "resource_url": "https://api.discogs.com/releases/5973725",
+  "uri": "https://www.discogs.com/release/5973725-Black-Sabbath-Never-Say-Die",
+  "artists": [
+    {
+      "name": "Black Sabbath",
+      "anv": "",
+      "join": "",
+      "role": "",
+      "tracks": "",
+      "id": 144998,
+      "resource_url": "https://api.discogs.com/artists/144998",
+      "thumbnail_url": "https://i.discogs.com/Cmw5vVHa8YTjAizq1xI_KZia-ZmgGZJa0hOd8tTl37w/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE0NDk5/OC0xNTg0OTkyNjIz/LTU2NjAuanBlZw.jpeg"
+    }
+  ],
+  "artists_sort": "Black Sabbath",
+  "labels": [
+    {
+      "name": "Vertigo",
+      "catno": "60 79 103",
+      "entity_type": "1",
+      "entity_type_name": "Label",
+      "id": 2266,
+      "resource_url": "https://api.discogs.com/labels/2266",
+      "thumbnail_url": "https://i.discogs.com/IXD4UNEl2ua_UhW-rwh3CbuGDQdNcF36aczeSH3P3f8/rs:fit/g:sm/q:90/h:600/w:493/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTIyNjYt/MTU4MjM3NjUxMy03/NDQzLnBuZw.jpeg"
+    }
+  ],
+  "series": [],
+  "companies": [
+    {
+      "name": "Fonogram, S.A.",
+      "catno": "",
+      "entity_type": "9",
+      "entity_type_name": "Distributed By",
+      "id": 295886,
+      "resource_url": "https://api.discogs.com/labels/295886",
+      "thumbnail_url": "https://i.discogs.com/m1z5EX_mEmwthIVs0Y5_Jks_pZjFlI_rt6UTD2pQjdY/rs:fit/g:sm/q:90/h:319/w:319/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTI5NTg4/Ni0xMzk5MjgwNzYy/LTEwODcuanBlZw.jpeg"
+    },
+    {
+      "name": "Fonogram, S.A.",
+      "catno": "",
+      "entity_type": "10",
+      "entity_type_name": "Manufactured By",
+      "id": 295886,
+      "resource_url": "https://api.discogs.com/labels/295886",
+      "thumbnail_url": "https://i.discogs.com/m1z5EX_mEmwthIVs0Y5_Jks_pZjFlI_rt6UTD2pQjdY/rs:fit/g:sm/q:90/h:319/w:319/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTI5NTg4/Ni0xMzk5MjgwNzYy/LTEwODcuanBlZw.jpeg"
+    }
+  ],
+  "formats": [
+    {
+      "name": "Vinyl",
+      "qty": "1",
+      "descriptions": ["7\"", "45 RPM", "Single"]
+    }
+  ],
+  "data_quality": "Needs Vote",
+  "community": {
+    "have": 37,
+    "want": 89,
+    "rating": {
+      "count": 5,
+      "average": 4.2
+    },
+    "submitter": {
+      "username": "larskvernberg",
+      "resource_url": "https://api.discogs.com/users/larskvernberg"
+    },
+    "contributors": [
+      {
+        "username": "larskvernberg",
+        "resource_url": "https://api.discogs.com/users/larskvernberg"
+      },
+      {
+        "username": "mannypig6",
+        "resource_url": "https://api.discogs.com/users/mannypig6"
+      },
+      {
+        "username": "ksdfjsldfj",
+        "resource_url": "https://api.discogs.com/users/ksdfjsldfj"
+      },
+      {
+        "username": "VoittoAnkka",
+        "resource_url": "https://api.discogs.com/users/VoittoAnkka"
+      },
+      {
+        "username": "shiremen",
+        "resource_url": "https://api.discogs.com/users/shiremen"
+      },
+      {
+        "username": "Maherto",
+        "resource_url": "https://api.discogs.com/users/Maherto"
+      }
+    ],
+    "data_quality": "Needs Vote",
+    "status": "Accepted"
+  },
+  "format_quantity": 1,
+  "date_added": "2014-08-11T12:02:37-07:00",
+  "date_changed": "2019-05-24T00:41:31-07:00",
+  "num_for_sale": 6,
+  "lowest_price": 32.38,
+  "master_id": 5875,
+  "master_url": "https://api.discogs.com/masters/5875",
+  "title": "Never Say Die",
+  "country": "Spain",
+  "released": "1978",
+  "notes": "(P) 1978\r\n\r\nAt least some copies had the labels switched ie. side that says Never Say Die plays She's Gone and vice versa.",
+  "released_formatted": "1978",
+  "identifiers": [
+    {
+      "type": "Matrix / Runout",
+      "value": "850 6079103*A*1 (misprinted as B*1 and printed over)",
+      "description": "Machine stamped in run-out area A-side"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "8500 6079103*B*1",
+      "description": "Machine stamped in run-out area B-side"
+    },
+    {
+      "type": "Rights Society",
+      "value": "SGAE"
+    },
+    {
+      "type": "Depósito Legal",
+      "value": "M.29862-1978"
+    },
+    {
+      "type": "Price Code",
+      "value": "GT01",
+      "description": "On front sleeve"
+    },
+    {
+      "type": "Other",
+      "value": "Permiso Num. 6.421",
+      "description": "Impuesto de Lujo a Metalico"
+    }
+  ],
+  "videos": [
+    {
+      "uri": "https://www.youtube.com/watch?v=Ts54T3e4T84",
+      "title": "Black Sabbath - Never Say Die (HQ)",
+      "description": "Track From \"Never Say Die\" Album\n1978\nAll Rights Reserved \nBlack Sabbath \n℗Warner Records",
+      "duration": 229,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=uDELg7qaFyw",
+      "title": "BLACK SABBATH - \"Never Say Die\" (Live Video)",
+      "description": "Black Sabbath performing \"Never Say Die\" live on June 19, 1978 at London's Hammersmith Odeon.\n\nTaken from the \"Never Say Die\" dvd available at http://www.amazon.com/Black-Sabbath-Never-Live-1978/dp/B00008DDH5\n\nFacebook: http://www.facebook.com/BlackSabbat",
+      "duration": 296,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=rpt3XO_Z9mI",
+      "title": "She's Gone (2021 Remaster)",
+      "description": "Provided to YouTube by Sanctuary Records\n\nShe's Gone (2021 Remaster) · Black Sabbath\n\nTechnical Ecstasy\n\n℗ 2021 Sanctuary Records Group Ltd., a BMG Company\n\nReleased on: 1976-09-25\n\nLead  Vocals: Ozzy Osbourne\nGuitar: Tony Iommi\nBass  Guitar: Geezer Butle",
+      "duration": 291,
+      "embed": true
+    }
+  ],
+  "genres": ["Rock"],
+  "styles": ["Hard Rock", "Classic Rock"],
+  "tracklist": [
+    {
+      "position": "A",
+      "type_": "track",
+      "title": "Never Say Die",
+      "duration": "3:40"
+    },
+    {
+      "position": "B",
+      "type_": "track",
+      "title": "She's Gone",
+      "duration": "4:42"
+    }
+  ],
+  "extraartists": [
+    {
+      "name": "Black Sabbath",
+      "anv": "",
+      "join": "",
+      "role": "Producer, Written-By",
+      "tracks": "",
+      "id": 144998,
+      "resource_url": "https://api.discogs.com/artists/144998"
+    }
+  ],
+  "images": [
+    {
+      "type": "primary",
+      "uri": "https://i.discogs.com/_S3MRR0VnmuVPcTh5zoIuSOHIV5te7QrhZ4aXCxw07M/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU5NzM3/MjUtMTQxOTQxNzEx/Ny0zNTA3LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/_S3MRR0VnmuVPcTh5zoIuSOHIV5te7QrhZ4aXCxw07M/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU5NzM3/MjUtMTQxOTQxNzEx/Ny0zNTA3LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/MtOQyZ17J6LwEtECkMAnvTitB9rdqN4irwjJqd1tBJE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU5NzM3/MjUtMTQxOTQxNzEx/Ny0zNTA3LmpwZWc.jpeg",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/itceZjlByBGouSEeGMQ7h4dV34tYS6SHRlzX3J8Dx5E/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU5NzM3/MjUtMTQxOTQxNzEx/OS02ODk3LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/itceZjlByBGouSEeGMQ7h4dV34tYS6SHRlzX3J8Dx5E/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU5NzM3/MjUtMTQxOTQxNzEx/OS02ODk3LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/s2PAzdDe6V8XIrZkOyxPNrqcV-vW4uUsU6hWR3Bpsz4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU5NzM3/MjUtMTQxOTQxNzEx/OS02ODk3LmpwZWc.jpeg",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/0nGhO_hKQq0ifpI-J11AIbFDrzpU0h_fe4upKEoASvc/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU5NzM3/MjUtMTQxOTQxNzEx/OS02NjI5LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/0nGhO_hKQq0ifpI-J11AIbFDrzpU0h_fe4upKEoASvc/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU5NzM3/MjUtMTQxOTQxNzEx/OS02NjI5LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/bai0Lbteyrk3O78vKZJGh6J6R_t6iuxR0eHtblTVbBk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU5NzM3/MjUtMTQxOTQxNzEx/OS02NjI5LmpwZWc.jpeg",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/kMS2VcN7Dv52lEE9Ikq-9TxEf3Fsd_3pwjPTTA88GeY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU5NzM3/MjUtMTQxOTQxNzEx/OS0yNzExLmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/kMS2VcN7Dv52lEE9Ikq-9TxEf3Fsd_3pwjPTTA88GeY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU5NzM3/MjUtMTQxOTQxNzEx/OS0yNzExLmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/fTyXUvQNT4UtdB3fdNjI1XHe9jRA8p904UfNiDapFq8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU5NzM3/MjUtMTQxOTQxNzEx/OS0yNzExLmpwZWc.jpeg",
+      "width": 600,
+      "height": 600
+    }
+  ],
+  "thumb": "https://i.discogs.com/MtOQyZ17J6LwEtECkMAnvTitB9rdqN4irwjJqd1tBJE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU5NzM3/MjUtMTQxOTQxNzEx/Ny0zNTA3LmpwZWc.jpeg",
+  "estimated_weight": 230,
+  "blocked_from_sale": false,
+  "is_offensive": false
+}

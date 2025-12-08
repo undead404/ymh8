@@ -1,0 +1,300 @@
+{
+  "id": 3482101,
+  "status": "Accepted",
+  "year": 1984,
+  "resource_url": "https://api.discogs.com/releases/3482101",
+  "uri": "https://www.discogs.com/release/3482101-Pentagram-Pentagram",
+  "artists": [
+    {
+      "name": "Pentagram",
+      "anv": "",
+      "join": "",
+      "role": "",
+      "tracks": "",
+      "id": 275370,
+      "resource_url": "https://api.discogs.com/artists/275370",
+      "thumbnail_url": "https://i.discogs.com/guQscJ3BilJw4dkahHdC1v59KZJrB9A6mcQnysnV5a8/rs:fit/g:sm/q:90/h:544/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI3NTM3/MC0xNzMwMjM3NDMz/LTk3NjcuanBlZw.jpeg"
+    }
+  ],
+  "artists_sort": "Pentagram",
+  "labels": [
+    {
+      "name": "Pentagram Records (2)",
+      "catno": "Devil4",
+      "entity_type": "1",
+      "entity_type_name": "Label",
+      "id": 125376,
+      "resource_url": "https://api.discogs.com/labels/125376",
+      "thumbnail_url": "https://i.discogs.com/drm4y7IGgVvXeTExswgrqcAMlexJG3aeqjH8q-7YPHU/rs:fit/g:sm/q:90/h:63/w:340/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTEyNTM3/Ni0xMzQwNjM5NTY5/LTY5ODcuanBlZw.jpeg"
+    }
+  ],
+  "series": [],
+  "companies": [],
+  "formats": [
+    {
+      "name": "Vinyl",
+      "qty": "1",
+      "descriptions": ["LP", "Test Pressing", "White Label"]
+    }
+  ],
+  "data_quality": "Needs Vote",
+  "community": {
+    "have": 5,
+    "want": 373,
+    "rating": {
+      "count": 3,
+      "average": 5
+    },
+    "submitter": {
+      "username": "outlawrecordings",
+      "resource_url": "https://api.discogs.com/users/outlawrecordings"
+    },
+    "contributors": [
+      {
+        "username": "outlawrecordings",
+        "resource_url": "https://api.discogs.com/users/outlawrecordings"
+      },
+      {
+        "username": "gogoNicola",
+        "resource_url": "https://api.discogs.com/users/gogoNicola"
+      },
+      {
+        "username": "vokuhila",
+        "resource_url": "https://api.discogs.com/users/vokuhila"
+      }
+    ],
+    "data_quality": "Needs Vote",
+    "status": "Accepted"
+  },
+  "format_quantity": 1,
+  "date_added": "2012-03-18T17:28:22-07:00",
+  "date_changed": "2017-09-20T21:58:42-07:00",
+  "num_for_sale": 0,
+  "lowest_price": null,
+  "master_id": 62012,
+  "master_url": "https://api.discogs.com/masters/62012",
+  "title": "Pentagram",
+  "country": "US",
+  "released": "1984",
+  "notes": "White label test pressing of original Pentagram Records release. Some copies came with info sheet.",
+  "released_formatted": "1984",
+  "identifiers": [
+    {
+      "type": "Matrix / Runout",
+      "value": "DEVIL-4-A1"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "DEVIL-4-B1"
+    }
+  ],
+  "videos": [
+    {
+      "uri": "https://www.youtube.com/watch?v=HEzJdW5wCb0",
+      "title": "Pentagram - Relentless (1993) Full Album, US Doom Metal, Peaceville Records",
+      "description": "00:00 Death Row\n04:09 All Your Sins\n08:44 Sign Of The Wolf\n11:51 The Ghoul\n17:02 Relentless\n20:48 Run My Course\n23:31 Sinister\n28:01 The Deist\n31:35 You're Lost I'm Free\n33:50 Dying World\n37:47 20 Buck Spin\n\nIf you want this release removed, then please j",
+      "duration": 0,
+      "embed": true
+    }
+  ],
+  "genres": ["Rock"],
+  "styles": ["Doom Metal", "Heavy Metal"],
+  "tracklist": [
+    {
+      "position": "A1",
+      "type_": "track",
+      "title": "Relentless",
+      "duration": "3:55"
+    },
+    {
+      "position": "A2",
+      "type_": "track",
+      "title": "Sign Of The Wolf (Pentagram)",
+      "duration": "3:15"
+    },
+    {
+      "position": "A3",
+      "type_": "track",
+      "title": "All Your Sins",
+      "duration": "4:40"
+    },
+    {
+      "position": "A4",
+      "type_": "track",
+      "title": "Run My Course",
+      "duration": "2:42"
+    },
+    {
+      "position": "A5",
+      "type_": "track",
+      "title": "Death Row",
+      "duration": "4:22"
+    },
+    {
+      "position": "B1",
+      "type_": "track",
+      "title": "Dying World",
+      "duration": "3:36"
+    },
+    {
+      "position": "B2",
+      "type_": "track",
+      "title": "The Ghoul",
+      "duration": "5:24"
+    },
+    {
+      "position": "B3",
+      "type_": "track",
+      "title": "You're Lost, I'm Free",
+      "duration": "2:15"
+    },
+    {
+      "position": "B4",
+      "type_": "track",
+      "title": "The Deist",
+      "duration": "3:46"
+    },
+    {
+      "position": "B5",
+      "type_": "track",
+      "title": "Sinister",
+      "duration": "4:30"
+    },
+    {
+      "position": "B6",
+      "type_": "track",
+      "title": "20 Buck Spin",
+      "duration": "4:30"
+    }
+  ],
+  "extraartists": [
+    {
+      "name": "Martin Swaney",
+      "anv": "Martin Swany",
+      "join": "",
+      "role": "Bass",
+      "tracks": "",
+      "id": 568438,
+      "resource_url": "https://api.discogs.com/artists/568438"
+    },
+    {
+      "name": "Joe Hasselvander",
+      "anv": "",
+      "join": "",
+      "role": "Drums",
+      "tracks": "",
+      "id": 557909,
+      "resource_url": "https://api.discogs.com/artists/557909"
+    },
+    {
+      "name": "Victor Griffin",
+      "anv": "",
+      "join": "",
+      "role": "Guitar",
+      "tracks": "",
+      "id": 557908,
+      "resource_url": "https://api.discogs.com/artists/557908"
+    },
+    {
+      "name": "Don Fetterman",
+      "anv": "",
+      "join": "",
+      "role": "Mixed By",
+      "tracks": "",
+      "id": 1262937,
+      "resource_url": "https://api.discogs.com/artists/1262937"
+    },
+    {
+      "name": "Tom Lyle",
+      "anv": "",
+      "join": "",
+      "role": "Producer",
+      "tracks": "",
+      "id": 454906,
+      "resource_url": "https://api.discogs.com/artists/454906"
+    },
+    {
+      "name": "Bob Dunbar",
+      "anv": "",
+      "join": "",
+      "role": "Recorded By",
+      "tracks": "",
+      "id": 351800,
+      "resource_url": "https://api.discogs.com/artists/351800"
+    },
+    {
+      "name": "Bobby Liebling",
+      "anv": "",
+      "join": "",
+      "role": "Vocals",
+      "tracks": "",
+      "id": 568439,
+      "resource_url": "https://api.discogs.com/artists/568439"
+    },
+    {
+      "name": "Bobby Liebling",
+      "anv": "",
+      "join": "",
+      "role": "Written-By",
+      "tracks": "A2 to A4, B2, B3, B6",
+      "id": 568439,
+      "resource_url": "https://api.discogs.com/artists/568439"
+    },
+    {
+      "name": "Joe Hasselvander",
+      "anv": "",
+      "join": "",
+      "role": "Written-By",
+      "tracks": "B2",
+      "id": 557909,
+      "resource_url": "https://api.discogs.com/artists/557909"
+    },
+    {
+      "name": "Victor Griffin",
+      "anv": "",
+      "join": "",
+      "role": "Written-By",
+      "tracks": "A1, A3, A5 to B5",
+      "id": 557908,
+      "resource_url": "https://api.discogs.com/artists/557908"
+    }
+  ],
+  "images": [
+    {
+      "type": "primary",
+      "uri": "https://i.discogs.com/dVAe1uFVxNsXUPtoCb13uTPTrCnbnNTPh1B4lsR3bC4/rs:fit/g:sm/q:90/h:600/w:461/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0ODIx/MDEtMTMzMjExNjc2/OC5qcGVn.jpeg",
+      "resource_url": "https://i.discogs.com/dVAe1uFVxNsXUPtoCb13uTPTrCnbnNTPh1B4lsR3bC4/rs:fit/g:sm/q:90/h:600/w:461/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0ODIx/MDEtMTMzMjExNjc2/OC5qcGVn.jpeg",
+      "uri150": "https://i.discogs.com/n13UhG-m_5GbEO05sjonmKGdqbYOBgK0j5mx3v7v5Uw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0ODIx/MDEtMTMzMjExNjc2/OC5qcGVn.jpeg",
+      "width": 461,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/VAoP1gLVG2pTMaqWil7AGRj4G3UKwv3KWnSAAMH5iI0/rs:fit/g:sm/q:90/h:200/w:197/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0ODIx/MDEtMTMzMjExNjUy/MS5qcGVn.jpeg",
+      "resource_url": "https://i.discogs.com/VAoP1gLVG2pTMaqWil7AGRj4G3UKwv3KWnSAAMH5iI0/rs:fit/g:sm/q:90/h:200/w:197/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0ODIx/MDEtMTMzMjExNjUy/MS5qcGVn.jpeg",
+      "uri150": "https://i.discogs.com/OnwOCcEa0hpIhl0fwjIUg6-Io6k4b-1OtDWDai0v950/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0ODIx/MDEtMTMzMjExNjUy/MS5qcGVn.jpeg",
+      "width": 197,
+      "height": 200
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/7zoLf6fLcRjPKghGBwcOiQXwPnv5SzoQwKfuxhyoDnk/rs:fit/g:sm/q:90/h:600/w:494/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0ODIx/MDEtMTQ4NTM4NTEy/OS01NjAxLmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/7zoLf6fLcRjPKghGBwcOiQXwPnv5SzoQwKfuxhyoDnk/rs:fit/g:sm/q:90/h:600/w:494/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0ODIx/MDEtMTQ4NTM4NTEy/OS01NjAxLmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/J5rdhhD9d6QjTqDJHgB1bI3vS9rPe-16N5cSJ95JEVc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0ODIx/MDEtMTQ4NTM4NTEy/OS01NjAxLmpwZWc.jpeg",
+      "width": 494,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/nCUvVwtlRJiVN4pl8lHpZp1vFtiAzA-zurYDL4lr_lU/rs:fit/g:sm/q:90/h:600/w:450/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0ODIx/MDEtMTQ4NTM4NTI4/MC03NDg2LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/nCUvVwtlRJiVN4pl8lHpZp1vFtiAzA-zurYDL4lr_lU/rs:fit/g:sm/q:90/h:600/w:450/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0ODIx/MDEtMTQ4NTM4NTI4/MC03NDg2LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/oXDuWW7Pr_Hb1QdDf-ZjYpYP-ykrZDdzmiOPGC106YM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0ODIx/MDEtMTQ4NTM4NTI4/MC03NDg2LmpwZWc.jpeg",
+      "width": 450,
+      "height": 600
+    }
+  ],
+  "thumb": "https://i.discogs.com/n13UhG-m_5GbEO05sjonmKGdqbYOBgK0j5mx3v7v5Uw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0ODIx/MDEtMTMzMjExNjc2/OC5qcGVn.jpeg",
+  "estimated_weight": 230,
+  "blocked_from_sale": false,
+  "is_offensive": false
+}

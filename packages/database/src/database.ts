@@ -25,6 +25,11 @@ export default class Database {
     return result;
   }
 
+  async count(sql: string | SqlStatement, parameters?: unknown[]) {
+    const result = await this.query(sql, parameters);
+    return result.rows.length;
+  }
+
   async queryOne<T>(
     schema: v.BaseSchema<unknown, T, v.BaseIssue<unknown>>,
     sql: string | SqlStatement,

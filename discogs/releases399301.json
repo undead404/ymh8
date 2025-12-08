@@ -1,0 +1,333 @@
+{
+  "id": 399301,
+  "status": "Accepted",
+  "year": 2002,
+  "resource_url": "https://api.discogs.com/releases/399301",
+  "uri": "https://www.discogs.com/release/399301-DoomSword-Resound-The-Horn",
+  "artists": [
+    {
+      "name": "DoomSword",
+      "anv": "",
+      "join": "",
+      "role": "",
+      "tracks": "",
+      "id": 274119,
+      "resource_url": "https://api.discogs.com/artists/274119",
+      "thumbnail_url": "https://i.discogs.com/SxcxpuoIJ_o3i8p3W5n89cWi-pWBKpbH0FG9vxAD7lg/rs:fit/g:sm/q:90/h:435/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI3NDEx/OS0xMTI3ODE3OTAx/LmpwZWc.jpeg"
+    }
+  ],
+  "artists_sort": "DoomSword",
+  "labels": [
+    {
+      "name": "Dragonheart",
+      "catno": "CHAOS 018CD",
+      "entity_type": "1",
+      "entity_type_name": "Label",
+      "id": 34699,
+      "resource_url": "https://api.discogs.com/labels/34699",
+      "thumbnail_url": "https://i.discogs.com/G1ITdfy5IglXUoAWGp32tQU0oYXOn9D4ZbF5WzRv3jE/rs:fit/g:sm/q:90/h:192/w:382/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTM0Njk5/LTExNTc0ODE5Mzcu/anBlZw.jpeg"
+    }
+  ],
+  "series": [],
+  "companies": [
+    {
+      "name": "SPV GmbH",
+      "catno": "SPV 085-148272",
+      "entity_type": "9",
+      "entity_type_name": "Distributed By",
+      "id": 96109,
+      "resource_url": "https://api.discogs.com/labels/96109",
+      "thumbnail_url": "https://i.discogs.com/B1CxPOvE6wwhWm9uawIG6i-a9kj_K8wZMXRSDtCzPJg/rs:fit/g:sm/q:90/h:420/w:420/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTk2MTA5/LTE1MTYyOTc1Nzgt/MTc3Ni5wbmc.jpeg"
+    },
+    {
+      "name": "Dragonheart",
+      "catno": "",
+      "entity_type": "13",
+      "entity_type_name": "Phonographic Copyright (p)",
+      "id": 34699,
+      "resource_url": "https://api.discogs.com/labels/34699",
+      "thumbnail_url": "https://i.discogs.com/G1ITdfy5IglXUoAWGp32tQU0oYXOn9D4ZbF5WzRv3jE/rs:fit/g:sm/q:90/h:192/w:382/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTM0Njk5/LTExNTc0ODE5Mzcu/anBlZw.jpeg"
+    },
+    {
+      "name": "Audioglobe srl",
+      "catno": "",
+      "entity_type": "13",
+      "entity_type_name": "Phonographic Copyright (p)",
+      "id": 315522,
+      "resource_url": "https://api.discogs.com/labels/315522",
+      "thumbnail_url": "https://i.discogs.com/QdjegH-r8KnT4wjvnukZf9nISAI4UEBwhhhEIuH3M_U/rs:fit/g:sm/q:90/h:295/w:295/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTMxNTUy/Mi0xNTI3NzY4NzY2/LTE5NDEuanBlZw.jpeg"
+    },
+    {
+      "name": "Dragonheart",
+      "catno": "",
+      "entity_type": "14",
+      "entity_type_name": "Copyright (c)",
+      "id": 34699,
+      "resource_url": "https://api.discogs.com/labels/34699",
+      "thumbnail_url": "https://i.discogs.com/G1ITdfy5IglXUoAWGp32tQU0oYXOn9D4ZbF5WzRv3jE/rs:fit/g:sm/q:90/h:192/w:382/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTM0Njk5/LTExNTc0ODE5Mzcu/anBlZw.jpeg"
+    },
+    {
+      "name": "Audioglobe srl",
+      "catno": "",
+      "entity_type": "14",
+      "entity_type_name": "Copyright (c)",
+      "id": 315522,
+      "resource_url": "https://api.discogs.com/labels/315522",
+      "thumbnail_url": "https://i.discogs.com/QdjegH-r8KnT4wjvnukZf9nISAI4UEBwhhhEIuH3M_U/rs:fit/g:sm/q:90/h:295/w:295/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTMxNTUy/Mi0xNTI3NzY4NzY2/LTE5NDEuanBlZw.jpeg"
+    },
+    {
+      "name": "Kizmaiaz Edizioni Musicali srl",
+      "catno": "",
+      "entity_type": "21",
+      "entity_type_name": "Published By",
+      "id": 323090,
+      "resource_url": "https://api.discogs.com/labels/323090"
+    },
+    {
+      "name": "Sony DADC",
+      "catno": "A0100412379-0101",
+      "entity_type": "31",
+      "entity_type_name": "Glass Mastered At",
+      "id": 34825,
+      "resource_url": "https://api.discogs.com/labels/34825",
+      "thumbnail_url": "https://i.discogs.com/7DjrRpIWCovna7blofbuu7GhWdoIMOw6tDiOFn3keXk/rs:fit/g:sm/q:90/h:200/w:200/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTM0ODI1/LTE2ODM0NzA2MzYt/MzcyMi5qcGVn.jpeg"
+    }
+  ],
+  "formats": [
+    {
+      "name": "CD",
+      "qty": "1",
+      "descriptions": ["Album"],
+      "text": "Digipack"
+    }
+  ],
+  "data_quality": "Correct",
+  "community": {
+    "have": 543,
+    "want": 124,
+    "rating": {
+      "count": 44,
+      "average": 4.27
+    },
+    "submitter": {
+      "username": "Epistaxis",
+      "resource_url": "https://api.discogs.com/users/Epistaxis"
+    },
+    "contributors": [
+      {
+        "username": "Epistaxis",
+        "resource_url": "https://api.discogs.com/users/Epistaxis"
+      },
+      {
+        "username": "goadiroth",
+        "resource_url": "https://api.discogs.com/users/goadiroth"
+      },
+      {
+        "username": "Nightwalker23",
+        "resource_url": "https://api.discogs.com/users/Nightwalker23"
+      },
+      {
+        "username": "Myriad",
+        "resource_url": "https://api.discogs.com/users/Myriad"
+      },
+      {
+        "username": "Sonic_Boom_Greece",
+        "resource_url": "https://api.discogs.com/users/Sonic_Boom_Greece"
+      },
+      {
+        "username": "DiscogsUpdateBot",
+        "resource_url": "https://api.discogs.com/users/DiscogsUpdateBot"
+      },
+      {
+        "username": "Collector_Corrector",
+        "resource_url": "https://api.discogs.com/users/Collector_Corrector"
+      }
+    ],
+    "data_quality": "Correct",
+    "status": "Accepted"
+  },
+  "format_quantity": 1,
+  "date_added": "2005-02-12T09:06:34-08:00",
+  "date_changed": "2024-07-30T04:04:37-07:00",
+  "num_for_sale": 5,
+  "lowest_price": 31.08,
+  "master_id": 538745,
+  "master_url": "https://api.discogs.com/masters/538745",
+  "title": "Resound The Horn",
+  "country": "Italy",
+  "released": "2002-06-24",
+  "notes": "℗ & © 2002 Dragonheart/Audioglobe s.r.l. - All songs published by Kizmaiaz Edizioni Musicali s.r.l. - Made in the EU.\n\nIssued in 4-panel digipak with 12-page booklet.",
+  "released_formatted": "24 Jun 2002",
+  "identifiers": [
+    {
+      "type": "Barcode",
+      "value": "8 016670 100188"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "Sony DADC A0100412379-0101 11 A0",
+      "description": "Variant 1, 2"
+    },
+    {
+      "type": "Mastering SID Code",
+      "value": "IFPI L551",
+      "description": "Variant 1, 2"
+    },
+    {
+      "type": "Mould SID Code",
+      "value": "IFPI 94V2",
+      "description": "Variant 1"
+    },
+    {
+      "type": "Mould SID Code",
+      "value": "IFPI 94K6",
+      "description": "Variant 2"
+    }
+  ],
+  "videos": [
+    {
+      "uri": "https://www.youtube.com/watch?v=8C7ZMnyZQ_4",
+      "title": "Doomsword - Resound The Horn",
+      "description": "sempre mitologici",
+      "duration": 511,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=Hpiq6hv1aQs",
+      "title": "The Great Horn",
+      "description": "Provided to YouTube by The Orchard Enterprises\n\nThe Great Horn · Doomsword\n\nMy Name Will Live On\n\n℗ 2007 Dragonheart / Audioglobe srl\n\nReleased on: 2007-06-15\n\nMusic Publisher: Kizmaiaz Edizioni Musicali\n\nAuto-generated by YouTube.",
+      "duration": 455,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=UzhSl8NS9hI",
+      "title": "Doomsword - Resound the horn : Odins hail",
+      "description": " ",
+      "duration": 392,
+      "embed": true
+    }
+  ],
+  "genres": ["Rock"],
+  "styles": ["Doom Metal", "Heavy Metal"],
+  "tracklist": [
+    {
+      "position": "1",
+      "type_": "track",
+      "title": "Shores Of Vinland",
+      "duration": "7:43"
+    },
+    {
+      "position": "2",
+      "type_": "track",
+      "title": "Onward Into Battle",
+      "duration": "7:42"
+    },
+    {
+      "position": "3",
+      "type_": "track",
+      "title": "The DoomSword",
+      "duration": "7:48"
+    },
+    {
+      "position": "4",
+      "type_": "track",
+      "title": "MCXIX",
+      "duration": "5:22"
+    },
+    {
+      "position": "5",
+      "type_": "track",
+      "title": "For Those Who Died With Sword In Hand",
+      "duration": "7:27"
+    },
+    {
+      "position": "6",
+      "type_": "track",
+      "title": "The Youth Of Finn MacCool",
+      "duration": "5:40"
+    },
+    {
+      "position": "7",
+      "type_": "track",
+      "title": "Resound The Horn: Odin's Hail",
+      "duration": "8:29"
+    }
+  ],
+  "extraartists": [
+    {
+      "name": "Dark Omen",
+      "anv": "",
+      "join": "",
+      "role": "Bass",
+      "tracks": "",
+      "id": 496407,
+      "resource_url": "https://api.discogs.com/artists/496407"
+    },
+    {
+      "name": "GroM (6)",
+      "anv": "",
+      "join": "",
+      "role": "Drums",
+      "tracks": "",
+      "id": 706428,
+      "resource_url": "https://api.discogs.com/artists/706428"
+    },
+    {
+      "name": "Guardian Angel II",
+      "anv": "",
+      "join": "",
+      "role": "Lead Guitar",
+      "tracks": "",
+      "id": 496408,
+      "resource_url": "https://api.discogs.com/artists/496408"
+    },
+    {
+      "name": "The Forger",
+      "anv": "",
+      "join": "",
+      "role": "Rhythm Guitar",
+      "tracks": "",
+      "id": 496404,
+      "resource_url": "https://api.discogs.com/artists/496404"
+    },
+    {
+      "name": "Deathmaster",
+      "anv": "",
+      "join": "",
+      "role": "Vocals",
+      "tracks": "",
+      "id": 496406,
+      "resource_url": "https://api.discogs.com/artists/496406"
+    }
+  ],
+  "images": [
+    {
+      "type": "primary",
+      "uri": "https://i.discogs.com/e5NfjCkQ9zrbyP2jOeNeqWgn-4OGctcSXyb2699ibfI/rs:fit/g:sm/q:90/h:538/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM5OTMw/MS0xNzIyMzM2ODk1/LTczODYuanBlZw.jpeg",
+      "resource_url": "https://i.discogs.com/e5NfjCkQ9zrbyP2jOeNeqWgn-4OGctcSXyb2699ibfI/rs:fit/g:sm/q:90/h:538/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM5OTMw/MS0xNzIyMzM2ODk1/LTczODYuanBlZw.jpeg",
+      "uri150": "https://i.discogs.com/aypfvx2EO_A8v_jHQ8OEUOuhjr2l-dmE09o4zhxRSrk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM5OTMw/MS0xNzIyMzM2ODk1/LTczODYuanBlZw.jpeg",
+      "width": 600,
+      "height": 538
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/5i_mhudqaLf6MMKCi1wIOPBBQBn3rJUmZp6H4vmD6WM/rs:fit/g:sm/q:90/h:537/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM5OTMw/MS0xNzIyMzM2ODk1/LTE5MTAuanBlZw.jpeg",
+      "resource_url": "https://i.discogs.com/5i_mhudqaLf6MMKCi1wIOPBBQBn3rJUmZp6H4vmD6WM/rs:fit/g:sm/q:90/h:537/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM5OTMw/MS0xNzIyMzM2ODk1/LTE5MTAuanBlZw.jpeg",
+      "uri150": "https://i.discogs.com/ucclDdXUtswKFS_DIRE4UMgZB_8s07AGtG5sFr4IZIM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM5OTMw/MS0xNzIyMzM2ODk1/LTE5MTAuanBlZw.jpeg",
+      "width": 600,
+      "height": 537
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/OQTC-IMNcASyK1VU9CDrQKxgyJtSAT2JYI5wlVlrfh0/rs:fit/g:sm/q:90/h:447/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM5OTMw/MS0xNzIyMzM2ODk1/LTgzOTQuanBlZw.jpeg",
+      "resource_url": "https://i.discogs.com/OQTC-IMNcASyK1VU9CDrQKxgyJtSAT2JYI5wlVlrfh0/rs:fit/g:sm/q:90/h:447/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM5OTMw/MS0xNzIyMzM2ODk1/LTgzOTQuanBlZw.jpeg",
+      "uri150": "https://i.discogs.com/JOGbHJdGrkGS2saEIWmW5WVA6GOdP4RupWYJpwUjvjY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM5OTMw/MS0xNzIyMzM2ODk1/LTgzOTQuanBlZw.jpeg",
+      "width": 600,
+      "height": 447
+    }
+  ],
+  "thumb": "https://i.discogs.com/aypfvx2EO_A8v_jHQ8OEUOuhjr2l-dmE09o4zhxRSrk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM5OTMw/MS0xNzIyMzM2ODk1/LTczODYuanBlZw.jpeg",
+  "estimated_weight": 85,
+  "blocked_from_sale": false,
+  "is_offensive": false
+}

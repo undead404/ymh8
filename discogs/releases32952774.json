@@ -1,0 +1,269 @@
+{
+  "id": 32952774,
+  "status": "Accepted",
+  "year": 1976,
+  "resource_url": "https://api.discogs.com/releases/32952774",
+  "uri": "https://www.discogs.com/release/32952774-Black-Sabbath-Technical-Ecstasy",
+  "artists": [
+    {
+      "name": "Black Sabbath",
+      "anv": "",
+      "join": "",
+      "role": "",
+      "tracks": "",
+      "id": 144998,
+      "resource_url": "https://api.discogs.com/artists/144998",
+      "thumbnail_url": "https://i.discogs.com/Cmw5vVHa8YTjAizq1xI_KZia-ZmgGZJa0hOd8tTl37w/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE0NDk5/OC0xNTg0OTkyNjIz/LTU2NjAuanBlZw.jpeg"
+    }
+  ],
+  "artists_sort": "Black Sabbath",
+  "labels": [
+    {
+      "name": "Vertigo",
+      "catno": "7131 001",
+      "entity_type": "1",
+      "entity_type_name": "Label",
+      "id": 2266,
+      "resource_url": "https://api.discogs.com/labels/2266",
+      "thumbnail_url": "https://i.discogs.com/IXD4UNEl2ua_UhW-rwh3CbuGDQdNcF36aczeSH3P3f8/rs:fit/g:sm/q:90/h:600/w:493/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTIyNjYt/MTU4MjM3NjUxMy03/NDQzLnBuZw.jpeg"
+    }
+  ],
+  "series": [],
+  "companies": [
+    {
+      "name": "Team-Trykk A.S.",
+      "catno": "",
+      "entity_type": "19",
+      "entity_type_name": "Printed By",
+      "id": 264807,
+      "resource_url": "https://api.discogs.com/labels/264807",
+      "thumbnail_url": "https://i.discogs.com/m0IsHp40iquSYZ1ChrMOysO0oodkz9WKN5M-Ki0AAAc/rs:fit/g:sm/q:90/h:258/w:381/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTI2NDgw/Ny0xNjM4ODM2Njg2/LTEzNDYuanBlZw.jpeg"
+    }
+  ],
+  "formats": [
+    {
+      "name": "Cassette",
+      "qty": "1",
+      "descriptions": ["Album"]
+    }
+  ],
+  "data_quality": "Needs Vote",
+  "community": {
+    "have": 2,
+    "want": 16,
+    "rating": {
+      "count": 0,
+      "average": 0
+    },
+    "submitter": {
+      "username": "tr-vida",
+      "resource_url": "https://api.discogs.com/users/tr-vida"
+    },
+    "contributors": [
+      {
+        "username": "tr-vida",
+        "resource_url": "https://api.discogs.com/users/tr-vida"
+      }
+    ],
+    "data_quality": "Needs Vote",
+    "status": "Accepted"
+  },
+  "format_quantity": 1,
+  "date_added": "2025-01-25T14:58:50-08:00",
+  "date_changed": "2025-01-25T15:03:33-08:00",
+  "num_for_sale": 0,
+  "lowest_price": null,
+  "master_id": 4938,
+  "master_url": "https://api.discogs.com/masters/4938",
+  "title": "Technical Ecstasy",
+  "country": "Norway",
+  "released": "1976",
+  "released_formatted": "1976",
+  "identifiers": [
+    {
+      "type": "Rights Society",
+      "value": "n©b"
+    }
+  ],
+  "videos": [
+    {
+      "uri": "https://www.youtube.com/watch?v=MueoYXwfSvs",
+      "title": "Black Sabbath - Technical Ecstasy (Vinyl, 1976)",
+      "description": "1976 Australasian Release\n\nTRACKLIST\nA1  Back Street Kids\nA2  You Won't Change Me\nA3  It's Alright\nA4  Gypsy\nB1  All Moving Parts (Stand Still)\nB2  Rock 'N' Roll Doctor\nB3  She's Gone\nB4  Dirty Women\n\n#rock #metal #rocknroll #blacksabbath #technicalecstas",
+      "duration": 91,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=kIe9D2nGEEY",
+      "title": "Black Sabbath - Technical Ecstasy (full album) 1976",
+      "description": "1. Back Street Kids 00:00\n2. You Won't Change Me 03:49\n3. It's Alright 10:24\n4. Gypsy 14:20\n5. All Moving Parts (Stand Still) 19:30\n6. Rock 'n' Roll Doctor 24:28\n7. She's Gone 27:54\n8. Dirty Women 32:46",
+      "duration": 0,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=hGo-byZysIg",
+      "title": "Black Sabbath - Technical Ecstasy (1976)",
+      "description": "",
+      "duration": 0,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=ULdZhDQDsjw",
+      "title": "Black Sab̲b̲ath   Technical Ecstasy 1976  Remastered Album 1996",
+      "description": "Black Sab̲b̲ath   Technical Ecstasy 1976  Remastered Album 1996",
+      "duration": 0,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=-45rLLf08TE",
+      "title": "Black Sabbath / Technical Ecstasy - 1976",
+      "description": "Black Sabbath / Technical Ecstasy - 1976\n [1996 UK ESM CD 328 Castle]\n\n\n     Track |   Start  | \n    ---------------------------------------------------------\n        1  |  0:00.00 | \n        2  |  3:49.07 | \n        3  | 10:33.17 | \n        4  | 14:39.27",
+      "duration": 0,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=CSLCAsaeB-U",
+      "title": "2021 - BLACK SABBATH - Technical Ecstasy  (Deluxe Edition Remastered)",
+      "description": "",
+      "duration": 0,
+      "embed": true
+    }
+  ],
+  "genres": ["Rock"],
+  "styles": ["Heavy Metal", "Hard Rock"],
+  "tracklist": [
+    {
+      "position": "A1",
+      "type_": "track",
+      "title": "Back Street Kids",
+      "duration": ""
+    },
+    {
+      "position": "A2",
+      "type_": "track",
+      "title": "Dirty Women",
+      "duration": ""
+    },
+    {
+      "position": "A3",
+      "type_": "track",
+      "title": "It's Alright",
+      "duration": ""
+    },
+    {
+      "position": "A4",
+      "type_": "track",
+      "title": "Gypsy",
+      "duration": ""
+    },
+    {
+      "position": "B1",
+      "type_": "track",
+      "title": "All Moving Parts",
+      "duration": ""
+    },
+    {
+      "position": "B2",
+      "type_": "track",
+      "title": "Rock 'n' Roll Doctor",
+      "duration": ""
+    },
+    {
+      "position": "B3",
+      "type_": "track",
+      "title": "You Won't Change Me",
+      "duration": ""
+    },
+    {
+      "position": "B4",
+      "type_": "track",
+      "title": "She's Gone",
+      "duration": ""
+    }
+  ],
+  "extraartists": [
+    {
+      "name": "Black Sabbath",
+      "anv": "",
+      "join": "",
+      "role": "Producer",
+      "tracks": "",
+      "id": 144998,
+      "resource_url": "https://api.discogs.com/artists/144998"
+    },
+    {
+      "name": "Bill Ward",
+      "anv": "Wade",
+      "join": "",
+      "role": "Written-By",
+      "tracks": "",
+      "id": 255017,
+      "resource_url": "https://api.discogs.com/artists/255017"
+    },
+    {
+      "name": "Geezer Butler",
+      "anv": "Butler",
+      "join": "",
+      "role": "Written-By",
+      "tracks": "",
+      "id": 300663,
+      "resource_url": "https://api.discogs.com/artists/300663"
+    },
+    {
+      "name": "Ozzy Osbourne",
+      "anv": "Osbourne",
+      "join": "",
+      "role": "Written-By",
+      "tracks": "",
+      "id": 59770,
+      "resource_url": "https://api.discogs.com/artists/59770"
+    },
+    {
+      "name": "Tony Iommi",
+      "anv": "Iommi",
+      "join": "",
+      "role": "Written-By",
+      "tracks": "",
+      "id": 253791,
+      "resource_url": "https://api.discogs.com/artists/253791"
+    }
+  ],
+  "images": [
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/8fyIL8l32DlshfJOBu3DqLwIFmCDvGOwxH423B9dpyI/rs:fit/g:sm/q:90/h:586/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyOTUy/Nzc0LTE3Mzc4NDU5/NjUtMTYyOS5qcGVn.jpeg",
+      "resource_url": "https://i.discogs.com/8fyIL8l32DlshfJOBu3DqLwIFmCDvGOwxH423B9dpyI/rs:fit/g:sm/q:90/h:586/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyOTUy/Nzc0LTE3Mzc4NDU5/NjUtMTYyOS5qcGVn.jpeg",
+      "uri150": "https://i.discogs.com/GThS8FSzxzs8w5wfOeA88_mY2YmJdbxB-k6UfjmVaTQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyOTUy/Nzc0LTE3Mzc4NDU5/NjUtMTYyOS5qcGVn.jpeg",
+      "width": 600,
+      "height": 586
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/JKprMsfBB-bGQ4IB57cTS0jdrhfcjNOjw6zxGomlabE/rs:fit/g:sm/q:90/h:600/w:376/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyOTUy/Nzc0LTE3Mzc4NDU5/NjktNzQ5NC5qcGVn.jpeg",
+      "resource_url": "https://i.discogs.com/JKprMsfBB-bGQ4IB57cTS0jdrhfcjNOjw6zxGomlabE/rs:fit/g:sm/q:90/h:600/w:376/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyOTUy/Nzc0LTE3Mzc4NDU5/NjktNzQ5NC5qcGVn.jpeg",
+      "uri150": "https://i.discogs.com/h3zD9LFgcs5kWh5VtaFVzn3gQfHkteUQOvIyKf6v8pM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyOTUy/Nzc0LTE3Mzc4NDU5/NjktNzQ5NC5qcGVn.jpeg",
+      "width": 376,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/LrmUBM7inMlQoQY-jB2jWWQhK1ERPLE2NdM-4kNTH4w/rs:fit/g:sm/q:90/h:376/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyOTUy/Nzc0LTE3Mzc4NDU5/NzMtNzg0NC5qcGVn.jpeg",
+      "resource_url": "https://i.discogs.com/LrmUBM7inMlQoQY-jB2jWWQhK1ERPLE2NdM-4kNTH4w/rs:fit/g:sm/q:90/h:376/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyOTUy/Nzc0LTE3Mzc4NDU5/NzMtNzg0NC5qcGVn.jpeg",
+      "uri150": "https://i.discogs.com/PK6-XBjakEjb3fc4toWyz_RVlCfdnR5ahhzS9ws2UqQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyOTUy/Nzc0LTE3Mzc4NDU5/NzMtNzg0NC5qcGVn.jpeg",
+      "width": 600,
+      "height": 376
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/t4SxBUQanUF7tCsRIEKPAn_Ms2MiHLf4uNkTck9U2CM/rs:fit/g:sm/q:90/h:376/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyOTUy/Nzc0LTE3Mzc4NDU5/NzctNjgwMC5qcGVn.jpeg",
+      "resource_url": "https://i.discogs.com/t4SxBUQanUF7tCsRIEKPAn_Ms2MiHLf4uNkTck9U2CM/rs:fit/g:sm/q:90/h:376/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyOTUy/Nzc0LTE3Mzc4NDU5/NzctNjgwMC5qcGVn.jpeg",
+      "uri150": "https://i.discogs.com/rKfm9xiRiP2dZYwxmK7BOLWaw_acfOME_KXdCR7gVaw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyOTUy/Nzc0LTE3Mzc4NDU5/NzctNjgwMC5qcGVn.jpeg",
+      "width": 600,
+      "height": 376
+    }
+  ],
+  "thumb": "https://i.discogs.com/GThS8FSzxzs8w5wfOeA88_mY2YmJdbxB-k6UfjmVaTQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyOTUy/Nzc0LTE3Mzc4NDU5/NjUtMTYyOS5qcGVn.jpeg",
+  "estimated_weight": 65,
+  "blocked_from_sale": false,
+  "is_offensive": false
+}

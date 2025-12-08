@@ -1,0 +1,192 @@
+{
+  "id": 4138796,
+  "status": "Accepted",
+  "year": 1978,
+  "resource_url": "https://api.discogs.com/releases/4138796",
+  "uri": "https://www.discogs.com/release/4138796-Black-Sabbath-Never-Say-Die",
+  "artists": [
+    {
+      "name": "Black Sabbath",
+      "anv": "",
+      "join": "",
+      "role": "",
+      "tracks": "",
+      "id": 144998,
+      "resource_url": "https://api.discogs.com/artists/144998",
+      "thumbnail_url": "https://i.discogs.com/Cmw5vVHa8YTjAizq1xI_KZia-ZmgGZJa0hOd8tTl37w/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE0NDk5/OC0xNTg0OTkyNjIz/LTU2NjAuanBlZw.jpeg"
+    }
+  ],
+  "artists_sort": "Black Sabbath",
+  "labels": [
+    {
+      "name": "Vertigo",
+      "catno": "6837 512",
+      "entity_type": "1",
+      "entity_type_name": "Label",
+      "id": 2266,
+      "resource_url": "https://api.discogs.com/labels/2266",
+      "thumbnail_url": "https://i.discogs.com/IXD4UNEl2ua_UhW-rwh3CbuGDQdNcF36aczeSH3P3f8/rs:fit/g:sm/q:90/h:600/w:493/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTIyNjYt/MTU4MjM3NjUxMy03/NDQzLnBuZw.jpeg"
+    }
+  ],
+  "series": [],
+  "companies": [
+    {
+      "name": "Phonogram International B.V.",
+      "catno": "",
+      "entity_type": "13",
+      "entity_type_name": "Phonographic Copyright (p)",
+      "id": 286190,
+      "resource_url": "https://api.discogs.com/labels/286190",
+      "thumbnail_url": "https://i.discogs.com/zHxyroSLmLJ2dfx0wy74XSEK7z1njMDNIA5bJE9h7Go/rs:fit/g:sm/q:90/h:140/w:443/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTI4NjE5/MC0xNDEyMDkwNDkx/LTg4MjQuanBlZw.jpeg"
+    }
+  ],
+  "formats": [
+    {
+      "name": "Vinyl",
+      "qty": "1",
+      "descriptions": ["7\"", "45 RPM", "Single", "Jukebox"]
+    }
+  ],
+  "data_quality": "Needs Vote",
+  "community": {
+    "have": 16,
+    "want": 72,
+    "rating": {
+      "count": 4,
+      "average": 3.5
+    },
+    "submitter": {
+      "username": "franck83",
+      "resource_url": "https://api.discogs.com/users/franck83"
+    },
+    "contributors": [
+      {
+        "username": "franck83",
+        "resource_url": "https://api.discogs.com/users/franck83"
+      },
+      {
+        "username": "brianvy",
+        "resource_url": "https://api.discogs.com/users/brianvy"
+      },
+      {
+        "username": "ant0nis",
+        "resource_url": "https://api.discogs.com/users/ant0nis"
+      },
+      {
+        "username": "shiremen",
+        "resource_url": "https://api.discogs.com/users/shiremen"
+      },
+      {
+        "username": "KnightOfDarkness",
+        "resource_url": "https://api.discogs.com/users/KnightOfDarkness"
+      }
+    ],
+    "data_quality": "Needs Vote",
+    "status": "Accepted"
+  },
+  "format_quantity": 1,
+  "date_added": "2012-12-27T04:23:30-08:00",
+  "date_changed": "2020-11-10T10:35:39-08:00",
+  "num_for_sale": 2,
+  "lowest_price": 47.32,
+  "master_id": 5875,
+  "master_url": "https://api.discogs.com/masters/5875",
+  "title": "Never Say Die",
+  "country": "France",
+  "released": "1978-10-06",
+  "released_formatted": "06 Oct 1978",
+  "identifiers": [
+    {
+      "type": "Rights Society",
+      "value": "SACEM"
+    }
+  ],
+  "videos": [
+    {
+      "uri": "https://www.youtube.com/watch?v=Ts54T3e4T84",
+      "title": "Black Sabbath - Never Say Die (HQ)",
+      "description": "Track From \"Never Say Die\" Album\n1978\nAll Rights Reserved \nBlack Sabbath \n℗Warner Records",
+      "duration": 229,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=uDELg7qaFyw",
+      "title": "BLACK SABBATH - \"Never Say Die\" (Live Video)",
+      "description": "Black Sabbath performing \"Never Say Die\" live on June 19, 1978 at London's Hammersmith Odeon.\n\nTaken from the \"Never Say Die\" dvd available at http://www.amazon.com/Black-Sabbath-Never-Live-1978/dp/B00008DDH5\n\nFacebook: http://www.facebook.com/BlackSabbat",
+      "duration": 296,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=rpt3XO_Z9mI",
+      "title": "She's Gone (2021 Remaster)",
+      "description": "Provided to YouTube by Sanctuary Records\n\nShe's Gone (2021 Remaster) · Black Sabbath\n\nTechnical Ecstasy\n\n℗ 2021 Sanctuary Records Group Ltd., a BMG Company\n\nReleased on: 1976-09-25\n\nLead  Vocals: Ozzy Osbourne\nGuitar: Tony Iommi\nBass  Guitar: Geezer Butle",
+      "duration": 291,
+      "embed": true
+    }
+  ],
+  "genres": ["Rock"],
+  "styles": ["Hard Rock", "Classic Rock"],
+  "tracklist": [
+    {
+      "position": "A",
+      "type_": "track",
+      "title": "Never Say Die",
+      "duration": "3:45"
+    },
+    {
+      "position": "B",
+      "type_": "track",
+      "title": "Hard Road",
+      "duration": "5:50"
+    }
+  ],
+  "extraartists": [
+    {
+      "name": "Black Sabbath",
+      "anv": "",
+      "join": "",
+      "role": "Written-By",
+      "tracks": "",
+      "id": 144998,
+      "resource_url": "https://api.discogs.com/artists/144998"
+    }
+  ],
+  "images": [
+    {
+      "type": "primary",
+      "uri": "https://i.discogs.com/tBxUeQZXsJdPF19hpZut_Xb4-Te3yNO2kr4Xg1wAB_0/rs:fit/g:sm/q:90/h:410/w:400/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQxMzg3/OTYtMTM1NjYxMDYw/NC00MzY0LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/tBxUeQZXsJdPF19hpZut_Xb4-Te3yNO2kr4Xg1wAB_0/rs:fit/g:sm/q:90/h:410/w:400/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQxMzg3/OTYtMTM1NjYxMDYw/NC00MzY0LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/sl6XyAknfyb3V3YH2z1XzWVRLPCgpYkzK7r6FLXRV5w/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQxMzg3/OTYtMTM1NjYxMDYw/NC00MzY0LmpwZWc.jpeg",
+      "width": 400,
+      "height": 410
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/sOrSLxaYEm7a_MPMAm5MSC68zs0Iq1MQtjsVASurY80/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQxMzg3/OTYtMTM1NjYxMDYx/NC02Mjg3LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/sOrSLxaYEm7a_MPMAm5MSC68zs0Iq1MQtjsVASurY80/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQxMzg3/OTYtMTM1NjYxMDYx/NC02Mjg3LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/FUWo1iFjX0jie4XZwB_0sFGTZ62NZ51hzF5leTj47XE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQxMzg3/OTYtMTM1NjYxMDYx/NC02Mjg3LmpwZWc.jpeg",
+      "width": 600,
+      "height": 599
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/7YATW-FyqDGcGGlz9xcIFNqj92I-w6LjOAh1GYTwhCw/rs:fit/g:sm/q:90/h:600/w:597/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQxMzg3/OTYtMTM1NjYxMDYy/My0xMjQxLmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/7YATW-FyqDGcGGlz9xcIFNqj92I-w6LjOAh1GYTwhCw/rs:fit/g:sm/q:90/h:600/w:597/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQxMzg3/OTYtMTM1NjYxMDYy/My0xMjQxLmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/HB7Ra7q-rU6IpUMo3a3WVT9QuemCv2xh39Tep7TQAYs/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQxMzg3/OTYtMTM1NjYxMDYy/My0xMjQxLmpwZWc.jpeg",
+      "width": 597,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/JpO3ffApRH_dLb6eWnFw6dp3Dv_qFu6LNwiDDD8wueE/rs:fit/g:sm/q:90/h:600/w:599/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQxMzg3/OTYtMTUwNzg4NTkw/NS0yMTczLmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/JpO3ffApRH_dLb6eWnFw6dp3Dv_qFu6LNwiDDD8wueE/rs:fit/g:sm/q:90/h:600/w:599/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQxMzg3/OTYtMTUwNzg4NTkw/NS0yMTczLmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/z_wFpt7My8HpEejwIj73otaDVsS_HGuTXwO9Rqveli4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQxMzg3/OTYtMTUwNzg4NTkw/NS0yMTczLmpwZWc.jpeg",
+      "width": 599,
+      "height": 600
+    }
+  ],
+  "thumb": "https://i.discogs.com/sl6XyAknfyb3V3YH2z1XzWVRLPCgpYkzK7r6FLXRV5w/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQxMzg3/OTYtMTM1NjYxMDYw/NC00MzY0LmpwZWc.jpeg",
+  "estimated_weight": 230,
+  "blocked_from_sale": false,
+  "is_offensive": false
+}

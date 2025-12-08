@@ -1,0 +1,325 @@
+{
+  "id": 4315551,
+  "status": "Accepted",
+  "year": 2002,
+  "resource_url": "https://api.discogs.com/releases/4315551",
+  "uri": "https://www.discogs.com/release/4315551-DoomSword-Resound-The-Horn",
+  "artists": [
+    {
+      "name": "DoomSword",
+      "anv": "",
+      "join": "",
+      "role": "",
+      "tracks": "",
+      "id": 274119,
+      "resource_url": "https://api.discogs.com/artists/274119",
+      "thumbnail_url": "https://i.discogs.com/SxcxpuoIJ_o3i8p3W5n89cWi-pWBKpbH0FG9vxAD7lg/rs:fit/g:sm/q:90/h:435/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI3NDEx/OS0xMTI3ODE3OTAx/LmpwZWc.jpeg"
+    }
+  ],
+  "artists_sort": "DoomSword",
+  "labels": [
+    {
+      "name": "Metal Supremacy",
+      "catno": "MS012",
+      "entity_type": "1",
+      "entity_type_name": "Label",
+      "id": 52625,
+      "resource_url": "https://api.discogs.com/labels/52625",
+      "thumbnail_url": "https://i.discogs.com/dzT8cNenqQtS7OEeWDx235q4hkSPG8SuMAjuEyCFCxk/rs:fit/g:sm/q:90/h:239/w:202/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTUyNjI1/LTE0MTczNjg3MzMt/NTc0Ny5qcGVn.jpeg"
+    }
+  ],
+  "series": [],
+  "companies": [
+    {
+      "name": "Dragonheart",
+      "catno": "",
+      "entity_type": "13",
+      "entity_type_name": "Phonographic Copyright (p)",
+      "id": 34699,
+      "resource_url": "https://api.discogs.com/labels/34699",
+      "thumbnail_url": "https://i.discogs.com/G1ITdfy5IglXUoAWGp32tQU0oYXOn9D4ZbF5WzRv3jE/rs:fit/g:sm/q:90/h:192/w:382/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTM0Njk5/LTExNTc0ODE5Mzcu/anBlZw.jpeg"
+    },
+    {
+      "name": "Audioglobe srl",
+      "catno": "",
+      "entity_type": "13",
+      "entity_type_name": "Phonographic Copyright (p)",
+      "id": 315522,
+      "resource_url": "https://api.discogs.com/labels/315522",
+      "thumbnail_url": "https://i.discogs.com/QdjegH-r8KnT4wjvnukZf9nISAI4UEBwhhhEIuH3M_U/rs:fit/g:sm/q:90/h:295/w:295/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTMxNTUy/Mi0xNTI3NzY4NzY2/LTE5NDEuanBlZw.jpeg"
+    },
+    {
+      "name": "Dragonheart",
+      "catno": "",
+      "entity_type": "14",
+      "entity_type_name": "Copyright (c)",
+      "id": 34699,
+      "resource_url": "https://api.discogs.com/labels/34699",
+      "thumbnail_url": "https://i.discogs.com/G1ITdfy5IglXUoAWGp32tQU0oYXOn9D4ZbF5WzRv3jE/rs:fit/g:sm/q:90/h:192/w:382/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTM0Njk5/LTExNTc0ODE5Mzcu/anBlZw.jpeg"
+    },
+    {
+      "name": "Audioglobe srl",
+      "catno": "",
+      "entity_type": "14",
+      "entity_type_name": "Copyright (c)",
+      "id": 315522,
+      "resource_url": "https://api.discogs.com/labels/315522",
+      "thumbnail_url": "https://i.discogs.com/QdjegH-r8KnT4wjvnukZf9nISAI4UEBwhhhEIuH3M_U/rs:fit/g:sm/q:90/h:295/w:295/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTMxNTUy/Mi0xNTI3NzY4NzY2/LTE5NDEuanBlZw.jpeg"
+    },
+    {
+      "name": "Kizmaiaz Edizioni Musicali srl",
+      "catno": "",
+      "entity_type": "21",
+      "entity_type_name": "Published By",
+      "id": 323090,
+      "resource_url": "https://api.discogs.com/labels/323090"
+    }
+  ],
+  "formats": [
+    {
+      "name": "Vinyl",
+      "qty": "2",
+      "descriptions": ["LP", "Album", "Limited Edition"]
+    }
+  ],
+  "data_quality": "Needs Vote",
+  "community": {
+    "have": 143,
+    "want": 275,
+    "rating": {
+      "count": 23,
+      "average": 4.61
+    },
+    "submitter": {
+      "username": "mrinferno",
+      "resource_url": "https://api.discogs.com/users/mrinferno"
+    },
+    "contributors": [
+      {
+        "username": "mrinferno",
+        "resource_url": "https://api.discogs.com/users/mrinferno"
+      },
+      {
+        "username": "Sonic_Boom_Greece",
+        "resource_url": "https://api.discogs.com/users/Sonic_Boom_Greece"
+      },
+      {
+        "username": "DiscogsUpdateBot",
+        "resource_url": "https://api.discogs.com/users/DiscogsUpdateBot"
+      },
+      {
+        "username": "steelefortress",
+        "resource_url": "https://api.discogs.com/users/steelefortress"
+      },
+      {
+        "username": "ostrava1981",
+        "resource_url": "https://api.discogs.com/users/ostrava1981"
+      },
+      {
+        "username": "Impact_CH",
+        "resource_url": "https://api.discogs.com/users/Impact_CH"
+      }
+    ],
+    "data_quality": "Needs Vote",
+    "status": "Accepted"
+  },
+  "format_quantity": 2,
+  "date_added": "2013-02-22T05:23:18-08:00",
+  "date_changed": "2018-02-11T03:40:43-08:00",
+  "num_for_sale": 7,
+  "lowest_price": 243.32,
+  "master_id": 538745,
+  "master_url": "https://api.discogs.com/masters/538745",
+  "title": "Resound The Horn",
+  "country": "Germany",
+  "released": "2002-06-24",
+  "notes": "℗ & © 2002 Dragonheart/Audioglobe s.r.l. - All songs published by Kizmaiaz Edizioni Musicali s.r.l. - Made in the EU.\nLimited to 500 copies, housed in a gatefold cover.",
+  "released_formatted": "24 Jun 2002",
+  "identifiers": [],
+  "videos": [
+    {
+      "uri": "https://www.youtube.com/watch?v=8C7ZMnyZQ_4",
+      "title": "Doomsword - Resound The Horn",
+      "description": "sempre mitologici",
+      "duration": 511,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=Hpiq6hv1aQs",
+      "title": "The Great Horn",
+      "description": "Provided to YouTube by The Orchard Enterprises\n\nThe Great Horn · Doomsword\n\nMy Name Will Live On\n\n℗ 2007 Dragonheart / Audioglobe srl\n\nReleased on: 2007-06-15\n\nMusic Publisher: Kizmaiaz Edizioni Musicali\n\nAuto-generated by YouTube.",
+      "duration": 455,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=UzhSl8NS9hI",
+      "title": "Doomsword - Resound the horn : Odins hail",
+      "description": " ",
+      "duration": 392,
+      "embed": true
+    }
+  ],
+  "genres": ["Rock"],
+  "styles": ["Doom Metal"],
+  "tracklist": [
+    {
+      "position": "A1",
+      "type_": "track",
+      "title": "Shores Of Vinland",
+      "duration": "7:43"
+    },
+    {
+      "position": "A2",
+      "type_": "track",
+      "title": "Onward Into Battle",
+      "duration": "7:42"
+    },
+    {
+      "position": "B1",
+      "type_": "track",
+      "title": "The DoomSword",
+      "duration": "7:48"
+    },
+    {
+      "position": "B2",
+      "type_": "track",
+      "title": "MCXIX",
+      "duration": "5:22"
+    },
+    {
+      "position": "C1",
+      "type_": "track",
+      "title": "For Those Who Died With Sword In Hand",
+      "duration": "7:27"
+    },
+    {
+      "position": "C2",
+      "type_": "track",
+      "title": "The Youth Of Finn MacCool",
+      "duration": "5:40"
+    },
+    {
+      "position": "D1",
+      "type_": "track",
+      "title": "Resound The Horn: Odin's Hail",
+      "duration": "8:29"
+    }
+  ],
+  "extraartists": [
+    {
+      "name": "Dark Omen",
+      "anv": "",
+      "join": "",
+      "role": "Bass",
+      "tracks": "",
+      "id": 496407,
+      "resource_url": "https://api.discogs.com/artists/496407"
+    },
+    {
+      "name": "GroM (6)",
+      "anv": "",
+      "join": "",
+      "role": "Drums",
+      "tracks": "",
+      "id": 706428,
+      "resource_url": "https://api.discogs.com/artists/706428"
+    },
+    {
+      "name": "Guardian Angel II",
+      "anv": "",
+      "join": "",
+      "role": "Lead Guitar",
+      "tracks": "",
+      "id": 496408,
+      "resource_url": "https://api.discogs.com/artists/496408"
+    },
+    {
+      "name": "The Forger",
+      "anv": "",
+      "join": "",
+      "role": "Rhythm Guitar",
+      "tracks": "",
+      "id": 496404,
+      "resource_url": "https://api.discogs.com/artists/496404"
+    },
+    {
+      "name": "Deathmaster",
+      "anv": "",
+      "join": "",
+      "role": "Vocals",
+      "tracks": "",
+      "id": 496406,
+      "resource_url": "https://api.discogs.com/artists/496406"
+    }
+  ],
+  "images": [
+    {
+      "type": "primary",
+      "uri": "https://i.discogs.com/GWF28Zd16qQ4lI5MhZs12UyrpSgNtmYTZoqfNps4ry4/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQzMTU1/NTEtMTUxODM0OTE3/MC0xMjI4LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/GWF28Zd16qQ4lI5MhZs12UyrpSgNtmYTZoqfNps4ry4/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQzMTU1/NTEtMTUxODM0OTE3/MC0xMjI4LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/WovTHfPrOSUh-Q4qwyeiRmbNGT0Frbg9eYyXdtoOe14/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQzMTU1/NTEtMTUxODM0OTE3/MC0xMjI4LmpwZWc.jpeg",
+      "width": 600,
+      "height": 599
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/hwS80sCho59ZHW3DQGFEyRITm6nKEAWZhoovmhkH1eI/rs:fit/g:sm/q:90/h:600/w:586/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQzMTU1/NTEtMTUxODM0OTE3/MS04MDkwLmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/hwS80sCho59ZHW3DQGFEyRITm6nKEAWZhoovmhkH1eI/rs:fit/g:sm/q:90/h:600/w:586/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQzMTU1/NTEtMTUxODM0OTE3/MS04MDkwLmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/V9maPNZkbyaszD3RCJZ20kehkwv2P01U8GfRVh1ftRw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQzMTU1/NTEtMTUxODM0OTE3/MS04MDkwLmpwZWc.jpeg",
+      "width": 586,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/LBlHV1xzdwrgfu-b1AFBTNluiSMso2oo5JN5s2YOkW4/rs:fit/g:sm/q:90/h:593/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQzMTU1/NTEtMTUxODM0OTE3/MC0zOTcwLmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/LBlHV1xzdwrgfu-b1AFBTNluiSMso2oo5JN5s2YOkW4/rs:fit/g:sm/q:90/h:593/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQzMTU1/NTEtMTUxODM0OTE3/MC0zOTcwLmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/v4l1ZaocpGRI1V-NWu3vzWk9eWn6BBxyEDb9uy9Fnwc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQzMTU1/NTEtMTUxODM0OTE3/MC0zOTcwLmpwZWc.jpeg",
+      "width": 600,
+      "height": 593
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/DBr2qlrzgrng3MuddaDfHpTFYzyNJ2cs1NeBuR9JHOY/rs:fit/g:sm/q:90/h:600/w:596/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQzMTU1/NTEtMTUxODM0OTE3/MC0xMTUxLmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/DBr2qlrzgrng3MuddaDfHpTFYzyNJ2cs1NeBuR9JHOY/rs:fit/g:sm/q:90/h:600/w:596/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQzMTU1/NTEtMTUxODM0OTE3/MC0xMTUxLmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/zfPXfuHUjltrm9HGNwMnMsnji86ZWMLkjMkUTjo3euc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQzMTU1/NTEtMTUxODM0OTE3/MC0xMTUxLmpwZWc.jpeg",
+      "width": 596,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/0zUG4Gep1JGiBRXqLEJ8bh4xmH54ZBBMC4KJ3Iq0xe0/rs:fit/g:sm/q:90/h:600/w:580/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQzMTU1/NTEtMTUxODM0OTE3/NC03Mjk4LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/0zUG4Gep1JGiBRXqLEJ8bh4xmH54ZBBMC4KJ3Iq0xe0/rs:fit/g:sm/q:90/h:600/w:580/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQzMTU1/NTEtMTUxODM0OTE3/NC03Mjk4LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/uHDRTs_0qFTEH4aryG32l1LzJHuVtMH4BajODNtcCDo/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQzMTU1/NTEtMTUxODM0OTE3/NC03Mjk4LmpwZWc.jpeg",
+      "width": 580,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/Rv6qz5PF1rOtmryf6somgxx5Dgia12l1ygAXnYlZ-yE/rs:fit/g:sm/q:90/h:600/w:594/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQzMTU1/NTEtMTUxODM0OTE3/Ny0xNjczLmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/Rv6qz5PF1rOtmryf6somgxx5Dgia12l1ygAXnYlZ-yE/rs:fit/g:sm/q:90/h:600/w:594/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQzMTU1/NTEtMTUxODM0OTE3/Ny0xNjczLmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/W75LphDx--8Fr-MozN5WmM0SjRWHnxwMQAAsV3VnMSs/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQzMTU1/NTEtMTUxODM0OTE3/Ny0xNjczLmpwZWc.jpeg",
+      "width": 594,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/PHaaer8c8ek9TJpriZBMX97skro7BFQpZn-c94MKgZc/rs:fit/g:sm/q:90/h:600/w:597/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQzMTU1/NTEtMTUxODM0OTE3/OS04MTgyLmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/PHaaer8c8ek9TJpriZBMX97skro7BFQpZn-c94MKgZc/rs:fit/g:sm/q:90/h:600/w:597/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQzMTU1/NTEtMTUxODM0OTE3/OS04MTgyLmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/OGAbnUhKo6lcfQzLJ4ydq4O9vJfiyaxmow1TyHF6I5o/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQzMTU1/NTEtMTUxODM0OTE3/OS04MTgyLmpwZWc.jpeg",
+      "width": 597,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/MQDwUVRpNiYEBbp_65o8G5OGd4vJeIM6pboY_f6hrQQ/rs:fit/g:sm/q:90/h:588/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQzMTU1/NTEtMTUxODM0OTE3/Ni0xMDg2LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/MQDwUVRpNiYEBbp_65o8G5OGd4vJeIM6pboY_f6hrQQ/rs:fit/g:sm/q:90/h:588/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQzMTU1/NTEtMTUxODM0OTE3/Ni0xMDg2LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/xuzl0VLQYrr8S-8il9A4aai0o5zjl1UDfDDZ-AKbgUg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQzMTU1/NTEtMTUxODM0OTE3/Ni0xMDg2LmpwZWc.jpeg",
+      "width": 600,
+      "height": 588
+    }
+  ],
+  "thumb": "https://i.discogs.com/WovTHfPrOSUh-Q4qwyeiRmbNGT0Frbg9eYyXdtoOe14/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQzMTU1/NTEtMTUxODM0OTE3/MC0xMjI4LmpwZWc.jpeg",
+  "estimated_weight": 460,
+  "blocked_from_sale": false,
+  "is_offensive": false
+}

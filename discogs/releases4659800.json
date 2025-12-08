@@ -1,0 +1,296 @@
+{
+  "id": 4659800,
+  "status": "Accepted",
+  "year": 1998,
+  "resource_url": "https://api.discogs.com/releases/4659800",
+  "uri": "https://www.discogs.com/release/4659800-Pagan-Altar-Volume-1",
+  "artists": [
+    {
+      "name": "Pagan Altar",
+      "anv": "",
+      "join": "",
+      "role": "",
+      "tracks": "",
+      "id": 647590,
+      "resource_url": "https://api.discogs.com/artists/647590",
+      "thumbnail_url": "https://i.discogs.com/jSZvC9ThPS0gSBVUjSyxzTF_AyTtD0YUVrlDZd6lC6g/rs:fit/g:sm/q:90/h:130/w:400/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTY0NzU5/MC0xNTE3MTc0MzYy/LTU1NjcuanBlZw.jpeg"
+    }
+  ],
+  "artists_sort": "Pagan Altar",
+  "labels": [
+    {
+      "name": "Oracle Records Ltd.",
+      "catno": "none",
+      "entity_type": "1",
+      "entity_type_name": "Label",
+      "id": 112942,
+      "resource_url": "https://api.discogs.com/labels/112942"
+    }
+  ],
+  "series": [],
+  "companies": [
+    {
+      "name": "Hiltongrove Multimedia",
+      "catno": "HGCD637",
+      "entity_type": "10",
+      "entity_type_name": "Manufactured By",
+      "id": 1750250,
+      "resource_url": "https://api.discogs.com/labels/1750250",
+      "thumbnail_url": "https://i.discogs.com/pmjFaVD1ON5JJTLw8IBSHzvZTsuJivu1-2YTOAZQb1U/rs:fit/g:sm/q:90/h:54/w:302/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTE3NTAy/NTAtMTcxMDY2OTU5/NS0yMTE4LmdpZg.jpeg"
+    }
+  ],
+  "formats": [
+    {
+      "name": "CD",
+      "qty": "1",
+      "descriptions": ["Album", "Reissue", "Remastered"]
+    }
+  ],
+  "data_quality": "Correct",
+  "community": {
+    "have": 246,
+    "want": 242,
+    "rating": {
+      "count": 27,
+      "average": 4.44
+    },
+    "submitter": {
+      "username": "thecorroseum",
+      "resource_url": "https://api.discogs.com/users/thecorroseum"
+    },
+    "contributors": [
+      {
+        "username": "thecorroseum",
+        "resource_url": "https://api.discogs.com/users/thecorroseum"
+      },
+      {
+        "username": "heavymetalmuseum",
+        "resource_url": "https://api.discogs.com/users/heavymetalmuseum"
+      },
+      {
+        "username": "Cl0ver",
+        "resource_url": "https://api.discogs.com/users/Cl0ver"
+      }
+    ],
+    "data_quality": "Correct",
+    "status": "Accepted"
+  },
+  "format_quantity": 1,
+  "date_added": "2013-06-16T03:12:17-07:00",
+  "date_changed": "2020-10-31T06:30:20-07:00",
+  "num_for_sale": 4,
+  "lowest_price": 30,
+  "master_id": 566823,
+  "master_url": "https://api.discogs.com/masters/566823",
+  "title": "Volume 1",
+  "country": "UK",
+  "released": "1998-02-00",
+  "notes": "CD reissue of the band's 1982 demo tape. 1st pressing.",
+  "released_formatted": "Feb 1998",
+  "identifiers": [
+    {
+      "type": "Matrix / Runout",
+      "value": "HGCD637 HILTONGROVE"
+    },
+    {
+      "type": "Mastering SID Code",
+      "value": "IFPI LD11"
+    }
+  ],
+  "videos": [
+    {
+      "uri": "https://www.youtube.com/watch?v=1-9rcger1TA",
+      "title": "Pagan Altar: Volume 1",
+      "description": "Volume 1 1982 DOOM (UK) 1998 Oracle Records\nAll songs written between 1978 - 1981\n\n1. Pagan Altar\n2. In the Wake of Armadeus 07:23\n3. Judgement of the Dead 11:38\n4. The Black Mass 19:28\n5. Night Rider 24:48\n6. Acoustics 28:58\n7. Reincarnation 30:35\n\n☩ ",
+      "duration": 2363,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=1-9rcger1TA",
+      "title": "Pagan Altar: Volume 1",
+      "description": "Volume 1 1982 DOOM (UK) 1998 Oracle Records\nAll songs written between 1978 - 1981\n\n1. Pagan Altar\n2. In the Wake of Armadeus 07:23\n3. Judgement of the Dead 11:38\n4. The Black Mass 19:28\n5. Night Rider 24:48\n6. Acoustics 28:58\n7. Reincarnation 30:35\n\n☩ ",
+      "duration": 2363,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=b-7wZyUeyTE",
+      "title": "Pagan Altar - Judgement of the dead",
+      "description": "NWOBHM Doom sweetness!",
+      "duration": 474,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=KYWaK0c6JR0",
+      "title": "Pagan Altar- Judgement Of The Dead (FULL ALBUM) 1982",
+      "description": "***Subscribe for more Heavy Metal Albums***\n\n\nTracklist:\n\n1. Pagan Altar 00:00\n2. In The Wake Of Armadeus 07:22\n3. Judgement Of The Dead 11:37\n4. The Black Mass 19:27\n5. Night Rider 24:48\n6. Acoustics 28:58\n7. Reincarnation 30:36\n\n\n\nCopyright Disclaimer U",
+      "duration": 2366,
+      "embed": true
+    }
+  ],
+  "genres": ["Rock"],
+  "styles": ["Doom Metal", "Heavy Metal"],
+  "tracklist": [
+    {
+      "position": "1",
+      "type_": "track",
+      "title": "Pagan Altar",
+      "duration": "7:12"
+    },
+    {
+      "position": "2",
+      "type_": "track",
+      "title": "In The Wake Of Armadeus",
+      "duration": "3:59"
+    },
+    {
+      "position": "3",
+      "type_": "track",
+      "title": "Judgement Of The Dead",
+      "duration": "7:30"
+    },
+    {
+      "position": "4",
+      "type_": "track",
+      "title": "The Black Mass",
+      "duration": "5:07"
+    },
+    {
+      "position": "5",
+      "type_": "track",
+      "title": "Night Rider",
+      "duration": "4:05"
+    },
+    {
+      "position": "6",
+      "type_": "track",
+      "title": "Acoustics",
+      "duration": "1:30"
+    },
+    {
+      "position": "7",
+      "type_": "track",
+      "title": "Reincarnation",
+      "duration": "8:36"
+    }
+  ],
+  "extraartists": [
+    {
+      "name": "Trevor Portch",
+      "anv": "",
+      "join": "",
+      "role": "Bass",
+      "tracks": "",
+      "id": 1110666,
+      "resource_url": "https://api.discogs.com/artists/1110666"
+    },
+    {
+      "name": "John Mizrahi",
+      "anv": "",
+      "join": "",
+      "role": "Drums",
+      "tracks": "",
+      "id": 1110667,
+      "resource_url": "https://api.discogs.com/artists/1110667"
+    },
+    {
+      "name": "Alan Jones (11)",
+      "anv": "",
+      "join": "",
+      "role": "Guitar",
+      "tracks": "",
+      "id": 1084584,
+      "resource_url": "https://api.discogs.com/artists/1084584"
+    },
+    {
+      "name": "Terry Jones (5)",
+      "anv": "",
+      "join": "",
+      "role": "Lyrics By",
+      "tracks": "",
+      "id": 1110668,
+      "resource_url": "https://api.discogs.com/artists/1110668"
+    },
+    {
+      "name": "Alan Jones (11)",
+      "anv": "",
+      "join": "",
+      "role": "Music By",
+      "tracks": "",
+      "id": 1084584,
+      "resource_url": "https://api.discogs.com/artists/1084584"
+    },
+    {
+      "name": "Pagan Altar",
+      "anv": "",
+      "join": "",
+      "role": "Producer",
+      "tracks": "",
+      "id": 647590,
+      "resource_url": "https://api.discogs.com/artists/647590"
+    },
+    {
+      "name": "Phil Hearne",
+      "anv": "",
+      "join": "",
+      "role": "Producer",
+      "tracks": "",
+      "id": 1110665,
+      "resource_url": "https://api.discogs.com/artists/1110665"
+    },
+    {
+      "name": "Terry Jones (5)",
+      "anv": "",
+      "join": "",
+      "role": "Vocals",
+      "tracks": "",
+      "id": 1110668,
+      "resource_url": "https://api.discogs.com/artists/1110668"
+    }
+  ],
+  "images": [
+    {
+      "type": "primary",
+      "uri": "https://i.discogs.com/Db8onE-amZi0F-n9Q4N25tM3tchtfTjpwBWw5F-BMBw/rs:fit/g:sm/q:90/h:590/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ2NTk4/MDAtMTM3MTM3NzM1/Ny0yMDg1LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/Db8onE-amZi0F-n9Q4N25tM3tchtfTjpwBWw5F-BMBw/rs:fit/g:sm/q:90/h:590/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ2NTk4/MDAtMTM3MTM3NzM1/Ny0yMDg1LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/pai59eu8N_1sw3FFiuC4pf2O7KLOvWeDf4Ph3SPwDpE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ2NTk4/MDAtMTM3MTM3NzM1/Ny0yMDg1LmpwZWc.jpeg",
+      "width": 600,
+      "height": 590
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/Pm1Fzi-hyryubnPVlIgCgJgG9JxFQw9uGETFTHp8bIo/rs:fit/g:sm/q:90/h:585/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ2NTk4/MDAtMTM3MTM3NzM3/Ny04ODIxLmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/Pm1Fzi-hyryubnPVlIgCgJgG9JxFQw9uGETFTHp8bIo/rs:fit/g:sm/q:90/h:585/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ2NTk4/MDAtMTM3MTM3NzM3/Ny04ODIxLmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/topKWABFgwCbEE-zwcLOsv9CbLQwR2f1JQlxhgf0c9o/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ2NTk4/MDAtMTM3MTM3NzM3/Ny04ODIxLmpwZWc.jpeg",
+      "width": 600,
+      "height": 585
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/7KoQWBGQ3oHzmjKVtf9VxW213JESW-edFE43vOW7DZM/rs:fit/g:sm/q:90/h:459/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ2NTk4/MDAtMTM3MTM3NzM4/OC05MzMwLmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/7KoQWBGQ3oHzmjKVtf9VxW213JESW-edFE43vOW7DZM/rs:fit/g:sm/q:90/h:459/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ2NTk4/MDAtMTM3MTM3NzM4/OC05MzMwLmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/IPyAObOcTRHdqKtQijxby6BFWZv2fAHOAlHBoujdYWk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ2NTk4/MDAtMTM3MTM3NzM4/OC05MzMwLmpwZWc.jpeg",
+      "width": 600,
+      "height": 459
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/e8sRPe2_WC1n2RnhKsXi_ajgdpv6dZpkvleEWN1yjew/rs:fit/g:sm/q:90/h:600/w:594/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ2NTk4/MDAtMTM3MTM3NzM5/OC05NzM2LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/e8sRPe2_WC1n2RnhKsXi_ajgdpv6dZpkvleEWN1yjew/rs:fit/g:sm/q:90/h:600/w:594/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ2NTk4/MDAtMTM3MTM3NzM5/OC05NzM2LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/WjrwzhYr5qqnXYq-rJUSmYTOVwZP4M3j43_C0ucKbaA/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ2NTk4/MDAtMTM3MTM3NzM5/OC05NzM2LmpwZWc.jpeg",
+      "width": 594,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/0mtVnvOjJPdFONENW4EBIl0SCyPcWTbZCvj2GzbeGaA/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ2NTk4/MDAtMTQ1Mjg3NzEw/My02NzY0LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/0mtVnvOjJPdFONENW4EBIl0SCyPcWTbZCvj2GzbeGaA/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ2NTk4/MDAtMTQ1Mjg3NzEw/My02NzY0LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/r9tJnBUo-_NwvuOaURSQ57bmyI_P6CPySw2Lp8j6BGQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ2NTk4/MDAtMTQ1Mjg3NzEw/My02NzY0LmpwZWc.jpeg",
+      "width": 600,
+      "height": 600
+    }
+  ],
+  "thumb": "https://i.discogs.com/pai59eu8N_1sw3FFiuC4pf2O7KLOvWeDf4Ph3SPwDpE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ2NTk4/MDAtMTM3MTM3NzM1/Ny0yMDg1LmpwZWc.jpeg",
+  "estimated_weight": 85,
+  "blocked_from_sale": false,
+  "is_offensive": false
+}

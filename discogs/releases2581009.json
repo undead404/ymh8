@@ -1,0 +1,257 @@
+{
+  "id": 2581009,
+  "status": "Accepted",
+  "year": 2005,
+  "resource_url": "https://api.discogs.com/releases/2581009",
+  "uri": "https://www.discogs.com/release/2581009-Pagan-Altar-Judgement-Of-The-Dead",
+  "artists": [
+    {
+      "name": "Pagan Altar",
+      "anv": "",
+      "join": "",
+      "role": "",
+      "tracks": "",
+      "id": 647590,
+      "resource_url": "https://api.discogs.com/artists/647590",
+      "thumbnail_url": "https://i.discogs.com/jSZvC9ThPS0gSBVUjSyxzTF_AyTtD0YUVrlDZd6lC6g/rs:fit/g:sm/q:90/h:130/w:400/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTY0NzU5/MC0xNTE3MTc0MzYy/LTU1NjcuanBlZw.jpeg"
+    }
+  ],
+  "artists_sort": "Pagan Altar",
+  "labels": [
+    {
+      "name": "Black Widow Records",
+      "catno": "BWR 084",
+      "entity_type": "1",
+      "entity_type_name": "Label",
+      "id": 44262,
+      "resource_url": "https://api.discogs.com/labels/44262",
+      "thumbnail_url": "https://i.discogs.com/DuuQpe7YNLCxBYTgPfMikvzkh7SEseJS0hn-feOyGkw/rs:fit/g:sm/q:90/h:90/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTQ0MjYy/LTE3NTQ5MjY3MDgt/NjAxOC5qcGVn.jpeg"
+    }
+  ],
+  "series": [],
+  "companies": [],
+  "formats": [
+    {
+      "name": "Vinyl",
+      "qty": "1",
+      "descriptions": ["LP", "Album", "Limited Edition", "Numbered"],
+      "text": "Red"
+    }
+  ],
+  "data_quality": "Needs Vote",
+  "community": {
+    "have": 97,
+    "want": 296,
+    "rating": {
+      "count": 18,
+      "average": 4.78
+    },
+    "submitter": {
+      "username": "highwaystar",
+      "resource_url": "https://api.discogs.com/users/highwaystar"
+    },
+    "contributors": [
+      {
+        "username": "highwaystar",
+        "resource_url": "https://api.discogs.com/users/highwaystar"
+      },
+      {
+        "username": "BeastmasterGeneral",
+        "resource_url": "https://api.discogs.com/users/BeastmasterGeneral"
+      },
+      {
+        "username": "stasco76",
+        "resource_url": "https://api.discogs.com/users/stasco76"
+      },
+      {
+        "username": "Black_Widow_Records",
+        "resource_url": "https://api.discogs.com/users/Black_Widow_Records"
+      },
+      {
+        "username": "Scourthecity",
+        "resource_url": "https://api.discogs.com/users/Scourthecity"
+      }
+    ],
+    "data_quality": "Needs Vote",
+    "status": "Accepted"
+  },
+  "format_quantity": 1,
+  "date_added": "2010-12-04T22:08:29-08:00",
+  "date_changed": "2020-12-19T19:16:20-08:00",
+  "num_for_sale": 4,
+  "lowest_price": 133.86,
+  "master_id": 566823,
+  "master_url": "https://api.discogs.com/masters/566823",
+  "title": "Judgement Of The Dead",
+  "country": "Italy",
+  "released": "2005",
+  "notes": "Single Cover with printed inner sleeve\nRed vinyl limited to 300 copies numbered on a Card \nAlso contains thick bio booklet.",
+  "released_formatted": "2005",
+  "identifiers": [],
+  "videos": [
+    {
+      "uri": "https://www.youtube.com/watch?v=b-7wZyUeyTE",
+      "title": "Pagan Altar - Judgement of the dead",
+      "description": "NWOBHM Doom sweetness!",
+      "duration": 474,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=1-9rcger1TA",
+      "title": "Pagan Altar: Volume 1",
+      "description": "Volume 1 1982 DOOM (UK) 1998 Oracle Records\nAll songs written between 1978 - 1981\n\n1. Pagan Altar\n2. In the Wake of Armadeus 07:23\n3. Judgement of the Dead 11:38\n4. The Black Mass 19:28\n5. Night Rider 24:48\n6. Acoustics 28:58\n7. Reincarnation 30:35\n\n☩ ",
+      "duration": 2363,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=b-7wZyUeyTE",
+      "title": "Pagan Altar - Judgement of the dead",
+      "description": "NWOBHM Doom sweetness!",
+      "duration": 474,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=KYWaK0c6JR0",
+      "title": "Pagan Altar- Judgement Of The Dead (FULL ALBUM) 1982",
+      "description": "***Subscribe for more Heavy Metal Albums***\n\n\nTracklist:\n\n1. Pagan Altar 00:00\n2. In The Wake Of Armadeus 07:22\n3. Judgement Of The Dead 11:37\n4. The Black Mass 19:27\n5. Night Rider 24:48\n6. Acoustics 28:58\n7. Reincarnation 30:36\n\n\n\nCopyright Disclaimer U",
+      "duration": 2366,
+      "embed": true
+    }
+  ],
+  "genres": ["Rock"],
+  "styles": ["Doom Metal", "Heavy Metal"],
+  "tracklist": [
+    {
+      "position": "A1",
+      "type_": "track",
+      "title": "Pagan Altar",
+      "duration": ""
+    },
+    {
+      "position": "A2",
+      "type_": "track",
+      "title": "In The Wake Of Armadeus",
+      "duration": ""
+    },
+    {
+      "position": "A3",
+      "type_": "track",
+      "title": "Judgement Of The Dead",
+      "duration": ""
+    },
+    {
+      "position": "B1",
+      "type_": "track",
+      "title": "The Black Mass",
+      "duration": ""
+    },
+    {
+      "position": "B2",
+      "type_": "track",
+      "title": "Night Rider",
+      "duration": ""
+    },
+    {
+      "position": "B3",
+      "type_": "track",
+      "title": "The Dance Of The Banshee",
+      "duration": ""
+    },
+    {
+      "position": "B4",
+      "type_": "track",
+      "title": "Reincarnation",
+      "duration": ""
+    },
+    {
+      "position": "B5",
+      "type_": "track",
+      "title": "March Of The Dead",
+      "duration": ""
+    }
+  ],
+  "extraartists": [
+    {
+      "name": "Trevor Portch",
+      "anv": "",
+      "join": "",
+      "role": "Bass",
+      "tracks": "",
+      "id": 1110666,
+      "resource_url": "https://api.discogs.com/artists/1110666"
+    },
+    {
+      "name": "John Mizrahi",
+      "anv": "",
+      "join": "",
+      "role": "Drums",
+      "tracks": "",
+      "id": 1110667,
+      "resource_url": "https://api.discogs.com/artists/1110667"
+    },
+    {
+      "name": "Alan Jones (11)",
+      "anv": "",
+      "join": "",
+      "role": "Guitar",
+      "tracks": "",
+      "id": 1084584,
+      "resource_url": "https://api.discogs.com/artists/1084584"
+    },
+    {
+      "name": "Terry Jones (5)",
+      "anv": "",
+      "join": "",
+      "role": "Vocals",
+      "tracks": "",
+      "id": 1110668,
+      "resource_url": "https://api.discogs.com/artists/1110668"
+    }
+  ],
+  "images": [
+    {
+      "type": "primary",
+      "uri": "https://i.discogs.com/ELHEogASw5AaQ2q5hk9MqPFx7ZdRR1zoIpLlgWXMwu8/rs:fit/g:sm/q:90/h:359/w:400/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1ODEw/MDktMTU0NjUyNTE1/MS04NjYyLmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/ELHEogASw5AaQ2q5hk9MqPFx7ZdRR1zoIpLlgWXMwu8/rs:fit/g:sm/q:90/h:359/w:400/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1ODEw/MDktMTU0NjUyNTE1/MS04NjYyLmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/MsjXTlFXKgjkgvFdO-sSo6Z_ajsPN2AA46fHm7HSeCU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1ODEw/MDktMTU0NjUyNTE1/MS04NjYyLmpwZWc.jpeg",
+      "width": 400,
+      "height": 359
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/4NdtSNsKv6aevWuftaehCbdse3T2JhlsyISw-RDPOiw/rs:fit/g:sm/q:90/h:600/w:453/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1ODEw/MDktMTU4NzAzNDgz/NC0zNTg3LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/4NdtSNsKv6aevWuftaehCbdse3T2JhlsyISw-RDPOiw/rs:fit/g:sm/q:90/h:600/w:453/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1ODEw/MDktMTU4NzAzNDgz/NC0zNTg3LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/K_JtAo9a3fWL_8v2y6bIfOwAEgY0OtaK0bRZ8vEfwD0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1ODEw/MDktMTU4NzAzNDgz/NC0zNTg3LmpwZWc.jpeg",
+      "width": 453,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/-i5Wl6HBM0Or2woi8xSaEJpin7_OCMEfWjIgH2GYhqM/rs:fit/g:sm/q:90/h:600/w:483/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1ODEw/MDktMTU4NzAzNDgz/NC0yNjIzLmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/-i5Wl6HBM0Or2woi8xSaEJpin7_OCMEfWjIgH2GYhqM/rs:fit/g:sm/q:90/h:600/w:483/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1ODEw/MDktMTU4NzAzNDgz/NC0yNjIzLmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/MLLNPHpuGo4KC7L-rgqvuUImpFo90-ilJ5_Ignx7KQg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1ODEw/MDktMTU4NzAzNDgz/NC0yNjIzLmpwZWc.jpeg",
+      "width": 483,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/srB4qHWYqxuVe6RBYmDYy9XZpKUoKyESlt8COW160Ts/rs:fit/g:sm/q:90/h:600/w:450/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1ODEw/MDktMTU0NjUyNTA1/OS0xOTAxLmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/srB4qHWYqxuVe6RBYmDYy9XZpKUoKyESlt8COW160Ts/rs:fit/g:sm/q:90/h:600/w:450/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1ODEw/MDktMTU0NjUyNTA1/OS0xOTAxLmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/40b_Th_xvA_IzjSvpWIMqwPN3_HH0GzBJdbRWDYN_iY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1ODEw/MDktMTU0NjUyNTA1/OS0xOTAxLmpwZWc.jpeg",
+      "width": 450,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/DkJ0Cn0nagl1P6QhZrTkzHIUEvGuhSDu70Y0Q5a4TCQ/rs:fit/g:sm/q:90/h:300/w:400/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1ODEw/MDktMTU0NjUyNTEz/Ny01NzcyLmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/DkJ0Cn0nagl1P6QhZrTkzHIUEvGuhSDu70Y0Q5a4TCQ/rs:fit/g:sm/q:90/h:300/w:400/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1ODEw/MDktMTU0NjUyNTEz/Ny01NzcyLmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/eN6RZ4C89i2V5RLscNaEp10NAlUJV_pm1oThjG6wmhs/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1ODEw/MDktMTU0NjUyNTEz/Ny01NzcyLmpwZWc.jpeg",
+      "width": 400,
+      "height": 300
+    }
+  ],
+  "thumb": "https://i.discogs.com/MsjXTlFXKgjkgvFdO-sSo6Z_ajsPN2AA46fHm7HSeCU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1ODEw/MDktMTU0NjUyNTE1/MS04NjYyLmpwZWc.jpeg",
+  "estimated_weight": 230,
+  "blocked_from_sale": false,
+  "is_offensive": false
+}

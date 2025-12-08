@@ -1,0 +1,706 @@
+{
+  "id": 752283,
+  "status": "Accepted",
+  "year": 1994,
+  "resource_url": "https://api.discogs.com/releases/752283",
+  "uri": "https://www.discogs.com/release/752283-Pentagram-Be-Forewarned",
+  "artists": [
+    {
+      "name": "Pentagram",
+      "anv": "",
+      "join": "",
+      "role": "",
+      "tracks": "",
+      "id": 275370,
+      "resource_url": "https://api.discogs.com/artists/275370",
+      "thumbnail_url": "https://i.discogs.com/guQscJ3BilJw4dkahHdC1v59KZJrB9A6mcQnysnV5a8/rs:fit/g:sm/q:90/h:544/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI3NTM3/MC0xNzMwMjM3NDMz/LTk3NjcuanBlZw.jpeg"
+    }
+  ],
+  "artists_sort": "Pentagram",
+  "labels": [
+    {
+      "name": "Peaceville",
+      "catno": "VILE 42 CD",
+      "entity_type": "1",
+      "entity_type_name": "Label",
+      "id": 14465,
+      "resource_url": "https://api.discogs.com/labels/14465",
+      "thumbnail_url": "https://i.discogs.com/qra7b3VTdA3XPKopnElwzxCu4hEyM7sqZPtexYyhVBQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTE0NDY1/LTE2MDg5MDA2MTct/MjQzNi5qcGVn.jpeg"
+    }
+  ],
+  "series": [],
+  "companies": [
+    {
+      "name": "Vile Music (2)",
+      "catno": "",
+      "entity_type": "14",
+      "entity_type_name": "Copyright (c)",
+      "id": 272087,
+      "resource_url": "https://api.discogs.com/labels/272087"
+    },
+    {
+      "name": "Peaceville",
+      "catno": "",
+      "entity_type": "13",
+      "entity_type_name": "Phonographic Copyright (p)",
+      "id": 14465,
+      "resource_url": "https://api.discogs.com/labels/14465",
+      "thumbnail_url": "https://i.discogs.com/qra7b3VTdA3XPKopnElwzxCu4hEyM7sqZPtexYyhVBQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTE0NDY1/LTE2MDg5MDA2MTct/MjQzNi5qcGVn.jpeg"
+    },
+    {
+      "name": "Music For Nations",
+      "catno": "",
+      "entity_type": "8",
+      "entity_type_name": "Marketed By",
+      "id": 16279,
+      "resource_url": "https://api.discogs.com/labels/16279",
+      "thumbnail_url": "https://i.discogs.com/8-do4iBmKyvQW-cfkhQqAbUnzRMPdHNyVjeTO9Gy_ts/rs:fit/g:sm/q:90/h:164/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTE2Mjc5/LTE1ODIzOTY4MDIt/MTM1MS5wbmc.jpeg"
+    },
+    {
+      "name": "Music For Nations",
+      "catno": "",
+      "entity_type": "9",
+      "entity_type_name": "Distributed By",
+      "id": 16279,
+      "resource_url": "https://api.discogs.com/labels/16279",
+      "thumbnail_url": "https://i.discogs.com/8-do4iBmKyvQW-cfkhQqAbUnzRMPdHNyVjeTO9Gy_ts/rs:fit/g:sm/q:90/h:164/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTE2Mjc5/LTE1ODIzOTY4MDIt/MTM1MS5wbmc.jpeg"
+    },
+    {
+      "name": "Cue Recording Studios",
+      "catno": "",
+      "entity_type": "23",
+      "entity_type_name": "Recorded At",
+      "id": 292838,
+      "resource_url": "https://api.discogs.com/labels/292838",
+      "thumbnail_url": "https://i.discogs.com/_RcHOtNWC_s2t5CWzjmEQYIXhWvqdug7GrirlIwxEMM/rs:fit/g:sm/q:90/h:346/w:216/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTI5Mjgz/OC0xMzE4MjY4MTcy/LmpwZWc.jpeg"
+    },
+    {
+      "name": "Cue Recording Studios",
+      "catno": "",
+      "entity_type": "27",
+      "entity_type_name": "Mixed At",
+      "id": 292838,
+      "resource_url": "https://api.discogs.com/labels/292838",
+      "thumbnail_url": "https://i.discogs.com/_RcHOtNWC_s2t5CWzjmEQYIXhWvqdug7GrirlIwxEMM/rs:fit/g:sm/q:90/h:346/w:216/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTI5Mjgz/OC0xMzE4MjY4MTcy/LmpwZWc.jpeg"
+    },
+    {
+      "name": "Transfermation",
+      "catno": "",
+      "entity_type": "29",
+      "entity_type_name": "Mastered At",
+      "id": 197479,
+      "resource_url": "https://api.discogs.com/labels/197479",
+      "thumbnail_url": "https://i.discogs.com/YLOUYcI06wyzXgHMvstfC6aloPuP9_SLPKsDR0RUBdU/rs:fit/g:sm/q:90/h:481/w:517/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTE5NzQ3/OS0xNTkxODk3NjEw/LTQ3MjAucG5n.jpeg"
+    },
+    {
+      "name": "Nimbus",
+      "catno": "",
+      "entity_type": "31",
+      "entity_type_name": "Glass Mastered At",
+      "id": 93218,
+      "resource_url": "https://api.discogs.com/labels/93218",
+      "thumbnail_url": "https://i.discogs.com/x-5KrFljZHdZ65vt7Yu1VmitBMMbPN_7F6B_DPisWZ4/rs:fit/g:sm/q:90/h:300/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTkzMjE4/LTE0NTExNDUxMjEt/NDk0Mi5wbmc.jpeg"
+    }
+  ],
+  "formats": [
+    {
+      "name": "CD",
+      "qty": "1",
+      "descriptions": ["Album", "Stereo"]
+    }
+  ],
+  "data_quality": "Needs Vote",
+  "community": {
+    "have": 232,
+    "want": 145,
+    "rating": {
+      "count": 26,
+      "average": 4.5
+    },
+    "submitter": {
+      "username": "ziggysmurfdust",
+      "resource_url": "https://api.discogs.com/users/ziggysmurfdust"
+    },
+    "contributors": [
+      {
+        "username": "ziggysmurfdust",
+        "resource_url": "https://api.discogs.com/users/ziggysmurfdust"
+      },
+      {
+        "username": "kreuztot",
+        "resource_url": "https://api.discogs.com/users/kreuztot"
+      },
+      {
+        "username": "inexpressible",
+        "resource_url": "https://api.discogs.com/users/inexpressible"
+      },
+      {
+        "username": "Myriad",
+        "resource_url": "https://api.discogs.com/users/Myriad"
+      },
+      {
+        "username": "Lachrymist",
+        "resource_url": "https://api.discogs.com/users/Lachrymist"
+      },
+      {
+        "username": "c4d4v3r",
+        "resource_url": "https://api.discogs.com/users/c4d4v3r"
+      },
+      {
+        "username": "motoer",
+        "resource_url": "https://api.discogs.com/users/motoer"
+      },
+      {
+        "username": "kuttenfred",
+        "resource_url": "https://api.discogs.com/users/kuttenfred"
+      },
+      {
+        "username": "Cirithsaxon",
+        "resource_url": "https://api.discogs.com/users/Cirithsaxon"
+      },
+      {
+        "username": "adelpy",
+        "resource_url": "https://api.discogs.com/users/adelpy"
+      }
+    ],
+    "data_quality": "Needs Vote",
+    "status": "Accepted"
+  },
+  "format_quantity": 1,
+  "date_added": "2006-08-16T07:14:35-07:00",
+  "date_changed": "2025-01-03T08:05:26-08:00",
+  "num_for_sale": 7,
+  "lowest_price": 1.41,
+  "master_id": 62016,
+  "master_url": "https://api.discogs.com/masters/62016",
+  "title": "Be Forewarned",
+  "country": "UK",
+  "released": "1994-10-00",
+  "notes": "Issued in a standard jewel case with back tray and a 12-page booklet.\n\nTrack durations are not printed on the release.\n\n[Booklet]\nRecorded and mixed at Cue Recording, Falls Church, VA, USA. Jan - Apr 1994.",
+  "released_formatted": "Oct 1994",
+  "identifiers": [
+    {
+      "type": "Barcode",
+      "value": "5 016557 504224",
+      "description": "Text"
+    },
+    {
+      "type": "Barcode",
+      "value": "5016557504224",
+      "description": "Scanned, EAN-13"
+    },
+    {
+      "type": "Label Code",
+      "value": "LC 5580"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "VILE 42 CD MASTERED BY NIMBUS",
+      "description": "Variant 1"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "VILE 42 CD . 1:1  .MASTERED BY NIMBUS.",
+      "description": "Variant 2"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "VILE 42 CD . 1:0  .MASTERED BY NIMBUS.",
+      "description": "Variant 3"
+    }
+  ],
+  "videos": [
+    {
+      "uri": "https://www.youtube.com/watch?v=n6w5HUHz_cE",
+      "title": "Pentagram - Be Forewarned ( FULL ALBUM 1994 )",
+      "description": "Feel free to comment.\nShare and Subscribe for more full albums!\n\nTrack listing\n\n1.\"Live Free and Burn\"  - 0:00\n2.\"Too Late\"  03:07\n3.\"Ask No More\"  07:44\n4.\"The World Will Love Again\"  - 11:52\n5.\"Vampyre Love\"  - 17:06\n6.\"Life Blood\"  - 20:46\n7.\"Wolf's Bl",
+      "duration": 3535,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=ui2sdeluvqo",
+      "title": "Pentagram  - Be Forewarned [ Full Album | 1994 ]",
+      "description": "Band: Pentagram\nAlbum: Be Forewarned\nReleased: April 1994\nCountry: EUA\nLabel: Peaceville Records\n\n\n01. Live Free and Burn - 00:00\n02. Too Late - 03:08\n03. Ask No More - 07:45\n04. The World Will Love Again - 11:52\n05. Vampyre Love - 17:05\n06. Life Blood - ",
+      "duration": 0,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=VkcKMSl0A9k",
+      "title": "Pentagram: Be Forewarned",
+      "description": "Be Forewarned 1994 Peaceville Records\nDoom Metal (Virginia)\n𝐑𝐞𝐥𝐞𝐧𝐭𝐥𝐞𝐬𝐬: https://www.youtube.com/watch?v=N4a_76J2yDE\n𝐃𝐚𝐲 𝐨𝐟 𝐑𝐞𝐜𝐤𝐨𝐧𝐢𝐧𝐠: https://www.youtube.com/watch?v=dnSVhmUFF1s\n𝐃𝐞𝐚𝐭𝐡 𝐑𝐨𝐰: 𝐀𝐥𝐢𝐯𝐞 𝐈𝐧 𝐃𝐞𝐚𝐭𝐡: https://www.youtube.com/watch?v=7QH7gDGSvmM\n\nI. Li",
+      "duration": 0,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=MIBNMoqYX9s",
+      "title": "Be Forewarned",
+      "description": "Provided to YouTube by The Orchard Enterprises\n\nBe Forewarned · Pentagram\n\nBe Forewarned\n\n℗ 1994 Peaceville Records\n\nReleased on: 1994-01-01\n\nAuto-generated by YouTube.",
+      "duration": 437,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=n6w5HUHz_cE",
+      "title": "Pentagram - Be Forewarned ( FULL ALBUM 1994 )",
+      "description": "Feel free to comment.\nShare and Subscribe for more full albums!\n\nTrack listing\n\n1.\"Live Free and Burn\"  - 0:00\n2.\"Too Late\"  03:07\n3.\"Ask No More\"  07:44\n4.\"The World Will Love Again\"  - 11:52\n5.\"Vampyre Love\"  - 17:06\n6.\"Life Blood\"  - 20:46\n7.\"Wolf's Bl",
+      "duration": 3535,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=ui2sdeluvqo",
+      "title": "Pentagram  - Be Forewarned [ Full Album | 1994 ]",
+      "description": "Band: Pentagram\nAlbum: Be Forewarned\nReleased: April 1994\nCountry: EUA\nLabel: Peaceville Records\n\n\n01. Live Free and Burn - 00:00\n02. Too Late - 03:08\n03. Ask No More - 07:45\n04. The World Will Love Again - 11:52\n05. Vampyre Love - 17:05\n06. Life Blood - ",
+      "duration": 0,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=VkcKMSl0A9k",
+      "title": "Pentagram: Be Forewarned",
+      "description": "Be Forewarned 1994 Peaceville Records\nDoom Metal (Virginia)\n𝐑𝐞𝐥𝐞𝐧𝐭𝐥𝐞𝐬𝐬: https://www.youtube.com/watch?v=N4a_76J2yDE\n𝐃𝐚𝐲 𝐨𝐟 𝐑𝐞𝐜𝐤𝐨𝐧𝐢𝐧𝐠: https://www.youtube.com/watch?v=dnSVhmUFF1s\n𝐃𝐞𝐚𝐭𝐡 𝐑𝐨𝐰: 𝐀𝐥𝐢𝐯𝐞 𝐈𝐧 𝐃𝐞𝐚𝐭𝐡: https://www.youtube.com/watch?v=7QH7gDGSvmM\n\nI. Li",
+      "duration": 0,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=MIBNMoqYX9s",
+      "title": "Be Forewarned",
+      "description": "Provided to YouTube by The Orchard Enterprises\n\nBe Forewarned · Pentagram\n\nBe Forewarned\n\n℗ 1994 Peaceville Records\n\nReleased on: 1994-01-01\n\nAuto-generated by YouTube.",
+      "duration": 437,
+      "embed": true
+    }
+  ],
+  "genres": ["Rock"],
+  "styles": ["Doom Metal"],
+  "tracklist": [
+    {
+      "position": "1",
+      "type_": "track",
+      "title": "Live Free And Burn",
+      "extraartists": [
+        {
+          "name": "Joe Hasselvander",
+          "anv": "J. Hasselvander",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 557909,
+          "resource_url": "https://api.discogs.com/artists/557909"
+        },
+        {
+          "name": "Victor Griffin",
+          "anv": "V. Griffin",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 557908,
+          "resource_url": "https://api.discogs.com/artists/557908"
+        }
+      ],
+      "duration": "3:09"
+    },
+    {
+      "position": "2",
+      "type_": "track",
+      "title": "Too Late",
+      "extraartists": [
+        {
+          "name": "Victor Griffin",
+          "anv": "V. Griffin",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 557908,
+          "resource_url": "https://api.discogs.com/artists/557908"
+        }
+      ],
+      "duration": "4:37"
+    },
+    {
+      "position": "3",
+      "type_": "track",
+      "title": "Ask No More",
+      "extraartists": [
+        {
+          "name": "Bobby Liebling",
+          "anv": "B. Liebling",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 568439,
+          "resource_url": "https://api.discogs.com/artists/568439"
+        }
+      ],
+      "duration": "4:06"
+    },
+    {
+      "position": "4",
+      "type_": "track",
+      "title": "The World Will Love Again",
+      "extraartists": [
+        {
+          "name": "Joe Hasselvander",
+          "anv": "J. Hasselvander",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 557909,
+          "resource_url": "https://api.discogs.com/artists/557909"
+        }
+      ],
+      "duration": "5:13"
+    },
+    {
+      "position": "5",
+      "type_": "track",
+      "title": "Vampyre Love",
+      "extraartists": [
+        {
+          "name": "Victor Griffin",
+          "anv": "V. Griffin",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 557908,
+          "resource_url": "https://api.discogs.com/artists/557908"
+        }
+      ],
+      "duration": "3:41"
+    },
+    {
+      "position": "6",
+      "type_": "track",
+      "title": "Life Blood",
+      "extraartists": [
+        {
+          "name": "Adam Forrest (2)",
+          "anv": "A. Forrest",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 4564446,
+          "resource_url": "https://api.discogs.com/artists/4564446"
+        },
+        {
+          "name": "Victor Griffin",
+          "anv": "V. Griffin",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 557908,
+          "resource_url": "https://api.discogs.com/artists/557908"
+        }
+      ],
+      "duration": "7:01"
+    },
+    {
+      "position": "7",
+      "type_": "track",
+      "title": "Wolf's Blood",
+      "extraartists": [
+        {
+          "name": "Victor Griffin",
+          "anv": "V. Griffin",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 557908,
+          "resource_url": "https://api.discogs.com/artists/557908"
+        }
+      ],
+      "duration": "4:26"
+    },
+    {
+      "position": "8",
+      "type_": "track",
+      "title": "Frustration",
+      "extraartists": [
+        {
+          "name": "Bobby Liebling",
+          "anv": "B. Liebling",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 568439,
+          "resource_url": "https://api.discogs.com/artists/568439"
+        }
+      ],
+      "duration": "3:35"
+    },
+    {
+      "position": "9",
+      "type_": "track",
+      "title": "Bride Of Evil",
+      "extraartists": [
+        {
+          "name": "Joe Hasselvander",
+          "anv": "J. Hasselvander",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 557909,
+          "resource_url": "https://api.discogs.com/artists/557909"
+        }
+      ],
+      "duration": "4:34"
+    },
+    {
+      "position": "10",
+      "type_": "track",
+      "title": "Nightmare Gown",
+      "extraartists": [
+        {
+          "name": "Bobby Liebling",
+          "anv": "B. Liebling",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 568439,
+          "resource_url": "https://api.discogs.com/artists/568439"
+        }
+      ],
+      "duration": "2:53"
+    },
+    {
+      "position": "11",
+      "type_": "track",
+      "title": "Petrified",
+      "extraartists": [
+        {
+          "name": "Bobby Liebling",
+          "anv": "B. Liebling",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 568439,
+          "resource_url": "https://api.discogs.com/artists/568439"
+        },
+        {
+          "name": "Joe Hasselvander",
+          "anv": "J. Hasselvander",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 557909,
+          "resource_url": "https://api.discogs.com/artists/557909"
+        }
+      ],
+      "duration": "5:54"
+    },
+    {
+      "position": "12",
+      "type_": "track",
+      "title": "A Timeless Heart",
+      "extraartists": [
+        {
+          "name": "Bobby Liebling",
+          "anv": "B. Liebling",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 568439,
+          "resource_url": "https://api.discogs.com/artists/568439"
+        }
+      ],
+      "duration": "2:23"
+    },
+    {
+      "position": "13",
+      "type_": "track",
+      "title": "Be Forewarned",
+      "extraartists": [
+        {
+          "name": "Bobby Liebling",
+          "anv": "B. Liebling",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 568439,
+          "resource_url": "https://api.discogs.com/artists/568439"
+        }
+      ],
+      "duration": "7:16"
+    }
+  ],
+  "extraartists": [
+    {
+      "name": "Pentagram",
+      "anv": "",
+      "join": "",
+      "role": "Arranged By [All Songs Arranged By]",
+      "tracks": "",
+      "id": 275370,
+      "resource_url": "https://api.discogs.com/artists/275370"
+    },
+    {
+      "name": "Ivor Claydon Graphics",
+      "anv": "",
+      "join": "",
+      "role": "Artwork [Artwork Provided By]",
+      "tracks": "",
+      "id": 5534581,
+      "resource_url": "https://api.discogs.com/artists/5534581"
+    },
+    {
+      "name": "Victor Griffin",
+      "anv": "",
+      "join": "",
+      "role": "Backing Vocals",
+      "tracks": "6",
+      "id": 557908,
+      "resource_url": "https://api.discogs.com/artists/557908"
+    },
+    {
+      "name": "Martin Swaney",
+      "anv": "",
+      "join": "",
+      "role": "Bass",
+      "tracks": "",
+      "id": 568438,
+      "resource_url": "https://api.discogs.com/artists/568438"
+    },
+    {
+      "name": "Victor Griffin",
+      "anv": "",
+      "join": "",
+      "role": "Design Concept [Cover Concept]",
+      "tracks": "",
+      "id": 557908,
+      "resource_url": "https://api.discogs.com/artists/557908"
+    },
+    {
+      "name": "Joe Hasselvander",
+      "anv": "",
+      "join": "",
+      "role": "Drums, Percussion",
+      "tracks": "",
+      "id": 557909,
+      "resource_url": "https://api.discogs.com/artists/557909"
+    },
+    {
+      "name": "Greg Turley",
+      "anv": "",
+      "join": "",
+      "role": "Graphics, Video Technician [Video Team]",
+      "tracks": "",
+      "id": 1090746,
+      "resource_url": "https://api.discogs.com/artists/1090746"
+    },
+    {
+      "name": "Jeff Lee (10)",
+      "anv": "",
+      "join": "",
+      "role": "Graphics, Video Technician [Video Team]",
+      "tracks": "",
+      "id": 3261289,
+      "resource_url": "https://api.discogs.com/artists/3261289"
+    },
+    {
+      "name": "Keith Antognoni",
+      "anv": "",
+      "join": "",
+      "role": "Graphics, Video Technician [Video Team]",
+      "tracks": "",
+      "id": 8018781,
+      "resource_url": "https://api.discogs.com/artists/8018781"
+    },
+    {
+      "name": "Ron Lunn",
+      "anv": "",
+      "join": "",
+      "role": "Graphics, Video Technician [Video Team]",
+      "tracks": "",
+      "id": 5980489,
+      "resource_url": "https://api.discogs.com/artists/5980489"
+    },
+    {
+      "name": "Victor Griffin",
+      "anv": "",
+      "join": "",
+      "role": "Guitar, Piano",
+      "tracks": "",
+      "id": 557908,
+      "resource_url": "https://api.discogs.com/artists/557908"
+    },
+    {
+      "name": "Gary Querns",
+      "anv": "",
+      "join": "",
+      "role": "Layout, Design",
+      "tracks": "",
+      "id": 1312716,
+      "resource_url": "https://api.discogs.com/artists/1312716"
+    },
+    {
+      "name": "Noel Summerville",
+      "anv": "",
+      "join": "",
+      "role": "Mastered By",
+      "tracks": "",
+      "id": 335173,
+      "resource_url": "https://api.discogs.com/artists/335173"
+    },
+    {
+      "name": "Chris Murphy (2)",
+      "anv": "",
+      "join": "",
+      "role": "Producer [Produced By]",
+      "tracks": "",
+      "id": 450648,
+      "resource_url": "https://api.discogs.com/artists/450648"
+    },
+    {
+      "name": "Pentagram",
+      "anv": "",
+      "join": "",
+      "role": "Producer [Produced By]",
+      "tracks": "",
+      "id": 275370,
+      "resource_url": "https://api.discogs.com/artists/275370"
+    },
+    {
+      "name": "Bobby Liebling",
+      "anv": "",
+      "join": "",
+      "role": "Vocals",
+      "tracks": "",
+      "id": 568439,
+      "resource_url": "https://api.discogs.com/artists/568439"
+    }
+  ],
+  "images": [
+    {
+      "type": "primary",
+      "uri": "https://i.discogs.com/jz2kazUei3vWtWFx5zg2z6NCj4ogROrF4KuFQeGPwWA/rs:fit/g:sm/q:90/h:594/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc1MjI4/My0xNjAwODY4NTA4/LTEyMjQuanBlZw.jpeg",
+      "resource_url": "https://i.discogs.com/jz2kazUei3vWtWFx5zg2z6NCj4ogROrF4KuFQeGPwWA/rs:fit/g:sm/q:90/h:594/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc1MjI4/My0xNjAwODY4NTA4/LTEyMjQuanBlZw.jpeg",
+      "uri150": "https://i.discogs.com/aaIJ4j-ijNW9ZjE50YrXtdbhA-A-7i1-5GyGh15Q_vs/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc1MjI4/My0xNjAwODY4NTA4/LTEyMjQuanBlZw.jpeg",
+      "width": 600,
+      "height": 594
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/jge08nwvuFSIbkNUOzPsvVnKsmTBH4NSSYjckeovaRE/rs:fit/g:sm/q:90/h:295/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc1MjI4/My0xNjAwODY4NTEy/LTI2MTUuanBlZw.jpeg",
+      "resource_url": "https://i.discogs.com/jge08nwvuFSIbkNUOzPsvVnKsmTBH4NSSYjckeovaRE/rs:fit/g:sm/q:90/h:295/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc1MjI4/My0xNjAwODY4NTEy/LTI2MTUuanBlZw.jpeg",
+      "uri150": "https://i.discogs.com/I3GRivnzBMy3dc24yNNvUg-8nV7lIw_uICdDQFc8LGM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc1MjI4/My0xNjAwODY4NTEy/LTI2MTUuanBlZw.jpeg",
+      "width": 600,
+      "height": 295
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/TQsbvWyBL-JqXQtGMpb7FL_uksmqZ-WCTVZbIq1SAQ8/rs:fit/g:sm/q:90/h:471/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc1MjI4/My0xNjAwODY4NTEx/LTM4NTAuanBlZw.jpeg",
+      "resource_url": "https://i.discogs.com/TQsbvWyBL-JqXQtGMpb7FL_uksmqZ-WCTVZbIq1SAQ8/rs:fit/g:sm/q:90/h:471/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc1MjI4/My0xNjAwODY4NTEx/LTM4NTAuanBlZw.jpeg",
+      "uri150": "https://i.discogs.com/rxdlENYw8Bta7o1Pwp6YfCxciJ3rNnOrhNu7DaO0lD4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc1MjI4/My0xNjAwODY4NTEx/LTM4NTAuanBlZw.jpeg",
+      "width": 600,
+      "height": 471
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/a5HPvqpPOKzN50lxdy_f9CoOKrfsP3eTlyiAdT6yYVk/rs:fit/g:sm/q:90/h:592/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc1MjI4/My0xNjAwODY4NTA4/LTc2OTUuanBlZw.jpeg",
+      "resource_url": "https://i.discogs.com/a5HPvqpPOKzN50lxdy_f9CoOKrfsP3eTlyiAdT6yYVk/rs:fit/g:sm/q:90/h:592/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc1MjI4/My0xNjAwODY4NTA4/LTc2OTUuanBlZw.jpeg",
+      "uri150": "https://i.discogs.com/No8KdrVqugfe4WK5aPSlWCwTTTPjdpYwrtkDuCHXf70/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc1MjI4/My0xNjAwODY4NTA4/LTc2OTUuanBlZw.jpeg",
+      "width": 600,
+      "height": 592
+    }
+  ],
+  "thumb": "https://i.discogs.com/aaIJ4j-ijNW9ZjE50YrXtdbhA-A-7i1-5GyGh15Q_vs/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc1MjI4/My0xNjAwODY4NTA4/LTEyMjQuanBlZw.jpeg",
+  "estimated_weight": 85,
+  "blocked_from_sale": false,
+  "is_offensive": false
+}

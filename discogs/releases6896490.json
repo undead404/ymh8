@@ -1,0 +1,399 @@
+{
+  "id": 6896490,
+  "status": "Accepted",
+  "year": 1976,
+  "resource_url": "https://api.discogs.com/releases/6896490",
+  "uri": "https://www.discogs.com/release/6896490-Black-Sabbath-Technical-Ecstasy",
+  "artists": [
+    {
+      "name": "Black Sabbath",
+      "anv": "",
+      "join": "",
+      "role": "",
+      "tracks": "",
+      "id": 144998,
+      "resource_url": "https://api.discogs.com/artists/144998",
+      "thumbnail_url": "https://i.discogs.com/Cmw5vVHa8YTjAizq1xI_KZia-ZmgGZJa0hOd8tTl37w/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE0NDk5/OC0xNTg0OTkyNjIz/LTU2NjAuanBlZw.jpeg"
+    }
+  ],
+  "artists_sort": "Black Sabbath",
+  "labels": [
+    {
+      "name": "Vertigo",
+      "catno": "9124 100",
+      "entity_type": "1",
+      "entity_type_name": "Label",
+      "id": 2266,
+      "resource_url": "https://api.discogs.com/labels/2266",
+      "thumbnail_url": "https://i.discogs.com/IXD4UNEl2ua_UhW-rwh3CbuGDQdNcF36aczeSH3P3f8/rs:fit/g:sm/q:90/h:600/w:493/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTIyNjYt/MTU4MjM3NjUxMy03/NDQzLnBuZw.jpeg"
+    }
+  ],
+  "series": [],
+  "companies": [
+    {
+      "name": "Phonogram",
+      "catno": "",
+      "entity_type": "8",
+      "entity_type_name": "Marketed By",
+      "id": 19050,
+      "resource_url": "https://api.discogs.com/labels/19050",
+      "thumbnail_url": "https://i.discogs.com/yORec-SU_e6BJeVMh4B_gy0PjtDOoW_RiIQSTr6B3U8/rs:fit/g:sm/q:90/h:90/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTE5MDUw/LTExMDY2NTM3NDUu/anBn.jpeg"
+    },
+    {
+      "name": "Phonogram International",
+      "catno": "",
+      "entity_type": "13",
+      "entity_type_name": "Phonographic Copyright (p)",
+      "id": 271942,
+      "resource_url": "https://api.discogs.com/labels/271942",
+      "thumbnail_url": "https://i.discogs.com/QCR0mguuEwr5JyO3_PgPWzXO8Y6-S_Gd1V66ss3R-dQ/rs:fit/g:sm/q:90/h:270/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTI3MTk0/Mi0xNjM4MzE3MTUx/LTcyMjAuanBlZw.jpeg"
+    },
+    {
+      "name": "Phonodisc GmbH",
+      "catno": "",
+      "entity_type": "30",
+      "entity_type_name": "Lacquer Cut At",
+      "id": 391209,
+      "resource_url": "https://api.discogs.com/labels/391209",
+      "thumbnail_url": "https://i.discogs.com/8tOqJKW6nziLA2RhH74dGzREYEW6F0n1eD4-_eyMcrI/rs:fit/g:sm/q:90/h:337/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTM5MTIw/OS0xNDk4MjIzNjUx/LTkyNzkuanBlZw.jpeg"
+    },
+    {
+      "name": "Phonodisc B.V.",
+      "catno": "",
+      "entity_type": "17",
+      "entity_type_name": "Pressed By",
+      "id": 415807,
+      "resource_url": "https://api.discogs.com/labels/415807",
+      "thumbnail_url": "https://i.discogs.com/1hCHFVqTnFZHgkDoi-GteZjhIVEo_s_32EhnrbO2XD0/rs:fit/g:sm/q:90/h:337/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTQxNTgw/Ny0xNzM5MjY1OTM2/LTE2ODQuanBlZw.jpeg"
+    }
+  ],
+  "formats": [
+    {
+      "name": "Vinyl",
+      "qty": "1",
+      "descriptions": ["LP", "Album", "Stereo"]
+    }
+  ],
+  "data_quality": "Needs Vote",
+  "community": {
+    "have": 537,
+    "want": 288,
+    "rating": {
+      "count": 45,
+      "average": 4.18
+    },
+    "submitter": {
+      "username": "scrmager",
+      "resource_url": "https://api.discogs.com/users/scrmager"
+    },
+    "contributors": [
+      {
+        "username": "scrmager",
+        "resource_url": "https://api.discogs.com/users/scrmager"
+      },
+      {
+        "username": "shiremen",
+        "resource_url": "https://api.discogs.com/users/shiremen"
+      },
+      {
+        "username": "WolfRideDeadHorse",
+        "resource_url": "https://api.discogs.com/users/WolfRideDeadHorse"
+      },
+      {
+        "username": "johannesurt",
+        "resource_url": "https://api.discogs.com/users/johannesurt"
+      },
+      {
+        "username": "purzelbier",
+        "resource_url": "https://api.discogs.com/users/purzelbier"
+      },
+      {
+        "username": "80rule",
+        "resource_url": "https://api.discogs.com/users/80rule"
+      },
+      {
+        "username": "Hermo72",
+        "resource_url": "https://api.discogs.com/users/Hermo72"
+      },
+      {
+        "username": "achilleas.katsaros",
+        "resource_url": "https://api.discogs.com/users/achilleas.katsaros"
+      },
+      {
+        "username": "azzurro",
+        "resource_url": "https://api.discogs.com/users/azzurro"
+      },
+      {
+        "username": "lefantomas",
+        "resource_url": "https://api.discogs.com/users/lefantomas"
+      },
+      {
+        "username": "MigV",
+        "resource_url": "https://api.discogs.com/users/MigV"
+      }
+    ],
+    "data_quality": "Needs Vote",
+    "status": "Accepted"
+  },
+  "format_quantity": 1,
+  "date_added": "2015-04-14T02:43:09-07:00",
+  "date_changed": "2024-10-20T02:56:08-07:00",
+  "num_for_sale": 8,
+  "lowest_price": 30.04,
+  "master_id": 4938,
+  "master_url": "https://api.discogs.com/masters/4938",
+  "title": "Technical Ecstasy",
+  "country": "Netherlands",
+  "released": "1976",
+  "notes": "Printed in the Netherlands",
+  "released_formatted": "1976",
+  "identifiers": [
+    {
+      "type": "Rights Society",
+      "value": "B.I.E.M./STEMRA"
+    },
+    {
+      "type": "Label Code",
+      "value": "LC 1633"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "196 9124 100 S 1Y114 320",
+      "description": "SIde A"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "9124 100 2 Y=2 320 1",
+      "description": "Side B"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "196 9124 100 S 1Y 11 3 320",
+      "description": "SIde A, variant 2"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "9124 100 2 Y=2 114 320 1",
+      "description": "Side B, variant 2"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "196 9124 100 S 1Y 112 320",
+      "description": "SIde A, variant 3"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "9124 100 2 Y=2 5 320 1",
+      "description": "Side B, variant 3"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "196 9124 100 S/X 1Y 112 320",
+      "description": "SIde A, variant 4"
+    },
+    {
+      "type": "Barcode",
+      "value": "9124 100 2 Y=2 320 1",
+      "description": "Side B, variant 4"
+    }
+  ],
+  "videos": [
+    {
+      "uri": "https://www.youtube.com/watch?v=MueoYXwfSvs",
+      "title": "Black Sabbath - Technical Ecstasy (Vinyl, 1976)",
+      "description": "1976 Australasian Release\n\nTRACKLIST\nA1  Back Street Kids\nA2  You Won't Change Me\nA3  It's Alright\nA4  Gypsy\nB1  All Moving Parts (Stand Still)\nB2  Rock 'N' Roll Doctor\nB3  She's Gone\nB4  Dirty Women\n\n#rock #metal #rocknroll #blacksabbath #technicalecstas",
+      "duration": 91,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=kIe9D2nGEEY",
+      "title": "Black Sabbath - Technical Ecstasy (full album) 1976",
+      "description": "1. Back Street Kids 00:00\n2. You Won't Change Me 03:49\n3. It's Alright 10:24\n4. Gypsy 14:20\n5. All Moving Parts (Stand Still) 19:30\n6. Rock 'n' Roll Doctor 24:28\n7. She's Gone 27:54\n8. Dirty Women 32:46",
+      "duration": 0,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=hGo-byZysIg",
+      "title": "Black Sabbath - Technical Ecstasy (1976)",
+      "description": "",
+      "duration": 0,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=ULdZhDQDsjw",
+      "title": "Black Sab̲b̲ath   Technical Ecstasy 1976  Remastered Album 1996",
+      "description": "Black Sab̲b̲ath   Technical Ecstasy 1976  Remastered Album 1996",
+      "duration": 0,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=-45rLLf08TE",
+      "title": "Black Sabbath / Technical Ecstasy - 1976",
+      "description": "Black Sabbath / Technical Ecstasy - 1976\n [1996 UK ESM CD 328 Castle]\n\n\n     Track |   Start  | \n    ---------------------------------------------------------\n        1  |  0:00.00 | \n        2  |  3:49.07 | \n        3  | 10:33.17 | \n        4  | 14:39.27",
+      "duration": 0,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=CSLCAsaeB-U",
+      "title": "2021 - BLACK SABBATH - Technical Ecstasy  (Deluxe Edition Remastered)",
+      "description": "",
+      "duration": 0,
+      "embed": true
+    }
+  ],
+  "genres": ["Rock"],
+  "styles": ["Hard Rock", "Heavy Metal"],
+  "tracklist": [
+    {
+      "position": "A1",
+      "type_": "track",
+      "title": "Back Street Kids",
+      "duration": "3:46"
+    },
+    {
+      "position": "A2",
+      "type_": "track",
+      "title": "You Won't Change Me",
+      "duration": "6:34"
+    },
+    {
+      "position": "A3",
+      "type_": "track",
+      "title": "It's Alright",
+      "duration": "3:58"
+    },
+    {
+      "position": "A4",
+      "type_": "track",
+      "title": "Gypsy",
+      "duration": "5:10"
+    },
+    {
+      "position": "B1",
+      "type_": "track",
+      "title": "All Moving Parts (Stand Still)",
+      "duration": "4:59"
+    },
+    {
+      "position": "B2",
+      "type_": "track",
+      "title": "Rock 'N' Roll Doctor",
+      "duration": "3:25"
+    },
+    {
+      "position": "B3",
+      "type_": "track",
+      "title": "She's Gone",
+      "duration": "4:51"
+    },
+    {
+      "position": "B4",
+      "type_": "track",
+      "title": "Dirty Women",
+      "duration": "7:15"
+    }
+  ],
+  "extraartists": [
+    {
+      "name": "Robin Black",
+      "anv": "",
+      "join": "",
+      "role": "Engineer",
+      "tracks": "",
+      "id": 290765,
+      "resource_url": "https://api.discogs.com/artists/290765"
+    },
+    {
+      "name": "Spock Wall",
+      "anv": "",
+      "join": "",
+      "role": "Engineer [Assistant]",
+      "tracks": "",
+      "id": 483249,
+      "resource_url": "https://api.discogs.com/artists/483249"
+    },
+    {
+      "name": "Black Sabbath",
+      "anv": "",
+      "join": "",
+      "role": "Producer",
+      "tracks": "",
+      "id": 144998,
+      "resource_url": "https://api.discogs.com/artists/144998"
+    },
+    {
+      "name": "Bill Ward",
+      "anv": "Wade",
+      "join": "",
+      "role": "Written-By",
+      "tracks": "",
+      "id": 255017,
+      "resource_url": "https://api.discogs.com/artists/255017"
+    },
+    {
+      "name": "Geezer Butler",
+      "anv": "Butler",
+      "join": "",
+      "role": "Written-By",
+      "tracks": "",
+      "id": 300663,
+      "resource_url": "https://api.discogs.com/artists/300663"
+    },
+    {
+      "name": "Ozzy Osbourne",
+      "anv": "Osbourne",
+      "join": "",
+      "role": "Written-By",
+      "tracks": "",
+      "id": 59770,
+      "resource_url": "https://api.discogs.com/artists/59770"
+    },
+    {
+      "name": "Tony Iommi",
+      "anv": "Iommi",
+      "join": "",
+      "role": "Written-By",
+      "tracks": "",
+      "id": 253791,
+      "resource_url": "https://api.discogs.com/artists/253791"
+    }
+  ],
+  "images": [
+    {
+      "type": "primary",
+      "uri": "https://i.discogs.com/PIt8-owKsCxojV1JBu0Bvcevbl_Rpog1iR8sToSp76Y/rs:fit/g:sm/q:90/h:582/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY4OTY0/OTAtMTQzODIwMTQ1/Ny0zNjk3LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/PIt8-owKsCxojV1JBu0Bvcevbl_Rpog1iR8sToSp76Y/rs:fit/g:sm/q:90/h:582/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY4OTY0/OTAtMTQzODIwMTQ1/Ny0zNjk3LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/fW7EQ3pk-sRBnkQh86dR5ma04uRCvfn9oJjVlQepU-Q/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY4OTY0/OTAtMTQzODIwMTQ1/Ny0zNjk3LmpwZWc.jpeg",
+      "width": 600,
+      "height": 582
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/MY6uM0YbgxBNQ9GxZ4Hjp9ndSLUXSBDlvBn286AUgPQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY4OTY0/OTAtMTQzODE5MDEw/Ny05Njk0LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/MY6uM0YbgxBNQ9GxZ4Hjp9ndSLUXSBDlvBn286AUgPQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY4OTY0/OTAtMTQzODE5MDEw/Ny05Njk0LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/2nkX80tPYkhcW17BQ7e-1geFn54ArCwN919w6l7-410/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY4OTY0/OTAtMTQzODE5MDEw/Ny05Njk0LmpwZWc.jpeg",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/MB4HGPExaaKVc3P3SQy5GMlgaXHqkIhJH5DPsKtgs78/rs:fit/g:sm/q:90/h:600/w:592/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY4OTY0/OTAtMTQzODE4OTk2/Ny0xNjcwLmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/MB4HGPExaaKVc3P3SQy5GMlgaXHqkIhJH5DPsKtgs78/rs:fit/g:sm/q:90/h:600/w:592/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY4OTY0/OTAtMTQzODE4OTk2/Ny0xNjcwLmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/5KqZKl8KkSmhiB4a77gltmH5tHo9rrOLzdoEZkLdlH4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY4OTY0/OTAtMTQzODE4OTk2/Ny0xNjcwLmpwZWc.jpeg",
+      "width": 592,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/BqTvkR4DKCcpYR2OZGZN7lhbJWbpNYfk-GD5NEpp2lY/rs:fit/g:sm/q:90/h:600/w:595/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY4OTY0/OTAtMTQzODE4OTk2/Mi01NzY3LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/BqTvkR4DKCcpYR2OZGZN7lhbJWbpNYfk-GD5NEpp2lY/rs:fit/g:sm/q:90/h:600/w:595/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY4OTY0/OTAtMTQzODE4OTk2/Mi01NzY3LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/FUjmTxnS-0F_65CDM5q3tuj2lOE4LyqslUmZcrBAyoo/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY4OTY0/OTAtMTQzODE4OTk2/Mi01NzY3LmpwZWc.jpeg",
+      "width": 595,
+      "height": 600
+    }
+  ],
+  "thumb": "https://i.discogs.com/fW7EQ3pk-sRBnkQh86dR5ma04uRCvfn9oJjVlQepU-Q/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY4OTY0/OTAtMTQzODIwMTQ1/Ny0zNjk3LmpwZWc.jpeg",
+  "estimated_weight": 230,
+  "blocked_from_sale": false,
+  "is_offensive": false
+}

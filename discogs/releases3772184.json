@@ -1,0 +1,416 @@
+{
+  "id": 3772184,
+  "status": "Accepted",
+  "year": 1988,
+  "resource_url": "https://api.discogs.com/releases/3772184",
+  "uri": "https://www.discogs.com/release/3772184-Candlemass-Ancient-Dreams",
+  "artists": [
+    {
+      "name": "Candlemass",
+      "anv": "",
+      "join": "",
+      "role": "",
+      "tracks": "",
+      "id": 311088,
+      "resource_url": "https://api.discogs.com/artists/311088",
+      "thumbnail_url": "https://i.discogs.com/dS0XldUxjLBldKFmgnKz1gXDa1sETLqik3AXhJu_qTo/rs:fit/g:sm/q:90/h:337/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTMxMTA4/OC0xNjYyMjk5OTM3/LTE0OTIuanBlZw.jpeg"
+    }
+  ],
+  "artists_sort": "Candlemass",
+  "labels": [
+    {
+      "name": "Enigma (4)",
+      "catno": "7 73340-2",
+      "entity_type": "1",
+      "entity_type_name": "Label",
+      "id": 139028,
+      "resource_url": "https://api.discogs.com/labels/139028",
+      "thumbnail_url": "https://i.discogs.com/DTqlfWnx5F10EQeXCcoOSd4n4iGgIPvBblCnqq5iTIk/rs:fit/g:sm/q:90/h:400/w:404/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTEzOTAy/OC0xNDM4MTk2MzY2/LTY1MTQuanBlZw.jpeg"
+    },
+    {
+      "name": "Metal Blade Records",
+      "catno": "7 73340-2",
+      "entity_type": "1",
+      "entity_type_name": "Label",
+      "id": 45267,
+      "resource_url": "https://api.discogs.com/labels/45267",
+      "thumbnail_url": "https://i.discogs.com/BxOMyMunY33luFqJkhv_0lgssz0mLpHt1o4sl08WmpA/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTQ1MjY3/LTE2NTUwNjIyMzEt/NjgxMi5qcGVn.jpeg"
+    }
+  ],
+  "series": [],
+  "companies": [
+    {
+      "name": "Metal Blade Records",
+      "catno": "",
+      "entity_type": "13",
+      "entity_type_name": "Phonographic Copyright (p)",
+      "id": 45267,
+      "resource_url": "https://api.discogs.com/labels/45267",
+      "thumbnail_url": "https://i.discogs.com/BxOMyMunY33luFqJkhv_0lgssz0mLpHt1o4sl08WmpA/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTQ1MjY3/LTE2NTUwNjIyMzEt/NjgxMi5qcGVn.jpeg"
+    },
+    {
+      "name": "Metal Blade Records",
+      "catno": "",
+      "entity_type": "14",
+      "entity_type_name": "Copyright (c)",
+      "id": 45267,
+      "resource_url": "https://api.discogs.com/labels/45267",
+      "thumbnail_url": "https://i.discogs.com/BxOMyMunY33luFqJkhv_0lgssz0mLpHt1o4sl08WmpA/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTQ1MjY3/LTE2NTUwNjIyMzEt/NjgxMi5qcGVn.jpeg"
+    },
+    {
+      "name": "Enigma Records (3)",
+      "catno": "",
+      "entity_type": "8",
+      "entity_type_name": "Marketed By",
+      "id": 755,
+      "resource_url": "https://api.discogs.com/labels/755",
+      "thumbnail_url": "https://i.discogs.com/ef8yNpM0eddhP_R9RDbb8GC_JaEA21efYFf0WqBDPrM/rs:fit/g:sm/q:90/h:204/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTc1NS0x/NzQ1NTA1ODIyLTc4/NzQuanBlZw.jpeg"
+    },
+    {
+      "name": "Copyright Control",
+      "catno": "",
+      "entity_type": "21",
+      "entity_type_name": "Published By",
+      "id": 48207,
+      "resource_url": "https://api.discogs.com/labels/48207",
+      "thumbnail_url": "https://i.discogs.com/YSCMEY8Esx1UlDlBP31zJU6tN7SVv6ACBIh6JeQZqIk/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTQ4MjA3/LTE3NDQ1NTcxNTQt/NzA3NC5qcGVn.jpeg"
+    },
+    {
+      "name": "Nacka Recording House",
+      "catno": "",
+      "entity_type": "23",
+      "entity_type_name": "Recorded At",
+      "id": 577216,
+      "resource_url": "https://api.discogs.com/labels/577216"
+    },
+    {
+      "name": "Montezuma Recording AB",
+      "catno": "",
+      "entity_type": "27",
+      "entity_type_name": "Mixed At",
+      "id": 388904,
+      "resource_url": "https://api.discogs.com/labels/388904"
+    },
+    {
+      "name": "Polar Studios",
+      "catno": "",
+      "entity_type": "29",
+      "entity_type_name": "Mastered At",
+      "id": 268275,
+      "resource_url": "https://api.discogs.com/labels/268275",
+      "thumbnail_url": "https://i.discogs.com/ZTix5h23J-HUHnYdMNVkpGp4qneCOQrLdowlvn86bQU/rs:fit/g:sm/q:90/h:138/w:290/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTI2ODI3/NS0xNjM1MTY0NzI3/LTUzNzguanBlZw.jpeg"
+    },
+    {
+      "name": "Nimbus, Virginia",
+      "catno": "",
+      "entity_type": "31",
+      "entity_type_name": "Glass Mastered At",
+      "id": 1475364,
+      "resource_url": "https://api.discogs.com/labels/1475364",
+      "thumbnail_url": "https://i.discogs.com/BaFgKvStYpty32ALa4f66BhF5wZ4V75ZdTLoe1jZmQk/rs:fit/g:sm/q:90/h:315/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTE0NzUz/NjQtMTU0MTA1OTg4/NS0xOTcyLmpwZWc.jpeg"
+    },
+    {
+      "name": "Bland Design Group",
+      "catno": "",
+      "entity_type": "33",
+      "entity_type_name": "Designed At",
+      "id": 606347,
+      "resource_url": "https://api.discogs.com/labels/606347"
+    }
+  ],
+  "formats": [
+    {
+      "name": "CD",
+      "qty": "1",
+      "descriptions": ["Album"]
+    }
+  ],
+  "data_quality": "Needs Vote",
+  "community": {
+    "have": 287,
+    "want": 162,
+    "rating": {
+      "count": 27,
+      "average": 4.52
+    },
+    "submitter": {
+      "username": "jimlenart",
+      "resource_url": "https://api.discogs.com/users/jimlenart"
+    },
+    "contributors": [
+      {
+        "username": "jimlenart",
+        "resource_url": "https://api.discogs.com/users/jimlenart"
+      },
+      {
+        "username": "japc",
+        "resource_url": "https://api.discogs.com/users/japc"
+      },
+      {
+        "username": "vagdim",
+        "resource_url": "https://api.discogs.com/users/vagdim"
+      },
+      {
+        "username": "gatogato",
+        "resource_url": "https://api.discogs.com/users/gatogato"
+      },
+      {
+        "username": "Tormented",
+        "resource_url": "https://api.discogs.com/users/Tormented"
+      },
+      {
+        "username": "oceanographer",
+        "resource_url": "https://api.discogs.com/users/oceanographer"
+      },
+      {
+        "username": "luis.baptista",
+        "resource_url": "https://api.discogs.com/users/luis.baptista"
+      },
+      {
+        "username": "Osmi_Putnik",
+        "resource_url": "https://api.discogs.com/users/Osmi_Putnik"
+      }
+    ],
+    "data_quality": "Needs Vote",
+    "status": "Accepted"
+  },
+  "format_quantity": 1,
+  "date_added": "2012-07-31T20:10:30-07:00",
+  "date_changed": "2023-03-27T05:10:50-07:00",
+  "num_for_sale": 11,
+  "lowest_price": 19.99,
+  "master_id": 42711,
+  "master_url": "https://api.discogs.com/masters/42711",
+  "title": "Ancient Dreams",
+  "country": "US",
+  "released": "1988",
+  "notes": "Recorded at Nacka Recording House, August 1988.\r\nMixed at Montezuma Recording.\r\n\r\nThe cover painting is taken from \"The Voyage Of Life: Youth\", Alisa Mellon Bruce Fund, courtesy of the National Gallery of Art, Washington, D.C. Graphics for the Bland Design Group.\r\n\r\nMarketed by Enigma Records. Printed in Canada.\r\n",
+  "released_formatted": "1988",
+  "identifiers": [
+    {
+      "type": "Barcode",
+      "value": "0 1877-73340-2 0",
+      "description": "Text"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": ":MASTERED: ·BY NIMBUS· 73340-2 (V) :·"
+    },
+    {
+      "type": "SPARS Code",
+      "value": "AAD"
+    }
+  ],
+  "videos": [
+    {
+      "uri": "https://www.youtube.com/watch?v=fifqBn0Gyoc",
+      "title": "Candlemass - Ancient dreams(full album)",
+      "description": "00:00 Mirror mirror\n06:14 A cry from the crypt\n13:40 Darkness in Paradise\n20:27 Incarnation of evil\n27:46 Bearer of pain\n35:09 Ancient dreams\n42:14 The bells of Acheron\n47:34 Epistle No. 81\n52:12 Black sabbath medley\n\nIf you liked the album, buy it!",
+      "duration": 3511,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=UNEQZh3gcmQ",
+      "title": "Candlemass - A Cry From The Crypt (Studio Version)",
+      "description": "Candlemass - A Cry From The Crypt from the 1988 album \"Ancient Dreams\"\r\n\r\nHear the cry \r\nThe cry of tormented pain \r\nA voice darker than Evil \r\nThe deadly moaning of hell \r\n\r\nOh no! \r\nThe unborn has tasted no life \r\nSharing the rest of the dead \r\nNot awar",
+      "duration": 447,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=5rWoSlAWY0w",
+      "title": "CANDLEMASS: Mirror, mirror - (Album: Ancient Dreams - 1988)",
+      "description": "Candlemass – Ancient Dreams\nLabel: Metal Blade Records – 7 73340-1\nFormat: Vinyl, LP, Album\nCountry: US\nReleased: 1988\nGenre: Rock\nStyle: Doom Metal\n\n\nTracklist\nA1  Mirror, Mirror 6:07\nA2  A Cry From The Crypt 7:14\nA3  Darkness In Paradise 6:38\nA4  In",
+      "duration": 381,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=xQyxIAOgdPc",
+      "title": "Candlemass - ANCIENT DREAMS (1988) - Full Album",
+      "description": "TRACKLIST \n1. Mirror Mirror  00:00\n2. A Cry From The Crypt  06:15 \n3. Darkness In Paradise  13:40 \n4. Incarnation Of Evil  20:27 \n5. Bearer Of Pain  27:44 \n6. Ancient Dreams  35:07 \n7. The Bells Of Acheron  42:11 \n8. Epistle No. 81  47:31 \n9. Black Sabath",
+      "duration": 0,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=XRHEnREuJZQ",
+      "title": "Candlemass - \"Mirror Mirror\" Official Video (1988)",
+      "description": "the official music video for the song \"Mirror Mirror\" by the Swedish doom metal band Candlemass. The song is from their 3rd album \"Ancient Dreams\" (1988). Candlemass pioneered the subgenre of epic doom metal. Doom metal is a subgenre of metal heavily infl",
+      "duration": 389,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=coRcJxgpc0Q",
+      "title": "Candlemass - Bearer Of Pain (Studio Version)",
+      "description": "Candlemass - Bearer Of Pain from the 1988 album \"Ancient Dreams\"\r\n\r\nOnce a year the white robes go on a quest \r\nIn search of a virgin, a child of innocence \r\nBorn of Apollon divine is the heritage \r\nChosen by foe to accomplish a holy task \r\n\r\nBearer of pa",
+      "duration": 444,
+      "embed": true
+    }
+  ],
+  "genres": ["Rock"],
+  "styles": ["Doom Metal"],
+  "tracklist": [
+    {
+      "position": "1",
+      "type_": "track",
+      "title": "Mirror, Mirror",
+      "duration": "6:19"
+    },
+    {
+      "position": "2",
+      "type_": "track",
+      "title": "A Cry From The Crypt",
+      "duration": "7:26"
+    },
+    {
+      "position": "3",
+      "type_": "track",
+      "title": "Darkness In Paradise",
+      "duration": "6:48"
+    },
+    {
+      "position": "4",
+      "type_": "track",
+      "title": "Incarnation Of Evil",
+      "duration": "7:19"
+    },
+    {
+      "position": "5",
+      "type_": "track",
+      "title": "Bearer Of Pain",
+      "duration": "7:25"
+    },
+    {
+      "position": "6",
+      "type_": "track",
+      "title": "Ancient Dreams",
+      "duration": "7:04"
+    },
+    {
+      "position": "7",
+      "type_": "track",
+      "title": "The Bells Of Acheron",
+      "duration": "5:21"
+    },
+    {
+      "position": "8",
+      "type_": "track",
+      "title": "Epistle No. 81",
+      "duration": "4:38"
+    },
+    {
+      "position": "9",
+      "type_": "track",
+      "title": "Black Sabbath Medley",
+      "duration": "6:16"
+    }
+  ],
+  "extraartists": [
+    {
+      "name": "Leif Edling",
+      "anv": "",
+      "join": "",
+      "role": "Bass",
+      "tracks": "",
+      "id": 320872,
+      "resource_url": "https://api.discogs.com/artists/320872"
+    },
+    {
+      "name": "Jan Lindh",
+      "anv": "",
+      "join": "",
+      "role": "Drums",
+      "tracks": "",
+      "id": 429360,
+      "resource_url": "https://api.discogs.com/artists/429360"
+    },
+    {
+      "name": "Lars Johansson",
+      "anv": "",
+      "join": "",
+      "role": "Lead Guitar",
+      "tracks": "",
+      "id": 429359,
+      "resource_url": "https://api.discogs.com/artists/429359"
+    },
+    {
+      "name": "Thomas Cole",
+      "anv": "",
+      "join": "",
+      "role": "Painting",
+      "tracks": "",
+      "id": 2252138,
+      "resource_url": "https://api.discogs.com/artists/2252138"
+    },
+    {
+      "name": "Mats Björkman",
+      "anv": "",
+      "join": "",
+      "role": "Rhythm Guitar",
+      "tracks": "",
+      "id": 429361,
+      "resource_url": "https://api.discogs.com/artists/429361"
+    },
+    {
+      "name": "Messiah Marcolin",
+      "anv": "",
+      "join": "",
+      "role": "Vocals",
+      "tracks": "",
+      "id": 255358,
+      "resource_url": "https://api.discogs.com/artists/255358"
+    }
+  ],
+  "images": [
+    {
+      "type": "primary",
+      "uri": "https://i.discogs.com/BCUr45Ev4LRuX2XMiVqskjrjvizvzmEH9VnZaRFOCkY/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NzIx/ODQtMTY3OTkxODEz/Ni02MjI1LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/BCUr45Ev4LRuX2XMiVqskjrjvizvzmEH9VnZaRFOCkY/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NzIx/ODQtMTY3OTkxODEz/Ni02MjI1LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/cFgoN4oKPtL5faIjOKYvNR6Pce6xmf96l7JxQlO9Lm4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NzIx/ODQtMTY3OTkxODEz/Ni02MjI1LmpwZWc.jpeg",
+      "width": 600,
+      "height": 599
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/b6zgEyxOdfSpaWzHLZ_aSEj0kgCsjN3oxzNWl8JHLQA/rs:fit/g:sm/q:90/h:468/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NzIx/ODQtMTY3OTkxODEz/OC03NzU2LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/b6zgEyxOdfSpaWzHLZ_aSEj0kgCsjN3oxzNWl8JHLQA/rs:fit/g:sm/q:90/h:468/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NzIx/ODQtMTY3OTkxODEz/OC03NzU2LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/I9LuO8JX1ZvZycWCl-ZkaEa3F-eS60xGJ737fLQoSTI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NzIx/ODQtMTY3OTkxODEz/OC03NzU2LmpwZWc.jpeg",
+      "width": 600,
+      "height": 468
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/V-S6RFXuYILBcIIdvPupwaYPCtYielNb4FdsUoE7nhQ/rs:fit/g:sm/q:90/h:572/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NzIx/ODQtMTY3OTkxODEz/Ny0xNjk5LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/V-S6RFXuYILBcIIdvPupwaYPCtYielNb4FdsUoE7nhQ/rs:fit/g:sm/q:90/h:572/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NzIx/ODQtMTY3OTkxODEz/Ny0xNjk5LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/4Flzs30k-b7i8kUuYzPoZrSdMt2QhlgUDe8nFKaWFUY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NzIx/ODQtMTY3OTkxODEz/Ny0xNjk5LmpwZWc.jpeg",
+      "width": 600,
+      "height": 572
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/lMLkMp4chO4chsckfM7AIx9ab1df05CTZhasj2c46Sg/rs:fit/g:sm/q:90/h:490/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NzIx/ODQtMTY3OTkxODEz/OC03NDM4LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/lMLkMp4chO4chsckfM7AIx9ab1df05CTZhasj2c46Sg/rs:fit/g:sm/q:90/h:490/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NzIx/ODQtMTY3OTkxODEz/OC03NDM4LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/9YYW2ASz3Il8wToeyoGcuMdEE44bhb2vWmRCP86dZHI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NzIx/ODQtMTY3OTkxODEz/OC03NDM4LmpwZWc.jpeg",
+      "width": 600,
+      "height": 490
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/U1-fcBP3lc40yJSdVtK4Iop3pFCUufIoRZAfls1QLDU/rs:fit/g:sm/q:90/h:198/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NzIx/ODQtMTY3OTkxODEz/Ni01OTQyLmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/U1-fcBP3lc40yJSdVtK4Iop3pFCUufIoRZAfls1QLDU/rs:fit/g:sm/q:90/h:198/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NzIx/ODQtMTY3OTkxODEz/Ni01OTQyLmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/svxdMbVW8Zl8ZV1lsYUYJYszV2cBJiwC90RNX560Td8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NzIx/ODQtMTY3OTkxODEz/Ni01OTQyLmpwZWc.jpeg",
+      "width": 600,
+      "height": 198
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/Kq7QNNYFgoQ8-9zrPEC0MPVUliYGmUbGP1JYv_h1NDU/rs:fit/g:sm/q:90/h:197/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NzIx/ODQtMTY3OTkxODEz/Ny01OTExLmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/Kq7QNNYFgoQ8-9zrPEC0MPVUliYGmUbGP1JYv_h1NDU/rs:fit/g:sm/q:90/h:197/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NzIx/ODQtMTY3OTkxODEz/Ny01OTExLmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/10mCvgYd8M9fIJ6lvgmACogxvNLNuGokdhTuMUf3QKI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NzIx/ODQtMTY3OTkxODEz/Ny01OTExLmpwZWc.jpeg",
+      "width": 600,
+      "height": 197
+    }
+  ],
+  "thumb": "https://i.discogs.com/cFgoN4oKPtL5faIjOKYvNR6Pce6xmf96l7JxQlO9Lm4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NzIx/ODQtMTY3OTkxODEz/Ni02MjI1LmpwZWc.jpeg",
+  "estimated_weight": 85,
+  "blocked_from_sale": false,
+  "is_offensive": false
+}

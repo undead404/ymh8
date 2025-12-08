@@ -21,11 +21,11 @@ export default async function readAlbumTags({
   name,
 }: BareAlbum): Promise<AlbumTag[]> {
   const sql = SQL`
-        SELECT "count", "tagName"
-        FROM "AlbumTag"
-        WHERE "albumArtist" = ${artist}
-        AND "albumName" = ${name}
-    `;
+    SELECT "count", "tagName"
+    FROM "AlbumTag"
+    WHERE "albumArtist" = ${artist}
+    AND "albumName" = ${name}
+  `;
   const data = await database.queryMany(albumTagReturnSchema, sql);
   return data;
 }

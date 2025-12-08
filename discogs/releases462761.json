@@ -1,0 +1,588 @@
+{
+  "id": 462761,
+  "status": "Accepted",
+  "year": 1989,
+  "resource_url": "https://api.discogs.com/releases/462761",
+  "uri": "https://www.discogs.com/release/462761-Candlemass-Tales-Of-Creation",
+  "artists": [
+    {
+      "name": "Candlemass",
+      "anv": "",
+      "join": "",
+      "role": "",
+      "tracks": "",
+      "id": 311088,
+      "resource_url": "https://api.discogs.com/artists/311088",
+      "thumbnail_url": "https://i.discogs.com/dS0XldUxjLBldKFmgnKz1gXDa1sETLqik3AXhJu_qTo/rs:fit/g:sm/q:90/h:337/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTMxMTA4/OC0xNjYyMjk5OTM3/LTE0OTIuanBlZw.jpeg"
+    }
+  ],
+  "artists_sort": "Candlemass",
+  "labels": [
+    {
+      "name": "Music For Nations",
+      "catno": "MFN 95",
+      "entity_type": "1",
+      "entity_type_name": "Label",
+      "id": 16279,
+      "resource_url": "https://api.discogs.com/labels/16279",
+      "thumbnail_url": "https://i.discogs.com/8-do4iBmKyvQW-cfkhQqAbUnzRMPdHNyVjeTO9Gy_ts/rs:fit/g:sm/q:90/h:164/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTE2Mjc5/LTE1ODIzOTY4MDIt/MTM1MS5wbmc.jpeg"
+    }
+  ],
+  "series": [],
+  "companies": [
+    {
+      "name": "Stockholm Recording Studios",
+      "catno": "",
+      "entity_type": "23",
+      "entity_type_name": "Recorded At",
+      "id": 270042,
+      "resource_url": "https://api.discogs.com/labels/270042"
+    },
+    {
+      "name": "The Town House",
+      "catno": "",
+      "entity_type": "29",
+      "entity_type_name": "Mastered At",
+      "id": 87246,
+      "resource_url": "https://api.discogs.com/labels/87246",
+      "thumbnail_url": "https://i.discogs.com/maEyQ-gXPLemRMh05rjoukLx1e5nI36SXZv2NbvRaXE/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTg3MjQ2/LTE3NTYyMzg3MzEt/OTQ3NC5qcGVn.jpeg"
+    },
+    {
+      "name": "MPO",
+      "catno": "",
+      "entity_type": "30",
+      "entity_type_name": "Lacquer Cut At",
+      "id": 56025,
+      "resource_url": "https://api.discogs.com/labels/56025",
+      "thumbnail_url": "https://i.discogs.com/ESRU3eTUmc1632Us6_7LBipnaQGV6lJe-D5nyFxssyw/rs:fit/g:sm/q:90/h:336/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTU2MDI1/LTEzMTQ2OTg5ODQu/anBlZw.jpeg"
+    },
+    {
+      "name": "Music For Nations",
+      "catno": "",
+      "entity_type": "13",
+      "entity_type_name": "Phonographic Copyright (p)",
+      "id": 16279,
+      "resource_url": "https://api.discogs.com/labels/16279",
+      "thumbnail_url": "https://i.discogs.com/8-do4iBmKyvQW-cfkhQqAbUnzRMPdHNyVjeTO9Gy_ts/rs:fit/g:sm/q:90/h:164/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTE2Mjc5/LTE1ODIzOTY4MDIt/MTM1MS5wbmc.jpeg"
+    },
+    {
+      "name": "Music For Nations",
+      "catno": "",
+      "entity_type": "14",
+      "entity_type_name": "Copyright (c)",
+      "id": 16279,
+      "resource_url": "https://api.discogs.com/labels/16279",
+      "thumbnail_url": "https://i.discogs.com/8-do4iBmKyvQW-cfkhQqAbUnzRMPdHNyVjeTO9Gy_ts/rs:fit/g:sm/q:90/h:164/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTE2Mjc5/LTE1ODIzOTY4MDIt/MTM1MS5wbmc.jpeg"
+    }
+  ],
+  "formats": [
+    {
+      "name": "Vinyl",
+      "qty": "1",
+      "descriptions": ["LP", "Album"],
+      "text": "Gatefold"
+    }
+  ],
+  "data_quality": "Needs Vote",
+  "community": {
+    "have": 2523,
+    "want": 608,
+    "rating": {
+      "count": 246,
+      "average": 4.27
+    },
+    "submitter": {
+      "username": "Falcque",
+      "resource_url": "https://api.discogs.com/users/Falcque"
+    },
+    "contributors": [
+      {
+        "username": "Falcque",
+        "resource_url": "https://api.discogs.com/users/Falcque"
+      },
+      {
+        "username": "xdefenestratorx",
+        "resource_url": "https://api.discogs.com/users/xdefenestratorx"
+      },
+      {
+        "username": "The_Civilized_Worm",
+        "resource_url": "https://api.discogs.com/users/The_Civilized_Worm"
+      },
+      {
+        "username": "Hellmace",
+        "resource_url": "https://api.discogs.com/users/Hellmace"
+      },
+      {
+        "username": "Sonnenmensch",
+        "resource_url": "https://api.discogs.com/users/Sonnenmensch"
+      },
+      {
+        "username": "DeadshotKeen",
+        "resource_url": "https://api.discogs.com/users/DeadshotKeen"
+      },
+      {
+        "username": "gatogato",
+        "resource_url": "https://api.discogs.com/users/gatogato"
+      },
+      {
+        "username": "Gundozer",
+        "resource_url": "https://api.discogs.com/users/Gundozer"
+      },
+      {
+        "username": "pinkindustries",
+        "resource_url": "https://api.discogs.com/users/pinkindustries"
+      },
+      {
+        "username": "IvanThorr",
+        "resource_url": "https://api.discogs.com/users/IvanThorr"
+      },
+      {
+        "username": "vinyljunkie66",
+        "resource_url": "https://api.discogs.com/users/vinyljunkie66"
+      },
+      {
+        "username": "s.l.d.25",
+        "resource_url": "https://api.discogs.com/users/s.l.d.25"
+      },
+      {
+        "username": "leonardosgr",
+        "resource_url": "https://api.discogs.com/users/leonardosgr"
+      },
+      {
+        "username": "Musicmate",
+        "resource_url": "https://api.discogs.com/users/Musicmate"
+      },
+      {
+        "username": "shiremen",
+        "resource_url": "https://api.discogs.com/users/shiremen"
+      },
+      {
+        "username": "Whitesnake998",
+        "resource_url": "https://api.discogs.com/users/Whitesnake998"
+      },
+      {
+        "username": "ravenheart82",
+        "resource_url": "https://api.discogs.com/users/ravenheart82"
+      },
+      {
+        "username": "METALWORLD",
+        "resource_url": "https://api.discogs.com/users/METALWORLD"
+      },
+      {
+        "username": "BLACKY131313",
+        "resource_url": "https://api.discogs.com/users/BLACKY131313"
+      },
+      {
+        "username": "zidom74",
+        "resource_url": "https://api.discogs.com/users/zidom74"
+      },
+      {
+        "username": "VoittoAnkka",
+        "resource_url": "https://api.discogs.com/users/VoittoAnkka"
+      },
+      {
+        "username": "kypck",
+        "resource_url": "https://api.discogs.com/users/kypck"
+      }
+    ],
+    "data_quality": "Needs Vote",
+    "status": "Accepted"
+  },
+  "format_quantity": 1,
+  "date_added": "2005-05-26T13:37:18-07:00",
+  "date_changed": "2025-07-08T01:06:54-07:00",
+  "num_for_sale": 42,
+  "lowest_price": 53.33,
+  "master_id": 42713,
+  "master_url": "https://api.discogs.com/masters/42713",
+  "title": "Tales Of Creation",
+  "country": "UK",
+  "released": "1989-09-25",
+  "notes": "Made in France\n\nUncredited artwork used as front of sleeve: \"The Creation Of Light\" /Gustave Doré\n\nThe Edge of Heaven called At the Edge of Heaven on label, (B-side, B1)\n\nSome LPs have an CANDLEMASS Official Merchandise Leaflet.\n",
+  "released_formatted": "25 Sep 1989",
+  "identifiers": [
+    {
+      "type": "Barcode",
+      "value": "5 016583 109516"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "MPO MFN 95 A TOWNHOUSE DMM",
+      "description": "A-Side, variant 1"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "MPO MFN 95 B TOWNHOUSE DMM",
+      "description": "B-Side, variant 1"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "MPO MFN 95 A¹ TOWNHOUSE DMM",
+      "description": "A-Side, variant 2"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "MPO MFN 95 B¹ TOWNHOUSE DMM",
+      "description": "B-Side, variant 2"
+    }
+  ],
+  "videos": [
+    {
+      "uri": "https://www.youtube.com/watch?v=2kVBigoCmdU",
+      "title": "Candlemass - The Prophecy / Dark Reflections (Studio Version)",
+      "description": "Candlemass - The Prophecy / Dark Reflections from the 1989 album \"Tales of Creation\"\r\n\r\n\"Holy was the star from which you were born, \r\nto a world where darkness and fear take form \r\nA lonely soul with a heart of light to find \r\nbeyond reality, forgotten i",
+      "duration": 396,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=oGHcrR7X1bE",
+      "title": "Candlemass - Tales Of Creation (full album) [1989]",
+      "description": "All rights to [Merlin] Essential Music.\nThe only one Candlemass album with Messiah, which has not been published there yet.\n\nTrack list:\n\nAll songs written by Leif Edling\n\"The Prophecy\" -- 0:01\n\"Dark Reflections\" -- 1:28\n\"Voices in the Wind\" -- 6:34\n\"Unde",
+      "duration": 2571,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=SqMemdSc_lY",
+      "title": "Candlemass - \"Dark Reflections\" Official Video (1989)",
+      "description": "the official music video for \"Dark Reflections\" by the Swedish doom metal band Candlemass. The song is from their 4th album \"Tales Of Creation\" (1989). Candlemass pioneered the subgenre of \"epic doom metal\". Doom metal is a subgenre of metal heavily influ",
+      "duration": 288,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=_5kIzKJO-bM",
+      "title": "Candlemass - Tales Of Creation (demo) 1985 very rare",
+      "description": "1-Dark Reflections\n2-Under To Oak\n3-Into The Unfathomed Tower\n4-Somewhere In Nowhere\n5-A Tale From Creation",
+      "duration": 1499,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=fHqPQWQuXM4",
+      "title": "Candlemass - Somewhere In Nowhere (Demo)",
+      "description": "Tema cantado por Leif Edling, esta es la versión que aparece en el demo Tales of Creation.",
+      "duration": 278,
+      "embed": true
+    }
+  ],
+  "genres": ["Rock"],
+  "styles": ["Doom Metal", "Heavy Metal"],
+  "tracklist": [
+    {
+      "position": "A1",
+      "type_": "track",
+      "title": "The Prophecy",
+      "duration": "1:26"
+    },
+    {
+      "position": "A2",
+      "type_": "track",
+      "title": "Dark Reflections",
+      "duration": "5:05"
+    },
+    {
+      "position": "A3",
+      "type_": "track",
+      "title": "Voices In The Wind",
+      "duration": "0:15"
+    },
+    {
+      "position": "A4",
+      "type_": "track",
+      "title": "Under The Oak",
+      "duration": "6:00"
+    },
+    {
+      "position": "A5",
+      "type_": "track",
+      "title": "Tears",
+      "duration": "4:11"
+    },
+    {
+      "position": "",
+      "type_": "index",
+      "title": "Into The Unfathomed Tower",
+      "duration": "3:02",
+      "sub_tracks": [
+        {
+          "position": "A6 PT.I",
+          "type_": "track",
+          "title": "Dance Of The Fay",
+          "duration": ""
+        },
+        {
+          "position": "A6 PT.II",
+          "type_": "track",
+          "title": "Magic/Entering The Tower",
+          "duration": ""
+        },
+        {
+          "position": "A6 PT.III",
+          "type_": "track",
+          "title": "Dance Of The Fay (Reprise)",
+          "duration": ""
+        },
+        {
+          "position": "A6 PT.IV",
+          "type_": "track",
+          "title": "Souls Flight",
+          "duration": ""
+        },
+        {
+          "position": "A6 PT.V",
+          "type_": "track",
+          "title": "Towards The Unknown",
+          "duration": ""
+        },
+        {
+          "position": "A6 PT.VI",
+          "type_": "track",
+          "title": "Choir Of Angels",
+          "duration": ""
+        },
+        {
+          "position": "A6 PT.VII",
+          "type_": "track",
+          "title": "Outside The Gates Of Heaven",
+          "duration": ""
+        }
+      ]
+    },
+    {
+      "position": "B1",
+      "type_": "track",
+      "title": "The Edge Of Heaven",
+      "duration": "6:24"
+    },
+    {
+      "position": "B2",
+      "type_": "track",
+      "title": "Somewhere In Nowhere",
+      "duration": "3:47"
+    },
+    {
+      "position": "B3",
+      "type_": "track",
+      "title": "Through The Infinitive Halls Of Death",
+      "duration": "5:06"
+    },
+    {
+      "position": "B4",
+      "type_": "track",
+      "title": "Dawn",
+      "duration": "0:26"
+    },
+    {
+      "position": "B5",
+      "type_": "track",
+      "title": "A Tale Of Creation",
+      "duration": "6:52"
+    }
+  ],
+  "extraartists": [
+    {
+      "name": "Candlemass",
+      "anv": "",
+      "join": "",
+      "role": "Arranged By",
+      "tracks": "",
+      "id": 311088,
+      "resource_url": "https://api.discogs.com/artists/311088"
+    },
+    {
+      "name": "Gustave Doré",
+      "anv": "",
+      "join": "",
+      "role": "Artwork [Uncredited]",
+      "tracks": "",
+      "id": 2166623,
+      "resource_url": "https://api.discogs.com/artists/2166623"
+    },
+    {
+      "name": "Leif Edling",
+      "anv": "",
+      "join": "",
+      "role": "Bass",
+      "tracks": "",
+      "id": 320872,
+      "resource_url": "https://api.discogs.com/artists/320872"
+    },
+    {
+      "name": "Jan Lindh",
+      "anv": "Janne Lindh",
+      "join": "",
+      "role": "Drums",
+      "tracks": "",
+      "id": 429360,
+      "resource_url": "https://api.discogs.com/artists/429360"
+    },
+    {
+      "name": "Lars Johansson",
+      "anv": "",
+      "join": "",
+      "role": "Lead Guitar",
+      "tracks": "",
+      "id": 429359,
+      "resource_url": "https://api.discogs.com/artists/429359"
+    },
+    {
+      "name": "Nick Peel",
+      "anv": "",
+      "join": "",
+      "role": "Management",
+      "tracks": "",
+      "id": 2051203,
+      "resource_url": "https://api.discogs.com/artists/2051203"
+    },
+    {
+      "name": "Prestige Talent",
+      "anv": "",
+      "join": "",
+      "role": "Management",
+      "tracks": "",
+      "id": 3927616,
+      "resource_url": "https://api.discogs.com/artists/3927616"
+    },
+    {
+      "name": "Candlemass",
+      "anv": "",
+      "join": "",
+      "role": "Mixed By",
+      "tracks": "",
+      "id": 311088,
+      "resource_url": "https://api.discogs.com/artists/311088"
+    },
+    {
+      "name": "Mats Lindfors",
+      "anv": "",
+      "join": "",
+      "role": "Mixed By",
+      "tracks": "",
+      "id": 307851,
+      "resource_url": "https://api.discogs.com/artists/307851"
+    },
+    {
+      "name": "Leif Edling",
+      "anv": "",
+      "join": "",
+      "role": "Music By, Words By",
+      "tracks": "",
+      "id": 320872,
+      "resource_url": "https://api.discogs.com/artists/320872"
+    },
+    {
+      "name": "Jay Larssen",
+      "anv": "",
+      "join": "",
+      "role": "Narrator",
+      "tracks": "",
+      "id": 1092903,
+      "resource_url": "https://api.discogs.com/artists/1092903"
+    },
+    {
+      "name": "Jim Bachman",
+      "anv": "",
+      "join": "",
+      "role": "Narrator",
+      "tracks": "",
+      "id": 1092902,
+      "resource_url": "https://api.discogs.com/artists/1092902"
+    },
+    {
+      "name": "Candlemass",
+      "anv": "",
+      "join": "",
+      "role": "Producer",
+      "tracks": "",
+      "id": 311088,
+      "resource_url": "https://api.discogs.com/artists/311088"
+    },
+    {
+      "name": "Mats Lindfors",
+      "anv": "",
+      "join": "",
+      "role": "Producer",
+      "tracks": "",
+      "id": 307851,
+      "resource_url": "https://api.discogs.com/artists/307851"
+    },
+    {
+      "name": "Mats Björkman",
+      "anv": "",
+      "join": "",
+      "role": "Rhythm Guitar",
+      "tracks": "",
+      "id": 429361,
+      "resource_url": "https://api.discogs.com/artists/429361"
+    },
+    {
+      "name": "Messiah Marcolin",
+      "anv": "",
+      "join": "",
+      "role": "Vocals",
+      "tracks": "",
+      "id": 255358,
+      "resource_url": "https://api.discogs.com/artists/255358"
+    }
+  ],
+  "images": [
+    {
+      "type": "primary",
+      "uri": "https://i.discogs.com/wpEk9zugPE6G8p-1YKN6CWFxYsokwAJprHIq00u3paA/rs:fit/g:sm/q:90/h:600/w:595/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ2Mjc2/MS0xNjY5OTExMzA1/LTU2NjcucG5n.jpeg",
+      "resource_url": "https://i.discogs.com/wpEk9zugPE6G8p-1YKN6CWFxYsokwAJprHIq00u3paA/rs:fit/g:sm/q:90/h:600/w:595/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ2Mjc2/MS0xNjY5OTExMzA1/LTU2NjcucG5n.jpeg",
+      "uri150": "https://i.discogs.com/Pd4hyPH6iLpUbVM5jXBfJKzlNk-PY1B6eRULqh2L5Mk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ2Mjc2/MS0xNjY5OTExMzA1/LTU2NjcucG5n.jpeg",
+      "width": 595,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/Z-SILU-y5jdi24a3HOSjmwHCMhMOG5epgXClsgaP9gI/rs:fit/g:sm/q:90/h:297/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ2Mjc2/MS0xNjY5OTExNDE4/LTIzNjUucG5n.jpeg",
+      "resource_url": "https://i.discogs.com/Z-SILU-y5jdi24a3HOSjmwHCMhMOG5epgXClsgaP9gI/rs:fit/g:sm/q:90/h:297/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ2Mjc2/MS0xNjY5OTExNDE4/LTIzNjUucG5n.jpeg",
+      "uri150": "https://i.discogs.com/wFGN89RajOqgiVD5jFe0qC0Jd8iMVUgAnSX4xIQsIBk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ2Mjc2/MS0xNjY5OTExNDE4/LTIzNjUucG5n.jpeg",
+      "width": 600,
+      "height": 297
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/KbyTqb6q7M6kXZ2ITuH5yrigWuvj3oG82F_Rc2LPRzY/rs:fit/g:sm/q:90/h:600/w:593/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ2Mjc2/MS0xNjY5OTExMjk3/LTY3NzQucG5n.jpeg",
+      "resource_url": "https://i.discogs.com/KbyTqb6q7M6kXZ2ITuH5yrigWuvj3oG82F_Rc2LPRzY/rs:fit/g:sm/q:90/h:600/w:593/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ2Mjc2/MS0xNjY5OTExMjk3/LTY3NzQucG5n.jpeg",
+      "uri150": "https://i.discogs.com/gJU8K88H35ZX3J73zvB87KskvB6t_UCoTOBncVAoFNs/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ2Mjc2/MS0xNjY5OTExMjk3/LTY3NzQucG5n.jpeg",
+      "width": 593,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/eolnqg9xCrJIP5Q5L9NcRrIyM11ZU3_vQGnkZinypYg/rs:fit/g:sm/q:90/h:595/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ2Mjc2/MS0xNjY5OTExMzA1/LTEzNTMucG5n.jpeg",
+      "resource_url": "https://i.discogs.com/eolnqg9xCrJIP5Q5L9NcRrIyM11ZU3_vQGnkZinypYg/rs:fit/g:sm/q:90/h:595/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ2Mjc2/MS0xNjY5OTExMzA1/LTEzNTMucG5n.jpeg",
+      "uri150": "https://i.discogs.com/wgK_cWiW4b5wkH-wdK_xjwGgH-pWV0W5LnZepTImZNE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ2Mjc2/MS0xNjY5OTExMzA1/LTEzNTMucG5n.jpeg",
+      "width": 600,
+      "height": 595
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/JDq0WCgzVTRAP6uv581npMOjkgNgDDAClmj6570Dmd8/rs:fit/g:sm/q:90/h:595/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ2Mjc2/MS0xNjY5OTExNTAw/LTMyMzYuanBlZw.jpeg",
+      "resource_url": "https://i.discogs.com/JDq0WCgzVTRAP6uv581npMOjkgNgDDAClmj6570Dmd8/rs:fit/g:sm/q:90/h:595/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ2Mjc2/MS0xNjY5OTExNTAw/LTMyMzYuanBlZw.jpeg",
+      "uri150": "https://i.discogs.com/FYZ5aGZM1eki7rgxSHlf2Zg92dvikP4nA4yGoiYLPpg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ2Mjc2/MS0xNjY5OTExNTAw/LTMyMzYuanBlZw.jpeg",
+      "width": 600,
+      "height": 595
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/vy1_yvZx34NLiJXRs9VdKWBpgMOmBBTYSfyl5CD7eak/rs:fit/g:sm/q:90/h:450/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ2Mjc2/MS0xNDkwNTMzMjM1/LTMyNTUubXBv.jpeg",
+      "resource_url": "https://i.discogs.com/vy1_yvZx34NLiJXRs9VdKWBpgMOmBBTYSfyl5CD7eak/rs:fit/g:sm/q:90/h:450/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ2Mjc2/MS0xNDkwNTMzMjM1/LTMyNTUubXBv.jpeg",
+      "uri150": "https://i.discogs.com/sXRF3R_kYTdT4Z8LBhJMjUc0RTwz_Z8WZg03hJ1quOo/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ2Mjc2/MS0xNDkwNTMzMjM1/LTMyNTUubXBv.jpeg",
+      "width": 600,
+      "height": 450
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/Z-go5VUDT9QV-0uk2ReZI-IzTwaoqyADoZfjjN8Qrng/rs:fit/g:sm/q:90/h:475/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ2Mjc2/MS0xNjY5OTExMTYw/LTYzODEuanBlZw.jpeg",
+      "resource_url": "https://i.discogs.com/Z-go5VUDT9QV-0uk2ReZI-IzTwaoqyADoZfjjN8Qrng/rs:fit/g:sm/q:90/h:475/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ2Mjc2/MS0xNjY5OTExMTYw/LTYzODEuanBlZw.jpeg",
+      "uri150": "https://i.discogs.com/fg7GPpLQ0hkpSt2FTLnyFMcVxNJyl1y3RTsAMTWAdHs/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ2Mjc2/MS0xNjY5OTExMTYw/LTYzODEuanBlZw.jpeg",
+      "width": 600,
+      "height": 475
+    }
+  ],
+  "thumb": "https://i.discogs.com/Pd4hyPH6iLpUbVM5jXBfJKzlNk-PY1B6eRULqh2L5Mk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ2Mjc2/MS0xNjY5OTExMzA1/LTU2NjcucG5n.jpeg",
+  "estimated_weight": 230,
+  "blocked_from_sale": false,
+  "is_offensive": false
+}

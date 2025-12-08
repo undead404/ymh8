@@ -1,0 +1,169 @@
+{
+  "id": 7217450,
+  "status": "Draft",
+  "year": 2005,
+  "resource_url": "https://api.discogs.com/releases/7217450",
+  "uri": "https://www.discogs.com/release/7217450-Pagan-Altar-Judgement-Of-The-Dead",
+  "artists": [
+    {
+      "name": "Pagan Altar",
+      "anv": "",
+      "join": "",
+      "role": "",
+      "tracks": "",
+      "id": 647590,
+      "resource_url": "https://api.discogs.com/artists/647590",
+      "thumbnail_url": "https://i.discogs.com/jSZvC9ThPS0gSBVUjSyxzTF_AyTtD0YUVrlDZd6lC6g/rs:fit/g:sm/q:90/h:130/w:400/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTY0NzU5/MC0xNTE3MTc0MzYy/LTU1NjcuanBlZw.jpeg"
+    }
+  ],
+  "artists_sort": "Pagan Altar",
+  "labels": [
+    {
+      "name": "Black Widow Records",
+      "catno": "BWR 084",
+      "entity_type": "1",
+      "entity_type_name": "Label",
+      "id": 44262,
+      "resource_url": "https://api.discogs.com/labels/44262",
+      "thumbnail_url": "https://i.discogs.com/DuuQpe7YNLCxBYTgPfMikvzkh7SEseJS0hn-feOyGkw/rs:fit/g:sm/q:90/h:90/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTQ0MjYy/LTE3NTQ5MjY3MDgt/NjAxOC5qcGVn.jpeg"
+    }
+  ],
+  "series": [],
+  "companies": [],
+  "formats": [
+    {
+      "name": "Vinyl",
+      "qty": "1",
+      "descriptions": ["LP", "Album", "Limited Edition"],
+      "text": "Red"
+    }
+  ],
+  "data_quality": "Correct",
+  "community": {
+    "have": 1,
+    "want": 5,
+    "rating": {
+      "count": 0,
+      "average": 0
+    },
+    "submitter": {
+      "username": "SentinelRecords",
+      "resource_url": "https://api.discogs.com/users/SentinelRecords"
+    },
+    "contributors": [
+      {
+        "username": "SentinelRecords",
+        "resource_url": "https://api.discogs.com/users/SentinelRecords"
+      }
+    ],
+    "data_quality": "Correct",
+    "status": "Draft"
+  },
+  "format_quantity": 1,
+  "date_added": "2015-07-08T15:29:16-07:00",
+  "date_changed": "2015-07-08T15:29:16-07:00",
+  "num_for_sale": 0,
+  "lowest_price": null,
+  "title": "Judgement Of The Dead",
+  "country": "Italy",
+  "released": "2005",
+  "notes": "Red vinyl limited to 300 copies. Also contains thick bio booklet.",
+  "released_formatted": "2005",
+  "identifiers": [],
+  "videos": [],
+  "genres": ["Rock"],
+  "styles": ["Doom Metal", "Heavy Metal"],
+  "tracklist": [
+    {
+      "position": "A1",
+      "type_": "track",
+      "title": "Pagan Altar",
+      "duration": ""
+    },
+    {
+      "position": "A2",
+      "type_": "track",
+      "title": "In The Wake Of Armadeus",
+      "duration": ""
+    },
+    {
+      "position": "A3",
+      "type_": "track",
+      "title": "Judgement Of The Dead",
+      "duration": ""
+    },
+    {
+      "position": "B1",
+      "type_": "track",
+      "title": "The Black Mass",
+      "duration": ""
+    },
+    {
+      "position": "B2",
+      "type_": "track",
+      "title": "Night Rider",
+      "duration": ""
+    },
+    {
+      "position": "B3",
+      "type_": "track",
+      "title": "The Dance Of The Banshee",
+      "duration": ""
+    },
+    {
+      "position": "B4",
+      "type_": "track",
+      "title": "Reincarnation",
+      "duration": ""
+    },
+    {
+      "position": "B5",
+      "type_": "track",
+      "title": "March Of The Dead",
+      "duration": ""
+    }
+  ],
+  "extraartists": [
+    {
+      "name": "Trevor Portch",
+      "anv": "",
+      "join": "",
+      "role": "Bass",
+      "tracks": "",
+      "id": 1110666,
+      "resource_url": "https://api.discogs.com/artists/1110666"
+    },
+    {
+      "name": "John Mizrahi",
+      "anv": "",
+      "join": "",
+      "role": "Drums",
+      "tracks": "",
+      "id": 1110667,
+      "resource_url": "https://api.discogs.com/artists/1110667"
+    },
+    {
+      "name": "Alan Jones (11)",
+      "anv": "",
+      "join": "",
+      "role": "Guitar",
+      "tracks": "",
+      "id": 1084584,
+      "resource_url": "https://api.discogs.com/artists/1084584"
+    },
+    {
+      "name": "Terry Jones (5)",
+      "anv": "",
+      "join": "",
+      "role": "Vocals",
+      "tracks": "",
+      "id": 1110668,
+      "resource_url": "https://api.discogs.com/artists/1110668"
+    }
+  ],
+  "images": [],
+  "thumb": "",
+  "estimated_weight": 230,
+  "blocked_from_sale": false,
+  "is_offensive": false
+}

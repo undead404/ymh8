@@ -2,10 +2,13 @@
   "files": [],
   "references": [
     { "path": "packages/database" },
+    { "path": "packages/queues" },
     { "path": "packages/schemata" },
     { "path": "apps/bull-board" },
     { "path": "apps/issuer" },
-    { "path": "apps/lastfm-worker" }
+    { "path": "apps/lastfm-worker" },
+    { "path": "apps/internal-worker" },
+    { "path": "apps/discogs-worker" }
   ],
   "compilerOptions": {
     "baseUrl": ".",

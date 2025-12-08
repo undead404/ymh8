@@ -1,0 +1,570 @@
+{
+  "id": 2731248,
+  "status": "Accepted",
+  "year": 2009,
+  "resource_url": "https://api.discogs.com/releases/2731248",
+  "uri": "https://www.discogs.com/release/2731248-Candlemass-Death-Magic-Doom",
+  "artists": [
+    {
+      "name": "Candlemass",
+      "anv": "",
+      "join": "",
+      "role": "",
+      "tracks": "",
+      "id": 311088,
+      "resource_url": "https://api.discogs.com/artists/311088",
+      "thumbnail_url": "https://i.discogs.com/dS0XldUxjLBldKFmgnKz1gXDa1sETLqik3AXhJu_qTo/rs:fit/g:sm/q:90/h:337/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTMxMTA4/OC0xNjYyMjk5OTM3/LTE0OTIuanBlZw.jpeg"
+    }
+  ],
+  "artists_sort": "Candlemass",
+  "labels": [
+    {
+      "name": "Nuclear Blast",
+      "catno": "NB 2272-2",
+      "entity_type": "1",
+      "entity_type_name": "Label",
+      "id": 11499,
+      "resource_url": "https://api.discogs.com/labels/11499",
+      "thumbnail_url": "https://i.discogs.com/pDTsV8iZuPrNkDNKbOYsOIqEEvA4ybN0NG-vGEYCEiY/rs:fit/g:sm/q:90/h:45/w:120/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTExNDk5/LTExMDU5ODI4MTku/anBn.jpeg"
+    },
+    {
+      "name": "Nuclear Blast",
+      "catno": "27361 22722",
+      "entity_type": "1",
+      "entity_type_name": "Label",
+      "id": 11499,
+      "resource_url": "https://api.discogs.com/labels/11499",
+      "thumbnail_url": "https://i.discogs.com/pDTsV8iZuPrNkDNKbOYsOIqEEvA4ybN0NG-vGEYCEiY/rs:fit/g:sm/q:90/h:45/w:120/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTExNDk5/LTExMDU5ODI4MTku/anBn.jpeg"
+    }
+  ],
+  "series": [],
+  "companies": [
+    {
+      "name": "Nuclear Blast GmbH",
+      "catno": "",
+      "entity_type": "9",
+      "entity_type_name": "Distributed By",
+      "id": 222987,
+      "resource_url": "https://api.discogs.com/labels/222987",
+      "thumbnail_url": "https://i.discogs.com/d_ygdGij3o5k6weaoq6uzLmadG-xeV0gBkNdF2Nfojo/rs:fit/g:sm/q:90/h:393/w:530/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTIyMjk4/Ny0xNjg3NjIwMTA2/LTU3OTkucG5n.jpeg"
+    },
+    {
+      "name": "Nuclear Blast GmbH",
+      "catno": "",
+      "entity_type": "10",
+      "entity_type_name": "Manufactured By",
+      "id": 222987,
+      "resource_url": "https://api.discogs.com/labels/222987",
+      "thumbnail_url": "https://i.discogs.com/d_ygdGij3o5k6weaoq6uzLmadG-xeV0gBkNdF2Nfojo/rs:fit/g:sm/q:90/h:393/w:530/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTIyMjk4/Ny0xNjg3NjIwMTA2/LTU3OTkucG5n.jpeg"
+    },
+    {
+      "name": "Nuclear Blast GmbH",
+      "catno": "",
+      "entity_type": "13",
+      "entity_type_name": "Phonographic Copyright (p)",
+      "id": 222987,
+      "resource_url": "https://api.discogs.com/labels/222987",
+      "thumbnail_url": "https://i.discogs.com/d_ygdGij3o5k6weaoq6uzLmadG-xeV0gBkNdF2Nfojo/rs:fit/g:sm/q:90/h:393/w:530/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTIyMjk4/Ny0xNjg3NjIwMTA2/LTU3OTkucG5n.jpeg"
+    },
+    {
+      "name": "Nuclear Blast GmbH",
+      "catno": "",
+      "entity_type": "14",
+      "entity_type_name": "Copyright (c)",
+      "id": 222987,
+      "resource_url": "https://api.discogs.com/labels/222987",
+      "thumbnail_url": "https://i.discogs.com/d_ygdGij3o5k6weaoq6uzLmadG-xeV0gBkNdF2Nfojo/rs:fit/g:sm/q:90/h:393/w:530/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTIyMjk4/Ny0xNjg3NjIwMTA2/LTU3OTkucG5n.jpeg"
+    },
+    {
+      "name": "Technicolor",
+      "catno": "CAP00566",
+      "entity_type": "31",
+      "entity_type_name": "Glass Mastered At",
+      "id": 266081,
+      "resource_url": "https://api.discogs.com/labels/266081",
+      "thumbnail_url": "https://i.discogs.com/eJIKbw84XzGOKbibAIPnM0V9EL7cYsA3_8yOHs97Y1I/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTI2NjA4/MS0xNTgzNjA2MTI1/LTE5MjQuanBlZw.jpeg"
+    },
+    {
+      "name": "Prophecies Publishing",
+      "catno": "",
+      "entity_type": "21",
+      "entity_type_name": "Published By",
+      "id": 280826,
+      "resource_url": "https://api.discogs.com/labels/280826",
+      "thumbnail_url": "https://i.discogs.com/trBBMshMgisjSHLv2s9nqr7Eutpa_fJ6MdJe-QzLGcU/rs:fit/g:sm/q:90/h:134/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTI4MDgy/Ni0xMzgxNzUyMTkz/LTI3OTMuanBlZw.jpeg"
+    },
+    {
+      "name": "Polar Studios",
+      "catno": "",
+      "entity_type": "23",
+      "entity_type_name": "Recorded At",
+      "id": 268275,
+      "resource_url": "https://api.discogs.com/labels/268275",
+      "thumbnail_url": "https://i.discogs.com/ZTix5h23J-HUHnYdMNVkpGp4qneCOQrLdowlvn86bQU/rs:fit/g:sm/q:90/h:138/w:290/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTI2ODI3/NS0xNjM1MTY0NzI3/LTUzNzguanBlZw.jpeg"
+    },
+    {
+      "name": "Polar Studios",
+      "catno": "",
+      "entity_type": "27",
+      "entity_type_name": "Mixed At",
+      "id": 268275,
+      "resource_url": "https://api.discogs.com/labels/268275",
+      "thumbnail_url": "https://i.discogs.com/ZTix5h23J-HUHnYdMNVkpGp4qneCOQrLdowlvn86bQU/rs:fit/g:sm/q:90/h:138/w:290/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTI2ODI3/NS0xNjM1MTY0NzI3/LTUzNzguanBlZw.jpeg"
+    },
+    {
+      "name": "Cosmos Mastering",
+      "catno": "",
+      "entity_type": "29",
+      "entity_type_name": "Mastered At",
+      "id": 276364,
+      "resource_url": "https://api.discogs.com/labels/276364",
+      "thumbnail_url": "https://i.discogs.com/ON9Z2-BMxMryI1cgp564rhealzKPDqS0OEGyKNBPVSY/rs:fit/g:sm/q:90/h:93/w:175/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTI3NjM2/NC0xMzE1NzgwODg4/LmpwZWc.jpeg"
+    }
+  ],
+  "formats": [
+    {
+      "name": "CD",
+      "qty": "1",
+      "descriptions": ["Album"]
+    }
+  ],
+  "data_quality": "Correct",
+  "community": {
+    "have": 627,
+    "want": 88,
+    "rating": {
+      "count": 62,
+      "average": 4.19
+    },
+    "submitter": {
+      "username": "Bremen1993",
+      "resource_url": "https://api.discogs.com/users/Bremen1993"
+    },
+    "contributors": [
+      {
+        "username": "Bremen1993",
+        "resource_url": "https://api.discogs.com/users/Bremen1993"
+      },
+      {
+        "username": "Necrosodom",
+        "resource_url": "https://api.discogs.com/users/Necrosodom"
+      },
+      {
+        "username": "Lord_Of_Metal",
+        "resource_url": "https://api.discogs.com/users/Lord_Of_Metal"
+      },
+      {
+        "username": "Myriad",
+        "resource_url": "https://api.discogs.com/users/Myriad"
+      },
+      {
+        "username": "AFigureInBlack",
+        "resource_url": "https://api.discogs.com/users/AFigureInBlack"
+      },
+      {
+        "username": "dawidhook",
+        "resource_url": "https://api.discogs.com/users/dawidhook"
+      },
+      {
+        "username": "GabiB",
+        "resource_url": "https://api.discogs.com/users/GabiB"
+      }
+    ],
+    "data_quality": "Correct",
+    "status": "Accepted"
+  },
+  "format_quantity": 1,
+  "date_added": "2011-02-23T07:31:04-08:00",
+  "date_changed": "2022-03-11T13:49:14-08:00",
+  "num_for_sale": 6,
+  "lowest_price": 10.82,
+  "master_id": 230963,
+  "master_url": "https://api.discogs.com/masters/230963",
+  "title": "Death Magic Doom",
+  "country": "Germany",
+  "released": "2009",
+  "notes": "Recorded and mixed at Polar Studios in Stockholm. Mastering at Cosmos Mastering.\r\n\r\nStandard jewel case edition.\r\n\r\n℗+© 2009 Nuclear Blast GmbH • Manufactured in Germany",
+  "released_formatted": "2009",
+  "identifiers": [
+    {
+      "type": "Barcode",
+      "value": "7 27361 22722 7",
+      "description": "Text"
+    },
+    {
+      "type": "ASIN",
+      "value": "B001SWGOO0"
+    },
+    {
+      "type": "Label Code",
+      "value": "LC 07027"
+    },
+    {
+      "type": "Rights Society",
+      "value": "GEMA"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "CAP00566 NB2272-2DLT 01 0MM Technicolor"
+    },
+    {
+      "type": "Mastering SID Code",
+      "value": "IFPI LR77"
+    },
+    {
+      "type": "Mould SID Code",
+      "value": "IFPI UGAA"
+    }
+  ],
+  "videos": [
+    {
+      "uri": "https://www.youtube.com/watch?v=KfXXyJ8gq2k",
+      "title": "Candlemass - Death Magic Doom (2009) Full album",
+      "description": "Десятый альбом Candlemass. Вышел 3 апреля 2009 года.\n\nПредыдущий альбом, «King Of The Grey Islands», Candlemass записывал с большими «приключениями». С уходом Марколина, дистанционной работой вокалиста и срывом сроков издания. В общем, издание того альбом",
+      "duration": 0,
+      "embed": true
+    }
+  ],
+  "genres": ["Rock"],
+  "styles": ["Doom Metal"],
+  "tracklist": [
+    {
+      "position": "1",
+      "type_": "track",
+      "title": "If I Ever Die",
+      "duration": "4:54"
+    },
+    {
+      "position": "2",
+      "type_": "track",
+      "title": "Hammer Of Doom",
+      "duration": "6:17"
+    },
+    {
+      "position": "3",
+      "type_": "track",
+      "title": "The Bleeding Baroness",
+      "duration": "7:19"
+    },
+    {
+      "position": "4",
+      "type_": "track",
+      "title": "Demon Of The Deep",
+      "duration": "5:22"
+    },
+    {
+      "position": "5",
+      "type_": "track",
+      "title": "House Of 1000 Voices",
+      "duration": "7:50"
+    },
+    {
+      "position": "6",
+      "type_": "track",
+      "title": "Dead Angel",
+      "duration": "4:05"
+    },
+    {
+      "position": "7",
+      "type_": "track",
+      "title": "Clouds Of Dementia",
+      "duration": "5:39"
+    },
+    {
+      "position": "8",
+      "type_": "track",
+      "title": "My Funeral Dreams",
+      "duration": "6:06"
+    }
+  ],
+  "extraartists": [
+    {
+      "name": "Leif Edling",
+      "anv": "",
+      "join": "",
+      "role": "Bass",
+      "tracks": "",
+      "id": 320872,
+      "resource_url": "https://api.discogs.com/artists/320872"
+    },
+    {
+      "name": "Dunderdog",
+      "anv": "",
+      "join": "",
+      "role": "Cover [Cover Artwork]",
+      "tracks": "",
+      "id": 2252589,
+      "resource_url": "https://api.discogs.com/artists/2252589"
+    },
+    {
+      "name": "Tomas Arfert",
+      "anv": "",
+      "join": "",
+      "role": "Cover [Cover Artwork]",
+      "tracks": "",
+      "id": 766057,
+      "resource_url": "https://api.discogs.com/artists/766057"
+    },
+    {
+      "name": "Elmar",
+      "anv": "",
+      "join": "",
+      "role": "Crew",
+      "tracks": "",
+      "id": 192350,
+      "resource_url": "https://api.discogs.com/artists/192350"
+    },
+    {
+      "name": "Lill-Janne",
+      "anv": "",
+      "join": "",
+      "role": "Crew",
+      "tracks": "",
+      "id": 4267441,
+      "resource_url": "https://api.discogs.com/artists/4267441"
+    },
+    {
+      "name": "Nakke (3)",
+      "anv": "",
+      "join": "",
+      "role": "Crew",
+      "tracks": "",
+      "id": 4267444,
+      "resource_url": "https://api.discogs.com/artists/4267444"
+    },
+    {
+      "name": "Niller (2)",
+      "anv": "",
+      "join": "",
+      "role": "Crew",
+      "tracks": "",
+      "id": 4267442,
+      "resource_url": "https://api.discogs.com/artists/4267442"
+    },
+    {
+      "name": "Tue (3)",
+      "anv": "",
+      "join": "",
+      "role": "Crew",
+      "tracks": "",
+      "id": 4267443,
+      "resource_url": "https://api.discogs.com/artists/4267443"
+    },
+    {
+      "name": "Jan Lindh",
+      "anv": "",
+      "join": "",
+      "role": "Drums",
+      "tracks": "",
+      "id": 429360,
+      "resource_url": "https://api.discogs.com/artists/429360"
+    },
+    {
+      "name": "Mats Björkman",
+      "anv": "Mappe Björkman",
+      "join": "",
+      "role": "Guitar",
+      "tracks": "",
+      "id": 429361,
+      "resource_url": "https://api.discogs.com/artists/429361"
+    },
+    {
+      "name": "Carl Westholm",
+      "anv": "",
+      "join": "",
+      "role": "Keyboards",
+      "tracks": "",
+      "id": 471619,
+      "resource_url": "https://api.discogs.com/artists/471619"
+    },
+    {
+      "name": "Lars Johansson",
+      "anv": "",
+      "join": "",
+      "role": "Lead Guitar",
+      "tracks": "",
+      "id": 429359,
+      "resource_url": "https://api.discogs.com/artists/429359"
+    },
+    {
+      "name": "Sören Von Malmborg",
+      "anv": "",
+      "join": "",
+      "role": "Mastered By",
+      "tracks": "",
+      "id": 765703,
+      "resource_url": "https://api.discogs.com/artists/765703"
+    },
+    {
+      "name": "Leif Edling",
+      "anv": "",
+      "join": "",
+      "role": "Music By, Lyrics By",
+      "tracks": "",
+      "id": 320872,
+      "resource_url": "https://api.discogs.com/artists/320872"
+    },
+    {
+      "name": "Ulf Magnusson",
+      "anv": "",
+      "join": "",
+      "role": "Photography By [Booklet Photo]",
+      "tracks": "",
+      "id": 1431338,
+      "resource_url": "https://api.discogs.com/artists/1431338"
+    },
+    {
+      "name": "Chris Laney",
+      "anv": "",
+      "join": "",
+      "role": "Recorded By, Mixed By",
+      "tracks": "",
+      "id": 848896,
+      "resource_url": "https://api.discogs.com/artists/848896"
+    },
+    {
+      "name": "Stefan Fandén",
+      "anv": "",
+      "join": "",
+      "role": "Toy Piano [Toypiano]",
+      "tracks": "",
+      "id": 325297,
+      "resource_url": "https://api.discogs.com/artists/325297"
+    },
+    {
+      "name": "Robert Lowe (3)",
+      "anv": "",
+      "join": "",
+      "role": "Vocals",
+      "tracks": "",
+      "id": 869848,
+      "resource_url": "https://api.discogs.com/artists/869848"
+    }
+  ],
+  "images": [
+    {
+      "type": "primary",
+      "uri": "https://i.discogs.com/OXdplC-rM8hkaln0GekMoZ5KFpFv-HZ9NrLx5FjEx7I/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3MzEy/NDgtMTM0MzA1NDEw/OC02MDU2LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/OXdplC-rM8hkaln0GekMoZ5KFpFv-HZ9NrLx5FjEx7I/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3MzEy/NDgtMTM0MzA1NDEw/OC02MDU2LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/DiHaZiA-dmD606uCLEgfody2NvF-0fYAruEi41oos20/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3MzEy/NDgtMTM0MzA1NDEw/OC02MDU2LmpwZWc.jpeg",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/17vDoDMmDKrW558qDi4Xys7qlnTILrkoLqyc2QsAqMo/rs:fit/g:sm/q:90/h:465/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3MzEy/NDgtMTM0MzA1NDE0/OS01NTkzLmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/17vDoDMmDKrW558qDi4Xys7qlnTILrkoLqyc2QsAqMo/rs:fit/g:sm/q:90/h:465/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3MzEy/NDgtMTM0MzA1NDE0/OS01NTkzLmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/TMrhPXXCp_VzVlIlIXPy37MHKrO3RPVaEqRFycbGL2Y/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3MzEy/NDgtMTM0MzA1NDE0/OS01NTkzLmpwZWc.jpeg",
+      "width": 600,
+      "height": 465
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/yxZ_Ttvu0Y_0aCi1xCK82OC0vLANq5-ZQRfl6sFnfSw/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3MzEy/NDgtMTM0MzA1NDEz/Ny01NTc2LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/yxZ_Ttvu0Y_0aCi1xCK82OC0vLANq5-ZQRfl6sFnfSw/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3MzEy/NDgtMTM0MzA1NDEz/Ny01NTc2LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/L5HfpPYmfHvd1cYJldfAYtYLGvcIcaf00bDu-mF_hxA/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3MzEy/NDgtMTM0MzA1NDEz/Ny01NTc2LmpwZWc.jpeg",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/abJj74F7WsxVN_T1WVb4lqdF_O04HV9stUghWWD3UWQ/rs:fit/g:sm/q:90/h:537/w:538/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3MzEy/NDgtMTYxMzI5Njk4/MS03ODExLmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/abJj74F7WsxVN_T1WVb4lqdF_O04HV9stUghWWD3UWQ/rs:fit/g:sm/q:90/h:537/w:538/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3MzEy/NDgtMTYxMzI5Njk4/MS03ODExLmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/v4x3nevuIwZo_6Gmel1LPyNuLLIXiQu3P2Ig5e3lUjA/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3MzEy/NDgtMTYxMzI5Njk4/MS03ODExLmpwZWc.jpeg",
+      "width": 538,
+      "height": 537
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/c3nBprSpySO3lOH8dctWcJwvHcWBGKIJAP5gDN20TD4/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3MzEy/NDgtMTQ0MDg2ODAx/MC05ODU4LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/c3nBprSpySO3lOH8dctWcJwvHcWBGKIJAP5gDN20TD4/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3MzEy/NDgtMTQ0MDg2ODAx/MC05ODU4LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/d-CIeGMLgXklfAYGBg0kHMxIE8rzIj9HVkFObSmTTUE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3MzEy/NDgtMTQ0MDg2ODAx/MC05ODU4LmpwZWc.jpeg",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/fbplbQPJf2wy4FdhgjMWBoOmdzHATAVrMmkwt80s6ZQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3MzEy/NDgtMTQ0MDg2ODAx/MS0xOTQwLmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/fbplbQPJf2wy4FdhgjMWBoOmdzHATAVrMmkwt80s6ZQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3MzEy/NDgtMTQ0MDg2ODAx/MS0xOTQwLmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/abMPsROli6hTWOI2PENC4HQ478qhoCpwssEOfCxShq0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3MzEy/NDgtMTQ0MDg2ODAx/MS0xOTQwLmpwZWc.jpeg",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/2biz1LuT8M8F4tJ8HbbfKcDlSSD6fjMjBN9AL4z48t4/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3MzEy/NDgtMTQ0MDg2ODAx/My04MDQ3LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/2biz1LuT8M8F4tJ8HbbfKcDlSSD6fjMjBN9AL4z48t4/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3MzEy/NDgtMTQ0MDg2ODAx/My04MDQ3LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/Bo0KLJCweUNN6NVYivGnf_XrxVa87-G1yTe4lqslvRE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3MzEy/NDgtMTQ0MDg2ODAx/My04MDQ3LmpwZWc.jpeg",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/jTNHV7o0lHSkXP8lo-mFq1HlpniEJTmpNzJU57QYf0M/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3MzEy/NDgtMTQ0MDg2ODAx/NS0yMTk3LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/jTNHV7o0lHSkXP8lo-mFq1HlpniEJTmpNzJU57QYf0M/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3MzEy/NDgtMTQ0MDg2ODAx/NS0yMTk3LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/4lk4Oyai24vW5dAnK-UmF2gXimZjxmoNhmwKAmiLmyc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3MzEy/NDgtMTQ0MDg2ODAx/NS0yMTk3LmpwZWc.jpeg",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/qeDyZTlPTyhfEI6le5X9lcsfuffP0-n6tjcW0wPOchI/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3MzEy/NDgtMTQ0MDg2ODAx/NC01MTU5LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/qeDyZTlPTyhfEI6le5X9lcsfuffP0-n6tjcW0wPOchI/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3MzEy/NDgtMTQ0MDg2ODAx/NC01MTU5LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/rZ7cnSnUkHYzH2q9SrAIgZOyTw1bfKw-t71tKph7thU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3MzEy/NDgtMTQ0MDg2ODAx/NC01MTU5LmpwZWc.jpeg",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/VEw_3QlQkSTPEi_wSeMpXZHDZOW1s3SNV36YnJEe-xc/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3MzEy/NDgtMTQ0MDg2ODAx/Ni03MDMxLmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/VEw_3QlQkSTPEi_wSeMpXZHDZOW1s3SNV36YnJEe-xc/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3MzEy/NDgtMTQ0MDg2ODAx/Ni03MDMxLmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/aPrE6KFx6X6y4niwGW5Yge4NHI8Uk9-31HQXzZMquu4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3MzEy/NDgtMTQ0MDg2ODAx/Ni03MDMxLmpwZWc.jpeg",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/WRcM20bETnulvjwflqoca8ol_ZBsnAj3SPRO71ODCFQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3MzEy/NDgtMTQ0MDg2ODAx/MC03MDM2LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/WRcM20bETnulvjwflqoca8ol_ZBsnAj3SPRO71ODCFQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3MzEy/NDgtMTQ0MDg2ODAx/MC03MDM2LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/USJpl51XzI-q2suht-7PkDYQwcaI_lv27KH31Kuf3Xs/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3MzEy/NDgtMTQ0MDg2ODAx/MC03MDM2LmpwZWc.jpeg",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/ARRGgkjbuNkn1R99moBOAW_QrRtMq80bPBYm1nbhSRc/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3MzEy/NDgtMTQ0MDg2ODAx/My01MjM2LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/ARRGgkjbuNkn1R99moBOAW_QrRtMq80bPBYm1nbhSRc/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3MzEy/NDgtMTQ0MDg2ODAx/My01MjM2LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/eF45FmzmE1peLm8YcE8pWJ7xjZkqm0-8wfOzCNza6ho/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3MzEy/NDgtMTQ0MDg2ODAx/My01MjM2LmpwZWc.jpeg",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/k-fTU8DW6CG4TlORUXFdINokkth1r5vIxItaEpCoN3U/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3MzEy/NDgtMTQ0MDg2ODAx/Ni0zMTc2LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/k-fTU8DW6CG4TlORUXFdINokkth1r5vIxItaEpCoN3U/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3MzEy/NDgtMTQ0MDg2ODAx/Ni0zMTc2LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/VW7KVKmC0qGfOBT3jNBVJ2FFUY6DZklclxxZU8Vz_Kk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3MzEy/NDgtMTQ0MDg2ODAx/Ni0zMTc2LmpwZWc.jpeg",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/Nd3G8U4rivfgp2NvQSyKcQyWUgcE8EYDu33sIE75V8o/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3MzEy/NDgtMTQ0MDg2ODAx/Ny0zNjY0LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/Nd3G8U4rivfgp2NvQSyKcQyWUgcE8EYDu33sIE75V8o/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3MzEy/NDgtMTQ0MDg2ODAx/Ny0zNjY0LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/86k9BT9e92S4qICeIQCdL8wzjeIv78hG8a3cq96wIWw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3MzEy/NDgtMTQ0MDg2ODAx/Ny0zNjY0LmpwZWc.jpeg",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/90-IIIEwWaomHXwrNrBCD0fKEYVe6exdSqV1XqQe5vQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3MzEy/NDgtMTM0MzA1NDEy/Ni0yMTM1LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/90-IIIEwWaomHXwrNrBCD0fKEYVe6exdSqV1XqQe5vQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3MzEy/NDgtMTM0MzA1NDEy/Ni0yMTM1LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/-fdjsCE0t7ylRzJkVBZrOMDOOHZpyrZnfbJsgs1biY4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3MzEy/NDgtMTM0MzA1NDEy/Ni0yMTM1LmpwZWc.jpeg",
+      "width": 600,
+      "height": 600
+    }
+  ],
+  "thumb": "https://i.discogs.com/DiHaZiA-dmD606uCLEgfody2NvF-0fYAruEi41oos20/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3MzEy/NDgtMTM0MzA1NDEw/OC02MDU2LmpwZWc.jpeg",
+  "estimated_weight": 85,
+  "blocked_from_sale": false,
+  "is_offensive": false
+}

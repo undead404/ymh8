@@ -1,0 +1,167 @@
+{
+  "id": 6074482,
+  "status": "Accepted",
+  "year": 1978,
+  "resource_url": "https://api.discogs.com/releases/6074482",
+  "uri": "https://www.discogs.com/release/6074482-Black-Sabbath-Never-Say-Die",
+  "artists": [
+    {
+      "name": "Black Sabbath",
+      "anv": "",
+      "join": "",
+      "role": "",
+      "tracks": "",
+      "id": 144998,
+      "resource_url": "https://api.discogs.com/artists/144998",
+      "thumbnail_url": "https://i.discogs.com/Cmw5vVHa8YTjAizq1xI_KZia-ZmgGZJa0hOd8tTl37w/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE0NDk5/OC0xNTg0OTkyNjIz/LTU2NjAuanBlZw.jpeg"
+    }
+  ],
+  "artists_sort": "Black Sabbath",
+  "labels": [
+    {
+      "name": "Vertigo",
+      "catno": "6079 103",
+      "entity_type": "1",
+      "entity_type_name": "Label",
+      "id": 2266,
+      "resource_url": "https://api.discogs.com/labels/2266",
+      "thumbnail_url": "https://i.discogs.com/IXD4UNEl2ua_UhW-rwh3CbuGDQdNcF36aczeSH3P3f8/rs:fit/g:sm/q:90/h:600/w:493/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTIyNjYt/MTU4MjM3NjUxMy03/NDQzLnBuZw.jpeg"
+    }
+  ],
+  "series": [],
+  "companies": [],
+  "formats": [
+    {
+      "name": "Vinyl",
+      "qty": "1",
+      "descriptions": ["7\"", "45 RPM", "Single"]
+    }
+  ],
+  "data_quality": "Needs Vote",
+  "community": {
+    "have": 7,
+    "want": 54,
+    "rating": {
+      "count": 1,
+      "average": 4
+    },
+    "submitter": {
+      "username": "larskvernberg",
+      "resource_url": "https://api.discogs.com/users/larskvernberg"
+    },
+    "contributors": [
+      {
+        "username": "larskvernberg",
+        "resource_url": "https://api.discogs.com/users/larskvernberg"
+      },
+      {
+        "username": "85richard",
+        "resource_url": "https://api.discogs.com/users/85richard"
+      },
+      {
+        "username": "nifty57",
+        "resource_url": "https://api.discogs.com/users/nifty57"
+      },
+      {
+        "username": "irish_pressings",
+        "resource_url": "https://api.discogs.com/users/irish_pressings"
+      }
+    ],
+    "data_quality": "Needs Vote",
+    "status": "Accepted"
+  },
+  "format_quantity": 1,
+  "date_added": "2014-09-10T13:48:17-07:00",
+  "date_changed": "2022-09-11T12:07:55-07:00",
+  "num_for_sale": 4,
+  "lowest_price": 8.31,
+  "master_id": 5875,
+  "master_url": "https://api.discogs.com/masters/5875",
+  "title": "Never Say Die",
+  "country": "Australia",
+  "released": "1978",
+  "notes": "Made in Australia\r\nEssex",
+  "released_formatted": "1978",
+  "identifiers": [
+    {
+      "type": "Matrix / Runout",
+      "value": "6079 103A-2"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "6079 103B"
+    }
+  ],
+  "videos": [
+    {
+      "uri": "https://www.youtube.com/watch?v=Ts54T3e4T84",
+      "title": "Black Sabbath - Never Say Die (HQ)",
+      "description": "Track From \"Never Say Die\" Album\n1978\nAll Rights Reserved \nBlack Sabbath \n℗Warner Records",
+      "duration": 229,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=uDELg7qaFyw",
+      "title": "BLACK SABBATH - \"Never Say Die\" (Live Video)",
+      "description": "Black Sabbath performing \"Never Say Die\" live on June 19, 1978 at London's Hammersmith Odeon.\n\nTaken from the \"Never Say Die\" dvd available at http://www.amazon.com/Black-Sabbath-Never-Live-1978/dp/B00008DDH5\n\nFacebook: http://www.facebook.com/BlackSabbat",
+      "duration": 296,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=rpt3XO_Z9mI",
+      "title": "She's Gone (2021 Remaster)",
+      "description": "Provided to YouTube by Sanctuary Records\n\nShe's Gone (2021 Remaster) · Black Sabbath\n\nTechnical Ecstasy\n\n℗ 2021 Sanctuary Records Group Ltd., a BMG Company\n\nReleased on: 1976-09-25\n\nLead  Vocals: Ozzy Osbourne\nGuitar: Tony Iommi\nBass  Guitar: Geezer Butle",
+      "duration": 291,
+      "embed": true
+    }
+  ],
+  "genres": ["Rock"],
+  "styles": ["Hard Rock", "Classic Rock"],
+  "tracklist": [
+    {
+      "position": "A",
+      "type_": "track",
+      "title": "Never Say Die",
+      "duration": ""
+    },
+    {
+      "position": "B",
+      "type_": "track",
+      "title": "She's Gone",
+      "duration": ""
+    }
+  ],
+  "extraartists": [
+    {
+      "name": "Black Sabbath",
+      "anv": "",
+      "join": "",
+      "role": "Producer, Written-By",
+      "tracks": "",
+      "id": 144998,
+      "resource_url": "https://api.discogs.com/artists/144998"
+    }
+  ],
+  "images": [
+    {
+      "type": "primary",
+      "uri": "https://i.discogs.com/oE7XUSfa2biNndjRCJkXdGsdPhq_u-hgKsD0NV6rWIw/rs:fit/g:sm/q:90/h:600/w:598/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYwNzQ0/ODItMTQ5Mzg4NTY5/NS00MDUwLmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/oE7XUSfa2biNndjRCJkXdGsdPhq_u-hgKsD0NV6rWIw/rs:fit/g:sm/q:90/h:600/w:598/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYwNzQ0/ODItMTQ5Mzg4NTY5/NS00MDUwLmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/DNYK5CzzIrZrH5VYDTD0Zk37XJn24KtQoS3-rUoF7Vg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYwNzQ0/ODItMTQ5Mzg4NTY5/NS00MDUwLmpwZWc.jpeg",
+      "width": 598,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/xPxxsdJqFv7ffMSLE1wAxqoY8s8tfTzCgN_C_r9X75I/rs:fit/g:sm/q:90/h:593/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYwNzQ0/ODItMTQ5Mzg4NTcx/MS03MzQ4LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/xPxxsdJqFv7ffMSLE1wAxqoY8s8tfTzCgN_C_r9X75I/rs:fit/g:sm/q:90/h:593/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYwNzQ0/ODItMTQ5Mzg4NTcx/MS03MzQ4LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/OAtJbq2ABjTH_l1u4ShwlKE2KxCTJ2ZDCjoxQ8Zsfkw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYwNzQ0/ODItMTQ5Mzg4NTcx/MS03MzQ4LmpwZWc.jpeg",
+      "width": 600,
+      "height": 593
+    }
+  ],
+  "thumb": "https://i.discogs.com/DNYK5CzzIrZrH5VYDTD0Zk37XJn24KtQoS3-rUoF7Vg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYwNzQ0/ODItMTQ5Mzg4NTY5/NS00MDUwLmpwZWc.jpeg",
+  "estimated_weight": 230,
+  "blocked_from_sale": false,
+  "is_offensive": false
+}

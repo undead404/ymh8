@@ -1,0 +1,266 @@
+{
+  "id": 2832894,
+  "status": "Accepted",
+  "year": 1978,
+  "resource_url": "https://api.discogs.com/releases/2832894",
+  "uri": "https://www.discogs.com/release/2832894-Black-Sabbath-Never-Say-Die",
+  "artists": [
+    {
+      "name": "Black Sabbath",
+      "anv": "",
+      "join": "",
+      "role": "",
+      "tracks": "",
+      "id": 144998,
+      "resource_url": "https://api.discogs.com/artists/144998",
+      "thumbnail_url": "https://i.discogs.com/Cmw5vVHa8YTjAizq1xI_KZia-ZmgGZJa0hOd8tTl37w/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE0NDk5/OC0xNTg0OTkyNjIz/LTU2NjAuanBlZw.jpeg"
+    }
+  ],
+  "artists_sort": "Black Sabbath",
+  "labels": [
+    {
+      "name": "Warner Bros. Records",
+      "catno": "M5 3186",
+      "entity_type": "1",
+      "entity_type_name": "Label",
+      "id": 1000,
+      "resource_url": "https://api.discogs.com/labels/1000",
+      "thumbnail_url": "https://i.discogs.com/aqp9AvHESRiYBoVvjD6G9feNzT2sUfmaAp4Byhn3IDE/rs:fit/g:sm/q:90/h:600/w:439/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTEwMDAt/MTQ4ODkyMDQ2My02/ODk5LnBuZw.jpeg"
+    }
+  ],
+  "series": [],
+  "companies": [
+    {
+      "name": "Warner Bros. Records Inc.",
+      "catno": "",
+      "entity_type": "13",
+      "entity_type_name": "Phonographic Copyright (p)",
+      "id": 90718,
+      "resource_url": "https://api.discogs.com/labels/90718",
+      "thumbnail_url": "https://i.discogs.com/vtgluomN6ZTJErIa-_IirawwizwlKkoGSJfT_qs0Mv4/rs:fit/g:sm/q:90/h:147/w:446/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTkwNzE4/LTE2OTU3NTY1MzAt/ODMwNi5qcGVn.jpeg"
+    },
+    {
+      "name": "Warner Bros. Records Inc.",
+      "catno": "",
+      "entity_type": "14",
+      "entity_type_name": "Copyright (c)",
+      "id": 90718,
+      "resource_url": "https://api.discogs.com/labels/90718",
+      "thumbnail_url": "https://i.discogs.com/vtgluomN6ZTJErIa-_IirawwizwlKkoGSJfT_qs0Mv4/rs:fit/g:sm/q:90/h:147/w:446/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTkwNzE4/LTE2OTU3NTY1MzAt/ODMwNi5qcGVn.jpeg"
+    }
+  ],
+  "formats": [
+    {
+      "name": "Cassette",
+      "qty": "1",
+      "descriptions": ["Album"]
+    }
+  ],
+  "data_quality": "Needs Vote",
+  "community": {
+    "have": 144,
+    "want": 154,
+    "rating": {
+      "count": 15,
+      "average": 3.8
+    },
+    "submitter": {
+      "username": "hompahey",
+      "resource_url": "https://api.discogs.com/users/hompahey"
+    },
+    "contributors": [
+      {
+        "username": "hompahey",
+        "resource_url": "https://api.discogs.com/users/hompahey"
+      },
+      {
+        "username": "Creamcheese",
+        "resource_url": "https://api.discogs.com/users/Creamcheese"
+      },
+      {
+        "username": "CykoMF",
+        "resource_url": "https://api.discogs.com/users/CykoMF"
+      }
+    ],
+    "data_quality": "Needs Vote",
+    "status": "Accepted"
+  },
+  "format_quantity": 1,
+  "date_added": "2011-04-17T15:15:34-07:00",
+  "date_changed": "2022-07-01T18:19:22-07:00",
+  "num_for_sale": 5,
+  "lowest_price": 9.66,
+  "master_id": 5527,
+  "master_url": "https://api.discogs.com/masters/5527",
+  "title": "Never Say Die",
+  "country": "US",
+  "released": "1978",
+  "notes": "TT side A: 23:01\r\nTT side B: 22:47\r\n\r\n℗© 1978 Warner Bros. Records Inc.\r\nMade in U.S.A.\r\n\r\nPlastic coated/laminated inlay.\r\n",
+  "released_formatted": "1978",
+  "identifiers": [],
+  "videos": [
+    {
+      "uri": "https://www.youtube.com/watch?v=9oJ05XC9JG4",
+      "title": "BLACK SABBATH - Never Say Die! (FULL ALBUM)",
+      "description": "℗ & © 1970 Warner Bros. Records Inc. All Rights Reserved 1887\n\n #BlackSabbath #Album #NeverSayDie ! #JOHNNYBLADE\n\nBlack Sabbath's 'Never Say Die!' Album\nReleased 1978\n\nNever Say Die! is the eighth studio album by English Metal band Black Sabbath, released",
+      "duration": 0,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=y1qDr2FBsoE",
+      "title": "Never Say Die! - Black Sabbath (Full Album Vinyl Rip) 1978",
+      "description": "Side One:\n1. Never Say Die\n2. Johnny Blade\n3. Junior's Eyes \n4. A Hard Road\nSide Two\n5. Shock Wave\n6. Air Dance\n7. Over to You\n8. Breakout\n9. Swinging the Chain\n\nhttps://www.discogs.com/release/21667741-Black-Sabbath-Never-Say-Die",
+      "duration": 0,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=-6Xq0eb8TbU",
+      "title": "Black Sabbath - Never Say Die! (1978)",
+      "description": "",
+      "duration": 0,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=KJRXypUMD_w",
+      "title": "Black Sabbath  Never Say Die!  Full Album",
+      "description": "00:00 \"Never Say Die\" 03:49\n \"Johnny Blade  10:18\n Junior's Eyes\"17:00 \n\"A Hard Road\"23:03 \n\"Shock Wave\"28:19\n\"Air Dance\"33:36\n\"Over to You\"39:00\n\"Breakout\"41:38\n\"Swinging the Chain\"\n\nIf you like what you're hearing please support the artist, buy the albu",
+      "duration": 0,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=-qak0qnEfLk",
+      "title": "Black Sabbath - (Never Say Die) - Full Album 1979",
+      "description": "",
+      "duration": 0,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=4p5WUYDPV-o",
+      "title": "BLACK SABBATH - Never Say Die! (FULL ALBUM)",
+      "description": "#BlackSabbath #Album #NeverSayDie ! #JOHNNYBLADE\n℗ & © 1970 Warner Bros. Records Inc. All Rights Reserved 1887\n\n #BlackSabbath #Album #NeverSayDie ! #JOHNNYBLADE\n\nBlack Sabbath's 'Never Say Die!' Album\nReleased 1978\n\nNever Say Die! is the eighth studio al",
+      "duration": 0,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=Suvy-elqA1k",
+      "title": "Black Sabbath - Never Say Die! (full album) 1978",
+      "description": "1. Never Say Die 00:00\n2. Johnny Blade 03:48\n3. Junior's Eyes  10:16\n4. A Hard Road 17:00\n5. Shock Wave 22:54\n6. Air Dance 28:07\n7. Over to You 33:22\n8. Breakout 38:39   instrumental\n9. Swinging the Chain  41:13",
+      "duration": 0,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=UaKrwluYg4w",
+      "title": "1978 - BLACK SABBATH - Never Say Die!  (Full Album)",
+      "description": "",
+      "duration": 0,
+      "embed": true
+    }
+  ],
+  "genres": ["Rock"],
+  "styles": ["Hard Rock"],
+  "tracklist": [
+    {
+      "position": "A1",
+      "type_": "track",
+      "title": "Never Say Die",
+      "duration": ""
+    },
+    {
+      "position": "A2",
+      "type_": "track",
+      "title": "Johnny Blade",
+      "duration": ""
+    },
+    {
+      "position": "A3",
+      "type_": "track",
+      "title": "Junior's Eyes",
+      "duration": ""
+    },
+    {
+      "position": "A4",
+      "type_": "track",
+      "title": "A Hard Road",
+      "duration": ""
+    },
+    {
+      "position": "B1",
+      "type_": "track",
+      "title": "Shock Wave",
+      "duration": ""
+    },
+    {
+      "position": "B2",
+      "type_": "track",
+      "title": "Air Dance",
+      "duration": ""
+    },
+    {
+      "position": "B3",
+      "type_": "track",
+      "title": "Over To You",
+      "duration": ""
+    },
+    {
+      "position": "B4",
+      "type_": "track",
+      "title": "Breakout",
+      "duration": ""
+    },
+    {
+      "position": "B5",
+      "type_": "track",
+      "title": "Swinging The Chain",
+      "duration": ""
+    }
+  ],
+  "extraartists": [
+    {
+      "name": "Black Sabbath",
+      "anv": "",
+      "join": "",
+      "role": "Producer",
+      "tracks": "",
+      "id": 144998,
+      "resource_url": "https://api.discogs.com/artists/144998"
+    }
+  ],
+  "images": [
+    {
+      "type": "primary",
+      "uri": "https://i.discogs.com/GdI5naM0wDWTIoppVH-9t4sBpnYHOulPAqg12weBtmE/rs:fit/g:sm/q:90/h:530/w:536/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MzI4/OTQtMTMwMzA3ODU3/OC5qcGVn.jpeg",
+      "resource_url": "https://i.discogs.com/GdI5naM0wDWTIoppVH-9t4sBpnYHOulPAqg12weBtmE/rs:fit/g:sm/q:90/h:530/w:536/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MzI4/OTQtMTMwMzA3ODU3/OC5qcGVn.jpeg",
+      "uri150": "https://i.discogs.com/SAbiTCfppz_VSiWOmeFBLEoQ5ovEiJ3LwoiQngUcMKA/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MzI4/OTQtMTMwMzA3ODU3/OC5qcGVn.jpeg",
+      "width": 536,
+      "height": 530
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/skTDz9b9iRXJxm7gl6CfnVr1WmHrsavPAn0xLOnESFw/rs:fit/g:sm/q:90/h:528/w:528/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MzI4/OTQtMTMwMzA3ODU5/MS5qcGVn.jpeg",
+      "resource_url": "https://i.discogs.com/skTDz9b9iRXJxm7gl6CfnVr1WmHrsavPAn0xLOnESFw/rs:fit/g:sm/q:90/h:528/w:528/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MzI4/OTQtMTMwMzA3ODU5/MS5qcGVn.jpeg",
+      "uri150": "https://i.discogs.com/ToHJEzkL50uqobLJ1h3V41Vtfa1XbuEV0pSGXajM6SM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MzI4/OTQtMTMwMzA3ODU5/MS5qcGVn.jpeg",
+      "width": 528,
+      "height": 528
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/blynzpU89itUVU7uQQaURlgZcnMycmUmDvsHTsL0HMo/rs:fit/g:sm/q:90/h:333/w:534/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MzI4/OTQtMTMwMzA3ODYx/MC5qcGVn.jpeg",
+      "resource_url": "https://i.discogs.com/blynzpU89itUVU7uQQaURlgZcnMycmUmDvsHTsL0HMo/rs:fit/g:sm/q:90/h:333/w:534/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MzI4/OTQtMTMwMzA3ODYx/MC5qcGVn.jpeg",
+      "uri150": "https://i.discogs.com/4JP2dAXhwLVaYUw1BLAVh_huCLjC4UBZd_6LFCa_avg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MzI4/OTQtMTMwMzA3ODYx/MC5qcGVn.jpeg",
+      "width": 534,
+      "height": 333
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/j-Az-saYLfGQsGGNZ7AuG9fhQrErC67zo-mfFcPa7Fc/rs:fit/g:sm/q:90/h:333/w:532/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MzI4/OTQtMTMwMzA3ODYx/OS5qcGVn.jpeg",
+      "resource_url": "https://i.discogs.com/j-Az-saYLfGQsGGNZ7AuG9fhQrErC67zo-mfFcPa7Fc/rs:fit/g:sm/q:90/h:333/w:532/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MzI4/OTQtMTMwMzA3ODYx/OS5qcGVn.jpeg",
+      "uri150": "https://i.discogs.com/qSqZhXqunFyEfG2qI4CHYzNOf0BSWMiXZ0EQQ2Ev6hs/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MzI4/OTQtMTMwMzA3ODYx/OS5qcGVn.jpeg",
+      "width": 532,
+      "height": 333
+    }
+  ],
+  "thumb": "https://i.discogs.com/SAbiTCfppz_VSiWOmeFBLEoQ5ovEiJ3LwoiQngUcMKA/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MzI4/OTQtMTMwMzA3ODU3/OC5qcGVn.jpeg",
+  "estimated_weight": 65,
+  "blocked_from_sale": false,
+  "is_offensive": false
+}

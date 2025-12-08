@@ -1,0 +1,215 @@
+{
+  "id": 6250280,
+  "status": "Accepted",
+  "year": 2009,
+  "resource_url": "https://api.discogs.com/releases/6250280",
+  "uri": "https://www.discogs.com/release/6250280-Candlemass-Death-Magic-Doom",
+  "artists": [
+    {
+      "name": "Candlemass",
+      "anv": "",
+      "join": "",
+      "role": "",
+      "tracks": "",
+      "id": 311088,
+      "resource_url": "https://api.discogs.com/artists/311088",
+      "thumbnail_url": "https://i.discogs.com/dS0XldUxjLBldKFmgnKz1gXDa1sETLqik3AXhJu_qTo/rs:fit/g:sm/q:90/h:337/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTMxMTA4/OC0xNjYyMjk5OTM3/LTE0OTIuanBlZw.jpeg"
+    }
+  ],
+  "artists_sort": "Candlemass",
+  "labels": [
+    {
+      "name": "Scarecrow Records (2)",
+      "catno": "SR0449",
+      "entity_type": "1",
+      "entity_type_name": "Label",
+      "id": 50650,
+      "resource_url": "https://api.discogs.com/labels/50650",
+      "thumbnail_url": "https://i.discogs.com/VLLmWYDfJ7zAb1TH3XVayQMrepPvejd9T2Y3y8P1Th8/rs:fit/g:sm/q:90/h:65/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTUwNjUw/LTExOTg0MjY3ODMu/anBlZw.jpeg"
+    }
+  ],
+  "series": [],
+  "companies": [
+    {
+      "name": "Arvato Digital Services, Mexico",
+      "catno": "29897",
+      "entity_type": "31",
+      "entity_type_name": "Glass Mastered At",
+      "id": 739661,
+      "resource_url": "https://api.discogs.com/labels/739661",
+      "thumbnail_url": "https://i.discogs.com/ZdD5aXOS2RnZgMNYxL54mMp7-0bpy2SrFm3pUdg_k8s/rs:fit/g:sm/q:90/h:80/w:285/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTczOTY2/MS0xNDExMTA5NjU4/LTgzOTEuanBlZw.jpeg"
+    }
+  ],
+  "formats": [
+    {
+      "name": "CD",
+      "qty": "1",
+      "descriptions": ["Album"]
+    }
+  ],
+  "data_quality": "Needs Vote",
+  "community": {
+    "have": 39,
+    "want": 39,
+    "rating": {
+      "count": 4,
+      "average": 3.25
+    },
+    "submitter": {
+      "username": "Drushchits",
+      "resource_url": "https://api.discogs.com/users/Drushchits"
+    },
+    "contributors": [
+      {
+        "username": "Drushchits",
+        "resource_url": "https://api.discogs.com/users/Drushchits"
+      },
+      {
+        "username": "dreadmeat",
+        "resource_url": "https://api.discogs.com/users/dreadmeat"
+      },
+      {
+        "username": "Myriad",
+        "resource_url": "https://api.discogs.com/users/Myriad"
+      }
+    ],
+    "data_quality": "Needs Vote",
+    "status": "Accepted"
+  },
+  "format_quantity": 1,
+  "date_added": "2014-10-31T10:09:11-07:00",
+  "date_changed": "2020-04-20T23:11:07-07:00",
+  "num_for_sale": 0,
+  "lowest_price": null,
+  "master_id": 230963,
+  "master_url": "https://api.discogs.com/masters/230963",
+  "title": "Death Magic Doom",
+  "country": "Mexico",
+  "released": "2009",
+  "released_formatted": "2009",
+  "identifiers": [
+    {
+      "type": "Barcode",
+      "value": "7 27361 22720 3"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "SR0449 arvato digital services 29897 100367634"
+    },
+    {
+      "type": "Mastering SID Code",
+      "value": "IFPI LP74"
+    },
+    {
+      "type": "Mould SID Code",
+      "value": "IFPI 0804"
+    }
+  ],
+  "videos": [
+    {
+      "uri": "https://www.youtube.com/watch?v=KfXXyJ8gq2k",
+      "title": "Candlemass - Death Magic Doom (2009) Full album",
+      "description": "Десятый альбом Candlemass. Вышел 3 апреля 2009 года.\n\nПредыдущий альбом, «King Of The Grey Islands», Candlemass записывал с большими «приключениями». С уходом Марколина, дистанционной работой вокалиста и срывом сроков издания. В общем, издание того альбом",
+      "duration": 0,
+      "embed": true
+    }
+  ],
+  "genres": ["Rock"],
+  "styles": ["Doom Metal"],
+  "tracklist": [
+    {
+      "position": "1",
+      "type_": "track",
+      "title": "If I Ever Die",
+      "duration": "4:54"
+    },
+    {
+      "position": "2",
+      "type_": "track",
+      "title": "Hammer Of Doom",
+      "duration": "6:17"
+    },
+    {
+      "position": "3",
+      "type_": "track",
+      "title": "The Bleeding Baroness",
+      "duration": "7:19"
+    },
+    {
+      "position": "4",
+      "type_": "track",
+      "title": "Demon Of The Deep",
+      "duration": "5:22"
+    },
+    {
+      "position": "5",
+      "type_": "track",
+      "title": "House Of 1000 Voices",
+      "duration": "7:50"
+    },
+    {
+      "position": "6",
+      "type_": "track",
+      "title": "Dead Angel",
+      "duration": "4:05"
+    },
+    {
+      "position": "7",
+      "type_": "track",
+      "title": "Clouds Of Dementia",
+      "duration": "5:39"
+    },
+    {
+      "position": "8",
+      "type_": "track",
+      "title": "My Funeral Dreams",
+      "duration": "6:06"
+    }
+  ],
+  "images": [
+    {
+      "type": "primary",
+      "uri": "https://i.discogs.com/BphV_RhLE-MtpSKdtnaQqw43RuP5nd8lo8uYu5MqxOg/rs:fit/g:sm/q:90/h:468/w:471/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYyNTAy/ODAtMTQxNDc3NTkx/Ny0zNDM2LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/BphV_RhLE-MtpSKdtnaQqw43RuP5nd8lo8uYu5MqxOg/rs:fit/g:sm/q:90/h:468/w:471/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYyNTAy/ODAtMTQxNDc3NTkx/Ny0zNDM2LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/ejvb2ZOtG0r6q1u5K_DQ0ATkwqV7sV6lRRkDTgekUlI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYyNTAy/ODAtMTQxNDc3NTkx/Ny0zNDM2LmpwZWc.jpeg",
+      "width": 471,
+      "height": 468
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/FALFOhcpAxduuKrrWng18VEhbm5u9BfaiLSWp87n2iQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYyNTAy/ODAtMTQxNDc3NjEy/OC03NjY3LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/FALFOhcpAxduuKrrWng18VEhbm5u9BfaiLSWp87n2iQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYyNTAy/ODAtMTQxNDc3NjEy/OC03NjY3LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/YwXJDWgsbIrew9EQh9d1v-Z1X3WiYxGZB0soE9xSY6A/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYyNTAy/ODAtMTQxNDc3NjEy/OC03NjY3LmpwZWc.jpeg",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/oRchUC_OeqkwPbpNWiP8bNGJo89wLQ-xH_cOhMcaxTs/rs:fit/g:sm/q:90/h:458/w:589/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYyNTAy/ODAtMTQxNDc3NjI1/Ni02NzE2LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/oRchUC_OeqkwPbpNWiP8bNGJo89wLQ-xH_cOhMcaxTs/rs:fit/g:sm/q:90/h:458/w:589/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYyNTAy/ODAtMTQxNDc3NjI1/Ni02NzE2LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/3YnDwCC3pR8hmI0BrRNK24rWwAa8MYVHQcRHZOIexHI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYyNTAy/ODAtMTQxNDc3NjI1/Ni02NzE2LmpwZWc.jpeg",
+      "width": 589,
+      "height": 458
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/rE0yhaZT4KZwmrKqfbaizmgIdpLJBW1ENExyL0cwGs4/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYyNTAy/ODAtMTQxNDc3NjM3/My02OTEwLmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/rE0yhaZT4KZwmrKqfbaizmgIdpLJBW1ENExyL0cwGs4/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYyNTAy/ODAtMTQxNDc3NjM3/My02OTEwLmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/uPFeS6pooQXcnzu-9EF6FBxa4W6WUX0X0yoFecgamDY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYyNTAy/ODAtMTQxNDc3NjM3/My02OTEwLmpwZWc.jpeg",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/sqZWgJ1ohM-4rlWGRlkyTJ6l8o1e6_ki1zD7BcBpKs0/rs:fit/g:sm/q:90/h:288/w:288/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYyNTAy/ODAtMTQxNDc3NjQ3/NS0yNTM1LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/sqZWgJ1ohM-4rlWGRlkyTJ6l8o1e6_ki1zD7BcBpKs0/rs:fit/g:sm/q:90/h:288/w:288/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYyNTAy/ODAtMTQxNDc3NjQ3/NS0yNTM1LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/L7pLwhititP4Jd49YIoTWu2D4PXTz1hmgIyOWdRuFeQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYyNTAy/ODAtMTQxNDc3NjQ3/NS0yNTM1LmpwZWc.jpeg",
+      "width": 288,
+      "height": 288
+    }
+  ],
+  "thumb": "https://i.discogs.com/ejvb2ZOtG0r6q1u5K_DQ0ATkwqV7sV6lRRkDTgekUlI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYyNTAy/ODAtMTQxNDc3NTkx/Ny0zNDM2LmpwZWc.jpeg",
+  "estimated_weight": 85,
+  "blocked_from_sale": false,
+  "is_offensive": false
+}

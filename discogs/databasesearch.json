@@ -1,0 +1,951 @@
+{
+  "pagination": {
+    "page": 1,
+    "pages": 1,
+    "per_page": 50,
+    "items": 23,
+    "urls": {}
+  },
+  "results": [
+    {
+      "country": "Europe",
+      "year": "2008",
+      "format": ["CD", "Album", "Reissue"],
+      "label": [
+        "Season Of Mist",
+        "AGI, USA",
+        "Van de Steeg",
+        "Season Of Mist",
+        "Season Of Mist",
+        "Polar Bear Lair",
+        "Polar Bear Lair",
+        "Polar Bear Lair",
+        "Season Of Mist",
+        "Sony DADC"
+      ],
+      "type": "release",
+      "genre": ["Rock"],
+      "style": ["Doom Metal"],
+      "id": 1639770,
+      "barcode": [
+        "8 22603 11892 6",
+        "Sony DADC A0101029973-0101 13 A00",
+        "IFPI L553",
+        "IFPI 94Y6"
+      ],
+      "master_id": 61991,
+      "master_url": "https://api.discogs.com/masters/61991",
+      "uri": "/release/1639770-Pentagram-Sub-Basement",
+      "catno": "SOM 189",
+      "title": "Pentagram - Sub-Basement",
+      "thumb": "https://i.discogs.com/LGqbuUiOQvElN6FcbMsRaN6VhvpGzbciCyYH79MKxPs/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE2Mzk3/NzAtMTQzOTMyODc0/OC0yMTUxLmpwZWc.jpeg",
+      "cover_image": "https://i.discogs.com/1w4bUA31U3fDWpx_ckxHTOD9ZKwpPVrQOziYfey5XB4/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE2Mzk3/NzAtMTQzOTMyODc0/OC0yMTUxLmpwZWc.jpeg",
+      "resource_url": "https://api.discogs.com/releases/1639770",
+      "community": {
+        "want": 64,
+        "have": 220
+      },
+      "format_quantity": 1,
+      "formats": [
+        {
+          "name": "CD",
+          "qty": "1",
+          "text": "Digipak",
+          "descriptions": ["Album", "Reissue"]
+        }
+      ]
+    },
+    {
+      "country": "Italy",
+      "year": "2024",
+      "format": [
+        "Vinyl",
+        "LP",
+        "Album",
+        "Limited Edition",
+        "Reissue",
+        "Remastered"
+      ],
+      "label": ["Heavy Psych Sounds"],
+      "type": "release",
+      "genre": ["Rock"],
+      "style": ["Doom Metal"],
+      "id": 31879816,
+      "barcode": ["0694685735298"],
+      "master_id": 61991,
+      "master_url": "https://api.discogs.com/masters/61991",
+      "uri": "/release/31879816-Pentagram-Sub-Basement",
+      "catno": "HPS316",
+      "title": "Pentagram - Sub-Basement",
+      "thumb": "https://i.discogs.com/WV0hWTG65NXFxVqmNareZXIhu-7YSeL4P2K4tqBlV0E/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxODc5/ODE2LTE3Mjc3OTEy/MTYtODg1MC5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/5NGvTIQGv3WFTkVrjMvDT3kMc0wlAtEUGRiKHPL-uqE/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxODc5/ODE2LTE3Mjc3OTEy/MTYtODg1MC5qcGVn.jpeg",
+      "resource_url": "https://api.discogs.com/releases/31879816",
+      "community": {
+        "want": 18,
+        "have": 26
+      },
+      "format_quantity": 1,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "text": "Yellow / Orange, Black Splatter",
+          "descriptions": [
+            "LP",
+            "Album",
+            "Limited Edition",
+            "Reissue",
+            "Remastered"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Italy",
+      "year": "2024",
+      "format": ["Vinyl", "LP", "Album", "Reissue", "Remastered"],
+      "label": ["Heavy Psych Sounds"],
+      "type": "release",
+      "genre": ["Rock"],
+      "style": ["Doom Metal"],
+      "id": 31960823,
+      "barcode": ["0694685735274"],
+      "master_id": 0,
+      "master_url": null,
+      "uri": "/release/31960823-Pentagram-Sub-Basement",
+      "catno": "HPS316",
+      "title": "Pentagram - Sub-Basement",
+      "thumb": "",
+      "cover_image": "https://st.discogs.com/e0150966becdef738a3edc7d39e7ce01bc7f9d16/images/spacer.gif",
+      "resource_url": "https://api.discogs.com/releases/31960823",
+      "community": {
+        "want": 0,
+        "have": 0
+      },
+      "format_quantity": 1,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "text": "Black",
+          "descriptions": ["LP", "Album", "Reissue", "Remastered"]
+        }
+      ]
+    },
+    {
+      "country": "Italy",
+      "year": "2024",
+      "format": ["Vinyl", "LP", "Album", "Reissue", "Remastered"],
+      "label": ["Heavy Psych Sounds"],
+      "type": "release",
+      "genre": ["Rock"],
+      "style": ["Doom Metal"],
+      "id": 31952222,
+      "barcode": ["0694685735274"],
+      "master_id": 61991,
+      "master_url": "https://api.discogs.com/masters/61991",
+      "uri": "/release/31952222-Pentagram-Sub-Basement",
+      "catno": "HPS316",
+      "title": "Pentagram - Sub-Basement",
+      "thumb": "https://i.discogs.com/zvwOMYk3GLCipgCQJMY_hiOdYAemJrELc8vwZ7uQaxw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxOTUy/MjIyLTE3Mjg0NzU0/OTMtNzU2OC5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/k0o1FOchuCVsPwW028S89Atehb9oz7jXmj2lKa-bW4g/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxOTUy/MjIyLTE3Mjg0NzU0/OTMtNzU2OC5qcGVn.jpeg",
+      "resource_url": "https://api.discogs.com/releases/31952222",
+      "community": {
+        "want": 28,
+        "have": 80
+      },
+      "format_quantity": 1,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "text": "Black",
+          "descriptions": ["LP", "Album", "Reissue", "Remastered"]
+        }
+      ]
+    },
+    {
+      "country": "UK, Europe & US",
+      "genre": ["Rock"],
+      "format": ["CD", "Album", "Repress"],
+      "style": ["Doom Metal"],
+      "id": 15841279,
+      "label": [
+        "Season Of Mist",
+        "Season Of Mist",
+        "Pentagram",
+        "Mon Cheri Music",
+        "Sasquash Music",
+        "Sony DADC",
+        "Polar Bear Lair",
+        "Polar Bear Lair",
+        "Polar Bear Lair",
+        "Odin Studios"
+      ],
+      "type": "release",
+      "barcode": [
+        "8 22603 11892 6",
+        "BMI",
+        "ASCAP",
+        "Sony DADC A0101029973-0101 32 A 00",
+        "IFPI L552",
+        "IFPI 94K8",
+        "Sony DADC A0101029973-0101 25 A00",
+        "IFPI L555",
+        "IFPI 94K7"
+      ],
+      "master_id": 61991,
+      "master_url": "https://api.discogs.com/masters/61991",
+      "uri": "/release/15841279-Pentagram-Sub-Basement",
+      "catno": "SOM 189",
+      "title": "Pentagram - Sub-Basement",
+      "thumb": "https://i.discogs.com/J_Xmjv-D689a44TD7gQBntG99bL68Q3pk8sYDW9YePc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1ODQx/Mjc5LTE1OTg3ODAx/NzgtNjg2NS5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/1UI_C3vRTIPtWfk-FrNa7z6ISZ3LczLx24KwGWfovuw/rs:fit/g:sm/q:90/h:543/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1ODQx/Mjc5LTE1OTg3ODAx/NzgtNjg2NS5qcGVn.jpeg",
+      "resource_url": "https://api.discogs.com/releases/15841279",
+      "community": {
+        "want": 35,
+        "have": 56
+      },
+      "format_quantity": 1,
+      "formats": [
+        {
+          "name": "CD",
+          "qty": "1",
+          "descriptions": ["Album", "Repress"]
+        }
+      ]
+    },
+    {
+      "country": "Italy",
+      "year": "2024",
+      "format": ["CD", "Album", "Reissue", "Remastered", "Stereo"],
+      "label": [
+        "Heavy Psych Sounds",
+        "Heavy Psych Sounds",
+        "Heavy Psych Sounds",
+        "Pentagram",
+        "Polar Bear Lair",
+        "Polar Bear Lair",
+        "Polar Bear Lair",
+        "HeavyHead Recording Co.",
+        "Odin Studios",
+        "CD-Click"
+      ],
+      "type": "release",
+      "genre": ["Rock"],
+      "style": ["Doom Metal"],
+      "id": 31879795,
+      "barcode": [
+        "6 94685 73525 0",
+        "694685735250",
+        "HPS 316-C24-1047",
+        "IFPI LZ44",
+        "IFPI AKR03"
+      ],
+      "master_id": 61991,
+      "master_url": "https://api.discogs.com/masters/61991",
+      "uri": "/release/31879795-Pentagram-Sub-Basement",
+      "catno": "HPS316",
+      "title": "Pentagram - Sub-Basement",
+      "thumb": "https://i.discogs.com/ik1aE_EL04tHQHESKokNRj4lFu8vQ9qkshpcsWSRPmY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxODc5/Nzk1LTE3NDA2ODc1/MjQtNjAxNy5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/ao-cKoowvJCWyZuOvE2wXgxnDIbIeQ_vueWqrCNRnwk/rs:fit/g:sm/q:90/h:546/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxODc5/Nzk1LTE3NDA2ODc1/MjQtNjAxNy5qcGVn.jpeg",
+      "resource_url": "https://api.discogs.com/releases/31879795",
+      "community": {
+        "want": 18,
+        "have": 65
+      },
+      "format_quantity": 1,
+      "formats": [
+        {
+          "name": "CD",
+          "qty": "1",
+          "text": "Digipak",
+          "descriptions": ["Album", "Reissue", "Remastered", "Stereo"]
+        }
+      ]
+    },
+    {
+      "country": "France",
+      "year": "2017",
+      "format": ["Cassette", "Album", "Limited Edition", "Reissue"],
+      "label": [
+        "Season Of Mist",
+        "Season Of Mist",
+        "Mon Cheri Music",
+        "P. Sasquash Music",
+        "Polar Bear Lair",
+        "Polar Bear Lair"
+      ],
+      "type": "release",
+      "genre": ["Rock"],
+      "style": ["Doom Metal"],
+      "id": 11014315,
+      "barcode": ["8 22603 11894 0"],
+      "master_id": 61991,
+      "master_url": "https://api.discogs.com/masters/61991",
+      "uri": "/release/11014315-Pentagram-Sub-Basement",
+      "catno": "SOM 189T",
+      "title": "Pentagram - Sub-Basement",
+      "thumb": "https://i.discogs.com/br-OpcMYIIQi9pTpn1R0xoyeahoUFWQqMj3D5uP88d4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExMDE0/MzE1LTE3NDE3NDIw/NTQtMjI0Ni5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/-Pnuq2d52BrEq6ZputXkzD76HS3dKuNT_J1rd1QsFHw/rs:fit/g:sm/q:90/h:450/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExMDE0/MzE1LTE3NDE3NDIw/NTQtMjI0Ni5qcGVn.jpeg",
+      "resource_url": "https://api.discogs.com/releases/11014315",
+      "community": {
+        "want": 37,
+        "have": 36
+      },
+      "format_quantity": 1,
+      "formats": [
+        {
+          "name": "Cassette",
+          "qty": "1",
+          "text": "Solid Blue ",
+          "descriptions": ["Album", "Limited Edition", "Reissue"]
+        }
+      ]
+    },
+    {
+      "country": "Finland",
+      "year": "2011",
+      "format": ["Vinyl", "LP", "Album", "Reissue", "Picture Disc"],
+      "label": [
+        "Svart Records",
+        "Season Of Mist",
+        "GZ Digital Media",
+        "Polar Bear Lair",
+        "Polar Bear Lair",
+        "Polar Bear Lair",
+        "Noise For Fiction"
+      ],
+      "type": "release",
+      "genre": ["Rock"],
+      "style": ["Doom Metal"],
+      "id": 3552303,
+      "barcode": ["6 430028 552580", "93614E1/A", "93614E2/A"],
+      "master_id": 61991,
+      "master_url": "https://api.discogs.com/masters/61991",
+      "uri": "/release/3552303-Pentagram-Sub-Basement",
+      "catno": "SVR058",
+      "title": "Pentagram - Sub-Basement",
+      "thumb": "https://i.discogs.com/_IcN5fZtFgXXjplL0OKAwR3mjepr1QzYzqFqlXH175M/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1NTIz/MDMtMTM5Njk5MDg5/Mi03MTgzLmpwZWc.jpeg",
+      "cover_image": "https://i.discogs.com/6PFmsXZRcdh_nHiC1wFCu4gdIgCISgJ_FbMemCD3xbk/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1NTIz/MDMtMTM5Njk5MDg5/Mi03MTgzLmpwZWc.jpeg",
+      "resource_url": "https://api.discogs.com/releases/3552303",
+      "community": {
+        "want": 72,
+        "have": 190
+      },
+      "format_quantity": 1,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "descriptions": ["LP", "Album", "Reissue", "Picture Disc"]
+        }
+      ]
+    },
+    {
+      "country": "USA & Europe",
+      "year": "2001",
+      "format": ["CD", "Album"],
+      "label": ["Black Widow Records", "Disctronics"],
+      "type": "release",
+      "genre": ["Rock"],
+      "style": ["Doom Metal"],
+      "id": 752683,
+      "barcode": [
+        "8019991559802",
+        "IFPI 6219",
+        "IFPI L881",
+        "4645833 BWRCD055-2 6471 21981 DISCTRONICS",
+        "S.I.A.E."
+      ],
+      "master_id": 61991,
+      "master_url": "https://api.discogs.com/masters/61991",
+      "uri": "/release/752683-Pentagram-Sub-Basement",
+      "catno": "BWRCD 055-2",
+      "title": "Pentagram - Sub-Basement",
+      "thumb": "https://i.discogs.com/dlWZe47p0WhgGB7rxyJ9CdCMZIU35NvnIAwTVKmE1XE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc1MjY4/My0xNTU0MjQxMDg2/LTE1NDkuanBlZw.jpeg",
+      "cover_image": "https://i.discogs.com/tNdndjYbxHCNRCP-BXlOHdpBbildwnyvNUcxtpg56fA/rs:fit/g:sm/q:90/h:601/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc1MjY4/My0xNTU0MjQxMDg2/LTE1NDkuanBlZw.jpeg",
+      "resource_url": "https://api.discogs.com/releases/752683",
+      "community": {
+        "want": 86,
+        "have": 295
+      },
+      "format_quantity": 1,
+      "formats": [
+        {
+          "name": "CD",
+          "qty": "1",
+          "descriptions": ["Album"]
+        }
+      ]
+    },
+    {
+      "country": "US",
+      "year": "2010",
+      "format": ["Vinyl", "LP", "Album", "Limited Edition", "Reissue"],
+      "label": [
+        "Emetic Records",
+        "Season Of Mist",
+        "Pirates Press",
+        "GZ Digital Media"
+      ],
+      "type": "release",
+      "genre": ["Rock"],
+      "style": ["Doom Metal", "Heavy Metal"],
+      "id": 2315747,
+      "barcode": [
+        "85046E1/A PIRATES PRESS-EME040 A",
+        "85046E2/A PIRATES PRESS-EME040 B"
+      ],
+      "master_id": 61991,
+      "master_url": "https://api.discogs.com/masters/61991",
+      "uri": "/release/2315747-Pentagram-Sub-Basement",
+      "catno": "EME040",
+      "title": "Pentagram - Sub-Basement",
+      "thumb": "https://i.discogs.com/zURsEmnhy9t8MnnFQ6l_piqR8qbxZNE6FI1jHvAKmt8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIzMTU3/NDctMTM5NzEzMTE4/MC0xNDM4LmpwZWc.jpeg",
+      "cover_image": "https://i.discogs.com/w_ov4l54hige1E7DFQ4qtJzH2XHYPpFJVLBEs03Ovzk/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIzMTU3/NDctMTM5NzEzMTE4/MC0xNDM4LmpwZWc.jpeg",
+      "resource_url": "https://api.discogs.com/releases/2315747",
+      "community": {
+        "want": 91,
+        "have": 120
+      },
+      "format_quantity": 1,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "descriptions": ["LP", "Album", "Limited Edition", "Reissue"]
+        }
+      ]
+    },
+    {
+      "country": "Italy",
+      "year": "2024",
+      "format": ["Vinyl", "LP", "Album", "Reissue", "Remastered"],
+      "label": ["Heavy Psych Sounds"],
+      "type": "release",
+      "genre": ["Rock"],
+      "style": ["Doom Metal"],
+      "id": 33370478,
+      "barcode": ["694685735267"],
+      "master_id": 61991,
+      "master_url": "https://api.discogs.com/masters/61991",
+      "uri": "/release/33370478-Pentagram-Sub-Basement",
+      "catno": "HPS316",
+      "title": "Pentagram - Sub-Basement",
+      "thumb": "https://i.discogs.com/sX9XiHz1dw8AoL5fvoyUgnnfTfxecHUA6rbAc_UJhaE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzMzcw/NDc4LTE3NDE2MzMw/NTAtODI4Ni5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/e8dCDNrJaEKU39D2lIgcVpn37VyfOguGhjVGAxfIgTo/rs:fit/g:sm/q:90/h:612/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzMzcw/NDc4LTE3NDE2MzMw/NTAtODI4Ni5qcGVn.jpeg",
+      "resource_url": "https://api.discogs.com/releases/33370478",
+      "community": {
+        "want": 6,
+        "have": 34
+      },
+      "format_quantity": 1,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "descriptions": ["LP", "Album", "Reissue", "Remastered"]
+        }
+      ]
+    },
+    {
+      "country": "Italy",
+      "year": "2002",
+      "format": ["Vinyl", "LP", "Album", "Limited Edition"],
+      "label": ["Black Widow Records"],
+      "type": "release",
+      "genre": ["Rock"],
+      "style": ["Doom Metal"],
+      "id": 3770834,
+      "barcode": ["BWR 055 A", "BWR-055 B", "SIAE"],
+      "master_id": 61991,
+      "master_url": "https://api.discogs.com/masters/61991",
+      "uri": "/release/3770834-Pentagram-Sub-Basement",
+      "catno": "BWR 055",
+      "title": "Pentagram - Sub-Basement",
+      "thumb": "https://i.discogs.com/B0pKeGoRWX1NS1Ao_ALtuJbnkHAY6Fz7ZoWq8LCPbk8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NzA4/MzQtMTY3ODQxNjUz/OC05NDI4LmpwZWc.jpeg",
+      "cover_image": "https://i.discogs.com/AvCDQazLBjS39dweShn3Mobaam-GYCt0Th86kNHAa9E/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NzA4/MzQtMTY3ODQxNjUz/OC05NDI4LmpwZWc.jpeg",
+      "resource_url": "https://api.discogs.com/releases/3770834",
+      "community": {
+        "want": 117,
+        "have": 81
+      },
+      "format_quantity": 1,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "text": "Red",
+          "descriptions": ["LP", "Album", "Limited Edition"]
+        }
+      ]
+    },
+    {
+      "country": "Italy",
+      "year": "2024",
+      "format": [
+        "Vinyl",
+        "LP",
+        "Album",
+        "Limited Edition",
+        "Reissue",
+        "Remastered"
+      ],
+      "label": ["Heavy Psych Sounds"],
+      "type": "release",
+      "genre": ["Rock"],
+      "style": ["Doom Metal"],
+      "id": 31879750,
+      "barcode": ["0694685735281"],
+      "master_id": 61991,
+      "master_url": "https://api.discogs.com/masters/61991",
+      "uri": "/release/31879750-Pentagram-Sub-Basement",
+      "catno": "HPS316",
+      "title": "Pentagram - Sub-Basement",
+      "thumb": "https://i.discogs.com/y5Hdc-bjQ9wawIKW9wSS9I5UcqjxsTzpjZgcWTBfBaM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxODc5/NzUwLTE3Mjc4MTM4/MTktNzkxNC5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/4yalHjTYcT4dTHIf2IRcf-r6c8fyV0VsiO4MV-plGi0/rs:fit/g:sm/q:90/h:588/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxODc5/NzUwLTE3Mjc4MTM4/MTktNzkxNC5qcGVn.jpeg",
+      "resource_url": "https://api.discogs.com/releases/31879750",
+      "community": {
+        "want": 15,
+        "have": 44
+      },
+      "format_quantity": 1,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "text": "Yellow / Orange / Blue",
+          "descriptions": [
+            "LP",
+            "Album",
+            "Limited Edition",
+            "Reissue",
+            "Remastered"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Italy",
+      "year": "2001",
+      "format": ["CD", "Album"],
+      "label": ["Black Widow Records"],
+      "type": "release",
+      "genre": ["Rock"],
+      "style": ["Doom Metal"],
+      "id": 6717407,
+      "barcode": [
+        "8 019991 559802",
+        "IFPI LV03",
+        "IFPI 2527",
+        "www.imsspa.it BWRCD055-2CD"
+      ],
+      "master_id": 61991,
+      "master_url": "https://api.discogs.com/masters/61991",
+      "uri": "/release/6717407-Pentagram-Sub-Basement",
+      "catno": "BWRCD 055-2",
+      "title": "Pentagram - Sub-Basement",
+      "thumb": "https://i.discogs.com/RInyhGkDkA4oIAtFuWSB_AWYkSjI1fZsbO-IZ1WkySY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY3MTc0/MDctMTQyNTIzNjI0/MC00MDU3LmpwZWc.jpeg",
+      "cover_image": "https://i.discogs.com/YC_Kc25xxnQOZXjdD31xvjETkZM7uT4ywIcnkIycX8I/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY3MTc0/MDctMTQyNTIzNjI0/MC00MDU3LmpwZWc.jpeg",
+      "resource_url": "https://api.discogs.com/releases/6717407",
+      "community": {
+        "want": 52,
+        "have": 72
+      },
+      "format_quantity": 1,
+      "formats": [
+        {
+          "name": "CD",
+          "qty": "1",
+          "descriptions": ["Album"]
+        }
+      ]
+    },
+    {
+      "country": "US",
+      "year": "2010",
+      "format": ["Vinyl", "LP", "Album", "Limited Edition", "Reissue"],
+      "label": [
+        "Emetic Records",
+        "Season Of Mist",
+        "Pirates Press",
+        "GZ Digital Media"
+      ],
+      "type": "release",
+      "genre": ["Rock"],
+      "style": ["Doom Metal", "Heavy Metal"],
+      "id": 5931819,
+      "barcode": [
+        "85046E1/A PIRATES PRESS-EME040 A",
+        "85046E2/A PIRATES PRESS-EME040 B"
+      ],
+      "master_id": 61991,
+      "master_url": "https://api.discogs.com/masters/61991",
+      "uri": "/release/5931819-Pentagram-Sub-Basement",
+      "catno": "EME040",
+      "title": "Pentagram - Sub-Basement",
+      "thumb": "https://i.discogs.com/-VqANM-FKnk6QlzMxScGbTb8mAWA9ItBRGZxDQYVHJc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU5MzE4/MTktMTQxNjA4MDkx/NS00NTA3LmpwZWc.jpeg",
+      "cover_image": "https://i.discogs.com/LFpk6j-28Y9N2SGA2-i04gSk7kJ19h_WjdUOof3IKUE/rs:fit/g:sm/q:90/h:500/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU5MzE4/MTktMTQxNjA4MDkx/NS00NTA3LmpwZWc.jpeg",
+      "resource_url": "https://api.discogs.com/releases/5931819",
+      "community": {
+        "want": 67,
+        "have": 18
+      },
+      "format_quantity": 1,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "text": "Grey/Gold Splatter",
+          "descriptions": ["LP", "Album", "Limited Edition", "Reissue"]
+        }
+      ]
+    },
+    {
+      "country": "Italy",
+      "year": "2001",
+      "format": ["Vinyl", "LP", "Album"],
+      "label": [
+        "Black Widow Records",
+        "Mon Cheri Music",
+        "Black Widow Records",
+        "Black Widow Records",
+        "Polar Bear Lair",
+        "Polar Bear Lair",
+        "Polar Bear Lair",
+        "Noise For Fiction"
+      ],
+      "type": "release",
+      "genre": ["Rock"],
+      "style": ["Doom Metal"],
+      "id": 1432644,
+      "barcode": ["BWR 055 A", "BWR-055 B", "B.M.I."],
+      "master_id": 61991,
+      "master_url": "https://api.discogs.com/masters/61991",
+      "uri": "/release/1432644-Pentagram-Sub-Basement",
+      "catno": "BWR 055",
+      "title": "Pentagram - Sub-Basement",
+      "thumb": "https://i.discogs.com/sl_VLPpAjQUp15qaPrRMP_KzwhM5c8dBTW4cluoTqLA/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0MzI2/NDQtMTY1NTQxMDQz/Mi00ODAxLmpwZWc.jpeg",
+      "cover_image": "https://i.discogs.com/FadL_U6EsCy3Az0iHsitdvo6MC6nq1fO0WHWfM8kHE0/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0MzI2/NDQtMTY1NTQxMDQz/Mi00ODAxLmpwZWc.jpeg",
+      "resource_url": "https://api.discogs.com/releases/1432644",
+      "community": {
+        "want": 194,
+        "have": 327
+      },
+      "format_quantity": 1,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "descriptions": ["LP", "Album"]
+        }
+      ]
+    },
+    {
+      "country": "Argentina",
+      "year": "2013",
+      "format": ["CD", "Album"],
+      "label": [
+        "Del Imaginario Discos",
+        "Laser Disc Argentina",
+        "Season Of Mist",
+        "Disembodied Records",
+        "Del Imaginario Discos"
+      ],
+      "type": "release",
+      "genre": ["Rock"],
+      "style": ["Doom Metal"],
+      "id": 6774119,
+      "barcode": [
+        "8 712725 726647",
+        "66165 - L.D.A. - INDUSTRIA ARGENTINA - D.I.266",
+        "IFPI L701",
+        "IFPI Q9P1"
+      ],
+      "master_id": 61991,
+      "master_url": "https://api.discogs.com/masters/61991",
+      "uri": "/release/6774119-Pentagram-Sub-Basement",
+      "catno": "D.I. 266",
+      "title": "Pentagram - Sub-Basement",
+      "thumb": "https://i.discogs.com/lcIxjRP3Djy_kqH8tW6Zv5_xxcG70Ph3yaRfwNVK0hc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY3NzQx/MTktMTQ0NzMyOTY1/NC0zNjU3LmpwZWc.jpeg",
+      "cover_image": "https://i.discogs.com/h3RfEOXHVaq2JQc8ZcDsHyqwdXVewTlo61i5JGYlYhw/rs:fit/g:sm/q:90/h:216/w:216/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY3NzQx/MTktMTQ0NzMyOTY1/NC0zNjU3LmpwZWc.jpeg",
+      "resource_url": "https://api.discogs.com/releases/6774119",
+      "community": {
+        "want": 29,
+        "have": 73
+      },
+      "format_quantity": 1,
+      "formats": [
+        {
+          "name": "CD",
+          "qty": "1",
+          "descriptions": ["Album"]
+        }
+      ]
+    },
+    {
+      "country": "USA & Europe",
+      "year": "2020",
+      "format": [
+        "Vinyl",
+        "LP",
+        "Album",
+        "Limited Edition",
+        "Reissue",
+        "Repress"
+      ],
+      "label": ["Svart Records"],
+      "type": "release",
+      "genre": ["Rock"],
+      "style": ["Doom Metal"],
+      "id": 14809321,
+      "barcode": ["6430065588726"],
+      "master_id": 61991,
+      "master_url": "https://api.discogs.com/masters/61991",
+      "uri": "/release/14809321-Pentagram-Sub-Basement",
+      "catno": "SVR058",
+      "title": "Pentagram - Sub-Basement",
+      "thumb": "https://i.discogs.com/p_Fpg4_eHGoVCpqfh6vqLGteGZQ7Mknw4eKWtppkGRU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0ODA5/MzIxLTE3Mzc3NDAx/MDgtNTU5My5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/ZUNXTsXGTBVimop9zAT7wB7eFmjSVZccqqDZ3fe2-2g/rs:fit/g:sm/q:90/h:597/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0ODA5/MzIxLTE3Mzc3NDAx/MDgtNTU5My5qcGVn.jpeg",
+      "resource_url": "https://api.discogs.com/releases/14809321",
+      "community": {
+        "want": 66,
+        "have": 101
+      },
+      "format_quantity": 1,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "descriptions": [
+            "LP",
+            "Album",
+            "Limited Edition",
+            "Reissue",
+            "Repress"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "US",
+      "genre": ["Rock"],
+      "format": ["CD", "Album", "Reissue"],
+      "style": ["Doom Metal"],
+      "id": 10534436,
+      "label": [
+        "Season Of Mist",
+        "Season Of Mist",
+        "Sound Performance",
+        "The ADS Group"
+      ],
+      "type": "release",
+      "barcode": [
+        "8 22603 11892 6",
+        "SOUND PERFORMANCE 15133-CD-0190 15-235-23-2",
+        "IFPI LY89"
+      ],
+      "master_id": 61991,
+      "master_url": "https://api.discogs.com/masters/61991",
+      "uri": "/release/10534436-Pentagram-Sub-Basement",
+      "catno": "SOM 189",
+      "title": "Pentagram - Sub-Basement",
+      "thumb": "https://i.discogs.com/1VhSHUsLt_A3FaEEjwr7PvXnxWNZ1UCGRnGw90_XV5Q/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNTM0/NDM2LTE0OTk0MDQ5/NDAtNDUwMC5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/cuWKDDYpTqbTenTYmi1UiN1sT0w3gsu5qAK5Ine9ukA/rs:fit/g:sm/q:90/h:450/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNTM0/NDM2LTE0OTk0MDQ5/NDAtNDUwMC5qcGVn.jpeg",
+      "resource_url": "https://api.discogs.com/releases/10534436",
+      "community": {
+        "want": 37,
+        "have": 40
+      },
+      "format_quantity": 1,
+      "formats": [
+        {
+          "name": "CD",
+          "qty": "1",
+          "descriptions": ["Album", "Reissue"]
+        }
+      ]
+    },
+    {
+      "country": "US",
+      "genre": ["Rock"],
+      "format": ["CD", "Album", "Reissue"],
+      "style": ["Doom Metal"],
+      "id": 6268094,
+      "label": ["Season Of Mist", "Season Of Mist", "Sound Performance"],
+      "type": "release",
+      "barcode": [
+        "8 22603 11892 6",
+        "IFPI 9220",
+        "IFPI LL29",
+        ">SOM189 S2516S SOUND PERFORMANCE 01"
+      ],
+      "master_id": 61991,
+      "master_url": "https://api.discogs.com/masters/61991",
+      "uri": "/release/6268094-Pentagram-Sub-Basement",
+      "catno": "SOM 189",
+      "title": "Pentagram - Sub-Basement",
+      "thumb": "https://i.discogs.com/f-oaYHO-OY3SM6gv9nHWRM1FYRAJRJXpob-p2xONSPc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYyNjgw/OTQtMTQxNTE5OTUy/OC00MDcwLmpwZWc.jpeg",
+      "cover_image": "https://i.discogs.com/AiBcAwCU29NPCM0TPl8vTJmIiqoNsnCgrTkqDdDsInw/rs:fit/g:sm/q:90/h:500/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYyNjgw/OTQtMTQxNTE5OTUy/OC00MDcwLmpwZWc.jpeg",
+      "resource_url": "https://api.discogs.com/releases/6268094",
+      "community": {
+        "want": 47,
+        "have": 103
+      },
+      "format_quantity": 1,
+      "formats": [
+        {
+          "name": "CD",
+          "qty": "1",
+          "descriptions": ["Album", "Reissue"]
+        }
+      ]
+    },
+    {
+      "country": "Finland",
+      "year": "2011",
+      "format": [
+        "Vinyl",
+        "LP",
+        "Picture Disc",
+        "Album",
+        "Reissue",
+        "Vinyl",
+        "7\"",
+        "33 ⅓ RPM",
+        "All Media",
+        "Limited Edition",
+        "Numbered"
+      ],
+      "label": [
+        "Svart Records",
+        "Season Of Mist",
+        "Polar Bear Lair",
+        "Polar Bear Lair",
+        "Polar Bear Lair",
+        "Noise For Fiction",
+        "GZ Digital Media",
+        "Celebrate Records GmbH"
+      ],
+      "type": "release",
+      "genre": ["Rock"],
+      "style": ["Doom Metal"],
+      "id": 3387450,
+      "barcode": [
+        "6 430028 552580",
+        "93614E1/A",
+        "93614E2/A",
+        "110771 A1 KM",
+        "110771 B1 KM"
+      ],
+      "master_id": 61991,
+      "master_url": "https://api.discogs.com/masters/61991",
+      "uri": "/release/3387450-Pentagram-Sub-Basement",
+      "catno": "SVR058",
+      "title": "Pentagram - Sub-Basement",
+      "thumb": "https://i.discogs.com/5EqHJgVPFK5u_ppQvHfRTRRx19d0Xm64xH-bh5UlhjI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzODc0/NTAtMTczNzI5OTcw/MS01OTQxLmpwZWc.jpeg",
+      "cover_image": "https://i.discogs.com/PwhLed2ERBD_D0dzPfI-Pnkx9vlM8YLcMOf6JkXjNYo/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzODc0/NTAtMTczNzI5OTcw/MS01OTQxLmpwZWc.jpeg",
+      "resource_url": "https://api.discogs.com/releases/3387450",
+      "community": {
+        "want": 94,
+        "have": 147
+      },
+      "format_quantity": 2,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "descriptions": ["LP", "Picture Disc", "Album", "Reissue"]
+        },
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "descriptions": ["7\"", "33 ⅓ RPM"]
+        },
+        {
+          "name": "All Media",
+          "qty": "1",
+          "descriptions": ["Limited Edition", "Numbered"]
+        }
+      ]
+    },
+    {
+      "country": "Italy",
+      "year": "2024",
+      "format": [
+        "Vinyl",
+        "LP",
+        "Album",
+        "Limited Edition",
+        "Reissue",
+        "Remastered"
+      ],
+      "label": ["Heavy Psych Sounds"],
+      "type": "release",
+      "genre": ["Rock"],
+      "style": ["Doom Metal"],
+      "id": 31879786,
+      "barcode": ["694685735267"],
+      "master_id": 61991,
+      "master_url": "https://api.discogs.com/masters/61991",
+      "uri": "/release/31879786-Pentagram-Sub-Basement",
+      "catno": "HPS316",
+      "title": "Pentagram - Sub-Basement",
+      "thumb": "https://i.discogs.com/ujUB84pxbsky_fdRcw3-VzNKp9-Rzon0N6sCQxYOMI0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxODc5/Nzg2LTE3Mjg3NjYx/MzEtNzc5Mi5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/KgscpvN-zV_cqyE6_vXIOcinIKXAEf3oDrqa1BS57rA/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxODc5/Nzg2LTE3Mjg3NjYx/MzEtNzc5Mi5qcGVn.jpeg",
+      "resource_url": "https://api.discogs.com/releases/31879786",
+      "community": {
+        "want": 19,
+        "have": 79
+      },
+      "format_quantity": 1,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "text": "Blue",
+          "descriptions": [
+            "LP",
+            "Album",
+            "Limited Edition",
+            "Reissue",
+            "Remastered"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Finland",
+      "year": "2020",
+      "format": ["Vinyl", "LP", "Album", "Limited Edition", "Reissue"],
+      "label": ["Svart Records"],
+      "type": "release",
+      "genre": ["Rock"],
+      "style": ["Doom Metal"],
+      "id": 14925647,
+      "barcode": ["6430065588733"],
+      "master_id": 61991,
+      "master_url": "https://api.discogs.com/masters/61991",
+      "uri": "/release/14925647-Pentagram-Sub-Basement",
+      "catno": "SVR058",
+      "title": "Pentagram - Sub-Basement",
+      "thumb": "https://i.discogs.com/mvrDEuispm2qAhqrvUbZjy_wd-5fGdt3cI52eL7W2Cw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0OTI1/NjQ3LTE2MjM3OTAw/MTMtNjI1OS5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/zUAhiGBosA6U8aAC3bQpYsaL2USb8NYqLi7IWj4jyKI/rs:fit/g:sm/q:90/h:612/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0OTI1/NjQ3LTE2MjM3OTAw/MTMtNjI1OS5qcGVn.jpeg",
+      "resource_url": "https://api.discogs.com/releases/14925647",
+      "community": {
+        "want": 55,
+        "have": 70
+      },
+      "format_quantity": 1,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "text": "Blue Transparent",
+          "descriptions": ["LP", "Album", "Limited Edition", "Reissue"]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+{"root":["./src/environment.ts","./src/index.ts","./src/process-job.ts","./src/telegram.ts","./src/database/index.ts","./src/operations/generate-tag-list.ts","./src/operations/index.ts","./src/utils/escape-for-telegram.ts","./src/utils/sleep.ts"],"version":"5.9.3"}
