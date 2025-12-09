@@ -31,6 +31,7 @@ export default function findTaglessAlbum(): Promise<null | BareAlbum> {
     AND "hidden" <> TRUE
     ORDER BY
 		"tagsUpdatedAt" IS NULL DESC,
+        "tagsUpdatedAt",
 		"playcount" / 1000.0 * "listeners" DESC
     LIMIT 1
   `;

@@ -1,46 +1,11 @@
-import * as v from 'valibot';
-
-import { type BareTag, nonEmptyString } from '@ymh8/schemata';
+import { type BareTag } from '@ymh8/schemata';
+import convertAlbum from '../utils/convert-album.js';
 import sleep from '../utils/sleep.js';
 
 import queryLastfm from './query.js';
+import { tagTopAlbumsResponseSchema } from './tag-top-albums-response-schema.js';
 
-const tagTopAlbumsResponseSchema = v.object({
-  albums: v.object({
-    '@attr': v.object({
-      page: v.pipe(v.string(), v.toNumber()),
-      totalPages: v.pipe(v.string(), v.toNumber()),
-    }),
-    album: v.array(
-      v.object({
-        artist: v.object({
-          name: nonEmptyString,
-        }),
-        image: v.array(
-          v.object({
-            '#text': v.pipe(v.string(), v.url()),
-          }),
-        ),
-        mbid: v.optional(nonEmptyString),
-        name: nonEmptyString,
-      }),
-    ),
-  }),
-});
 // const MAX_PAGES = 200;
-
-function convertAlbum(
-  lastfmAlbum: v.InferInput<
-    typeof tagTopAlbumsResponseSchema
-  >['albums']['album'][0],
-) {
-  return {
-    artist: lastfmAlbum.artist.name,
-    cover: lastfmAlbum.image.at(-1)?.['#text'],
-    name: lastfmAlbum.name,
-    thumbnail: lastfmAlbum.image.at(0)?.['#text'],
-  };
-}
 
 export default async function getTagTopAlbums({ name }: BareTag) {
   const albums: ReturnType<typeof convertAlbum>[] = [];

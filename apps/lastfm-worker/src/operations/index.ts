@@ -1,3 +1,4 @@
+import scrapeArtist from './scrape-artist.js';
 import scrapeTag from './scrape-tag.js';
 import updateAlbumStats from './update-album-stats.js';
 import updateAlbumTags from './update-album-tags.js';
@@ -5,6 +6,7 @@ import updateAlbumTags from './update-album-tags.js';
 const operationsMapping: Record<string, (data: unknown) => Promise<unknown>> = {
   'album:update:stats': updateAlbumStats,
   'album:update:tags': updateAlbumTags,
+  'artist:scrape': scrapeArtist,
   'tag:scrape': scrapeTag,
 };
 

@@ -51,3 +51,7 @@ export const dateString = v.pipe(
     return valueToChange;
   }),
 );
+
+export const bareArtistSchema = bareTagSchema;
+
+export type BareArtist = v.InferInput<typeof bareArtistSchema>;

@@ -1,7 +1,7 @@
 import * as v from 'valibot';
 
-import { nonEmptyString } from '@ymh8/schemata';
-import sleep from '../utils/sleep.js';
+import { enqueue, lastfmQueue } from '@ymh8/queues';
+import { type BareArtist, nonEmptyString } from '@ymh8/schemata';
 
 import queryLastfm from './query.js';
 
@@ -30,7 +30,6 @@ const tagTopAlbumsResponseSchema = v.object({
     ),
   }),
 });
-// const MAX_PAGES = 200;
 
 function convertAlbum(
   lastfmAlbum: v.InferInput<
@@ -45,32 +44,28 @@ function convertAlbum(
   };
 }
 
-export default async function getArtistTopAlbums(name: string) {
+export default async function getArtistTopAlbums(
+  { name }: BareArtist,
+  page?: number,
+) {
   const albums: ReturnType<typeof convertAlbum>[] = [];
-  let response = await queryLastfm(tagTopAlbumsResponseSchema, {
+  const response = await queryLastfm(tagTopAlbumsResponseSchema, {
     artist: name,
     method: 'artist.getTopAlbums',
+    page,
   });
   albums.push(
     ...response.topalbums.album.map((lastfmAlbum) => convertAlbum(lastfmAlbum)),
   );
-  let page = 2;
+  let currentPage = 2;
   while (
     response.topalbums['@attr'].page < response.topalbums['@attr'].totalPages
-    // && response.topalbums['@attr'].page < MAX_PAGES
   ) {
-    await sleep(1100);
-    response = await queryLastfm(tagTopAlbumsResponseSchema, {
-      artist: name,
-      method: 'artist.getTopAlbums',
-      page,
+    await enqueue(lastfmQueue, 'artist:scrape', `${name}-${currentPage}`, {
+      name,
+      page: currentPage,
     });
-    albums.push(
-      ...response.topalbums.album.map((lastfmAlbum) =>
-        convertAlbum(lastfmAlbum),
-      ),
-    );
-    page += 1;
+    currentPage += 1;
   }
   return albums;
 }

@@ -1,14 +1,19 @@
-// import scrapeOldScrapedTag from './checks/scrape-old-scraped-tag.js';
 import checkListlessTag from './checks/check-listless-tag.js';
 import fixStatlessAlbum from './checks/fix-statless-album.js';
 import fixTaglessAlbum from './checks/fix-tagless-album.js';
-// import scrapeUnscrapedTag from './checks/scrape-unscraped-tag.js';
 import renewOldList from './checks/renew-old-list.js';
 import renewOldStats from './checks/renew-old-stats.js';
 import renewOldTags from './checks/renew-old-tags.js';
+import scrapeOldScrapedTag from './checks/scrape-old-scraped-tag.js';
+import scrapeUnscrapedTag from './checks/scrape-unscraped-tag.js';
+import rollUnder from './roll-under.js';
 
-// await scrapeOldScrapedTag();
-// await scrapeUnscrapedTag();
+if (rollUnder(1 / 500)) {
+  await scrapeOldScrapedTag();
+}
+if (rollUnder(1 / 1000)) {
+  await scrapeUnscrapedTag();
+}
 await checkListlessTag();
 await renewOldStats();
 await renewOldTags();
