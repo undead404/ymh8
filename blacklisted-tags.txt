@@ -10164,6 +10164,7 @@ anniversary anthems
 anniversary celebration
 anniversary edition
 anniversary piano concerto in c minor
+annjuta
 anno
 anno 2070
 anno domini
@@ -61551,7 +61552,6 @@ frisby
 frisch
 frischluft
 frisell
-frisian black metal
 frisk frugt
 frisky
 friso richter
@@ -77655,6 +77655,7 @@ incorrect artist information
 incorrect name
 incorrect spelling
 incorrect tag for blurryface
+incorrect tag for born this way
 incorrect tag for ddttlotfk
 incorrect tag for holding on to you
 incorrect tag for joanne
@@ -78707,6 +78708,7 @@ innovador
 innovation
 innovation digital of america
 innovativ
+innovative
 innovative blues
 innovative electronic
 innovators
@@ -90923,6 +90925,7 @@ koriki
 korinna
 korku
 kormac
+korn
 kornet
 kornflower
 korngold
@@ -138869,6 +138872,7 @@ richtig gute musik
 rick and morty
 rick astley best
 rick balentine
+rick barton
 rick bridges
 rick carey
 rick couture

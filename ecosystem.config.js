@@ -1,14 +1,14 @@
 module.exports = {
   apps: [
     // 1. THE ISSUER
-    // {
-    //   name: 'ymh-issuer',
-    //   script: './apps/issuer/dist/index.js',
-    //   instances: 1,
-    //   autorestart: true,
-    //   env: { NODE_ENV: 'production' },
-    //   restart_delay: 1000,
-    // },
+    {
+      name: 'ymh-issuer',
+      script: './apps/issuer/dist/index.js',
+      instances: 1,
+      autorestart: true,
+      env: { NODE_ENV: 'production' },
+      restart_delay: 5000,
+    },
 
     // 2. THE WORKER (Limited)
     {

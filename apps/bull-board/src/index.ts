@@ -1,33 +1,16 @@
 import { createBullBoard } from '@bull-board/api';
 import { BullMQAdapter } from '@bull-board/api/bullMQAdapter';
 import { ExpressAdapter } from '@bull-board/express';
-import { Queue as QueueMQ, type RedisOptions } from 'bullmq';
 import express from 'express';
 import * as v from 'valibot';
 
-import { QUEUES } from '@ymh8/queues';
-
-// const sleep = (t: number) =>
-//   new Promise((resolve) => setTimeout(resolve, t * 1000));
-
-const redisOptions: RedisOptions = {
-  port: 6379,
-  host: 'localhost',
-  password: '',
-};
+import { discogsQueue, internalQueue, lastfmQueue } from '@ymh8/queues';
 
 const optionsSchema = v.object({
   delay: v.optional(v.number()),
 });
 
-const createQueueMQ = (name: string) =>
-  new QueueMQ(name, { connection: redisOptions });
-
 const run = () => {
-  const discogsBullMq = createQueueMQ(QUEUES.DISCOGS);
-  const lastfmBullMq = createQueueMQ(QUEUES.LASTFM);
-  const internalBullMq = createQueueMQ(QUEUES.INTERNAL);
-
   const app = express();
 
   const serverAdapter = new ExpressAdapter();
@@ -35,9 +18,9 @@ const run = () => {
 
   createBullBoard({
     queues: [
-      new BullMQAdapter(discogsBullMq),
-      new BullMQAdapter(lastfmBullMq),
-      new BullMQAdapter(internalBullMq),
+      new BullMQAdapter(discogsQueue),
+      new BullMQAdapter(lastfmQueue),
+      new BullMQAdapter(internalQueue),
     ],
     serverAdapter,
   });
@@ -52,7 +35,7 @@ const run = () => {
       options.delay = +options.delay * 1000; // delay must be a number
     }
 
-    await lastfmBullMq.add('Add', { title: request.query.title }, options);
+    await lastfmQueue.add('Add', request.query, options);
 
     response.json({
       ok: true,

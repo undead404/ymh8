@@ -13,7 +13,7 @@ import postToTelegram from '../telegram.js';
 import escapeForTelegram from '../utils/escape-for-telegram.js';
 
 const coverSchema = v.object({
-  cover: v.pipe(v.string(), v.url()),
+  cover: v.optional(v.pipe(v.string(), v.url())),
 });
 
 export default async function generateTagList(
@@ -170,6 +170,7 @@ export default async function generateTagList(
         AND "TagListItem"."albumName" = "Album"."name"
         WHERE "TagListItem"."tagName" = ${bareTag.name}
         AND "Album"."cover" IS NOT NULL
+        AND "Album"."cover" <> ''
         ORDER BY
             "TagListItem"."updatedAt" DESC,
             "TagListItem"."place" ASC

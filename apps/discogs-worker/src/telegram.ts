@@ -11,7 +11,11 @@ export default async function postToTelegram(
   if (imageUrl) {
     await bot.sendPhoto(environment.TELEGRAM_CHAT_ID, imageUrl, {
       caption: message.slice(0, 1024),
+      parse_mode: 'MarkdownV2',
     });
+    return;
   }
-  await bot.sendMessage(environment.TELEGRAM_CHAT_ID, message.slice(0, 4096));
+  await bot.sendMessage(environment.TELEGRAM_CHAT_ID, message.slice(0, 4096), {
+    parse_mode: 'MarkdownV2',
+  });
 }

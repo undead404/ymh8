@@ -21,7 +21,12 @@ const worker = new Worker(
 
 worker.on('failed', (job) => {
   const message = escapeForTelegram(
-    'Discogs worker - ' + job?.stacktrace.join('\n'),
+    'Internal worker - ' +
+      job?.name +
+      ': ' +
+      job?.stacktrace?.at(0) +
+      '\n' +
+      JSON.stringify(job?.data, null, 2),
   );
   console.error(job?.stacktrace);
   postToTelegram(message).catch((error) => console.error(error));
