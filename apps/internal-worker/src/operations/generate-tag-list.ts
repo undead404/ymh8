@@ -23,7 +23,8 @@ import kysely from '../database2/index.js';
 import type { TagListItemUpdate } from '../database2/insert-new-list-items.js';
 import insertNewListItems from '../database2/insert-new-list-items.js';
 import saveEmptyResult from '../database2/save-empty-result.js';
-import saveTagListSuccess from '../database2/save-no-list-change.js';
+import saveNoListChange from '../database2/save-no-list-change.js';
+import saveTagListSuccess from '../database2/save-tag-list-success.js';
 import updateTagListItem from '../database2/update-tag-list-item.js';
 
 export default async function generateTagList(
@@ -185,7 +186,7 @@ export default async function generateTagList(
       }
     }
     if (changes.length === 0) {
-      await saveEmptyResult(trx, bareTag.name);
+      await saveNoListChange(trx, bareTag.name);
       return;
     }
     await saveTagListSuccess(trx, bareTag.name);

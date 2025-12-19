@@ -1,7 +1,7 @@
 import type { Transaction } from 'kysely';
 import type { DB } from 'kysely-codegen';
 
-export default function saveNoListChange(
+export default function saveTagListSuccess(
   transaction: Transaction<DB>,
   tagName: string,
 ) {
