@@ -1,27 +1,26 @@
-import { writeFile } from 'node:fs/promises';
+// import { writeFile } from 'node:fs/promises';
 
 import { type BareAlbum } from '@ymh8/schemata';
-import sleep from '../utils/sleep.js';
+import { sleep } from '@ymh8/utils';
 
 import getRelease from './get-release.js';
 import searchInDiscogs from './search-in-discogs.js';
 
-const BANNED_FORMATS = new Set(['DVD', 'Promo']);
+const BANNED_FORMATS = new Set(['DVD', 'Promo', 'Unofficial Release']);
 
 export default async function searchRelease(album: BareAlbum) {
   const response = await searchInDiscogs(album);
 
-  await writeFile('discogs-results.json', JSON.stringify(response, null, 2));
-  const matches = response.results
-    .filter(
-      ({ format }) =>
-        !format.some((formatValue) => BANNED_FORMATS.has(formatValue)),
-    )
-    .filter((result) => {
-      const requestedTitleLowercased =
-        `${album.artist} - ${album.name}`.toLowerCase();
-      return requestedTitleLowercased === result.title.toLowerCase();
-    });
+  // await writeFile('discogs-results.json', JSON.stringify(response, null, 2));
+  const matches = response.results.filter(
+    ({ format }) =>
+      !format.some((formatValue) => BANNED_FORMATS.has(formatValue)),
+  );
+  // .filter((result) => {
+  //   const requestedTitleLowercased =
+  //     `${album.artist} - ${album.name}`.toLowerCase();
+  //   return requestedTitleLowercased === result.title.toLowerCase();
+  // });
 
   let minimalYear = 9999;
   for (const detailedResult of matches) {
@@ -31,6 +30,8 @@ export default async function searchRelease(album: BareAlbum) {
   }
   const minimalYearMatches = matches.filter(({ year }) => year === minimalYear);
   const detailedResults: Awaited<ReturnType<typeof getRelease>>[] = [];
+
+  // console.log(minimalYearMatches.map(({ id }) => id));
 
   for (const match of minimalYearMatches) {
     await sleep(1100);

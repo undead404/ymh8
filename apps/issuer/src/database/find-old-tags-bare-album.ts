@@ -7,7 +7,7 @@ export async function countOldTagsAlbums(): Promise<number> {
   const sql = `
     SELECT COUNT(*) AS "count"
     FROM "Album"
-    WHERE "hidden" <> TRUE
+    WHERE "hidden" IS NOT TRUE
     AND "tagsUpdatedAt" < (NOW() - interval '1 month')
   `;
   const countBearer = await database.queryOne(countSchema, sql);
@@ -20,7 +20,7 @@ export default function findOldTagsBareAlbum(): Promise<null | BareAlbum> {
   const sql = `
     SELECT "artist", "name"
     FROM "Album"
-    WHERE "hidden" <> TRUE
+    WHERE "hidden" IS NOT TRUE
     AND "tagsUpdatedAt" < (NOW() - interval '1 month')
     ORDER BY "tagsUpdatedAt" ASC
     LIMIT 1

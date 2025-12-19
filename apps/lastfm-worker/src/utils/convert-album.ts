@@ -8,8 +8,8 @@ export default function convertAlbum(
 ) {
   return {
     artist: lastfmAlbum.artist.name,
-    cover: lastfmAlbum.image.at(-1)?.['#text'],
+    cover: lastfmAlbum.image.at(-1)?.['#text'] || undefined,
     name: lastfmAlbum.name,
-    thumbnail: lastfmAlbum.image.at(0)?.['#text'],
+    thumbnail: lastfmAlbum.image.at(0)?.['#text'] || undefined,
   };
 }

@@ -9,10 +9,7 @@ export async function countListlessTags(): Promise<number> {
     FROM "Tag"
     WHERE "albumsScrapedAt" IS NOT NULL
     AND "listCheckedAt" IS NOT NULL
-    AND (
-        "listCheckedAt" IS NULL
-        OR "listCheckedAt" < (NOW() - interval '1 month')
-    )
+    AND "listCheckedAt" < (NOW() - interval '1 month')
     AND "listUpdatedAt" IS NULL
   `;
   const countBearer = await database.queryOne(countSchema, sql);
@@ -24,18 +21,18 @@ export async function countListlessTags(): Promise<number> {
 
 export default function pickListlessTag(): Promise<null | BareTag> {
   const sql = `
-    SELECT "name"
+    SELECT "Tag"."name", COUNT(*) AS "albumCount"
     FROM "Tag"
-    WHERE "albumsScrapedAt" IS NOT NULL
-    AND "listCheckedAt" IS NOT NULL
-    AND (
-        "listCheckedAt" IS NULL
-        OR "listCheckedAt" < (NOW() - interval '1 month')
-    )
-    AND "listUpdatedAt" IS NULL
-    ORDER BY
-		"listCheckedAt" IS NULL DESC,
-		"listCheckedAt"
+    INNER JOIN "AlbumTag"
+    ON "Tag"."name" = "AlbumTag"."tagName"
+    INNER JOIN "Album"
+    ON "AlbumTag"."albumArtist" = "Album"."artist"
+    AND "AlbumTag"."albumName" = "Album"."name"
+    WHERE "Album"."hidden" IS NOT TRUE
+    AND "Tag"."listUpdatedAt" IS NULL
+    AND "Tag"."albumsScrapedAt" IS NOT NULL
+    GROUP BY "Tag"."name"
+    ORDER BY "albumCount" DESC
     LIMIT 1
   `;
   return database.queryOne(bareTagSchema, sql);

@@ -21,7 +21,9 @@ export default async function queryLastfm<T1, T2 extends { method: string }>(
       ...parameters,
     }).toString();
   console.log(url);
-  const response = await fetch(url);
+  const response = await fetch(url, {
+    signal: AbortSignal.timeout(60_000),
+  });
   const data = (await response.json()) as unknown;
   // console.log(data);
   try {

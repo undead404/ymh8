@@ -74,6 +74,7 @@ const BLACKLISTED_TAG_STARTS = [
   'perfect',
   'playlist',
   'post-post-',
+  'produced by ',
   'purchased',
   'radio ',
   'records ',
@@ -180,9 +181,10 @@ const BLACKLISTED_TAG_ENDS = [
   'scumcore',
   'sexy sounding',
   'shit',
+  ' label',
 ];
 
-const BLACKLISTED_SUBSTRINGS = [' - ', '  ', 'lastfm'];
+const BLACKLISTED_SUBSTRINGS = [' - ', '  ', 'lastfm', 'playlist'];
 
 const MIN_TAG_NAME_LENGTH = 2;
 const MAX_TAG_NAME_LENGTH = 40;

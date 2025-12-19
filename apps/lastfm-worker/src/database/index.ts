@@ -7,6 +7,6 @@ const database = new Database({
   user: environment.DB_USER,
 });
 
-await database.init();
+// await database.init();
 
 export default database;

@@ -4,7 +4,13 @@ import { ExpressAdapter } from '@bull-board/express';
 import express from 'express';
 import * as v from 'valibot';
 
-import { discogsQueue, internalQueue, lastfmQueue } from '@ymh8/queues';
+import {
+  discogsQueue,
+  internalQueue,
+  lastfmQueue,
+  llmQueue,
+  telegramQueue,
+} from '@ymh8/queues';
 
 const optionsSchema = v.object({
   delay: v.optional(v.number()),
@@ -19,8 +25,10 @@ const run = () => {
   createBullBoard({
     queues: [
       new BullMQAdapter(discogsQueue),
-      new BullMQAdapter(lastfmQueue),
       new BullMQAdapter(internalQueue),
+      new BullMQAdapter(lastfmQueue),
+      new BullMQAdapter(llmQueue),
+      new BullMQAdapter(telegramQueue),
     ],
     serverAdapter,
   });

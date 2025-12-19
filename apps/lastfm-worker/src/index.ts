@@ -1,11 +1,11 @@
 import { Worker } from 'bullmq';
 import { Redis as IORedis } from 'ioredis';
 
-import { QUEUES } from '@ymh8/queues';
+import { enqueue, QUEUES, telegramQueue } from '@ymh8/queues';
+import { escapeForTelegram } from '@ymh8/utils';
 
-import escapeForTelegram from './utils/escape-for-telegram.js';
+import database from './database/index.js';
 import processJob from './process-job.js';
-import postToTelegram from './telegram.js';
 
 const connection = new IORedis({ maxRetriesPerRequest: null });
 
@@ -35,5 +35,34 @@ worker.on('failed', (job) => {
       JSON.stringify(job?.data, null, 2),
   );
   console.error(job?.stacktrace);
-  postToTelegram(message).catch((error) => console.error(error));
+  enqueue(
+    telegramQueue,
+    'post',
+    'error-' + job?.id,
+    { text: message },
+    job?.priority,
+  ).catch((error) => {
+    console.error(error);
+  });
+});
+
+const gracefulShutdown = async (signal: string) => {
+  console.log(`Received ${signal}, closing worker...`);
+
+  // 1. Stop accepting new jobs and wait for current ones to finish
+  await worker.close();
+
+  // 2. Close the database pool (This kills the TCP connections)
+  await database.close();
+
+  console.log('Shutdown complete.');
+  process.exit(0);
+};
+
+// Listen for termination signals
+process.on('SIGINT', () => {
+  void gracefulShutdown('SIGINT');
+});
+process.on('SIGTERM', () => {
+  void gracefulShutdown('SIGTERM');
 });

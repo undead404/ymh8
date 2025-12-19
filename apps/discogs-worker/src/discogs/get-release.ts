@@ -17,6 +17,7 @@ const releaseResponseSchema = v.object({
 });
 
 export default async function getRelease(releaseId: number) {
+  console.log(`getRelease`, releaseId);
   const details = await queryDiscogs(
     `/releases/${releaseId}`,
     releaseResponseSchema,

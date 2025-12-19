@@ -1,11 +1,13 @@
+import { v4 as uuidv4 } from 'uuid';
 import * as v from 'valibot';
 
-import { bareArtistSchema } from '@ymh8/schemata';
-import { filterNewAlbums } from '../database/filter-new-albums.js';
+import { enqueue, lastfmQueue, telegramQueue } from '@ymh8/queues';
+import { bareArtistSchema, type TelegramPost } from '@ymh8/schemata';
+import { escapeForTelegram, isAlbumNegligible } from '@ymh8/utils';
+import { filterNewAlbums } from '../database2/filter-new-albums.js';
+import kysely from '../database2/index.js';
+import insertNewAlbums from '../database2/insert-new-albums.js';
 import getArtistTopAlbums from '../lastfm/get-artist-top-albums.js';
-import saveNewAlbums from '../save-new-albums.js';
-import postToTelegram from '../telegram.js';
-import escapeForTelegram from '../utils/escape-for-telegram.js';
 
 const scrapeArtistPayload = v.object({
   ...bareArtistSchema.entries,
@@ -16,12 +18,54 @@ export default async function scrapeArtist(jobData: unknown) {
   const { page, ...bareArtist } = v.parse(scrapeArtistPayload, jobData);
   const topAlbums = await getArtistTopAlbums(bareArtist, page);
 
-  const newAlbums = await filterNewAlbums(topAlbums);
+  return kysely.transaction().execute(async (trx) => {
+    const newAlbums = await filterNewAlbums(trx, topAlbums);
 
-  await saveNewAlbums(newAlbums);
+    if (newAlbums.length > 0) {
+      // await saveNewAlbums(newAlbums);
 
-  await postToTelegram(
-    `Зібрано ${newAlbums.length} нових альбомів для виконавця ${escapeForTelegram(bareArtist.name)}`,
-  );
-  return newAlbums;
+      const albumsToInsert = newAlbums.map((album) => ({
+        ...album,
+        hidden: isAlbumNegligible(album),
+      }));
+      await insertNewAlbums(trx, albumsToInsert);
+
+      for (const newAlbum of albumsToInsert) {
+        if (!newAlbum.hidden) {
+          await enqueue(
+            lastfmQueue,
+            'album:update:stats',
+            newAlbum.artist + ' - ' + newAlbum.name,
+            {
+              artist: newAlbum.artist,
+              name: newAlbum.name,
+            },
+            1,
+          );
+          await enqueue(
+            lastfmQueue,
+            'album:update:tags',
+            newAlbum.artist + ' - ' + newAlbum.name,
+            {
+              artist: newAlbum.artist,
+              name: newAlbum.name,
+            },
+            1,
+          );
+        }
+      }
+
+      await enqueue(
+        telegramQueue,
+        'post',
+        `scraped-artist-${bareArtist.name}-${page || 1}-${uuidv4()}`,
+        {
+          imageUrl: newAlbums.findLast(({ cover }) => cover)?.cover,
+          text: `Зібрано ${newAlbums.length} нових альбомів для виконавця ${escapeForTelegram(bareArtist.name)}`,
+        } satisfies TelegramPost,
+        newAlbums.length,
+      );
+      return newAlbums;
+    }
+  });
 }

@@ -7,7 +7,7 @@ module.exports = {
       instances: 1,
       autorestart: true,
       env: { NODE_ENV: 'production' },
-      restart_delay: 5000,
+      restart_delay: 1000,
     },
 
     // 2. THE WORKER (Limited)
@@ -27,6 +27,18 @@ module.exports = {
       autorestart: true,
       name: 'ymh-internal-worker',
       script: './apps/internal-worker/dist/index.js',
+      instances: 1,
+    },
+    {
+      autorestart: true,
+      name: 'ymh-telegram-worker',
+      script: './apps/telegram-worker/dist/index.js',
+      instances: 1,
+    },
+    {
+      autorestart: true,
+      name: 'ymh-llm-worker',
+      script: './apps/llm-worker/dist/index.js',
       instances: 1,
     },
     {

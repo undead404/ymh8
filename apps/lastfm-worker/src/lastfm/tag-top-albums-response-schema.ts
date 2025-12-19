@@ -6,7 +6,7 @@ export const tagTopAlbumsResponseSchema = v.object({
   albums: v.object({
     '@attr': v.object({
       page: v.pipe(v.string(), v.toNumber()),
-      totalPages: v.pipe(v.string(), v.toNumber()),
+      totalPages: v.pipe(v.string(), v.toNumber(), v.minValue(0)),
     }),
     album: v.array(
       v.object({
@@ -15,7 +15,7 @@ export const tagTopAlbumsResponseSchema = v.object({
         }),
         image: v.array(
           v.object({
-            '#text': v.pipe(v.string(), v.url()),
+            '#text': v.string(),
           }),
         ),
         mbid: v.optional(nonEmptyString),

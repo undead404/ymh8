@@ -1,6 +1,6 @@
 import { type BareTag } from '@ymh8/schemata';
+import { sleep } from '@ymh8/utils';
 import convertAlbum from '../utils/convert-album.js';
-import sleep from '../utils/sleep.js';
 
 import queryLastfm from './query.js';
 import { tagTopAlbumsResponseSchema } from './tag-top-albums-response-schema.js';

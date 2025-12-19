@@ -1,80 +1,365 @@
 {
   "results": [
     {
-      "id": 930612,
-      "title": "Radical Face - Ghost",
-      "year": 2007,
+      "id": 5808720,
+      "title": "Linkin Park - The Hunting Party",
+      "year": 2014,
+      "format": ["CD", "Album", "Deluxe Edition"]
+    },
+    {
+      "id": 5949707,
+      "title": "Linkin Park - The Hunting Party",
+      "year": 2014,
+      "format": ["Box Set", "Deluxe Edition", "CD", "Album"]
+    },
+    {
+      "id": 20255698,
+      "title": "Linkin Park - The Hunting Party",
+      "format": ["File", "MP3", "Album"]
+    },
+    {
+      "id": 7368624,
+      "title": "Linkin Park - The Hunting Party",
+      "year": 2014,
+      "format": ["Box Set", "Deluxe Edition", "CD", "Album"]
+    },
+    {
+      "id": 33907512,
+      "title": "Linkin Park - The Hunting Party",
+      "year": 2014,
       "format": ["CD", "Album"]
     },
     {
-      "id": 8823009,
-      "title": "Radical Face - Ghost",
-      "year": 2007,
-      "format": ["Vinyl", "LP", "Album"]
-    },
-    {
-      "id": 6446455,
-      "title": "Radical Face - Ghost",
+      "id": 5824869,
+      "title": "Linkin Park - The Hunting Party",
       "year": 2014,
-      "format": ["Vinyl", "LP", "Album", "Limited Edition", "Repress"]
-    },
-    {
-      "id": 1390662,
-      "title": "Radical Face - Ghost",
-      "year": 2007,
-      "format": ["CD", "Album", "Promo"]
-    },
-    {
-      "id": 941588,
-      "title": "Radical Face - Ghost",
-      "year": 2007,
-      "format": ["Vinyl", "LP", "Album"]
-    },
-    {
-      "id": 8202450,
-      "title": "Radical Face - Ghost",
-      "year": 2014,
-      "format": ["Vinyl", "LP", "Album", "Limited Edition", "Repress"]
-    },
-    {
-      "id": 3941458,
-      "title": "Radical Face - Ghost",
-      "year": 2012,
-      "format": ["Vinyl", "LP", "Album", "Repress"]
-    },
-    {
-      "id": 5590163,
-      "title": "Radical Face - Ghost",
-      "year": 2014,
-      "format": ["Vinyl", "LP", "Album", "Repress", "Limited Edition"]
-    },
-    {
-      "id": 14343547,
-      "title": "Radical Face - Ghost (Anniversary Edition)",
-      "year": 2019,
-      "format": [
-        "Vinyl",
-        "LP",
-        "Deluxe Edition",
-        "Limited Edition",
-        "Reissue",
-        "Remastered",
-        "Special Edition",
-        "Stereo"
-      ]
-    },
-    {
-      "id": 23720441,
-      "title": "Radical Face - Ghost (Anniversary Edition)",
-      "year": 2019,
       "format": [
         "CD",
         "Album",
-        "Deluxe Edition",
-        "Reissue",
-        "Remastered",
-        "Stereo"
+        "DVD",
+        "DVD-Video",
+        "NTSC",
+        "All Media",
+        "Limited Edition"
       ]
+    },
+    {
+      "id": 25185340,
+      "title": "Linkin Park - The Hunting Party",
+      "year": 2014,
+      "format": ["CD", "Album", "Promo", "DVD", "DVD-Video", "NTSC", "Promo"]
+    },
+    {
+      "id": 34324126,
+      "title": "Linkin Park - The Hunting Party",
+      "year": 2014,
+      "format": ["File", "FLAC", "Album"]
+    },
+    {
+      "id": 5799471,
+      "title": "Linkin Park - The Hunting Party",
+      "year": 2014,
+      "format": ["CD", "Album", "DVD", "DVD-Video", "NTSC"]
+    },
+    {
+      "id": 6124010,
+      "title": "Linkin Park - The Hunting Party",
+      "year": 2014,
+      "format": ["CD", "Album"]
+    },
+    {
+      "id": 6076538,
+      "title": "Linkin Park - The Hunting Party",
+      "year": 2014,
+      "format": ["CD", "Album"]
+    },
+    {
+      "id": 14770879,
+      "title": "Linkin Park - The Hunting Party",
+      "year": 2014,
+      "format": ["CD", "Album"]
+    },
+    {
+      "id": 5783266,
+      "title": "Linkin Park - The Hunting Party",
+      "year": 2014,
+      "format": ["CDr", "Album", "Promo", "Unofficial Release"]
+    },
+    {
+      "id": 13185959,
+      "title": "Linkin Park - The Hunting Party",
+      "year": 2014,
+      "format": [
+        "Vinyl",
+        "LP",
+        "Vinyl",
+        "LP",
+        "Single Sided",
+        "Etched",
+        "All Media",
+        "Album"
+      ]
+    },
+    {
+      "id": 5815048,
+      "title": "Linkin Park - The Hunting Party",
+      "year": 2014,
+      "format": ["CD", "Album", "DVD", "DVD-Video", "NTSC"]
+    },
+    {
+      "id": 7974561,
+      "title": "Linkin Park - The Hunting Party",
+      "year": 2014,
+      "format": ["CD", "Album", "Club Edition"]
+    },
+    {
+      "id": 7911709,
+      "title": "Linkin Park - The Hunting Party",
+      "year": 2014,
+      "format": ["CDr", "Album", "Promo"]
+    },
+    {
+      "id": 33981069,
+      "title": "Linkin Park - The Hunting Party",
+      "year": 2014,
+      "format": ["CD", "Album"]
+    },
+    {
+      "id": 35909317,
+      "title": "Linkin Park - The Hunting Party",
+      "year": 2014,
+      "format": ["CD", "Album"]
+    },
+    {
+      "id": 15498196,
+      "title": "Linkin Park - The Hunting Party",
+      "format": ["CD", "Album"]
+    },
+    {
+      "id": 16570116,
+      "title": "Linkin Park - The Hunting Party",
+      "year": 2014,
+      "format": ["CD", "Album", "DVD"]
+    },
+    {
+      "id": 11844224,
+      "title": "Linkin Park - The Hunting Party",
+      "year": 2014,
+      "format": ["File", "MP3", "Album"]
+    },
+    {
+      "id": 31335235,
+      "title": "Linkin Park - The Hunting Party",
+      "year": 2024,
+      "format": [
+        "Vinyl",
+        "LP",
+        "Vinyl",
+        "LP",
+        "Single Sided",
+        "Etched",
+        "All Media",
+        "Album",
+        "Limited Edition",
+        "Reissue"
+      ]
+    },
+    {
+      "id": 9384609,
+      "title": "Linkin Park - The Hunting Party",
+      "year": 2014,
+      "format": ["CD", "Album", "Unofficial Release"]
+    },
+    {
+      "id": 8175319,
+      "title": "Linkin Park - The Hunting Party",
+      "year": 2014,
+      "format": ["CD", "Album"]
+    },
+    {
+      "id": 22003432,
+      "title": "Linkin Park - The Hunting Party",
+      "year": 2014,
+      "format": ["CD", "Album", "DVD", "DVD-Video", "NTSC"]
+    },
+    {
+      "id": 6204350,
+      "title": "Linkin Park - The Hunting Party",
+      "year": 2014,
+      "format": [
+        "Vinyl",
+        "LP",
+        "Vinyl",
+        "LP",
+        "Single Sided",
+        "Etched",
+        "All Media",
+        "Album"
+      ]
+    },
+    {
+      "id": 10719617,
+      "title": "Linkin Park - The Hunting Party",
+      "year": 2014,
+      "format": ["CD", "Album"]
+    },
+    {
+      "id": 7184402,
+      "title": "Linkin Park - The Hunting Party",
+      "year": 2014,
+      "format": ["CD", "Album"]
+    },
+    {
+      "id": 5769095,
+      "title": "Linkin Park - The Hunting Party",
+      "year": 2014,
+      "format": ["CD", "Album"]
+    },
+    {
+      "id": 5793012,
+      "title": "Linkin Park - The Hunting Party",
+      "year": 2014,
+      "format": ["CD", "Album", "DVD"]
+    },
+    {
+      "id": 7490146,
+      "title": "Linkin Park - The Hunting Party",
+      "year": 2014,
+      "format": ["CD", "Album"]
+    },
+    {
+      "id": 9931291,
+      "title": "Linkin Park - The Hunting Party",
+      "year": 2014,
+      "format": [
+        "CD",
+        "Album",
+        "DVD",
+        "DVD-Video",
+        "NTSC",
+        "All Media",
+        "Deluxe Edition"
+      ]
+    },
+    {
+      "id": 28534789,
+      "title": "Linkin Park - The Hunting Party",
+      "format": ["CD", "Album", "Repress"]
+    },
+    {
+      "id": 6525771,
+      "title": "Linkin Park - The Hunting Party",
+      "year": 2014,
+      "format": ["CD", "Album", "Unofficial Release"]
+    },
+    {
+      "id": 5844687,
+      "title": "Linkin Park - The Hunting Party",
+      "year": 2014,
+      "format": ["CD", "Album"]
+    },
+    {
+      "id": 12971327,
+      "title": "Linkin Park - The Hunting Party",
+      "year": 2014,
+      "format": ["CD", "Album"]
+    },
+    {
+      "id": 6776305,
+      "title": "Linkin Park - The Hunting Party",
+      "year": 2014,
+      "format": ["CD", "Album", "DVD", "DVD-Video", "NTSC", "Limited Edition"]
+    },
+    {
+      "id": 11629739,
+      "title": "Linkin Park - The Hunting Party",
+      "year": 2014,
+      "format": [
+        "Vinyl",
+        "LP",
+        "Vinyl",
+        "LP",
+        "Single Sided",
+        "Etched",
+        "All Media",
+        "Album",
+        "Test Pressing"
+      ]
+    },
+    {
+      "id": 32029241,
+      "title": "Linkin Park - The Hunting Party",
+      "year": 2014,
+      "format": ["DVDr", "DVD-Video", "Promo"]
+    },
+    {
+      "id": 11127594,
+      "title": "Linkin Park - The Hunting Party",
+      "year": 2014,
+      "format": ["CD", "Album"]
+    },
+    {
+      "id": 5883920,
+      "title": "Linkin Park - The Hunting Party",
+      "year": 2014,
+      "format": ["Box Set", "Deluxe Edition", "CD", "Album"]
+    },
+    {
+      "id": 32297130,
+      "title": "Linkin Park - The Hunting Party",
+      "year": 2014,
+      "format": ["File", "FLAC", "Album"]
+    },
+    {
+      "id": 5896579,
+      "title": "Linkin Park - The Hunting Party",
+      "year": 2014,
+      "format": ["CD", "Album"]
+    },
+    {
+      "id": 17764573,
+      "title": "Linkin Park - The Hunting Party",
+      "format": ["CD", "Album", "Reissue"]
+    },
+    {
+      "id": 5898462,
+      "title": "Linkin Park - The Hunting Party",
+      "year": 2014,
+      "format": ["CD", "Album"]
+    },
+    {
+      "id": 6650161,
+      "title": "Linkin Park - The Hunting Party",
+      "year": 2014,
+      "format": ["File", "MP3", "Album"]
+    },
+    {
+      "id": 5800799,
+      "title": "Linkin Park - The Hunting Party",
+      "year": 2014,
+      "format": ["CD", "Album"]
+    },
+    {
+      "id": 19807291,
+      "title": "Linkin Park - The Hunting Party",
+      "year": 2021,
+      "format": [
+        "Vinyl",
+        "LP",
+        "Vinyl",
+        "LP",
+        "Single Sided",
+        "Etched",
+        "All Media",
+        "Album",
+        "Repress"
+      ]
+    },
+    {
+      "id": 5805082,
+      "title": "Linkin Park - The Hunting Party",
+      "year": 2014,
+      "format": ["CD", "Album", "DVD", "DVD-Video", "NTSC", "Limited Edition"]
     }
   ]
 }

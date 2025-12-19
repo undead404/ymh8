@@ -17,12 +17,14 @@ const searchResponseSchema = v.object({
 });
 
 export default async function searchInDiscogs(album: BareAlbum) {
+  console.log(`searchInDiscogs`, { artist: album.artist, name: album.name });
   const response = await queryDiscogs(
     '/database/search',
     searchResponseSchema,
     {
-      artist: album.artist,
-      release_title: album.name,
+      // artist: album.artist,
+      q: `${album.artist} - ${album.name}`,
+      // release_title: album.name,
       type: SearchTypeEnum.RELEASE,
     },
   );

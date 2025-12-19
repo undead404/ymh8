@@ -18,4 +18,5 @@ export default function escapeForTelegram(text: string) {
     .replaceAll('}', String.raw`\}`)
     .replaceAll('.', String.raw`\.`)
     .replaceAll('!', String.raw`\!`);
+  // .slice(0, 1023);
 }

@@ -4,11 +4,14 @@
     { "path": "packages/database" },
     { "path": "packages/queues" },
     { "path": "packages/schemata" },
+    { "path": "packages/utils" },
     { "path": "apps/bull-board" },
     { "path": "apps/issuer" },
     { "path": "apps/lastfm-worker" },
     { "path": "apps/internal-worker" },
-    { "path": "apps/discogs-worker" }
+    { "path": "apps/discogs-worker" },
+    { "path": "apps/telegram-worker" },
+    { "path": "apps/llm-worker" }
   ],
   "compilerOptions": {
     "baseUrl": ".",

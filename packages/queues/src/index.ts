@@ -41,31 +41,64 @@ export const internalQueue = new Queue(QUEUES.INTERNAL, {
       type: 'exponential',
       delay: 5000, // Start with 5 seconds
     },
+    removeOnComplete: 100, // Good practice to keep Redis clean
+    removeOnFail: 10, // Keep failed jobs for debugging
+  },
+});
+
+export const telegramQueue = new Queue(QUEUES.TELEGRAM, {
+  connection,
+  defaultJobOptions: {
+    attempts: 5,
+    backoff: {
+      type: 'exponential',
+      delay: 30_000,
+    },
     removeOnComplete: 1000, // Good practice to keep Redis clean
     removeOnFail: 5000, // Keep failed jobs for debugging
   },
 });
 
-export default function generateJobName(
-  operationName: string,
-  identity: string,
-) {
+export const llmQueue = new Queue(QUEUES.LLM, {
+  connection,
+  defaultJobOptions: {
+    attempts: 5,
+    backoff: {
+      type: 'exponential',
+      delay: 60_000,
+    },
+    removeOnComplete: 100, // Good practice to keep Redis clean
+    removeOnFail: 500, // Keep failed jobs for debugging
+  },
+});
+
+function generateJobId(operationName: string, identity: string) {
   const hash = crypto.createHash('md5').update(identity).digest('hex');
   return `${operationName}:${hash}`;
 }
+
+const QUEUE_SIZE_LIMIT = 1_000_000;
 
 export async function enqueue(
   queue: Queue,
   operationName: string,
   identity: string,
   data: unknown,
+  priority?: number,
 ) {
-  const jobName = generateJobName(operationName, identity);
-  await queue.add(jobName, data, {
-    jobId: jobName.replaceAll(':', '-'),
+  const jobId = generateJobId(operationName, identity);
+  const counts = await queue.getJobCounts('wait', 'delayed');
+  const currentSize = (counts.wait ?? 0) + (counts.delayed ?? 0);
+
+  if (currentSize >= QUEUE_SIZE_LIMIT) {
+    throw new Error('Queue is full, try again later.');
+  }
+  await queue.add(operationName, data, {
+    jobId: jobId.replaceAll(':', '-'),
     deduplication: {
-      id: jobName,
+      id: jobId,
     },
+    ...(priority === undefined ? {} : { priority }),
   });
 }
 

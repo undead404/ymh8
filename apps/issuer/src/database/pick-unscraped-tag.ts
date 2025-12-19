@@ -30,7 +30,7 @@ export default function pickUnscrapedTag(): Promise<null | BareTag> {
     WHERE "albumsScrapedAt" IS NULL
     AND "Album"."playcount" IS NOT NULL
     AND "Album"."listeners" IS NOT NULL
-    AND "Album"."hidden" <> TRUE
+    AND "Album"."hidden" IS NOT TRUE
     GROUP BY "Tag"."name"
     ORDER BY "weight" DESC
     LIMIT 1

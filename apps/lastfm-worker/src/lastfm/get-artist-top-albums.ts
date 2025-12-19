@@ -9,7 +9,7 @@ const tagTopAlbumsResponseSchema = v.object({
   topalbums: v.object({
     '@attr': v.object({
       page: v.pipe(v.string(), v.toNumber()),
-      totalPages: v.pipe(v.string(), v.toNumber()),
+      totalPages: v.pipe(v.string(), v.toNumber(), v.minValue(1)),
     }),
     album: v.array(
       v.object({
@@ -38,9 +38,9 @@ function convertAlbum(
 ) {
   return {
     artist: lastfmAlbum.artist.name,
-    cover: lastfmAlbum.image.at(-1)?.['#text'],
+    cover: lastfmAlbum.image.at(-1)?.['#text'] || undefined,
     name: lastfmAlbum.name,
-    thumbnail: lastfmAlbum.image.at(0)?.['#text'],
+    thumbnail: lastfmAlbum.image.at(0)?.['#text'] || undefined,
   };
 }
 
@@ -57,14 +57,22 @@ export default async function getArtistTopAlbums(
   albums.push(
     ...response.topalbums.album.map((lastfmAlbum) => convertAlbum(lastfmAlbum)),
   );
+  if (page) {
+    return albums;
+  }
+  const totalPages = response.topalbums['@attr'].totalPages;
   let currentPage = 2;
-  while (
-    response.topalbums['@attr'].page < response.topalbums['@attr'].totalPages
-  ) {
-    await enqueue(lastfmQueue, 'artist:scrape', `${name}-${currentPage}`, {
-      name,
-      page: currentPage,
-    });
+  while (currentPage < totalPages) {
+    await enqueue(
+      lastfmQueue,
+      'artist:scrape',
+      `${name}-${currentPage}`,
+      {
+        name,
+        page: currentPage,
+      },
+      50,
+    );
     currentPage += 1;
   }
   return albums;

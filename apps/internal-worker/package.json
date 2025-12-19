@@ -4,15 +4,15 @@
     "@ymh8/database": "workspace:*",
     "@ymh8/queues": "workspace:*",
     "@ymh8/schemata": "workspace:*",
+    "@ymh8/utils": "workspace:*",
     "bullmq": "~5.65.1",
     "dotenv": "~17.2.3",
     "ioredis": "~5.8.2",
-    "node-telegram-bot-api": "0.66.0",
+    "uuid": "~13.0.0",
     "valibot": "~1.2.0"
   },
   "devDependencies": {
     "@types/node": "22",
-    "@types/node-telegram-bot-api": "0.64.13",
     "tsx": "~4.21.0",
     "typescript": "~5.9.3"
   },

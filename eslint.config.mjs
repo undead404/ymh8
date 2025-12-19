@@ -92,6 +92,7 @@ export default [
           },
         },
       ],
+      'unicorn/no-process-exit': 'off',
     },
   },
   {

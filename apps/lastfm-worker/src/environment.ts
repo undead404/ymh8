@@ -10,8 +10,6 @@ const environmentSchema = v.object({
   DB_USER: nonEmptyString,
   DB_PASSWORD: nonEmptyString,
   LASTFM_API_KEY: nonEmptyString,
-  TELEGRAM_BOT_TOKEN: nonEmptyString,
-  TELEGRAM_CHAT_ID: nonEmptyString,
 });
 
 export const environment = v.parse(environmentSchema, process.env);

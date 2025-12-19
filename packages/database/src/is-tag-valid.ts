@@ -29,15 +29,12 @@ export default async function isTagValid(
               /[^\da-z]/gi,
               '',
             )}
-        AND "Album"."hidden" <> TRUE
+        AND "Album"."hidden" IS NOT TRUE
         GROUP BY "Tag"."name"
         ORDER BY "weight" DESC
     ) AS "weighted_tags"
     LIMIT 1
   `;
   const primaryTag = await database.queryOne(bareTagSchema, sql);
-  if (!primaryTag) {
-    throw new Error('Primary tag not found for ' + tag.name);
-  }
-  return primaryTag.name === tag.name;
+  return !primaryTag || primaryTag.name === tag.name;
 }

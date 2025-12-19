@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "@ymh8/schemata": "workspace:*",
+    "valibot": "~1.2.0"
+  },
+  "devDependencies": {
+    "typescript": "~5.9.3"
+  },
+  "main": "dist/index.js",
+  "name": "@ymh8/utils",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "tsc -b",
+    "dev": "tsc -b --watch"
+  }
+}

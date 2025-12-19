@@ -8,7 +8,7 @@ export async function countStatlessAlbums(): Promise<number> {
     SELECT COUNT(*) AS "count"
     FROM "Album"
     WHERE "statsUpdatedAt" IS NULL
-    AND "hidden" <> TRUE
+    AND "hidden" IS NOT TRUE
   `;
   const countBearer = await database.queryOne(countSchema, sql);
   if (!countBearer) {
@@ -21,7 +21,7 @@ export default function findStatlessAlbum(): Promise<null | BareAlbum> {
     SELECT "artist", "name"
     FROM "Album"
     WHERE "statsUpdatedAt" IS NULL
-    AND "hidden" <> TRUE
+    AND "hidden" IS NOT TRUE
     ORDER BY "registeredAt" ASC
     LIMIT 1
   `;

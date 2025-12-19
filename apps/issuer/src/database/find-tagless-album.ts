@@ -7,11 +7,8 @@ export async function countTaglessAlbums(): Promise<number> {
   const sql = `
     SELECT COUNT(*) AS "count"
     FROM "Album"
-    WHERE NOT EXISTS(
-		SELECT 1 FROM "AlbumTag"
-		WHERE "AlbumTag"."tagName" = "Album"."name"
-	)
-    AND "hidden" <> TRUE
+    WHERE "tagsUpdatedAt" IS NULL
+    AND "hidden" IS NOT TRUE
   `;
   const countBearer = await database.queryOne(countSchema, sql);
   if (!countBearer) {
@@ -22,17 +19,15 @@ export async function countTaglessAlbums(): Promise<number> {
 
 export default function findTaglessAlbum(): Promise<null | BareAlbum> {
   const sql = `
-    SELECT "artist", "name"
+    SELECT
+      "artist",
+      "name",
+      COALESCE("playcount", 0)::FLOAT / 1000.0 * COALESCE("listeners", 0) AS "weight"
     FROM "Album"
-    WHERE NOT EXISTS(
-		SELECT 1 FROM "AlbumTag"
-		WHERE "AlbumTag"."tagName" = "Album"."name"
-	)
-    AND "hidden" <> TRUE
+    WHERE "tagsUpdatedAt" IS NULL
+    AND "hidden" IS NOT TRUE
     ORDER BY
-		"tagsUpdatedAt" IS NULL DESC,
-        "tagsUpdatedAt",
-		"playcount" / 1000.0 * "listeners" DESC
+		"weight" DESC
     LIMIT 1
   `;
   return database.queryOne(bareAlbumSchema, sql);
