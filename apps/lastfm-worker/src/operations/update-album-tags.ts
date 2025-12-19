@@ -54,12 +54,13 @@ export default async function updateAlbumTags(
         tagsToRemove.map((tag) => tag.tagName),
       );
     }
-
-    await upsertTags(
-      transaction,
-      tagsToUpdate.map(({ name }) => ({ name })),
-    );
-    await upsertAlbumTags(transaction, bareAlbum, tagsToUpdate);
+    if (tagsToUpdate.length > 0) {
+      await upsertTags(
+        transaction,
+        tagsToUpdate.map(({ name }) => ({ name })),
+      );
+      await upsertAlbumTags(transaction, bareAlbum, tagsToUpdate);
+    }
 
     // for (const tag of tagsToUpdate) {
     //   await database.update(
