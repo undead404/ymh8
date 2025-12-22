@@ -11,7 +11,7 @@ export const tagTopAlbumsResponseSchema = v.object({
     album: v.array(
       v.object({
         artist: v.object({
-          name: nonEmptyString,
+          name: v.string(),
         }),
         image: v.array(
           v.object({
@@ -19,7 +19,7 @@ export const tagTopAlbumsResponseSchema = v.object({
           }),
         ),
         mbid: v.optional(nonEmptyString),
-        name: nonEmptyString,
+        name: v.string(),
       }),
     ),
   }),

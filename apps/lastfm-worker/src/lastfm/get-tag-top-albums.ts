@@ -7,6 +7,10 @@ import { tagTopAlbumsResponseSchema } from './tag-top-albums-response-schema.js'
 
 // const MAX_PAGES = 200;
 
+/**
+ *
+ * @deprecated
+ */
 export default async function getTagTopAlbums({ name }: BareTag) {
   const albums: ReturnType<typeof convertAlbum>[] = [];
   let response = await queryLastfm(tagTopAlbumsResponseSchema, {

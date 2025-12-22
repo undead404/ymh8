@@ -3,10 +3,8 @@
     "@ymh8/queues": "workspace:*",
     "@ymh8/schemata": "workspace:*",
     "@ymh8/utils": "workspace:*",
-    "bottleneck": "~2.19.5",
     "bullmq": "~5.65.1",
     "dotenv": "~17.2.3",
-    "ioredis": "~5.8.2",
     "node-telegram-bot-api": "0.66.0",
     "uuid": "~13.0.0",
     "valibot": "~1.2.0"

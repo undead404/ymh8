@@ -118,9 +118,6 @@ importers:
       dotenv:
         specifier: ~17.2.3
         version: 17.2.3
-      ioredis:
-        specifier: ~5.8.2
-        version: 5.8.2
       kysely:
         specifier: 0.28.9
         version: 0.28.9
@@ -164,9 +161,6 @@ importers:
       dotenv:
         specifier: ~17.2.3
         version: 17.2.3
-      ioredis:
-        specifier: ~5.8.2
-        version: 5.8.2
       uuid:
         specifier: ~13.0.0
         version: 13.0.0
@@ -207,9 +201,6 @@ importers:
       dotenv:
         specifier: ~17.2.3
         version: 17.2.3
-      ioredis:
-        specifier: ~5.8.2
-        version: 5.8.2
       valibot:
         specifier: ~1.2.0
         version: 1.2.0(typescript@5.9.3)
@@ -247,9 +238,9 @@ importers:
       dotenv:
         specifier: ~17.2.3
         version: 17.2.3
-      ioredis:
-        specifier: ~5.8.2
-        version: 5.8.2
+      lodash-es:
+        specifier: ~4.17.22
+        version: 4.17.22
       uuid:
         specifier: ~13.0.0
         version: 13.0.0
@@ -257,6 +248,9 @@ importers:
         specifier: ~1.2.0
         version: 1.2.0(typescript@5.9.3)
     devDependencies:
+      '@types/lodash-es':
+        specifier: ~4.17.12
+        version: 4.17.12
       '@types/node':
         specifier: '22'
         version: 22.19.1
@@ -293,9 +287,6 @@ importers:
       dotenv:
         specifier: ~17.2.3
         version: 17.2.3
-      ioredis:
-        specifier: ~5.8.2
-        version: 5.8.2
       valibot:
         specifier: ~1.2.0
         version: 1.2.0(typescript@5.9.3)
@@ -321,18 +312,12 @@ importers:
       '@ymh8/utils':
         specifier: workspace:*
         version: link:../../packages/utils
-      bottleneck:
-        specifier: ~2.19.5
-        version: 2.19.5
       bullmq:
         specifier: ~5.65.1
         version: 5.65.1
       dotenv:
         specifier: ~17.2.3
         version: 17.2.3
-      ioredis:
-        specifier: ~5.8.2
-        version: 5.8.2
       node-telegram-bot-api:
         specifier: 0.66.0
         version: 0.66.0(request@2.88.2)
@@ -380,6 +365,15 @@ importers:
 
   packages/queues:
     dependencies:
+      '@ymh8/schemata':
+        specifier: workspace:^
+        version: link:../schemata
+      '@ymh8/utils':
+        specifier: workspace:^
+        version: link:../utils
+      bottleneck:
+        specifier: ~2.19.5
+        version: 2.19.5
       bullmq:
         specifier: ~5.65.1
         version: 5.65.1
@@ -762,6 +756,12 @@ packages:
 
   '@types/json-schema@7.0.15':
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
+
+  '@types/lodash-es@4.17.12':
+    resolution: {integrity: sha512-0NgftHUcV4v34VhXm8QBSftKVXtbkBG3ViCjs6+eJ5a6y6Mi/jiFGPc1sC7QK+9BFhWrURE3EOggmWaSxL9OzQ==}
+
+  '@types/lodash@4.17.21':
+    resolution: {integrity: sha512-FOvQ0YPD5NOfPgMzJihoT+Za5pdkDJWcbpuj1DjaKZIr/gxodQjY/uWEFlTNqW2ugXHUiL8lRQgw63dzKHZdeQ==}
 
   '@types/node-telegram-bot-api@0.64.13':
     resolution: {integrity: sha512-/d3sYpZq4sDwKWAm9XsIsb8MclclJ1yPXZC7uAzZRrJIFY8yg/63oNrLf9CBTlaS/XGR1N66BwibfJQGiWVsqg==}
@@ -2049,6 +2049,9 @@ packages:
     resolution: {integrity: sha512-iPZK6eYjbxRu3uB4/WZ3EsEIMJFMqAoopl3R+zuq0UjcAm/MO6KCweDgPfP3elTztoKP3KtnVHxTn2NHBSDVUw==}
     engines: {node: '>=10'}
 
+  lodash-es@4.17.22:
+    resolution: {integrity: sha512-XEawp1t0gxSi9x01glktRZ5HDy0HXqrM0x5pXQM98EaI0NxO6jVM7omDOxsuEo5UIASAnm2bRp1Jt/e0a2XU8Q==}
+
   lodash.defaults@4.2.0:
     resolution: {integrity: sha512-qjxPLHd3r5DnsdGacqOMU6pb/avJzdh9tFX2ymgoZE27BmjXrNy/y4LoaiTeAb+O3gL8AfpJGtqfX/ae2leYYQ==}
 
@@ -3319,6 +3322,12 @@ snapshots:
   '@types/http-errors@2.0.5': {}
 
   '@types/json-schema@7.0.15': {}
+
+  '@types/lodash-es@4.17.12':
+    dependencies:
+      '@types/lodash': 4.17.21
+
+  '@types/lodash@4.17.21': {}
 
   '@types/node-telegram-bot-api@0.64.13':
     dependencies:
@@ -4766,6 +4775,8 @@ snapshots:
   locate-path@6.0.0:
     dependencies:
       p-locate: 5.0.0
+
+  lodash-es@4.17.22: {}
 
   lodash.defaults@4.2.0: {}
 

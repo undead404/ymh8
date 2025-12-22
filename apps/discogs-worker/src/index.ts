@@ -1,54 +1,10 @@
-import { Worker } from 'bullmq';
-import { Redis as IORedis } from 'ioredis';
+import { createLimitedWorker, discogsQueue } from '@ymh8/queues';
 
-import { enqueue, QUEUES, telegramQueue } from '@ymh8/queues';
-import type { TelegramPost } from '@ymh8/schemata';
-import { escapeForTelegram } from '@ymh8/utils';
-
-import database from './database/index.js';
+// import database from './database/index.js';
+import kysely from './database2/index.js';
 import processJob from './process-job.js';
 
-const connection = new IORedis({ maxRetriesPerRequest: null });
-
-console.log('hello from discogs worker');
-
-const worker = new Worker(
-  QUEUES.DISCOGS,
-  async (job) => {
-    // console.log('job', job);
-    return await processJob(job);
-  },
-  {
-    connection,
-    limiter: {
-      max: 1, // Max 1 job
-      duration: 1100, // limit frequency
-    },
-  },
-);
-
-worker.on('failed', (job) => {
-  const message = escapeForTelegram(
-    'Discogs worker - ' +
-      job?.name +
-      ': ' +
-      job?.stacktrace?.at(0) +
-      '\n' +
-      JSON.stringify(job?.data, null, 2),
-  );
-  console.error(job?.stacktrace);
-  enqueue(
-    telegramQueue,
-    'post',
-    'error-' + job?.id,
-    {
-      text: message,
-    } satisfies TelegramPost,
-    job?.priority,
-  ).catch((error) => {
-    console.error(error);
-  });
-});
+const worker = createLimitedWorker(discogsQueue.name, (job) => processJob(job));
 
 const gracefulShutdown = async (signal: string) => {
   console.log(`Received ${signal}, closing worker...`);
@@ -57,7 +13,8 @@ const gracefulShutdown = async (signal: string) => {
   await worker.close();
 
   // 2. Close the database pool (This kills the TCP connections)
-  await database.close();
+  // await database.close();
+  await kysely.destroy();
 
   console.log('Shutdown complete.');
   process.exit(0);

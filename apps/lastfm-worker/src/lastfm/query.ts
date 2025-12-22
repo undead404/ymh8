@@ -8,6 +8,18 @@ const errorResponseSchema = v.object({
   message: nonEmptyString,
 });
 
+function adjustLastfmParameters(parameters: Record<string, unknown>) {
+  const newParameters = { ...parameters };
+  for (const key of Object.keys(parameters)) {
+    let value = newParameters[key];
+    if (typeof value === 'string') {
+      value = value.replaceAll('+', '%2B');
+    }
+    newParameters[key] = value;
+  }
+  return newParameters;
+}
+
 export default async function queryLastfm<T1, T2 extends { method: string }>(
   schema: v.BaseSchema<unknown, T1, v.BaseIssue<unknown>>,
   parameters: T2,
@@ -18,7 +30,7 @@ export default async function queryLastfm<T1, T2 extends { method: string }>(
       api_key: environment.LASTFM_API_KEY,
       autocorrect: '0',
       format: 'json',
-      ...parameters,
+      ...adjustLastfmParameters(parameters),
     }).toString();
   console.log(url);
   const response = await fetch(url, {

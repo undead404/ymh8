@@ -25,7 +25,7 @@ const tagTopAlbumsResponseSchema = v.object({
           v.transform((images) => images.filter(({ '#text': url }) => url)),
         ),
         mbid: v.optional(nonEmptyString),
-        name: nonEmptyString,
+        name: v.string(),
       }),
     ),
   }),
@@ -52,10 +52,12 @@ export default async function getArtistTopAlbums(
   const response = await queryLastfm(tagTopAlbumsResponseSchema, {
     artist: name,
     method: 'artist.getTopAlbums',
-    page,
+    ...(page ? { page } : {}),
   });
   albums.push(
-    ...response.topalbums.album.map((lastfmAlbum) => convertAlbum(lastfmAlbum)),
+    ...response.topalbums.album
+      .filter((album) => album.name.length <= 1023)
+      .map((lastfmAlbum) => convertAlbum(lastfmAlbum)),
   );
   if (page) {
     return albums;
@@ -69,9 +71,9 @@ export default async function getArtistTopAlbums(
       `${name}-${currentPage}`,
       {
         name,
-        page: currentPage,
+        ...(currentPage ? { page: currentPage } : {}),
       },
-      50,
+      50 + (currentPage - 1),
     );
     currentPage += 1;
   }

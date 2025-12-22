@@ -1,8 +1,7 @@
-import crypto from 'node:crypto';
-
 import { Queue } from 'bullmq';
 import { Redis as IORedis } from 'ioredis';
 
+import generateJobId from './utils/generate-job-id.js';
 import { QUEUES } from './constants.js';
 
 const connection = new IORedis({ maxRetriesPerRequest: null });
@@ -72,11 +71,6 @@ export const llmQueue = new Queue(QUEUES.LLM, {
   },
 });
 
-function generateJobId(operationName: string, identity: string) {
-  const hash = crypto.createHash('md5').update(identity).digest('hex');
-  return `${operationName}:${hash}`;
-}
-
 const QUEUE_SIZE_LIMIT = 1_000_000;
 
 export async function enqueue(
@@ -103,3 +97,5 @@ export async function enqueue(
 }
 
 export { QUEUES } from './constants.js';
+export { default as generateJobId } from './utils/generate-job-id.js';
+export { default as createLimitedWorker } from './worker.js';

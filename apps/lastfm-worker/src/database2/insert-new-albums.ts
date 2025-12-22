@@ -18,5 +18,6 @@ export default function insertNewAlbums(
         thumbnail: album.thumbnail ?? null,
       })),
     )
+    .onConflict((oc) => oc.doNothing())
     .execute();
 }

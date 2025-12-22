@@ -36,6 +36,10 @@ async function filterNewAlbums<T extends BareAlbum>(
   return newAlbums;
 }
 
+/**
+ *
+ * @deprecated
+ */
 export default async function scrapeTag(jobData: unknown) {
   const bareTag = v.parse(bareTagSchema, jobData);
   return kysely.transaction().execute(async (trx) => {
@@ -57,6 +61,11 @@ export default async function scrapeTag(jobData: unknown) {
       await enqueue(lastfmQueue, 'artist:scrape', artist, {
         name: artist,
       } satisfies BareArtist);
+    }
+
+    if (newAlbums.length === 0) {
+      await saveAlbumScrapeSuccess(trx, bareTag.name);
+      return;
     }
 
     const albumsToInsert = newAlbums.map((album) => ({
@@ -93,9 +102,7 @@ export default async function scrapeTag(jobData: unknown) {
     // await saveNewAlbums(newAlbums);
 
     await saveAlbumScrapeSuccess(trx, bareTag.name);
-    if (newAlbums.length === 0) {
-      return;
-    }
+
     await enqueue(
       internalQueue,
       'tag:list:generate',
