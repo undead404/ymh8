@@ -3,10 +3,10 @@ import * as v from 'valibot';
 import { enqueue, telegramQueue } from '@ymh8/queues';
 import { bareTagSchema, type TelegramPost } from '@ymh8/schemata';
 import { escapeForTelegram } from '@ymh8/utils';
-import saveTagDescription from '../database/save-tag-description.js';
 import kysely from '../database2/index.js';
 import readRelatedTags from '../database2/read-related-tags.js';
 import readTagArtists from '../database2/read-tag-artists.js';
+import saveTagDescription from '../database2/save-tag-description.js';
 import anthropic from '../llm.js';
 import systemPrompt from '../system-prompt.js';
 import extractTextContent from '../utils/extract-text-content.js';
@@ -46,11 +46,6 @@ ${topArtists.map((artist) => artist.name).join('\n')}`,
 
     // console.log(tagDescription);
 
-    //   await database.update(SQL`
-    //   UPDATE "Tag"
-    //   SET "description" = ${tagDescription}
-    //   WHERE "name" = ${bareTag.name}
-    // `);
     await saveTagDescription(trx, bareTag.name, tagDescription);
 
     await enqueue(

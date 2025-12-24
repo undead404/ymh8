@@ -1,7 +1,7 @@
 import { FlowProducer } from 'bullmq';
 import * as v from 'valibot';
 
-import { deleteTag, isTagValid2 } from '@ymh8/database';
+import { deleteTag, isTagValid } from '@ymh8/database';
 import {
   enqueue,
   generateJobId,
@@ -28,7 +28,7 @@ export default function skrapeTag(jobData: unknown) {
   const { page, ...bareTag } = v.parse(scrapeTagPayload, jobData);
   return kysely.transaction().execute(async (trx) => {
     if (!page) {
-      const isTagLegit = await isTagValid2(trx, bareTag);
+      const isTagLegit = await isTagValid(trx, bareTag);
       if (!isTagLegit) {
         await deleteTag(trx, bareTag.name);
         return;
@@ -77,7 +77,7 @@ export default function skrapeTag(jobData: unknown) {
         `scraped-tag-${bareTag.name}-${page || 1}-${new Date().toISOString()}`,
         {
           imageUrl: newAlbums.findLast(({ cover }) => cover)?.cover,
-          text: `Зібрано ${newAlbums.length} нових альбомів для тега ${escapeForTelegram(bareTag.name)}`,
+          text: `🏷️ Зібрано ${newAlbums.length} нових альбомів для тега <a href="https://ymh8.pages.dev/tags/${bareTag.name.replaceAll(' ', '-')}/>${escapeForTelegram(bareTag.name)}</a>, сторінка ${page || 1}`,
         } satisfies TelegramPost,
         newAlbums.length,
       );

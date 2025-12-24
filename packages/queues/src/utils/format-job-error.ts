@@ -1,18 +1,17 @@
 import type { Job } from 'bullmq';
 
-import { escapeForTelegram } from '@ymh8/utils';
+import { escapeForTelegram } from '@ymh8/utils'; // Ensure this is the NEW HTML version
 
 export default function formatJobError(job: Job<unknown>): string {
   const jobName = job.name || 'Unknown Job';
   const jobId = job.id || 'Unknown ID';
-  // Use attemptsMade + 1 because if it failed, it's about to be the next attempt or it's done
   const attemptInfo = `${job.attemptsMade} / ${job.opts.attempts}`;
   const errorReason = job.failedReason || 'Unknown Error';
 
   // Format data for readability
   const dataString = JSON.stringify(job.data, null, 2);
 
-  // Clean up stack trace: Join array, truncate if too long
+  // Clean up stack trace
   const rawStack = Array.isArray(job.stacktrace)
     ? job.stacktrace
         .map((stacktraceItem) =>
@@ -27,28 +26,25 @@ export default function formatJobError(job: Job<unknown>): string {
         )
         .join('\n')
     : '';
+
   const cleanStack =
     rawStack.length > 800
       ? rawStack.slice(0, 800) + '... (truncated)'
       : rawStack;
 
   return `
-🚨 *JOB FAILED*
-*Job*: \`${jobName}\`
-*Attempt*: ${attemptInfo}
-*ID*: \`${jobId}\`
+🚨 <b>JOB FAILED</b>
+<b>Job</b>: <code>${escapeForTelegram(jobName)}</code>
+<b>Attempt</b>: ${attemptInfo}
+<b>ID</b>: <code>${escapeForTelegram(jobId)}</code>
 
-*Reason*:
-\`${escapeForTelegram(errorReason)}\`
+<b>Reason</b>:
+<code>${escapeForTelegram(errorReason)}</code>
 
-*Data*:
-\`\`\`json
-${dataString}
-\`\`\`
+<b>Data</b>:
+<pre><code class="language-json">${escapeForTelegram(dataString)}</code></pre>
 
-*Stacktrace*:
-\`\`\`text
-${cleanStack}
-\`\`\`
+<b>Stacktrace</b>:
+<pre>${escapeForTelegram(cleanStack)}</pre>
   `.trim();
 }

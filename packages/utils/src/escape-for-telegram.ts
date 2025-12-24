@@ -1,22 +1,8 @@
 export default function escapeForTelegram(text: string) {
+  if (!text) return '';
+
   return text
-    .replaceAll('_', String.raw`\_`)
-    .replaceAll('*', String.raw`\*`)
-    .replaceAll('[', String.raw`\[`)
-    .replaceAll(']', String.raw`\]`)
-    .replaceAll('(', String.raw`\(`)
-    .replaceAll(')', String.raw`\)`)
-    .replaceAll('~', String.raw`\~`)
-    .replaceAll('`', '\\`')
-    .replaceAll('>', String.raw`\>`)
-    .replaceAll('#', String.raw`\#`)
-    .replaceAll('+', String.raw`\+`)
-    .replaceAll('-', String.raw`\-`)
-    .replaceAll('=', String.raw`\=`)
-    .replaceAll('|', String.raw`\|`)
-    .replaceAll('{', String.raw`\{`)
-    .replaceAll('}', String.raw`\}`)
-    .replaceAll('.', String.raw`\.`)
-    .replaceAll('!', String.raw`\!`);
-  // .slice(0, 1023);
+    .replaceAll('&', '&amp;') // Must be first!
+    .replaceAll('<', '&lt;')
+    .replaceAll('>', '&gt;');
 }

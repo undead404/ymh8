@@ -2,8 +2,10 @@ import { createLimitedWorker, telegramQueue } from '@ymh8/queues';
 
 import processJob from './process-job.js';
 
-const worker = createLimitedWorker(telegramQueue.name, (job) =>
-  processJob(job),
+const worker = createLimitedWorker(
+  telegramQueue,
+  (job) => processJob(job),
+  false,
 );
 
 const gracefulShutdown = async (signal: string) => {

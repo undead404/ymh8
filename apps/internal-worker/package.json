@@ -1,11 +1,11 @@
 {
   "dependencies": {
-    "@nearform/sql": "~1.10.7",
     "@ymh8/database": "workspace:*",
     "@ymh8/queues": "workspace:*",
     "@ymh8/schemata": "workspace:*",
     "@ymh8/utils": "workspace:*",
     "bullmq": "~5.65.1",
+    "date-fns": "~4.1.0",
     "dotenv": "~17.2.3",
     "uuid": "~13.0.0",
     "valibot": "~1.2.0"

@@ -1,7 +1,6 @@
 {
   "dependencies": {
     "@anthropic-ai/sdk": "0.71.2",
-    "@nearform/sql": "~1.10.7",
     "@ymh8/database": "workspace:*",
     "@ymh8/queues": "workspace:*",
     "@ymh8/schemata": "workspace:*",

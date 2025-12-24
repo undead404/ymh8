@@ -32,19 +32,6 @@ export const bareTagSchema = v.object({
 
 export type BareTag = v.InferInput<typeof bareTagSchema>;
 
-// export const tagListItemSchema = v.object({
-//   albumArtist: nonEmptyString,
-//   albumName: nonEmptyString,
-//   place: positivePercentage,
-// });
-
-// export type TagListItem = v.InferInput<typeof tagListItemSchema>;
-// export interface TagListItem {
-//   albumArtist: string;
-//   albumName: string;
-//   place: number;
-// }
-
 export const dateString = v.pipe(
   v.string(),
   v.regex(/\d{4}(?:-\d{2}(?:-\d{2})?)?/),
@@ -67,3 +54,7 @@ export const telegramPostSchema = v.object({
 });
 
 export type TelegramPost = v.InferInput<typeof telegramPostSchema>;
+
+export const buildMetadataSchema = v.object({
+  triggerDateTime: v.pipe(v.string(), v.isoDateTime()),
+});

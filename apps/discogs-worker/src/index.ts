@@ -4,7 +4,7 @@ import { createLimitedWorker, discogsQueue } from '@ymh8/queues';
 import kysely from './database2/index.js';
 import processJob from './process-job.js';
 
-const worker = createLimitedWorker(discogsQueue.name, (job) => processJob(job));
+const worker = createLimitedWorker(discogsQueue, (job) => processJob(job));
 
 const gracefulShutdown = async (signal: string) => {
   console.log(`Received ${signal}, closing worker...`);

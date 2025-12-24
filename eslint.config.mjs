@@ -81,7 +81,7 @@ export default [
       ],
       // 'unicorn/expiring-todo-comments': 'off',
       // 'unicorn/prefer-top-level-await': 'off',
-      'no-console': 'warn',
+      'no-console': 'off',
       'unicorn/no-null': 'off',
       // 'unicorn/no-array-reduce': 'off',
       'unicorn/prevent-abbreviations': [

@@ -3,259 +3,218 @@ import crypto from 'node:crypto';
 import { v4 as uuidv4 } from 'uuid';
 import * as v from 'valibot';
 
-import { deleteTag, hideAlbum, isTagValid2 } from '@ymh8/database';
+import { deleteTag, hideAlbum, isTagValid } from '@ymh8/database';
 import {
   discogsQueue,
   enqueue,
   internalQueue,
   telegramQueue,
 } from '@ymh8/queues';
-import {
-  bareTagSchema,
-  // tagListItemSchema,
-  type TelegramPost,
-} from '@ymh8/schemata';
+import { bareTagSchema, type TelegramPost } from '@ymh8/schemata';
 import { escapeForTelegram, isAlbumNegligible } from '@ymh8/utils';
 import getNewTagListItems from '../database2/get-new-tag-list-items.js';
 import getOldList from '../database2/get-old-list.js';
 import getRecentTagCover from '../database2/get-recent-tag-cover.js';
 import kysely from '../database2/index.js';
-import type { TagListItemUpdate } from '../database2/insert-new-list-items.js';
 import insertNewListItems from '../database2/insert-new-list-items.js';
 import saveEmptyResult from '../database2/save-empty-result.js';
 import saveNoListChange from '../database2/save-no-list-change.js';
 import saveTagListSuccess from '../database2/save-tag-list-success.js';
 import updateTagListItem from '../database2/update-tag-list-item.js';
 
+// Helper to create unique signature
+const getSig = (artist: string, name: string) => `${artist} - ${name}`;
+
 export default async function generateTagList(
   jobData: unknown,
 ): Promise<unknown> {
   const bareTag = v.parse(bareTagSchema, jobData);
+
   return kysely.transaction().execute(async (trx) => {
-    // if (!(await isTagValid(database, bareTag))) {
-    if (!(await isTagValid2(trx, bareTag))) {
-      // await database.update(SQL`
-      //     DELETE FROM "Tag"
-      //     WHERE "name" = ${bareTag.name}
-      // `);
+    // --- VALIDATION & CLEANUP (Standard Logic) ---
+    if (!(await isTagValid(trx, bareTag))) {
       await deleteTag(trx, bareTag.name);
-      return;
+      return { status: 'deleted' };
     }
-    // const sql = SQL`
-    //   SELECT "artist" AS "albumArtist",
-    //       "name" AS "albumName",
-    //       (ROW_NUMBER() OVER (ORDER BY "weight" DESC))::INT AS "place"
-    //   FROM (
-    //       SELECT
-    //           "Album"."artist",
-    //           "Album"."name",
-    //           (
-    //               COALESCE("Album"."playcount", 0)::FLOAT
-    //               / COALESCE(
-    //                   CASE WHEN "Album"."numberOfTracks" = 0 THEN 1 ELSE "Album"."numberOfTracks" END,
-    //                   (
-    //                       SELECT AVG("numberOfTracks") FROM "Album" WHERE "numberOfTracks" IS NOT NULL
-    //                   )
-    //               )
-    //               * COALESCE("Album"."listeners", 0)
-    //               / COALESCE(
-    //                   CASE WHEN "Album"."numberOfTracks" = 0 THEN 1 ELSE "Album"."numberOfTracks" END,
-    //                   (
-    //                       SELECT AVG("numberOfTracks") FROM "Album" WHERE "numberOfTracks" IS NOT NULL
-    //                   )
-    //               )
-    //           )
-    //           * "AlbumTag"."count"::FLOAT / 100
-    //           AS "weight"
-    //       FROM "AlbumTag"
-    //       JOIN "Album"
-    //       ON "Album"."artist" = "AlbumTag"."albumArtist"
-    //       AND "Album"."name" = "AlbumTag"."albumName"
-    //       WHERE "Album"."hidden" IS NOT TRUE
-    //       AND "AlbumTag"."count" > 0
-    //       AND "AlbumTag"."tagName" = ${bareTag.name}
-    //       ORDER BY "weight" DESC
-    //       LIMIT 100
-    //   ) as X
-    // `;
-    // const tagListItems = await database.queryMany(tagListItemSchema, sql);
+
     const tagListItems = await getNewTagListItems(trx, bareTag.name);
-    if (tagListItems.length > 100) {
-      throw new Error('Too many tag list items');
-    }
+    if (tagListItems.length > 100) throw new Error('Too many tag list items');
     if (tagListItems.length < 100) {
-      // await database.update(SQL`
-      //     UPDATE "Tag"
-      //     SET
-      //         "listCheckedAt" = NOW(),
-      //         "listUpdatedAt" = NULL
-      //     WHERE "name" = ${bareTag.name}
-      // `);
       await saveEmptyResult(trx, bareTag.name);
-      return;
+      return { status: 'insufficient_items' };
     }
-    let shouldRestart = false;
-    for (const tagListItem of tagListItems) {
-      if (
-        isAlbumNegligible({
-          artist: tagListItem.albumArtist,
-          name: tagListItem.albumName,
-        })
-      ) {
-        shouldRestart = true;
-        // await database.update(SQL`
-        //   UPDATE "Album"
-        //   SET "hidden" = TRUE
-        //   WHERE "artist" = ${tagListItem.albumArtist}
-        //   AND "name" = ${tagListItem.albumName}
-        // `);
-        await hideAlbum(trx, {
-          artist: tagListItem.albumArtist,
-          name: tagListItem.albumName,
-        });
-      }
-    }
-    if (shouldRestart) {
+
+    // Fix: Batch hide negligible items to prevent restart loops
+    const negligible = tagListItems.filter((index) =>
+      isAlbumNegligible({ artist: index.albumArtist, name: index.albumName }),
+    );
+    if (negligible.length > 0) {
+      await Promise.all(
+        negligible.map((index) =>
+          hideAlbum(trx, { artist: index.albumArtist, name: index.albumName }),
+        ),
+      );
       await enqueue(
         internalQueue,
         'tag:list:generate',
-        bareTag.name +
-          '-' +
-          crypto.createHash('md5').update(new Date().toString()).digest('hex'),
+        `${bareTag.name}-${crypto.randomUUID()}`,
         bareTag,
         100,
       );
-      return;
+      return { status: 'restarting' };
     }
 
-    let changes: TagListItemUpdate[] = [];
-
-    // const oldList = await database.queryMany(
-    //   tagListItemSchema,
-    //   SQL`
-    //       SELECT "albumArtist", "albumName", "place"
-    //       FROM "TagListItem"
-    //       WHERE "tagName" = ${bareTag.name}
-    //       ORDER BY "place" ASC
-    //   `,
-    // );
+    // --- DB SYNC LOGIC ---
     const oldList = await getOldList(trx, bareTag.name);
+    let hasDatabaseChanges = false;
+
+    // We need strict sets for logic
+    const oldMap = new Map(
+      oldList.map((index) => [
+        getSig(index.albumArtist, index.albumName),
+        index,
+      ]),
+    );
+    const newMap = new Map(
+      tagListItems.map((index) => [
+        getSig(index.albumArtist, index.albumName),
+        index,
+      ]),
+    );
+
     if (oldList.length === 0) {
-      // await database.update(SQL`
-      //     INSERT INTO "TagListItem" ("albumArtist", "albumName", "place", "tagName", "updatedAt")
-      //     VALUES ${SQL.glue(
-      //       tagListItems.map(
-      //         ({ albumArtist, albumName, place }) =>
-      //           SQL`(${albumArtist},${albumName},${place},${bareTag.name},NOW())`,
-      //       ),
-      //       ', ',
-      //     )}
-      // `);
       await insertNewListItems(trx, bareTag.name, tagListItems);
-      changes = tagListItems;
+      hasDatabaseChanges = true;
     } else {
-      for (const newListItem of tagListItems) {
-        const oldListItem = oldList.find(
-          ({ place }) => place === newListItem.place,
+      for (const newItem of tagListItems) {
+        const oldSamePlaceAlbum = oldList.find(
+          ({ place }) => place === newItem.place,
         );
-        if (oldListItem) {
-          if (
-            newListItem.albumName !== oldListItem.albumName ||
-            newListItem.albumArtist !== oldListItem.albumArtist
-          ) {
-            // await database.update(SQL`
-            //   UPDATE "TagListItem"
-            //   SET
-            //       "albumArtist" = ${newListItem.albumArtist},
-            //       "albumName" = ${newListItem.albumName},
-            //       "updatedAt" = NOW()
-            //   WHERE "place" = ${newListItem.place}
-            //   AND "tagName" = ${bareTag.name}
-            // `);
-            await updateTagListItem(trx, bareTag.name, newListItem);
-            changes.push(newListItem);
-          }
-        } else {
-          // await database.update(SQL`
-          //     INSERT INTO "TagListItem" ("albumArtist", "albumName", "place", "tagName", "updatedAt")
-          //     VALUES (${newListItem.albumArtist},${newListItem.albumName},${newListItem.place},${bareTag.name},NOW())
-          // `);
-          await insertNewListItems(trx, bareTag.name, [newListItem]);
-          changes.push(newListItem);
+
+        if (!oldSamePlaceAlbum) {
+          // It's new to the DB
+          await insertNewListItems(trx, bareTag.name, [newItem]);
+          hasDatabaseChanges = true;
+        } else if (
+          newItem.albumArtist !== oldSamePlaceAlbum.albumArtist &&
+          newItem.albumName !== oldSamePlaceAlbum.albumName
+        ) {
+          // Position changed (we update DB regardless of whether it's "noise")
+          await updateTagListItem(trx, bareTag.name, newItem);
+          hasDatabaseChanges = true;
         }
       }
     }
-    if (changes.length === 0) {
+
+    if (!hasDatabaseChanges) {
       await saveNoListChange(trx, bareTag.name);
-      return;
+      return { status: 'no_change' };
     }
+
     await saveTagListSuccess(trx, bareTag.name);
-    // await database.update(
-    //   changes.length === 0
-    //     ? SQL`
-    //       UPDATE "Tag"
-    //       SET
-    //           "listCheckedAt" = NOW()
-    //       WHERE "name" = ${bareTag.name}
-    //     `
-    //     : SQL`
-    //       UPDATE "Tag"
-    //       SET
-    //           "listCheckedAt" = NOW(),
-    //           "listUpdatedAt" = NOW()
-    //       WHERE "name" = ${bareTag.name}
-    //     `,
-    // );
-    for (const tagListItem of changes) {
-      await enqueue(
-        discogsQueue,
-        'album:enrich',
-        `${tagListItem.albumArtist} - ${tagListItem.albumName}`,
-        {
-          artist: tagListItem.albumArtist,
-          name: tagListItem.albumName,
-        },
-        1,
+
+    // --- ENRICHMENT QUEUE (Only for truly new albums) ---
+    const trulyNewItems = tagListItems.filter(
+      (index) => !oldMap.has(getSig(index.albumArtist, index.albumName)),
+    );
+
+    if (trulyNewItems.length > 0) {
+      await Promise.all(
+        trulyNewItems.map((item) =>
+          enqueue(
+            discogsQueue,
+            'album:enrich',
+            `${item.albumArtist} - ${item.albumName}`,
+            { artist: item.albumArtist, name: item.albumName },
+            1,
+          ),
+        ),
       );
     }
 
-    // const coverBearer = await database.queryOne(
-    //   coverSchema,
-    //   SQL`
-    //       SELECT "Album"."cover"
-    //       FROM "TagListItem"
-    //       INNER JOIN "Album"
-    //       ON "TagListItem"."albumArtist" = "Album"."artist"
-    //       AND "TagListItem"."albumName" = "Album"."name"
-    //       WHERE "TagListItem"."tagName" = ${bareTag.name}
-    //       AND "Album"."cover" IS NOT NULL
-    //       AND "Album"."cover" <> ''
-    //       ORDER BY
-    //           "TagListItem"."updatedAt" DESC,
-    //           "TagListItem"."place" ASC
-    //       LIMIT 1
-    //   `,
-    // );
+    // --- SMART DIFF TELEGRAM LOGIC ---
+    // 1. Calculate dropouts (Left the chart)
+    const dropouts = oldList.filter(
+      (old) => !newMap.has(getSig(old.albumArtist, old.albumName)),
+    );
+
+    // 2. Build the output lines
+    const lines: string[] = [];
+
+    // Iterate through the NEW list to maintain rank order
+    for (const newItem of tagListItems) {
+      const sig = getSig(newItem.albumArtist, newItem.albumName);
+      const oldItem = oldMap.get(sig);
+
+      if (oldItem) {
+        // CASE: Existing Item - Did it move meaningfully?
+
+        // Calculate "Gravity":
+        // How many items strictly ABOVE this item in the OLD list are now GONE?
+        const deletionsAbove = oldList.filter(
+          (o) =>
+            o.place < oldItem.place &&
+            !newMap.has(getSig(o.albumArtist, o.albumName)),
+        ).length;
+
+        // How many items strictly ABOVE this item in the NEW list are NEW ENTRIES?
+        const insertionsAbove = tagListItems.filter(
+          (n) =>
+            n.place < newItem.place &&
+            !oldMap.has(getSig(n.albumArtist, n.albumName)),
+        ).length;
+
+        // The "Expected" Rank if it just floated passively
+        const expectedRank = oldItem.place + insertionsAbove - deletionsAbove;
+
+        if (newItem.place !== expectedRank) {
+          // It defied gravity! It actively climbed or fell.
+          const diff = oldItem.place - newItem.place; // Positive = climbed up
+          const arrow = diff > 0 ? '⬆️' : '⬇️';
+          lines.push(
+            `${arrow} <b>#${newItem.place}</b> ${escapeForTelegram(`${newItem.albumArtist} - ${newItem.albumName}`)} (було #${oldItem.place})`,
+          );
+        }
+        // If place === expectedRank, we hide it. It's just shifting naturally.
+      } else {
+        // CASE: New Entry
+        lines.push(
+          `➕ <b>#${newItem.place}</b> ${escapeForTelegram(`${newItem.albumArtist} - ${newItem.albumName}`)}`,
+        );
+      }
+    }
+
+    // 3. Append Dropouts at the bottom
+    if (dropouts.length > 0) {
+      lines.push('', '<b>📉 Вибули:</b>');
+      for (const d of dropouts) {
+        lines.push(
+          `❌ ${escapeForTelegram(`${d.albumArtist} - ${d.albumName}`)}`,
+        );
+      }
+    }
+
+    // If "lines" is empty (rare, but possible if only swaps happened in a way that matches shifts), fallback
+    if (lines.length === 0) {
+      lines.push('⚠️ Список змінився незначно.');
+    }
+
     const cover = await getRecentTagCover(trx, bareTag.name);
 
     await enqueue(
       telegramQueue,
       'post',
-      'list-' + escapeForTelegram(bareTag.name) + '-' + uuidv4(),
+      `list-${bareTag.name}-${uuidv4()}`,
       {
         imageUrl: cover,
-        text: `${oldList.length === 0 ? 'Новий' : 'Оновлений'} список для ${escapeForTelegram(bareTag.name)}:
+        // Header
+        text: `${oldList.length === 0 ? '🆕 Новий' : '🔄 Оновлений'} список для ${escapeForTelegram(bareTag.name)}:
 
-${changes
-  .slice(0, 10)
-  .map(({ place, albumArtist, albumName }) =>
-    escapeForTelegram(`#${place}. ${albumArtist} - ${albumName}`),
-  )
-  .join('\n')}`,
+${lines.join('\n')}`,
       } satisfies TelegramPost,
       100,
     );
 
-    return changes;
+    return { status: 'success', changes: lines.length };
   });
 }

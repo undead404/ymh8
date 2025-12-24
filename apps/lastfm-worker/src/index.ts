@@ -4,7 +4,7 @@ import { createLimitedWorker, lastfmQueue } from '@ymh8/queues';
 import kysely from './database2/index.js';
 import processJob from './process-job.js';
 
-const worker = createLimitedWorker(lastfmQueue.name, (job) => processJob(job));
+const worker = createLimitedWorker(lastfmQueue, (job) => processJob(job));
 
 const gracefulShutdown = async (signal: string) => {
   console.log(`Received ${signal}, closing worker...`);

@@ -61,7 +61,7 @@ export default async function scrapeArtist(jobData: unknown) {
         `scraped-artist-${bareArtist.name}-${page || 1}-${uuidv4()}`,
         {
           imageUrl: newAlbums.findLast(({ cover }) => cover)?.cover,
-          text: `Зібрано ${newAlbums.length} нових альбомів для виконавця ${escapeForTelegram(bareArtist.name)}`,
+          text: `🎸 Зібрано ${newAlbums.length} нових альбомів для виконавця ${escapeForTelegram(bareArtist.name)}, сторінка ${page || 1}`,
         } satisfies TelegramPost,
         newAlbums.length,
       );

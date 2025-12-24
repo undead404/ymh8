@@ -5,7 +5,7 @@ import kysely from './database2/index.js';
 import processJob from './process-job.js';
 
 const worker = createLimitedWorker(
-  llmQueue.name,
+  llmQueue,
   (job) => processJob(job),
   true,
   60_000,

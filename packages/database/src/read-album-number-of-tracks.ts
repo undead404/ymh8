@@ -11,13 +11,6 @@ export default async function readAlbumNumberOfTracks(
   transaction: Transaction<DB>,
   { artist, name }: BareAlbum,
 ): Promise<number | null> {
-  // const sql = SQL`
-  //   SELECT "numberOfTracks"
-  //   FROM "Album"
-  //   WHERE "artist" = ${artist}
-  //   AND "name" = ${name}
-  // `;
-  // const data = await database.queryOne(numberOfTracksReturnSchema, sql);
   const data = await transaction
     .selectFrom('Album')
     .select(['numberOfTracks'])

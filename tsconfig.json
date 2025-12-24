@@ -6,7 +6,6 @@
     { "path": "packages/schemata" },
     { "path": "packages/utils" },
     { "path": "apps/bull-board" },
-    { "path": "apps/issuer" },
     { "path": "apps/lastfm-worker" },
     { "path": "apps/internal-worker" },
     { "path": "apps/discogs-worker" },

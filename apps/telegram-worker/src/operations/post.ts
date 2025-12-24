@@ -10,12 +10,13 @@ const bot = new TelegramBot(environment.TELEGRAM_BOT_TOKEN);
 
 export default async function post(jobData: unknown) {
   const { imageUrl, text } = v.parse(telegramPostSchema, jobData);
+  console.log(text);
   if (imageUrl) {
     try {
       await bot.sendPhoto(environment.TELEGRAM_CHAT_ID, imageUrl, {
         caption:
           text.length > 1023 ? text.slice(0, 1020) + String.raw`\.\.\.` : text,
-        parse_mode: 'MarkdownV2',
+        parse_mode: 'HTML',
       });
       return;
     } catch (error) {
@@ -35,7 +36,7 @@ export default async function post(jobData: unknown) {
     environment.TELEGRAM_CHAT_ID,
     text.length > 4096 ? text.slice(0, 4093) + String.raw`\.\.\.` : text,
     {
-      parse_mode: 'MarkdownV2',
+      parse_mode: 'HTML',
     },
   );
 }
