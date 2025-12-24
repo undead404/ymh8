@@ -113,5 +113,30 @@ export default [
       '@typescript-eslint/unbound-method': 'off',
     },
   },
+  {
+    files: ['apps/**/src/**/*.test.ts', 'packages/**/src/**/*.test.ts'],
+    languageOptions: {
+      globals: globals.node,
+      parserOptions: {
+        // There is a major issue with TS + ESLint + Monorepo
+        // And we faced it as well https://github.com/typescript-eslint/typescript-eslint/issues/1192
+        // However, using this "projectService" resolved it for us
+        // More details on "projectService": https://typescript-eslint.io/blog/announcing-typescript-eslint-v8-beta#project-service
+        projectService: true,
+      },
+    },
+    name: 'Tests',
+    rules: {
+      '@typescript-eslint/no-explicit-any': 'off',
+      '@typescript-eslint/no-unsafe-argument': 'off',
+      '@typescript-eslint/no-unsafe-assignment': 'off',
+      '@typescript-eslint/no-unsafe-call': 'off',
+      '@typescript-eslint/no-unsafe-member-access': 'off',
+      '@typescript-eslint/no-unsafe-return': 'off',
+      '@typescript-eslint/require-await': 'off',
+      'unicorn/error-message': 'off',
+      'unicorn/no-useless-undefined': 'off',
+    },
+  },
   eslintConfigPrettier, // align prettier rules with eslint rules
 ];

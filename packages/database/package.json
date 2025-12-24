@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "@ymh8/schemata": "workspace:*",
+    "@ymh8/utils": "workspace:*",
     "pg": "~8.16.3",
     "valibot": "~1.2.0"
   },

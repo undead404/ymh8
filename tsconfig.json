@@ -1,5 +1,6 @@
 {
   "files": [],
+  "include": ["./*.ts"],
   "references": [
     { "path": "packages/database" },
     { "path": "packages/queues" },

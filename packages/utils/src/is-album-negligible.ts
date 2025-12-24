@@ -13,6 +13,11 @@ const NEGLIGIBLE_ALBUM_NAME_REGEXES = [
   /[[(]?bonus (?:tracks?|dis(?:c|k))[)\]]?$/i,
 ];
 
+/**
+ *
+ * @param album
+ * @returns Whether the album's name contains any signs of obvious garbage to remove from the charts
+ */
 export default function isAlbumNegligible(album: BareAlbum) {
   for (const regex of NEGLIGIBLE_ALBUM_NAME_REGEXES) {
     if (typeof regex === 'string') {

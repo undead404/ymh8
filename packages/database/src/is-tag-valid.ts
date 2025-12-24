@@ -3,13 +3,13 @@ import type { DB } from 'kysely-codegen';
 
 import { type BareTag } from '@ymh8/schemata';
 
-import isTagBlacklisted from './is-tag-blacklisted.js';
+import blacklist from './utils/blacklist.js';
 
 export default async function isTagValid(
   transaction: Transaction<DB>,
   tag: BareTag,
 ): Promise<boolean> {
-  if (isTagBlacklisted(tag.name)) {
+  if (blacklist.isBlacklisted(tag.name)) {
     return false;
   }
   const sanitizedName = tag.name.replaceAll(/[^\da-z]/gi, '');

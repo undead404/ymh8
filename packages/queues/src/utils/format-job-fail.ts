@@ -2,7 +2,9 @@ import type { Job } from 'bullmq';
 
 import { escapeForTelegram } from '@ymh8/utils'; // Ensure this is the NEW HTML version
 
-export default function formatJobError(job: Job<unknown>): string {
+import cleanUpStackTrace from './clean-up-stack-trace.js';
+
+export default function formatJobFail(job: Job<unknown>): string {
   const jobName = job.name || 'Unknown Job';
   const jobId = job.id || 'Unknown ID';
   const attemptInfo = `${job.attemptsMade} / ${job.opts.attempts}`;
@@ -11,27 +13,7 @@ export default function formatJobError(job: Job<unknown>): string {
   // Format data for readability
   const dataString = JSON.stringify(job.data, null, 2);
 
-  // Clean up stack trace
-  const rawStack = Array.isArray(job.stacktrace)
-    ? job.stacktrace
-        .map((stacktraceItem) =>
-          stacktraceItem
-            .split('\n')
-            .filter(
-              (line) =>
-                !line.includes('node:internal') &&
-                !line.includes('node_modules'),
-            )
-            .join('\n'),
-        )
-        .join('\n')
-    : '';
-
-  const cleanStack =
-    rawStack.length > 800
-      ? rawStack.slice(0, 800) + '... (truncated)'
-      : rawStack;
-
+  const cleanStack = cleanUpStackTrace(job.stacktrace);
   return `
 🚨 <b>JOB FAILED</b>
 <b>Job</b>: <code>${escapeForTelegram(jobName)}</code>

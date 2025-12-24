@@ -1,0 +1,136 @@
+{
+  "node": {
+    "kind": "SelectQueryNode",
+    "from": {
+      "kind": "FromNode",
+      "froms": [
+        {
+          "kind": "TableNode",
+          "table": {
+            "kind": "SchemableIdentifierNode",
+            "identifier": {
+              "kind": "IdentifierNode",
+              "name": "Album"
+            }
+          }
+        }
+      ]
+    },
+    "where": {
+      "kind": "WhereNode",
+      "where": {
+        "kind": "AndNode",
+        "left": {
+          "kind": "BinaryOperationNode",
+          "leftOperand": {
+            "kind": "ReferenceNode",
+            "table": {
+              "kind": "TableNode",
+              "table": {
+                "kind": "SchemableIdentifierNode",
+                "identifier": {
+                  "kind": "IdentifierNode",
+                  "name": "Album"
+                }
+              }
+            },
+            "column": {
+              "kind": "ColumnNode",
+              "column": {
+                "kind": "IdentifierNode",
+                "name": "artist"
+              }
+            }
+          },
+          "operator": {
+            "kind": "OperatorNode",
+            "operator": "="
+          },
+          "rightOperand": {
+            "kind": "ValueNode",
+            "value": "Karito"
+          }
+        },
+        "right": {
+          "kind": "BinaryOperationNode",
+          "leftOperand": {
+            "kind": "ReferenceNode",
+            "table": {
+              "kind": "TableNode",
+              "table": {
+                "kind": "SchemableIdentifierNode",
+                "identifier": {
+                  "kind": "IdentifierNode",
+                  "name": "Album"
+                }
+              }
+            },
+            "column": {
+              "kind": "ColumnNode",
+              "column": {
+                "kind": "IdentifierNode",
+                "name": "name"
+              }
+            }
+          },
+          "operator": {
+            "kind": "OperatorNode",
+            "operator": "="
+          },
+          "rightOperand": {
+            "kind": "ValueNode",
+            "value": "KARITO DARIACORE EP"
+          }
+        }
+      }
+    },
+    "selections": [
+      {
+        "kind": "SelectionNode",
+        "selection": {
+          "kind": "ReferenceNode",
+          "table": {
+            "kind": "TableNode",
+            "table": {
+              "kind": "SchemableIdentifierNode",
+              "identifier": {
+                "kind": "IdentifierNode",
+                "name": "Album"
+              }
+            }
+          },
+          "column": {
+            "kind": "ColumnNode",
+            "column": {
+              "kind": "IdentifierNode",
+              "name": "date"
+            }
+          }
+        }
+      },
+      {
+        "kind": "SelectionNode",
+        "selection": {
+          "kind": "ReferenceNode",
+          "table": {
+            "kind": "TableNode",
+            "table": {
+              "kind": "SchemableIdentifierNode",
+              "identifier": {
+                "kind": "IdentifierNode",
+                "name": "Album"
+              }
+            }
+          },
+          "column": {
+            "kind": "ColumnNode",
+            "column": {
+              "kind": "IdentifierNode",
+              "name": "numberOfTracks"
+            }
+          }
+        }
+      }
+    ]
+  }
+}

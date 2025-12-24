@@ -19,7 +19,8 @@
     "prettier": "~3.7.4",
     "tsx": "~4.21.0",
     "typescript": "~5.9.3",
-    "typescript-eslint": "~8.48.1"
+    "typescript-eslint": "~8.48.1",
+    "vitest": "~4.0.16"
   },
   "name": "ymh8",
   "private": true,
@@ -32,7 +33,9 @@
     "dev:apps": "pnpm -w -r --filter \"./apps/\" run dev --parallel",
     "lint": "eslint .",
     "prepare": "husky",
-    "start": "pm2 start ecosystem.config.js",
-    "stop": "pm2 stop ecosystem.config.js"
-  }
+    "start": "pm2 start ecosystem.config.cjs",
+    "stop": "pm2 stop ecosystem.config.cjs",
+    "test": "vitest"
+  },
+  "type": "module"
 }

@@ -1,9 +1,11 @@
+// import { writeFileSync } from 'node:fs';
+
 import { type Job, type Queue, Worker } from 'bullmq';
 
 import type { TelegramPost } from '@ymh8/schemata';
 import { enqueue, telegramQueue } from '../index.js';
 
-import formatJobError from './format-job-error.js';
+import formatJobFail from './format-job-fail.js';
 
 export default function getFailHandler<T>(
   queue: Queue<T>,
@@ -11,16 +13,14 @@ export default function getFailHandler<T>(
 ) {
   return (job: Job<T> | undefined, error: Error) => {
     console.error(job?.stacktrace);
-    // writeFile('./failed-job.json', JSON.stringify(job, null, 2)).catch(
-    //   (error_) => console.error(error_),
-    // );
     if (!job) return;
+    // writeFileSync('./error.json', JSON.stringify(error, null, 2));
     const lowercasedReason = job.failedReason?.toLowerCase() || '';
     if (
       lowercasedReason.includes('rate') &&
       lowercasedReason.includes('limit')
     ) {
-      // 3. Calculate delay (default to 60s if header missing)
+      // Calculate delay (default to 60s if header missing)
       // Note: Retry-After is usually in seconds, BullMQ needs milliseconds
       // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access, @typescript-eslint/no-explicit-any
       const retryAfterHeader = (error as any).response.headers[
@@ -45,7 +45,7 @@ export default function getFailHandler<T>(
       (job.opts.attempts && job.attemptsMade < job.opts.attempts)
     )
       return;
-    const message = formatJobError(job);
+    const message = formatJobFail(job);
     enqueue(
       telegramQueue,
       'post',

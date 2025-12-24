@@ -10,7 +10,7 @@ export default function getErrorHandler(
   return (error: Error) => {
     console.error(error);
 
-    // 2. Notification Logic
+    // Notification Logic
     // Without a job object, we cannot check attemptsMade vs opts.attempts.
     // We report all errors if postErrors is true.
     if (!postErrors) return;
@@ -21,7 +21,7 @@ export default function getErrorHandler(
       'post',
       `worker-error-${Date.now()}`, // No job ID available, use timestamp
       {
-        text: `Worker Error: ${error.name}\n${error.message}\n${error.stack ?? ''}`,
+        text: `${queue.name} error: ${error.name}\n${error.message}\n${error.stack ?? ''}`,
       } satisfies TelegramPost, // No job priority available
     ).catch((error_) => {
       console.error(error_);
