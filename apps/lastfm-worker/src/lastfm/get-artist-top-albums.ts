@@ -26,6 +26,7 @@ const tagTopAlbumsResponseSchema = v.object({
         ),
         mbid: v.optional(nonEmptyString),
         name: v.string(),
+        playcount: v.number(),
       }),
     ),
   }),
@@ -56,6 +57,7 @@ export default async function getArtistTopAlbums(
   });
   albums.push(
     ...response.topalbums.album
+      .filter((album) => album.playcount >= 100)
       .filter((album) => album.name.length <= 1023)
       .map((lastfmAlbum) => convertAlbum(lastfmAlbum)),
   );

@@ -199,18 +199,32 @@ export default async function generateTagList(
       lines.push('⚠️ Список змінився незначно.');
     }
 
-    const cover = await getRecentTagCover(trx, bareTag.name);
+    let text = `${oldList.length === 0 ? '🆕 Новий' : '🔄 Оновлений'} список для ${escapeForTelegram(bareTag.name)}:
+
+`;
+
+    for (const line of lines) {
+      const nextText = `${text}\n${line}`;
+      if (nextText.length > 4095) {
+        if (text.length < 4094) {
+          text = `${text}\n…`;
+        }
+        break;
+      }
+      text = nextText;
+    }
 
     await enqueue(
       telegramQueue,
       'post',
       `list-${bareTag.name}-${uuidv4()}`,
       {
-        imageUrl: cover,
+        imageUrl:
+          text.length < 1024
+            ? await getRecentTagCover(trx, bareTag.name)
+            : undefined,
         // Header
-        text: `${oldList.length === 0 ? '🆕 Новий' : '🔄 Оновлений'} список для ${escapeForTelegram(bareTag.name)}:
-
-${lines.join('\n')}`,
+        text,
       } satisfies TelegramPost,
       100,
     );

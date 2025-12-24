@@ -56,5 +56,5 @@ export const telegramPostSchema = v.object({
 export type TelegramPost = v.InferInput<typeof telegramPostSchema>;
 
 export const buildMetadataSchema = v.object({
-  triggerDateTime: v.pipe(v.string(), v.isoDateTime()),
+  triggerDateTime: v.pipe(v.string(), v.isoTimestamp()),
 });

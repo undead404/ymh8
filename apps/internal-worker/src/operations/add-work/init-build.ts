@@ -42,7 +42,7 @@ export default async function initBuild() {
           },
         },
       ],
-      data: { triggerDate },
+      data: { triggerDateTime },
       name: 'astro:deploy',
       opts: {
         deduplication: {
