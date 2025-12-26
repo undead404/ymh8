@@ -3,7 +3,6 @@ module.exports = {
     {
       autorestart: true,
       instances: 1,
-      kill_timeout: 5000,
       name: 'ymh-lastfm-worker',
       script: './apps/lastfm-worker/dist/index.js',
       wait_ready: true,
@@ -11,7 +10,6 @@ module.exports = {
     {
       autorestart: true,
       instances: 1,
-      kill_timeout: 30_000,
       name: 'ymh-discogs-worker',
       script: './apps/discogs-worker/dist/index.js',
       wait_ready: true,
@@ -19,7 +17,6 @@ module.exports = {
     {
       autorestart: true,
       instances: 1,
-      kill_timeout: 60_000 * 60,
       name: 'ymh-internal-worker',
       script: './apps/internal-worker/dist/index.js',
       wait_ready: true,

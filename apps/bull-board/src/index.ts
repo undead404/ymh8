@@ -5,6 +5,7 @@ import express from 'express';
 import * as v from 'valibot';
 
 import {
+  closeQueues,
   discogsQueue,
   internalQueue,
   lastfmQueue,
@@ -62,3 +63,21 @@ const run = () => {
 };
 
 run();
+
+const gracefulShutdown = async (signal: string) => {
+  console.log(`Received ${signal}, closing the process...`);
+
+  // 1. Stop accepting new jobs and wait for current ones to finish
+  await closeQueues();
+
+  console.log('Shutdown complete.');
+  process.exit(0);
+};
+
+// Listen for termination signals
+process.on('SIGINT', () => {
+  void gracefulShutdown('SIGINT');
+});
+process.on('SIGTERM', () => {
+  void gracefulShutdown('SIGTERM');
+});

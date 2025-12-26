@@ -37,6 +37,7 @@ export default function skrapeTag(job: Job<unknown>) {
     const { albums: topAlbums, childrenJobs } = await getTagTopAlbumsPage(
       bareTag,
       job,
+      page,
     );
 
     const newAlbums = await filterNewAlbums(trx, topAlbums);

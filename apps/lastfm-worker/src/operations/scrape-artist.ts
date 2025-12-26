@@ -17,7 +17,7 @@ const scrapeArtistPayload = v.object({
 
 export default async function scrapeArtist(job: Job<unknown>) {
   const { page, ...bareArtist } = v.parse(scrapeArtistPayload, job.data);
-  const topAlbums = await getArtistTopAlbums(bareArtist, job);
+  const topAlbums = await getArtistTopAlbums(bareArtist, job, page);
 
   return kysely.transaction().execute(async (trx) => {
     const newAlbums = await filterNewAlbums(trx, topAlbums);

@@ -22,7 +22,7 @@ const gracefulShutdown = async (signal: string) => {
   await kysely.destroy();
 
   console.log('Shutdown complete.');
-  // process.exit(0);
+  process.exit(0);
 };
 
 // Listen for termination signals
