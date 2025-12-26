@@ -17,16 +17,16 @@ function setupMocks(
 ) {
   (loadList as Mock).mockImplementation(async (filename: string) => {
     switch (filename) {
-      case 'blacklist-exact.txt': {
+      case 'blacklisted-tags.txt': {
         return data.exact || [];
       }
-      case 'blacklist-starts.txt': {
+      case 'blacklisted-tag-starts.txt': {
         return data.start || [];
       }
-      case 'blacklist-ends.txt': {
+      case 'blacklisted-tag-ends.txt': {
         return data.end || [];
       }
-      case 'blacklist-substrings.txt': {
+      case 'blacklisted-tag-substrings.txt': {
         return data.sub || [];
       }
       default: {

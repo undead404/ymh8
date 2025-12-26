@@ -16,9 +16,7 @@ export default async function readAlbumNumberOfTracks(
     .select(['numberOfTracks'])
     .where('artist', '=', artist)
     .where('name', '=', name)
-    .executeTakeFirst();
-  if (!data) {
-    throw new Error('Album numberOfTracks not found');
-  }
+    .executeTakeFirstOrThrow();
+
   return data.numberOfTracks;
 }

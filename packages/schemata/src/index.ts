@@ -58,3 +58,7 @@ export type TelegramPost = v.InferInput<typeof telegramPostSchema>;
 export const buildMetadataSchema = v.object({
   triggerDateTime: v.pipe(v.string(), v.isoTimestamp()),
 });
+
+export interface AsyncLogger {
+  log(message: string): Promise<unknown>;
+}

@@ -6,9 +6,6 @@ export default async function countTagLists(transaction: Transaction<DB>) {
     .selectFrom('Tag')
     .where('listUpdatedAt', 'is not', null)
     .select(({ fn }) => [fn.count<number>('name').as('count')])
-    .executeTakeFirst();
-  if (!result) {
-    throw new Error('Failed to count tag lists');
-  }
+    .executeTakeFirstOrThrow();
   return result.count;
 }

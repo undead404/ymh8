@@ -1,6 +1,10 @@
 import * as v from 'valibot';
 
-import { type BareAlbum, lastfmTagSchema } from '@ymh8/schemata';
+import {
+  type AsyncLogger,
+  type BareAlbum,
+  lastfmTagSchema,
+} from '@ymh8/schemata';
 
 import queryLastfm from './query.js';
 
@@ -10,11 +14,18 @@ const tagsResponseSchema = v.object({
   }),
 });
 
-export default async function getAlbumTags({ artist, name }: BareAlbum) {
-  const tagsResponse = await queryLastfm(tagsResponseSchema, {
-    album: name,
-    artist,
-    method: 'album.getTopTags',
-  });
+export default async function getAlbumTags(
+  { artist, name }: BareAlbum,
+  logger: AsyncLogger,
+) {
+  const tagsResponse = await queryLastfm(
+    tagsResponseSchema,
+    {
+      album: name,
+      artist,
+      method: 'album.getTopTags',
+    },
+    logger,
+  );
   return tagsResponse.toptags.tag.map(({ count, name }) => ({ count, name }));
 }

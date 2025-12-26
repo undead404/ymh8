@@ -1,6 +1,6 @@
 import * as v from 'valibot';
 
-import { dateString } from '@ymh8/schemata';
+import { type AsyncLogger, dateString } from '@ymh8/schemata';
 
 import queryDiscogs from './query.js';
 
@@ -16,11 +16,14 @@ const releaseResponseSchema = v.object({
   ),
 });
 
-export default async function getRelease(releaseId: number) {
-  console.log(`getRelease`, releaseId);
+export default async function getRelease(
+  releaseId: number,
+  logger: AsyncLogger,
+) {
   const details = await queryDiscogs(
     `/releases/${releaseId}`,
     releaseResponseSchema,
+    logger,
   );
   return details;
 }

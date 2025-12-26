@@ -1,6 +1,6 @@
 import * as v from 'valibot';
 
-import { nonEmptyString } from '@ymh8/schemata';
+import { type AsyncLogger, nonEmptyString } from '@ymh8/schemata';
 import { environment } from '../environment.js';
 
 const errorResponseSchema = v.object({
@@ -23,6 +23,7 @@ function adjustLastfmParameters(parameters: Record<string, unknown>) {
 export default async function queryLastfm<T1, T2 extends { method: string }>(
   schema: v.BaseSchema<unknown, T1, v.BaseIssue<unknown>>,
   parameters: T2,
+  logger: AsyncLogger,
 ): Promise<T1> {
   const url =
     'https://ws.audioscrobbler.com/2.0/?' +
@@ -32,7 +33,7 @@ export default async function queryLastfm<T1, T2 extends { method: string }>(
       format: 'json',
       ...adjustLastfmParameters(parameters),
     }).toString();
-  console.log(url);
+  await logger.log(url);
   const response = await fetch(url, {
     signal: AbortSignal.timeout(60_000),
   });

@@ -1,7 +1,11 @@
 import { SearchTypeEnum } from 'discojs/dist/index.es.js';
 import * as v from 'valibot';
 
-import { type BareAlbum, nonEmptyString } from '@ymh8/schemata';
+import {
+  type AsyncLogger,
+  type BareAlbum,
+  nonEmptyString,
+} from '@ymh8/schemata';
 
 import queryDiscogs from './query.js';
 
@@ -16,11 +20,17 @@ const searchResponseSchema = v.object({
   ),
 });
 
-export default async function searchInDiscogs(album: BareAlbum) {
-  console.log(`searchInDiscogs`, { artist: album.artist, name: album.name });
+export default async function searchInDiscogs(
+  album: BareAlbum,
+  logger: AsyncLogger,
+) {
+  await logger.log(
+    `searchInDiscogs ${JSON.stringify({ artist: album.artist, name: album.name })}`,
+  );
   const response = await queryDiscogs(
     '/database/search',
     searchResponseSchema,
+    logger,
     {
       // artist: album.artist,
       q: `${album.artist} - ${album.name}`,

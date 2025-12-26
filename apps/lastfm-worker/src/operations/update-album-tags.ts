@@ -1,3 +1,4 @@
+import type { Job } from 'bullmq';
 import * as v from 'valibot';
 
 import { hideAlbum } from '@ymh8/database';
@@ -15,16 +16,16 @@ import getArtistTags from '../lastfm/get-artist-tags.js';
 import normalizeTags from '../normalize-tags.js';
 
 export default async function updateAlbumTags(
-  jobData: unknown,
+  job: Job<unknown>,
 ): Promise<unknown> {
-  const bareAlbum = v.parse(bareAlbumSchema, jobData);
+  const bareAlbum = v.parse(bareAlbumSchema, job.data);
   return kysely.transaction().execute(async (transaction) => {
     try {
-      let tags = await getAlbumTags(bareAlbum);
+      let tags = await getAlbumTags(bareAlbum, job);
       tags = normalizeTags(filterTags(tags));
       if (tags.length === 0) {
         await sleep(1100);
-        tags = await getArtistTags(bareAlbum);
+        tags = await getArtistTags(bareAlbum, job);
         tags = normalizeTags(filterTags(tags));
       }
       const oldTags = await readAlbumTags(transaction, bareAlbum);

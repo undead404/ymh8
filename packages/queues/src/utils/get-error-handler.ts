@@ -21,7 +21,16 @@ export default function getErrorHandler(
       'post',
       `worker-error-${Date.now()}`, // No job ID available, use timestamp
       {
-        text: `${queue.name} error: ${error.name}\n${error.message}\n${error.stack ?? ''}`,
+        text: `${queue.name} error: ${error.name}\n${error.message}\n${
+          error.stack
+            ?.split('\n')
+            .filter(
+              (line) =>
+                !line.includes('node:internal') &&
+                !line.includes('node_modules'),
+            )
+            .join('\n') ?? ''
+        }`,
       } satisfies TelegramPost, // No job priority available
     ).catch((error_) => {
       console.error(error_);

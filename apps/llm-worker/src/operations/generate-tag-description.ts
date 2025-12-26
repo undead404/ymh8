@@ -1,3 +1,4 @@
+import type { Job } from 'bullmq';
 import * as v from 'valibot';
 
 import { enqueue, telegramQueue } from '@ymh8/queues';
@@ -11,13 +12,12 @@ import anthropic from '../llm.js';
 import systemPrompt from '../system-prompt.js';
 import extractTextContent from '../utils/extract-text-content.js';
 
-export default async function generateTagDescription(jobData: unknown) {
-  const bareTag = v.parse(bareTagSchema, jobData);
+export default async function generateTagDescription(job: Job<unknown>) {
+  const bareTag = v.parse(bareTagSchema, job.data);
   return kysely.transaction().execute(async (trx) => {
     const topArtists = await readTagArtists(trx, bareTag, 30);
-    console.log(
-      'top artists:',
-      topArtists.map((artist) => artist.name).join(', '),
+    await job.log(
+      'top artists: ' + topArtists.map((artist) => artist.name).join(', '),
     );
 
     const relatedTags = await readRelatedTags(trx, bareTag.name, 5);

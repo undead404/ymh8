@@ -1,6 +1,6 @@
 // import { writeFile } from 'node:fs/promises';
 
-import { type BareAlbum } from '@ymh8/schemata';
+import { type AsyncLogger, type BareAlbum } from '@ymh8/schemata';
 import { sleep } from '@ymh8/utils';
 
 import getRelease from './get-release.js';
@@ -8,14 +8,20 @@ import searchInDiscogs from './search-in-discogs.js';
 
 const BANNED_FORMATS = new Set(['DVD', 'Promo', 'Unofficial Release']);
 
-export default async function searchRelease(album: BareAlbum) {
-  const response = await searchInDiscogs(album);
+export default async function searchRelease(
+  album: BareAlbum,
+  logger: AsyncLogger,
+) {
+  const response = await searchInDiscogs(album, logger);
 
   // await writeFile('discogs-results.json', JSON.stringify(response, null, 2));
   const matches = response.results.filter(
     ({ format }) =>
       !format.some((formatValue) => BANNED_FORMATS.has(formatValue)),
   );
+  if (matches.length === 0) {
+    return;
+  }
   // .filter((result) => {
   //   const requestedTitleLowercased =
   //     `${album.artist} - ${album.name}`.toLowerCase();
@@ -28,6 +34,7 @@ export default async function searchRelease(album: BareAlbum) {
       minimalYear = detailedResult.year;
     }
   }
+  await logger.log(`Minimal year: ${minimalYear}`);
   const minimalYearMatches = matches.filter(({ year }) => year === minimalYear);
   const detailedResults: Awaited<ReturnType<typeof getRelease>>[] = [];
 
@@ -36,7 +43,7 @@ export default async function searchRelease(album: BareAlbum) {
   for (const match of minimalYearMatches) {
     await sleep(1100);
     try {
-      const details = await getRelease(match.id);
+      const details = await getRelease(match.id, logger);
       detailedResults.push(details);
     } catch (error) {
       console.error(error);

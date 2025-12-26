@@ -3,7 +3,7 @@ import { times } from 'lodash-es';
 import * as v from 'valibot';
 
 import { generateJobId, lastfmQueue } from '@ymh8/queues';
-import { type BareTag } from '@ymh8/schemata';
+import { type AsyncLogger, type BareTag } from '@ymh8/schemata';
 
 import queryLastfm from './query.js';
 import { tagTopAlbumsResponseSchema } from './tag-top-albums-response-schema.js';
@@ -23,17 +23,22 @@ function convertAlbum(
 
 export default async function getTagTopAlbumsPage(
   { name }: BareTag,
+  logger: AsyncLogger,
   page?: number,
 ): Promise<{
   albums: ReturnType<typeof convertAlbum>[];
   childrenJobs: FlowChildJob[];
 }> {
   const albums: ReturnType<typeof convertAlbum>[] = [];
-  const response = await queryLastfm(tagTopAlbumsResponseSchema, {
-    tag: name,
-    method: 'tag.getTopAlbums',
-    ...(page ? { page } : {}),
-  });
+  const response = await queryLastfm(
+    tagTopAlbumsResponseSchema,
+    {
+      tag: name,
+      method: 'tag.getTopAlbums',
+      ...(page ? { page } : {}),
+    },
+    logger,
+  );
   albums.push(
     ...response.albums.album
       .filter(

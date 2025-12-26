@@ -114,7 +114,11 @@ export default [
     },
   },
   {
-    files: ['apps/**/src/**/*.test.ts', 'packages/**/src/**/*.test.ts'],
+    files: [
+      'apps/**/src/**/*.test.ts',
+      'packages/**/src/**/*.test.ts',
+      '**/test-utils/**',
+    ],
     languageOptions: {
       globals: globals.node,
       parserOptions: {

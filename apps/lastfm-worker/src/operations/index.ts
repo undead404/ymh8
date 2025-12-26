@@ -1,10 +1,15 @@
+import type { Job } from 'bullmq';
+
 import finishTagScrape from './finish-tag-scrape.js';
 import scrapeArtist from './scrape-artist.js';
 import skrapeTag from './skrape-tag.js';
 import updateAlbumStats from './update-album-stats.js';
 import updateAlbumTags from './update-album-tags.js';
 
-const operationsMapping: Record<string, (data: unknown) => Promise<unknown>> = {
+const operationsMapping: Record<
+  string,
+  (data: Job<unknown>) => Promise<unknown>
+> = {
   'album:update:stats': updateAlbumStats,
   'album:update:tags': updateAlbumTags,
   'artist:scrape': scrapeArtist,

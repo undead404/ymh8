@@ -1,6 +1,6 @@
 import * as v from 'valibot';
 
-import type { BareAlbum } from '@ymh8/schemata';
+import type { AsyncLogger, BareAlbum } from '@ymh8/schemata';
 
 import queryLastfm from './query.js';
 
@@ -25,12 +25,19 @@ const statsResponseSchema = v.object({
   }),
 });
 
-export default async function getAlbumStats({ artist, name }: BareAlbum) {
-  const statsResponse = await queryLastfm(statsResponseSchema, {
-    album: name,
-    artist,
-    method: 'album.getInfo',
-  });
+export default async function getAlbumStats(
+  { artist, name }: BareAlbum,
+  logger: AsyncLogger,
+) {
+  const statsResponse = await queryLastfm(
+    statsResponseSchema,
+    {
+      album: name,
+      artist,
+      method: 'album.getInfo',
+    },
+    logger,
+  );
   return {
     listeners: statsResponse.album.listeners,
     numberOfTracks: statsResponse.album.tracks?.track.filter(

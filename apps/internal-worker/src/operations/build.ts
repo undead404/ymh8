@@ -1,3 +1,4 @@
+import type { Job } from 'bullmq';
 import { formatDistanceToNow, parseISO } from 'date-fns';
 import { uk } from 'date-fns/locale/uk';
 import * as v from 'valibot';
@@ -8,8 +9,8 @@ import { escapeForTelegram } from '@ymh8/utils';
 import { FRONTEND_FOLDER } from '../constants.js';
 import { runCommandInFolder } from '../utils/run-command-in-folder.js';
 
-export default async function build(jobData: unknown) {
-  const { triggerDateTime } = v.parse(buildMetadataSchema, jobData);
+export default async function build(job: Job<unknown>) {
+  const { triggerDateTime } = v.parse(buildMetadataSchema, job.data);
   await runCommandInFolder(FRONTEND_FOLDER, 'bash', [
     '-lc',
     'source "$NVM_DIR/nvm.sh" || source ~/.nvm/nvm.sh; nvm use && yarn build --force',

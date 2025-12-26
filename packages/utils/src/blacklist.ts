@@ -29,10 +29,10 @@ export async function createTagBlacklist(): Promise<TagBlacklist> {
   async function loadData() {
     // 1. Parallel I/O: Load all files simultaneously
     const [exact, starts, ends, subs] = await Promise.all([
-      loadList('blacklist-exact.txt'),
-      loadList('blacklist-starts.txt'),
-      loadList('blacklist-ends.txt'),
-      loadList('blacklist-substrings.txt'),
+      loadList('blacklisted-tags.txt'),
+      loadList('blacklisted-tag-starts.txt'),
+      loadList('blacklisted-tag-ends.txt'),
+      loadList('blacklisted-tag-substrings.txt'),
     ]);
 
     // 2. Runtime Compilation: Convert lists to optimized structures
@@ -61,30 +61,45 @@ export async function createTagBlacklist(): Promise<TagBlacklist> {
   return {
     reload: loadData,
     isBlacklisted: (tagName: string): boolean => {
+      console.log(`isBlacklisted`, tagName);
       // 1. Cheap checks first
       if (
         !tagName ||
         tagName.length < MIN_TAG_LENGTH ||
         tagName.length > MAX_TAG_LENGTH
       ) {
+        console.log('Blacklisted by length');
         return true;
       }
 
       // 2. Regex format check
       if (!FORMAT_RE.test(tagName)) {
+        console.log('Blacklisted by format');
         return true;
       }
 
       const normalized = tagName.toLowerCase();
 
       // 3. Exact Match (O(1) lookup)
-      if (exactSet.has(normalized)) return true;
+      if (exactSet.has(normalized)) {
+        console.log('Blacklisted by name');
+        return true;
+      }
 
       // 4. Pattern Matches (Compiled Regex State Machine)
       // Much faster than array.some(str => tagName.includes(str))
-      if (startRe.test(tagName)) return true;
-      if (endRe.test(tagName)) return true;
-      if (subRe.test(tagName)) return true;
+      if (startRe.test(tagName)) {
+        console.log('Blacklisted by start');
+        return true;
+      }
+      if (endRe.test(tagName)) {
+        console.log('Blacklisted by end');
+        return true;
+      }
+      if (subRe.test(tagName)) {
+        console.log('Blacklisted by substring');
+        return true;
+      }
 
       return false;
     },

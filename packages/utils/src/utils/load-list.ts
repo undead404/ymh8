@@ -11,7 +11,6 @@ export default async function loadList(filename: string): Promise<string[]> {
     const content = await readFile(path.join(DATA_DIR, filename), 'utf8');
     return content
       .split('\n')
-      .map((line) => line.trim())
       .filter((line) => line.length > 0 && !line.startsWith('#')); // Support comments
   } catch (error) {
     throw new Error(

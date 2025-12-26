@@ -1,4 +1,4 @@
-import { FlowProducer } from 'bullmq';
+import { FlowProducer, Job } from 'bullmq';
 import * as v from 'valibot';
 
 import { deleteTag, isTagValid } from '@ymh8/database';
@@ -24,8 +24,8 @@ const scrapeTagPayload = v.object({
   page: v.optional(v.number()),
 });
 
-export default function skrapeTag(jobData: unknown) {
-  const { page, ...bareTag } = v.parse(scrapeTagPayload, jobData);
+export default function skrapeTag(job: Job<unknown>) {
+  const { page, ...bareTag } = v.parse(scrapeTagPayload, job.data);
   return kysely.transaction().execute(async (trx) => {
     if (!page) {
       const isTagLegit = await isTagValid(trx, bareTag);
@@ -34,8 +34,10 @@ export default function skrapeTag(jobData: unknown) {
         return;
       }
     }
-    const { albums: topAlbums, childrenJobs } =
-      await getTagTopAlbumsPage(bareTag);
+    const { albums: topAlbums, childrenJobs } = await getTagTopAlbumsPage(
+      bareTag,
+      job,
+    );
 
     const newAlbums = await filterNewAlbums(trx, topAlbums);
 
@@ -44,6 +46,9 @@ export default function skrapeTag(jobData: unknown) {
         ...album,
         hidden: isAlbumNegligible(album),
       }));
+      await job.log(
+        `${albumsToInsert.filter(({ hidden }) => hidden).length} albums are negligible`,
+      );
       await insertNewAlbums(trx, albumsToInsert);
 
       for (const newAlbum of albumsToInsert) {

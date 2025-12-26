@@ -15,12 +15,11 @@ describe('loadList', () => {
 
   it('correctly parses a valid file, stripping comments and empty lines', async () => {
     const mockContent = `
-      item1
-      item2 
-      # This is a comment
-      
-      item3   
-    `;
+item1
+item2
+# This is a comment
+
+item3`;
 
     // Mock successful file read
     (readFile as Mock).mockResolvedValue(mockContent);
@@ -45,10 +44,9 @@ describe('loadList', () => {
 
   it('returns an empty array if the file contains only comments and whitespace', async () => {
     const mockContent = `
-      # comment 1
-           
-      # comment 2
-    `;
+# comment 1
+
+# comment 2`;
     (readFile as Mock).mockResolvedValue(mockContent);
 
     const result = await loadList('comments.txt');
@@ -69,5 +67,15 @@ describe('loadList', () => {
 
     // Restore console to original state
     consoleSpy.mockRestore();
+  });
+
+  it('does not trim spaces', async () => {
+    const mockContent = `
+ - 
+  
+`;
+    (readFile as Mock).mockResolvedValue(mockContent);
+    const result = await loadList('whatever.txt');
+    expect(result).toEqual([' - ', '  ']);
   });
 });

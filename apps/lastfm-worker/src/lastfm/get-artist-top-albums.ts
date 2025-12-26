@@ -1,7 +1,11 @@
 import * as v from 'valibot';
 
 import { enqueue, lastfmQueue } from '@ymh8/queues';
-import { type BareArtist, nonEmptyString } from '@ymh8/schemata';
+import {
+  type AsyncLogger,
+  type BareArtist,
+  nonEmptyString,
+} from '@ymh8/schemata';
 
 import queryLastfm from './query.js';
 
@@ -47,14 +51,19 @@ function convertAlbum(
 
 export default async function getArtistTopAlbums(
   { name }: BareArtist,
+  logger: AsyncLogger,
   page?: number,
 ) {
   const albums: ReturnType<typeof convertAlbum>[] = [];
-  const response = await queryLastfm(tagTopAlbumsResponseSchema, {
-    artist: name,
-    method: 'artist.getTopAlbums',
-    ...(page ? { page } : {}),
-  });
+  const response = await queryLastfm(
+    tagTopAlbumsResponseSchema,
+    {
+      artist: name,
+      method: 'artist.getTopAlbums',
+      ...(page ? { page } : {}),
+    },
+    logger,
+  );
   albums.push(
     ...response.topalbums.album
       .filter((album) => album.playcount >= 100)

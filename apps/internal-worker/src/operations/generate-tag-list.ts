@@ -1,5 +1,6 @@
 import crypto from 'node:crypto';
 
+import type { Job } from 'bullmq';
 import { v4 as uuidv4 } from 'uuid';
 import * as v from 'valibot';
 
@@ -26,9 +27,9 @@ import updateTagListItem from '../database2/update-tag-list-item.js';
 const getSig = (artist: string, name: string) => `${artist} - ${name}`;
 
 export default async function generateTagList(
-  jobData: unknown,
+  job: Job<unknown>,
 ): Promise<unknown> {
-  const bareTag = v.parse(bareTagSchema, jobData);
+  const bareTag = v.parse(bareTagSchema, job.data);
 
   return kysely.transaction().execute(async (trx) => {
     // --- VALIDATION & CLEANUP (Standard Logic) ---
@@ -49,6 +50,7 @@ export default async function generateTagList(
       isAlbumNegligible({ artist: index.albumArtist, name: index.albumName }),
     );
     if (negligible.length > 0) {
+      await job.log(`${negligible.length} negligible albums found`);
       await Promise.all(
         negligible.map((index) =>
           hideAlbum(trx, { artist: index.albumArtist, name: index.albumName }),
@@ -70,15 +72,15 @@ export default async function generateTagList(
 
     // We need strict sets for logic
     const oldMap = new Map(
-      oldList.map((index) => [
-        getSig(index.albumArtist, index.albumName),
-        index,
+      oldList.map((oldListItem) => [
+        getSig(oldListItem.albumArtist, oldListItem.albumName),
+        oldListItem,
       ]),
     );
     const newMap = new Map(
-      tagListItems.map((index) => [
-        getSig(index.albumArtist, index.albumName),
-        index,
+      tagListItems.map((newListItem) => [
+        getSig(newListItem.albumArtist, newListItem.albumName),
+        newListItem,
       ]),
     );
 
@@ -142,39 +144,82 @@ export default async function generateTagList(
     const lines: string[] = [];
 
     // Iterate through the NEW list to maintain rank order
-    for (const newItem of tagListItems) {
+    for (const [newIndex, newItem] of tagListItems.entries()) {
       const sig = getSig(newItem.albumArtist, newItem.albumName);
       const oldItem = oldMap.get(sig);
 
       if (oldItem) {
         // CASE: Existing Item - Did it move meaningfully?
-
-        // Calculate "Gravity":
-        // How many items strictly ABOVE this item in the OLD list are now GONE?
-        const deletionsAbove = oldList.filter(
-          (o) =>
-            o.place < oldItem.place &&
-            !newMap.has(getSig(o.albumArtist, o.albumName)),
-        ).length;
-
-        // How many items strictly ABOVE this item in the NEW list are NEW ENTRIES?
-        const insertionsAbove = tagListItems.filter(
-          (n) =>
-            n.place < newItem.place &&
-            !oldMap.has(getSig(n.albumArtist, n.albumName)),
-        ).length;
-
-        // The "Expected" Rank if it just floated passively
-        const expectedRank = oldItem.place + insertionsAbove - deletionsAbove;
-
-        if (newItem.place !== expectedRank) {
-          // It defied gravity! It actively climbed or fell.
-          const diff = oldItem.place - newItem.place; // Positive = climbed up
-          const arrow = diff > 0 ? '⬆️' : '⬇️';
-          lines.push(
-            `${arrow} <b>#${newItem.place}</b> ${escapeForTelegram(`${newItem.albumArtist} - ${newItem.albumName}`)} (було #${oldItem.place})`,
-          );
+        const oldIndex = oldList.indexOf(oldItem);
+        if (oldIndex === -1) {
+          throw new Error('Makes no sense');
         }
+        const oldNeighborAbove = oldList.at(oldIndex - 1);
+        const newNeighborAbove = tagListItems.at(newIndex - 1);
+        const oldNeighborBelow = oldList.at(oldIndex + 1);
+        const newNeighborBelow = tagListItems.at(newIndex + 1);
+        const oldAboveSig = getSig(
+          oldNeighborAbove?.albumArtist || '',
+          oldNeighborAbove?.albumName || '',
+        );
+        const newAboveSig = getSig(
+          newNeighborAbove?.albumArtist || '',
+          newNeighborAbove?.albumName || '',
+        );
+        const oldBelowSig = getSig(
+          oldNeighborBelow?.albumArtist || '',
+          oldNeighborBelow?.albumName || '',
+        );
+        const newBelowSig = getSig(
+          newNeighborBelow?.albumArtist || '',
+          newNeighborBelow?.albumName || '',
+        );
+        if (oldAboveSig === newAboveSig && oldBelowSig === newBelowSig) {
+          // await job.log(
+          //   'SKIPPED ' + getSig(newItem.albumArtist, newItem.albumName),
+          // );
+          if (lines.at(-1) !== '…') {
+            lines.push('…');
+          }
+          continue;
+        } else {
+          // if (oldAboveSig !== newAboveSig) {
+          //   await job.log(`Above: ${oldAboveSig} !== ${newAboveSig}`);
+          // }
+          // if (oldBelowSig !== newBelowSig) {
+          //   await job.log(`Below: ${oldBelowSig} !== ${newBelowSig}`);
+          // }
+        }
+
+        // // Calculate "Gravity":
+        // // How many items strictly ABOVE this item in the OLD list are now GONE?
+        // const deletionsAbove = oldList.filter(
+        //   (o) =>
+        //     o.place < oldItem.place &&
+        //     !newMap.has(getSig(o.albumArtist, o.albumName)),
+        // ).length;
+
+        // // How many items strictly ABOVE this item in the NEW list are NEW ENTRIES?
+        // const insertionsAbove = tagListItems.filter(
+        //   (n) =>
+        //     n.place < newItem.place &&
+        //     !oldMap.has(getSig(n.albumArtist, n.albumName)),
+        // ).length;
+
+        // // The "Expected" Rank if it just floated passively
+        // const expectedRank = oldItem.place + insertionsAbove - deletionsAbove;
+
+        // if (newItem.place !== expectedRank) {
+        //   // It defied gravity! It actively climbed or fell.
+        const diff = oldItem.place - newItem.place; // Positive = climbed up
+        if (diff === 0) {
+          continue;
+        }
+        const arrow = diff > 0 ? '⬆️' : '⬇️';
+        lines.push(
+          `${arrow} <b>#${newItem.place}</b> ${escapeForTelegram(`${newItem.albumArtist} - ${newItem.albumName}`)} (було #${oldItem.place})`,
+        );
+        // }
         // If place === expectedRank, we hide it. It's just shifting naturally.
       } else {
         // CASE: New Entry

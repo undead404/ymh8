@@ -39,6 +39,7 @@ export default async function initBuild() {
             failParentOnFailure: true,
             jobId: buildJobId,
             priority,
+            removeOnComplete: false,
           },
         },
       ],
@@ -50,6 +51,7 @@ export default async function initBuild() {
         },
         jobId: deployJobId,
         priority: 0,
+        removeOnComplete: false,
       },
       queueName: internalQueue.name,
     });

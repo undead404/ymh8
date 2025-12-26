@@ -1,10 +1,10 @@
-import { createLimitedWorker, telegramQueue } from '@ymh8/queues';
+import path from 'node:path';
 
-import processJob from './process-job.js';
+import { closeQueues, createLimitedWorker, telegramQueue } from '@ymh8/queues';
 
-const worker = createLimitedWorker(
+const { close } = createLimitedWorker(
   telegramQueue,
-  (job) => processJob(job),
+  path.join(import.meta.dirname, './process-job.js'),
   false,
 );
 
@@ -12,10 +12,11 @@ const gracefulShutdown = async (signal: string) => {
   console.log(`Received ${signal}, closing worker...`);
 
   // 1. Stop accepting new jobs and wait for current ones to finish
-  await worker.close();
+  await close();
+  await closeQueues();
 
   console.log('Shutdown complete.');
-  process.exit(0);
+  // process.exit(0);
 };
 
 // Listen for termination signals

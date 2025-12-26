@@ -48,7 +48,7 @@
           },
           "rightOperand": {
             "kind": "ValueNode",
-            "value": "Karito"
+            "value": "Mechina"
           }
         },
         "right": {
@@ -79,7 +79,7 @@
           },
           "rightOperand": {
             "kind": "ValueNode",
-            "value": "KARITO DARIACORE EP"
+            "value": "Vanquisher"
           }
         }
       }

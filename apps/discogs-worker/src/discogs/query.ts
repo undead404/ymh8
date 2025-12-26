@@ -1,7 +1,7 @@
 import type { SearchTypeEnum } from 'discojs';
 import * as v from 'valibot';
 
-import { nonEmptyString } from '@ymh8/schemata';
+import { type AsyncLogger, nonEmptyString } from '@ymh8/schemata';
 import { environment } from '../environment.js';
 
 const errorResponseSchema = v.object({
@@ -11,7 +11,7 @@ const errorResponseSchema = v.object({
 // 1. Fixed: Add User-Agent (Required by Discogs)
 const headers: HeadersInit = {
   Authorization: `Discogs key=${environment.DISCOGS_CONSUMER_KEY}, secret=${environment.DISCOGS_CONSUMER_SECRET}`,
-  'User-Agent': 'YMH8/1.0 +https://ymh8.pages.dev', // Update this!
+  'User-Agent': 'YMH8/1.0 +https://ymh8.pages.dev',
 };
 
 export default async function queryDiscogs<
@@ -20,13 +20,14 @@ export default async function queryDiscogs<
 >(
   path: string,
   schema: v.BaseSchema<unknown, T1, v.BaseIssue<unknown>>,
+  logger: AsyncLogger,
   parameters?: T2,
 ): Promise<T1> {
   const url =
     new URL(path, 'https://api.discogs.com').toString() +
     (parameters ? '?' + new URLSearchParams(parameters).toString() : '');
 
-  console.log(`[Discogs] Fetching: ${url}`);
+  await logger.log(`[Discogs] Fetching: ${url}`);
 
   // 2. Fixed: Manual Hard Timeout via Promise.race
   // This ensures that even if fetch hangs internally, we force a rejection.

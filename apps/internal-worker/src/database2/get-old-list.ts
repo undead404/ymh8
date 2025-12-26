@@ -9,6 +9,6 @@ export default function getOldList(
     .selectFrom('TagListItem')
     .select(['albumArtist', 'albumName', 'place'])
     .where('tagName', '=', tagName)
-    .orderBy('place', 'desc')
+    .orderBy('place', 'asc')
     .execute();
 }

@@ -1,3 +1,4 @@
+import type { Job } from 'bullmq';
 import * as v from 'valibot';
 
 import { hideAlbum, readAlbumNumberOfTracks } from '@ymh8/database';
@@ -7,37 +8,13 @@ import saveAlbumStats from '../database2/save-album-stats.js';
 import updateAlbumStatsAndNumberOfTracks from '../database2/save-album-stats-and-number-of-tracks.js';
 import getAlbumStats from '../lastfm/get-album-stats.js';
 
-// async function updateAlbumStatsAndNumberOfTracks(
-//   bareAlbum: BareAlbum,
-//   {
-//     listeners,
-//     numberOfTracks,
-//     playcount,
-//   }: {
-//     listeners: number;
-//     numberOfTracks: number;
-//     playcount: number;
-//   },
-// ) {
-//   const sql = SQL`
-//     UPDATE "Album"
-//     SET "listeners" = ${listeners},
-//       "numberOfTracks" = ${numberOfTracks},
-//       "playcount" = ${playcount},
-//       "statsUpdatedAt" = NOW()
-//     WHERE "artist" = ${bareAlbum.artist}
-//     AND "name" = ${bareAlbum.name}
-//   `;
-//   await database.update(sql);
-// }
-
 export default async function updateAlbumStats(
-  jobData: unknown,
+  job: Job<unknown>,
 ): Promise<unknown> {
-  const bareAlbum = v.parse(bareAlbumSchema, jobData);
+  const bareAlbum = v.parse(bareAlbumSchema, job.data);
   return kysely.transaction().execute(async (trx) => {
     try {
-      const stats = await getAlbumStats(bareAlbum);
+      const stats = await getAlbumStats(bareAlbum, job);
       if (stats.numberOfTracks) {
         const numberOfTracks = await readAlbumNumberOfTracks(trx, bareAlbum);
         if (!numberOfTracks) {
@@ -48,15 +25,6 @@ export default async function updateAlbumStats(
           return stats;
         }
       }
-      //   const sql = SQL`
-      //   UPDATE "Album"
-      //   SET "listeners" = ${stats.listeners},
-      //     "playcount" = ${stats.playcount},
-      //     "statsUpdatedAt" = NOW()
-      //   WHERE "artist" = ${bareAlbum.artist}
-      //   AND "name" = ${bareAlbum.name}
-      // `;
-      //   await database.update(sql);
       await saveAlbumStats(trx, bareAlbum, {
         listeners: stats.listeners,
         playcount: stats.playcount,

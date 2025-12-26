@@ -1,6 +1,11 @@
+import type { Job } from 'bullmq';
+
 import enrich from './enrich.js';
 
-const operationsMapping: Record<string, (data: unknown) => Promise<unknown>> = {
+const operationsMapping: Record<
+  string,
+  (data: Job<unknown>) => Promise<unknown>
+> = {
   'album:enrich': enrich,
 };
 

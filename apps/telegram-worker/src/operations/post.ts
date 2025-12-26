@@ -1,3 +1,4 @@
+import type { Job } from 'bullmq';
 import TelegramBot from 'node-telegram-bot-api';
 import { v4 as uuidv4 } from 'uuid';
 import * as v from 'valibot';
@@ -8,9 +9,9 @@ import { environment } from '../environment.js';
 
 const bot = new TelegramBot(environment.TELEGRAM_BOT_TOKEN);
 
-export default async function post(jobData: unknown) {
-  const { imageUrl, text } = v.parse(telegramPostSchema, jobData);
-  console.log(text);
+export default async function post(job: Job<unknown>) {
+  const { imageUrl, text } = v.parse(telegramPostSchema, job.data);
+  await job.log(text);
   if (imageUrl) {
     try {
       await bot.sendPhoto(environment.TELEGRAM_CHAT_ID, imageUrl, {
@@ -29,7 +30,7 @@ export default async function post(jobData: unknown) {
         } satisfies TelegramPost,
         100,
       );
-      console.log((error as Error).message);
+      await job.log((error as Error).message);
     }
   }
   await bot.sendMessage(

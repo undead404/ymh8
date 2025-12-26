@@ -96,6 +96,17 @@ export async function enqueue(
   });
 }
 
+export function closeQueues() {
+  return Promise.all([
+    discogsQueue.close(),
+    internalQueue.close(),
+    lastfmQueue.close(),
+    llmQueue.close(),
+    telegramQueue.close(),
+  ]);
+}
+
 export { QUEUES } from './constants.js';
+export { createJobProcessor } from './process.js';
 export { default as generateJobId } from './utils/generate-job-id.js';
 export { default as createLimitedWorker } from './worker.js';

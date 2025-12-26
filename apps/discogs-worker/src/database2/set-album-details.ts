@@ -13,46 +13,31 @@ export default async function setAlbumDetails(
   oldDetails: AlbumDetails,
   details: AlbumDetails,
 ) {
-  if (
+  const patch: Partial<AlbumDetails> = {};
+
+  // 1. Determine Date Update
+  const isDateBetter =
     details.date &&
-    (!oldDetails.date || details.date.length > oldDetails.date.length)
-  ) {
-    if (details.numberOfTracks && !oldDetails.numberOfTracks) {
-      const update = {
-        date: details.date,
-        numberOfTracks: details.numberOfTracks,
-      };
-      await transaction
-        .updateTable('Album')
-        .set(update)
-        .where('artist', '=', album.artist)
-        .where('name', '=', album.name)
-        .execute();
-      return update;
-    } else {
-      const update = {
-        date: details.date,
-      };
-      await transaction
-        .updateTable('Album')
-        .set(update)
-        .where('artist', '=', album.artist)
-        .where('name', '=', album.name)
-        .execute();
-      return update;
-    }
-  } else {
-    if (details.numberOfTracks && !oldDetails.numberOfTracks) {
-      const update = {
-        numberOfTracks: details.numberOfTracks,
-      };
-      await transaction
-        .updateTable('Album')
-        .set(update)
-        .where('artist', '=', album.artist)
-        .where('name', '=', album.name)
-        .execute();
-      return update;
-    }
+    (!oldDetails.date || details.date.length > oldDetails.date.length);
+  if (isDateBetter) {
+    patch.date = details.date;
+  }
+
+  // 2. Determine Tracks Update
+  const isTracksNew = details.numberOfTracks && !oldDetails.numberOfTracks;
+  if (isTracksNew) {
+    patch.numberOfTracks = details.numberOfTracks;
+  }
+
+  // 3. Execute only if needed
+  if (Object.keys(patch).length > 0) {
+    await transaction
+      .updateTable('Album')
+      .set(patch)
+      .where('artist', '=', album.artist)
+      .where('name', '=', album.name)
+      .execute();
+
+    return patch;
   }
 }
