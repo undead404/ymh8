@@ -17,8 +17,10 @@ export default function getFailHandler<T>(
     // writeFileSync('./error.json', JSON.stringify(error, null, 2));
     const lowercasedReason = job.failedReason?.toLowerCase() || '';
     if (
-      lowercasedReason.includes('rate') &&
-      lowercasedReason.includes('limit')
+      (lowercasedReason.includes('rate') &&
+        lowercasedReason.includes('limit')) ||
+      lowercasedReason.includes('429') ||
+      (lowercasedReason.includes('too') && lowercasedReason.includes('many'))
     ) {
       // Calculate delay (default to 60s if header missing)
       // Note: Retry-After is usually in seconds, BullMQ needs milliseconds

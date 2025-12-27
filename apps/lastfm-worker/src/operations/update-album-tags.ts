@@ -22,11 +22,11 @@ export default async function updateAlbumTags(
   return kysely.transaction().execute(async (transaction) => {
     try {
       let tags = await getAlbumTags(bareAlbum, job);
-      tags = normalizeTags(filterTags(tags));
+      tags = [...normalizeTags(filterTags(tags))];
       if (tags.length === 0) {
         await sleep(1100);
         tags = await getArtistTags(bareAlbum, job);
-        tags = normalizeTags(filterTags(tags));
+        tags = [...normalizeTags(filterTags(tags))];
       }
       const oldTags = await readAlbumTags(transaction, bareAlbum);
       // const oldTags = await readAlbumTags(bareAlbum);
@@ -39,18 +39,6 @@ export default async function updateAlbumTags(
       });
 
       if (tagsToRemove.length > 0) {
-        //   const sql = SQL`
-        // DELETE FROM "AlbumTag"
-        // WHERE "albumArtist" = ${bareAlbum.artist}
-        // AND "albumName" = ${bareAlbum.name}
-        // AND "tagName" IN (${SQL.glue(
-        //   tagsToRemove.map((tagToRemove) => SQL`${tagToRemove.tagName}`),
-        //   ', ',
-        // )})
-        // `;
-        // console.log(sql);
-
-        // await database.update(sql);
         await removeTagsFromAlbum(
           transaction,
           bareAlbum,
@@ -65,48 +53,18 @@ export default async function updateAlbumTags(
         await upsertAlbumTags(transaction, bareAlbum, tagsToUpdate);
       }
 
-      // for (const tag of tagsToUpdate) {
-      //   await database.update(
-      //     SQL`
-      //     INSERT INTO "Tag"("name")
-      //     VALUES (${tag.name})
-      //     ON CONFLICT ("name") DO NOTHING;
-      // `,
-      //     undefined,
-      //     false,
-      //   );
-      //   await database.update(SQL`
-      //     INSERT INTO "AlbumTag" (
-      //       "albumArtist",
-      //       "albumName",
-      //       "tagName",
-      //       "count"
-      //     )
-      //     VALUES (
-      //       ${bareAlbum.artist},
-      //       ${bareAlbum.name},
-      //       ${tag.name},
-      //       ${tag.count}
-      //     )
-      //     ON CONFLICT ("albumArtist", "albumName", "tagName")
-      //     DO UPDATE
-      //     SET "count" = ${tag.count}
-      // `);
-      // }
-      //   await database.update(SQL`
-      //   UPDATE "Album"
-      //   SET "tagsUpdatedAt" = NOW()
-      //   WHERE "artist" = ${bareAlbum.artist}
-      //   AND "name" = ${bareAlbum.name}
-      // `);
       await saveAlbumTagsUpdateSuccess(transaction, bareAlbum);
-      return Object.fromEntries(
-        tagsToUpdate.map(({ name, count }) => [name, count]),
-      );
+      return tagsToUpdate.length > 0
+        ? Object.fromEntries(
+            tagsToUpdate.map(({ name, count }) => [name, count]),
+          )
+        : {
+            status: 'no_update',
+          };
     } catch (error) {
       if (error instanceof Error && error.message.includes('Album not found')) {
         await hideAlbum(transaction, bareAlbum);
-        return;
+        return { status: 'not_found_in_api' };
       }
       throw error;
     }

@@ -5,10 +5,16 @@ export default function normalizeTags(tags: LastfmTag[]) {
   for (const tag of tags) {
     sumCount += tag.count;
   }
-  return tags.map((tag) => {
-    return {
-      count: Math.ceil((tag.count / sumCount) * 100),
-      name: tag.name.toLowerCase(),
-    };
-  });
+  const tagsMap = new Map<string, number>();
+  for (const tag of tags) {
+    const tagName = tag.name.toLowerCase();
+    // there are edge cases when a tag appears multiple times
+    const oldValue = tagsMap.get(tagName) || 0;
+    const newValue = Math.ceil((tag.count / sumCount) * 100);
+    tagsMap.set(tagName, oldValue + newValue);
+  }
+  return tagsMap.entries().map(([tagName, count]) => ({
+    count,
+    name: tagName,
+  }));
 }

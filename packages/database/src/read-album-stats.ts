@@ -3,20 +3,16 @@ import type { DB } from 'kysely-codegen';
 
 import type { BareAlbum } from '@ymh8/schemata';
 
-// const numberOfTracksReturnSchema = v.object({
-//   numberOfTracks: v.nullable(v.number()),
-// });
-
-export default async function readAlbumNumberOfTracks(
+export default async function readAlbumStats(
   transaction: Transaction<DB>,
   { artist, name }: BareAlbum,
-): Promise<number | null> {
+) {
   const data = await transaction
     .selectFrom('Album')
-    .select(['numberOfTracks'])
+    .select(['listeners', 'numberOfTracks', 'playcount'])
     .where('artist', '=', artist)
     .where('name', '=', name)
     .executeTakeFirstOrThrow();
 
-  return data.numberOfTracks;
+  return data;
 }
