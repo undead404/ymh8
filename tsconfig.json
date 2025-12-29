@@ -11,7 +11,8 @@
     { "path": "apps/internal-worker" },
     { "path": "apps/discogs-worker" },
     { "path": "apps/telegram-worker" },
-    { "path": "apps/llm-worker" }
+    { "path": "apps/llm-worker" },
+    { "path": "apps/itunes-worker" }
   ],
   "compilerOptions": {
     "baseUrl": ".",

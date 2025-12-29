@@ -2,6 +2,7 @@
   "dependencies": {
     "@ymh8/schemata": "workspace:^",
     "@ymh8/utils": "workspace:^",
+    "bottleneck": "~2.19.5",
     "bullmq": "~5.65.1",
     "ioredis": "~5.8.2"
   },
@@ -13,7 +14,7 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "build": "tsc -b",
-    "dev": "tsc -b --watch"
+    "build": "tsc -b tsconfig.build.json",
+    "dev": "tsc -b --watch tsconfig.json"
   }
 }

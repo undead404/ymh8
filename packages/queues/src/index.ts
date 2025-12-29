@@ -71,6 +71,19 @@ export const llmQueue = new Queue(QUEUES.LLM, {
   },
 });
 
+export const itunesQueue = new Queue(QUEUES.ITUNES, {
+  connection,
+  defaultJobOptions: {
+    attempts: 5,
+    backoff: {
+      type: 'exponential',
+      delay: 60_000,
+    },
+    removeOnComplete: 100, // Good practice to keep Redis clean
+    removeOnFail: 500, // Keep failed jobs for debugging
+  },
+});
+
 const QUEUE_SIZE_LIMIT = 1_000_000;
 
 export async function enqueue(
@@ -103,6 +116,7 @@ export function closeQueues() {
     lastfmQueue.close(),
     llmQueue.close(),
     telegramQueue.close(),
+    itunesQueue.close(),
   ]);
 }
 

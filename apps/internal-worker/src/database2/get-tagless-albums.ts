@@ -10,7 +10,7 @@ export default function getTaglessAlbums(
     .select([
       'artist',
       'name',
-      sql<number>`"Album"."playcount"::FLOAT * "Album"."listeners"`.as(
+      sql<number>`"Album"."playcount"::NUMERIC * "Album"."listeners"`.as(
         'weight',
       ),
     ])

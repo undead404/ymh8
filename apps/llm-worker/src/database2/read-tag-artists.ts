@@ -17,7 +17,7 @@ export default async function readTagArtists(
     .groupBy('Album.artist')
     .select([
       'Album.artist as name',
-      sql<number>`SUM(COALESCE("Album"."listeners"::FLOAT, 0) / 100 * "AlbumTag"."count")`.as(
+      sql<number>`SUM(COALESCE("Album"."listeners"::NUMERIC, 0) / 100 * "AlbumTag"."count")`.as(
         'weight',
       ),
     ])

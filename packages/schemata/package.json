@@ -10,7 +10,7 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "build": "tsc -b",
-    "dev": "tsc -b --watch"
+    "build": "tsc -b tsconfig.build.json",
+    "dev": "tsc -b --watch tsconfig.json"
   }
 }

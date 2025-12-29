@@ -84,8 +84,8 @@ describe('createLimitedWorker', () => {
           max: 1,
           duration: limitMs,
         },
-        maxStalledCount: 3,
-        stalledInterval: 1000,
+        lockDuration: 60_000,
+        maxStalledCount: 1,
       },
     );
   });

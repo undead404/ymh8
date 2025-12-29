@@ -22,9 +22,7 @@ import saveEmptyResult from '../database2/save-empty-result.js';
 import saveNoListChange from '../database2/save-no-list-change.js';
 import saveTagListSuccess from '../database2/save-tag-list-success.js';
 import updateTagListItem from '../database2/update-tag-list-item.js';
-
-// Helper to create unique signature
-const getSig = (artist: string, name: string) => `${artist} - ${name}`;
+import compareOldNewList from '../utils/compare-old-new-list.js';
 
 export default async function generateTagList(
   job: Job<unknown>,
@@ -68,61 +66,32 @@ export default async function generateTagList(
 
     // --- DB SYNC LOGIC ---
     const oldList = await getOldList(trx, bareTag.name);
-    let hasDatabaseChanges = false;
 
-    // We need strict sets for logic
-    const oldMap = new Map(
-      oldList.map((oldListItem) => [
-        getSig(oldListItem.albumArtist, oldListItem.albumName),
-        oldListItem,
-      ]),
+    const { changeList, toEnrich, toInsert, toUpdate } = compareOldNewList(
+      oldList,
+      tagListItems,
     );
-    const newMap = new Map(
-      tagListItems.map((newListItem) => [
-        getSig(newListItem.albumArtist, newListItem.albumName),
-        newListItem,
-      ]),
-    );
-
-    if (oldList.length === 0) {
-      await insertNewListItems(trx, bareTag.name, tagListItems);
-      hasDatabaseChanges = true;
-    } else {
-      for (const newItem of tagListItems) {
-        const oldSamePlaceAlbum = oldList.find(
-          ({ place }) => place === newItem.place,
-        );
-
-        if (!oldSamePlaceAlbum) {
-          // It's new to the DB
-          await insertNewListItems(trx, bareTag.name, [newItem]);
-          hasDatabaseChanges = true;
-        } else if (
-          newItem.albumArtist !== oldSamePlaceAlbum.albumArtist &&
-          newItem.albumName !== oldSamePlaceAlbum.albumName
-        ) {
-          // Position changed (we update DB regardless of whether it's "noise")
-          await updateTagListItem(trx, bareTag.name, newItem);
-          hasDatabaseChanges = true;
-        }
-      }
-    }
+    const hasDatabaseChanges = toInsert.length > 0 || toUpdate.length > 0;
 
     if (!hasDatabaseChanges) {
       await saveNoListChange(trx, bareTag.name);
       return { status: 'no_change' };
     }
 
+    if (toInsert.length > 0) {
+      await insertNewListItems(trx, bareTag.name, toInsert);
+    }
+    for (const itemToUpdate of toUpdate) {
+      await updateTagListItem(trx, bareTag.name, itemToUpdate);
+    }
+
     await saveTagListSuccess(trx, bareTag.name);
 
     // --- ENRICHMENT QUEUE (Only for truly new albums) ---
-    const trulyNewItems = tagListItems.filter(
-      (index) => !oldMap.has(getSig(index.albumArtist, index.albumName)),
-    );
 
-    if (trulyNewItems.length > 0) {
+    if (toEnrich.length > 0) {
       await Promise.all(
-        trulyNewItems.map((item) =>
+        toEnrich.map((item) =>
           enqueue(
             discogsQueue,
             'album:enrich',
@@ -135,113 +104,17 @@ export default async function generateTagList(
     }
 
     // --- SMART DIFF TELEGRAM LOGIC ---
-    // 1. Calculate dropouts (Left the chart)
-    const dropouts = oldList.filter(
-      (old) => !newMap.has(getSig(old.albumArtist, old.albumName)),
-    );
 
-    // 2. Build the output lines
+    // Build the output lines
     const lines: string[] = [];
 
-    // Iterate through the NEW list to maintain rank order
-    for (const [newIndex, newItem] of tagListItems.entries()) {
-      const sig = getSig(newItem.albumArtist, newItem.albumName);
-      const oldItem = oldMap.get(sig);
-
-      if (oldItem) {
-        // CASE: Existing Item - Did it move meaningfully?
-        const oldIndex = oldList.indexOf(oldItem);
-        if (oldIndex === -1) {
-          throw new Error('Makes no sense');
-        }
-        const oldNeighborAbove = oldList.at(oldIndex - 1);
-        const newNeighborAbove = tagListItems.at(newIndex - 1);
-        const oldNeighborBelow = oldList.at(oldIndex + 1);
-        const newNeighborBelow = tagListItems.at(newIndex + 1);
-        const oldAboveSig = getSig(
-          oldNeighborAbove?.albumArtist || '',
-          oldNeighborAbove?.albumName || '',
-        );
-        const newAboveSig = getSig(
-          newNeighborAbove?.albumArtist || '',
-          newNeighborAbove?.albumName || '',
-        );
-        const oldBelowSig = getSig(
-          oldNeighborBelow?.albumArtist || '',
-          oldNeighborBelow?.albumName || '',
-        );
-        const newBelowSig = getSig(
-          newNeighborBelow?.albumArtist || '',
-          newNeighborBelow?.albumName || '',
-        );
-        if (oldAboveSig === newAboveSig && oldBelowSig === newBelowSig) {
-          // await job.log(
-          //   'SKIPPED ' + getSig(newItem.albumArtist, newItem.albumName),
-          // );
-          if (lines.at(-1) !== '…') {
-            lines.push('…');
-          }
-          continue;
-        } else {
-          // if (oldAboveSig !== newAboveSig) {
-          //   await job.log(`Above: ${oldAboveSig} !== ${newAboveSig}`);
-          // }
-          // if (oldBelowSig !== newBelowSig) {
-          //   await job.log(`Below: ${oldBelowSig} !== ${newBelowSig}`);
-          // }
-        }
-
-        // // Calculate "Gravity":
-        // // How many items strictly ABOVE this item in the OLD list are now GONE?
-        // const deletionsAbove = oldList.filter(
-        //   (o) =>
-        //     o.place < oldItem.place &&
-        //     !newMap.has(getSig(o.albumArtist, o.albumName)),
-        // ).length;
-
-        // // How many items strictly ABOVE this item in the NEW list are NEW ENTRIES?
-        // const insertionsAbove = tagListItems.filter(
-        //   (n) =>
-        //     n.place < newItem.place &&
-        //     !oldMap.has(getSig(n.albumArtist, n.albumName)),
-        // ).length;
-
-        // // The "Expected" Rank if it just floated passively
-        // const expectedRank = oldItem.place + insertionsAbove - deletionsAbove;
-
-        // if (newItem.place !== expectedRank) {
-        //   // It defied gravity! It actively climbed or fell.
-        const diff = oldItem.place - newItem.place; // Positive = climbed up
-        if (diff === 0) {
-          continue;
-        }
-        const arrow = diff > 0 ? '⬆️' : '⬇️';
-        lines.push(
-          `${arrow} <b>#${newItem.place}</b> ${escapeForTelegram(`${newItem.albumArtist} - ${newItem.albumName}`)} (було #${oldItem.place})`,
-        );
-        // }
-        // If place === expectedRank, we hide it. It's just shifting naturally.
-      } else {
-        // CASE: New Entry
-        lines.push(
-          `➕ <b>#${newItem.place}</b> ${escapeForTelegram(`${newItem.albumArtist} - ${newItem.albumName}`)}`,
-        );
+    for (const changeListRecord of changeList) {
+      if (typeof changeListRecord === 'string') {
+        lines.push(changeListRecord);
+        continue;
       }
-    }
-
-    // 3. Append Dropouts at the bottom
-    if (dropouts.length > 0) {
-      lines.push('', '<b>📉 Вибули:</b>');
-      for (const d of dropouts) {
-        lines.push(
-          `❌ ${escapeForTelegram(`${d.albumArtist} - ${d.albumName}`)}`,
-        );
-      }
-    }
-
-    // If "lines" is empty (rare, but possible if only swaps happened in a way that matches shifts), fallback
-    if (lines.length === 0) {
-      lines.push('⚠️ Список змінився незначно.');
+      const [marker, place, albumSig] = changeListRecord;
+      lines.push(`${marker} <b>${place}</b> ${escapeForTelegram(albumSig)}`);
     }
 
     let text = `${oldList.length === 0 ? '🆕 Новий' : '🔄 Оновлений'} список для ${escapeForTelegram(bareTag.name)}:
@@ -250,10 +123,9 @@ export default async function generateTagList(
 
     for (const line of lines) {
       const nextText = `${text}\n${line}`;
-      if (nextText.length > 4095) {
-        if (text.length < 4094) {
-          text = `${text}\n…`;
-        }
+      if (nextText.length > 4090) {
+        text = `${text}\n…`;
+
         break;
       }
       text = nextText;

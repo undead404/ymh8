@@ -33,7 +33,7 @@ export default function getNewTagListItems(
               // The Weight Calculation
               // referencing (SELECT avg FROM "GlobalStats") simplifies the SQL string
               sql<number>`(
-                COALESCE("Album"."playcount", 0)::FLOAT
+                COALESCE("Album"."playcount", 0)::NUMERIC
                 / COALESCE(
                     CASE WHEN "Album"."numberOfTracks" = 0 THEN 1 ELSE "Album"."numberOfTracks" END,
                     (SELECT avg FROM "GlobalStats")
@@ -44,7 +44,7 @@ export default function getNewTagListItems(
                     (SELECT avg FROM "GlobalStats")
                 )
               )
-              * "AlbumTag"."count"::FLOAT / 100`.as('weight'),
+              * "AlbumTag"."count"::NUMERIC / 100`.as('weight'),
             ])
             .orderBy(sql`weight`, 'desc')
             .limit(100)

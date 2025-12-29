@@ -8,6 +8,7 @@ import {
   closeQueues,
   discogsQueue,
   internalQueue,
+  itunesQueue,
   lastfmQueue,
   llmQueue,
   telegramQueue,
@@ -27,6 +28,7 @@ const run = () => {
     queues: [
       new BullMQAdapter(discogsQueue),
       new BullMQAdapter(internalQueue),
+      new BullMQAdapter(itunesQueue),
       new BullMQAdapter(lastfmQueue),
       new BullMQAdapter(llmQueue),
       new BullMQAdapter(telegramQueue),

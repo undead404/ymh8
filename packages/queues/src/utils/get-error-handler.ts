@@ -15,6 +15,11 @@ export default function getErrorHandler(
     // We report all errors if postErrors is true.
     if (!postErrors) return;
 
+    if (error.message.includes('could not renew lock')) {
+      // I'm tired of this
+      return;
+    }
+
     // eslint-disable-next-line promise/no-promise-in-callback
     enqueue(
       telegramQueue,

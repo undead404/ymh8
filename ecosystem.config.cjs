@@ -17,6 +17,13 @@ module.exports = {
     {
       autorestart: true,
       instances: 1,
+      name: 'ymh-itunes-worker',
+      script: './apps/itunes-worker/dist/index.js',
+      wait_ready: true,
+    },
+    {
+      autorestart: true,
+      instances: 1,
       name: 'ymh-internal-worker',
       script: './apps/internal-worker/dist/index.js',
       wait_ready: true,

@@ -178,6 +178,46 @@ importers:
         specifier: ~5.9.3
         version: 5.9.3
 
+  apps/itunes-worker:
+    dependencies:
+      '@ymh8/database':
+        specifier: workspace:*
+        version: link:../../packages/database
+      '@ymh8/queues':
+        specifier: workspace:*
+        version: link:../../packages/queues
+      '@ymh8/schemata':
+        specifier: workspace:*
+        version: link:../../packages/schemata
+      '@ymh8/utils':
+        specifier: workspace:*
+        version: link:../../packages/utils
+      bullmq:
+        specifier: ~5.65.1
+        version: 5.65.1
+      dotenv:
+        specifier: ~17.2.3
+        version: 17.2.3
+      kysely:
+        specifier: 0.28.9
+        version: 0.28.9
+      valibot:
+        specifier: ~1.2.0
+        version: 1.2.0(typescript@5.9.3)
+    devDependencies:
+      '@types/node':
+        specifier: '22'
+        version: 22.19.1
+      kysely-codegen:
+        specifier: 0.19.0
+        version: 0.19.0(kysely@0.28.9)(pg@8.16.3)(typescript@5.9.3)
+      tsx:
+        specifier: ~4.21.0
+        version: 4.21.0
+      typescript:
+        specifier: ~5.9.3
+        version: 5.9.3
+
   apps/lastfm-worker:
     dependencies:
       '@ymh8/database':

@@ -36,7 +36,7 @@ export default async function readRelatedTags(
         'second_tag.tagName as name',
         // Complex intersection weight calculation
         sql<number>`SUM(
-        LEAST("first_tag"."count", "second_tag"."count")::FLOAT
+        LEAST("first_tag"."count", "second_tag"."count")::NUMERIC
         * COALESCE("Album"."listeners", 0)
       )`.as('weight'),
       ])
