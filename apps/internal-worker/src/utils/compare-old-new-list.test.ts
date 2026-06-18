@@ -97,10 +97,10 @@ describe('compareOldNewList', () => {
 
       const result = compareOldNewList(oldList, newList, 2);
 
-      const changeForB = result.changeList.find(
-        (c) => Array.isArray(c) && c[2].includes('B'),
-      );
-      expect(changeForB).toEqual(['➕', '2', getSig('B')]);
+      //   const changeForB = result.changeList.find(
+      //     (c) => Array.isArray(c) && c[2].includes('B'),
+      //   );
+      expect(result.changeList).toEqual([['➕', '2', getSig('B')]]);
     });
 
     it('reports standard Movement (⬆️ / ⬇️)', () => {
@@ -110,8 +110,10 @@ describe('compareOldNewList', () => {
 
       const result = compareOldNewList(oldList, newList, 2);
 
-      expect(result.changeList).toContainEqual(['⬆️', '1←2', getSig('B')]);
-      expect(result.changeList).toContainEqual(['⬇️', '2←1', getSig('A')]);
+      expect(result.changeList).toEqual([
+        ['⬆️', '1←2', getSig('B')],
+        ['⬇️', '2←1', getSig('A')],
+      ]);
     });
   });
 
@@ -139,15 +141,15 @@ describe('compareOldNewList', () => {
 
       const changes = result.changeList;
 
-      expect(changes[0]).toEqual(['➕', '1', getSig('X')]);
-      expect(changes[1]).toEqual(['⬇️', '2←1', getSig('A')]);
+      expect(changes).toEqual([
+        ['➕', '1', getSig('X')],
+        ['⬇️', '2←1', getSig('A')],
+        // We expect a single ellipsis following the first block mover
+        '…',
 
-      // We expect a single ellipsis following the first block mover
-      expect(changes[2]).toBe('…');
-
-      // Ensure we don't get double ellipses for C if the logic prevents duplicates
-      // Logic: if (changeList.at(-1) !== '…')
-      expect(changes).toHaveLength(3);
+        // Ensure we don't get double ellipses for C if the logic prevents duplicates
+        // Logic: if (changeList.at(-1) !== '…')
+      ]);
     });
 
     it('breaks the block move if the offset changes', () => {
@@ -167,20 +169,59 @@ describe('compareOldNewList', () => {
 
       const result = compareOldNewList(oldList, newList, 4);
 
-      const aChange = result.changeList.find(
-        (x) => Array.isArray(x) && x[2] === getSig('A'),
-      );
-      const bChange = result.changeList.find(
-        (x) => Array.isArray(x) && x[2] === getSig('B'),
-      );
+      expect(result.changeList).toEqual([
+        ['➕', '1', getSig('X')],
+        ['⬇️', '2←1', getSig('A')],
+        ['➕', '3', getSig('Filler')],
+        ['⬇️', '4←2', getSig('B')],
+      ]);
+    });
 
-      // Both should exist as distinct change entries
-      expect(aChange).toBeDefined();
-      expect(bChange).toBeDefined();
+    it('reports a sudden jump to the top', () => {
+      const oldList = [
+        createItem(1, 'A'),
+        createItem(2, 'B'),
+        createItem(3, 'C'),
+      ];
 
-      // Verify specific movement logic if desired
-      expect(aChange).toEqual(['⬇️', '2←1', getSig('A')]);
-      expect(bChange).toEqual(['⬇️', '4←2', getSig('B')]);
+      const newList = [
+        createItem(1, 'X'),
+        createItem(2, 'A'),
+        createItem(3, 'B'),
+        createItem(4, 'C'),
+      ];
+
+      const result = compareOldNewList(oldList, newList, 4);
+      expect(result.changeList).toEqual([
+        ['➕', '1', getSig('X')],
+        ['⬇️', '2←1', getSig('A')],
+        '…',
+      ]);
+    });
+    it('reports a sudden drop from the top', () => {
+      const oldList = [
+        createItem(1, 'A'),
+        createItem(2, 'B'),
+        createItem(3, 'C'),
+        createItem(4, 'D'),
+        createItem(5, 'E'),
+      ];
+
+      const newList = [
+        createItem(1, 'B'),
+        createItem(2, 'C'),
+        createItem(3, 'D'),
+        createItem(4, 'X'),
+        createItem(5, 'E'),
+      ];
+
+      const result = compareOldNewList(oldList, newList, 4);
+      expect(result.changeList).toEqual([
+        ['❌', '', getSig('A')],
+        ['⬆️', '1←2', getSig('B')],
+        '…',
+        ['➕', '4', getSig('X')],
+      ]);
     });
   });
 

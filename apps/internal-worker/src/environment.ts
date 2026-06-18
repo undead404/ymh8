@@ -6,6 +6,7 @@ import { nonEmptyString } from '@ymh8/schemata';
 dotenv.config();
 
 const environmentSchema = v.object({
+  CLOUDFLARE_API_TOKEN: nonEmptyString,
   DB: nonEmptyString,
   DB_USER: nonEmptyString,
   DB_PASSWORD: nonEmptyString,

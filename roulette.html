@@ -1,0 +1,529 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Російська Рулетка</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: 'Arial', sans-serif;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+      }
+
+      .container {
+        background: white;
+        border-radius: 15px;
+        box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+        max-width: 600px;
+        width: 100%;
+        padding: 30px;
+      }
+
+      h1 {
+        text-align: center;
+        color: #333;
+        margin-bottom: 30px;
+        font-size: 2em;
+      }
+
+      .section {
+        margin-bottom: 30px;
+      }
+
+      .form-group {
+        display: grid;
+        grid-template-columns: 2fr 1fr auto;
+        gap: 10px;
+        margin-bottom: 15px;
+        align-items: end;
+      }
+
+      .form-group input {
+        padding: 10px;
+        border: 2px solid #ddd;
+        border-radius: 8px;
+        font-size: 1em;
+        transition: border-color 0.3s;
+      }
+
+      .form-group input:focus {
+        outline: none;
+        border-color: #667eea;
+        box-shadow: 0 0 5px rgba(102, 126, 234, 0.3);
+      }
+
+      button {
+        padding: 10px 20px;
+        background: #667eea;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 1em;
+        font-weight: bold;
+        transition:
+          background 0.3s,
+          transform 0.2s;
+      }
+
+      button:hover {
+        background: #5568d3;
+        transform: translateY(-2px);
+      }
+
+      button:active {
+        transform: translateY(0);
+      }
+
+      .field-list {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      .field-item {
+        display: grid;
+        grid-template-columns: 1fr auto auto;
+        gap: 10px;
+        align-items: center;
+        padding: 15px;
+        background: #f5f5f5;
+        border-radius: 8px;
+        border-left: 4px solid #667eea;
+      }
+
+      .field-info {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+      }
+
+      .field-name {
+        font-weight: bold;
+        color: #333;
+        font-size: 1.1em;
+      }
+
+      .field-probability {
+        color: #666;
+        font-size: 0.9em;
+      }
+
+      .delete-btn {
+        padding: 8px 12px;
+        background: #ff6b6b;
+        font-size: 0.9em;
+      }
+
+      .delete-btn:hover {
+        background: #ee5a52;
+      }
+
+      .wheel-container {
+        display: flex;
+        justify-content: center;
+        margin: 30px 0;
+        position: relative;
+      }
+
+      .pointer {
+        position: absolute;
+        top: -15px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-top: 20px solid #ff6b6b;
+        z-index: 10;
+      }
+
+      #wheel {
+        width: 300px;
+        height: 300px;
+        filter: drop-shadow(0 10px 30px rgba(0, 0, 0, 0.2));
+      }
+
+      .play-section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+      }
+
+      .play-section button {
+        padding: 15px;
+        font-size: 1.1em;
+      }
+
+      #spinBtn:disabled {
+        background: #ccc;
+        cursor: not-allowed;
+      }
+
+      #result {
+        text-align: center;
+        margin-top: 20px;
+        padding: 20px;
+        background: #f0f0f0;
+        border-radius: 8px;
+        min-height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .result-text {
+        font-size: 1.5em;
+        font-weight: bold;
+        color: #333;
+      }
+
+      .result-text.winner {
+        color: #00d4ff;
+      }
+
+      .empty-message {
+        text-align: center;
+        color: #999;
+        padding: 20px;
+        font-style: italic;
+      }
+
+      @media (max-width: 600px) {
+        .form-group {
+          grid-template-columns: 1fr;
+        }
+
+        .play-section {
+          grid-template-columns: 1fr;
+        }
+
+        .container {
+          padding: 20px;
+        }
+
+        h1 {
+          font-size: 1.5em;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>🎰 Російська Рулетка</h1>
+
+      <div class="section">
+        <h2 style="margin-bottom: 15px; color: #333">Додати поле</h2>
+        <div class="form-group">
+          <input type="text" id="fieldName" placeholder="Назва поля" />
+          <input
+            type="number"
+            id="fieldProbability"
+            placeholder="Ймовірність"
+            min="0"
+            step="0.1"
+          />
+          <button onclick="addField()">Додати</button>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2 style="margin-bottom: 15px; color: #333">Поля рулетки</h2>
+        <div id="fieldList" class="field-list">
+          <div class="empty-message">Поля ще не додані</div>
+        </div>
+      </div>
+
+      <div class="wheel-container">
+        <div class="pointer"></div>
+        <svg
+          id="wheel"
+          viewBox="0 0 300 300"
+          xmlns="http://www.w3.org/2000/svg"
+        ></svg>
+      </div>
+
+      <div id="result"></div>
+
+      <div class="play-section">
+        <button onclick="clearAll()">Очистити все</button>
+        <button id="spinBtn" onclick="spin()" disabled>
+          🎯 Крутити рулетку
+        </button>
+      </div>
+    </div>
+
+    <script>
+      let fields = [];
+
+      function addField() {
+        const name = document.getElementById('fieldName').value.trim();
+        const probability = parseFloat(
+          document.getElementById('fieldProbability').value,
+        );
+
+        if (!name) {
+          alert('Будь ласка, введіть назву поля');
+          return;
+        }
+
+        if (isNaN(probability) || probability < 0) {
+          alert('Будь ласка, введіть коректну ймовірність (число ≥ 0)');
+          return;
+        }
+
+        fields.push({ id: Date.now(), name, probability });
+        updateUI();
+        document.getElementById('fieldName').value = '';
+        document.getElementById('fieldProbability').value = '';
+        document.getElementById('fieldName').focus();
+      }
+
+      function deleteField(id) {
+        fields = fields.filter((f) => f.id !== id);
+        updateUI();
+      }
+
+      function updateUI() {
+        updateFieldList();
+        updateWheel();
+        updatePlayButton();
+      }
+
+      function updateFieldList() {
+        const fieldList = document.getElementById('fieldList');
+
+        if (fields.length === 0) {
+          fieldList.innerHTML =
+            '<div class="empty-message">Поля ще не додані</div>';
+          return;
+        }
+
+        const totalProbability = fields.reduce(
+          (sum, f) => sum + f.probability,
+          0,
+        );
+
+        fieldList.innerHTML = fields
+          .map((field) => {
+            const percentage =
+              totalProbability > 0
+                ? ((field.probability / totalProbability) * 100).toFixed(1)
+                : 0;
+
+            return `
+                    <div class="field-item">
+                        <div class="field-info">
+                            <div class="field-name">${escapeHtml(field.name)}</div>
+                            <div class="field-probability">
+                                Ймовірність: ${field.probability} | ${percentage}%
+                            </div>
+                        </div>
+                        <button class="delete-btn" onclick="deleteField(${field.id})">Видалити</button>
+                    </div>
+                `;
+          })
+          .join('');
+      }
+
+      function updateWheel() {
+        const wheel = document.getElementById('wheel');
+        wheel.innerHTML = '';
+
+        if (fields.length === 0) return;
+
+        const totalProbability = fields.reduce(
+          (sum, f) => sum + f.probability,
+          0,
+        );
+        const colors = [
+          '#FF6B6B',
+          '#4ECDC4',
+          '#45B7D1',
+          '#FFA07A',
+          '#98D8C8',
+          '#F7DC6F',
+          '#BB8FCE',
+          '#85C1E2',
+          '#F8B88B',
+          '#52C7A1',
+          '#FF8B94',
+          '#FFDDC1',
+        ];
+
+        const radius = 150;
+        const centerX = 150;
+        const centerY = 150;
+        let currentAngle = -90; // Починаємо з верхівки
+
+        fields.forEach((field, index) => {
+          const angle = (field.probability / totalProbability) * 360;
+          const startAngle = currentAngle;
+          const endAngle = currentAngle + angle;
+
+          const color = colors[index % colors.length];
+
+          // Створюємо сектор як комбінацію двох ліній та дуги
+          const startRad = (startAngle * Math.PI) / 180;
+          const endRad = (endAngle * Math.PI) / 180;
+
+          const x1 = centerX + radius * Math.cos(startRad);
+          const y1 = centerY + radius * Math.sin(startRad);
+          const x2 = centerX + radius * Math.cos(endRad);
+          const y2 = centerY + radius * Math.sin(endRad);
+
+          const largeArc = angle > 180 ? 1 : 0;
+
+          const pathData = [
+            `M ${centerX} ${centerY}`,
+            `L ${x1} ${y1}`,
+            `A ${radius} ${radius} 0 ${largeArc} 1 ${x2} ${y2}`,
+            'Z',
+          ].join(' ');
+
+          const path = document.createElementNS(
+            'http://www.w3.org/2000/svg',
+            'path',
+          );
+          path.setAttribute('d', pathData);
+          path.setAttribute('fill', color);
+          path.setAttribute('stroke', 'white');
+          path.setAttribute('stroke-width', '2');
+
+          wheel.appendChild(path);
+
+          // Додаємо текст для назви поля
+          const textAngle = startAngle + angle / 2;
+          const textRad = (textAngle * Math.PI) / 180;
+          const textX = centerX + radius * 0.65 * Math.cos(textRad);
+          const textY = centerY + radius * 0.65 * Math.sin(textRad);
+
+          const text = document.createElementNS(
+            'http://www.w3.org/2000/svg',
+            'text',
+          );
+          text.setAttribute('x', textX);
+          text.setAttribute('y', textY);
+          text.setAttribute('text-anchor', 'middle');
+          text.setAttribute('dominant-baseline', 'middle');
+          text.setAttribute('fill', 'white');
+          text.setAttribute('font-weight', 'bold');
+          text.setAttribute('font-size', '12');
+          text.setAttribute('pointer-events', 'none');
+          text.setAttribute(
+            'transform',
+            `rotate(${textAngle} ${textX} ${textY})`,
+          );
+          text.textContent = field.name;
+
+          wheel.appendChild(text);
+
+          currentAngle = endAngle;
+        });
+
+        // Скидаємо трансформацію після перебудови
+        wheel.style.transform = 'rotate(0deg)';
+        wheel.style.transition = 'none';
+      }
+
+      function updatePlayButton() {
+        const spinBtn = document.getElementById('spinBtn');
+        spinBtn.disabled = fields.length === 0;
+      }
+
+      function spin() {
+        const spinBtn = document.getElementById('spinBtn');
+        spinBtn.disabled = true;
+
+        const wheel = document.getElementById('wheel');
+        const totalProbability = fields.reduce(
+          (sum, f) => sum + f.probability,
+          0,
+        );
+
+        // Генеруємо випадкове число від 0 до суми ймовірностей
+        let random = Math.random() * totalProbability;
+        let winner = null;
+        let winnerProbability = 0;
+        let winnerIndex = 0;
+        let cumulativeProbability = 0;
+
+        for (let i = 0; i < fields.length; i++) {
+          cumulativeProbability += fields[i].probability;
+          if (random <= cumulativeProbability) {
+            winner = fields[i];
+            winnerProbability = fields[i].probability;
+            winnerIndex = i;
+            break;
+          }
+        }
+
+        // Обчислюємо кут для виграшного поля
+        let targetRotation = 0;
+        for (let i = 0; i < winnerIndex; i++) {
+          targetRotation += (fields[i].probability / totalProbability) * 360;
+        }
+
+        // Додаємо кілька повних обертів
+        const fieldAngle = (winnerProbability / totalProbability) * 360;
+        const finalRotation =
+          360 * 5 + ((360 - targetRotation - fieldAngle / 2) % 360);
+
+        // Примусово запускаємо reflow для скидання стану анімації
+        wheel.offsetHeight;
+
+        wheel.style.transition =
+          'transform 3s cubic-bezier(0.25, 0.46, 0.45, 0.94)';
+        wheel.style.transform = `rotate(${finalRotation}deg)`;
+
+        setTimeout(() => {
+          const result = document.getElementById('result');
+          result.innerHTML = `<div class="result-text winner">🎉 ${escapeHtml(winner.name)} 🎉</div>`;
+          spinBtn.disabled = false;
+        }, 3000);
+      }
+
+      function clearAll() {
+        if (confirm('Ви впевнені, що хочете видалити всі поля?')) {
+          fields = [];
+          document.getElementById('result').innerHTML = '';
+          updateUI();
+          document.getElementById('fieldName').focus();
+        }
+      }
+
+      function escapeHtml(text) {
+        const div = document.createElement('div');
+        div.textContent = text;
+        return div.innerHTML;
+      }
+
+      // Обробка Enter для додавання поля
+      document
+        .getElementById('fieldProbability')
+        .addEventListener('keypress', function (e) {
+          if (e.key === 'Enter') addField();
+        });
+
+      document
+        .getElementById('fieldName')
+        .addEventListener('keypress', function (e) {
+          if (e.key === 'Enter') addField();
+        });
+
+      updateUI();
+    </script>
+  </body>
+</html>

@@ -15,7 +15,7 @@ export const tagTopAlbumsResponseSchema = v.object({
         }),
         image: v.array(
           v.object({
-            '#text': v.string(),
+            '#text': v.optional(v.string()),
           }),
         ),
         mbid: v.optional(nonEmptyString),

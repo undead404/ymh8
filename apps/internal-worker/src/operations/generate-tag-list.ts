@@ -13,11 +13,13 @@ import {
 } from '@ymh8/queues';
 import { bareTagSchema, type TelegramPost } from '@ymh8/schemata';
 import { escapeForTelegram, isAlbumNegligible } from '@ymh8/utils';
+import deleteList from '../database2/delete-list.js';
 import getNewTagListItems from '../database2/get-new-tag-list-items.js';
 import getOldList from '../database2/get-old-list.js';
 import getRecentTagCover from '../database2/get-recent-tag-cover.js';
 import kysely from '../database2/index.js';
 import insertNewListItems from '../database2/insert-new-list-items.js';
+import isTagListful from '../database2/is-tag-listful.js';
 import saveEmptyResult from '../database2/save-empty-result.js';
 import saveNoListChange from '../database2/save-no-list-change.js';
 import saveTagListSuccess from '../database2/save-tag-list-success.js';
@@ -40,6 +42,18 @@ export default async function generateTagList(
     if (tagListItems.length > 100) throw new Error('Too many tag list items');
     if (tagListItems.length < 100) {
       await saveEmptyResult(trx, bareTag.name);
+      await deleteList(trx, bareTag.name);
+
+      if (await isTagListful(trx, bareTag.name)) {
+        await enqueue(
+          telegramQueue,
+          'post',
+          `list-${bareTag.name}-${uuidv4()}`,
+          {
+            text: `Список тега ${bareTag.name} вилучається через нестачу релізів: лише ${tagListItems.length}`,
+          } satisfies TelegramPost,
+        );
+      }
       return { status: 'insufficient_items' };
     }
 
@@ -89,63 +103,65 @@ export default async function generateTagList(
 
     // --- ENRICHMENT QUEUE (Only for truly new albums) ---
 
-    if (toEnrich.length > 0) {
-      await Promise.all(
-        toEnrich.map((item) =>
-          enqueue(
-            discogsQueue,
-            'album:enrich',
-            `${item.albumArtist} - ${item.albumName}`,
-            { artist: item.albumArtist, name: item.albumName },
-            1,
-          ),
+    // if (toEnrich.length > 0) {
+    await Promise.all(
+      toEnrich.map((item) =>
+        enqueue(
+          discogsQueue,
+          'album:enrich',
+          `${item.albumArtist} - ${item.albumName}`,
+          { artist: item.albumArtist, name: item.albumName },
+          1,
         ),
-      );
-    }
+      ),
+    );
+    // }
 
     // --- SMART DIFF TELEGRAM LOGIC ---
 
-    // Build the output lines
-    const lines: string[] = [];
+    if (toEnrich.length > 0) {
+      // Build the output lines
+      const lines: string[] = [];
 
-    for (const changeListRecord of changeList) {
-      if (typeof changeListRecord === 'string') {
-        lines.push(changeListRecord);
-        continue;
+      for (const changeListRecord of changeList) {
+        if (typeof changeListRecord === 'string') {
+          lines.push(changeListRecord);
+          continue;
+        }
+        const [marker, place, albumSig] = changeListRecord;
+        lines.push(`${marker} <b>${place}</b> ${escapeForTelegram(albumSig)}`);
       }
-      const [marker, place, albumSig] = changeListRecord;
-      lines.push(`${marker} <b>${place}</b> ${escapeForTelegram(albumSig)}`);
-    }
 
-    let text = `${oldList.length === 0 ? '🆕 Новий' : '🔄 Оновлений'} список для ${escapeForTelegram(bareTag.name)}:
+      let text = `${oldList.length === 0 ? '🆕 Новий' : '🔄 Оновлений'} список для ${escapeForTelegram(bareTag.name)}:
 
 `;
 
-    for (const line of lines) {
-      const nextText = `${text}\n${line}`;
-      if (nextText.length > 4090) {
-        text = `${text}\n…`;
+      for (const line of lines) {
+        const nextText = `${text}\n${line}`;
+        if (nextText.length > 4090) {
+          text = `${text}\n…`;
 
-        break;
+          break;
+        }
+        text = nextText;
       }
-      text = nextText;
+
+      await enqueue(
+        telegramQueue,
+        'post',
+        `list-${bareTag.name}-${uuidv4()}`,
+        {
+          imageUrl:
+            text.length < 1024
+              ? await getRecentTagCover(trx, bareTag.name)
+              : undefined,
+          // Header
+          text,
+        } satisfies TelegramPost,
+        100,
+      );
     }
 
-    await enqueue(
-      telegramQueue,
-      'post',
-      `list-${bareTag.name}-${uuidv4()}`,
-      {
-        imageUrl:
-          text.length < 1024
-            ? await getRecentTagCover(trx, bareTag.name)
-            : undefined,
-        // Header
-        text,
-      } satisfies TelegramPost,
-      100,
-    );
-
-    return { status: 'success', changes: lines.length };
+    return { status: 'success', changes: changeList.length };
   });
 }

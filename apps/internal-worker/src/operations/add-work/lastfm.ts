@@ -1,17 +1,42 @@
-import type { Transaction } from 'kysely';
+import { type Transaction } from 'kysely';
 import type { DB } from 'kysely-codegen';
 
 import { enqueue, lastfmQueue } from '@ymh8/queues';
 import getOldStatsAlbums from '../../database2/get-old-stats-albums.js';
+import getOldStatsListfulAlbums from '../../database2/get-old-stats-listful-albums.js';
 import getOldTagsAlbums from '../../database2/get-old-tags-albums.js';
+import getOldTagsListfulAlbums from '../../database2/get-old-tags-listful-albums.js';
 import getStatlessAlbums from '../../database2/get-statless-albums.js';
 import getTaglessAlbums from '../../database2/get-tagless-albums.js';
 import getTagsToScrape from '../../database2/get-tags-to-scrape.js';
 import getQueueCapacity from '../../utils/get-queue-capacity.js';
 
 export default async function addLastfmWork(transaction: Transaction<DB>) {
-  let lastfmCapacity = await getQueueCapacity(lastfmQueue);
   const summary: Record<string, number> = {};
+  const oldStatsAlbums = await getOldStatsListfulAlbums(transaction);
+  for (const oldStatsAlbum of oldStatsAlbums) {
+    console.log(`${oldStatsAlbum.artist} - ${oldStatsAlbum.name}`);
+    await enqueue(
+      lastfmQueue,
+      'album:update:stats',
+      `${oldStatsAlbum.artist} - ${oldStatsAlbum.name}`,
+      oldStatsAlbum,
+    );
+  }
+  summary['album:update:stats'] = oldStatsAlbums.length;
+  const oldTagsAlbums = await getOldTagsListfulAlbums(transaction);
+
+  for (const oldTagsAlbum of oldTagsAlbums) {
+    console.log(`${oldTagsAlbum.artist} - ${oldTagsAlbum.name}`);
+    await enqueue(
+      lastfmQueue,
+      'album:update:tags',
+      `${oldTagsAlbum.artist} - ${oldTagsAlbum.name}`,
+      oldTagsAlbum,
+    );
+  }
+  summary['album:update:tags'] = oldTagsAlbums.length;
+  let lastfmCapacity = await getQueueCapacity(lastfmQueue);
   if (lastfmCapacity > 0) {
     const statlessAlbums = await getStatlessAlbums(transaction, lastfmCapacity);
     for (const statlessAlbum of statlessAlbums) {
@@ -24,7 +49,8 @@ export default async function addLastfmWork(transaction: Transaction<DB>) {
       );
     }
     lastfmCapacity -= statlessAlbums.length;
-    summary['album:update:stats'] = statlessAlbums.length;
+    summary['album:update:stats'] =
+      (summary['album:update:stats'] ?? 0) + statlessAlbums.length;
   }
   if (lastfmCapacity > 0) {
     const taglessAlbums = await getTaglessAlbums(transaction, lastfmCapacity);
@@ -38,7 +64,8 @@ export default async function addLastfmWork(transaction: Transaction<DB>) {
       );
     }
     lastfmCapacity -= taglessAlbums.length;
-    summary['album:update:tags'] = taglessAlbums.length;
+    summary['album:update:tags'] =
+      (summary['album:update:tags'] ?? 0) + taglessAlbums.length;
   }
   if (lastfmCapacity > 0) {
     const tagsToScrape = await getTagsToScrape(transaction, lastfmCapacity);

@@ -27,6 +27,7 @@ export default function getNewTagListItems(
             .where('Album.hidden', 'is not', true)
             .where('AlbumTag.count', '>', 0)
             .where('AlbumTag.tagName', '=', tagName)
+            // .where('Album.listeners', '>', 0)
             .select([
               'Album.artist',
               'Album.name',

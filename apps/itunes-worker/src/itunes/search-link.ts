@@ -10,6 +10,8 @@ const itunesSearchResponseSchema = v.object({
       collectionId: v.number(),
       collectionName: v.string(),
       collectionViewUrl: v.optional(v.string()),
+      releaseDate: v.optional(v.string()),
+      trackCount: v.optional(v.number()),
       trackName: v.optional(v.string()),
       trackNumber: v.optional(v.number()),
       trackTimeMillis: v.optional(v.number()),
@@ -32,6 +34,9 @@ export default async function searchLink(
   const url = `https://itunes.apple.com/search?${searchParameters}`;
   await logger.log(url);
   const searchResp = await fetch(url);
+  if (searchResp.status >= 400) {
+    throw new Error(`${searchResp.statusText}`);
+  }
   const searchData = (await searchResp.json()) as unknown;
 
   const validData = v.parse(itunesSearchResponseSchema, searchData);
@@ -57,6 +62,9 @@ export default async function searchLink(
   const lookupUrl = `https://itunes.apple.com/lookup?id=${albumMatch.collectionId}&entity=song`;
   await logger.log(lookupUrl);
   const lookupResp = await fetch(lookupUrl);
+  if (lookupResp.status >= 400) {
+    throw new Error(`${lookupResp.statusText}`);
+  }
   const lookupData = (await lookupResp.json()) as unknown;
   const validLookupData = v.parse(itunesSearchResponseSchema, lookupData);
 
@@ -104,5 +112,7 @@ export default async function searchLink(
   return {
     pageUrl: albumUrl,
     previewUrl: selectedTrack.previewUrl!,
+    releaseDate: albumMatch.releaseDate?.slice(0, 10),
+    trackCount: albumMatch.trackCount,
   };
 }

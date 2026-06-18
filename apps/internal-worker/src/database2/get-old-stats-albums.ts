@@ -11,7 +11,7 @@ export default function getOldStatsAlbums(
       .select(['artist', 'name'])
       .where('hidden', 'is not', true)
       // Use raw SQL for Postgres-specific time math
-      .where('statsUpdatedAt', '<', sql<Date>`NOW() - interval '1 month'`)
+      .where('statsUpdatedAt', '<', sql<Date>`NOW() - interval '3 months'`)
       .orderBy('statsUpdatedAt', 'asc')
       .limit(limit)
       .execute()

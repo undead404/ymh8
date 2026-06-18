@@ -23,7 +23,7 @@ const tagTopAlbumsResponseSchema = v.object({
         image: v.pipe(
           v.array(
             v.object({
-              '#text': v.string(),
+              '#text': v.optional(v.string()),
             }),
           ),
           v.transform((images) => images.filter(({ '#text': url }) => url)),

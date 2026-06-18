@@ -13,6 +13,7 @@ export default function getFailHandler<T>(
 ) {
   return (job: Job<T> | undefined, error: Error) => {
     console.error(job?.stacktrace);
+    console.error(queue.name, 'FAILURE', error);
     if (!job) return;
     // writeFileSync('./error.json', JSON.stringify(error, null, 2));
     const lowercasedReason = job.failedReason?.toLowerCase() || '';
@@ -25,7 +26,7 @@ export default function getFailHandler<T>(
       // Calculate delay (default to 60s if header missing)
       // Note: Retry-After is usually in seconds, BullMQ needs milliseconds
       // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access, @typescript-eslint/no-explicit-any
-      const retryAfterHeader = (error as any).response.headers[
+      const retryAfterHeader = (error as any).response?.headers[
         'retry-after'
       ] as string;
       const delayMs = retryAfterHeader

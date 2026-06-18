@@ -5,6 +5,7 @@ import * as v from 'valibot';
 import { enqueue, internalQueue, telegramQueue } from '@ymh8/queues';
 import { bareTagSchema, type TelegramPost } from '@ymh8/schemata';
 import kysely from '../database2/index.js';
+import isTagListful from '../database2/is-tag-listful.js';
 import saveAlbumScrapeSuccess from '../database2/save-tag-scrape-success.js';
 
 export default function finishTagScrape(job: Job<unknown>) {
@@ -13,10 +14,12 @@ export default function finishTagScrape(job: Job<unknown>) {
   return kysely.transaction().execute(async (trx) => {
     await saveAlbumScrapeSuccess(trx, bareTag.name);
 
-    const text = `Зібрано альбоми для тега ${bareTag.name}`;
-    await enqueue(telegramQueue, 'post', `list-${bareTag.name}-${uuidv4()}`, {
-      text,
-    } satisfies TelegramPost);
+    if (await isTagListful(trx, bareTag.name)) {
+      const text = `Зібрано альбоми для тега ${bareTag.name}`;
+      await enqueue(telegramQueue, 'post', `list-${bareTag.name}-${uuidv4()}`, {
+        text,
+      } satisfies TelegramPost);
+    }
 
     await enqueue(
       internalQueue,

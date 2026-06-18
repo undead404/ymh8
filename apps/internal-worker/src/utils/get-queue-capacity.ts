@@ -1,6 +1,6 @@
 import type { Queue } from 'bullmq';
 
-const FILLED_CAPACITY_LIMIT = 5000;
+const FILLED_CAPACITY_LIMIT = 2000;
 
 export default async function getQueueCapacity(
   queue: Queue<unknown>,

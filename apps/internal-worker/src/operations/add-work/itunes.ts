@@ -6,7 +6,7 @@ import getPreviewlessAlbums from '../../database2/get-previewless-albums.js';
 import getQueueCapacity from '../../utils/get-queue-capacity.js';
 
 export default async function addItunesWork(transaction: Transaction<DB>) {
-  let itunesCapacity = await getQueueCapacity(itunesQueue);
+  let itunesCapacity = await getQueueCapacity(itunesQueue, 3000);
   const summary: Record<string, number> = {};
   if (itunesCapacity > 0) {
     const previewlessAlbums = await getPreviewlessAlbums(

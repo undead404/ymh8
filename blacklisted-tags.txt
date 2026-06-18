@@ -509,6 +509,7 @@
 18null9
 18th
 18th c
+18th century
 18th century classical composer
 18th dye
 19 january
@@ -1253,6 +1254,7 @@
 21st century disco
 21st century folk
 21st century jazz
+21st century portuguese rock
 21st century rock
 21st circuitry
 21st ego
@@ -1600,6 +1602,7 @@
 37crew
 37crew production
 37ghost
+38 special
 380dread
 386 hardcore
 39femmes
@@ -2085,6 +2088,7 @@
 6ft chicken
 6gunzmuzik
 6ixth session
+6lack
 6life
 6music
 6one6
@@ -2198,6 +2202,7 @@
 7things
 7tracks
 7usa
+8 bit
 8 bit enough to happiness
 8 bit idm
 8 bit techno
@@ -2279,6 +2284,7 @@
 8am
 8ball
 8bi
+8bit
 8bit circus
 8bit cover
 8bit elock cathcing feeling
@@ -2632,6 +2638,7 @@ a history of now
 a home at the end of the world
 a hopeful melancholy
 a hovhaness
+a huge ever burning fire in the distance
 a is for atom
 a j kernis
 a jam
@@ -2967,6 +2974,7 @@ a varela
 a varnay
 a verdade
 a very murray christmas
+a very potter musical
 a very special christmas
 a very spidey christmas
 a very zadeh christmas
@@ -3164,6 +3172,7 @@ aaron sanders
 aaron schulman
 aaron schwartz
 aaron simpson
+aaron sprinkle
 aaron suess
 aaron summers
 aaron swartz
@@ -3289,6 +3298,7 @@ abe bram
 abe diddy
 abe natsumi
 abeastnence
+abeatc
 abecedarians
 abeer
 abel
@@ -3556,6 +3566,7 @@ abstract guitar
 abstract hh
 abstract hip
 abstract hip-hio
+abstract hip-hop
 abstract hop
 abstract house
 abstract industrial
@@ -3662,6 +3673,7 @@ acadian
 acadien
 acap
 acapela
+acapella
 acapella dark metal
 acapellas
 acapulco
@@ -3728,6 +3740,7 @@ accordo dei contrari
 accordoion
 accou
 accousmatic
+accoustic
 accoustic bass
 accoustic blues
 accoustic drumming
@@ -3892,6 +3905,7 @@ acidklezmer
 acidoni
 acidplanet
 acidulant
+acidworx
 acif folk
 aciieed like its 1989
 aciiied
@@ -3935,62 +3949,40 @@ acousitic
 acousric
 acoust
 acoustic
-acoustic altenative
-acoustic alternative rock
 acoustic ambient coustic beauty
 acoustic and melancholic
-acoustic ballad
 acoustic beatles
-acoustic bluegrass
 acoustic blues guitar
 acoustic blues mississippi delta
-acoustic blues rock
 acoustic brazilian guitar
 acoustic brazilian jazz guitar
 acoustic cafe
-acoustic chicago blues
-acoustic chill
 acoustic chillout bar
 acoustic christian
 acoustic christmas
 acoustic comedy
 acoustic concerts
 acoustic contemporary
-acoustic contemporary jazz
-acoustic country
 acoustic covers
-acoustic death metal
 acoustic demo version
 acoustic demos
 acoustic dental plaque punk
 acoustic disc
 acoustic disturbance
-acoustic doom
-acoustic doom metal
-acoustic drone
 acoustic drums
 acoustic duo
 acoustic eclecticism
 acoustic ecology
 acoustic eidolon
-acoustic electronic
 acoustic emoish
 acoustic ep
 acoustic experimentation
 acoustic feats
 acoustic fingerstyle
 acoustic firework
-acoustic folk fusion
-acoustic funk
-acoustic funky
-acoustic garage rock
 acoustic gem
-acoustic gothic
-acoustic groove
-acoustic grunge
 acoustic guitar
 acoustic guitar cover
-acoustic guitar folk
 acoustic guitar greats
 acoustic guitar instrumental
 acoustic guitar intrumental
@@ -3998,67 +3990,38 @@ acoustic guitar msuic
 acoustic guitar solo
 acoustic guitarist
 acoustic guitars
-acoustic hard rock
-acoustic hardcore
 acoustic harmony
 acoustic heaven
-acoustic hip-hop
 acoustic inde rock
-acoustic indie pop
-acoustic indie rock
 acoustic indie singer-songwriter folk
-acoustic industrial
 acoustic instruments
 acoustic jam
 acoustic jams
-acoustic jazz fusion
-acoustic jazz manouche
 acoustic live
 acoustic lo-fi
-acoustic lounge
 acoustic love
-acoustic memphis blues
-acoustic new wave
-acoustic noisecore
-acoustic oi
 acoustic orchestra
 acoustic phases
 acoustic plus
-acoustic post-punk
-acoustic post-rock
 acoustic post-soviet retrocore
-acoustic powerpop
 acoustic progressive
-acoustic punk rock
-acoustic rap
 acoustic rhythm piano
-acoustic rock reggae
 acoustic rok
-acoustic screamo
 acoustic screech
 acoustic session
 acoustic sessions
 acoustic sessions ep
 acoustic set
-acoustic shoegaze
 acoustic singer
 acoustic singer songwriter
 acoustic songwriters
 acoustic space
-acoustic stoner
-acoustic swing
-acoustic techno
 acoustic traditional
-acoustic trance
 acoustic trio
 acoustic underground full tracks
 acoustic unplugged live
-acoustic urban folk
 acoustic version
 acoustic volume two
-acoustic world
-acoustic worship
-acoustic-electronica
 acoustic-music
 acoustic-noise
 acoustic1
@@ -4150,9 +4113,11 @@ activistas
 activistas del amor
 activities
 activity
+actor
 actor rapper
 actors
 actos inexplicables
+actress
 actress singer
 actresses
 actriz
@@ -4469,6 +4434,7 @@ adont
 adoo
 adopcion
 adoption
+ador
 adora
 adorable beats
 adorable cover
@@ -4853,8 +4819,6 @@ african vocals
 african voice
 african-american folk art-form
 african-american middle class
-african-american roots
-african-american spiritual
 african-influenced
 africana
 africando
@@ -4923,6 +4887,7 @@ afrobea
 afrobeat electronica
 afrobeat fela style
 afrobeat mix
+afrobeats
 afrobit
 afrobthomilla
 afrocelt
@@ -4931,6 +4896,7 @@ afrocentric hip-hop
 afrocolombian
 afrocolombianidad
 afrocosmic
+afrocuban
 afrocuban chant
 afrocuban chants
 afrocuban congas
@@ -5078,6 +5044,7 @@ agat
 agata kristi
 agata stoinska
 agate
+agatha christie
 agatha harkness
 agatha lee monn
 agathocles
@@ -5802,6 +5769,7 @@ ala
 ala dos namorados
 ala jazz
 alaap
+alabama
 alabama greatest hits country
 alabama rock band
 alabama shakes
@@ -5940,6 +5908,8 @@ albacete
 alban berg quartet
 alban berg quartett
 alban berg string quartet
+albania
+albanian
 albanian eurovision entries
 albanian folk
 albanian male singers
@@ -7444,6 +7414,7 @@ alt ballad
 alt blues
 alt christmas
 alt contry
+alt country
 alt country rock
 alt countryq
 alt electronica
@@ -7601,6 +7572,7 @@ alternative benzyna
 alternative chillosophy
 alternative chillout experimental pop
 alternative christian
+alternative country
 alternative dark
 alternative dream pop shoegaze
 alternative dream rock
@@ -7613,6 +7585,7 @@ alternative gringe
 alternative grunge rock
 alternative guitar rock
 alternative healing modalities
+alternative hip-hop
 alternative history
 alternative holiday
 alternative independent
@@ -8015,6 +7988,7 @@ amazing tunes
 amazing vocal
 amazing vocal harmony
 amazing vocalist
+amazing voice
 amazing worship
 amazing-favourite
 amazingly amusing
@@ -8068,7 +8042,6 @@ ambicion
 ambidextrous
 ambie
 ambieant
-ambience
 ambience and sound
 ambience horror
 ambient 2010
@@ -8346,12 +8319,9 @@ american
 american 1980s
 american 1990s
 american accent
-american alternative rock
 american angels
 american anodyne
 american apparel rappers
-american art pop
-american art rock
 american author
 american authors
 american baby
@@ -8362,7 +8332,6 @@ american beauty actually
 american beauty american psycho
 american blues
 american british
-american brutal death metal
 american catharsis sux
 american clave
 american composer
@@ -8372,26 +8341,15 @@ american cowboy
 american cowboy single
 american cream team
 american desert
-american disco
 american distress
-american dnb
 american dogs in europe
 american doll posse
-american doom metal
 american dream
 american dreamers
-american dubstep
-american electro house
-american folk-indie
-american gabber
 american gangster
 american gigolo
 american girl
-american gospel
-american gothic
 american green
-american hard rock
-american hardstyle
 american heartbreak
 american heritage
 american hero
@@ -8400,23 +8358,16 @@ american history
 american homes
 american honey
 american horror story
-american horrorcore
-american house
 american i like
 american icon
 american idiot
-american idol
 american idol 12
 american idol 2008
 american idol 7
 american idol season 8
 american in paris
 american indian movement
-american indie folk
-american industrial
 american instruments
-american j-rock
-american jazz
 american juniors
 american keyboard player
 american kitsch
@@ -8432,51 +8383,32 @@ american music club
 american native
 american nightma
 american nightmare
-american opera
 american politics
-american polka
-american post-rock
-american power metal
 american primativism
 american primitive guitar
-american progressive rock
 american proud
 american psycho
-american rac
-american rap
 american rapper
-american raw black metal
 american reckoning
 american recordings
-american reggae
 american revolution
 american rhapsody
 american ride
-american rockabilly
-american screamo
 american series
 american sheriff
-american shoegaze
 american short hair cat
 american singer-songwriter
 american singer-songwriters
-american ska
 american soldier
 american songwriters
 american songwriting
-american soul
 american south
-american speed metal
 american standards
 american steel
-american techno
-american thrash metal
-american traditional
 american traditional ballads
 american traditional rock
 american trapstory x
 american underground
-american war metal
 american way
 american weekend
 american werewolf academy
@@ -8486,11 +8418,7 @@ american women
 american writer
 americana christmas
 americana motel
-americana noir
-americana singer-songwriter
 americana surreal
-americana-bluegrass
-americana-rock
 americanauk
 americanca
 americandj
@@ -9004,24 +8932,16 @@ anarchia
 anarchie
 anarchie und alltag
 anarchismus
-anarchist industrial
-anarchist punk
-anarchist rap
+anarchist
 anarchist thinker
 anarchists
 anarcho folk metal
-anarcho hardcore
-anarcho hip-hop
-anarcho post-punk
+anarcho punk
 anarcho-capitalist terror punxz
-anarcho-dub
 anarcho-glam
 anarcho-goth
-anarcho-pop
 anarcho-primitivism
-anarcho-rap
 anarcho-reggae-dub
-anarcho-ska
 anarcho-vegan
 anarchoi
 anarchy
@@ -9044,6 +8964,7 @@ anas
 anasheed
 anasol
 anasta
+anastacia
 anastasia mano
 anastasia nikiforova
 anastasia panchenko
@@ -9287,6 +9208,7 @@ andre vii
 andre x
 andre-ernest-modeste gretry
 andrea baroni
+andrea berg
 andrea bergabenteuer
 andrea botez
 andrea buffa
@@ -10014,6 +9936,7 @@ anna karenina
 anna kesper
 anna knows
 anna lang
+anna lee
 anna ma soeur anne
 anna magdalena bach
 anna margaret
@@ -10253,6 +10176,7 @@ anotraks
 anouar brahem
 anouk
 anoushka shankar
+anouska-artin
 anphonic
 anrilov
 ansage 8
@@ -10299,13 +10223,9 @@ anthax
 anthea
 anthem flow
 anthem for the year 2000
-anthem gabber
-anthem hardcore
-anthem house
 anthem lights
 anthem of the endless night
 anthem reggae
-anthem rock
 anthem trane
 anthemic dance
 anthemic instrumental
@@ -11492,6 +11412,7 @@ arequipa
 ares
 ares sem farejo
 areski
+aretha franklin
 aretha jazz
 arevisiterult
 arez
@@ -11517,6 +11438,7 @@ argentinean black metal
 argentinean folk
 argentinean folklore
 argentinia
+argentinian
 argentinian dungeon synth
 argentinian heavy metal
 argentinian power metal
@@ -11632,16 +11554,7 @@ arizona
 arizona amp and alternator
 arizona baby
 arizona band
-arizona country
-arizona folk
-arizona hardcore
-arizona hip hop
 arizona mafia
-arizona metal
-arizona metalcore
-arizona punk
-arizona rock
-arizona shred
 arizona smooth
 arizona tx
 arizonans
@@ -11738,6 +11651,7 @@ armee
 armen donelian
 armen van burren
 armenain jazz
+armenian
 armenian black metal
 armenian dance
 armenian duduk
@@ -11869,6 +11783,7 @@ arquivos recebidos
 arrakis
 arranged
 arrangement
+arranger
 arranges
 arranging
 arrangment
@@ -11941,7 +11856,6 @@ arson anthem
 arsonists
 arsonists get all the girls
 arsy
-art
 art
 art 4 planet
 art ambient
@@ -12037,6 +11951,7 @@ art-electro
 art-indie
 art-music
 art-nuvo
+art-rock
 art-screamo
 art001
 art002
@@ -12917,6 +12832,7 @@ atdi derivative
 ate
 ate entao
 ateena
+ateez
 atef et katana
 atef et ktana
 atef kahlaoui
@@ -12945,7 +12861,7 @@ athena
 athena asamiya
 athenes
 athenian
-athenian hardcore
+athens
 athens 4 elements
 athens greece
 athens in october
@@ -13054,69 +12970,17 @@ atmosphere metal
 atmosphere rock
 atmospheri
 atmospheric
-atmospheric ambient black metal
 atmospheric baile
 atmospheric beats
-atmospheric breakbeat
-atmospheric dance
+atmospheric black
 atmospheric dark
-atmospheric dark folk
-atmospheric darkwave
-atmospheric death doom
-atmospheric deathcore
-atmospheric depressive black metal
-atmospheric doom death metal
-atmospheric dream pop
-atmospheric drill and bass
-atmospheric drone
-atmospheric drum & bass
 atmospheric drum and base
-atmospheric drum n bass
-atmospheric dubstep
-atmospheric ebm
-atmospheric electronic
-atmospheric electronica
-atmospheric electronics
-atmospheric emocore
-atmospheric emotional electronica
 atmospheric experimental
-atmospheric extreme metal
-atmospheric folk metal
 atmospheric franco rock
-atmospheric funeral doom
-atmospheric funeral doom metal
-atmospheric glitch
-atmospheric gothic rock
-atmospheric hardcore
-atmospheric harsh noise
-atmospheric hip-hop
-atmospheric house
-atmospheric indie
-atmospheric jazz
 atmospheric keyboard
-atmospheric lounge
 atmospheric mayhem
-atmospheric melodic black metal
-atmospheric metalcore
 atmospheric nebydlo metal
-atmospheric oriental black metal
 atmospheric oriental sognametal
-atmospheric pagan dark metal
-atmospheric pagan metal
-atmospheric piano
-atmospheric post-black metal
-atmospheric post-rock
-atmospheric power metal
-atmospheric progressive death metal
-atmospheric progressive rock
-atmospheric raw black metal
-atmospheric ritual
-atmospheric romanian black metal
-atmospheric speedcore
-atmospheric symphonic dark ambient
-atmospheric technical death
-atmospheric technical deathcore
-atmospheric techno
 atmospherica
 atmospherical black metal
 atmosphericall
@@ -13714,21 +13578,9 @@ austrialian
 austrian
 austrian beatbox team champion 2009
 austrian death machine
-austrian death metal
 austrian eurovision entries
-austrian folk
-austrian hardcore
-austrian hip-hop
-austrian kabarett
-austrian melodic death metal
 austrian metal news
 austrian mundart
-austrian pop
-austrian punk
-austrian rap
-austrian reggae
-austrian speed metal
-austrian stoner rock
 austrinken
 austro pop rock
 austro-indie-rock
@@ -13940,6 +13792,7 @@ avant guard piano
 avant guava
 avant hard
 avant hip hop
+avant metal
 avant noir
 avant piano
 avant porn mekanik metal
@@ -13965,27 +13818,7 @@ avant-everything
 avant-fusion
 avant-gade
 avant-garde
-avant-garde blues
-avant-garde brutal technical death metal
-avant-garde chiptune glitchscape
 avant-garde circus
-avant-garde dance
-avant-garde dark jazz
-avant-garde darkwave
-avant-garde deathcore
-avant-garde electroacoustic
-avant-garde electronics
-avant-garde elektro
-avant-garde extreme metal
-avant-garde folk metal
-avant-garde french pop
-avant-garde funk carioca
-avant-garde hardcore
-avant-garde hardcore new-wave
-avant-garde heavy metal
-avant-garde indie
-avant-garde jazz pop
-avant-garde jazz techno
 avant-garde masterpieces
 avant-garde meta
 avant-garde opera
@@ -14055,6 +13888,7 @@ avantgarda
 avantgarde
 avantgarde ambient
 avantgarde and minimalism
+avantgarde black metal
 avantgarde classic
 avantgarde dark metal
 avantgarde dark neo classical
@@ -14388,6 +14222,7 @@ ayu trance 2
 ayuda
 ayudame a olvidar
 ayumi flop
+ayumi hamasaki
 ayumix
 ayuntamientodesevilla
 ayur
@@ -14396,6 +14231,7 @@ ayuverda
 aywasscreaming
 ayy
 ayy ladies
+ayy lmao
 ayyy
 ayyy the chrono trigger sample
 az ateliers du zoning
@@ -15226,6 +15062,7 @@ bahasa melayu
 bahashishi
 bahc
 bahh tee
+bahia
 bahia drums
 bahia rock
 bahiana
@@ -15336,6 +15173,7 @@ bakers club
 bakersfiel
 bakersfield
 bakersfield country
+bakersfield sound
 bakery allstars inc
 bakery tapes
 bakhtiari
@@ -15362,11 +15200,7 @@ balack metal
 balaclava
 balada
 balada gusttavo lima
-balada mexicana
 balada pop esp
-balada ranchera
-balada rock
-balada romantica
 balada romántica
 balada tenek
 baladas del rock
@@ -15773,6 +15607,7 @@ banditos
 bandits
 bando 54
 bando de dois
+bandoneon
 bandori
 bandraum
 bands i am or was in
@@ -15884,6 +15719,7 @@ banhu
 bani haykal
 banjarmasin
 banjer
+banjo
 banjo irish celtic
 banjo kazooie
 banjo loving fools
@@ -16571,6 +16407,7 @@ basso elettrico
 basso nova
 basso profondo
 basso profundo
+bassoverload
 bassscape
 bassss
 basstard
@@ -16855,6 +16692,7 @@ bbi ri bba bba
 bbihoc mo3ga
 bbk
 bbl
+bbl drizzy
 bbl1
 bbm baby
 bbm camp
@@ -17454,6 +17292,7 @@ bedpop
 bedre
 bedrock breaks
 bedrone
+bedroom
 bedroom angst
 bedroom beats
 bedroom black metal
@@ -17735,19 +17574,7 @@ belarus by
 belarus gay
 belarus rap
 belarusian
-belarusian ambient
-belarusian black metal
-belarusian electronic
-belarusian emo
-belarusian folk
-belarusian hardcore
-belarusian hip-hop
-belarusian pop
-belarusian post-metal
 belarusian postrock psychedelic
-belarusian rap
-belarusian screamo
-belarusian thrash metal
 belarusian underground
 belarusianband
 belarussian alternative
@@ -18529,6 +18356,7 @@ best
 best album
 best album ever
 best albums ever
+best of 2024
 best--chill
 best-band-ever
 best-of lo-fi
@@ -18855,6 +18683,7 @@ bfmv
 bfnk
 bfo
 bfplustrois
+bfr
 bfrg
 bfrr
 bfw recordings
@@ -18884,6 +18713,7 @@ bh-beres-hammond
 bhagavan das
 bhagavan sri sathya sai baba
 bhagwa
+bhagwant maan
 bhai daljit singh
 bhai ranjit singh
 bhairav
@@ -18947,6 +18777,7 @@ bibby
 bibel
 biber
 bibi
+bibi und tina
 bibiheg
 bible adventures
 bible audiobook
@@ -20965,6 +20796,7 @@ blow it out
 blow machine
 blow me away
 blow rock
+blow up hollywood
 blow your brainz out
 blow your mind
 blow your mind away
@@ -21221,6 +21053,7 @@ blues gospel
 blues greeks
 blues groove
 blues grunge
+blues guitar
 blues guitar greats
 blues guitar karlsruhe
 blues guitar women
@@ -21298,6 +21131,7 @@ blues vocal version
 blues vocalist
 blues-based rock
 blues-n-heavy
+blues-rock
 blues-rock 1980
 blues-rock band
 blues-rock in deutschland
@@ -21320,6 +21154,7 @@ bluesmakers
 bluesmotel
 bluesoul belles v4
 bluespraalma
+bluesrock
 bluesrockradiokarlsruhe
 bluess pop
 bluessound
@@ -21431,6 +21266,7 @@ bn in-store play
 bna
 bnat aissawa
 bncity
+bnd
 bnegao
 bnewent
 bng
@@ -21655,6 +21491,7 @@ bocaccio
 bocaiuva
 bocelli
 bocelli incanto
+bochka
 bochnia
 bocholt
 bockenheim
@@ -21831,6 +21668,7 @@ bolero ravel
 bolero tropical
 bolero-ranchero
 bolero2
+boleros
 boleros de america
 boleros inolvidables
 boleslaw woytowicz
@@ -22683,6 +22521,7 @@ boy-girl singing
 boy-girl vocals
 boy-muzik
 boyar mob posse
+boyband
 boybands
 boyce
 boycott
@@ -23019,6 +22858,7 @@ brasiledm
 brasileira
 brasileiras
 brasileirinho
+brasileirinhos
 brasileiro novo bom
 brasileiro viking black metal
 brasília
@@ -23559,6 +23399,7 @@ brian curtis
 brian david
 brian david hardin
 brian deck
+brian dewan
 brian doerksen
 brian doerner
 brian donahue
@@ -23788,6 +23629,7 @@ brioli
 brion
 brique technique
 brirfolk
+brisbane
 brisbane australia
 brisbane floods
 brisco
@@ -24203,6 +24045,7 @@ broward county rap
 brower
 brown bird
 brown eyed girl
+brown eyed girls
 brown girl in the ring
 brown music for pink people
 brown noise
@@ -24554,6 +24397,7 @@ bt and the 5ls
 bt express
 bt jes
 bt5
+bta
 btbam
 btc
 btcc
@@ -24576,7 +24420,6 @@ bto
 btr
 btr moscow
 btr526
-bts
 bts
 bts buter
 bts content
@@ -24902,6 +24745,7 @@ bulgaaras
 bulgaars
 bulgar
 bulgar folk metal
+bulgaria
 bulgaria amore
 bulgarian
 bulgarian blues
@@ -25261,6 +25105,7 @@ busting through
 bustle
 busts
 busty
+busty dusty
 busty wolter
 busy
 busy day in the miniature village
@@ -25584,6 +25429,7 @@ c barber
 c barocco
 c bartkowski
 c bley
+c boswell
 c bott
 c bozulich
 c buarque
@@ -25963,6 +25809,7 @@ cajun
 cajun dance
 cajun folk
 cajun zydeco
+cake
 cake and candles
 cakeflap
 cakes
@@ -26311,6 +26158,7 @@ camobear
 camomille
 camoril
 camouf
+camouflage
 camouflage cover
 camouflarge
 camp lo
@@ -26707,6 +26555,7 @@ cantautrice italiana
 cantautrici
 cantautrici italiane
 canteca de macao
+canterbury
 canterbury prog
 canterbury scaene
 canti anarchici
@@ -26742,6 +26591,7 @@ canton jones
 canton spirituals
 canton-pop
 canton-rock
+cantonese
 cantonese 2005
 cantonese pop
 cantonese rap
@@ -29409,6 +29259,7 @@ chemistreset
 chemistry lab recordings
 chemistry-x
 chemists
+chemnitz
 chemo
 chemo castronovo
 chemodan clan rap
@@ -29577,6 +29428,7 @@ chiarolini
 chiasm
 chiba
 chibo chh cologne-hiphop
+chic
 chic callas
 chic channel
 chic corea
@@ -29704,6 +29556,7 @@ chil chil
 chil trap
 chil-pop
 chilaxing
+child
 child abuse
 child ballads
 child bands
@@ -29751,6 +29604,7 @@ children of the revolution
 children of the sun
 children of the zone
 children of thoreau
+children s-childrens
 children zombie
 children-s literature
 childrens
@@ -29847,6 +29701,7 @@ chill wav
 chill witch
 chill with me
 chill work
+chill-out
 chill-out fan
 chill101
 chill906
@@ -30591,6 +30446,7 @@ chris trout
 chris tsangarides produced
 chris volz
 chris vor dem boss
+chris vrenna
 chris walla
 chris warner
 chris watson
@@ -31799,6 +31655,7 @@ classic goth
 classic greek rock
 classic grindcore
 classic hawaiian
+classic heavy metal
 classic hip hip
 classic hits
 classic hits jim croche
@@ -31809,6 +31666,7 @@ classic idm
 classic indie
 classic industrial
 classic industrial for me
+classic jazz
 classic jo stafford
 classic kathleen battle
 classic korean pop
@@ -31816,6 +31674,7 @@ classic literature
 classic lounge chevy martin
 classic mash
 classic melodic hard rock
+classic metal
 classic mixtape
 classic modern rock
 classic movie
@@ -31829,11 +31688,13 @@ classic pony
 classic pop rock
 classic progressive rock
 classic psychodelic
+classic punk
 classic punk rock
 classic pusha t
 classic rave
 classic reggae
 classic reggie
+classic rock
 classic rock 50s
 classic rock and roll
 classic rock countdown
@@ -31852,6 +31713,7 @@ classic seventies
 classic soft rock
 classic sole
 classic sonic
+classic soul
 classic soul and funk
 classic southern
 classic space garage lo-fi rock
@@ -32954,6 +32816,7 @@ cold tired and hungry
 cold trip
 cold war
 cold war vault
+cold wave
 cold wave electro
 cold wave electro pop
 cold wave pop
@@ -33090,6 +32953,7 @@ collection or
 collectionjazzinparis
 collections coldplay
 collections of colonies of bees
+collective
 collective explosions
 collective resonance
 collective-zine
@@ -33171,6 +33035,7 @@ colombia musica
 colombia rap
 colombia varios
 colombiametal
+colombian
 colombian acid jazz
 colombian blasting brutal death
 colombian blasting collision
@@ -33691,6 +33556,7 @@ comprovisation
 comps
 comptemporary
 comptines
+compton
 compton av
 compton ca
 compulation electro
@@ -33931,6 +33797,7 @@ congelador
 congenial
 congleton
 conglomerate
+congo
 congo guitar
 congo rumba
 congo yambumba
@@ -34039,6 +33906,7 @@ conscious
 conscious content
 conscious dance
 conscious ep
+conscious hip-hop
 conscious pop
 conscious ragga 3
 conscious rollin roots reggae
@@ -34587,6 +34455,7 @@ coracao
 coralie clement
 coraline
 coramao
+coran
 coranic psalmody
 corazon anestesiado
 corazon apasionado
@@ -35125,6 +34994,7 @@ country-honkytonkin
 country-ish
 country-no pop
 country-punk
+country-rock
 country2
 countryfication
 countryfied
@@ -35293,6 +35163,7 @@ cowhat bg
 cowhat bob
 cowhat cal
 cowhat can
+cowhat fav
 cowhat old timey
 cowhat superalbums
 cowhat supertunes
@@ -35330,6 +35201,7 @@ cpbra
 cpc
 cpe bach
 cpitt
+cpop
 cpop album of the year
 cpop jay chou fav
 cpr
@@ -35785,6 +35657,7 @@ crimethinc
 criminal damage
 criminal hardcore
 criminally slept on
+criminally underrated
 criminial
 crims
 crimson chilly
@@ -35806,6 +35679,7 @@ crip
 crip hop
 crippin
 cripple creek
+crippled dick hot wax
 crippled fingers
 cripplefunk
 cripptic
@@ -35954,6 +35828,7 @@ cromo
 cromosom
 croners
 cronic
+cronica
 cronicas de barrio
 cronicas de un laberinto
 cronicas letales i
@@ -35976,6 +35851,7 @@ crookid
 crooklyfe
 crooks
 crooks on tape
+crooner
 crooner rock
 crooner xmas
 croosh jams
@@ -36306,7 +36182,6 @@ cshorter
 csi
 csny
 cso
-cso
 csound
 cspansuperman
 cstains
@@ -36329,6 +36204,7 @@ cthulhu metal
 cthulhu rock
 cthulhucore
 cthulu
+cti recording
 cti-jazz
 ctmdt
 ctn
@@ -36998,6 +36874,7 @@ czech prog
 czech punk
 czech punk rock
 czech rep
+czech republic
 czech repuplic
 czech singer
 czech ska
@@ -37005,6 +36882,7 @@ czech speed metal
 czech thrash
 czech thrash metal
 czech underground
+czechia
 czechian
 czechian underground
 czecholdies
@@ -37148,11 +37026,6 @@ d yukawa
 d--soul
 d-a-edit
 d-and-s recording
-d-beat black metal
-d-beat crust
-d-beat crust punk
-d-beat death metal
-d-beat punk
 d-beat tuga
 d-blunt
 d-cage
@@ -37443,6 +37316,7 @@ daffodil day
 daforce
 daforce dawg
 daforce dog
+daft
 daft punk
 daft punk aerodynamic
 daft punk harder better faster stronger
@@ -37886,9 +37760,12 @@ dance opera
 dance or die
 dance orientale
 dance ou morra
+dance pop
 dance pop rock
+dance punk
 dance remix techno
 dance rnb
+dance rock
 dance score
 dance street
 dance suite
@@ -38667,10 +38544,12 @@ dark poetry
 dark poo
 dark pop crooner
 dark pressure
+dark psy
 dark psy fundamentralist
 dark psy psychedelic trance darkness
 dark psyche
 dark psychedelic madness
+dark psytrance
 dark ritual musick
 dark roses
 dark scene
@@ -38697,6 +38576,7 @@ dark stuff
 dark symphonic
 dark symphonic metal
 dark symphonies
+dark synth
 dark synthesiser
 dark synths
 dark system
@@ -38717,6 +38597,7 @@ dark vocal jazz
 dark vocals with piano
 dark voice
 dark washed overlays
+dark wave
 dark winter
 dark wizard rock
 dark world
@@ -39521,6 +39402,7 @@ day view owl bum
 day-mar
 day-shawn
 day26
+day6
 daya
 dayak
 dayannehenrique
@@ -39625,6 +39507,7 @@ dbrax
 dbrown
 dbs
 dbsg
+dbsk
 dbsk-tvxq
 dbsm
 dbstf
@@ -40138,6 +40021,7 @@ death synthpop
 death techno
 death thrash black
 death thrash grindcore metal
+death thrash metal
 death thrash primitivo
 death thrash sweden
 death threat
@@ -40159,6 +40043,7 @@ death xpress productionz
 death-black-thrash metal
 death-calculus
 death-doom
+death-doom metal
 death-doom-black
 death-doom-folk metal
 death-doom-gothic metal
@@ -40274,6 +40159,7 @@ debuet
 debug
 debunk
 debussey
+debussy
 debussy playlist
 debussy preludes
 debut
@@ -41336,7 +41222,6 @@ dentiste
 dentistry
 dentro
 denver
-denver
 denver bands
 denver bon
 denver clayton moore jr
@@ -42064,6 +41949,7 @@ deutsche die man sich antuen kann
 deutsche eiche
 deutsche electronic
 deutsche gospelsongs
+deutsche grammophon
 deutsche harmonia mundi
 deutsche heavy metal
 deutsche interpreten
@@ -42122,6 +42008,7 @@ deutschlands beste
 deutschm
 deutschra
 deutschrapper
+deutschsprachig
 deutschsprachig und grandios
 deutschsprachiger blues
 deutschsprachiger metal
@@ -42354,6 +42241,7 @@ dharma
 dharma talks
 dharmanera remix
 dharmatma
+dharmik
 dhc
 dhefarubadha
 dherranz
@@ -43154,6 +43042,7 @@ dinah jane
 dinah jane 1 ep
 dinah shore
 dinah shore sings lthe great standards
+dinah washington
 dinah-jane hansen
 dinamarca
 dinamita
@@ -43768,6 +43657,7 @@ disrhythmia
 disrupt
 disrupters
 disruptive
+diss
 diss company
 diss na rzad
 diss tape
@@ -45538,6 +45428,7 @@ dominican rap
 dominican rapublic
 dominican reggaeton
 dominican repiblic
+dominican republic
 dominican rock
 dominicana
 dominicanos
@@ -45842,6 +45733,7 @@ doo doo doot
 doo punk
 doo rag
 doo wap
+doo wop
 doo wop dreamer
 doo wopp
 doo-wop punk
@@ -45862,7 +45754,6 @@ doognad
 dook
 dooker
 dookie
-doom
 doom
 doom 2
 doom atmospheric
@@ -46815,6 +46706,7 @@ dreammy
 dreammy catchy pop
 dreamnoise
 dreamnote
+dreampop
 dreampop folk
 dreampop-shoegaze-ethereal
 dreampopinstrumental
@@ -46848,6 +46740,7 @@ dreamtime
 dreamtone
 dreamtronica
 dreamtwinz
+dreamville
 dreamway
 dreamweapon
 dreamweaver
@@ -47068,6 +46961,7 @@ driz
 drizstik
 drizzo man
 drizzy
+drjazzmrfunkmusic
 drk
 drlng
 drmjnky
@@ -47983,9 +47877,11 @@ dungeon synth 2018
 dungeon synth 2019
 dungeon synth with vocals
 dungeon techno
+dungeon-synth
 dungeonmasters guide
 dungeons
 dungeonstep
+dungeonsynth
 dungeonsynth-best
 dunham
 dunia
@@ -48492,6 +48388,7 @@ e floyd
 e forsberg
 e fullman
 e geppert
+e glennie
 e green
 e hooker
 e hurd
@@ -48608,6 +48505,7 @@ ea games
 ea ski
 ea trax
 ea6
+ea80
 each tick a tock
 each time
 each time you break my heart
@@ -48720,6 +48618,7 @@ early jamaica
 early late twenties
 early learning
 early london days
+early metal
 early mix
 early modern
 early modernism
@@ -48842,6 +48741,7 @@ east coast
 east coast classicz
 east coast ghost
 east coast hardcore
+east coast hip-hop
 east coast oi fest 2008
 east coast rock
 east coast techno
@@ -49260,6 +49160,7 @@ ecw
 ed afonso
 ed amann
 ed ames
+ed banger
 ed bangers
 ed blackwell
 ed castle
@@ -49748,7 +49649,9 @@ egrem
 egret
 egrojj
 eguana
+egypt
 egypt techno
+egyptian
 egyptian ambient
 egyptian belly dance
 egyptian classical
@@ -50567,6 +50470,7 @@ electro noise glitch
 electro outrun
 electro party
 electro phonic noise
+electro pop
 electro pop disco
 electro pop fun
 electro pop mexico
@@ -50599,6 +50503,7 @@ electro trash undone
 electro vocal
 electro war
 electro-accoustic
+electro-acoustic
 electro-acoustic composition
 electro-apocalyptic
 electro-arc
@@ -50633,6 +50538,7 @@ electro-noise rock
 electro-novel
 electro-orchestral
 electro-organic
+electro-pop
 electro-pop-house-whatever
 electro-post-punk
 electro-psychedelic
@@ -51856,6 +51762,7 @@ emo movie nerds
 emo nu metal
 emo phonk
 emo plugg
+emo pop
 emo post-hardcore
 emo prog
 emo punk rock
@@ -51864,6 +51771,7 @@ emo screamo
 emo side project
 emo trap rap
 emo trash
+emo violence
 emo weed
 emo world
 emo-crossover
@@ -51871,6 +51779,7 @@ emo-electro
 emo-gothic
 emo-hlopci
 emo-oi
+emo-pop
 emo2k15
 emoboy
 emocion
@@ -51907,6 +51816,7 @@ emotional dark metal
 emotional deep dive
 emotional drift
 emotional electronica
+emotional hardcore
 emotional hardcore indie rock
 emotional hip-hop
 emotional hurt
@@ -51933,6 +51843,7 @@ emotionnel
 emotions original mix
 emotiquon
 emotive bytes for nerdy people
+emotive hardcore
 emotive shitcore
 emotive vocals
 emotive yellcore
@@ -52999,6 +52910,7 @@ er music record ltd
 er peggio
 er1
 era dos mortos
+era istrefi
 eradicate
 eraefi
 eraf
@@ -53677,6 +53589,7 @@ essie mae brooks
 esso
 essy listening
 est 1996
+est 4 life
 est coast rap
 esta
 esta es mi ciudad
@@ -54185,6 +54098,7 @@ euromaidan
 euronymous
 euroopa 3
 europ
+europa
 europa naftowa
 europa symphony
 europachorakademie
@@ -54896,6 +54810,7 @@ exhibition anthem
 exhilarating
 exhorder
 exhuberante
+exhumator
 exhume
 exhumed
 exid
@@ -54956,10 +54871,13 @@ exmortus
 exmouth
 exnfox
 exnn
+exo
 exo cbx
 exo moda
+exo-k
 exo-k exo-m
 exo-l
+exo-m
 exo-m exo-k
 exocet
 exodo y poesia
@@ -55128,6 +55046,7 @@ experimental guitar sound
 experimental heavy metal
 experimental hip hip
 experimental hip hop electronica
+experimental hip-hop
 experimental hip-hop hip hop
 experimental hop
 experimental house
@@ -56640,6 +56559,7 @@ fats kaplin
 fats waller the 1935 transcriptions
 fatso bones
 fatt father
+fatter than albert
 fattest hits
 fattie
 fatto
@@ -56699,6 +56619,7 @@ fav2
 fav2011
 fav2012
 fav2013
+fav888
 fave bands
 fave blues
 fave fave fave
@@ -57254,7 +57175,6 @@ female female
 female folk
 female folk rock
 female folksy
-female french pop
 female front metal
 female fronte metal
 female fronted
@@ -57454,7 +57374,6 @@ femi
 femi kuti remixed
 femicide
 femida
-feminejo
 feminicidio
 feminine dream warrior
 feminine mystique
@@ -57505,6 +57424,7 @@ fencewalker
 fender jaguar
 fender jazzbass
 fender precision bass
+fender rhodes
 fender rhodes piano
 fender rodes
 fender strat
@@ -57543,7 +57463,6 @@ fer ferrari
 fer sure
 fer00
 ferah
-feral black metal
 feral conservative
 feral disfigurement
 feral hearts
@@ -57762,6 +57681,7 @@ fever days
 fever dream
 fever live
 fever marlene
+fever ray
 feverbell studios
 feverish
 feverray
@@ -58656,6 +58576,7 @@ fistrogrind
 fistt
 fistula
 fisz emade
+fit
 fit for a king
 fit sound
 fita
@@ -59214,6 +59135,7 @@ florian meindl
 florian steffen
 florianopolis
 floricienta
+florida
 florida beach club
 florida bebidas
 florida boys
@@ -59459,6 +59381,7 @@ fms
 fmx
 fnac
 fnac music dance division
+fnc entertainment
 fnessnej
 fnk fancy
 fnm
@@ -59640,7 +59563,6 @@ folk metal en espanol
 folk metal instrumental
 folk metal progresivo
 folk metal psychedelic
-folk metalcore
 folk metall
 folk museum
 folk music from hackney
@@ -59723,11 +59645,13 @@ folk-folk-punk
 folk-gaze
 folk-inspired
 folk-medieval
+folk-metal
 folk-n-ethnic
 folk-noise
 folk-post-rock
 folk-prog and neofolk
 folk-raggie
+folk-rock
 folk-rock brest
 folk-rock peppermint
 folk-rock-heavy
@@ -60128,6 +60052,7 @@ formentera
 former ag geige
 former fat boys
 former ghosts
+former soviet union
 former tenimyu star
 former utopia
 former wife of jeff young
@@ -61230,35 +61155,24 @@ french
 french 70s
 french 80s
 french accordion
-french alternative rock
-french art pop
 french author
 french billie holiday
-french blues
 french bm
 french boogie
 french cafe
 french canadian
 french caribbean sound
-french celtic rock
 french checkout
 french cheese
 french classic
-french classical
 french coast
-french coldwave
 french connection
 french cook
-french crunk
 french debussy
 french dirty
-french dirty south
 french dream
 french duo
 french electro-house-etc
-french electronic
-french electronica
-french emo
 french english
 french favs
 french female bohemian
@@ -61266,73 +61180,45 @@ french female vocalists
 french filter disco
 french fries
 french fucking
-french g-funk
 french gothic
-french grunge
 french happiness
 french harp
+french hip-hop
 french horn solo
 french horns
 french humour
-french indie folk
-french indie pop
-french indie rock
-french jazz movement
 french kicks
 french label
 french language
-french lounge
 french male singers
 french male vocalists
 french manucure
-french melodic metal
-french melodic punk
 french melodie
 french merde
-french metal
-french metalcore
 french montona
 french movie
 french movies
 french musicals
-french neo-soul
 french netlabel
-french new wave
-french noise
-french nsbm
-french oi
 french olive tree
 french polynesia
-french pop punk
 french pop vocalist
-french post grunge
-french post-rock
-french progrock
 french psyche
-french punk rock
 french quarters
 french quebecois
-french reggae
 french retro
 french riviera
 french rock scene
 french romantic composers
 french sex
 french sexy
-french singer-songwriter
 french singers
-french ska
-french ska punk
 french skinhead
 french smell
 french sounds
 french southern territories
 french spoken words
 french suites
-french techno
-french thrash metal
-french trap
-french urban pop
 french vocal
 french vocalist
 french voices
@@ -61346,12 +61232,6 @@ frenchipcore
 frenchkiss
 frenchm
 frenchmusic
-frenchore
-frenchstyle
-frenchtastic
-frenchtek
-frenchtro
-frenchwave
 frenchysfavorites
 frenchysresearch
 frends
@@ -61893,6 +61773,7 @@ fuffi
 fug
 fuga
 fuge
+fugees
 fugitive
 fugly
 fugs
@@ -61983,10 +61864,12 @@ full pupp
 full script
 full throttle
 full time hobby
+full track
 full tracks
 full-album
 full-bore skronk
 full-length tracks
+full-on
 full-on psy
 full-source
 full2
@@ -62003,6 +61886,7 @@ fullmetal alchemist encerramentos
 fullmetal alchemist filmes
 fullmetall alchemist
 fullness
+fullon
 fullon full
 fullon goa
 fullstream
@@ -62348,6 +62232,7 @@ funkyrockingsoul
 funkystyl
 funkz
 funneral
+funniest band name ever
 funniest shit ever
 funnoise
 funny
@@ -62875,6 +62760,7 @@ g-sic
 g-spot
 g-stone
 g-swing
+g-unit
 g-unit south
 g-verdi-aida
 g-verdi-la traviata
@@ -63292,6 +63178,7 @@ gang gang dance
 gang green
 gang green cover
 gang star
+gang starr
 gang5ta
 ganga giri
 gangbang
@@ -64404,6 +64291,7 @@ georgefloyd
 georgeous
 georgeous vocals
 georges bataille
+georges brassens
 georges brassens cover
 georges brassens reprises
 georges brassens-la mauvaise reputation
@@ -64425,6 +64313,7 @@ georgia gibbs
 georgia on my mind
 georgia satellites
 georgia theatre
+georgian
 georgian alternative
 georgian ballads
 georgian chant
@@ -64949,6 +64838,7 @@ ghage maddis
 ghajini
 ghalia
 ghaman wich jind muk gayee
+ghana
 ghanaian house
 ghandi
 ghandi khan
@@ -65017,6 +64907,7 @@ ghgr
 ghhb
 ghhfgh
 ghiaccio
+ghibli
 ghibli jazz
 ghiko
 ghiselin
@@ -65508,7 +65399,9 @@ girl-fronted band
 girl-fronted rock-pop-rock-stuff
 girl-pop
 girlbaand
+girlband
 girlboss
+girlfriend
 girlgroup
 girlgroups
 girlie prog
@@ -65622,6 +65515,7 @@ gituar virtuoso
 giua
 giuditta corgnati
 giuilio caccini
+giuliana de sio
 giuliani
 giuliano
 giuliano nistri
@@ -65976,6 +65870,7 @@ glitch phunk
 glitch soundscape
 glitch-breaks
 glitch-dub
+glitch-hop
 glitch-hop glitch
 glitch-punk
 glitch-twitch
@@ -66858,6 +66753,7 @@ gordon tebo
 gordon withers
 gordophone
 gordy
+gore
 gore death metal
 gore elohim
 gore gore gay
@@ -67392,6 +67288,7 @@ gramjelly o
 gramm
 grammatik
 grammophon
+grammy
 grammy 23 nom
 grammy album of the year
 grammy award
@@ -67888,6 +67785,7 @@ great tracks
 great tunes on earth
 great unknown bands
 great vocalist singing mellow jazz
+great vocals
 great voice
 great voices
 great voices great rhythm
@@ -67941,6 +67839,7 @@ greatest hits reloaded
 greatest love of all
 greatest musical icons of all time
 greatest musical inspiration
+greatest of all time
 greatest out there
 greatest polish hits
 greatest pop albums ever
@@ -69717,6 +69616,7 @@ gypsies
 gypsies in the pantry
 gypso
 gypsum mine
+gypsy
 gypsy airs
 gypsy blues
 gypsy bordelo
@@ -69947,6 +69847,7 @@ hadez click
 hadi soloki
 hadiah
 hadirlah cinta
+hadise
 hadise-sweat
 hadisel
 hadji
@@ -70073,6 +69974,7 @@ haiti kanaval 2015
 haiti la vie
 haiti rap creole
 haiti rap kreyol
+haitian
 haitian drum rhythms
 haitian hip-hop
 haitian rap
@@ -70916,6 +70818,7 @@ hardcore gangster rap
 hardcore heavy metal
 hardcore help foundation
 hardcore heroes
+hardcore hip-hop
 hardcore holocaust
 hardcore holocaust distribution
 hardcore industrial darkcore
@@ -71010,6 +70913,7 @@ hardocore
 hardocre
 hardore
 hardorock
+hardrock
 hardrock hard rock
 hardrock stoner punk alternative
 hardroks
@@ -71021,6 +70925,7 @@ hardstyle sessions
 hardstyle techno
 hardstylecreationrecordings
 hardsum
+hardtechno
 hardtechno hard techno
 hardtehno
 hardtekk
@@ -71037,6 +70942,7 @@ hardwithstyle
 hardwose
 hardyzbest
 hare hare
+hare krishna
 hare om tat sat
 hare tracks
 harei at mekudeshet li
@@ -71563,11 +71469,13 @@ havy metal
 hawa
 hawaai
 hawai
+hawaii
 hawaii five-0
 hawaii hip hop
 hawaii indie
 hawaii rap
 hawaii reggae
+hawaiian
 hawaiian christmas
 hawaiian folklore
 hawaiian glam metal
@@ -71875,6 +71783,7 @@ heard in 2011
 heard in june
 heard it-liked it-bought-it
 heard julaa
+heard live
 heard on a day of the week
 heard on myspace
 heard on the cbc
@@ -72392,6 +72301,7 @@ helena tannure
 helena vondrackova
 helene breschand
 helene de solange
+helene fischer
 helene segara-
 helenic connection
 helffer
@@ -73626,6 +73536,7 @@ hip funk
 hip fur
 hip hip soul
 hip ho
+hip hop
 hip hop 80s
 hip hop 90s
 hip hop alternativo
@@ -73690,6 +73601,7 @@ hip hop miri ben ari violin 4 flat tires
 hip hop mix
 hip hop music 2013
 hip hop na quadra
+hip hop pedophilia
 hip hop playlist
 hip hop podziemie
 hip hop police drama
@@ -73777,6 +73689,7 @@ hipeeeeeeee chick
 hiperxiologico
 hipgnosis
 hiphhop
+hiphop
 hiphop beat
 hiphop deutsch
 hiphop dubstep
@@ -73786,6 +73699,7 @@ hiphop latinoamericano
 hiphop nis
 hiphop orealkid
 hiphop rap rnb
+hiphop rnb
 hiphop tuga
 hiphop2008
 hiphopalbum
@@ -73908,6 +73822,7 @@ hisham abbas
 hispana
 hispanic rap
 hispanophone
+hispanosphere
 hiss
 hiss noise
 hissy
@@ -74797,6 +74712,7 @@ horne
 horned god
 hornpipe
 hornsby
+horny
 horny hangover sundays
 horny pixies
 horny voice
@@ -74855,6 +74771,7 @@ horrorfilmmusik
 horrorhouse
 horrorist
 horrorpops
+horrorpunk
 horrors
 horrorshow
 horrorstep
@@ -75514,6 +75431,7 @@ huhta home studio
 huhu
 hui wei
 huichol
+huikeimmat humpat
 huina
 huindie
 huinya
@@ -75672,30 +75590,14 @@ hungarian astronaut
 hungarian connections
 hungarian dances
 hungarian dances for piano
-hungarian death metal
-hungarian electro
-hungarian electronic
 hungarian eurovision entries
 hungarian experimental
-hungarian folk metal
 hungarian gipsy
 hungarian gipsy genre
-hungarian hardcore
-hungarian heavy metal
-hungarian hyperpop
 hungarian lo-fi
 hungarian lp
-hungarian metalcore
-hungarian pop
-hungarian post punk
-hungarian progressive rock
-hungarian psytrance
-hungarian punk
-hungarian rap
 hungarian rapper
 hungarian rapsodies
-hungarian rock
-hungarian roots
 hungarian skinheads
 hungarian undergound
 hungarian underground
@@ -76106,6 +76008,7 @@ hyungwon
 hyunjun
 hyunseong
 hyunsuk
+hyunyeop
 hz
 hzch
 hzd
@@ -76493,6 +76396,7 @@ idiot pilot
 idiot rock
 idiot-art
 idiot-synth
+idiota
 idiotchild
 idioten
 idioter
@@ -76965,6 +76869,7 @@ illigal
 illinbobillin
 illingsworth
 illinoi
+illinois
 illinois jacquet
 illinoize
 illio get the yayo
@@ -77306,6 +77211,7 @@ impreseation post trip-hop
 impresionismo
 impresionist
 impressing
+impressionist
 impressionist black metal
 impressionistic modern classical
 impressionnism
@@ -77421,6 +77327,7 @@ in a choir
 in a daze
 in a dream
 in a dream ep
+in a jazz mood
 in a lifetime
 in a long journey
 in a mood
@@ -78012,6 +77919,7 @@ indie electronic rock
 indie electronica post rock lo-fi
 indie electronics
 indie electrorock
+indie emo
 indie en castellano
 indie estatal
 indie fava
@@ -78157,8 +78065,10 @@ indie-ish sounding
 indie-licious
 indie-noise
 indie-polk
+indie-pop
 indie-pop masterpiece
 indie-post-pop
+indie-rock
 indie-rock-pop
 indie-samba
 indie2014
@@ -78178,6 +78088,7 @@ indiemusician
 indien
 indien ambient
 indiependent
+indiepop
 indiepop aint noise pollution
 indiepop sweden
 indiepr
@@ -78349,6 +78260,7 @@ industrial estate
 industrial experimental
 industrial goth
 industrial gothic
+industrial hip-hop
 industrial hippies
 industrial is dead
 industrial lolicore
@@ -79056,6 +78968,7 @@ instrumental hard rock
 instrumental hardcore
 instrumental heavy metal
 instrumental hip hip
+instrumental hip hop
 instrumental house
 instrumental imagery
 instrumental improv
@@ -80389,8 +80302,10 @@ italo 3000
 italo dubstep
 italo hits
 italo rap
+italo-disco
 italo-westerns
 italobrothers
+italodisco
 italroots
 italy
 italy ballad
@@ -80576,6 +80491,7 @@ ive seen live
 ive seen them live
 ive sound
 iveldie bar
+iveldie best of 1981
 iveldie best of 2005
 iveldie best of 2008
 iveldie christmas
@@ -80749,6 +80665,7 @@ j hanssen
 j hard
 j harvey
 j hav
+j healey
 j hemphill
 j higdon
 j hip hop
@@ -80886,68 +80803,44 @@ j zomer
 j-88
 j-abercrombie
 j-acoustic
-j-alternative
-j-ambient
 j-ax
-j-ballad
 j-ballads
-j-blues
 j-bone
 j-bone5x
-j-boogie
 j-boring
-j-bossa nova
 j-cage
 j-carl-black
-j-ccm
-j-chillout
 j-classic rock
-j-composer
 j-core mix
-j-darkwave
 j-death
-j-death metal
 j-dilla style beat
-j-dream pop
 j-dreamo
-j-dub
-j-edm
-j-electro
 j-electro rock
-j-electronic
 j-estilo
 j-euro
-j-experimental
 j-factor
 j-fantasy
 j-female
 j-flo entertainment
-j-fusion
-j-gaze
 j-geezy
 j-greco
 j-green
-j-hardcore
 j-hipster
 j-ho
 j-hope
-j-house
 j-ideas
 j-idols
 j-indies
-j-industrial
 j-kronic
 j-kwon
 j-lab
 j-live
 j-loc
-j-lounge
 j-lurie
 j-luv
 j-mac
 j-magic
 j-mate entertainment
-j-metalcore
 j-noise
 j-offenbach-operas
 j-opera
@@ -80963,26 +80856,20 @@ j-rad
 j-rap japanese hip-hop
 j-reid
 j-rell
-j-retrowave
 j-reu
 j-rich
 j-ro
 j-rock pop
 j-rown
-j-sertanejo
 j-shade
 j-sin trioxin
-j-ska punk
 j-slayer
 j-smoov
 j-song
 j-style
 j-suki
-j-thrash
 j-tonik
-j-trap
 j-visual
-j-wave
 j00f recordings
 j0hnny
 j1three
@@ -81157,6 +81044,7 @@ jackie pajo
 jackie paper
 jackie rawe
 jackie trent
+jackin
 jackin 4 beats
 jacking house
 jackitdown brown
@@ -81287,6 +81175,7 @@ jaeho
 jaehyuk
 jaejoog
 jaejoong
+jaejun
 jaekyung
 jaes 1
 jaesin stone
@@ -82444,6 +82333,7 @@ jay reed
 jay rome
 jay rox
 jay sea campbell
+jay sean
 jay serrao
 jay serrao and the juice
 jay sino
@@ -82654,6 +82544,7 @@ jazz frankfurt atticjazz jam saxophone
 jazz free
 jazz friction
 jazz friends 2012
+jazz funk
 jazz fusion drumming
 jazz fusion grind
 jazz fusion guitar
@@ -82824,12 +82715,15 @@ jazz-festival-live
 jazz-folk
 jazz-funk-breaks
 jazz-funk-fusion
+jazz-fusion
 jazz-grind
 jazz-imt
 jazz-ish
+jazz-metal
 jazz-metal hybrid
 jazz-modal
 jazz-modern
+jazz-rock
 jazz-smooth-piano
 jazz-soul
 jazz-soul-blues
@@ -83649,6 +83543,7 @@ jessicka
 jessicka is god
 jessie
 jessie and the toy boys
+jessie j
 jessie j outros
 jessie james
 jessie johnson
@@ -83794,25 +83689,16 @@ jewerly
 jewis
 jewish
 jewish algerian
-jewish black metal
-jewish bluegrass
 jewish boy from connecticut
-jewish chanson
 jewish culture
-jewish folk
-jewish funk
-jewish gospel
 jewish gypsy fiddler
 jewish humour
 jewish liturgical
-jewish metal
 jewish mysticism
 jewish religious
 jewish singer
 jewish tradition
-jewish traditional
 jewish twist
-jewish world fusion
 jewlz
 jewon
 jews
@@ -83871,6 +83757,7 @@ jhe5
 jheise365
 jhene
 jhene aieko
+jhene aiko
 jhett
 jhexercise
 jhfaves
@@ -84175,6 +84062,7 @@ jiro wang
 jirproject
 jisatsuken
 jise
+jiseong
 jisl
 jism
 jisook
@@ -85306,6 +85194,7 @@ jonann sebastian bach
 jonas akerlund
 jonas alaska
 jonas bertelsen
+jonas blue
 jonas brothers
 jonas carping
 jonas gwangwa
@@ -85900,6 +85789,7 @@ jpmorgan
 jpmusic
 jpn
 jpo
+jpop
 jpop girls band
 jpop goldies
 jpop strings
@@ -85916,6 +85806,7 @@ jrdn
 jre
 jrn
 jroc
+jrock
 jrock influenced
 jrock jmusic j-rock j-music japanese
 jrock women solo
@@ -86413,6 +86304,7 @@ jung brutal gutaussehend
 jung eun ji
 jung il woo
 jung jae young
+jung kook
 jung kyung ho
 jung on acid
 jungah
@@ -86837,6 +86729,7 @@ jv
 jv bastard
 jv made me do this
 jvck
+jvcki wai
 jvdl
 jvf
 jvjk
@@ -86862,6 +86755,8 @@ jymie merritt
 jyn yates
 jyongri
 jyonson tsu
+jyp
+jyp entertainment
 jypnation
 jyrice
 jytrid
@@ -86989,6 +86884,7 @@ k-dram
 k-electronica
 k-fed diss
 k-folk
+k-hiphop
 k-hole
 k-hop
 k-idol
@@ -88092,6 +87988,7 @@ katy treharne
 katycat
 katycats
 katydids
+katyisafakefeminist
 katyjungmann
 katze
 katze platten
@@ -88533,6 +88430,7 @@ kellie p
 kellie pickler
 kellie sae
 kelly chen
+kelly clarkson
 kelly corrigan
 kelly family
 kelly harrell
@@ -88653,6 +88551,7 @@ kendrik lamar
 keneally
 keney bentley
 keng
+kenga magjike
 kenga magjike 2012
 kenga magjike 2018
 kenga magjike 2019
@@ -89022,6 +88921,7 @@ khalaf
 khaled
 khaled dajani
 khaleel hassan
+khalid
 khalil
 khalil chahine
 khalkhuri
@@ -89065,6 +88965,7 @@ khoma
 khooman
 khorasan
 khoundarzz
+khoundarzz kay
 khramcevitch
 khristian
 khrizous
@@ -90534,6 +90435,7 @@ kocst
 kod
 kod indy
 koda
+koda kumi
 kodacrome
 kodaline
 kodaly quartet
@@ -90912,6 +90814,7 @@ kopuz
 kopylov
 kopyright liberation front
 kor digital
+kora
 korabl
 koraen
 korak u prazno
@@ -91058,9 +90961,12 @@ kosmos
 kosmos rock
 kosmothority
 kosova
+kosovan
+kosovar
 kosovar albanian
 kosovarisch
 kosove
+kosovo
 kosovska
 kossa project
 kossack
@@ -91084,6 +90990,7 @@ koszczynski
 koszmarek007
 koszo singiel
 kosztem
+kot
 kota production
 kotae
 kotai
@@ -91166,6 +91073,7 @@ kpbr
 kpina
 kpm
 kpn
+kpop
 kpop diva
 kpop indie
 kpop is trash
@@ -91471,6 +91379,7 @@ krl
 krlja
 krmelec recordings
 krmy
+krnb
 kroak
 kroakers
 kroatisch
@@ -91988,6 +91897,7 @@ kylee ratz
 kylee ratz electro pop
 kyleigh
 kyler england
+kylie minogue
 kylie minogue cover
 kylie minoguie
 kyll
@@ -92145,6 +92055,7 @@ l nau
 l niemela
 l nono
 l o d barback
+l o v e
 l orkis
 l p d jerez
 l pappajohn
@@ -92490,6 +92401,8 @@ la razon de mi vida
 la rebel
 la reina de la cancion ranchera
 la reina de la cumbia andina
+la reina de la pop
+la reine de la pop
 la renga
 la renga el final de donde parti
 la republica
@@ -92755,6 +92668,7 @@ lady linn
 lady lovely
 lady luck
 lady lust
+lady maga
 lady marmalade
 lady massacre
 lady metal
@@ -92855,6 +92769,7 @@ laid back indie
 laid back tracks
 laid blak
 laid to rest
+laid-back
 laid-back-mellow
 laidback downtempo
 laidback luke
@@ -93481,6 +93396,7 @@ latenightsexy
 latenitenetwork
 latent
 latent karma
+later
 later known as before the rain
 lateral cut groove
 laterallus
@@ -94247,6 +94163,7 @@ lebanese black metal
 lebanese indie
 lebanese pop
 lebang
+lebanon
 lebanon hanover
 lebanon pop
 lebe lauter
@@ -94422,15 +94339,11 @@ left of center
 left spine donw
 left standing
 left-cheek kisses
-left-field electronics
 left-field house house detroit techno
-left-field pop
 leftarded
 leftbehindpunk
 leftbehindpunkrock
 leftfield
-leftfield dance floor
-leftfield techno
 leftfieldish spices
 lefti
 lefti 1euro
@@ -94803,6 +94716,7 @@ leon switch
 leon thompson
 leon ware
 leona
+leona lewis
 leona naess
 leonard cohen
 leonard cohen covers
@@ -95371,6 +95285,7 @@ lian light
 liana ross say you
 lianie may
 lianne la havas
+liar
 liar game
 liars and cheater
 liars to the flames
@@ -95908,6 +95823,7 @@ lil keed
 lil keis
 lil keke
 lil kev
+lil kim
 lil kleva
 lil kubik
 lil kubik a creeper
@@ -96508,6 +96424,7 @@ listen without prejudice
 listen16
 listenable
 listenable death metal
+listened
 listened in 2k15
 listened on bandcamp
 listened to in china
@@ -96536,6 +96453,7 @@ lite aor
 lite gospel
 literacy rocks
 literaire creatie
+literal legend
 literally look at minju
 literally perfect
 literally sex
@@ -97207,6 +97125,7 @@ lo amo
 lo blatency
 lo core
 lo correcto
+lo fi
 lo fi dungeon synth
 lo fi electro pop
 lo fi gear fun
@@ -97431,6 +97350,7 @@ lof fi pop
 lof-fi
 lofa
 loffciamcore
+lofi
 lofi beat
 lofi beats
 lofi chill
@@ -97478,6 +97398,7 @@ logikal
 logistics
 logiztiksounds
 logk
+logo
 logo side
 logos
 logotypus
@@ -98015,6 +97936,7 @@ lorraine39lam
 lorre wyatt
 lorrie morgan
 lorris piasco
+los
 los 15 grandes exitos i
 los 40
 los 40 principales
@@ -99007,6 +98929,7 @@ lowercase title
 lowered
 lowfie
 lowit
+lowlands
 lowlands hardcore
 lowpoly
 lowrdez
@@ -99338,6 +99261,7 @@ ludico navegante
 ludicrous
 ludilo
 luding out
+ludlow
 ludmila emeliashina
 ludmila stefanikova
 ludmilla my side
@@ -99685,6 +99609,7 @@ lustra
 lustre
 lutan fyah
 lutawhuiklik
+lute
 luth
 luthea
 luther
@@ -99959,6 +99884,7 @@ m a n york
 m a r g a r e t
 m alexander
 m almeida
+m almond
 m alsop
 m and friends
 m andrade
@@ -100350,6 +100276,7 @@ machine girl
 machine girls band
 machine gun
 machine gun kelley
+machine gun kelly
 machine gun rap
 machine guns
 machine in the garden
@@ -100550,6 +100477,7 @@ made at home
 made by me
 made by xantris
 made fan
+made for leon
 made gang
 made gang logistics
 made god
@@ -100567,6 +100495,7 @@ made in europe
 made in euskal herria
 made in france
 made in germany by edc
+made in israel
 made in japan
 made in new orleans
 made in poland
@@ -100649,6 +100578,7 @@ madonna is the queen
 madonna remixes
 madonna wannabes
 madonnaplatinum
+madonnas show
 madopop
 madproduction
 madre del vizio
@@ -101229,6 +101159,7 @@ make that face go
 make the crowd go
 make the hit
 make time
+make up your mind 2023
 make you feel my love
 make you mine
 make zou feel
@@ -102250,6 +102181,7 @@ marc perrone
 marc pichler
 marc pircher
 marc ramboy
+marc reift
 marc riley
 marc robine
 marc romboy
@@ -103458,7 +103390,9 @@ maseeh
 masego
 masenyani
 maserati
+mash up
 mash up soundsystem
+mash-up
 mash-up electronic
 mash-up your bootz
 masha
@@ -103788,6 +103722,7 @@ math-emo
 math-folk
 math-hot-dog
 math-jazz-death-grind
+math-rock
 mathangi
 mathar
 mathcore screamo and post-hardcore
@@ -104407,6 +104342,7 @@ mayer thompson
 mayflower
 mayfly
 mayforms
+mayhem
 mayhem from italy
 mayjah
 maylamoreira
@@ -104416,6 +104352,7 @@ maylene
 maylene and the sons of disaster
 maynard
 maynard james
+maynard james keenan
 maynard likes wine
 mayne
 maynooth
@@ -104721,6 +104658,7 @@ md-test
 mdavis and
 mdavisandfriends
 mdb
+mdc
 mddld
 mddn studios
 mde
@@ -104760,6 +104698,7 @@ me encanta esta artista
 me espera
 me faltas tu
 me groove you long time
+me gusta
 me gusta este album completo
 me gusta pasar la vida
 me gustan eso tema de reggeaton
@@ -105212,6 +105151,7 @@ megashare
 megashipz
 megasoid
 megasoun
+megastar
 megatotal
 megatron
 megawave
@@ -105547,6 +105487,7 @@ mellow electronica
 mellow fellow
 mellow funk
 mellow gilles
+mellow gold
 mellow groove
 mellow groove chill out
 mellow heavy rock
@@ -105734,6 +105675,7 @@ melodie girard
 melodien fuer milliarden
 melodies for billions
 melodies of life
+melodifestivalen
 melodifestivalen 1993
 melodifestivalen 2008
 melodifestivalen 2010
@@ -106556,6 +106498,7 @@ metallicolombia
 metallidebut
 metallifox
 metallimusiikki ep
+metallis
 metalliska
 metalll
 metallo
@@ -106837,6 +106780,7 @@ mfvg
 mga
 mgang
 mgdrv
+mgk
 mgla
 mgmoby
 mgp2016
@@ -107416,6 +107360,7 @@ middle downtempo
 middle easern
 middle east
 middle east music 2021
+middle eastern
 middle eastern black metal
 middle eastern classical
 middle eastern egyptian ambient
@@ -108934,6 +108879,7 @@ missippi
 missisip
 mississauga
 mississipi
+mississippi
 mississippi allstars
 mississippi cartel
 mississippi dirt
@@ -109544,7 +109490,6 @@ moderator
 moderatto
 moderd rock
 modern
-modern
 modern acoustic blues
 modern alt rock
 modern alternative
@@ -109903,7 +109848,6 @@ mola adebisi
 mola di bari
 molavi
 moldavian
-moldavian rock
 molde
 moldies
 moldig
@@ -110301,6 +110245,7 @@ monsieur po
 monsoon
 monsta
 monsta villa
+monsta x
 monstarsound
 monster afterparty
 monster ballads
@@ -110330,6 +110275,8 @@ monster x
 monstera deliciosa
 monsterball
 monsterbassline
+monstercat
+monstercat instinct
 monstercat silk
 monsterk7
 monsterkiller
@@ -111077,7 +111024,6 @@ mothbite
 mothe rwitt
 mothefucker
 mother
-mother
 mother 3
 mother 3 combo
 mother collins gospel
@@ -111098,6 +111044,7 @@ mother mountain
 mother of bass
 mother of harlots
 mother of mankind
+mother of pop
 mother superior
 mother tongue
 mother west studio
@@ -111251,6 +111198,7 @@ mount me and ride me like a pony
 mount moon
 mount pleasant
 mount roko
+mountain
 mountain bluegrass
 mountain brothers
 mountain clive farrington
@@ -111353,6 +111301,7 @@ movie rock
 movie romance
 movie samples
 movie score composer
+movie score composers
 movie scores composer
 movie soundtrack 2021
 movie soundtrack 2022
@@ -111794,6 +111743,7 @@ muana mboka
 muarez
 mubali
 muc
+mucajai
 much in common
 much love
 much love deep web
@@ -112229,6 +112179,7 @@ music bank
 music battle
 music bed
 music blogs
+music box
 music box archives
 music box dancer
 music box version
@@ -112707,6 +112658,7 @@ musicintheworldofislam
 musicislife
 musicismylife
 musiciwant
+musick
 musick for acktion movie
 musick for parents
 musiclab
@@ -113095,6 +113047,7 @@ mxjxl
 mxo
 mxsflxweticz
 my
+my top songs
 my-dipreshon
 my-discovery-channel
 my-happy day
@@ -113105,6 +113058,7 @@ my-t
 my-treasure-chest
 my-videos
 my100
+my15topalbums
 my2009
 myagi
 myah marie
@@ -113152,6 +113106,7 @@ mylee
 myleene
 myleene klass
 mylene
+mylene farmer
 myles kennedy
 myles munroe
 myles travitz
@@ -113752,6 +113707,7 @@ namgar
 nami-chan
 namida
 namie
+namie amuro
 namir
 namjoo
 namjoon
@@ -113905,6 +113861,7 @@ narayana
 narayani
 narcis casanoves
 narciso martinez
+narciso yepes
 narcissim
 narcissus
 narco
@@ -114058,6 +114015,7 @@ nat
 nat birchall
 nat guareschi
 nat kinf cole-golden memories
+nat king cole
 nat king cole -for sentimental reasons
 nat king cole trio
 nat king cole-after midnight sessions
@@ -114336,6 +114294,7 @@ nature of rain
 nature one
 nature plus
 nature sound
+nature sounds
 nature sounds n all dat
 nature synth
 nature techno
@@ -114654,7 +114613,6 @@ nedergaze
 nederhop 2009
 nederland
 nederlands
-nederlands
 nederlands poetisch
 nederlandse artiest
 nederlandse componist
@@ -114951,6 +114909,7 @@ neo arcadian design
 neo art folk rock
 neo baile funk
 neo classic piano
+neo classical
 neo detroit
 neo flamenco
 neo folk rock
@@ -114971,10 +114930,12 @@ neo new romantic
 neo noir
 neo opera
 neo pacific
+neo progressive
 neo progressive metal
 neo retro metal
 neo rnb
 neo rock
+neo soul
 neo soul hip hop
 neo soul newcomer
 neo surf
@@ -114995,6 +114956,7 @@ neo-british
 neo-classic fusion
 neo-classic martial ambiental
 neo-classic rock
+neo-classical
 neo-classical death metal
 neo-classical dsbm
 neo-classical electronica
@@ -115012,6 +114974,7 @@ neo-erotic spandex metal
 neo-erotic spandex rock
 neo-eski
 neo-exotica
+neo-folk
 neo-fusion
 neo-gothic sludge
 neo-gregorian
@@ -115093,6 +115056,7 @@ neoclassical goth
 neoclassical gothic
 neoclassical martial neofolk
 neoclassical melodic death metal
+neoclassical metal
 neoclassical neofolk
 neoclassical no wave
 neoclassical piano
@@ -115907,6 +115871,7 @@ new record
 new red archives
 new reggae
 new relea
+new release
 new release 2011
 new release 2013
 new released
@@ -115939,7 +115904,6 @@ new scool
 new scool ambient
 new sensation
 new sensor
-new sertanejo
 new shit vol 3
 new simplicity
 new sincerity
@@ -115995,6 +115959,7 @@ new tone
 new track
 new tracks
 new tracks to investigate
+new traditionalist
 new trance 2011
 new trance music 2011
 new trance remix 2011
@@ -116724,6 +116689,7 @@ niger delta blues
 nigerai
 nigeri
 nigeria
+nigerian
 nigerian gospel
 nigerian hip hop
 nigerian rap
@@ -116907,6 +116873,7 @@ niic
 niigaam
 niigaki risa
 niila
+niin oot coveria
 nijesmo mi od juce
 niji
 nijigasaki
@@ -117945,6 +117912,7 @@ noise-and-guitar-pop
 noise-cock
 noise-friendly
 noise-gaze
+noise-rock
 noise-step
 noiseacoustic
 noiseannoys
@@ -118235,6 +118203,7 @@ nope
 nophi
 nopy
 noquiereconusted
+nora
 nora ariffin
 nora bayes
 nora jones
@@ -118347,6 +118316,7 @@ normani hamilton
 normani kordei
 normani x calvin harris ep
 normcore
+normie
 noro
 noroeste argentino
 noromusic
@@ -119047,6 +119017,7 @@ nu dark swing
 nu deathcore
 nu deep house
 nu digital
+nu disco
 nu disco edit
 nu disco remix
 nu diso
@@ -119111,6 +119082,7 @@ nu-bluz funky grooves in the e-lounge
 nu-funk
 nu-grind
 nu-grooves
+nu-jazz
 nu-jazz ep
 nu-jazz groove
 nu-jazz lounge
@@ -119118,6 +119090,7 @@ nu-jazz quartet
 nu-meatal
 nu-meral
 nu-meta
+nu-metal
 nu-metall
 nu-ngr
 nu-nrg
@@ -119927,6 +119900,7 @@ occult synth
 occult techno
 occult trill
 occult trill hip hop
+occultism
 occultural
 occultwave
 occupy
@@ -120722,6 +120696,7 @@ old school cartoons
 old school chicago death metal
 old school dance
 old school death
+old school death metal
 old school death thrash metal
 old school deathcore
 old school deep house
@@ -120830,6 +120805,7 @@ old-funky
 old-school doom
 old-school electronica
 old-school infected
+old-school psychobilly
 old-school punk
 old-time country
 old-tyme gospel
@@ -121136,6 +121112,7 @@ ome-opposite of emo
 omedaln
 omega administration
 omega el fuerte
+omen frankfurt
 omen invasion wrecking
 omen recordings
 omens
@@ -121290,7 +121267,9 @@ on your own
 on your shore
 on za road
 on zaebal
+on-demand
 on-line radio station
+on-u sound
 ona nekad
 onafinal
 onaje allen gumbs
@@ -121539,6 +121518,7 @@ onecyze project
 oneda
 onedance
 onedeafear
+onedirectioncore
 onedjustin
 oneexperience
 onefix
@@ -122401,6 +122381,7 @@ originalmusic
 originalnepalihouse
 originalposting
 originator
+origins
 orignal
 orihuela
 orikal uno
@@ -122448,6 +122429,7 @@ orlando de lassus
 orlando di lasso
 orlando fl
 orlando florida
+orlando gibbons
 orlando punk rock
 orlando street punk
 orlandowave
@@ -122722,6 +122704,7 @@ oswald sattler- das herz der berge
 oswaldo
 oswaldo montenegro
 oswiecim
+oszibarack
 ot azoj
 ot da detonator
 ot genasis
@@ -123142,6 +123125,7 @@ overgrown
 overgrown path
 overhand
 overjoy
+overkill
 overlady
 overland park
 overlap
@@ -123466,6 +123450,7 @@ p0p ul41r3
 p1
 p14n0
 p168
+p1harmony
 p21011-2
 p217
 p2sr
@@ -123784,6 +123769,7 @@ pakaune
 pakhawaj
 pakhi
 pakialamero
+pakistan
 pakistan hip hop
 pakistan independence
 pakistani
@@ -124232,6 +124218,7 @@ para dee
 para el amor de mis amores
 para escuchar
 para espantar a las morras
+para hacer aseo
 para irse de fiesta
 para matar king chango
 para mi barrio
@@ -124430,6 +124417,7 @@ park jieun
 park myung soo
 park so yeon
 park yoochun
+park yun
 parka-core
 parkash purab
 parken
@@ -124497,6 +124485,7 @@ parsi
 parsippany
 parsley
 parson james
+parsons
 parsonskansasrap
 part 2
 part 2 of 3 cds
@@ -125506,6 +125495,7 @@ pedobear approves
 pedobear disapproves
 pedobear does approve
 pedocore
+pedofilia
 pedophile
 pedophilecore
 pedophiles anal death metal
@@ -126196,6 +126186,7 @@ pete way
 pete wentz
 pete wylie
 peteca blues
+peter
 peter abbott
 peter alexander
 peter allen
@@ -126822,6 +126813,7 @@ phoebe ryan
 phoebe80sindie
 phoebealltimefavourites
 phoebedance
+phoebefencers
 phoeniquera
 phoenix and the kick ashes
 phoenix arizona
@@ -127000,6 +126992,7 @@ pianiste
 pianistic
 pianists
 pianno
+piano
 piano -- anthony berger
 piano 4 hands
 piano a quatre mains
@@ -127484,6 +127477,7 @@ pimps of joytime
 pin
 pin up galore
 pin-up
+pina
 pinacolada
 pinanners
 pinas
@@ -127856,6 +127850,7 @@ pittsburgh steelers
 pittsburgh symphony orchestra
 pittstops
 pittu
+pitty
 pitu pitu recordz
 pity pop
 pity sex
@@ -128780,108 +128775,38 @@ poliphony
 polisch
 polish
 polish albums of 2010
-polish alternative dance
-polish ambient
-polish ambient metal
-polish avant-garde metal
 polish band
-polish baroque
-polish black gothic metal
-polish black thrash metal
 polish blackended death metal
-polish blackened death metal
-polish blues
 polish blues legend
-polish breakbeat
 polish but english
 polish carolls
 polish carrols
 polish chamber philharmonic sopot
-polish club
 polish clubbing
 polish composers
-polish country
-polish dance
 polish dance club
-polish dark ambient metal
-polish dark electro
-polish dark progressive metal
-polish death doom metal
-polish death gothic metal
-polish deathcore
 polish deep
-polish doom
-polish drone
 polish drummer
-polish dungeon synth
-polish ebm
-polish edm
-polish electro
-polish electronica
-polish electropop
-polish emo
-polish epic heavy metal
 polish eurovision entries
 polish experimental
-polish extreme metal
 polish garage rac
-polish groove metal
-polish grunge
 polish grunge rock
-polish hardcore
 polish hip-hop and rap
 polish hits
-polish house
-polish indie
-polish indie pop
-polish industrial
-polish industrial metal
 polish juke
 polish legends
-polish melodic black metal
-polish melodic death metal
 polish modern
 polish muzyka
-polish noise
-polish nsbm
-polish pagan black metal
-polish patriotic rock
-polish poetry
 polish post-punk rap
 polish pride
 polish progressive
-polish progressive death metal
-polish progressive doom metal
-polish progressive heavy metal
-polish progressive metal
-polish progressive rock
 polish project
-polish rac
 polish rap in english
-polish raw black metal
 polish relax
 polish satanic anal humour
-polish ska
 polish slavonic union
-polish sludge
-polish sludge metal
-polish soul
-polish stoner
-polish stoner metal
-polish stoner rock
-polish swing
-polish symphonic black metal
-polish synthpop
-polish technical death metal
-polish techno
-polish thrash
-polish thrash heavy metal
-polish trance
-polish trap
 polish trash metal
 polish trio hop
-polish trip hop
-polish unblack metal
 polish underground force
 polish vocal
 polished
@@ -128899,21 +128824,13 @@ political activism
 political and social commentary
 political avant-garde
 political beatdown
-political blues
-political cabaret
 political comedy
 political commentary
 political dissent
 political divide
 political drama
-political folk
-political grindcore
-political metal
-political poetry
-political pop-punk
 political prisoner
 political reference
-political rock
 political satire
 politically correct
 politically correct refusal
@@ -128963,7 +128880,6 @@ polonia
 polotsk
 polow da don
 polsatcore
-polska
 polska
 polska alternatywa
 polska elektroniczna
@@ -129273,6 +129189,7 @@ pop el ultimo de la fila
 pop electric
 pop electronic
 pop electronica
+pop eletronic
 pop en castellano
 pop en español
 pop en italiano
@@ -129364,6 +129281,7 @@ pop punk hardcore
 pop punk rock
 pop punk will never die
 pop punk with horns
+pop queen
 pop ra0
 pop rai
 pop rap fedez italia
@@ -129438,6 +129356,8 @@ pop-poesie
 pop-prunk
 pop-psych
 pop-psychedelic
+pop-punk
+pop-rock
 pop-rock acustico
 pop-rock oldies
 pop-rock portuguese
@@ -129517,6 +129437,7 @@ poppy pop
 poppy punk
 poppy punky rock
 poprawiacz nastroju
+poprock
 popronde 2011
 pops mohamed
 pops orchestra
@@ -129905,6 +129826,7 @@ post atomic blues
 post avant memewave
 post bebop
 post black meatl
+post black metal
 post blackgaze
 post cards from hell
 post cold
@@ -129932,8 +129854,10 @@ post funk
 post generation x
 post greatcore
 post greed generation
+post grunge
 post grunge folk
 post grunge francais
+post hardcore
 post hardcore indonesian
 post hardcore punk
 post hc
@@ -129952,6 +129876,7 @@ post instrumental rock
 post malone
 post mangue
 post me
+post metal
 post mierda
 post millenium pop
 post modern electronica
@@ -129986,6 +129911,7 @@ post pre post
 post present medium
 post prog rock
 post progressive metal
+post punk
 post punk brasil
 post punk electro rock
 post punk girl punk
@@ -129994,6 +129920,7 @@ post punl
 post rapp
 post reggae
 post rnb
+post rock
 post rock community
 post rock instrumental
 post rock noise
@@ -130010,6 +129937,7 @@ post sludge
 post society
 post something else
 post sonic metal
+post soviet union
 post stonerrock
 post swag
 post thrash metal
@@ -130300,12 +130228,14 @@ postojna
 postpoetic
 postponed
 postposition
+postpunk
 postpunk synthpop
 postpunkfunk
 postpunkgdchill
 postpunknewwave
 postpunx
 postro
+postrock
 postrock rosario
 postrockspain
 postrocktronic
@@ -130491,6 +130421,7 @@ power trio post-hardcore noise
 power trios
 power trumpet
 power up
+power violence
 power violence electronics
 power vocal
 power-folk
@@ -130522,8 +130453,10 @@ powerfuze
 powerhouse of comedia
 powerkompany
 powerless metal
+powernoise
 powernoise influenced
 powerock
+powerpop
 powerpopz
 powerpuff
 powerpuffs
@@ -130748,6 +130681,7 @@ pre-release
 pre-rivendell
 pre-rock
 pre-season
+pre-selection
 pre-sonny
 pre-war
 pre-war country blues
@@ -131968,6 +131902,7 @@ protest rap
 protest rock
 protest singer
 protest songs 1924-2012
+protesta
 protestant
 protestlied
 protestliederen
@@ -131982,6 +131917,7 @@ proto grunge
 proto noise
 proto p-funk
 proto pop
+proto prog
 proto queen
 proto-animal collective
 proto-dance
@@ -132002,6 +131938,7 @@ proto-post-rock
 proto-progressive
 proto-proto
 proto-psych
+proto-punk
 proto-rai
 proto-rap
 proto-rave
@@ -132009,6 +131946,7 @@ proto-raw black metal
 proto-signalwave
 proto-synthpop
 proto-techno
+proto-vaporwave
 proto-volbeat
 proto-war metal
 protocol
@@ -132259,6 +132197,7 @@ psy piiit
 psy pop
 psy progressive
 psy psy say
+psy trance
 psy trance riff
 psy-abook
 psy-blues-funk
@@ -132269,6 +132208,7 @@ psy-harmonics
 psy-prog trance
 psy-progressive trance
 psy-tek
+psy-trance
 psy-wave
 psy007
 psyaviah
@@ -132361,6 +132301,7 @@ psychededlic
 psychedeic
 psychedel
 psychedeli
+psychedelia
 psychedelia funk-blues hip-hop
 psychedelic
 psychedelic acoustic
@@ -132405,6 +132346,7 @@ psychedelic speed freaks
 psychedelic stoner blues rock
 psychedelic stoner jam
 psychedelic tranc
+psychedelic trance
 psychedelic trance psy dark
 psychedelic trip
 psychedelic underground
@@ -132784,6 +132726,7 @@ puerto
 puerto de santa maria
 puerto la cruz
 puerto madryn
+puerto rican
 puerto rican christmas
 puerto rican hiphop at its finest
 puerto rican power
@@ -132941,6 +132884,7 @@ punjabi remix
 punjabi sad
 punjabiya di hogi
 punk
+punk 77
 punk 77 for life
 punk 82
 punk acoustic
@@ -133088,6 +133032,7 @@ punk trap
 punk trash
 punk trash pop rock
 punk tuga
+punk underground full tracks
 punk vasco
 punk wave
 punk weihnacht
@@ -133099,10 +133044,12 @@ punk-core celtique
 punk-garage
 punk-indus
 punk-new wave
+punk-new-wave-post-punk
 punk-oi-ska
 punk-psyche
 punk-punk laptop rap
 punk-reggae-ska
+punk-rock
 punk-rock californiano
 punk-rock flute
 punk-rock from minsk
@@ -133138,6 +133085,7 @@ punkpunkpunk
 punkr
 punkrapking
 punkroc
+punkrock
 punkrock cheerleader
 punkrock oi
 punkrock rock ankara hayalet tren
@@ -133377,6 +133325,7 @@ purple flowers
 purple funk
 purple haze studios
 purple hearts2
+purple kiss
 purple krush
 purple kush
 purple neezy
@@ -133788,6 +133737,7 @@ quartetto
 quartetto di roma
 quartetto italiano
 quartier
+quartier latin
 quarto andar
 quartz
 quartzo
@@ -133867,6 +133817,7 @@ quebec metal
 quebec prog
 quebec progressive rock
 quebec punk
+quebecois
 quebecois black metal
 quebonafide
 quebrada queer
@@ -133949,10 +133900,12 @@ queens of noise
 queens of stone age
 queens university
 queens village new york
+queensbridge
 queensrÿche
 queeny blast pop
 queer
 queer funk
+queer metal
 queer of color
 queer performer
 queer rap
@@ -134076,6 +134029,7 @@ quietus 002
 quiff
 quigley g
 quijote
+quik wanted
 quike
 quikksand
 quilapayun
@@ -134946,6 +134900,7 @@ rain dance
 rain delay
 rain frog
 rain in the city
+rain netlabel
 rain of love
 rain on me
 rain on the parade
@@ -134998,6 +134953,7 @@ rainer ptacek
 rainer schmidt
 rainer weichhold
 rainer wulff
+rainha
 rainha da internet
 rainha do pop
 rainha mentira
@@ -135599,6 +135555,7 @@ raphael lemonnier
 raphael malharo
 raphael ravenscroft
 raphael ravenscroft saxophone
+raphael saadiq
 raphael saddiq
 raphael wallfisch
 raphe malik
@@ -135746,6 +135703,7 @@ rasa
 rasabaru
 rasaei
 rascal
+rascal flatts
 rascal red and the possum posse
 rascall flatts
 rasga
@@ -135796,6 +135754,7 @@ rasqa
 rassian hip-hop
 rassian rap
 rast kolektif
+rasta
 rasta chinela
 rasta dbd
 rasta hate gays
@@ -136119,6 +136078,7 @@ ray bradbury reference
 ray brown
 ray carmen
 ray cash
+ray charles
 ray charles country
 ray charles singers
 ray charles-alone in the city
@@ -136412,6 +136372,7 @@ real freestyle
 real friend
 real friends
 real fucking thrash
+real gem
 real gone
 real good
 real guitar
@@ -137024,6 +136985,7 @@ red to black
 red tormenthor project
 red transparent vinyl
 red umbrella
+red velvet
 red velvet irene
 red velvet roses
 red velvet subunit
@@ -137414,6 +137376,7 @@ region
 region iceland
 region norway
 regional mexicaa
+regional mexican
 regional mexicana pesado
 regional urbano
 regionalismo
@@ -137534,6 +137497,7 @@ reinecke
 reingold
 reinhard keiser markuspassion
 reinhard lakomy
+reinhard mey
 reinhard peters
 reinhard voigt
 reinhard voigt robson ponte
@@ -139189,6 +139153,8 @@ riho sayashi
 rihter
 riiissseee up
 riikonen
+riize is 6
+riize is 7
 rijnkaai
 rik alexander
 rik tights
@@ -139269,6 +139235,7 @@ rinspeed
 rintam
 rio
 rio da adorao
+rio de janeiro
 rio de la plata favoritos
 rio grande
 rio grande do norte
@@ -139542,6 +139509,7 @@ riverdales
 riverdance
 riverflow
 rivers
+rivers cuomo
 rivers end
 rivers hates his fans
 rivers of babylon
@@ -140668,6 +140636,7 @@ rocknrule
 rockopops
 rockotronic
 rockout in the toyota
+rockpalast
 rockperu
 rockpost
 rockrapband
@@ -141118,16 +141087,7 @@ romangst
 romania
 romanian
 romanian band
-romanian black metal
-romanian dance
 romanian eurovision entries
-romanian folk metal
-romanian indie
-romanian jazz
-romanian metal
-romanian pogressive rock
-romanian pop
-romanian punk
 romanian underground
 romanisch
 romanism
@@ -141140,41 +141100,27 @@ romantic age
 romantic anal metal
 romantic background
 romantic balladeer
-romantic ballads
-romantic black metal
-romantic breakcore
 romantic child studios
-romantic classic
 romantic classical composer
 romantic composer
 romantic dinner
 romantic doctor
-romantic doom metal
 romantic egg
-romantic folk
 romantic gorilla
-romantic house
-romantic indie
-romantic industial
 romantic industry
 romantic instrumental
 romantic islands
-romantic latin
-romantic lounge
 romantic love duets
-romantic metal
 romantic mode
 romantic mood
 romantic nostalgia
 romantic oldies vintage ella singer
 romantic piano solo
-romantic punk
 romantic punx
 romantic russia russian
 romantic strings
-romantic techno
 romantic tension
-romantic-pop
+romantica
 romântica
 romantica para pintar
 romantical
@@ -141182,6 +141128,7 @@ romanticas internacional
 românticas m
 romanticize
 romanticmusic
+romantico
 romântico
 romantik rock
 romantika
@@ -141222,6 +141169,7 @@ romi
 romi schickle produced
 romie
 romina arena
+romina basso
 romina salvadori
 rominimal
 romka abakan
@@ -142698,6 +142646,7 @@ ruthless
 ruthsina
 rutles
 rutmun
+rutracker
 ruts
 rutter
 rutuales afrocubanos
@@ -143500,6 +143449,7 @@ saint mark passion
 saint mary
 saint pepsi
 saint peter
+saint petersburg
 saint saens symphony no 3
 saint seya
 saint snow
@@ -143777,6 +143727,7 @@ sam hopkins
 sam hunt
 sam joens
 sam leeming
+sam levine
 sam mezzo
 sam moore
 sam murdock
@@ -143916,6 +143867,7 @@ sammy davis
 sammy davis jr
 sammy dee
 sammy fain
+sammy hagar
 sammy kaye
 sammy kershaw
 sammy kin
@@ -143968,6 +143920,7 @@ sample-base
 sample-tracks
 sampleadelica
 sampleados
+sampled
 sampled based
 sampled by moby
 sampled european marches
@@ -144294,6 +144247,7 @@ santa rm
 santa rosa
 santa sabina
 santa sangre
+santana
 santander
 santandrei
 santanera
@@ -144438,6 +144392,7 @@ sarah sharp
 sarah silverman
 sarah slean
 sarah spisak
+sarah vaughan
 sarah vaughn
 sarah williams white
 sarahcecilia
@@ -144586,6 +144541,7 @@ satanic drone
 satanic electronica
 satanic elite
 satanic garbage
+satanic grindcore
 satanic grooves
 satanic hardcore
 satanic heavy metal
@@ -144781,6 +144737,7 @@ savatar
 save a rainy night
 save burglars
 save ferris
+save for later
 save idm
 save in case of fire
 save k-pop
@@ -145040,6 +144997,7 @@ scandinavian death metal
 scandinavian death metal band
 scandinavian doom metal
 scandinavian electronica
+scandinavian girls
 scandinavian hardcore
 scandinavian pop
 scandinavian prog
@@ -145267,6 +145225,7 @@ schirmer bernier
 schism tracker
 schisser
 schiza
+schizo
 schizo rock
 schizo-boogie
 schizo-electro
@@ -145428,6 +145387,7 @@ schonberg streichtrio
 schonberg woo
 schone musik
 schongau
+school
 school bags
 school boy
 school days
@@ -146480,6 +146440,7 @@ sefardi
 sefardisch
 sefronia
 seg-men-ta-to
+sega
 sega am2
 sega cd
 sega dreamcast
@@ -146834,6 +146795,7 @@ sendling
 sendr
 sene xesteyem
 seneca
+senegal
 senegal mali
 senescence
 senex
@@ -147089,17 +147051,10 @@ serb electronic
 serbia
 serbia black metal
 serbian
-serbian dungeon synth
-serbian ethno
 serbian eurovision entries
-serbian funk
 serbian guitar
-serbian hardcore
-serbian hip hop
-serbian punk
 serbian roma
 serbian singers
-serbian thrash metal
 serbian underground
 serbisch
 serce przy tym staje
@@ -147139,6 +147094,7 @@ serge chaloff
 serge collot
 serge danilow
 serge gainsbeur
+serge gainsbourg
 serge gainsbourg -l integrale-vol12
 serge gainsbourg bof
 serge gainsbourg- l amour a la papa
@@ -147158,6 +147114,7 @@ serge reggae
 serge reggiani
 serge remake
 serge remix
+serge sphere
 serge taste
 serge utge royo
 sergeant
@@ -147286,7 +147243,6 @@ sertanejo arrocha
 sertanejo bruto
 sertanejo de raiz
 sertanejo pop
-sertanejo raiz
 sertanejo teen
 sertanejo underground
 sertanejo universitário
@@ -149185,6 +149141,7 @@ sicilienne
 sicilly
 sick
 sick-hop
+sick-of-sarah
 sicka sicka flow
 sickabod
 sickabod sane
@@ -149398,6 +149355,7 @@ signs of horns
 signs of kaos
 signs of life
 signsofficial
+signum
 signum ad
 signz
 sigo
@@ -149850,6 +149808,7 @@ since u been gone
 since we set fire
 sincera
 sinceramente
+sincere
 sincere devotee of sri radha-govinda
 sincere jazz
 sincerely yours
@@ -149947,11 +149906,13 @@ singer dandytom
 singer female
 singer girl
 singer is fucking possessed
+singer of fucking awesomeness
 singer of mike and the mechanics
 singer singwriter
 singer sogwriter
 singer songwiter
 singer songwrier
+singer songwriter
 singer songwriter from germany
 singer songwriter musician flute
 singer songwriters electronica
@@ -149968,6 +149929,7 @@ singer-songwriter christmas
 singer-songwriter indie folk soul
 singer-songwriter-guitarist
 singer-songwritergdchill
+singer-songwriters
 singer-songwriting
 singer-songwrityer
 singer-songwrter
@@ -150434,6 +150396,7 @@ ska with klasik
 ska-chansonne
 ska-folk-punk
 ska-j
+ska-punk
 ska-punk-rock
 ska-reg
 ska-reggae-punk
@@ -150525,6 +150488,7 @@ skateboarder
 skateboarding
 skatelife
 skatepark
+skatepunk
 skatepunkers
 skater chick
 skater girl
@@ -151072,6 +151036,7 @@ slayer love
 slayercore
 slayers megamix
 slayus
+slayyy
 slayyyter
 slayyyy
 slc
@@ -151319,40 +151284,22 @@ slotmachine
 slouch
 slough
 slova
+slovak
 slovak band
 slovak bigbit
 slovak chamber orchestra
-slovak folk
-slovak hardcore
-slovak hip-hop
-slovak metal
-slovak pop
-slovak punk
-slovak punk rock
-slovak rap
-slovak rock
 slovak rso
-slovak thrash metal
-slovak unblack metal
+slovakia
 slovakia brutal death metal
-slovakian black metal
-slovakian nsbm
-slovakian rap
 slovakian underground
 slovaquie
 slovenci
+slovenia
 slovenia eurovision entries
 slovenia punk
+slovenian
 slovenian eurovision entries
-slovenian folk
-slovenian hard rock
-slovenian heavy metal
 slovenian music competition
-slovenian punk
-slovenian rap
-slovenian rock
-slovenian speed metal
-slovenian thrash
 slovenija punk
 slovenizam
 slovenly
@@ -151579,6 +151526,7 @@ sm jazz
 sm musik
 sm station
 sm the ballad
+sm town
 sm-e communications
 sm-ers
 sm-unknown
@@ -151967,6 +151915,7 @@ snails
 snailworx
 snak
 snak the ripper
+snake
 snake charmer
 snake eyes
 snake mix
@@ -152099,6 +152048,7 @@ snowy
 snowy day
 snowy white
 snozzgoff
+snsd
 snsdsolo
 snthesizer
 snts
@@ -152302,6 +152252,7 @@ sobriety still hurts
 sobrinho
 sobrino
 sobura
+soca
 soca blu
 soca gold 2009
 soca queen
@@ -152514,6 +152465,7 @@ soft vocals
 soft voice
 soft voyage
 soft-house
+soft-rock
 soft-rock mood
 soft-skramz
 softboiledegg
@@ -152779,6 +152731,7 @@ solofaltastu
 sologesang
 sologuitarvirtuoso
 soloism
+soloist from a band
 soloistic instrumental
 soloists
 solokolo
@@ -153222,6 +153175,7 @@ songs from the victorious city
 songs from the wood
 songs i absolutely love
 songs i actually listen on repeat
+songs i can relate to
 songs i have individual playlists for
 songs i like
 songs i like to drink to
@@ -153867,7 +153821,6 @@ soulflavored pop
 soulfolk
 soulfood music distribution
 soulful
-soulful
 soulful and funky
 soulful blues
 soulful bluesrock
@@ -154352,6 +154305,7 @@ sounou
 sounscape
 sounscapes
 sountdtrack
+sountrack
 sountrack instrumental
 sountracks
 soup
@@ -154376,6 +154330,7 @@ sousa
 sousa marches
 sousafono
 sousaphone
+sousaphonic aotm 201102
 sousette shagasha
 sousse
 soussou
@@ -154501,6 +154456,7 @@ southern gospel quartet
 southern gosple
 southern groove metal
 southern harmony
+southern hip-hop
 southern iran
 southern jazz
 southern jutlandic
@@ -154575,6 +154531,7 @@ sovereign grace
 sovereign hip-hop
 sovereign strength
 sovetique
+soviet
 soviet bebop
 soviet city pop
 soviet era
@@ -155336,6 +155293,7 @@ spinecar
 spinefarm
 spinelli
 spineshank
+spinetta
 spining up
 spinnbar
 spinners
@@ -155655,6 +155613,7 @@ spotyfly
 spoundtrack
 spouse
 spr
+spr-label
 sprache
 sprachgesang
 sprase
@@ -157227,6 +157186,7 @@ stockhausen nr 1-2
 stockhausen nr 32
 stockhausen nr 6
 stockholdaz
+stockholm
 stockhom
 stocking
 stocking stuffer
@@ -157679,6 +157639,7 @@ stray cat strut
 stray cats
 stray from the path
 stray ghost
+stray kids
 stray kids donos do mundo
 straya
 straydogs
@@ -157785,6 +157746,7 @@ streetmusic
 streetnotes
 streetpreneur
 streetpreneurs
+streetpunk
 streetrap
 streets all salute
 streets of gold
@@ -158573,6 +158535,7 @@ sug
 suga
 suga cz
 suga shikao
+sugababes
 sugababes singles
 sugabeat
 sugabeat lash
@@ -158775,6 +158738,7 @@ summer bop
 summer bossa
 summer bosses
 summer breeze
+summer brielle
 summer came
 summer chill
 summer concerts
@@ -158986,6 +158950,7 @@ sungai petani
 sungaze
 sungha jung
 sunghoon
+sunghyuk
 sungjong
 sungkyu
 sunglasses at night
@@ -159032,6 +158997,7 @@ sunny whirlwinds
 sunnyboys
 sunnyside
 sunoo
+sunoo do sakuya
 sunora recordings
 sunpunk
 sunrise 3
@@ -159170,6 +159136,7 @@ super guitar
 super guitarist
 super hero
 super hits by the intruders
+super junior
 super junior kry
 super junior t
 super kidd
@@ -159269,6 +159236,7 @@ superfunkbox
 supergiant
 supergirl
 supergrip
+supergroup
 supergrupo
 superguidis
 supergut
@@ -160623,6 +160591,7 @@ syntech vedeneev
 syntegra
 syntetic
 syntetics
+synth
 synth action
 synth architecture
 synth driven
@@ -160637,16 +160606,20 @@ synth magic
 synth noodling
 synth pad
 synth pads
+synth pop
 synth riffs
 synth solo
 synth stuff
 synth voice
+synth wave
 synth window
 synth-chop
 synth-classical
 synth-dance-pop
 synth-fantasy
 synth-me
+synth-pop
+synth-rock
 synth-symph
 synth-tex
 synthacopia
@@ -160721,8 +160694,10 @@ synthpop synthwave
 synthpope
 synthpoppers
 synthprogg
+synthpunk
 synthr
 synthrnb
+synthrock
 synthron
 synthscape
 synthscore
@@ -160999,6 +160974,7 @@ t weelkes
 t wozniak
 t-allen
 t-amo
+t-ara
 t-bone
 t-bone burnett
 t-bone burnett production
@@ -161134,6 +161110,7 @@ tae yang
 taecyeon
 taegoon
 taeha
+taehoon
 taehun
 taehyun
 taehyung
@@ -161608,6 +161585,7 @@ tami jaton
 tami monroe
 tamika
 tamikrest
+tamil
 tamil devotional
 tamil melodies
 tamil ost
@@ -161798,6 +161776,7 @@ tanzkraut
 tanzstil
 tanzwut
 tanzwut-tanzwut
+tao
 tao carente
 tao of healing
 tao te ching
@@ -161933,6 +161912,7 @@ tarja die alive
 tarja turunen is overrated
 tark
 tarkam
+tarkan
 tarkovsky
 tarkus
 tarl warwick
@@ -162142,6 +162122,7 @@ tazman jack
 tazmania
 tazzah p
 tb
+tb303
 tb303 acid
 tba
 tbasco
@@ -162365,6 +162346,7 @@ tech house tech-house
 tech itch
 tech itch recordings
 tech jazz
+tech metal
 tech progressive
 tech progressive metal
 tech rock
@@ -162373,6 +162355,7 @@ tech techno
 tech thrash
 tech trance dj booya aurora
 tech-electro
+tech-house
 techause
 techbient
 techenie obstoyatelstv
@@ -162647,6 +162630,7 @@ teemu
 teemu myyrylainen
 teemu rautiainen
 teemusik
+teen
 teen anal terrorist
 teen angels 1
 teen band
@@ -163549,6 +163533,7 @@ thai traditional
 thai-muslim
 thaiarot
 thailan
+thailand
 thaione
 thairish
 thais maranho
@@ -163577,6 +163562,7 @@ thamesbeat
 thamizh
 thammasat
 thammasat university
+than
 thanaporn
 thandiswa mazwai
 thane
@@ -164006,6 +163992,7 @@ the big pink
 the big questions
 the big shiny prison
 the big tease
+the big three
 the bigger picture
 the biggest shit ever
 the biggest square thing
@@ -164156,6 +164143,7 @@ the brand new heavies
 the brandenburg concertos
 the brass that makes you move
 the brave
+the bravery
 the brazilian hipster
 the break up
 the breaktone
@@ -167316,6 +167304,7 @@ the urbz
 the urge
 the urges
 the usb orchestra
+the used
 the user
 the utmost limi
 the utmost limit
@@ -167401,6 +167390,7 @@ the vitals
 the vitamin b12
 the vitamine b12
 the vogue
+the voice
 the voice brasil
 the voice contestant
 the voice contestants
@@ -168584,7 +168574,6 @@ thrall love this stuff
 thrangh
 thrasah metal
 thrash
-thrash
 thrash and roll
 thrash and speed metal
 thrash anthem
@@ -168878,6 +168867,7 @@ tiberian ass bastard folk
 tiberium
 tibet buddhism
 tibet save
+tibetan
 tibetan bells
 tibetan bowls
 tibetan chant
@@ -169946,6 +169936,7 @@ togo culture
 tohnmusik
 tohnmusike
 toho
+tohoshinki
 tohpati ethnomission
 toi
 toight
@@ -169980,6 +169971,7 @@ toki wo koete
 tokimonsta
 toking
 tokuma japan communications
+tokyo
 tokyo accordeon
 tokyo blade
 tokyo boutique
@@ -170428,6 +170420,7 @@ tony benn
 tony bennet
 tony bennett jazz
 tony bennett jazz 2
+tony big
 tony blair
 tony braxton
 tony brown
@@ -172259,6 +172252,7 @@ trip breaks
 trip de urbe
 trip dog
 trip hip
+trip hop
 trip hop chill out
 trip hop electronic
 trip hop instrumental
@@ -172293,6 +172287,7 @@ tripcore
 tripets hopets
 tripho
 triphon
+triphop
 triphop tropical
 triphp
 tripi
@@ -172434,6 +172429,7 @@ troglauer buam
 troglodisco
 troglosound
 troika
+trojan
 trojan box
 trojan boxset
 trojmiasto
@@ -172472,7 +172468,6 @@ trompences
 trompet
 trompeta
 trompetas
-trompetentechno
 tromso
 tromsoe
 tron legacy
@@ -172603,6 +172598,7 @@ tru knowledge
 tru ru
 tru skyy
 tru speech
+tru thoughts
 trữ tình
 tru words
 tru-i got candy
@@ -172691,6 +172687,7 @@ true love cast out all evil 2010
 true love will find you
 true melodic black metal
 true melodic death metal
+true metal
 true metal of steel
 true metal warrior of steel
 true nature
@@ -172861,6 +172858,7 @@ trwanie
 trxll
 trxye
 trxye ep
+try
 try before i buy
 try everything
 try john mayer trio
@@ -173018,6 +173016,7 @@ tua chuva
 tuam
 tuan
 tuan army
+tuareg
 tuareg rock
 tuatara
 tuatha
@@ -173464,6 +173463,7 @@ tvps
 tvrdokorno guvno
 tvrip
 tvsf
+tvxq
 tw
 tw walsh
 tw0
@@ -173532,6 +173532,7 @@ twewy
 twf
 twfpbz
 twi
+twice
 twice as sweet
 twicecoaster lane1
 twicejyp
@@ -173723,6 +173724,7 @@ two-part harmony
 two-piece metal
 two-stepping
 two-three
+two-tone
 two-tone ska
 twoargentinians
 twoas4
@@ -173802,6 +173804,7 @@ tyla
 tyla yaweh
 tyle razy mowili
 tylenol commercial
+tyler adam
 tyler aims
 tyler and rocky
 tyler bates
@@ -174860,6 +174863,8 @@ underground h-hop
 underground heat
 underground heavy metal
 underground hip hip
+underground hip hop
+underground hiphop
 underground industrial
 underground instrumental
 underground instrumental hip hp
@@ -175603,6 +175608,7 @@ upci
 upcomimh
 upcoming
 upcoming 2015
+upcoming album 2022
 upcoming female rapper
 upcoming indie
 upcoming producer in 2013
@@ -175821,6 +175827,7 @@ urbis et orbis
 urbnet
 urbyne
 urbz
+urdu
 urec
 ureleased
 urfaust
@@ -175877,6 +175884,7 @@ urtonmusic
 urtovox
 urtovox band
 uru
+uruguay
 uruguay rock
 uruguayan
 uruguayan wave
@@ -176140,6 +176148,7 @@ uzun
 uzun hava
 uzupis
 uzzhuaia destino perdicion
+v amigo
 v anderson
 v bailey
 v baker
@@ -176264,6 +176273,7 @@ vacyl
 vada dj
 vada vada
 vadca
+vader
 vadikan
 vadim
 vadim brodsky
@@ -176978,6 +176988,7 @@ vega baja
 vega x
 vegan
 vegan bazaar
+vegan straight edge
 veganarchy
 veganism
 veganmusic
@@ -177213,6 +177224,7 @@ verde
 verde live
 verde velma
 verdens laengste rap
+verdi
 verdiazul
 verdomd
 verdroid
@@ -178990,11 +179002,13 @@ vollunteer slavey truths
 volm
 volo
 volodarskvolunsk
+volodja balzalorsky
 vologda
 volor flex
 voloshba
 volosi
 volt
+volta
 volta bureau
 volta polaris
 volta pra mim
@@ -179010,6 +179024,7 @@ voltron
 voluantian
 volume 10
 volume 11
+volume 15
 volume 20
 volume 3
 volume 6
@@ -179252,6 +179267,7 @@ vthree
 vtkunderground
 vtm the masked singer s3
 vtt
+vtuber
 vtv
 vucciria
 vuela muy alto
@@ -180103,6 +180119,7 @@ watching the rain outside
 watchlist
 watchman
 watchtower
+water
 water drops
 water fae
 water for life
@@ -180903,6 +180920,7 @@ wende
 wendel
 wendeland
 wendler
+wendy
 wendy clark
 wendy jack
 wendy jill
@@ -181006,6 +181024,8 @@ wesoe
 wespionage
 wess smith
 west 49
+west africa
+west african
 west african guitarist
 west australia
 west australian orchestra
@@ -181022,6 +181042,7 @@ west coast freestyle
 west coast funk
 west coast gangsta
 west coast gangster rap
+west coast hip-hop
 west coast hop hop
 west coast japan
 west coast pop
@@ -181689,7 +181710,7 @@ whitemorgue
 whitened death metal
 whiterose
 whitesabbat
-whitesabbat
+whitesabbat-deutsch
 whitesnake live
 whitest boy alive
 whitest mcs of all time
@@ -181708,6 +181729,7 @@ whitlock
 whitmark
 whitmey
 whitney barricklow
+whitney houston
 whitney houston is over
 whitney houstonj
 whitneyb
@@ -182766,6 +182788,7 @@ wo i
 wo ist eure wahrheit
 wo sind die maenner geblieben
 woa
+woah
 woah kenny
 woah my gosh
 wob
@@ -183340,6 +183363,7 @@ worlds fair
 worlds forgotten boy
 worldstar
 worldsymphony
+worldwide
 worldwide electro elite
 worldwide peace
 worldwide rockabilly presents
@@ -183769,6 +183793,7 @@ x factor
 x factor 2009
 x factor uk
 x gradi
+x japan
 x marks destination
 x marks the false icon
 x marks the pedwalk
@@ -183953,6 +183978,7 @@ xfire
 xfm br
 xfm br sp
 xfm brasil
+xgalx
 xgirl
 xgrottox
 xgxoxrxex
@@ -184383,6 +184409,7 @@ yardena arazi
 yardgames
 yarema
 yarmouth
+yarn
 yarn audio
 yaron gershovsky
 yaron knochen
@@ -184663,6 +184690,7 @@ yffes musik
 yfriday
 yg
 yg ent
+yg family
 yg hootie
 yg treasure box
 ygam
@@ -185130,6 +185158,7 @@ young man
 young man wanted for traveling with us
 young marble giants
 young midnight
+young money
 young mula
 young nigga movement
 young noble
@@ -185367,11 +185396,6 @@ yuggoth
 yugo rock
 yugoslav
 yugoslav 90s folk
-yugoslav folk
-yugoslav rock
-yugoslavian folk
-yugoslavian metal
-yugoslavian rock
 yugoslavos
 yugoton
 yugyeom rei do pop
@@ -185668,6 +185692,7 @@ zabraknie
 zabrudzony garnitur
 zabuzhko
 zac
+zac brown band
 zac ciulla
 zac farro
 zac rae
@@ -186496,6 +186521,7 @@ zona
 zona escola mamalon
 zona escolar mamalon
 zona norte
+zona roja
 zona sul
 zona traffico libero
 zonaazul

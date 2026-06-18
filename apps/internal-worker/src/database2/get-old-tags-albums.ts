@@ -11,7 +11,7 @@ export default function getOldTagsAlbums(
       .select(['artist', 'name'])
       .where('hidden', 'is not', true)
       // Use raw SQL for Postgres-specific time math
-      .where('tagsUpdatedAt', '<', sql<Date>`NOW() - interval '1 month'`)
+      .where('tagsUpdatedAt', '<', sql<Date>`NOW() - interval '3 months'`)
       .orderBy('tagsUpdatedAt', 'asc')
       .limit(limit)
       .execute()

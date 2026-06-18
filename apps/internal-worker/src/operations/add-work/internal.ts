@@ -9,7 +9,7 @@ import getQueueCapacity from '../../utils/get-queue-capacity.js';
 import initBuild from './init-build.js';
 
 export default async function addInternalWork(transaction: Transaction<DB>) {
-  let internalCapacity = await getQueueCapacity(internalQueue);
+  let internalCapacity = await getQueueCapacity(internalQueue, 100);
   const summary: Record<string, number> = {};
   if (internalCapacity > 0) {
     await initBuild();

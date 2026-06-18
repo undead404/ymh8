@@ -83,7 +83,7 @@ export default function skrapeTag(job: Job<unknown>) {
         `scraped-tag-${bareTag.name}-${page || 1}-${new Date().toISOString()}`,
         {
           imageUrl: newAlbums.findLast(({ cover }) => cover)?.cover,
-          text: `🏷️ Зібрано ${newAlbums.length} нових альбомів для тега <a href="https://ymh8.pages.dev/tags/${bareTag.name.replaceAll(' ', '-')}/>${escapeForTelegram(bareTag.name)}</a>, сторінка ${page || 1}`,
+          text: `🏷️ Зібрано ${newAlbums.length} нових альбомів для тега <a href="https://ymh8.pages.dev/tags/${bareTag.name.replaceAll(' ', '-')}/">${escapeForTelegram(bareTag.name)}</a>, сторінка ${page || 1}`,
         } satisfies TelegramPost,
         newAlbums.length,
       );

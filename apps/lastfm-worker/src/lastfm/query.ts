@@ -9,12 +9,19 @@ const errorResponseSchema = v.object({
 });
 
 function adjustLastfmParameters(parameters: Record<string, unknown>) {
+  // return parameters;
   const newParameters = { ...parameters };
   for (const key of Object.keys(parameters)) {
     let value = newParameters[key];
     if (typeof value === 'string') {
       value = value.replaceAll('+', '%2B');
     }
+    // if (typeof value === 'string' && value.startsWith('+')) {
+    //   value = '%2B' + value.slice(1);
+    // }
+    // if (typeof value === 'string' && value.endsWith('+')) {
+    //   value = value.slice(0, -1) + '%2B';
+    // }
     newParameters[key] = value;
   }
   return newParameters;
@@ -31,7 +38,9 @@ export default async function queryLastfm<T1, T2 extends { method: string }>(
       api_key: environment.LASTFM_API_KEY,
       autocorrect: '0',
       format: 'json',
-      ...adjustLastfmParameters(parameters),
+      ...(parameters.method.startsWith('artist')
+        ? adjustLastfmParameters(parameters)
+        : parameters),
     }).toString();
   await logger.log(url);
   const response = await fetch(url, {

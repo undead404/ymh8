@@ -3,6 +3,7 @@ import type { BareAlbum } from '@ymh8/schemata';
 const NEGLIGIBLE_ALBUM_NAME_REGEXES = [
   'ClearMusicDownloader',
   'undefined',
+  '[non-album tracks]',
   /\s$/,
   /^\s/,
   /\s{2,}/,
@@ -19,6 +20,9 @@ const NEGLIGIBLE_ALBUM_NAME_REGEXES = [
  * @returns Whether the album's name contains any signs of obvious garbage to remove from the charts
  */
 export default function isAlbumNegligible(album: BareAlbum) {
+  if (album.artist === '[unknown]') {
+    return true;
+  }
   for (const regex of NEGLIGIBLE_ALBUM_NAME_REGEXES) {
     if (typeof regex === 'string') {
       if (album.name === regex) {

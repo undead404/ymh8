@@ -7,14 +7,24 @@ import { enqueue, telegramQueue } from '@ymh8/queues';
 import { buildMetadataSchema, type TelegramPost } from '@ymh8/schemata';
 import { escapeForTelegram } from '@ymh8/utils';
 import { FRONTEND_FOLDER } from '../constants.js';
+import { environment } from '../environment.js';
 import { runCommandInFolder } from '../utils/run-command-in-folder.js';
 
 export default async function deploy(job: Job<unknown>) {
   const { triggerDateTime } = v.parse(buildMetadataSchema, job.data);
-  await runCommandInFolder(FRONTEND_FOLDER, 'bash', [
-    '-lc',
-    'source "$NVM_DIR/nvm.sh" || source ~/.nvm/nvm.sh; nvm use && yarn deploy',
-  ]);
+  await runCommandInFolder(
+    FRONTEND_FOLDER,
+    'bash',
+    [
+      '-lc',
+      'source "$NVM_DIR/nvm.sh" || source ~/.nvm/nvm.sh; nvm use && yarn deploy',
+    ],
+    {
+      env: {
+        CLOUDFLARE_API_TOKEN: environment.CLOUDFLARE_API_TOKEN,
+      },
+    },
+  );
   const triggerDate = triggerDateTime.slice(0, 10);
   const triggerDateTimeObject = parseISO(triggerDateTime);
   await enqueue(telegramQueue, 'post', 'deploy-' + triggerDate, {

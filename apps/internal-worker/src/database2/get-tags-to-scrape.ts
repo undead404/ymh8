@@ -12,10 +12,10 @@ export default function getTagsToScrape(
       eb.or([
         eb('Tag.albumsScrapedAt', 'is', null),
         // Use raw SQL for Postgres-specific time math
-        eb('albumsScrapedAt', '<', sql<Date>`NOW() - interval '1 month'`),
+        eb('albumsScrapedAt', '<', sql<Date>`NOW() - interval '3 months'`),
       ]),
     )
-    .orderBy(sql`listUpdatedAt is not null`, 'desc')
+    .orderBy(sql`"listUpdatedAt" is not null`, 'desc')
     .orderBy(sql`${sql.ref('albumsScrapedAt')} asc nulls first`)
     .limit(limit)
     .execute();

@@ -1,6 +1,7 @@
 import { type Queue } from 'bullmq';
 
 import type { TelegramPost } from '@ymh8/schemata';
+import { escapeForTelegram } from '@ymh8/utils';
 import { enqueue, telegramQueue } from '../index.js';
 
 export default function getErrorHandler(
@@ -8,7 +9,7 @@ export default function getErrorHandler(
   postErrors: boolean,
 ) {
   return (error: Error) => {
-    console.error(error);
+    console.error(queue.name, 'ERROR', error);
 
     // Notification Logic
     // Without a job object, we cannot check attemptsMade vs opts.attempts.
@@ -26,19 +27,21 @@ export default function getErrorHandler(
       'post',
       `worker-error-${Date.now()}`, // No job ID available, use timestamp
       {
-        text: `${queue.name} error: ${error.name}\n${error.message}\n${
-          error.stack
-            ?.split('\n')
-            .filter(
-              (line) =>
-                !line.includes('node:internal') &&
-                !line.includes('node_modules'),
-            )
-            .join('\n') ?? ''
-        }`,
+        text: escapeForTelegram(
+          `${queue.name} error: ${error.name}\n${error.message}\n${
+            error.stack
+              ?.split('\n')
+              .filter(
+                (line) =>
+                  !line.includes('node:internal') &&
+                  !line.includes('node_modules'),
+              )
+              .join('\n') ?? ''
+          }`,
+        ),
       } satisfies TelegramPost, // No job priority available
     ).catch((error_) => {
-      console.error(error_);
+      console.error('ERROR HANDLING ERROR:', error_);
     });
   };
 }
