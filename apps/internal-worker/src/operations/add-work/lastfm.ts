@@ -1,109 +1,69 @@
+import type { BulkJobOptions } from 'bullmq';
 import { type Transaction } from 'kysely';
 import type { DB } from 'kysely-codegen';
 
-import { enqueue, lastfmQueue } from '@ymh8/queues';
+import { lastfmQueue } from '@ymh8/queues';
+// Імпорти спрощено, statless видалено
 import getOldStatsAlbums from '../../database2/get-old-stats-albums.js';
-import getOldStatsListfulAlbums from '../../database2/get-old-stats-listful-albums.js';
 import getOldTagsAlbums from '../../database2/get-old-tags-albums.js';
-import getOldTagsListfulAlbums from '../../database2/get-old-tags-listful-albums.js';
-import getStatlessAlbums from '../../database2/get-statless-albums.js';
-import getTaglessAlbums from '../../database2/get-tagless-albums.js';
 import getTagsToScrape from '../../database2/get-tags-to-scrape.js';
-import getQueueCapacity from '../../utils/get-queue-capacity.js';
 
-export default async function addLastfmWork(transaction: Transaction<DB>) {
-  const summary: Record<string, number> = {};
-  const oldStatsAlbums = await getOldStatsListfulAlbums(transaction);
-  for (const oldStatsAlbum of oldStatsAlbums) {
-    console.log(`${oldStatsAlbum.artist} - ${oldStatsAlbum.name}`);
-    await enqueue(
-      lastfmQueue,
-      'album:update:stats',
-      `${oldStatsAlbum.artist} - ${oldStatsAlbum.name}`,
-      oldStatsAlbum,
-    );
-  }
-  summary['album:update:stats'] = oldStatsAlbums.length;
-  const oldTagsAlbums = await getOldTagsListfulAlbums(transaction);
+import { type WorkJob } from './jobs.js';
 
-  for (const oldTagsAlbum of oldTagsAlbums) {
-    console.log(`${oldTagsAlbum.artist} - ${oldTagsAlbum.name}`);
-    await enqueue(
-      lastfmQueue,
-      'album:update:tags',
-      `${oldTagsAlbum.artist} - ${oldTagsAlbum.name}`,
-      oldTagsAlbum,
-    );
-  }
-  summary['album:update:tags'] = oldTagsAlbums.length;
-  let lastfmCapacity = await getQueueCapacity(lastfmQueue);
-  if (lastfmCapacity > 0) {
-    const statlessAlbums = await getStatlessAlbums(transaction, lastfmCapacity);
-    for (const statlessAlbum of statlessAlbums) {
-      await enqueue(
-        lastfmQueue,
-        'album:update:stats',
-        statlessAlbum.artist + ' - ' + statlessAlbum.name,
-        statlessAlbum,
-        1,
-      );
+export default async function addLastfmWork(
+  transaction: Transaction<DB>,
+  initialCapacity: number,
+): Promise<WorkJob[]> {
+  let capacity = initialCapacity;
+  if (capacity <= 0) return [];
+
+  // Масив для пакетного додавання завдань у Redis
+  const jobsToEnqueue: {
+    name: string;
+    data: unknown;
+    opts?: BulkJobOptions;
+  }[] = [];
+
+  // 2. Regular Albums (Нижчий пріоритет)
+  // StatlessAlbums видалено, оскільки getOldStatsAlbums тепер захоплює і їх
+  if (capacity > 0) {
+    const oldStats = await getOldStatsAlbums(transaction, capacity);
+    for (const album of oldStats) {
+      jobsToEnqueue.push({
+        name: 'album:update:stats',
+        data: album,
+        opts: { priority: 1, jobId: `${album.artist} - ${album.name}-stats` },
+      });
     }
-    lastfmCapacity -= statlessAlbums.length;
-    summary['album:update:stats'] =
-      (summary['album:update:stats'] ?? 0) + statlessAlbums.length;
+    capacity -= oldStats.length;
   }
-  if (lastfmCapacity > 0) {
-    const taglessAlbums = await getTaglessAlbums(transaction, lastfmCapacity);
-    for (const taglessAlbum of taglessAlbums) {
-      await enqueue(
-        lastfmQueue,
-        'album:update:tags',
-        taglessAlbum.artist + ' - ' + taglessAlbum.name,
-        { artist: taglessAlbum.artist, name: taglessAlbum.name },
-        1,
-      );
+
+  if (capacity > 0) {
+    const oldTags = await getOldTagsAlbums(transaction, capacity);
+    for (const album of oldTags) {
+      jobsToEnqueue.push({
+        name: 'album:update:tags',
+        data: album,
+        opts: { priority: 1, jobId: `${album.artist} - ${album.name}-tags` },
+      });
     }
-    lastfmCapacity -= taglessAlbums.length;
-    summary['album:update:tags'] =
-      (summary['album:update:tags'] ?? 0) + taglessAlbums.length;
+    capacity -= oldTags.length;
   }
-  if (lastfmCapacity > 0) {
-    const tagsToScrape = await getTagsToScrape(transaction, lastfmCapacity);
-    for (const tagToScrape of tagsToScrape) {
-      await enqueue(lastfmQueue, 'tag:scrape', tagToScrape.name, tagToScrape);
+
+  if (capacity > 0) {
+    const tagsToScrape = await getTagsToScrape(transaction, capacity);
+    for (const tag of tagsToScrape) {
+      jobsToEnqueue.push({
+        name: 'tag:scrape',
+        data: tag,
+        opts: { jobId: `${tag.name}-scrape` },
+      });
     }
-    lastfmCapacity -= tagsToScrape.length;
-    summary['tag:scrape'] = tagsToScrape.length;
+    capacity -= tagsToScrape.length;
   }
-  if (lastfmCapacity > 0) {
-    const oldStatsAlbums = await getOldStatsAlbums(transaction, lastfmCapacity);
-    for (const oldStatsAlbum of oldStatsAlbums) {
-      await enqueue(
-        lastfmQueue,
-        'album:update:stats',
-        oldStatsAlbum.artist + ' - ' + oldStatsAlbum.name,
-        oldStatsAlbum,
-        1,
-      );
-    }
-    lastfmCapacity -= oldStatsAlbums.length;
-    summary['album:update:stats'] =
-      (summary['album:update:stats'] || 0) + oldStatsAlbums.length;
-  }
-  if (lastfmCapacity > 0) {
-    const oldTagsAlbums = await getOldTagsAlbums(transaction, lastfmCapacity);
-    for (const oldTagsAlbum of oldTagsAlbums) {
-      await enqueue(
-        lastfmQueue,
-        'album:update:tags',
-        oldTagsAlbum.artist + ' - ' + oldTagsAlbum.name,
-        oldTagsAlbum,
-        1,
-      );
-    }
-    lastfmCapacity -= oldTagsAlbums.length;
-    summary['album:update:tags'] =
-      (summary['album:update:tags'] || 0) + oldTagsAlbums.length;
-  }
-  return summary;
+
+  return jobsToEnqueue.map((job) => ({
+    queue: lastfmQueue,
+    ...job,
+  }));
 }

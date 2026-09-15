@@ -1,9 +1,10 @@
 import type { Job } from 'bullmq';
 import * as v from 'valibot';
 
-import { hideAlbum } from '@ymh8/database';
+import { hideAlbum, readAlbumStats } from '@ymh8/database';
 import { bareAlbumSchema } from '@ymh8/schemata';
 import { sleep } from '@ymh8/utils';
+import getAlbumDetails from '../database2/get-album-details.js';
 import kysely from '../database2/index.js';
 import readAlbumTags from '../database2/read-album-tags.js';
 import removeTagsFromAlbum from '../database2/remove-tags-from-album.js';
@@ -21,6 +22,8 @@ export default async function updateAlbumTags(
   const bareAlbum = v.parse(bareAlbumSchema, job.data);
   return kysely.transaction().execute(async (transaction) => {
     try {
+      const albumDetails = await getAlbumDetails(transaction, bareAlbum);
+      const stats = await readAlbumStats(transaction, bareAlbum);
       let tags = await getAlbumTags(bareAlbum, job);
       tags = [...normalizeTags(filterTags(tags))];
       if (tags.length === 0) {
@@ -53,7 +56,11 @@ export default async function updateAlbumTags(
         await upsertAlbumTags(transaction, bareAlbum, tagsToUpdate);
       }
 
-      await saveAlbumTagsUpdateSuccess(transaction, bareAlbum);
+      await saveAlbumTagsUpdateSuccess(
+        transaction,
+        { ...bareAlbum, ...albumDetails },
+        { listeners: stats.listeners || 0, playcount: stats.playcount || 0 },
+      );
       return tagsToUpdate.length > 0
         ? Object.fromEntries(
             tagsToUpdate.map(({ name, count }) => [name, count]),

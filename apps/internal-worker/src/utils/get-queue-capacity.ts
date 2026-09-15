@@ -6,6 +6,8 @@ export default async function getQueueCapacity(
   queue: Queue<unknown>,
   fillLimit = FILLED_CAPACITY_LIMIT,
 ) {
-  const waitingJobsNumber = await queue.count();
+  const counts = await queue.getJobCounts('wait', 'active', 'prioritized');
+  const waitingJobsNumber =
+    (counts.wait ?? 0) + (counts.active ?? 0) + (counts.prioritized ?? 0);
   return waitingJobsNumber < fillLimit ? fillLimit - waitingJobsNumber : 0;
 }
