@@ -7,6 +7,7 @@
     "bullmq": "~5.65.1",
     "date-fns": "~4.1.0",
     "dotenv": "~17.2.3",
+    "systeminformation": "~5.31.7",
     "uuid": "~13.0.0",
     "valibot": "~1.2.0"
   },

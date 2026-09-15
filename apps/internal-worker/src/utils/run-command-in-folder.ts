@@ -41,6 +41,35 @@ export async function runCommandInFolder(
     stdio: 'pipe',
   };
 
+  const proxyEnvironment = [
+    'HTTP_PROXY',
+    'HTTPS_PROXY',
+    'ALL_PROXY',
+    'NO_PROXY',
+    'http_proxy',
+    'https_proxy',
+    'all_proxy',
+    'no_proxy',
+  ].filter((name) => options.env?.[name]);
+
+  console.info('[run-command] spawning child process', {
+    command,
+    arguments: arguments_,
+    cwd: resolved,
+    parentNode: process.version,
+    parentExecPath: process.execPath,
+    pathPrefix: options.env?.PATH?.split(path.delimiter).slice(0, 3),
+    proxyEnvironment,
+    runtimeEnvironment: {
+      HOME: options.env?.HOME,
+      JFROG_USER: options.env?.JFROG_USER,
+      NODE_OPTIONS: options.env?.NODE_OPTIONS,
+      CI: options.env?.CI,
+      NO_COLOR: options.env?.NO_COLOR,
+      WRANGLER_SEND_METRICS: options.env?.WRANGLER_SEND_METRICS,
+    },
+  });
+
   // Spawn the process
   const child = spawn(command, arguments_, options);
 

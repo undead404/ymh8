@@ -10,6 +10,10 @@ const environmentSchema = v.object({
   DB: nonEmptyString,
   DB_USER: nonEmptyString,
   DB_PASSWORD: nonEmptyString,
+  // LATITUDE: v.pipe(v.string(), v.decimal(), v.toNumber()),
+  // LONGITUDE: v.pipe(v.string(), v.decimal(), v.toNumber()),
 });
+
+// console.log(process.env);
 
 export const environment = v.parse(environmentSchema, process.env);

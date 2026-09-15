@@ -27,7 +27,7 @@ export const lastfmQueue = new Queue(QUEUES.LASTFM, {
       type: 'exponential',
       delay: 5000, // Start with 5 seconds
     },
-    removeOnComplete: 1000, // Good practice to keep Redis clean
+    removeOnComplete: 10_000, // Good practice to keep Redis clean
     removeOnFail: 5000, // Keep failed jobs for debugging
   },
 });
@@ -53,7 +53,7 @@ export const telegramQueue = new Queue(QUEUES.TELEGRAM, {
       type: 'exponential',
       delay: 30_000,
     },
-    removeOnComplete: 1000, // Good practice to keep Redis clean
+    removeOnComplete: 100, // Good practice to keep Redis clean
     removeOnFail: 5000, // Keep failed jobs for debugging
   },
 });

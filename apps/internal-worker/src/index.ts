@@ -44,3 +44,11 @@ process.on('SIGINT', () => {
 process.on('SIGTERM', () => {
   void gracefulShutdown('SIGTERM');
 });
+
+process.on('uncaughtException', () => {
+  void gracefulShutdown('ERROR');
+});
+
+process.on('unhandledRejection', () => {
+  void gracefulShutdown('REJECTION');
+});

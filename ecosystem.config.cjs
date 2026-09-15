@@ -44,6 +44,7 @@ module.exports = {
     },
     {
       autorestart: true,
+      exec_mode: 'fork',
       instances: 1,
       name: 'ymh-bull-board',
       script: './apps/bull-board/dist/index.js',
