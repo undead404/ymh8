@@ -33,6 +33,7 @@
     "dev:apps": "pnpm -w -r --filter \"./apps/\" run dev --parallel",
     "lint": "eslint .",
     "prepare": "husky",
+    "restart-all": "pnpm lint && pnpm test --run && pnpm build && pm2 restart ecosystem.config.cjs",
     "start": "pm2 start ecosystem.config.cjs",
     "stop": "pm2 stop ecosystem.config.cjs",
     "test": "vitest"
