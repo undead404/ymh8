@@ -9,7 +9,7 @@ export default function getErrorHandler(
   postErrors: boolean,
 ) {
   return (error: Error) => {
-    console.error(queue.name, 'ERROR', error);
+    console.error(error);
 
     // Notification Logic
     // Without a job object, we cannot check attemptsMade vs opts.attempts.
@@ -41,7 +41,7 @@ export default function getErrorHandler(
         ),
       } satisfies TelegramPost, // No job priority available
     ).catch((error_) => {
-      console.error('ERROR HANDLING ERROR:', error_);
+      console.error(error_);
     });
   };
 }
