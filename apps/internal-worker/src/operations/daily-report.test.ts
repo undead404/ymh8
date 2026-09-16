@@ -39,8 +39,8 @@ const state = {
     albumsInAtLeastOneList: 14,
     pendingStats: 2,
     pendingTags: 3,
-    overdueStats: 5,
-    overdueTags: 6,
+    overdueStats: 2,
+    overdueTags: 3,
   },
   activity: {
     albumsRegistered: 7,
@@ -81,6 +81,8 @@ describe('dailyReport', () => {
     expect(report).toContain('Artist — Album: 1 234 567');
     expect(report).toContain('Змінено списків: 12');
     expect(report).toContain('Альбомів із iTunes-прев’ю: 11');
+    expect(report).toContain('Очікують статистики / тегів: 2 / 3');
+    expect(report).toContain('Прострочені оновлення статистики / тегів: 2 / 3');
     expect(report).not.toContain('Очікують статистики / тегів / iTunes');
     expect(report).not.toContain('artist');
     expect(report).not.toContain('Посилання');

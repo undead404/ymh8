@@ -60,18 +60,22 @@ export default async function getDailyReportState(
         fn
           .count<number>('artist')
           .filterWhere('statsUpdatedAt', 'is', null)
+          .filterWhere('hidden', 'is not', true)
           .as('pendingStats'),
         fn
           .count<number>('artist')
           .filterWhere('tagsUpdatedAt', 'is', null)
+          .filterWhere('hidden', 'is not', true)
           .as('pendingTags'),
         fn
           .count<number>('artist')
-          .filterWhere('nextStatsUpdateAt', '<', sql<Date>`NOW()`)
+          .filterWhere('nextStatsUpdateAt', '<=', sql<Date>`NOW()`)
+          .filterWhere('hidden', 'is not', true)
           .as('overdueStats'),
         fn
           .count<number>('artist')
-          .filterWhere('nextTagsUpdateAt', '<', sql<Date>`NOW()`)
+          .filterWhere('hidden', 'is not', true)
+          .filterWhere('nextTagsUpdateAt', '<=', sql<Date>`NOW()`)
           .as('overdueTags'),
         withinWindow('registeredAt', window).as('albumsRegistered'),
         sql<number>`COUNT(*) FILTER (
