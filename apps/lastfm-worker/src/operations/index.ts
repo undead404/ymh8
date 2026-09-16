@@ -1,7 +1,12 @@
 import * as v from 'valibot';
 
-import { bareAlbumSchema, bareTagSchema } from '@ymh8/schemata';
+import {
+  bareAlbumSchema,
+  bareArtistSchema,
+  bareTagSchema,
+} from '@ymh8/schemata';
 
+import finishArtistScrape from './finish-artist-scrape.js';
 import finishTagScrape from './finish-tag-scrape.js';
 import scrapeArtist, { scrapeArtistPayload } from './scrape-artist.js';
 import skrapeTag, { scrapeTagPayload } from './skrape-tag.js';
@@ -20,6 +25,14 @@ const operationsMapping = {
   'artist:scrape': {
     operate: scrapeArtist,
     schema: (data: unknown) => v.parse(scrapeArtistPayload, data),
+  },
+  'artist:scrape:page': {
+    operate: scrapeArtist,
+    schema: (data: unknown) => v.parse(scrapeArtistPayload, data),
+  },
+  'artist:scrape:finish': {
+    operate: finishArtistScrape,
+    schema: (data: unknown) => v.parse(bareArtistSchema, data),
   },
   // 'tag:scrape': scrapeTag,
   'tag:scrape': {

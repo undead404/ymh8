@@ -1,92 +1,12 @@
-import * as v from 'valibot';
+import { type AsyncLogger, type BareArtist } from '@ymh8/schemata';
 
-import { enqueue, lastfmQueue } from '@ymh8/queues';
-import {
-  type AsyncLogger,
-  type BareArtist,
-  nonEmptyString,
-} from '@ymh8/schemata';
-
-import queryLastfm from './query.js';
-
-const tagTopAlbumsResponseSchema = v.object({
-  topalbums: v.object({
-    '@attr': v.object({
-      page: v.pipe(v.string(), v.toNumber()),
-      totalPages: v.pipe(v.string(), v.toNumber(), v.minValue(1)),
-    }),
-    album: v.array(
-      v.object({
-        artist: v.object({
-          name: nonEmptyString,
-        }),
-        image: v.pipe(
-          v.array(
-            v.object({
-              '#text': v.optional(v.string()),
-            }),
-          ),
-          v.transform((images) => images.filter(({ '#text': url }) => url)),
-        ),
-        mbid: v.optional(nonEmptyString),
-        name: v.string(),
-        playcount: v.number(),
-      }),
-    ),
-  }),
-});
-
-function convertAlbum(
-  lastfmAlbum: v.InferInput<
-    typeof tagTopAlbumsResponseSchema
-  >['topalbums']['album'][0],
-) {
-  return {
-    artist: lastfmAlbum.artist.name,
-    cover: lastfmAlbum.image.at(-1)?.['#text'] || undefined,
-    name: lastfmAlbum.name,
-    thumbnail: lastfmAlbum.image.at(0)?.['#text'] || undefined,
-  };
-}
+import getArtistTopAlbumsPage from './get-artist-top-albums-page.js';
 
 export default async function getArtistTopAlbums(
   { name }: BareArtist,
   logger: AsyncLogger,
   page?: number,
 ) {
-  const albums: ReturnType<typeof convertAlbum>[] = [];
-  const response = await queryLastfm(
-    tagTopAlbumsResponseSchema,
-    {
-      artist: name,
-      method: 'artist.getTopAlbums',
-      ...(page ? { page } : {}),
-    },
-    logger,
-  );
-  albums.push(
-    ...response.topalbums.album
-      .filter((album) => album.playcount >= 100)
-      .filter((album) => album.name.length <= 1023)
-      .map((lastfmAlbum) => convertAlbum(lastfmAlbum)),
-  );
-  if (page) {
-    return albums;
-  }
-  const totalPages = response.topalbums['@attr'].totalPages;
-  let currentPage = 2;
-  while (currentPage < totalPages) {
-    await enqueue(
-      lastfmQueue,
-      'artist:scrape',
-      `${name}-${currentPage}`,
-      {
-        name,
-        ...(currentPage ? { page: currentPage } : {}),
-      },
-      50 + (currentPage - 1),
-    );
-    currentPage += 1;
-  }
+  const { albums } = await getArtistTopAlbumsPage({ name }, logger, page);
   return albums;
 }

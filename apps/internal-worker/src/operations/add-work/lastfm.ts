@@ -2,7 +2,7 @@ import { type Transaction } from 'kysely';
 import type { DB } from 'kysely-codegen';
 
 import { lastfmQueue } from '@ymh8/queues';
-// Імпорти спрощено, statless видалено
+import getArtistsToScrape from '../../database2/get-artists-to-scrape.js';
 import getOldStatsAlbums from '../../database2/get-old-stats-albums.js';
 import getOldTagsAlbums from '../../database2/get-old-tags-albums.js';
 import getTagsToScrape from '../../database2/get-tags-to-scrape.js';
@@ -60,6 +60,16 @@ export default async function addLastfmWork(
       );
     }
     capacity -= tagsToScrape.length;
+  }
+
+  if (capacity > 0) {
+    const artistsToScrape = await getArtistsToScrape(transaction, capacity);
+    for (const artist of artistsToScrape) {
+      jobsToEnqueue.push(
+        createWorkJob(lastfmQueue, 'artist:scrape', artist.name, artist),
+      );
+    }
+    capacity -= artistsToScrape.length;
   }
 
   return jobsToEnqueue;
