@@ -43,6 +43,12 @@ async function getQueueBacklogs() {
   return Object.fromEntries(entries);
 }
 
+const numberFormatter = new Intl.NumberFormat('uk-UA');
+
+function formatNumber(value: number) {
+  return numberFormatter.format(value);
+}
+
 function formatQueueBacklogs(
   backlogs: Record<
     string,
@@ -56,9 +62,15 @@ function formatQueueBacklogs(
   return Object.entries(backlogs)
     .map(([name, counts]) => {
       const total = counts.active + counts.prioritized + counts.waiting;
-      return `${name}: ${total}`;
+      return `${name}: ${formatNumber(total)}`;
     })
     .join(', ');
+}
+
+function formatPercentage(value: number, total: number) {
+  return new Intl.NumberFormat('uk-UA', { maximumFractionDigits: 1 }).format(
+    total === 0 ? 0 : (value / total) * 100,
+  );
 }
 
 export function formatDailyReport(
@@ -73,24 +85,37 @@ export function formatDailyReport(
   >,
 ) {
   const { activity, current } = state;
+  const topAlbums = activity.topRegisteredAlbums.map(
+    ({ artist, name, playcount }, index) =>
+      `${index + 1}. ${artist} — ${name}: ${formatNumber(playcount)}`,
+  );
+  const hiddenAlbums = `Серед них прихованих: ${formatNumber(activity.hiddenAlbumsRegistered)}`;
   return [
     '📊 <b>Щоденний звіт You Must Hear</b>',
     '',
     '<b>Поточний стан</b>',
-    `Альбоми: ${current.albums}`,
-    `Теги: ${current.tags}`,
-    `Списки: ${current.lists}`,
+    `Альбоми: ${formatNumber(current.albums)}`,
+    `Теги: ${formatNumber(current.tags)}`,
+    `Теги зі списками: ${formatNumber(current.tagsWithLists)}`,
+    `Альбоми хоча б в одному списку: ${formatNumber(current.albumsInAtLeastOneList)}`,
     `У чергах: ${formatQueueBacklogs(backlogs)}`,
-    `Очікують статистики / тегів / iTunes: ${current.pendingStats} / ${current.pendingTags} / ${current.pendingItunes}`,
-    `Прострочені оновлення статистики / тегів: ${current.overdueStats} / ${current.overdueTags}`,
+    `Очікують статистики / тегів: ${formatNumber(current.pendingStats)} / ${formatNumber(current.pendingTags)}`,
+    `Прострочені оновлення статистики / тегів: ${formatNumber(current.overdueStats)} / ${formatNumber(current.overdueTags)}`,
     '',
     '<b>За останні 24 години</b>',
-    `Зареєстровано альбомів: ${activity.albumsRegistered}`,
-    `Оновлено статистику / теги: ${activity.statsUpdated} / ${activity.tagsUpdated}`,
-    `Перевірено в iTunes: ${activity.itunesChecked}`,
-    `Зібрано альбомів для тегів: ${activity.tagAlbumsScraped}`,
-    `Змінено списків: ${activity.listsChanged}`,
-    `Списків без змін: ${activity.listsUnchanged}`,
+    `Зареєстровано альбомів: ${formatNumber(activity.albumsRegistered)}`,
+    activity.albumsRegistered === 0
+      ? hiddenAlbums
+      : `${hiddenAlbums} (${formatPercentage(activity.hiddenAlbumsRegistered, activity.albumsRegistered)}%)`,
+    ...(topAlbums.length > 0
+      ? ['Найпопулярніші зареєстровані:', ...topAlbums]
+      : []),
+    `Оновлено статистику / теги: ${formatNumber(activity.statsUpdated)} / ${formatNumber(activity.tagsUpdated)}`,
+    `Перевірено в iTunes: ${formatNumber(activity.itunesChecked)}`,
+    `Альбомів із iTunes-прев’ю: ${formatNumber(activity.albumsWithItunesPreview)}`,
+    `Зібрано альбомів для тегів: ${formatNumber(activity.tagAlbumsScraped)}`,
+    `Змінено списків: ${formatNumber(activity.listsChanged)}`,
+    `Списків без змін: ${formatNumber(activity.listsUnchanged)}`,
   ].join('\n');
 }
 

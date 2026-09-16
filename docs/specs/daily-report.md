@@ -4,118 +4,237 @@
 
 ## Goal
 
-Add a separate scheduled `daily-report` operation to `apps/internal-worker/`, alongside the existing scheduled `add-work` operation. At 06:00 UTC, it aggregates current application state and observable activity from the preceding rolling 24-hour window, then enqueues one Ukrainian Telegram report.
+Extend the scheduled daily Telegram report with clearer list coverage, registration quality, representative newly registered albums, and Ukrainian number formatting. The report uses the existing database schema and remains a rolling 24-hour report with an instantaneous queue snapshot.
 
-The report is aggregate-only. It must not enumerate individual changed lists, report cover/link ratios, or count tags missing descriptions. No durable activity history is introduced.
+The report must show:
+
+- total albums and tags;
+- tags with generated lists;
+- distinct albums belonging to at least one valid tag list;
+- pending and overdue statistics/tag work, but not the global iTunes-less album backlog;
+- albums registered during the preceding 24 hours and how many are currently hidden;
+- up to three newly registered albums with the highest current non-null `playcount`;
+- iTunes checks completed during the window and the current number of those checked albums with an iTunes preview link;
+- all numeric values formatted with the Ukrainian locale.
+
+The iTunes preview metric is explicitly current-state evidence. It must not be presented as an exact historical found-result count because `AlbumLink` has no timestamp.
 
 ## Scope and boundaries
 
-`apps/internal-worker/` owns scheduling, database aggregation, report formatting, and enqueueing. It must not call Telegram directly or make provider requests.
+`apps/internal-worker/` owns scheduling, database aggregation, report formatting, and Telegram enqueueing. It must not call iTunes or Telegram directly.
+
+`apps/itunes-worker/` remains the owner of iTunes provider requests and existing `AlbumLink` writes. No iTunes-worker change, migration, or new persistence is required for this report change.
 
 `apps/telegram-worker/` remains the owner of the Telegram API request through its existing `post` operation.
 
-`packages/queues/` is reused for queue access, enqueueing, worker behavior, and idempotency. `packages/schemata/` is reused for `TelegramPost`; no new cross-worker report payload is required.
+`packages/queues/` is reused unchanged for queue access, enqueueing, worker behavior, and idempotency. `packages/schemata/` is reused unchanged for `TelegramPost`; no new cross-worker payload is required.
 
 The report window is `[execution time - 24 hours, execution time)`. Queue counts are an instantaneous snapshot during report generation, not historical queue statistics.
 
-## <Architecture>
+## Exact files and operations
 
-### Exact files and operations
+### Files to change
 
-1. **`apps/internal-worker/src/index.ts`**
-   - Register a repeatable `daily-report` job on `internalQueue`.
-   - Schedule it for 06:00 UTC daily.
-   - Keep the existing hourly `add-work` repeatable job unchanged.
-   - Use a stable job identity so restarts do not create duplicate schedules.
+1. **`apps/internal-worker/src/database2/get-daily-report-state.ts`**
+   - Extend the typed `DailyReportState` contract.
+   - Add list coverage, hidden registration, top registered album, and qualified iTunes preview aggregates.
+   - Remove `pendingItunes` from the report state because global iTunes eligibility is not a user-facing workflow metric.
+   - Keep all queries read-only and use generated `DB` types.
 
-2. **`apps/internal-worker/src/operations/index.ts`**
-   - Register the `daily-report` operation.
-   - Validate its empty-object payload using the existing operation-registration pattern.
+2. **`apps/internal-worker/src/database2/get-daily-report-state.test.ts`**
+   - Extend aggregate query tests for every new field and boundary.
 
 3. **`apps/internal-worker/src/operations/daily-report.ts`**
-   - Derive the report end time from execution time and the start time as 24 hours earlier.
-   - Read the complete aggregate through the dedicated database function.
-   - Format one Ukrainian Telegram message.
-   - Enqueue exactly one `telegramQueue` `post` job using the existing `TelegramPost` contract.
-   - Use a deterministic report-period identity so retries do not enqueue duplicates.
+   - Add report lines for the new state fields.
+   - Add one Ukrainian locale number formatter for all displayed numeric values.
+   - Render up to three top registered albums.
+   - Use qualified wording for the current iTunes preview metric.
+   - Preserve payload validation, queue snapshot behavior, deterministic period identity, and Telegram enqueueing.
 
-4. **`apps/internal-worker/src/database2/get-daily-report-state.ts`**
-   - Own all Kysely queries needed by the report.
-   - Use generated `DB` types and existing database access.
-   - Return typed aggregate values, not raw query results.
-   - Keep the queries read-only.
+4. **`apps/internal-worker/src/operations/daily-report.test.ts`**
+   - Test formatting, new sections, qualified iTunes wording, and unchanged enqueue behavior.
 
-5. **`apps/internal-worker/src/database2/get-daily-report-state.test.ts`**
-   - Test aggregate query behavior at the existing Kysely mock boundary.
+5. **`docs/specs/daily-report.md`**
+   - This specification.
 
-6. **`apps/internal-worker/src/operations/daily-report.test.ts`**
-   - Test time-window derivation, formatting, enqueueing, idempotency, and failure propagation.
+### Files not to change
 
-### Report sections
+- `apps/telegram-worker/`
+- `apps/itunes-worker/`
+- `packages/queues/`
+- `packages/schemata/`
+- database schema or migration files
+- repeatable-job scheduling files, unless existing report registration is already present and requires no change for these metrics
 
-The Ukrainian message contains only aggregate sections:
+## State contract
 
-- **Поточний стан**: total albums, total tags, total generated lists, current queue backlog, pending statistics/tags/iTunes work, and overdue refresh work where existing queries establish those values.
-- **За останні 24 години**: albums registered, statistics updates, tag updates, iTunes checks, tag album scrapes, changed lists, unchanged list checks, and other outcomes only where existing database state supports the aggregate.
-- **Обмеження**: current queue snapshot and current system-deferral information where available.
+`DailyReportState.current` must contain:
 
-It must not include individual tag, album, or list names; list diffs; cover/link ratios; or missing-description counts.
+- `albums: number`
+- `tags: number`
+- `tagsWithLists: number`
+- `albumsInAtLeastOneList: number`
+- `pendingStats: number`
+- `pendingTags: number`
+- `overdueStats: number`
+- `overdueTags: number`
+
+`DailyReportState.activity` must contain:
+
+- `albumsRegistered: number`
+- `hiddenAlbumsRegistered: number`
+- `statsUpdated: number`
+- `tagsUpdated: number`
+- `itunesChecked: number`
+- `albumsWithItunesPreview: number`
+- `tagAlbumsScraped: number`
+- `listsChanged: number`
+- `listsUnchanged: number`
+- `topRegisteredAlbums: Array<{ artist: string; name: string; playcount: number }>`
+
+`topRegisteredAlbums` contains at most three entries and never contains a null `playcount`.
+
+## <Architecture>
+
+### Database aggregation
+
+`get-daily-report-state.ts` remains the only owner of report database queries. Keep the existing two aggregate query pattern unless the query builder requires a separate query for the top-three result.
+
+Current album aggregates remain based on `Album`. Current tag aggregates remain based on `Tag`.
+
+Add these exact operations:
+
+1. **Tags with lists**
+   - Count `Tag` rows where `listUpdatedAt IS NOT NULL`.
+   - Return as `current.tagsWithLists`.
+   - Do not label this value simply `Списки`, because it counts tags, not list entities.
+
+2. **Albums in at least one list**
+   - Join `TagListItem` to `Album` using:
+     - `TagListItem.albumArtist = Album.artist`
+     - `TagListItem.albumName = Album.name`
+   - Count distinct album identity `(Album.artist, Album.name)`.
+   - Orphaned `TagListItem` rows must not count.
+   - Return as `current.albumsInAtLeastOneList`.
+
+3. **Hidden registrations**
+   - Count `Album` rows where `registeredAt >= start`, `registeredAt < end`, and `hidden = true`.
+   - Return as `activity.hiddenAlbumsRegistered`.
+   - This is the current hidden state of albums registered in the window, not a historical hidden-state event.
+
+4. **Top registered albums**
+   - Select albums where `registeredAt >= start`, `registeredAt < end`, and `playcount IS NOT NULL`.
+   - Order by `playcount DESC`, followed by stable `artist ASC` and `name ASC` tie-breakers.
+   - Limit to three rows.
+   - Return artist, name, and numeric playcount only.
+   - Do not expose album rows outside the requested three.
+
+5. **iTunes checks and current preview coverage**
+   - Keep `itunesChecked` as the count of `Album` rows whose `itunesCheckedAt` is within `[start, end)`.
+   - Count `albumsWithItunesPreview` from those checked albums joined to `AlbumLink` where `AlbumLink.type = 'itunes_preview'`.
+   - Match the album using `(albumArtist, albumName)`.
+   - Count distinct albums, not link rows.
+   - This metric means “albums checked in the window that currently have an iTunes preview link”; it must not be described as “found during the window”.
+
+6. **Removed iTunes backlog**
+   - Do not select or render `Album.itunesCheckedAt IS NULL` as a pending user-facing metric.
+   - Do not replace it with a list-filtered pending count in this change.
+
+### Report formatting
+
+`daily-report.ts` must use one locale-aware formatter based on `uk-UA` for every number rendered in the Telegram message, including:
+
+- current counts;
+- queue totals;
+- pending and overdue counts;
+- activity counts;
+- playcounts;
+- percentages.
+
+The formatter must preserve numeric meaning, format zero as `0`, and use Ukrainian decimal formatting for percentages. Album artist/name strings are not passed through the numeric formatter.
+
+The report should use these Ukrainian labels:
+
+- `Теги зі списками: ...`
+- `Альбоми хоча б в одному списку: ...`
+- `Очікують статистики / тегів: ... / ...`
+- `Серед них прихованих: ... (...)` when registrations exist
+- `Найпопулярніші зареєстровані:` for the optional top-three block
+- `Перевірено в iTunes: ...`
+- `Альбомів із iTunes-прев’ю: ...`
+
+Do not use `Знайдено в iTunes` for the current preview-link metric.
 
 ### Zones and patterns
 
-- Database values are handled through typed Kysely results and explicit null handling.
-- BullMQ `job.data` is validated before operation logic.
-- Telegram payloads use `TelegramPost`/`telegramPostSchema`.
+- `internal-worker` owns all internal aggregation and orchestration.
+- External provider requests remain in provider workers.
+- Database values use typed Kysely results and explicit numeric conversion consistent with the existing implementation.
+- `job.data` is validated before operation logic.
+- Telegram payloads use the existing `TelegramPost` contract.
 - Relative imports use `.js` extensions.
 - No unchecked production assertions, `any`, non-null assertions, or suppression comments are introduced.
+- The top-three album names are the only itemized data added; no list or tag identities are enumerated.
 
 ## <DataFlow>
 
-1. `internal-worker` registers the daily repeatable `daily-report` job at 06:00 UTC.
-2. BullMQ delivers the empty payload to `internal-worker`.
-3. The operation boundary validates the payload.
-4. The operation captures an execution timestamp and derives a 24-hour window ending at that timestamp.
-5. `get-daily-report-state.ts` reads current aggregates and timestamp-based activity from `Album` and `Tag`, using:
-   - `Album.registeredAt`, `statsUpdatedAt`, `tagsUpdatedAt`, `itunesCheckedAt`, `nextStatsUpdateAt`, `nextTagsUpdateAt`;
-   - `Tag.registeredAt`, `albumsScrapedAt`, `listCheckedAt`, and `listUpdatedAt`.
-6. It reads current queue counts from the existing queues.
-7. The operation formats the result in Ukrainian.
-8. It enqueues one `telegramQueue` `post` job with the formatted text and no image.
-9. `telegram-worker` validates `TelegramPost` and sends the message through Telegram.
+1. The scheduled `daily-report` job delivers the existing empty payload to `internal-worker`.
+2. The operation validates the payload before reading the database or queues.
+3. The operation captures `end` and derives `start` as exactly 24 hours earlier.
+4. `get-daily-report-state.ts` reads current aggregates from `Album`, `Tag`, and `TagListItem`/`Album`.
+5. It reads iTunes preview relationships from `AlbumLink` only for albums whose `itunesCheckedAt` falls in the reporting window.
+6. It returns typed state, including hidden registrations and the bounded top-three result.
+7. The operation reads instantaneous BullMQ counts from the existing queues.
+8. The operation formats all numeric values with the Ukrainian locale formatter.
+9. The operation omits the hidden-registration percentage when `albumsRegistered` is zero; it renders the hidden count as zero.
+10. The operation renders zero to three top registered albums.
+11. The operation enqueues exactly one `telegramQueue` `post` job with the existing `TelegramPost` payload.
+12. The deterministic report-period identity prevents duplicate posts on retry or restart.
+13. `telegram-worker` validates and delivers the message without contract changes.
 
-Timestamp-based activity is an approximation of observable latest state. Multiple updates to one row may appear as one update. No event ledger, job-history table, or historical queue snapshot is added.
-
-`Tag.listUpdatedAt` supplies the aggregate changed-list count. Individual list changes are never loaded for presentation. List-removal history is skipped unless an existing durable field supports it without a significant rewrite; the report must not fabricate a removal count.
+The report does not claim to provide historical iTunes found/not-found outcomes. Existing `itunesCheckedAt` and current `AlbumLink` state are the only evidence used.
 
 ## <FailureModes>
 
 ### Invalid operation payload
 
-Validate the empty-object payload before report logic. Deterministically invalid data must fail without database aggregation or Telegram enqueueing and use existing non-retryable validation behavior.
+Validate the empty-object payload before aggregation. Deterministically invalid data must fail without database access or Telegram enqueueing and use existing non-retryable validation behavior.
 
-### Database or queue snapshot failure
+### Database aggregate failure
 
-Any failed aggregate or required queue-count query fails the complete report. No partial Telegram report is sent. Existing internal queue retry behavior handles transient failures.
+Any failed aggregate query fails the complete report. No partial Telegram report is sent. Existing internal queue retry behavior handles transient failures.
+
+### Join and duplicate handling
+
+Orphaned `TagListItem` rows are excluded by the `Album` join. Duplicate list memberships and duplicate preview-link rows must not inflate distinct album counts.
+
+### Null and empty values
+
+- Null `playcount` values are excluded from the top-three query.
+- Fewer than three eligible albums produce only the available entries.
+- No eligible albums produce no top-three item lines.
+- Zero registrations produce a valid report without a misleading percentage.
+- Null timestamps do not count as window activity.
+
+### iTunes interpretation
+
+A current preview link may have been created before the reporting window. The report must use qualified wording and must not claim that the link was found during the window.
+
+### Number formatting
+
+All state and activity numeric values must be finite numbers before formatting. The implementation must not render `NaN`, `Infinity`, or raw unformatted values.
 
 ### Telegram enqueue or delivery failure
 
-Failure to enqueue the Telegram post propagates so the scheduled job can retry. Telegram API failures remain governed by `telegram-worker`; this change does not alter provider retry semantics.
+Failure to enqueue propagates so the scheduled job can retry. Telegram API failures remain governed by `telegram-worker`; this change does not alter provider retry semantics.
 
 ### Duplicate scheduled execution
 
-The report post identity is deterministic for the reporting period. Restart or retry must not create duplicate Telegram messages for that period.
-
-### Empty activity window
-
-Zero-valued aggregates render as valid Ukrainian text and the report is still sent.
-
-### Missing historical evidence
-
-The report must not claim to show all jobs, failures, retries, or repeated updates. It reports timestamp-derived activity from current database state. Failed operations are omitted unless an existing persisted value proves them.
+The existing deterministic post identity remains unchanged. Retry or restart must not create duplicate Telegram posts for the same reporting period.
 
 ### Message size
 
-The aggregate-only report must stay within Telegram’s existing message limit. It must not append unbounded itemized details as a fallback.
+The report remains bounded: queue names are fixed, and at most three albums are listed. No unbounded itemized fallback is permitted.
 
 ## <TestPlan>
 
@@ -123,37 +242,48 @@ The aggregate-only report must stay within Telegram’s existing message limit. 
 
 Use the existing Kysely mock boundary. Assert that:
 
-- current-state aggregates are calculated correctly;
-- the rolling window uses `[start, end)` boundaries;
-- null timestamps do not count as activity;
-- `Tag.listUpdatedAt` produces an aggregate changed-list count without list identities;
-- no cover/link or missing-description metrics are selected;
-- empty tables return zero values;
-- query failure propagates.
+- `tagsWithLists` counts only `Tag.listUpdatedAt IS NOT NULL` rows;
+- `albumsInAtLeastOneList` counts distinct joined albums;
+- orphaned `TagListItem` rows are excluded;
+- hidden registrations use `[start, end)` boundaries;
+- top registered albums use the same boundaries;
+- null playcounts are excluded;
+- top albums are ordered by descending playcount with deterministic tie-breaking and limited to three;
+- iTunes checks use `Album.itunesCheckedAt` within `[start, end)`;
+- current iTunes preview coverage uses `AlbumLink.type = 'itunes_preview'` and distinct album identity;
+- `pendingItunes` is absent from the returned contract;
+- null timestamps do not count;
+- empty tables and empty top-three results return valid zero/empty values;
+- aggregate query failures propagate.
 
 ### `apps/internal-worker/src/operations/daily-report.test.ts`
 
 Mock the database aggregation function and `enqueue` at the queue boundary. Assert that:
 
-- the operation derives a 24-hour rolling window;
-- the message is Ukrainian and aggregate-only;
-- individual albums, tags, and lists are never rendered;
-- excluded metrics are absent;
-- the Telegram payload satisfies `TelegramPost`;
-- the post uses deterministic period identity;
+- the operation derives the rolling 24-hour window;
+- all displayed large numbers use Ukrainian locale formatting;
+- percentages use Ukrainian decimal formatting;
+- the report uses explicit list labels;
+- the global iTunes-less backlog line is absent;
+- iTunes preview coverage uses qualified current-state wording;
+- hidden registration count and percentage render correctly;
+- zero registrations do not render a misleading percentage;
+- zero to three top albums render correctly;
+- album names and playcounts are rendered for the top-three block;
 - exactly one Telegram job is enqueued on success;
+- the Telegram payload satisfies `TelegramPost`;
+- deterministic period identity remains unchanged;
 - database and enqueue failures propagate;
-- zero activity produces a valid report.
+- invalid payloads are rejected before aggregation.
 
-### Scheduling and dispatch tests
+### Existing queue and scheduling tests
 
-At the existing internal operation/queue test boundaries, assert that:
+At existing operation and queue boundaries, verify that:
 
-- `daily-report` resolves to the new operation;
-- its empty payload is accepted and invalid payloads are rejected before execution;
-- the repeatable schedule is registered at 06:00 UTC;
-- the existing hourly `add-work` schedule remains unchanged;
-- the daily schedule has stable identity across restarts.
+- the existing daily report operation remains registered;
+- the empty payload remains accepted;
+- queue backlog collection remains unchanged;
+- the existing schedule and `add-work` schedule remain unchanged.
 
 ### Verification
 
@@ -167,10 +297,10 @@ pnpm build
 
 ## Compatibility impact
 
-This adds one internal repeatable job and one Telegram message per day. It does not change provider contracts, database schemas, queue concurrency, retry policy, or the `add-work` schedule.
+This changes only the internal report state and Telegram message content. It does not change database schemas, provider contracts, queue payloads, queue concurrency, retry policy, or scheduled-job identity.
 
-The report is intentionally limited by existing persistence. It does not provide durable historical failure, retry, duplicate-update, or list-removal accounting.
+The report adds a bounded top-three album block and removes the global iTunes-pending metric. Consumers of `DailyReportState` must be updated together with the report query and tests; no external package contract changes.
 
 ## Deferred decisions
 
-No durable activity history is planned. A future event ledger would be a separate change requiring persistence semantics, idempotency rules, and migration work.
+Exact historical iTunes found/not-found reporting remains deferred. It would require a separate persistence design for check outcomes, retry idempotency, provider failures, and migrations. This specification intentionally uses the existing current-state `AlbumLink` evidence instead.

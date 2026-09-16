@@ -35,21 +35,26 @@ const state = {
   current: {
     albums: 100,
     tags: 20,
-    lists: 10,
+    tagsWithLists: 10,
+    albumsInAtLeastOneList: 14,
     pendingStats: 2,
     pendingTags: 3,
-    pendingItunes: 4,
     overdueStats: 5,
     overdueTags: 6,
   },
   activity: {
     albumsRegistered: 7,
+    hiddenAlbumsRegistered: 2,
     statsUpdated: 8,
     tagsUpdated: 9,
     itunesChecked: 10,
+    albumsWithItunesPreview: 11,
     tagAlbumsScraped: 11,
     listsChanged: 12,
     listsUnchanged: 13,
+    topRegisteredAlbums: [
+      { artist: 'Artist', name: 'Album', playcount: 1_234_567 },
+    ],
   },
 };
 
@@ -70,7 +75,13 @@ describe('dailyReport', () => {
 
     expect(report).toContain('Щоденний звіт You Must Hear');
     expect(report).toContain('Альбоми: 100');
+    expect(report).toContain('Теги зі списками: 10');
+    expect(report).toContain('Альбоми хоча б в одному списку: 14');
+    expect(report).toContain('Серед них прихованих: 2 (28,6%)');
+    expect(report).toContain('Artist — Album: 1 234 567');
     expect(report).toContain('Змінено списків: 12');
+    expect(report).toContain('Альбомів із iTunes-прев’ю: 11');
+    expect(report).not.toContain('Очікують статистики / тегів / iTunes');
     expect(report).not.toContain('artist');
     expect(report).not.toContain('Посилання');
     expect(report).not.toContain('опис');
