@@ -19,7 +19,7 @@ const flowProducer = new FlowProducer({
   connection: lastfmQueue.opts.connection,
 });
 
-const scrapeTagPayload = v.object({
+export const scrapeTagPayload = v.object({
   ...bareTagSchema.entries,
   page: v.optional(v.number()),
 });

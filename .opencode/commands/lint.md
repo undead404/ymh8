@@ -17,4 +17,4 @@ You are an expert TypeScript engineer. Analyze the terminal output for unresolve
 
 ### Diagnostic Output
 
-!`pnpm lint || true`
+!`pnpm lint --fix || true`

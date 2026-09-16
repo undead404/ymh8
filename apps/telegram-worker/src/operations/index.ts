@@ -1,12 +1,14 @@
-import type { Job } from 'bullmq';
+import * as v from 'valibot';
+
+import { telegramPostSchema } from '@ymh8/schemata';
 
 import post from './post.js';
 
-const operationsMapping: Record<
-  string,
-  (data: Job<unknown>) => Promise<unknown>
-> = {
-  post: post,
+const operationsMapping = {
+  post: {
+    operate: post,
+    schema: (data: unknown) => v.parse(telegramPostSchema, data),
+  },
 };
 
 export default operationsMapping;

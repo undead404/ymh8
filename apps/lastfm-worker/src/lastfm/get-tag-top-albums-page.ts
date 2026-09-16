@@ -62,7 +62,7 @@ export default async function getTagTopAlbumsPage(
         data: {
           name,
           page: pageNumber,
-        } as unknown,
+        },
         jobId,
         opts: {
           deduplication: {

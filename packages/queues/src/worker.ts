@@ -26,7 +26,7 @@ export default function createLimitedWorker(
   const activeJobIds = new Set<string>();
 
   worker.on('active', (job) => {
-    activeJobIds.add(job.id!);
+    if (job.id) activeJobIds.add(job.id);
   });
 
   // Handle cleanup on completion/failure
@@ -54,7 +54,7 @@ export default function createLimitedWorker(
       try {
         const job = await Job.fromId(queue, id);
         if (job && (await job.isActive())) {
-          // eslint-disable-next-line @typescript-eslint/no-explicit-any, @typescript-eslint/no-unsafe-member-access
+          // eslint-disable-next-line @typescript-eslint/consistent-type-assertions, @typescript-eslint/no-explicit-any, @typescript-eslint/no-unsafe-member-access -- BullMQ requires its private token for graceful active-job retry.
           (job as any).token = worker.id;
           await job.retry();
           console.log(`Job ${id} from ${queue.name} moved to waiting`);

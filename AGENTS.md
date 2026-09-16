@@ -33,6 +33,14 @@
 - Preserve missing values and surface conflicting provider data; do not silently convert uncertain data into confident canonical data.
 - Add tests for malformed, incomplete, contradictory, and rate-limited provider responses when relevant.
 
+## Type safety and runtime boundaries
+
+- Production source must not use unchecked type assertions (`as`), non-null assertions, `any`, `@ts-ignore`, or `@ts-expect-error` to cross an untrusted boundary.
+- Unit tests may use any type casts for mocks, stubs, partial dependencies, and fixture construction. They must not cast BullMQ payloads or external data to bypass the behavior under test.
+- Treat external responses, environment variables, database JSON, caught errors, and BullMQ data as untrusted until Valibot validation or explicit control-flow narrowing succeeds.
+- Every BullMQ operation must validate `job.data` before business logic. Deterministically invalid payloads must fail without retry when BullMQ supports that classification.
+- An unavoidable production adapter assertion requires a surgical local eslint-disable directive with a reason; broad disables are not permitted.
+
 ## Tests and verification
 
 - Every code change must be covered by unit tests for the changed behavior. Tests must cover relevant success and failure paths, including malformed external data, retries, idempotency, and queue behavior.
@@ -41,7 +49,7 @@
 - Before declaring any change complete, run all of these commands from the repository root:
 
   ```text
-  pnpm lint
+  pnpm lint --fix
   pnpm test --run
   pnpm build
   ```

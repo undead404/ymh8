@@ -21,16 +21,17 @@ export default async function post(job: Job<unknown>) {
       });
       return;
     } catch (error) {
+      const message = error instanceof Error ? error.message : String(error);
       await enqueue(
         telegramQueue,
         'post',
         'error-' + uuidv4(),
         {
-          text: `${error as Error}`,
+          text: message,
         } satisfies TelegramPost,
         100,
       );
-      await job.log((error as Error).message);
+      await job.log(message);
     }
   }
   await bot.sendMessage(

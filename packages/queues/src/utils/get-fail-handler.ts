@@ -25,10 +25,19 @@ export default function getFailHandler<T>(
     ) {
       // Calculate delay (default to 60s if header missing)
       // Note: Retry-After is usually in seconds, BullMQ needs milliseconds
-      // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access, @typescript-eslint/no-explicit-any
-      const retryAfterHeader = (error as any).response?.headers[
-        'retry-after'
-      ] as string;
+      const retryAfterHeader =
+        typeof error === 'object' &&
+        error !== null &&
+        'response' in error &&
+        typeof error.response === 'object' &&
+        error.response !== null &&
+        'headers' in error.response &&
+        typeof error.response.headers === 'object' &&
+        error.response.headers !== null &&
+        'retry-after' in error.response.headers &&
+        typeof error.response.headers['retry-after'] === 'string'
+          ? error.response.headers['retry-after']
+          : undefined;
       const delayMs = retryAfterHeader
         ? Number.parseInt(retryAfterHeader, 10) * 1000
         : 60_000;

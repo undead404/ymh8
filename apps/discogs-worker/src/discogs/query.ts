@@ -63,14 +63,15 @@ export default async function queryDiscogs<
         throw new Error(`Discogs API Error ${response.status}: ${errorText}`);
       }
 
-      return response.json() as unknown;
+      // eslint-disable-next-line @typescript-eslint/no-unsafe-return -- Response.json is typed as any; the caller validates the result.
+      return response.json();
       // const text = await response.text(); // Get text first
       // console.log(`[Discogs] Payload size: ${text.length} chars`); // <--- CHECK SIZE
       // return JSON.parse(text) as unknown;
     };
 
     // Race the fetch against the timer
-    const data = await Promise.race([fetchPromise(), timeoutPromise]);
+    const data: unknown = await Promise.race([fetchPromise(), timeoutPromise]);
 
     // Validate
     return v.parse(schema, data);

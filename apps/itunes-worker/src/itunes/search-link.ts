@@ -37,7 +37,8 @@ export default async function searchLink(
   if (searchResp.status >= 400) {
     throw new Error(`${searchResp.statusText}`);
   }
-  const searchData = (await searchResp.json()) as unknown;
+
+  const searchData: unknown = await searchResp.json();
 
   const validData = v.parse(itunesSearchResponseSchema, searchData);
 
@@ -53,7 +54,11 @@ export default async function searchLink(
     await logger.log('Album not found');
     return;
   }
-  const albumUrl = albumMatch.collectionViewUrl!;
+  const albumUrl = albumMatch.collectionViewUrl;
+  if (!albumUrl) {
+    await logger.log('Album link missing');
+    return;
+  }
 
   await sleep(6000);
 
@@ -65,7 +70,8 @@ export default async function searchLink(
   if (lookupResp.status >= 400) {
     throw new Error(`${lookupResp.statusText}`);
   }
-  const lookupData = (await lookupResp.json()) as unknown;
+
+  const lookupData: unknown = await lookupResp.json();
   const validLookupData = v.parse(itunesSearchResponseSchema, lookupData);
 
   // The lookup returns the Album (wrapperType: 'collection') as index 0,
@@ -84,7 +90,9 @@ export default async function searchLink(
     // Must have a name
     if (!t.trackName) return false;
     // Must not match keywords
-    const isIntro = skipKeywords.some((regex) => regex.test(t.trackName!));
+    const isIntro = skipKeywords.some((regex) =>
+      t.trackName ? regex.test(t.trackName) : false,
+    );
     if (isIntro) return false;
     if ((t.trackTimeMillis || 0) < 30_000) return false;
 
@@ -108,10 +116,13 @@ export default async function searchLink(
   if (!selectedTrack) {
     return;
   }
+  if (!selectedTrack.previewUrl) {
+    return;
+  }
   await logger.log(`${selectedTrack.artistName} - ${selectedTrack.trackName}`);
   return {
     pageUrl: albumUrl,
-    previewUrl: selectedTrack.previewUrl!,
+    previewUrl: selectedTrack.previewUrl,
     releaseDate: albumMatch.releaseDate?.slice(0, 10),
     trackCount: albumMatch.trackCount,
   };

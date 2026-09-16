@@ -46,7 +46,8 @@ export default async function queryLastfm<T1, T2 extends { method: string }>(
   const response = await fetch(url, {
     signal: AbortSignal.timeout(60_000),
   });
-  const data = (await response.json()) as unknown;
+
+  const data: unknown = await response.json();
   // console.log(data);
   try {
     return v.parse(schema, data);

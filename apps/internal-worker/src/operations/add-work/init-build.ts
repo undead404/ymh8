@@ -14,7 +14,10 @@ export default async function initBuild(
   }
   // only date, no time part
   const triggerDateTime = new Date().toISOString();
-  const triggerDate = triggerDateTime.split('T')[0]!;
+  const triggerDate = triggerDateTime.split('T')[0];
+  if (!triggerDate) {
+    throw new Error('Could not derive build date');
+  }
   const priority = tagListsNumber * 100;
   const buildJobId = generateJobId('astro:build', triggerDate).replaceAll(
     ':',

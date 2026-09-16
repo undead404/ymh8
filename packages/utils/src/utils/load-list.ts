@@ -13,8 +13,7 @@ export default async function loadList(filename: string): Promise<string[]> {
       .split('\n')
       .filter((line) => line.length > 0 && !line.startsWith('#')); // Support comments
   } catch (error) {
-    throw new Error(
-      `Failed to load required list ${filename}: ${(error as Error).message}`,
-    );
+    const reason = error instanceof Error ? error.message : String(error);
+    throw new Error(`Failed to load required list ${filename}: ${reason}`);
   }
 }

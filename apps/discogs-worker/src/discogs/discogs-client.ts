@@ -63,7 +63,8 @@ export class DiscogsClient {
     }
 
     // 4. Validate Data
-    const data = (await response.json()) as unknown;
+
+    const data: unknown = await response.json();
     try {
       return v.parse(schema, data);
     } catch (error) {

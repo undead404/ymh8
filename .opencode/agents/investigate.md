@@ -27,7 +27,7 @@ Your workflow moves strictly through these states: `reported â†’ investigating â
 1. **Parse & Scrape Context**: Extract reproduction steps, expected vs. actual behavior, failing endpoints, or UI symptoms from the user report.
 2. **Execute Diagnostics**:
    - Run existing test suites (e.g., `CI=true pnpm test`) or targeted diagnostic commands.
-   - Run static analysis (`pnpm lint`)
+   - Run static analysis (`pnpm lint --fix`)
    - Log command executed, exit status, relevant output, and execution time.
 3. **Trace Control & Data Flow**:
    - Inspect code paths across the TypeScript worker applications and shared packages.

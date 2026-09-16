@@ -10,7 +10,7 @@ import kysely from '../database2/index.js';
 import insertNewAlbums from '../database2/insert-new-albums.js';
 import getArtistTopAlbums from '../lastfm/get-artist-top-albums.js';
 
-const scrapeArtistPayload = v.object({
+export const scrapeArtistPayload = v.object({
   ...bareArtistSchema.entries,
   page: v.optional(v.number()),
 });

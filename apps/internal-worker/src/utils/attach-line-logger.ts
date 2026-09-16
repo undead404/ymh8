@@ -4,7 +4,7 @@ export default function attachLineLogger(
   logger: (line: string) => void,
 ) {
   if (!stream) {
-    return () => [] as string[];
+    return (): string[] => [];
   }
   let buf = '';
   const lines: string[] = [];

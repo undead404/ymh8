@@ -59,7 +59,8 @@ export default async function enrich(job: Job<unknown>): Promise<unknown> {
       );
       return update || { status: 'no_changes' };
     } catch (error) {
-      const errorMessage = `${error as Error}`;
+      const errorMessage =
+        error instanceof Error ? error.message : String(error);
       if (errorMessage.includes('no result')) {
         await job.log('album likely was removed');
         return { status: 'was_deleted' };

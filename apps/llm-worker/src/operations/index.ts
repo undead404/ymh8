@@ -1,12 +1,14 @@
-import type { Job } from 'bullmq';
+import * as v from 'valibot';
+
+import { bareTagSchema } from '@ymh8/schemata';
 
 import generateTagDescription from './generate-tag-description.js';
 
-const operationsMapping: Record<
-  string,
-  (job: Job<unknown>) => Promise<unknown>
-> = {
-  'tag:description:generate': generateTagDescription,
+const operationsMapping = {
+  'tag:description:generate': {
+    operate: generateTagDescription,
+    schema: (data: unknown) => v.parse(bareTagSchema, data),
+  },
 };
 
 export default operationsMapping;
