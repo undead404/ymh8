@@ -11,5 +11,5 @@ export default function generateJobId(operationName: string, identity: string) {
     throw new Error('Operation name missing');
   }
   const hash = crypto.createHash('md5').update(identity).digest('hex');
-  return `${operationName}:${hash}`;
+  return `${operationName}:${hash}`.replaceAll(':', '-');
 }

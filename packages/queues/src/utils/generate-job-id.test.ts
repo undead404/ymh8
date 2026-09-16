@@ -5,13 +5,18 @@ import { describe, expect, it } from 'vitest';
 import generateJobId from './generate-job-id.js';
 
 describe('generateJobId', () => {
-  it('formats the output as "operationName:hash"', () => {
+  it('formats the output as a BullMQ-safe operation name and hash', () => {
     const op = 'resize-image';
     const identity = 'file-123.jpg';
     const result = generateJobId(op, identity);
 
-    // Verify format: prefix + colon + 32-char hex string
-    expect(result).toMatch(/^resize-image:[a-f0-9]{32}$/);
+    expect(result).toMatch(/^resize-image-[a-f0-9]{32}$/);
+  });
+
+  it('replaces colons in operation names', () => {
+    expect(generateJobId('artist:scrape:page', 'Mastodon-2')).not.toContain(
+      ':',
+    );
   });
 
   it('produces deterministic output (same input = same ID)', () => {
@@ -35,7 +40,7 @@ describe('generateJobId', () => {
       .update(identity)
       .digest('hex');
 
-    expect(generateJobId(op, identity)).toBe(`deploy:${expectedHash}`);
+    expect(generateJobId(op, identity)).toBe(`deploy-${expectedHash}`);
   });
 
   it('handles empty strings gracefully', () => {
@@ -50,6 +55,6 @@ describe('generateJobId', () => {
       .createHash('md5')
       .update(identity)
       .digest('hex');
-    expect(generateJobId(op, identity)).toBe(`unicode:${expectedHash}`);
+    expect(generateJobId(op, identity)).toBe(`unicode-${expectedHash}`);
   });
 });

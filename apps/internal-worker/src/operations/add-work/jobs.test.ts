@@ -12,7 +12,7 @@ describe('createWorkJob', () => {
 
     expect(job.opts?.jobId).not.toContain(':');
     expect(job.opts?.deduplication).toEqual({
-      id: expect.stringMatching(/^tag:scrape:[a-f0-9]{32}$/),
+      id: expect.stringMatching(/^tag-scrape-[a-f0-9]{32}$/),
     });
   });
 

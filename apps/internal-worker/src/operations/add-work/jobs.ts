@@ -30,7 +30,7 @@ export function createWorkJob(
     name,
     data,
     opts: {
-      jobId: jobId.replaceAll(':', '-'),
+      jobId,
       deduplication: { id: jobId },
       ...(priority === undefined ? {} : { priority }),
     },

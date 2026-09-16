@@ -101,7 +101,7 @@ export async function enqueue(
     throw new Error('Queue is full, try again later.');
   }
   await queue.add(operationName, data, {
-    jobId: jobId.replaceAll(':', '-'),
+    jobId,
     deduplication: {
       id: jobId,
     },

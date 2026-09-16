@@ -70,7 +70,7 @@ export default async function addWork() {
     await Promise.all([
       getQueueCapacity(internalQueue, 100),
       getQueueCapacity(itunesQueue, 3000),
-      getQueueCapacity(lastfmQueue),
+      getQueueCapacity(lastfmQueue, 5000),
       getQueueCapacity(llmQueue, 6),
     ]);
   const work = await kysely.transaction().execute(async (trx) => {

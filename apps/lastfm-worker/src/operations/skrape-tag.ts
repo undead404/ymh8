@@ -89,10 +89,7 @@ export default function skrapeTag(job: Job<unknown>) {
       );
     }
     if (!page) {
-      const finishJobId = generateJobId(
-        'tag:skrape:finish',
-        bareTag.name,
-      ).replaceAll(':', '-');
+      const finishJobId = generateJobId('tag:skrape:finish', bareTag.name);
       await flowProducer.add({
         children: childrenJobs,
         data: bareTag,

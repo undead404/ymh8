@@ -87,7 +87,7 @@ export default async function scrapeArtist(job: Job<unknown>) {
       const finishJobId = generateJobId(
         'artist:scrape:finish',
         bareArtist.name,
-      ).replaceAll(':', '-');
+      );
       await flowProducer.add({
         children: childrenJobs,
         data: bareArtist,

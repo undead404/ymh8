@@ -19,14 +19,8 @@ export default async function initBuild(
     throw new Error('Could not derive build date');
   }
   const priority = tagListsNumber * 100;
-  const buildJobId = generateJobId('astro:build', triggerDate).replaceAll(
-    ':',
-    '-',
-  );
-  const deployJobId = generateJobId('astro:deploy', triggerDate).replaceAll(
-    ':',
-    '-',
-  );
+  const buildJobId = generateJobId('astro:build', triggerDate);
+  const deployJobId = generateJobId('astro:deploy', triggerDate);
   const flow: FlowJob = {
     children: [
       {
