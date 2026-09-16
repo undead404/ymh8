@@ -22,6 +22,18 @@ await internalQueue.add(
   },
 );
 
+await internalQueue.add(
+  'daily-report',
+  {},
+  {
+    deduplication: {
+      id: 'daily-report',
+    },
+    jobId: 'daily-report',
+    repeat: { pattern: '0 6 * * *' },
+  },
+);
+
 const gracefulShutdown = async (signal: string) => {
   console.log(`Received ${signal}, closing worker...`);
 
