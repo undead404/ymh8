@@ -11,9 +11,11 @@ import {
 import { bareArtistSchema, type TelegramPost } from '@ymh8/schemata';
 import { escapeForTelegram, isAlbumNegligible } from '@ymh8/utils';
 import { filterNewAlbums } from '../database2/filter-new-albums.js';
+import hideArtist from '../database2/hide-artist.js';
 import kysely from '../database2/index.js';
 import insertNewAlbums from '../database2/insert-new-albums.js';
 import getArtistTopAlbumsPage from '../lastfm/get-artist-top-albums-page.js';
+import { ArtistNotFoundError } from '../lastfm/query.js';
 
 const flowProducer = new FlowProducer({
   connection: lastfmQueue.opts.connection,
@@ -26,11 +28,27 @@ export const scrapeArtistPayload = v.object({
 
 export default async function scrapeArtist(job: Job<unknown>) {
   const { page, ...bareArtist } = v.parse(scrapeArtistPayload, job.data);
-  const { albums: topAlbums, childrenJobs } = await getArtistTopAlbumsPage(
-    bareArtist,
-    job,
-    page,
-  );
+  let topAlbums: Awaited<ReturnType<typeof getArtistTopAlbumsPage>>['albums'];
+  let childrenJobs: Awaited<
+    ReturnType<typeof getArtistTopAlbumsPage>
+  >['childrenJobs'];
+  try {
+    ({ albums: topAlbums, childrenJobs } = await getArtistTopAlbumsPage(
+      bareArtist,
+      job,
+      page,
+    ));
+  } catch (error) {
+    if (!(error instanceof ArtistNotFoundError)) throw error;
+
+    await kysely
+      .transaction()
+      .execute((trx) => hideArtist(trx, bareArtist.name));
+    await job.log(
+      `Artist ${bareArtist.name} was not found on Last.fm and was hidden`,
+    );
+    return [];
+  }
 
   return kysely.transaction().execute(async (trx) => {
     const newAlbums = await filterNewAlbums(trx, topAlbums);

@@ -8,6 +8,13 @@ const errorResponseSchema = v.object({
   message: nonEmptyString,
 });
 
+export class ArtistNotFoundError extends Error {
+  constructor(message: string) {
+    super(message);
+    this.name = 'ArtistNotFoundError';
+  }
+}
+
 function adjustLastfmParameters(parameters: Record<string, unknown>) {
   // return parameters;
   const newParameters = { ...parameters };
@@ -55,6 +62,9 @@ export default async function queryLastfm<T1, T2 extends { method: string }>(
     const result = v.safeParse(errorResponseSchema, data);
     if (!result.success) {
       throw error;
+    }
+    if (parameters.method.startsWith('artist') && result.output.error === 6) {
+      throw new ArtistNotFoundError(result.output.message);
     }
     if (result.output.message) {
       throw new Error(result.output.message);
