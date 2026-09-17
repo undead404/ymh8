@@ -5,9 +5,9 @@ import { bareArtistSchema } from '@ymh8/schemata';
 import kysely from '../database2/index.js';
 import saveArtistScrapeSuccess from '../database2/save-artist-scrape-success.js';
 
-export default function finishArtistScrape(job: Job<unknown>) {
+export default async function finishArtistScrape(job: Job<unknown>) {
   const artist = v.parse(bareArtistSchema, job.data);
-  return kysely
+  await kysely
     .transaction()
     .execute((trx) => saveArtistScrapeSuccess(trx, artist.name));
 }
