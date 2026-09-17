@@ -22,6 +22,9 @@ const NEGLIGIBLE_ALBUM_NAME_REGEXES = [
  * @returns Whether the album's name contains any signs of obvious garbage to remove from the charts
  */
 export default function isAlbumNegligible(album: BareAlbum) {
+  if (!album.artist || !album.name) {
+    return true;
+  }
   if (isArtistNegligible({ name: album.artist })) {
     return true;
   }

@@ -85,4 +85,9 @@ describe('isAlbumNegligible', () => {
       true,
     );
   });
+
+  it('returns true when the artist or album name is empty', () => {
+    expect(isAlbumNegligible({ artist: '', name: 'Album' })).toBe(true);
+    expect(isAlbumNegligible({ artist: 'Test artist', name: '' })).toBe(true);
+  });
 });

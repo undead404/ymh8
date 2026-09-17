@@ -2,6 +2,7 @@ import * as v from 'valibot';
 import { describe, expect, it } from 'vitest';
 
 import {
+  bareAlbumSchema,
   dateString,
   positivePercentage,
   type TelegramPost,
@@ -9,6 +10,15 @@ import {
 } from './index.js'; // Adjust path
 
 describe('Schemas', () => {
+  describe('bareAlbumSchema', () => {
+    it('accepts an empty album name for later filtering', () => {
+      expect(v.is(bareAlbumSchema, { artist: 'Artist', name: '' })).toBe(true);
+      expect(
+        v.is(bareAlbumSchema, { artist: 'Artist', name: 'a'.repeat(1024) }),
+      ).toBe(false);
+    });
+  });
+
   describe('dateString', () => {
     it('accepts valid partial ISO strings', () => {
       expect(v.is(dateString, '2023')).toBe(true);

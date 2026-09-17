@@ -14,7 +14,7 @@ export const positivePercentage = v.pipe(
 
 export const bareAlbumSchema = v.object({
   artist: nonEmptyString,
-  name: nonEmptyString,
+  name: v.pipe(v.string(), v.maxLength(1023)),
 });
 
 export type BareAlbum = v.InferInput<typeof bareAlbumSchema>;
