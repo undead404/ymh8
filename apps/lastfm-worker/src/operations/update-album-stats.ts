@@ -8,7 +8,11 @@ import hideArtist from '../database2/hide-artist.js';
 import kysely from '../database2/index.js';
 import saveAlbumStats from '../database2/save-album-stats.js';
 import getAlbumStats from '../lastfm/get-album-stats.js';
-import { ArtistNotFoundError } from '../lastfm/query.js';
+import {
+  AlbumNotFoundError,
+  ArtistNotFoundError,
+  InvalidAlbumNameError,
+} from '../lastfm/query.js';
 
 export default async function updateAlbumStats(
   job: Job<unknown>,
@@ -45,6 +49,13 @@ export default async function updateAlbumStats(
       if (error instanceof ArtistNotFoundError) {
         await hideArtist(trx, bareAlbum.artist);
         return { status: 'artist_not_found_in_api' };
+      }
+      if (
+        error instanceof AlbumNotFoundError ||
+        error instanceof InvalidAlbumNameError
+      ) {
+        await hideAlbum(trx, bareAlbum);
+        return { status: 'not_found_in_api' };
       }
       // Тепер ми гарантовано ловимо 404 від Last.fm API
       if (error instanceof Error && error.message.includes('Album not found')) {

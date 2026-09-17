@@ -15,7 +15,11 @@ import upsertTags from '../database2/upsert-tags.js';
 import filterTags from '../filter-tags.js';
 import getAlbumTags from '../lastfm/get-album-tags.js';
 import getArtistTags from '../lastfm/get-artist-tags.js';
-import { ArtistNotFoundError } from '../lastfm/query.js';
+import {
+  AlbumNotFoundError,
+  ArtistNotFoundError,
+  InvalidAlbumNameError,
+} from '../lastfm/query.js';
 import normalizeTags from '../normalize-tags.js';
 
 export default async function updateAlbumTags(
@@ -75,7 +79,10 @@ export default async function updateAlbumTags(
         await hideArtist(transaction, bareAlbum.artist);
         return { status: 'artist_not_found_in_api' };
       }
-      if (error instanceof Error && error.message.includes('Album not found')) {
+      if (
+        error instanceof AlbumNotFoundError ||
+        error instanceof InvalidAlbumNameError
+      ) {
         await hideAlbum(transaction, bareAlbum);
         return { status: 'not_found_in_api' };
       }

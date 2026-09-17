@@ -15,23 +15,18 @@ export class ArtistNotFoundError extends Error {
   }
 }
 
-function adjustLastfmParameters(parameters: Record<string, unknown>) {
-  // return parameters;
-  const newParameters = { ...parameters };
-  for (const key of Object.keys(parameters)) {
-    let value = newParameters[key];
-    if (typeof value === 'string') {
-      value = value.replaceAll('+', '%2B');
-    }
-    // if (typeof value === 'string' && value.startsWith('+')) {
-    //   value = '%2B' + value.slice(1);
-    // }
-    // if (typeof value === 'string' && value.endsWith('+')) {
-    //   value = value.slice(0, -1) + '%2B';
-    // }
-    newParameters[key] = value;
+export class AlbumNotFoundError extends Error {
+  constructor(message: string) {
+    super(message);
+    this.name = 'AlbumNotFoundError';
   }
-  return newParameters;
+}
+
+export class InvalidAlbumNameError extends Error {
+  constructor() {
+    super('Album name contains control characters');
+    this.name = 'InvalidAlbumNameError';
+  }
 }
 
 export default async function queryLastfm<T1, T2 extends { method: string }>(
@@ -39,22 +34,44 @@ export default async function queryLastfm<T1, T2 extends { method: string }>(
   parameters: T2,
   logger: AsyncLogger,
 ): Promise<T1> {
+  if (
+    parameters.method.startsWith('album') &&
+    'album' in parameters &&
+    typeof parameters.album === 'string' &&
+    /\p{Cc}/u.test(parameters.album)
+  ) {
+    throw new InvalidAlbumNameError();
+  }
+
   const url =
     'https://ws.audioscrobbler.com/2.0/?' +
     new URLSearchParams({
       api_key: environment.LASTFM_API_KEY,
       autocorrect: '0',
       format: 'json',
-      ...(parameters.method.startsWith('artist')
-        ? adjustLastfmParameters(parameters)
-        : parameters),
+      ...parameters,
     }).toString();
   await logger.log(url);
   const response = await fetch(url, {
     signal: AbortSignal.timeout(60_000),
   });
 
-  const data: unknown = await response.json();
+  const responseBody = await response.text();
+  if (!response.ok) {
+    if (response.status === 404 && parameters.method.startsWith('album')) {
+      throw new AlbumNotFoundError('Album not found in Last.fm');
+    }
+    throw new Error(`Last.fm request failed with HTTP ${response.status}`);
+  }
+
+  let data: unknown;
+  try {
+    data = JSON.parse(responseBody);
+  } catch {
+    throw new Error(
+      `Last.fm returned a non-JSON response (HTTP ${response.status})`,
+    );
+  }
   // console.log(data);
   try {
     return v.parse(schema, data);
@@ -65,6 +82,9 @@ export default async function queryLastfm<T1, T2 extends { method: string }>(
     }
     if (parameters.method.startsWith('artist') && result.output.error === 6) {
       throw new ArtistNotFoundError(result.output.message);
+    }
+    if (parameters.method.startsWith('album') && result.output.error === 6) {
+      throw new AlbumNotFoundError(result.output.message);
     }
     if (result.output.message) {
       throw new Error(result.output.message);
