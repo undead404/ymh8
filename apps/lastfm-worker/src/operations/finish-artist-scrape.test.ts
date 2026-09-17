@@ -15,6 +15,15 @@ vi.mock('../database2/save-artist-scrape-success.js', () => ({
 }));
 
 describe('finishArtistScrape', () => {
+  it('short-circuits negligible artists before saving success', async () => {
+    await expect(
+      finishArtistScrape({ data: { name: 'Artist  Name' } } as never),
+    ).resolves.toBeUndefined();
+
+    expect(kysely.transaction).not.toHaveBeenCalled();
+    expect(saveArtistScrapeSuccess).not.toHaveBeenCalled();
+  });
+
   it('does not return the database result to BullMQ', async () => {
     const execute = vi.fn(
       async (callback: (transaction: unknown) => unknown) => {

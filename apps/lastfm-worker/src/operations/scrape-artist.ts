@@ -9,7 +9,11 @@ import {
   telegramQueue,
 } from '@ymh8/queues';
 import { bareArtistSchema, type TelegramPost } from '@ymh8/schemata';
-import { escapeForTelegram, isAlbumNegligible } from '@ymh8/utils';
+import {
+  escapeForTelegram,
+  isAlbumNegligible,
+  isArtistNegligible,
+} from '@ymh8/utils';
 import { filterNewAlbums } from '../database2/filter-new-albums.js';
 import hideArtist from '../database2/hide-artist.js';
 import kysely from '../database2/index.js';
@@ -28,6 +32,8 @@ export const scrapeArtistPayload = v.object({
 
 export default async function scrapeArtist(job: Job<unknown>) {
   const { page, ...bareArtist } = v.parse(scrapeArtistPayload, job.data);
+  if (isArtistNegligible(bareArtist)) return [];
+
   let topAlbums: Awaited<ReturnType<typeof getArtistTopAlbumsPage>>['albums'];
   let childrenJobs: Awaited<
     ReturnType<typeof getArtistTopAlbumsPage>

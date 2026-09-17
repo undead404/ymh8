@@ -16,6 +16,17 @@ vi.mock('../lastfm/get-artist-top-albums-page.js', () => ({
 }));
 
 describe('scrapeArtist', () => {
+  it('short-circuits negligible artists before querying Last.fm', async () => {
+    const log = vi.fn();
+
+    await expect(
+      scrapeArtist({ data: { name: ' Artist' }, log } as never),
+    ).resolves.toEqual([]);
+
+    expect(getArtistTopAlbumsPage).not.toHaveBeenCalled();
+    expect(kysely.transaction).not.toHaveBeenCalled();
+  });
+
   it('hides the artist and its albums when Last.fm cannot find the artist', async () => {
     const artistName = String.raw`Axwell /\ Ingrosso`;
     vi.mocked(getArtistTopAlbumsPage).mockRejectedValue(

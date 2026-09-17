@@ -79,4 +79,10 @@ describe('isAlbumNegligible', () => {
       expect(isAlbumNegligible(createAlbum('The Bonus Room'))).toBe(false);
     });
   });
+
+  it('returns true when the artist is unknown', () => {
+    expect(isAlbumNegligible({ artist: '[unknown]', name: 'Album' })).toBe(
+      true,
+    );
+  });
 });
