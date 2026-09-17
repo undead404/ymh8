@@ -1,6 +1,7 @@
 import type { Job } from 'bullmq';
 import * as v from 'valibot';
 
+import { isTagBlacklisted } from '@ymh8/database';
 import { enqueue, telegramQueue } from '@ymh8/queues';
 import { bareTagSchema, type TelegramPost } from '@ymh8/schemata';
 import { escapeForTelegram } from '@ymh8/utils';
@@ -14,6 +15,8 @@ import extractTextContent from '../utils/extract-text-content.js';
 
 export default async function generateTagDescription(job: Job<unknown>) {
   const bareTag = v.parse(bareTagSchema, job.data);
+  if (isTagBlacklisted(bareTag.name)) return;
+
   return kysely.transaction().execute(async (trx) => {
     const topArtists = await readTagArtists(trx, bareTag, 30);
     await job.log(

@@ -3,13 +3,13 @@ import type { DB } from 'kysely-codegen';
 
 import { type BareTag } from '@ymh8/schemata';
 
-import blacklist from './utils/blacklist.js';
+import isTagBlacklisted from './is-tag-blacklisted.js';
 
 export default async function isTagValid(
   transaction: Transaction<DB>,
   tag: BareTag,
 ): Promise<boolean> {
-  if (blacklist.isBlacklisted(tag.name)) {
+  if (isTagBlacklisted(tag.name)) {
     return false;
   }
   // eslint-disable-next-line unicorn/no-useless-promise-resolve-reject
