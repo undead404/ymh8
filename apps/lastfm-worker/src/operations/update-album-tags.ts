@@ -5,6 +5,7 @@ import { hideAlbum, readAlbumStats } from '@ymh8/database';
 import { bareAlbumSchema } from '@ymh8/schemata';
 import { sleep } from '@ymh8/utils';
 import getAlbumDetails from '../database2/get-album-details.js';
+import hideArtist from '../database2/hide-artist.js';
 import kysely from '../database2/index.js';
 import readAlbumTags from '../database2/read-album-tags.js';
 import removeTagsFromAlbum from '../database2/remove-tags-from-album.js';
@@ -14,6 +15,7 @@ import upsertTags from '../database2/upsert-tags.js';
 import filterTags from '../filter-tags.js';
 import getAlbumTags from '../lastfm/get-album-tags.js';
 import getArtistTags from '../lastfm/get-artist-tags.js';
+import { ArtistNotFoundError } from '../lastfm/query.js';
 import normalizeTags from '../normalize-tags.js';
 
 export default async function updateAlbumTags(
@@ -69,6 +71,10 @@ export default async function updateAlbumTags(
             status: 'no_update',
           };
     } catch (error) {
+      if (error instanceof ArtistNotFoundError) {
+        await hideArtist(transaction, bareAlbum.artist);
+        return { status: 'artist_not_found_in_api' };
+      }
       if (error instanceof Error && error.message.includes('Album not found')) {
         await hideAlbum(transaction, bareAlbum);
         return { status: 'not_found_in_api' };
