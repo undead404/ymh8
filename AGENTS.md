@@ -4,7 +4,7 @@
 
 - Preserve the pnpm workspace boundaries: application code belongs in `apps/*`; reusable code belongs in `packages/*`.
 - All external requests and provider-specific integrations must be implemented in the owning worker under `apps/`: `discogs-worker` for Discogs, `lastfm-worker` for Last.fm, `itunes-worker` for iTunes, `llm-worker` for LLM providers, and `telegram-worker` for Telegram.
-- All internal operations must be implemented in `apps/internal-worker/`. This includes database coordination, list generation, build and deployment triggering, work planning, and queue enqueueing.
+- Internal orchestration must be implemented in `apps/internal-worker/`. This includes list generation, build and deployment triggering, work planning, and queue enqueueing. Database access may be used from any app or package through `packages/database`; do not route it through `apps/internal-worker/` solely for database access.
 - Do not put external provider requests in `apps/internal-worker/`, and do not move internal orchestration into provider workers.
 - Use the existing ESM TypeScript conventions and `.js` extensions in relative imports.
 
