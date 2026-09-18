@@ -61,7 +61,11 @@ describe('generateTagJustification', () => {
     configureTransaction(null);
 
     await expect(
-      generateTagJustification({ data: context, log: vi.fn() } as never),
+      generateTagJustification({
+        attemptsMade: 0,
+        data: context,
+        log: vi.fn(),
+      } as never),
     ).resolves.toBe('Keep this tag because it has a distinct sonic identity.');
 
     expect(openaiMock.responses.create).toHaveBeenCalledWith({
@@ -98,6 +102,32 @@ describe('generateTagJustification', () => {
     expect(saveTagJustificationMock).toHaveBeenCalled();
     expect(enqueueMock).toHaveBeenCalled();
   });
+
+  it.each([
+    [1, 'high'],
+    [2, 'medium'],
+    [3, 'low'],
+    [10, 'low'],
+  ] as const)(
+    'decreases reasoning effort on attempt %i',
+    async (attemptsMade, effort) => {
+      configureTransaction(null);
+
+      await expect(
+        generateTagJustification({
+          attemptsMade,
+          data: context,
+          log: vi.fn(),
+        } as never),
+      ).resolves.toBe(
+        'Keep this tag because it has a distinct sonic identity.',
+      );
+
+      expect(openaiMock.responses.create).toHaveBeenCalledWith(
+        expect.objectContaining({ reasoning: { effort } }),
+      );
+    },
+  );
 
   it('rejects invalid payloads before calling OpenAI', async () => {
     await expect(

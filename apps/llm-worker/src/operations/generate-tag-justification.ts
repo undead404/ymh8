@@ -12,9 +12,14 @@ import tagJustificationPrompt from '../tag-justification-prompt.js';
 import extractTextContent from '../utils/extract-text-content.js';
 import throwIfProviderHasNoCredits from '../utils/handle-provider-error.js';
 
+const reasoningEfforts = ['xhigh', 'high', 'medium', 'low'] as const;
+
 export default async function generateTagJustification(job: Job<unknown>) {
   const context = v.parse(tagJustificationSchema, job.data);
   const tagName = context.target_tag.name;
+  const reasoningEffort =
+    reasoningEfforts[Math.min(job.attemptsMade, reasoningEfforts.length - 1)] ??
+    'low';
 
   if (isTagBlacklisted(tagName)) return;
 
@@ -26,7 +31,7 @@ export default async function generateTagJustification(job: Job<unknown>) {
         instructions: tagJustificationPrompt,
         input: JSON.stringify(context),
         max_output_tokens: 4096,
-        reasoning: { effort: 'xhigh' },
+        reasoning: { effort: reasoningEffort },
       });
     } catch (error) {
       throwIfProviderHasNoCredits(error);
