@@ -12,6 +12,7 @@ import saveTagDescription from '../database2/save-tag-description.js';
 import openai from '../llm.js';
 import systemPrompt from '../system-prompt.js';
 import extractTextContent from '../utils/extract-text-content.js';
+import throwIfProviderHasNoCredits from '../utils/handle-provider-error.js';
 
 export default async function generateTagDescription(job: Job<unknown>) {
   const bareTag = v.parse(bareTagSchema, job.data);
@@ -34,10 +35,12 @@ export default async function generateTagDescription(job: Job<unknown>) {
     const relatedTags = await readRelatedTags(trx, bareTag.name, 5);
     // console.log('related tags:', relatedTags.map((tag) => tag.name).join(', '));
 
-    const response = await openai.responses.create({
-      model: 'gpt-5.6-luna',
-      instructions: systemPrompt,
-      input: `TARGET_GENRE:
+    let response;
+    try {
+      response = await openai.responses.create({
+        model: 'gpt-5.6-luna',
+        instructions: systemPrompt,
+        input: `TARGET_GENRE:
 ${bareTag.name}
 
 NEIGHBORING GENRES (Context):
@@ -45,8 +48,12 @@ ${relatedTags.map((tag) => tag.name).join('\n')}
 
 CANDIDATE ARTISTS (Raw Data):
 ${topArtists.map((artist) => artist.name).join('\n')}`,
-      max_output_tokens: 1024,
-    });
+        max_output_tokens: 1024,
+      });
+    } catch (error) {
+      throwIfProviderHasNoCredits(error);
+      throw error;
+    }
 
     const tagDescription = extractTextContent(response);
 

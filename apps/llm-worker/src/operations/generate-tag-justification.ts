@@ -10,6 +10,7 @@ import saveTagJustification from '../database2/save-tag-justification.js';
 import openai from '../llm.js';
 import tagJustificationPrompt from '../tag-justification-prompt.js';
 import extractTextContent from '../utils/extract-text-content.js';
+import throwIfProviderHasNoCredits from '../utils/handle-provider-error.js';
 
 export default async function generateTagJustification(job: Job<unknown>) {
   const context = v.parse(tagJustificationSchema, job.data);
@@ -26,12 +27,18 @@ export default async function generateTagJustification(job: Job<unknown>) {
 
     if (existingTag?.justification != null) return;
 
-    const response = await openai.responses.create({
-      model: 'gpt-5.6-luna',
-      instructions: tagJustificationPrompt,
-      input: JSON.stringify(context),
-      max_output_tokens: 1024,
-    });
+    let response;
+    try {
+      response = await openai.responses.create({
+        model: 'gpt-5.6-luna',
+        instructions: tagJustificationPrompt,
+        input: JSON.stringify(context),
+        max_output_tokens: 1024,
+      });
+    } catch (error) {
+      throwIfProviderHasNoCredits(error);
+      throw error;
+    }
     const justification = extractTextContent(response);
 
     await saveTagJustification(trx, tagName, justification);

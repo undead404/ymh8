@@ -110,6 +110,29 @@ describe('getFailHandler', () => {
 
       expect(mockQueue.rateLimit).not.toHaveBeenCalled();
     });
+
+    it('posts unrecoverable provider errors instead of rate-limiting them', () => {
+      const handler = getFailHandler(mockQueue, true);
+      const job = createMockJob({
+        failedReason:
+          'The LLM provider has no credits remaining. 429 billing error',
+        attemptsMade: 1,
+      });
+      const error = Object.assign(new Error(job.failedReason), {
+        name: 'UnrecoverableError',
+      });
+
+      handler(job, error);
+
+      expect(mockQueue.rateLimit).not.toHaveBeenCalled();
+      expect(enqueue).toHaveBeenCalledWith(
+        telegramQueue,
+        'post',
+        'error-job-123',
+        expect.anything(),
+        1,
+      );
+    });
   });
 
   describe('Notification Logic', () => {

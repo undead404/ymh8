@@ -15,13 +15,15 @@ export default function getFailHandler<T>(
     console.error(job?.stacktrace);
     console.error(queue.name, 'FAILURE', error);
     if (!job) return;
+    const isUnrecoverable = error.name === 'UnrecoverableError';
     // writeFileSync('./error.json', JSON.stringify(error, null, 2));
     const lowercasedReason = job.failedReason?.toLowerCase() || '';
     if (
-      (lowercasedReason.includes('rate') &&
+      !isUnrecoverable &&
+      ((lowercasedReason.includes('rate') &&
         lowercasedReason.includes('limit')) ||
-      lowercasedReason.includes('429') ||
-      (lowercasedReason.includes('too') && lowercasedReason.includes('many'))
+        lowercasedReason.includes('429') ||
+        (lowercasedReason.includes('too') && lowercasedReason.includes('many')))
     ) {
       // Calculate delay (default to 60s if header missing)
       // Note: Retry-After is usually in seconds, BullMQ needs milliseconds
@@ -54,7 +56,9 @@ export default function getFailHandler<T>(
     }
     if (
       !postErrors ||
-      (job.opts.attempts && job.attemptsMade < job.opts.attempts)
+      (!isUnrecoverable &&
+        job.opts.attempts &&
+        job.attemptsMade < job.opts.attempts)
     )
       return;
     const message = formatJobFail(job);
