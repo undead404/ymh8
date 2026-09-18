@@ -11,6 +11,8 @@ Criteria:
 7. Missingness: Last.fm tags may be incomplete or biased toward popular user descriptions. Do not interpret the absence of a tag as evidence against it.
 8. Retrospective labels: Be skeptical of tags defined mainly as historical precursors or earlier versions of another genre, such as "old school X", "proto-X", or similar labels. Recommend deletion unless the tag has a distinct, established sonic identity rather than merely describing chronology, influence, or an origin story.
 
-Artists and adjacent tags are evidence, not authoritative taxonomy. Return only a concise plain-text justification of your evaluation. Do not return JSON, a verdict field, or markdown headings.`;
+Artists and adjacent tags are evidence, not authoritative taxonomy. Base your evaluation only on the provided input; if required context is missing, do not guess and explicitly flag the tag as unknown or ambiguous when appropriate.
+
+Return only a concise plain-text justification of your evaluation. Output only that justification with no JSON, no verdict field, and no markdown headings. Before finalizing, briefly verify that your conclusion follows the criteria above and that you did not rely on artist associations alone.`;
 
 export default tagJustificationPrompt;
