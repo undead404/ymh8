@@ -1,10 +1,13 @@
-import type Anthropic from '@anthropic-ai/sdk';
+export default function extractTextContent(response: unknown): string {
+  if (
+    typeof response !== 'object' ||
+    response === null ||
+    !('output_text' in response) ||
+    typeof response.output_text !== 'string' ||
+    response.output_text.trim() === ''
+  ) {
+    throw new Error('OpenAI response did not contain non-empty text');
+  }
 
-export default function extractTextContent(
-  content: Anthropic.ContentBlock[],
-): string {
-  return content
-    .filter((block): block is Anthropic.TextBlock => block.type === 'text')
-    .map((block) => block.text)
-    .join('\n');
+  return response.output_text;
 }

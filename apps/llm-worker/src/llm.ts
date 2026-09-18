@@ -1,9 +1,9 @@
-import Anthropic from '@anthropic-ai/sdk';
+import OpenAI from 'openai';
 
 import { environment } from './environment.js';
 
-const anthropic = new Anthropic({
-  apiKey: environment.ANTHROPIC_API_KEY,
+const openai = new OpenAI({
+  apiKey: environment.OPENAI_API_KEY,
 });
 
-export default anthropic;
+export default openai;
