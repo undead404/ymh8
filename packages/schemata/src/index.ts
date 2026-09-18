@@ -32,6 +32,24 @@ export const bareTagSchema = v.object({
 
 export type BareTag = v.InferInput<typeof bareTagSchema>;
 
+const finiteNumber = v.pipe(
+  v.number(),
+  v.check((value) => Number.isFinite(value), 'Expected a finite number'),
+);
+
+const weightedTagSchema = v.object({
+  name: nonEmptyString,
+  weight: finiteNumber,
+});
+
+export const tagJustificationSchema = v.object({
+  target_tag: weightedTagSchema,
+  top_artists: v.array(nonEmptyString),
+  adjacent_tags: v.pipe(v.array(weightedTagSchema), v.maxLength(10)),
+});
+
+export type TagJustification = v.InferInput<typeof tagJustificationSchema>;
+
 export const dateString = v.pipe(
   v.string(),
   v.regex(/\d{4}(?:-\d{2}(?:-\d{2})?)?/),

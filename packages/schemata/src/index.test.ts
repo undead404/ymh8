@@ -5,6 +5,7 @@ import {
   bareAlbumSchema,
   dateString,
   positivePercentage,
+  tagJustificationSchema,
   type TelegramPost,
   telegramPostSchema,
 } from './index.js'; // Adjust path
@@ -71,6 +72,45 @@ describe('Schemas', () => {
     it('validates URL format if provided', () => {
       const invalidUrl = { text: 'Hello', imageUrl: 'not-a-url' };
       expect(v.is(telegramPostSchema, invalidUrl)).toBe(false);
+    });
+  });
+
+  describe('tagJustificationSchema', () => {
+    it('accepts weighted tag context', () => {
+      expect(
+        v.is(tagJustificationSchema, {
+          target_tag: { name: 'genre', weight: 10 },
+          top_artists: ['Artist'],
+          adjacent_tags: [{ name: 'neighbor', weight: 20 }],
+        }),
+      ).toBe(true);
+    });
+
+    it('rejects invalid names, weights, and adjacent-tag counts', () => {
+      expect(
+        v.is(tagJustificationSchema, {
+          target_tag: { name: '', weight: 10 },
+          top_artists: [],
+          adjacent_tags: [],
+        }),
+      ).toBe(false);
+      expect(
+        v.is(tagJustificationSchema, {
+          target_tag: { name: 'genre', weight: Number.NaN },
+          top_artists: [],
+          adjacent_tags: [],
+        }),
+      ).toBe(false);
+      expect(
+        v.is(tagJustificationSchema, {
+          target_tag: { name: 'genre', weight: 10 },
+          top_artists: [],
+          adjacent_tags: Array.from({ length: 11 }, (_, index) => ({
+            name: `tag-${index}`,
+            weight: index,
+          })),
+        }),
+      ).toBe(false);
     });
   });
 });
