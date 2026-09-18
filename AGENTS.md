@@ -59,6 +59,7 @@
 ## Change discipline
 
 - Keep changes focused and consistent with existing patterns.
+- Treat all pre-existing working-tree changes as user-owned. Before editing, inspect `git status --short` and the relevant diff; never reset, restore, checkout, clean, stash, delete, or overwrite unrelated changes. Do not use a broad revert or checkout operation to undo a test or tool side effect; repair only the exact lines your task changed.
 - Do not modify unrelated files, generated `dist/` output, build artifacts, lockfiles, secrets, or environment files unless the task explicitly requires it.
 - Do not silently resolve ambiguity involving paths, public contracts, schemas, authentication, persistence, retries, or failure behavior; ask for clarification.
 - When a task changes a public contract, queue payload, schema, persistence behavior, or retry semantics, explain the compatibility impact and update affected tests.
