@@ -130,7 +130,7 @@ The model must return only the final plain-text justification. No JSON output, d
 
 ## Telegram Reporting
 
-After successful persistence, enqueue the existing Telegram `post` operation through `telegramQueue`. The report text must be exactly `Justification generated for tag: ${tagName}` after escaping through the existing Telegram escaping convention. Do not include the full memo in the success report. The Telegram enqueue must occur after the database update, never before it.
+After successful persistence, enqueue the existing Telegram `post` operation through `telegramQueue`. The report must be a readable HTML-formatted summary containing the tag, all top artists, all adjacent tag names without weights, and the generated justification. Escape dynamic values through the existing Telegram escaping convention. The Telegram enqueue must occur after the database update, never before it.
 
 <Architecture>
 

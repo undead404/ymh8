@@ -77,7 +77,7 @@ describe('generateTagJustification', () => {
       'post',
       'tag-justification-genre',
       {
-        text: 'Justification for tag genre:\nKeep this tag because it has a distinct sonic identity.',
+        text: '<b>🏷️ Tag justification</b>\n\n<b>Tag:</b> genre\n\n<b>Artists</b>\nArtist\n\n<b>Adjacent tags</b>\nneighbor\n\n<b>Justification</b>\nKeep this tag because it has a distinct sonic identity.',
       },
       100,
     );
