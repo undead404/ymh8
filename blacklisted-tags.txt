@@ -12425,6 +12425,7 @@ asian opera
 asian punk
 asian rap
 asian rappers
+asian rock
 asian series
 asian star
 asian swing
@@ -22862,6 +22863,7 @@ brazilian classical
 brazilian composer
 brazilian connections vol 2
 brazilian contemporary
+brazilian country
 brazilian county
 brazilian drummer
 brazilian drums
@@ -23533,6 +23535,7 @@ british pop punk
 british pop rock
 british rapper
 british rhythm and blues
+british rock
 british rockabilly
 british rule
 british scouse psyc
@@ -27506,6 +27509,7 @@ catie curtis female vocalist
 catlevania
 catman cohen
 cato abofa
+catolica
 catolica cristiana
 catolicas
 catolicismo
@@ -36609,6 +36613,7 @@ cyprien
 cypriot
 cypriot eurovision entries
 cypriot rap
+cyprus
 cyra unique
 cyranoi
 cyren young
@@ -37923,6 +37928,7 @@ danish prog
 danish rapper
 danish reggae-rock
 danish rnb soul
+danish rock
 danish saxophone player
 danish singer songwriter
 danish soft rock
@@ -50163,68 +50169,36 @@ electrique
 electrique eq
 electrix
 electro accoustic violin
-electro acholi
-electro acoustique
-electro aliziens
 electro alternative
 electro alternative ambient rock
-electro ambidjent
-electro andino
-electro arabic
 electro as hell
 electro balkan
 electro balkan swing
 electro bassline
 electro beats
 electro beefheart
-electro black metal
-electro blues metal
-electro boogie
 electro boogies
-electro bossa
 electro brasil
-electro breakbeat
 electro bresiliene
 electro bunker
 electro cairo
-electro chillout
 electro cold
-electro coldwave
 electro cool
-electro country
 electro dakwave
 electro dance house
 electro datapunk
-electro death metal
-electro deathrock
-electro disco funk pop
-electro doom
-electro dubhouse
-electro dubstep
-electro ebm
 electro electronic
 electro electronica techno electronic
 electro erotic
-electro ethnic
-electro ethno
 electro fidget
-electro flamenco
-electro forestep
 electro freak
-electro free jazz
 electro french
-electro french cold wave
 electro from hell
 electro ftw
-electro funky
 electro fusion bucharest
 electro games
 electro german
-electro glam
-electro glam rock
 electro glitsch
-electro gothic metal
-electro grunge
 electro hause
 electro hip-hop soul
 electro hippie contemporaneo
@@ -50235,68 +50209,37 @@ electro house music download
 electro housemusic
 electro indie dream
 electro indie experimental
-electro indie noise
-electro indie pop
 electro indus
 electro industrial
-electro industrial black metal
-electro industrial pop
-electro industrial rock
 electro instrumental
-electro instrumental ambient
-electro italo
-electro latinos
 electro lofi
 electro mex
 electro mexico
-electro minimal
-electro minimal techno
 electro minimalist
 electro mix
 electro music 2021
 electro music 2022
 electro musik
-electro no wave
-electro noise
 electro noise for breakbeat initiates
-electro noise glitch
-electro outrun
 electro party
-electro phonic noise
 electro pop
 electro pop disco
 electro pop fun
 electro pop mexico
 electro pop new wave romantic gothic
 electro post prog metal
-electro post-rock
-electro power metal
-electro progressive metal
-electro psy
-electro quarterstaff
-electro queer punk
-electro ragga
 electro raver
 electro raver vocal mix
 electro riot
-electro rnb
 electro rock
 electro saxiphone player
 electro shampoo
-electro shoegaze
-electro skank
 electro spazz
-electro stoner
-electro surf
-electro synth rock
 electro synthetic rebellion
-electro tech house
-electro techno-house
 electro trash undone
 electro vocal
 electro war
 electro-accoustic
-electro-acoustic
 electro-acoustic composition
 electro-apocalyptic
 electro-arc
@@ -56946,6 +56889,7 @@ female canadian artists with balls
 female chants
 female chillout
 female choir
+female country
 female county
 female dancehall
 female deutsch
@@ -57018,6 +56962,7 @@ female jazz composer
 female jazz contemporary
 female jazz singer
 female jazz singers
+female jazz vocalists
 female jazz vocals
 female k-pop soloist
 female keyboard player
@@ -120582,6 +120527,7 @@ oldschool
 oldschool death doom
 oldschool drums
 oldschool gothic punk
+oldschool hardcore
 oldschool heavy
 oldschool korn
 oldschool sound
@@ -121618,6 +121564,7 @@ opium nightmares
 opium-den-traxxx
 opiumroz
 opl3
+opm
 opm pop rock
 opm-acoustic
 opm-traditional
@@ -128529,6 +128476,7 @@ polish progressive
 polish project
 polish rap in english
 polish relax
+polish rock
 polish satanic anal humour
 polish slavonic union
 polish trash metal
