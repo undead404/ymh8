@@ -52,6 +52,7 @@ describe('generateTagJustification', () => {
     isTagBlacklistedMock.mockReturnValue(false);
     saveTagJustificationMock.mockResolvedValue(undefined);
     openaiMock.responses.create.mockResolvedValue({
+      status: 'completed',
       output_text: 'Keep this tag because it has a distinct sonic identity.',
     });
   });
@@ -60,14 +61,14 @@ describe('generateTagJustification', () => {
     configureTransaction(null);
 
     await expect(
-      generateTagJustification({ data: context } as never),
+      generateTagJustification({ data: context, log: vi.fn() } as never),
     ).resolves.toBe('Keep this tag because it has a distinct sonic identity.');
 
     expect(openaiMock.responses.create).toHaveBeenCalledWith({
       model: 'gpt-5.6-luna',
       instructions: expect.any(String),
       input: JSON.stringify(context),
-      max_output_tokens: 1024,
+      max_output_tokens: 4096,
       reasoning: { effort: 'xhigh' },
     });
     expect(saveTagJustificationMock).toHaveBeenCalledWith(
@@ -80,7 +81,7 @@ describe('generateTagJustification', () => {
       'post',
       'tag-justification-genre',
       {
-        text: '<b>🏷️ Tag justification</b>\n\n<b>Tag:</b> genre\n\n<b>Artists</b>\nArtist\n\n<b>Adjacent tags</b>\nneighbor (A, B, C, D, E)\n\n<b>Justification</b>\nKeep this tag because it has a distinct sonic identity.',
+        text: '<b>🏷️ Tag justification</b>\n\n<b>Tag:</b> genre\n\n<b>Artists</b>\nArtist\n\n<b>Adjacent tags</b>\nneighbor\n\n<b>Justification</b>\nKeep this tag because it has a distinct sonic identity.',
       },
       100,
     );
@@ -90,7 +91,7 @@ describe('generateTagJustification', () => {
     configureTransaction('Already reviewed');
 
     await expect(
-      generateTagJustification({ data: context } as never),
+      generateTagJustification({ data: context, log: vi.fn() } as never),
     ).resolves.toBe('Keep this tag because it has a distinct sonic identity.');
 
     expect(openaiMock.responses.create).toHaveBeenCalled();
@@ -111,12 +112,39 @@ describe('generateTagJustification', () => {
 
   it('does not save or report an empty provider response', async () => {
     configureTransaction(null);
-    openaiMock.responses.create.mockResolvedValue({ output_text: ' ' });
+    openaiMock.responses.create.mockResolvedValue({
+      status: 'completed',
+      output_text: ' ',
+    });
 
     await expect(
-      generateTagJustification({ data: context } as never),
+      generateTagJustification({ data: context, log: vi.fn() } as never),
     ).rejects.toThrow('OpenAI response did not contain non-empty text');
 
+    expect(saveTagJustificationMock).not.toHaveBeenCalled();
+    expect(enqueueMock).not.toHaveBeenCalled();
+  });
+
+  it('logs and rejects a response that did not complete', async () => {
+    configureTransaction(null);
+    const log = vi.fn();
+    openaiMock.responses.create.mockResolvedValue({
+      status: 'incomplete',
+      incomplete_details: { reason: 'max_output_tokens' },
+    });
+
+    await expect(
+      generateTagJustification({ data: context, log } as never),
+    ).rejects.toThrow('OpenAI response was not completed: incomplete');
+
+    expect(log).toHaveBeenNthCalledWith(
+      1,
+      'OpenAI response status: incomplete',
+    );
+    expect(log).toHaveBeenNthCalledWith(
+      2,
+      'OpenAI response was not completed: {"reason":"max_output_tokens"}',
+    );
     expect(saveTagJustificationMock).not.toHaveBeenCalled();
     expect(enqueueMock).not.toHaveBeenCalled();
   });

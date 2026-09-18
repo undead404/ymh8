@@ -25,12 +25,19 @@ export default async function generateTagJustification(job: Job<unknown>) {
         model: 'gpt-5.6-luna',
         instructions: tagJustificationPrompt,
         input: JSON.stringify(context),
-        max_output_tokens: 1024,
+        max_output_tokens: 4096,
         reasoning: { effort: 'xhigh' },
       });
     } catch (error) {
       throwIfProviderHasNoCredits(error);
       throw error;
+    }
+    await job.log(`OpenAI response status: ${response.status}`);
+    if (response.status !== 'completed') {
+      await job.log(
+        `OpenAI response was not completed: ${JSON.stringify(response.incomplete_details ?? null)}`,
+      );
+      throw new Error(`OpenAI response was not completed: ${response.status}`);
     }
     const justification = extractTextContent(response);
 
@@ -50,9 +57,7 @@ export default async function generateTagJustification(job: Job<unknown>) {
           '',
           '<b>Adjacent tags</b>',
           escapeForTelegram(
-            context.adjacent_tags
-              .map((tag) => `${tag.name} (${tag.top_artists.join(', ')})`)
-              .join(', '),
+            context.adjacent_tags.map((tag) => tag.name).join(', '),
           ) || '—',
           '',
           '<b>Justification</b>',
