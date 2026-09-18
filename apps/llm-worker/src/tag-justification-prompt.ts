@@ -9,6 +9,7 @@ Criteria:
 5. Unknowns: If you do not have concrete data on the tag's name, do not invent one based on the artists. Flag it as unknown.
 6. Aggregate weights: The weights in the input are database ranking signals combining tag counts with album popularity. Use them only as supporting evidence about prevalence, not as evidence that a tag is musically correct.
 7. Missingness: Last.fm tags may be incomplete or biased toward popular user descriptions. Do not interpret the absence of a tag as evidence against it.
+8. Retrospective labels: Be skeptical of tags defined mainly as historical precursors or earlier versions of another genre, such as "old school X", "proto-X", or similar labels. Recommend deletion unless the tag has a distinct, established sonic identity rather than merely describing chronology, influence, or an origin story.
 
 Artists and adjacent tags are evidence, not authoritative taxonomy. Return only a concise plain-text justification of your evaluation. Do not return JSON, a verdict field, or markdown headings.`;
 
