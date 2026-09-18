@@ -7,7 +7,7 @@ import { createKyselyMock } from '@ymh8/database';
 import getTagsNeedingJustification from './get-tags-needing-justification.js';
 
 describe('getTagsNeedingJustification', () => {
-  it('selects only one old list without a justification', async () => {
+  it('selects the oldest list without a justification', async () => {
     const { db, builder } = createKyselyMock();
     vi.mocked(builder.execute).mockResolvedValue([]);
 
@@ -17,6 +17,12 @@ describe('getTagsNeedingJustification', () => {
 
     expect(builder.where).toHaveBeenCalledWith('justification', 'is', null);
     expect(builder.where).toHaveBeenCalledWith('listUpdatedAt', 'is not', null);
+    expect(builder.where).not.toHaveBeenCalledWith(
+      'listUpdatedAt',
+      '<=',
+      expect.anything(),
+    );
+    expect(builder.orderBy).toHaveBeenCalledWith('listUpdatedAt', 'asc');
     expect(builder.limit).toHaveBeenCalledWith(1);
   });
 });

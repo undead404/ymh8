@@ -1,4 +1,4 @@
-import { sql, type Transaction } from 'kysely';
+import { type Transaction } from 'kysely';
 import type { DB } from 'kysely-codegen';
 
 export default function getTagsNeedingJustification(
@@ -10,7 +10,6 @@ export default function getTagsNeedingJustification(
     .select(['name'])
     .where('justification', 'is', null)
     .where('listUpdatedAt', 'is not', null)
-    .where('listUpdatedAt', '<=', sql<Date>`NOW() - interval '24 hours'`)
     .orderBy('listUpdatedAt', 'asc')
     .limit(limit)
     .execute();
