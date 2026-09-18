@@ -24053,60 +24053,33 @@ brutal britpop
 brutal canadian death metal
 brutal christian ideology
 brutal crossover
-brutal crust
 brutal death
 brutal death chile
 brutal death emotionalcore metalcore
 brutal death metal usa
 brutal death murder metal
-brutal death noise
 brutal death siema metal
 brutal death-mathcore
-brutal deathgrind
-brutal deathrash
 brutal disco-polo
-brutal doom
-brutal doom drone
-brutal dubstep
-brutal electro
 brutal electronic deathmosh
-brutal electronics
 brutal fagcore
 brutal female vocal
 brutal gore
 brutal gore metal
-brutal goregrind
 brutal hair metal
-brutal hardcore
-brutal harsh noise
-brutal heavy metal
 brutal honesty
 brutal jazz
 brutal jewcore
 brutal jewish foreskincore
 brutal lolicore
 brutal mdmd
-brutal melodic death metal
-brutal metalcore
 brutal nazi scumcore with fascist influence and guest vocalist adolf hitler
 brutal nekkro sex
 brutal niggacore death metal
-brutal noise
-brutal oi punk
 brutal orchestra
 brutal pand
-brutal power metal
-brutal progressive death metal
 brutal psychedelic death
-brutal punk
-brutal rap
-brutal rapcore
-brutal rock
 brutal slam death meatl grind
-brutal slam metal
-brutal slamming deathcore
-brutal sludge
-brutal sludge metal
 brutal suicidal death metal
 brutal tech death
 brutal technical death
@@ -33825,6 +33798,7 @@ contemporary catholic rock
 contemporary celtic
 contemporary chinese
 contemporary choral
+contemporary christian
 contemporary christian female
 contemporary christian reggae
 contemporary christianchristian rock
@@ -35860,6 +35834,7 @@ crust ska
 crust tuga
 crust war
 crustaceans
+crustcore
 crusted hardcore
 crusty funk
 crusty sludge
@@ -81626,6 +81601,7 @@ japanese electronic
 japanese emo
 japanese ethereal
 japanese extreme metal
+japanese female pop-rock
 japanese female singer
 japanese female vocalist
 japanese female vocalists
@@ -108063,6 +108039,7 @@ minimal dungeon synth
 minimal ebm
 minimal effort
 minimal electro funk
+minimal electronic
 minimal electronic techno
 minimal electronics
 minimal experimental
@@ -154485,6 +154462,7 @@ spanish music 2021
 spanish noise pop
 spanish oi
 spanish oldschool
+spanish pop
 spanish pop punk
 spanish post punk
 spanish power metal
@@ -154497,6 +154475,7 @@ spanish reggaeton
 spanish renaissance
 spanish revolucion
 spanish rhythm
+spanish rock
 spanish rock bands
 spanish rumba
 spanish singer-songwriter
@@ -168758,6 +168737,7 @@ timba cubana
 timba de suecia
 timbahawk
 timbal
+timbaland
 timbaland killed my career
 timbale
 timbales
