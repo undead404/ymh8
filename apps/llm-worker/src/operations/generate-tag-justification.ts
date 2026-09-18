@@ -47,7 +47,9 @@ export default async function generateTagJustification(job: Job<unknown>) {
       'post',
       `tag-justification-${tagName}`,
       {
-        text: escapeForTelegram(`Justification generated for tag: ${tagName}`),
+        text: escapeForTelegram(
+          `Justification for tag ${tagName}:\n${justification}`,
+        ),
       } satisfies TelegramPost,
       100,
     );

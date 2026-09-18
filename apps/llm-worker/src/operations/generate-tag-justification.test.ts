@@ -76,7 +76,9 @@ describe('generateTagJustification', () => {
       expect.anything(),
       'post',
       'tag-justification-genre',
-      { text: 'Justification generated for tag: genre' },
+      {
+        text: 'Justification for tag genre:\nKeep this tag because it has a distinct sonic identity.',
+      },
       100,
     );
   });
