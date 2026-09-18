@@ -1,4 +1,4 @@
-import type { Transaction } from 'kysely';
+import { sql, type Transaction } from 'kysely';
 import type { DB } from 'kysely-codegen';
 
 export default function getDescriptionlessTags(
@@ -10,6 +10,7 @@ export default function getDescriptionlessTags(
     .select(['name'])
     .where('description', 'is', null)
     .where('listUpdatedAt', 'is not', null)
+    .where('listUpdatedAt', '<=', sql<Date>`NOW() - interval '24 hours'`)
     .orderBy('listUpdatedAt', 'asc')
     .limit(limit)
     .execute();
