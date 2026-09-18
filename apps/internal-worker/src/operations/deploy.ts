@@ -1,6 +1,3 @@
-import { promises as dns } from 'node:dns';
-import path from 'node:path';
-
 import type { Job } from 'bullmq';
 import { formatDistanceToNow, parseISO } from 'date-fns';
 import { uk } from 'date-fns/locale/uk';
@@ -19,38 +16,6 @@ export default async function deploy(job: Job<unknown>) {
 
   const { nodeExecutable, yarnExecutable, nodeBinDirectory } =
     await resolveNvmRuntime(FRONTEND_FOLDER);
-
-  const frontendFolder = path.resolve(FRONTEND_FOLDER);
-  const proxyEnvironment = [
-    'HTTP_PROXY',
-    'HTTPS_PROXY',
-    'ALL_PROXY',
-    'NO_PROXY',
-    'http_proxy',
-    'https_proxy',
-    'all_proxy',
-    'no_proxy',
-  ].filter((name) => process.env[name]);
-
-  console.info('[deploy] runtime diagnostics', {
-    cwd: process.cwd(),
-    frontendFolder,
-    parentNode: process.version,
-    parentExecPath: process.execPath,
-    nodeExecutable,
-    yarnExecutable,
-    nodeBinDirectory,
-    pathPrefix: process.env.PATH?.split(path.delimiter).slice(0, 3),
-    proxyEnvironment,
-    cloudflareTokenPresent: Boolean(environment.CLOUDFLARE_API_TOKEN),
-  });
-
-  try {
-    const cloudflareApi = await dns.lookup('api.cloudflare.com');
-    console.info('[deploy] Cloudflare API DNS lookup succeeded', cloudflareApi);
-  } catch (error) {
-    console.error('[deploy] Cloudflare API DNS lookup failed', error);
-  }
 
   const childEnvironment = {
     ...process.env,
