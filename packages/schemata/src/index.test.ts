@@ -81,7 +81,13 @@ describe('Schemas', () => {
         v.is(tagJustificationSchema, {
           target_tag: { name: 'genre', weight: 10 },
           top_artists: ['Artist'],
-          adjacent_tags: [{ name: 'neighbor', weight: 20 }],
+          adjacent_tags: [
+            {
+              name: 'neighbor',
+              weight: 20,
+              top_artists: ['A', 'B', 'C', 'D', 'E'],
+            },
+          ],
         }),
       ).toBe(true);
     });
@@ -108,6 +114,7 @@ describe('Schemas', () => {
           adjacent_tags: Array.from({ length: 11 }, (_, index) => ({
             name: `tag-${index}`,
             weight: index,
+            top_artists: ['A', 'B', 'C', 'D', 'E'],
           })),
         }),
       ).toBe(false);

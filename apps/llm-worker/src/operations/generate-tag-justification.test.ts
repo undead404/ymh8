@@ -26,7 +26,9 @@ import generateTagJustification from './generate-tag-justification.js';
 const context = {
   target_tag: { name: 'genre', weight: 100 },
   top_artists: ['Artist'],
-  adjacent_tags: [{ name: 'neighbor', weight: 50 }],
+  adjacent_tags: [
+    { name: 'neighbor', weight: 50, top_artists: ['A', 'B', 'C', 'D', 'E'] },
+  ],
 };
 
 function configureTransaction(justification: string | null) {
@@ -66,6 +68,7 @@ describe('generateTagJustification', () => {
       instructions: expect.any(String),
       input: JSON.stringify(context),
       max_output_tokens: 1024,
+      reasoning: { effort: 'xhigh' },
     });
     expect(saveTagJustificationMock).toHaveBeenCalledWith(
       expect.anything(),
@@ -77,22 +80,22 @@ describe('generateTagJustification', () => {
       'post',
       'tag-justification-genre',
       {
-        text: '<b>🏷️ Tag justification</b>\n\n<b>Tag:</b> genre\n\n<b>Artists</b>\nArtist\n\n<b>Adjacent tags</b>\nneighbor\n\n<b>Justification</b>\nKeep this tag because it has a distinct sonic identity.',
+        text: '<b>🏷️ Tag justification</b>\n\n<b>Tag:</b> genre\n\n<b>Artists</b>\nArtist\n\n<b>Adjacent tags</b>\nneighbor (A, B, C, D, E)\n\n<b>Justification</b>\nKeep this tag because it has a distinct sonic identity.',
       },
       100,
     );
   });
 
-  it('skips tags that already have a justification', async () => {
+  it('regenerates tags that already have a justification', async () => {
     configureTransaction('Already reviewed');
 
     await expect(
       generateTagJustification({ data: context } as never),
-    ).resolves.toBeUndefined();
+    ).resolves.toBe('Keep this tag because it has a distinct sonic identity.');
 
-    expect(openaiMock.responses.create).not.toHaveBeenCalled();
-    expect(saveTagJustificationMock).not.toHaveBeenCalled();
-    expect(enqueueMock).not.toHaveBeenCalled();
+    expect(openaiMock.responses.create).toHaveBeenCalled();
+    expect(saveTagJustificationMock).toHaveBeenCalled();
+    expect(enqueueMock).toHaveBeenCalled();
   });
 
   it('rejects invalid payloads before calling OpenAI', async () => {

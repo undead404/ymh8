@@ -88,11 +88,42 @@ export default async function readTagJustificationContext(
       .execute(),
   ]);
 
+  const finiteAdjacentTags = adjacentTags.filter(
+    (tag) => typeof tag.weight === 'number' && Number.isFinite(tag.weight),
+  );
+  const adjacentTagArtists = await Promise.all(
+    finiteAdjacentTags.map((tag) =>
+      transaction
+        .selectFrom('Album')
+        .innerJoin('AlbumTag as adjacent_tag', (join) =>
+          join
+            .onRef('Album.artist', '=', 'adjacent_tag.albumArtist')
+            .onRef('Album.name', '=', 'adjacent_tag.albumName'),
+        )
+        .where('adjacent_tag.tagName', '=', tag.name)
+        .where('Album.hidden', 'is not', true)
+        .where('Album.artist', '<>', 'Various Artists')
+        .groupBy('Album.artist')
+        .select('Album.artist as name')
+        .orderBy(
+          sql<number>`SUM(COALESCE("Album"."listeners", 0) * "adjacent_tag"."count")`,
+          'desc',
+        )
+        .limit(5)
+        .execute(),
+    ),
+  );
+  if (adjacentTagArtists.length !== finiteAdjacentTags.length) {
+    throw new Error('Could not read artists for every adjacent tag');
+  }
+
   return v.parse(tagJustificationSchema, {
     target_tag: { name: tagName, weight: target.weight },
     top_artists: artists.map((artist) => artist.name),
-    adjacent_tags: adjacentTags.filter(
-      (tag) => typeof tag.weight === 'number' && Number.isFinite(tag.weight),
-    ),
+    adjacent_tags: finiteAdjacentTags.map((tag, index) => ({
+      ...tag,
+      top_artists:
+        adjacentTagArtists[index]?.map((artist) => artist.name) ?? [],
+    })),
   });
 }

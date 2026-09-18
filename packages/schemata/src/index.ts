@@ -42,10 +42,16 @@ const weightedTagSchema = v.object({
   weight: finiteNumber,
 });
 
+const adjacentTagSchema = v.object({
+  name: nonEmptyString,
+  weight: finiteNumber,
+  top_artists: v.array(nonEmptyString),
+});
+
 export const tagJustificationSchema = v.object({
   target_tag: weightedTagSchema,
   top_artists: v.array(nonEmptyString),
-  adjacent_tags: v.pipe(v.array(weightedTagSchema), v.maxLength(10)),
+  adjacent_tags: v.pipe(v.array(adjacentTagSchema), v.maxLength(10)),
 });
 
 export type TagJustification = v.InferInput<typeof tagJustificationSchema>;

@@ -19,14 +19,6 @@ export default async function generateTagJustification(job: Job<unknown>) {
   if (isTagBlacklisted(tagName)) return;
 
   return kysely.transaction().execute(async (trx) => {
-    const existingTag = await trx
-      .selectFrom('Tag')
-      .select('justification')
-      .where('name', '=', tagName)
-      .executeTakeFirst();
-
-    if (existingTag?.justification != null) return;
-
     let response;
     try {
       response = await openai.responses.create({
@@ -34,6 +26,7 @@ export default async function generateTagJustification(job: Job<unknown>) {
         instructions: tagJustificationPrompt,
         input: JSON.stringify(context),
         max_output_tokens: 1024,
+        reasoning: { effort: 'xhigh' },
       });
     } catch (error) {
       throwIfProviderHasNoCredits(error);
@@ -57,7 +50,9 @@ export default async function generateTagJustification(job: Job<unknown>) {
           '',
           '<b>Adjacent tags</b>',
           escapeForTelegram(
-            context.adjacent_tags.map((tag) => tag.name).join(', '),
+            context.adjacent_tags
+              .map((tag) => `${tag.name} (${tag.top_artists.join(', ')})`)
+              .join(', '),
           ) || '—',
           '',
           '<b>Justification</b>',
