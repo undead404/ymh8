@@ -29,7 +29,7 @@ describe('addLlmWork', () => {
     vi.mocked(getDescriptionlessTags).mockResolvedValue([]);
   });
 
-  it('adds at most one justification job and uses remaining capacity for descriptions', async () => {
+  it('adds available justification jobs and uses remaining capacity for descriptions', async () => {
     vi.mocked(getTagsNeedingJustification).mockResolvedValue([
       { name: 'target' },
     ]);
@@ -55,7 +55,7 @@ describe('addLlmWork', () => {
       name: 'tag:description:generate',
       data: { name: 'descriptionless' },
     });
-    expect(getTagsNeedingJustification).toHaveBeenCalledWith(transaction, 1);
+    expect(getTagsNeedingJustification).toHaveBeenCalledWith(transaction, 2);
     expect(getDescriptionlessTags).toHaveBeenCalledWith(transaction, 1);
   });
 
@@ -68,5 +68,11 @@ describe('addLlmWork', () => {
 
     expect(jobs).toHaveLength(1);
     expect(getDescriptionlessTags).toHaveBeenCalledWith(transaction, 1);
+  });
+
+  it('requests up to 60 justification jobs per run', async () => {
+    await addLlmWork(transaction, 100);
+
+    expect(getTagsNeedingJustification).toHaveBeenCalledWith(transaction, 60);
   });
 });

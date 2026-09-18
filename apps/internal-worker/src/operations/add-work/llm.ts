@@ -8,6 +8,8 @@ import readTagJustificationContext from '../../database2/read-tag-justification-
 
 import { createWorkJob, type WorkJob } from './jobs.js';
 
+const MAX_TAG_JUSTIFICATION_JOBS = 60;
+
 export default async function addLlmWork(
   transaction: Transaction<DB>,
   initialCapacity: number,
@@ -15,11 +17,11 @@ export default async function addLlmWork(
   let llmCapacity = initialCapacity;
   const jobs: WorkJob[] = [];
   if (llmCapacity > 0) {
-    const [tagNeedingJustification] = await getTagsNeedingJustification(
+    const tagsNeedingJustification = await getTagsNeedingJustification(
       transaction,
-      1,
+      Math.min(llmCapacity, MAX_TAG_JUSTIFICATION_JOBS),
     );
-    if (tagNeedingJustification) {
+    for (const tagNeedingJustification of tagsNeedingJustification) {
       jobs.push(
         createWorkJob(
           llmQueue,
