@@ -4,12 +4,7 @@ import type { Job } from 'bullmq';
 import { v4 as uuidv4 } from 'uuid';
 import * as v from 'valibot';
 
-import {
-  deleteTag,
-  hideAlbum,
-  isTagBlacklisted,
-  isTagValid,
-} from '@ymh8/database';
+import { deleteTag, hideAlbum, isTagValid } from '@ymh8/database';
 import {
   discogsQueue,
   enqueue,
@@ -35,7 +30,6 @@ export default async function generateTagList(
   job: Job<unknown>,
 ): Promise<unknown> {
   const bareTag = v.parse(bareTagSchema, job.data);
-  if (isTagBlacklisted(bareTag.name)) return { status: 'blacklisted' };
 
   return kysely.transaction().execute(async (trx) => {
     // --- VALIDATION & CLEANUP (Standard Logic) ---

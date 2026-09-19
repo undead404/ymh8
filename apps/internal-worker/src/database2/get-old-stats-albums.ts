@@ -11,6 +11,7 @@ export default async function getOldStatsAlbums(
     .select(['artist', 'name', 'date']) // date потрібен для воркера
     .where('hidden', 'is not', true)
     .where('artist', '<>', 'Various Artists')
+    .where('artist', '<>', 'Varios Artistas')
     .where('nextStatsUpdateAt', '<=', sql<Date>`NOW()`)
     .orderBy('nextStatsUpdateAt', 'asc')
     .limit(limit)

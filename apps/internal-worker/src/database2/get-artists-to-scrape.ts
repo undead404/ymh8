@@ -10,6 +10,7 @@ export default function getArtistsToScrape(
     .leftJoin('Album', 'Album.artist', 'Artist.name')
     .select(['Artist.name'])
     .where('Artist.name', '<>', 'Various Artists')
+    .where('Artist.name', '<>', 'Varios Artistas')
     .where((eb) =>
       eb.or([
         eb('Artist.albumsScrapedAt', 'is', null),

@@ -11,6 +11,7 @@ export default async function getOldTagsAlbums(
     .select(['artist', 'name', 'date']) // date потрібен для воркера
     .where('hidden', 'is not', true)
     .where('artist', '<>', 'Various Artists')
+    .where('artist', '<>', 'Varios Artistas')
     .where('nextTagsUpdateAt', '<=', sql<Date>`NOW()`)
     .orderBy('nextTagsUpdateAt', 'asc')
     .limit(limit)

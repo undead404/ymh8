@@ -14,6 +14,7 @@ export default async function readTagArtists(
     .where('AlbumTag.tagName', '=', tag.name)
     .where('Album.hidden', 'is not', true)
     .where('Album.artist', '<>', 'Various Artists')
+    .where('Album.artist', '<>', 'Varios Artistas')
     .groupBy('Album.artist')
     .select([
       'Album.artist as name',

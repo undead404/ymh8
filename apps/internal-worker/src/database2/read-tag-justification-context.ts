@@ -30,6 +30,7 @@ export default async function readTagJustificationContext(
     .where('AlbumTag.tagName', '=', tagName)
     .where('Album.hidden', 'is not', true)
     .where('Album.artist', '<>', 'Various Artists')
+    .where('Album.artist', '<>', 'Varios Artistas')
     .select(targetWeight.as('weight'))
     .executeTakeFirstOrThrow();
 
@@ -50,6 +51,7 @@ export default async function readTagJustificationContext(
       .where('AlbumTag.tagName', '=', tagName)
       .where('Album.hidden', 'is not', true)
       .where('Album.artist', '<>', 'Various Artists')
+      .where('Album.artist', '<>', 'Varios Artistas')
       .groupBy('Album.artist')
       .select('Album.artist as name')
       .orderBy(
@@ -80,6 +82,7 @@ export default async function readTagJustificationContext(
       .where('second_tag_tag.name', '<>', tagName)
       .where('Album.hidden', 'is not', true)
       .where('Album.artist', '<>', 'Various Artists')
+      .where('Album.artist', '<>', 'Varios Artistas')
       .groupBy('second_tag.tagName')
       .having(sql<boolean>`${relatedWeight} IS NOT NULL`)
       .orderBy(sql`weight`, 'desc')
@@ -103,6 +106,7 @@ export default async function readTagJustificationContext(
         .where('adjacent_tag.tagName', '=', tag.name)
         .where('Album.hidden', 'is not', true)
         .where('Album.artist', '<>', 'Various Artists')
+        .where('Album.artist', '<>', 'Varios Artistas')
         .groupBy('Album.artist')
         .select('Album.artist as name')
         .orderBy(

@@ -439,6 +439,7 @@
 16 ventile in gold
 16 years old
 16 years together
+16-bit
 160 bpm speedlimit
 1600s
 1605 music therapy
@@ -1195,6 +1196,7 @@
 2022 remix
 2022 single
 2022 singles
+2023
 2023 grammy nominations
 2030s
 2081691 pg 2 but says is sorted
@@ -2171,6 +2173,7 @@
 75 jahre slavko avsenik
 75 years later
 753 industrial techno
+77 punk
 77 sunset strip
 77davez-artists
 77davez-lib
@@ -3034,6 +3037,7 @@ a-ecstasy
 a-f
 a-game
 a-going
+a-ha
 a-ha 3
 a-ha trilogy
 a-jamal
@@ -4835,6 +4839,7 @@ africosmic
 afrida marimba band
 afrika bambaataa
 afrika funk
+afrikaans
 afrikaans brel
 afrikaans dance
 afrikaans is groot volume 3
@@ -6089,6 +6094,7 @@ album quero colo
 album redbone
 album release show
 album remix
+album rock
 album ruim
 album save tibet ainu
 album saved my life
@@ -8275,6 +8281,7 @@ american conducter composer
 american cowboy
 american cowboy single
 american cream team
+american death metal
 american desert
 american distress
 american dogs in europe
@@ -11896,6 +11903,7 @@ artaud seth
 artaudian
 artc
 artcage
+artcore
 arte dei rumori
 arte disfuncional
 arte fotografica
@@ -12422,6 +12430,7 @@ asian kung-fu generation
 asian loving faggot
 asian network
 asian opera
+asian pop
 asian punk
 asian rap
 asian rappers
@@ -15820,6 +15829,7 @@ barco
 barcode
 barcode brothers
 barcode recordings
+bard
 bard folk
 bard of ely
 bard-punk
@@ -16711,6 +16721,7 @@ beach clubing
 beach country
 beach fossils
 beach haze
+beach house
 beach love
 beach party
 beach tango
@@ -20055,6 +20066,7 @@ blackend thrash metal
 blackened acoustic
 blackened ambient spoken wordcore
 blackened black metal
+blackened doom metal
 blackened fagcore
 blackened frognoise
 blackened gay metal
@@ -22590,6 +22602,7 @@ braincore recordings
 braindamaging
 braindead
 braindunce
+brainfeeder
 brainfuck
 brainfuckproject
 brainfuzz
@@ -23121,6 +23134,7 @@ brekabeats
 brel
 brel infiniment
 brel jacques
+bremen hardcore
 bremen style
 bremer
 bremerhaven
@@ -23516,6 +23530,7 @@ british goth
 british grunge
 british i like
 british india
+british invasion
 british isles
 british legion
 british lovers rock
@@ -23765,6 +23780,7 @@ bronsky beat
 bronson und der tod
 brontide
 bronwin parks
+bronx
 bronx doo wop
 bronxcapone
 brony
@@ -26313,6 +26329,7 @@ cantautore siciliano
 cantautores alternativos
 cantautores argentinos
 cantautores mia favoritos
+cantautori
 cantautoriale
 cantautrice italiana
 cantautrici
@@ -28258,6 +28275,7 @@ chaman beats
 chamane
 chamanisme
 chambana
+chamber
 chamber choir kiev
 chamber choir of europe
 chamber classical
@@ -29694,6 +29712,7 @@ chinese orchestra
 chinese pipa
 chinese poem
 chinese poetry
+chinese pop
 chinese post-rock
 chinese punk
 chinese rap
@@ -31417,6 +31436,7 @@ classic fav
 classic favourite
 classic female singers
 classic folk
+classic freestyle
 classic fusion
 classic games
 classic garage rock
@@ -32119,6 +32139,7 @@ club for five
 club funky
 club fuse
 club hits
+club house
 club house techno
 club kids
 club life
@@ -33012,6 +33033,7 @@ comed
 comedey und kritisch
 comédia
 comedia musical
+comedian
 comedians
 comedically misnamed
 comedie humaine
@@ -35446,6 +35468,7 @@ crimson valley
 crimson wave
 crimsonisch
 crimsonsunday
+cringe rap
 cringecore
 criolla
 criollo
@@ -37576,6 +37599,7 @@ danceable darkwave
 danceanese
 danceboy
 dancechart
+dancecore
 danced with a robot
 dancee
 dancefloor 2000
@@ -37886,6 +37910,7 @@ danish duo
 danish electronica
 danish eurovision entries
 danish female percussion player
+danish female singer songwriter
 danish folk
 danish funk
 danish hard rock
@@ -38235,6 +38260,7 @@ dark dronesdark east
 dark eblo
 dark electro ambience
 dark electro indus
+dark electronic
 dark elf metal
 dark elves
 dark embient
@@ -41117,6 +41143,7 @@ depressive russian rock
 depressive silence
 depressive sludge
 depressive subcore
+depressive suicidal black metal
 depressive suicidal rap
 depressive suicidal shitcore
 depressive suicide black metal
@@ -41745,6 +41772,7 @@ deutsche podcasts
 deutsche rechtsrock
 deutsche rockmusik
 deutsche romantik
+deutsche schlager
 deutsche schlager oldies
 deutsche sclager
 deutsche weihnachtslieder
@@ -41789,6 +41817,7 @@ deutschland rechtsrock
 deutschlands beste
 deutschm
 deutschra
+deutschrap
 deutschrapper
 deutschsprachig
 deutschsprachig und grandios
@@ -42893,6 +42922,7 @@ dinslaken
 dinsubsol
 dinsyncadelica
 dinumbra
+dio
 dio benedica gli arpeggi acidi
 dio cover
 dio porco non si scarica una sega
@@ -43252,6 +43282,7 @@ discogs
 discohome
 discojam
 discokugel
+discolicious
 discolour
 discomix
 discomusic
@@ -45941,6 +45972,7 @@ douglas james
 douglas roberts
 dougy mo
 doujah raze
+doujin
 doujin circlcle
 doujin metal
 doujin ongaku
@@ -46219,6 +46251,7 @@ drag & drop industrial
 drag and drop
 drag king
 drag me away
+drag queen
 drag the river
 drag u
 dragan malesevic
@@ -46641,6 +46674,7 @@ drill
 drill and breaks
 drill and jazz
 drill grunge
+drill n bass
 drill n jazz
 drill rap
 drill rock
@@ -47827,6 +47861,7 @@ dutch
 dutch alternative
 dutch band
 dutch baroque
+dutch black metal
 dutch blues
 dutch cabaret
 dutch classical
@@ -48241,6 +48276,7 @@ e-grapes
 e-grozis
 e-jefferson
 e-jetz
+e-l-e-c-t-r-o
 e-lie
 e-lit
 e-lounge
@@ -48384,11 +48420,13 @@ early gabber
 early gothic
 early grunge
 early gurus of electronics
+early hardcore
 early hardcore techno
 early house
 early industrial
 early iron maiden style
 early jamaica
+early jazz
 early late twenties
 early learning
 early london days
@@ -48516,6 +48554,7 @@ east coast classicz
 east coast ghost
 east coast hardcore
 east coast hip-hop
+east coast hiphop
 east coast oi fest 2008
 east coast rock
 east coast techno
@@ -49045,6 +49084,7 @@ edenbridge
 edenfall
 edep
 eder mayer
+edexno
 edfish
 edfish and the sea urchins
 edg
@@ -50261,6 +50301,7 @@ electro-shaabi
 electro-sleaze
 electro-sounds
 electro-space
+electro-swing
 electro-symphonic
 electro-symphony
 electro-tech
@@ -53670,6 +53711,7 @@ etruscian
 etsi xafnika
 etta
 etta freakin james baby
+etta james
 ettore nova
 ettore stratta
 etuala
@@ -53851,6 +53893,7 @@ european hip hop
 european improvisation
 european indie
 european jaz
+european jazz
 european kraut folk
 european lycaon
 european metal
@@ -56902,6 +56945,7 @@ female fronted hardcore
 female fronted horror punk
 female fronted indie rock
 female fronted industrial
+female fronted metal
 female fronted metal gothic
 female fronted oriental death metal
 female fronted pop punk
@@ -56969,6 +57013,7 @@ female producers
 female punk
 female randb vocalist
 female rap 2022
+female rapper
 female rappers
 female rappers 2011
 female rappers roots-today
@@ -60452,6 +60497,7 @@ frau5to
 fraudulent
 fraudulous
 frauen ab 40 sind der hit
+frauen und technik
 frauenband
 frauenfeld
 frauenkirche
@@ -60769,8 +60815,8 @@ freespazz
 freestdemostolto
 freestela
 freestlye
+freestyle
 freestyle assassin sur radio nova
-freestyle beat
 freestyle beats
 freestyle bluegrass
 freestyle club mixes
@@ -60779,7 +60825,6 @@ freestyle fighting style lifestyle
 freestyle fondue
 freestyle friday
 freestyle groove
-freestyle hip hop
 freestyle hot mix
 freestyle hot mixes
 freestyle instrumentals
@@ -60790,11 +60835,9 @@ freestyle party
 freestyle prayer
 freestyle psychedelic
 freestyle radio nova
-freestyle rap
 freestyle remix
 freestyle trio
 freestyle-80s-90s-dance-love-spanish
-freestyle-pop
 freestyler
 freestylerap2013
 freestylers
@@ -60903,6 +60946,7 @@ french hip-hop
 french horn solo
 french horns
 french humour
+french indie
 french kicks
 french label
 french language
@@ -60919,12 +60963,14 @@ french musicals
 french netlabel
 french olive tree
 french polynesia
+french pop
 french pop vocalist
 french psyche
 french quarters
 french quebecois
 french retro
 french riviera
+french rock
 french rock scene
 french romantic composers
 french sex
@@ -61938,6 +61984,7 @@ funky town
 funky tribal beats
 funky vintage soul
 funky wave
+funky-groove
 funky!
 funkycore
 funkydasoul
@@ -63979,6 +64026,7 @@ george maple
 george martin
 george mccrae
 george mccuen
+george michael
 george michael and elton john
 george michael lust
 george micheal
@@ -64197,6 +64245,8 @@ german guitar terror
 german gurl
 german hardcore
 german hip hop future
+german hip-hop
+german hiphop
 german house
 german independent german pop
 german industrial
@@ -64234,9 +64284,11 @@ german prog metal
 german progressive electronic
 german progressive metal
 german pseudo shanty
+german punk
 german punk rock
 german punk scene
 german radio find
+german rap
 german rapper
 german rock playlist
 german rockmusic
@@ -68743,6 +68795,7 @@ guitar based drone
 guitar bass duo
 guitar bastard
 guitar bliss
+guitar blues
 guitar chill famos
 guitar classic
 guitar composer
@@ -69634,6 +69687,7 @@ hair bands
 hair chest
 hair country
 hair in my eyes like a highland steer
+hair metal
 hair of the dog
 hair of the dog live
 hair swinging
@@ -70536,6 +70590,7 @@ hardcore punk brasil
 hardcore punk rock metal
 hardcore punk thrash
 hardcore punkrock
+hardcore rap
 hardcore rave
 hardcore remix
 hardcore riot
@@ -73421,6 +73476,7 @@ hippedy-hop
 hipper shit aye
 hippety hop hop
 hippety hoppety
+hippie
 hippie dance
 hippie daze
 hippie drums
@@ -74437,6 +74493,7 @@ horror doom metal
 horror folk
 horror grind
 horror hip-hop
+horror metal
 horror metal punk
 horror movie metal
 horror movie themes
@@ -75540,6 +75597,7 @@ hymn of life
 hymn-like
 hymnic
 hymnody
+hymns
 hymns for the drunk
 hymns from the mormon fronteer
 hymns of life
@@ -77604,6 +77662,7 @@ indie dream pop female vocalist
 indie duo
 indie edm
 indie electronia
+indie electronic
 indie electronic pop
 indie electronic rock
 indie electronica post rock lo-fi
@@ -79415,6 +79474,7 @@ irish metal
 irish pop
 irish post-hardsludge
 irish pride
+irish punk
 irish punk rock
 irish rap
 irish rebel
@@ -80535,10 +80595,12 @@ j-luv
 j-mac
 j-magic
 j-mate entertainment
+j-metal
 j-noise
 j-offenbach-operas
 j-opera
 j-pink
+j-pixie
 j-pop favs
 j-pop female
 j-pop female vocalist
@@ -80563,6 +80625,7 @@ j-song
 j-style
 j-suki
 j-tonik
+j-urban
 j-visual
 j00f recordings
 j0hnny
@@ -81642,6 +81705,7 @@ japanese new wave
 japanese noise rock
 japanese oi
 japanese pagan metal
+japanese pop
 japanese pop folk rock
 japanese pop rock
 japanese post-hardcore
@@ -81655,6 +81719,7 @@ japanese psychedelic avant-garde
 japanese punk rock
 japanese release
 japanese rhythm and blues
+japanese rock
 japanese rockabilly
 japanese rpg
 japanese screamo
@@ -82293,6 +82358,7 @@ jazz loop
 jazz lounge chill
 jazz machine
 jazz manilajazz
+jazz manouche
 jazz manouche-impair et valse
 jazz master
 jazz melancholique
@@ -86603,6 +86669,7 @@ k-pop soloist
 k-popkpoptwicejyp
 k-punk
 k-rnb dance
+k-rock
 k-stone
 k-style
 k-tel
@@ -87397,6 +87464,7 @@ karnatic
 karnatik
 karne
 karne murta
+karneval
 karneval am rhein
 karneval der kulturen
 karneval total
@@ -88332,6 +88400,7 @@ kent um du var har
 kenta nagata
 kentank
 kentaro suzuki
+kentucky
 kentucky headhunters
 kentuckykicksass
 kentville
@@ -89633,6 +89702,7 @@ kivivuori
 kivu
 kiwa limi
 kiwf
+kiwi
 kiwi emo
 kiwi metal
 kiwi pop
@@ -90953,6 +91023,7 @@ krikor
 krileymusic
 krilla
 krimanchuli
+krimi
 kriminal
 kriminal beats
 kriminal recordz
@@ -93253,6 +93324,7 @@ latteband
 latter-day
 latter-day flower child
 latterman
+lattice
 latto
 latvia
 latvian
@@ -97301,6 +97373,7 @@ long and awesome
 long and slow progressions
 long arm
 long band name
+long beach
 long beach dub
 long beach punk
 long beach punx
@@ -101046,6 +101119,7 @@ male bands
 male baritone
 male bonding
 male chorus
+male country
 male crooners
 male dane
 male diva
@@ -101072,6 +101146,7 @@ male jazz vocalist
 male jazz vocalists
 male lead
 male lead vocals
+male manipulator
 male or female
 male performer
 male pianist
@@ -101083,6 +101158,7 @@ male rapper
 male rock
 male singer guitarist
 male singer keyboardplayer
+male singer songwriter
 male singles
 male solo
 male soloist
@@ -106443,6 +106519,7 @@ mezzo
 mezzo-soprano
 mezzodi
 mf
+mf doom
 mf doom is rapping
 mf doom touched it
 mf flxw
@@ -106552,13 +106629,8 @@ miami
 miami 2014
 miami babies
 miami bass express
-miami beat wave
 miami dade county
 miami essential
-miami freestyle
-miami groove
-miami heat
-miami hiphop
 miami horror
 miami house club
 miami king
@@ -106567,7 +106639,6 @@ miami man
 miami metal
 miami movies
 miami nights 1984
-miami rap
 miami rock ballad
 miami sounds
 miami taxi driverz
@@ -107182,6 +107253,7 @@ midwest indie
 midwest konnect
 midwest pen pals
 midwest punk
+midwest rap
 midwest ridahz
 midwest rock
 midwest screamo
@@ -112247,6 +112319,7 @@ musicains
 musicainstrumental
 musicais
 musicaitaliana
+musical
 musical activisim
 musical adhd
 musical composition
@@ -114318,6 +114391,7 @@ nederlandstalige
 nederlandstaling
 nederlanstalig
 nederock
+nederpop
 nederpsych
 nederreggae
 nederrock
@@ -115308,6 +115382,7 @@ new complexity
 new composer
 new compositions
 new cool
+new country
 new creation
 new cross
 new cross gate
@@ -117894,6 +117969,7 @@ nordean
 norden
 nordenham
 norderdorfer-wave
+nordeste
 nordeste real
 nordestezim
 nordestina
@@ -118141,7 +118217,6 @@ norwegian dj
 norwegian eurovision entries
 norwegian frost
 norwegian like
-norwegian metal
 norwegian metal
 norwegian underground
 norwegisch
@@ -119033,6 +119108,7 @@ nutz tec
 nutzie
 nuuine
 nuurbanjazz
+nuvelle
 nuvens
 nuvistasi
 nuvole bianchi
@@ -120385,7 +120461,9 @@ old school pornogrind
 old school power metal
 old school psy-tracne
 old school psychobilly
+old school punk
 old school punk punk rock
+old school rap
 old school revival
 old school rnb
 old school rolling stones
@@ -121537,6 +121615,7 @@ opimugge
 opinion
 opio
 opisanie swiata
+opium
 opium nightmares
 opium-den-traxxx
 opiumroz
@@ -123480,6 +123559,7 @@ palestinian territory
 palestinians
 pali
 pali kao
+palia
 palia ellinika tragoudia
 palin
 palindrome
@@ -124985,6 +125065,7 @@ pbhc
 pbj musik ab
 pbnj
 pbnjband
+pbrnb
 pbs
 pbs inc
 pbs special love it live
@@ -125246,6 +125327,7 @@ pelagic
 pelastaja
 pele
 pele mele
+peleas
 pelek
 pelfcore
 pelican riot
@@ -128257,6 +128339,7 @@ poetric
 poetronic
 poetronica
 poetrt
+poetry
 poetry and jazz
 poetry for the poisoned
 poetry hip hop
@@ -128480,6 +128563,7 @@ political commentary
 political dissent
 political divide
 political drama
+political hip-hop
 political prisoner
 political reference
 political satire
@@ -128882,10 +128966,12 @@ pop indie electronic remix
 pop indonesia
 pop instrumental
 pop ispanis
+pop italiano
 pop kreatif
 pop lament
 pop latin latinpop reggaeton dancemusic
 pop latina
+pop latino
 pop legend
 pop levi
 pop lgbt
@@ -129078,6 +129164,7 @@ poppmusic
 poppmusicnet
 poppop
 poppunkwhateverbutthisisamazing
+poppy
 poppy core
 poppy field
 poppy flower
@@ -129344,6 +129431,7 @@ portuguese eurovision entries
 portuguese guitar
 portuguese language
 portuguese male vocalists
+portuguese rock
 portugueses
 portuguisisk
 portunhol
@@ -129616,6 +129704,7 @@ post-black ska
 post-blues
 post-bob
 post-breakcore
+post-brexit new wave
 post-broadcast
 post-bulgarian-industrial-dream pop
 post-butt rock
@@ -132504,6 +132593,7 @@ punishment of luxury
 punishment park
 punishment through repetition
 punjabi
+punjabi bhangra
 punjabi block buster
 punjabi block buster 2015
 punjabi dance
@@ -132602,10 +132692,12 @@ punk old school
 punk on weed
 punk patatero
 punk peppermint
+punk periphery
 punk peruano
 punk piano
 punk pioneers
 punk pock
+punk pop
 punk prog
 punk psychedelic
 punk pt
@@ -135995,6 +136087,7 @@ real democracy
 real drums
 real dubstep
 real education
+real emo
 real estate
 real freestyle
 real friend
@@ -137294,6 +137387,7 @@ relief foundation
 relient k
 relife
 religi
+religiao
 religijna
 religioes
 religion of sin
@@ -137404,6 +137498,7 @@ reminisin on yo kissin
 reminitions
 remirro
 remission blame
+remix
 remix 2014
 remix author
 remix competition
@@ -137581,6 +137676,7 @@ reno delmaire
 reno divorce
 reno nevada
 renoise sessions
+renovacao
 renovamen
 renovo kids
 rent
@@ -139755,6 +139851,7 @@ rock boliviano
 rock bones
 rock bonito
 rock brasi
+rock brasileiro
 rock brasuca
 rock brazil
 rock brazilian
@@ -139957,6 +140054,7 @@ rock n stone
 rock n taco finalist
 rock n troll
 rock n tronix
+rock nacional
 rock nacional cantautor
 rock nacional clasico
 rock nica
@@ -141047,6 +141145,7 @@ roquero
 roqui monroe
 roquinho
 roqya
+roraima
 rorcal
 rorschach
 rory
@@ -147088,6 +147187,7 @@ sexteto tango
 sexties
 sexto sentido
 sextonik
+sextrance
 sextrash
 sexual
 sexual abuse
@@ -147548,6 +147648,7 @@ shango
 shangoke
 shangri-las
 shania
+shania twain
 shania twain chicago
 shanice
 shank
@@ -148216,6 +148317,7 @@ shocash
 shock and awe
 shock metal
 shock rap
+shock rock
 shock tactic
 shocked
 shocking
@@ -153800,6 +153902,7 @@ soundtack
 soundtarck
 soundtext
 soundtrach
+soundtrack
 soundtrack 2021
 soundtrack 2022
 soundtrack 80s
@@ -154256,6 +154359,7 @@ space rave
 space reggae
 space ride to zacks dads in bumblefuck
 space ritual
+space rock revival
 space rock russian
 space rock stoner
 space safari
@@ -154796,6 +154900,7 @@ spi
 spica
 spice 1
 spice burguer
+spice girls
 spice up your life
 spicey
 spicky hair punx
@@ -158095,6 +158200,7 @@ suffocate
 suffocating
 suffocation
 suffokate
+sufi
 sufi paradise
 sufiaana
 sufimusik
@@ -158525,6 +158631,7 @@ sungah
 sungai petani
 sungaze
 sungha jung
+sungho da may
 sunghoon
 sunghyuk
 sungjong
@@ -159444,6 +159551,7 @@ swedish nationalist
 swedish pop playlist
 swedish punkrock
 swedish rappers
+swedish rock
 swedish singer
 swedish song contest svensktoppen 2008
 swedish soprano
@@ -168203,6 +168311,7 @@ three prunes later
 three release wonder
 three sisters
 three six
+three stars
 three steps away
 three strikes
 three string bass
@@ -169650,6 +169759,7 @@ tom park
 tom parker
 tom paxton
 tom peel
+tom petty
 tom petty plus heartbreakers
 tom porto
 tom reagan
@@ -171169,6 +171279,7 @@ trap orientation
 trap phone
 trap production
 trap queen
+trap rap
 trap remix
 trap sad
 trap shady
@@ -172098,6 +172209,7 @@ trousersnake
 trout
 trout fishing of america
 troutman
+trova
 trova cantautor
 trova cubana
 trova cubana barcelona
@@ -172185,6 +172297,7 @@ true band
 true beauty
 true believer
 true black
+true black metal
 true black metall
 true brutal electro
 true bypass
@@ -172821,6 +172934,7 @@ turkish old synt
 turkish producer
 turkish psychedelic
 turkish psycho
+turkish rock
 turkish saz
 turkish session
 turkish traditional
@@ -172842,6 +172956,7 @@ turmoil
 turn back
 turn down for what
 turn ip up
+turn it off🔥🔥
 turn it on ep
 turn it up
 turn it up darr
@@ -172955,6 +173070,7 @@ tv serial
 tv serie
 tv series ost
 tv series sountrack
+tv show
 tv show sountrack
 tv show themes
 tv sky
@@ -174407,6 +174523,7 @@ underground paulista
 underground plug
 underground producer
 underground quality
+underground rap
 underground reggaeton
 underground reggie
 underground russian hip-hop
@@ -175547,6 +175664,7 @@ uta
 uta bresan
 utada hikaru piano
 utah saints
+utaite
 utata-p
 utatane
 utatane piko
@@ -176405,6 +176523,7 @@ vau valer a pena
 vaucluse
 vaud
 vaude
+vaudeville
 vaudeville blues
 vaudeville circus
 vaudevillian
@@ -182488,6 +182607,7 @@ wonder boy
 wonder bread tapes
 wonder child
 wonder cover
+wonder girls
 wonder world
 wonder years
 wonder-pop
@@ -183737,6 +183857,7 @@ y-luk-o
 y-n
 y2a
 y2g
+y2k prog
 ya 20 piges
 ya boi tc
 ya boy
