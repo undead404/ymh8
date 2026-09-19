@@ -80,7 +80,7 @@ describe('dailyReport', () => {
     expect(report).toContain('Серед них прихованих: 2 (28,6%)');
     expect(report).toContain('Artist — Album: 1 234 567');
     expect(report).toContain('Змінено списків: 12');
-    expect(report).toContain('Альбомів із iTunes-прев’ю: 11');
+    expect(report).toContain('При цьому аудіо знайдено: 11');
     expect(report).toContain('Очікують статистики / тегів: 2 / 3');
     expect(report).toContain('Прострочені оновлення статистики / тегів: 2 / 3');
     expect(report).not.toContain('Очікують статистики / тегів / iTunes');

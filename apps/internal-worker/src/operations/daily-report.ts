@@ -112,7 +112,7 @@ export function formatDailyReport(
       : []),
     `Оновлено статистику / теги: ${formatNumber(activity.statsUpdated)} / ${formatNumber(activity.tagsUpdated)}`,
     `Перевірено в iTunes: ${formatNumber(activity.itunesChecked)}`,
-    `Альбомів із iTunes-прев’ю: ${formatNumber(activity.albumsWithItunesPreview)}`,
+    `При цьому аудіо знайдено: ${formatNumber(activity.albumsWithItunesPreview)}`,
     `Зібрано альбомів для тегів: ${formatNumber(activity.tagAlbumsScraped)}`,
     `Змінено списків: ${formatNumber(activity.listsChanged)}`,
     `Списків без змін: ${formatNumber(activity.listsUnchanged)}`,
