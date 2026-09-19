@@ -2014,6 +2014,8 @@
 5ta herdeildin
 5th element
 5th gear
+5th gen
+5th gen leaders
 5to piso
 5tomidnight
 5ug4rfr33
@@ -8303,6 +8305,7 @@ american horror story
 american i like
 american icon
 american idiot
+american idol
 american idol 12
 american idol 2008
 american idol 7
@@ -10399,6 +10402,7 @@ antifaschismus
 antifascismo
 antifascismo militante
 antifascist black metal
+antifolk
 antifreakfolk
 antiga
 antigangster
@@ -15292,6 +15296,7 @@ ballermannhits
 ballerock
 ballers fam
 ballestyc
+ballet
 ballet alem
 ballet class
 ballet suite
@@ -22433,6 +22438,7 @@ boykott
 boyle heights
 boymerang
 boymusic
+boynextdoor
 boys 2 men
 boys air choir
 boys and girls
@@ -31417,6 +31423,7 @@ classic christian rock
 classic classic country
 classic composer
 classic contemporain
+classic country
 classic country duo
 classic cover
 classic crime
@@ -37485,6 +37492,7 @@ danca das estrelas
 danca do creu
 dancante
 dancda
+dance
 dance 1
 dance 2005
 dance 2013
@@ -40401,6 +40409,7 @@ deezer
 deezy
 def con
 def jam recordings
+def jux
 def leppar
 def squad
 def3 entertainment
@@ -57012,6 +57021,7 @@ female power voice
 female producers
 female punk
 female randb vocalist
+female rap
 female rap 2022
 female rapper
 female rappers
@@ -57627,6 +57637,7 @@ fifth density
 fifth dimension
 fifth doctor
 fifth element
+fifth harmony
 fifth harmony cover
 fifth single
 fifth to infinity
@@ -60947,6 +60958,7 @@ french horn solo
 french horns
 french humour
 french indie
+french jazz
 french kicks
 french label
 french language
@@ -67689,6 +67701,7 @@ greek male
 greek male vocalists
 greek metal scene
 greek paganism
+greek pop
 greek postpunk new wave
 greek psyche
 greek rock band
@@ -77485,6 +77498,7 @@ independent ep
 independent experimental
 independent female soul
 independent funk
+independent hip hop
 independent jazz
 independent jazz quartet
 independent label
@@ -77577,6 +77591,7 @@ indian territory
 indian thrash
 indian thrash metal
 indian war metal
+indiana
 indiana and franklin
 indiana hip hop
 indiana indie
@@ -80583,7 +80598,9 @@ j-hipster
 j-ho
 j-hope
 j-ideas
+j-idol
 j-idols
+j-indie
 j-indies
 j-kronic
 j-kwon
@@ -80930,6 +80947,7 @@ jaeden
 jaegermeister
 jaeho
 jaehyuk
+jaehyun do leo
 jaejoog
 jaejoong
 jaejun
@@ -81686,6 +81704,7 @@ japanese house
 japanese idol
 japanese idols
 japanese import
+japanese indie
 japanese indie rock
 japanese indiepop
 japanese indies
@@ -89238,6 +89257,7 @@ kinderhook
 kinderkirche
 kinderkonzert
 kinderlied
+kinderlieder
 kinderliedjes
 kindermusical
 kinderparty
@@ -98330,6 +98350,7 @@ love letter
 love like blood
 love line
 love liona boyd
+love live
 love live forever
 love lockdown rick ghraphixxx
 love loss
@@ -101348,6 +101369,7 @@ mamaku project
 mamalauda
 mamalauder
 mamalauter
+mamamoo
 mamampule
 mamamusic
 maman angela
@@ -112539,6 +112561,7 @@ musique de theatre
 musique du maroc
 musique electroacoustique
 musique electronic
+musique francaise
 musique haitienne
 musique instrumentale
 musique italienne
@@ -115862,6 +115885,7 @@ newbie
 newbon me
 newbossa chill
 newbrandmusic
+newbreed
 newbreed usa
 newbreed-galaxy
 newbreed-love
@@ -120025,6 +120049,7 @@ ofsdal
 oft falsch verstanden
 oft kilter
 ofunknownorigin
+ofwgkta
 og da makc
 og maco
 og metalcore
@@ -126479,6 +126504,7 @@ phillipines
 phillippe chow
 phillippinian underground
 phillips
+philly
 philly b
 philly club
 philly hardcore
@@ -128901,6 +128927,7 @@ pop contemporâneo
 pop contemporâneo em língua portuguesa
 pop contry
 pop cosmic
+pop country
 pop covers
 pop culture
 pop culture kills
@@ -129891,6 +129918,7 @@ post-tawog
 post-teen pop
 post-teotihuacan extraterrestrial fields
 post-thoosie
+post-thrash
 post-thrash metal
 post-tock
 post-trance
@@ -133293,6 +133321,7 @@ q-bah
 q-base
 q-bert
 q-dnace
+q-jones
 q-pop
 q-unique
 q0fc
@@ -138348,6 +138377,7 @@ rhyme and reason
 rhymellow
 rhymes easily done
 rhymes that make me laugh
+rhymesayers
 rhymesayers entertainment
 rhyming
 rhymni
@@ -142186,6 +142216,7 @@ russian psych
 russian psychedelic trance
 russian psychobilly
 russian ragga jungle
+russian rap
 russian rapcore
 russian red
 russian reggae and dub
@@ -146902,6 +146933,7 @@ sersavan
 sertab
 sertab erener
 sertab erener bu boyle
+sertaneja
 sertanejas
 sertanejo arrocha
 sertanejo bruto
@@ -154139,6 +154171,7 @@ southern new england
 southern ontario
 southern punk
 southern push
+southern rap
 southern rappers
 southern rnb
 southern rock france
@@ -174499,6 +174532,7 @@ underground heat
 underground heavy metal
 underground hip hip
 underground hip hop
+underground hip-hop
 underground hiphop
 underground industrial
 underground instrumental
@@ -177857,6 +177891,7 @@ violin solos
 violin sonatas
 violin trio
 violin version
+violin virtuoso
 violin with curved bow
 violin-contem
 violin-fiddle
