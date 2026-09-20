@@ -13888,6 +13888,7 @@ avengers
 avengers age of ultron
 avenos
 avent garde doom
+aventura
 aventura love and hate
 aventurier live
 avenue
@@ -64279,6 +64280,7 @@ german melodeath
 german melodic death metal
 german metal
 german metalband
+german metalcore
 german metallcore
 german minimal
 german music german hard rock
@@ -69491,6 +69493,7 @@ h-hop
 h-m management
 h-plagiarized
 h-tek
+h-town
 h1-key
 h16
 h18
@@ -90068,6 +90071,7 @@ kmouro
 kmp
 kmpfsprt
 kmt
+kmusic
 knaack
 knaan
 knabenchor
@@ -140064,6 +140068,7 @@ rock melodico
 rock mendocino
 rock mendoza
 rock metal gotico
+rock mexicano
 rock mineiro
 rock minimalism
 rock mix
@@ -140469,6 +140474,7 @@ rod pool
 rod serling
 rod servin
 rod steward
+rod stewart
 rod temperton
 roda de samba do grupo bom gosto
 rodacy
@@ -154176,6 +154182,7 @@ southern good
 southern gospel quartet
 southern gosple
 southern groove metal
+southern hardcore
 southern harmony
 southern hip-hop
 southern iran
@@ -160818,6 +160825,7 @@ taetaerae
 taetiseo
 taewoon
 taeyang japanese
+taeyeon
 taeyong
 taf
 tafelmusik baroque orchestra
@@ -173265,6 +173273,7 @@ twin guitar
 twin guitar harmonies
 twin guitar rock
 twin guitars
+twin peaks
 twin shadow
 twin souls
 twin towers
