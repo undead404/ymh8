@@ -1,7 +1,7 @@
 ---
 description: Decomposes goals and compiles implementation-ready specifications
 mode: primary
-model: opencode/gpt-5.6-luna
+model: openai/gpt-6-luna
 reasoningEffort: medium
 permission:
   bash: ask

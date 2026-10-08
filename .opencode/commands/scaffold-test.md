@@ -1,6 +1,6 @@
 ---
 description: 'Generate an offline Vitest unit test for a TypeScript source file.'
-model: 'opencode/gpt-5.6-luna'
+model: 'openai/gpt-6-luna'
 temperature: 0.1
 top_p: 0.95
 max_tokens: 8192

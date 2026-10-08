@@ -2,7 +2,7 @@
 color: accent
 description: Explores product and architectural directions for You Must Hear
 mode: primary
-model: opencode/gpt-5.6-luna
+model: openai/gpt-6-luna
 reasoningEffort: medium
 permission:
   edit: deny
