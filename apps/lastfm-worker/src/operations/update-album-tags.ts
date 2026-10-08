@@ -30,8 +30,8 @@ export default async function updateAlbumTags(
     try {
       const albumDetails = await getAlbumDetails(transaction, bareAlbum);
       const stats = await readAlbumStats(transaction, bareAlbum);
-      let tags = await getAlbumTags(bareAlbum, job);
-      tags = [...normalizeTags(filterTags(tags))];
+      const tagsInfo = await getAlbumTags(bareAlbum, job);
+      let tags = [...normalizeTags(filterTags(tagsInfo.tags))];
       if (tags.length === 0) {
         await sleep(1100);
         tags = await getArtistTags(bareAlbum, job);
@@ -64,13 +64,17 @@ export default async function updateAlbumTags(
 
       await saveAlbumTagsUpdateSuccess(
         transaction,
-        { ...bareAlbum, ...albumDetails },
+        { artist: tagsInfo.artist, name: tagsInfo.name, ...albumDetails },
         { listeners: stats.listeners || 0, playcount: stats.playcount || 0 },
       );
       return tagsToUpdate.length > 0
-        ? Object.fromEntries(
-            tagsToUpdate.map(({ name, count }) => [name, count]),
-          )
+        ? {
+            artist: tagsInfo.artist,
+            name: tagsInfo.name,
+            tags: Object.fromEntries(
+              tagsToUpdate.map(({ name, count }) => [name, count]),
+            ),
+          }
         : {
             status: 'no_update',
           };

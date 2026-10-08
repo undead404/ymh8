@@ -68,7 +68,7 @@ export default async function addWork() {
 
   const [internalCapacity, itunesCapacity, lastfmCapacity, llmCapacity] =
     await Promise.all([
-      getQueueCapacity(internalQueue, 100),
+      getQueueCapacity(internalQueue, 1000),
       getQueueCapacity(itunesQueue, 3000),
       getQueueCapacity(lastfmQueue, 5000),
       getQueueCapacity(llmQueue, 60),

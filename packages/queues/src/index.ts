@@ -14,8 +14,8 @@ export const discogsQueue = new Queue(QUEUES.DISCOGS, {
       type: 'exponential',
       delay: 5000, // Start with 5 seconds
     },
-    removeOnComplete: 1000, // Good practice to keep Redis clean
-    removeOnFail: 5000, // Keep failed jobs for debugging
+    removeOnComplete: 100, // Good practice to keep Redis clean
+    removeOnFail: 100, // Keep failed jobs for debugging
   },
 });
 
@@ -27,7 +27,7 @@ export const lastfmQueue = new Queue(QUEUES.LASTFM, {
       type: 'exponential',
       delay: 5000, // Start with 5 seconds
     },
-    removeOnComplete: 10_000, // Good practice to keep Redis clean
+    removeOnComplete: 1000, // Good practice to keep Redis clean
     removeOnFail: 5000, // Keep failed jobs for debugging
   },
 });
@@ -40,8 +40,8 @@ export const internalQueue = new Queue(QUEUES.INTERNAL, {
       type: 'exponential',
       delay: 5000, // Start with 5 seconds
     },
-    removeOnComplete: 100, // Good practice to keep Redis clean
-    removeOnFail: 10, // Keep failed jobs for debugging
+    removeOnComplete: 1000, // Good practice to keep Redis clean
+    removeOnFail: 100, // Keep failed jobs for debugging
   },
 });
 
@@ -54,7 +54,7 @@ export const telegramQueue = new Queue(QUEUES.TELEGRAM, {
       delay: 30_000,
     },
     removeOnComplete: 100, // Good practice to keep Redis clean
-    removeOnFail: 5000, // Keep failed jobs for debugging
+    removeOnFail: 1000, // Keep failed jobs for debugging
   },
 });
 
@@ -67,7 +67,7 @@ export const llmQueue = new Queue(QUEUES.LLM, {
       delay: 60_000,
     },
     removeOnComplete: 100, // Good practice to keep Redis clean
-    removeOnFail: 500, // Keep failed jobs for debugging
+    removeOnFail: 100, // Keep failed jobs for debugging
   },
 });
 
@@ -80,7 +80,7 @@ export const itunesQueue = new Queue(QUEUES.ITUNES, {
       delay: 60_000,
     },
     removeOnComplete: 100, // Good practice to keep Redis clean
-    removeOnFail: 500, // Keep failed jobs for debugging
+    removeOnFail: 100, // Keep failed jobs for debugging
   },
 });
 

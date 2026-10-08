@@ -45,7 +45,11 @@ describe('updateAlbumTags', () => {
       date: null,
       numberOfTracks: null,
     });
-    vi.mocked(getAlbumTags).mockResolvedValue([]);
+    vi.mocked(getAlbumTags).mockResolvedValue({
+      artist: 'Metallica',
+      name: 'Metallica',
+      tags: [],
+    });
     vi.mocked(getArtistTags).mockRejectedValue(
       new ArtistNotFoundError('The artist you supplied could not be found'),
     );

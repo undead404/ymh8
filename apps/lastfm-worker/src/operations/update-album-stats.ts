@@ -32,18 +32,20 @@ export default async function updateAlbumStats(
       // Використовуємо єдину функцію збереження, передаючи numberOfTracks опціонально
       await saveAlbumStats(
         trx,
-        { ...bareAlbum, ...albumDetails },
+        { artist: stats.artist, name: stats.name, ...albumDetails },
         {
           listeners: stats.listeners,
-          playcount: stats.playcount,
           ...(isNewTracksCount && { numberOfTracks: stats.numberOfTracks }),
+          playcount: stats.playcount,
         },
       );
 
       return {
+        artist: stats.artist,
         listeners: stats.listeners - (oldStats.listeners || 0),
-        playcount: stats.playcount - (oldStats.playcount || 0),
+        name: stats.name,
         ...(isNewTracksCount && { numberOfTracks: stats.numberOfTracks }),
+        playcount: stats.playcount - (oldStats.playcount || 0),
       };
     } catch (error) {
       if (error instanceof ArtistNotFoundError) {

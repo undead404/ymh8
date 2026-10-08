@@ -6,6 +6,7 @@ const NEGLIGIBLE_ALBUM_NAME_REGEXES = [
   'ClearMusicDownloader',
   'undefined',
   '[non-album tracks]',
+  '[Explicit]',
   /\s$/,
   /^\s/,
   /\s{2,}/,
