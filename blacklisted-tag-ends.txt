@@ -27,6 +27,7 @@
  influence
  influences
  instrument
+ label
  like this
  likes this album
  lovers
@@ -42,8 +43,8 @@
  owns this
  performance
  productions
- ram
  radiostation
+ ram
  rare
  recommends
  records
@@ -77,4 +78,3 @@ scum
 scumcore
 sexy sounding
 shit
- label
