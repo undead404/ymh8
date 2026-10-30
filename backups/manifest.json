@@ -1,0 +1,31 @@
+{
+  "original_file": "ymh-2026-10-30T09-19-54Z.dump",
+  "bytes": 338068213,
+  "sha256": "4a9eefef9581bc39f87428834a53ad26dbedba3f9a392929d01e0e51394aad16",
+  "parts": [
+    {
+      "name": "ymh-2026-10-30T09-19-54Z.dump.part01",
+      "bytes": 94371840,
+      "sha256": "5cdf6e8b0b8997cd30115fd5b5f2f1ba0ab0ef40c7f1379002312a4d31a16c90",
+      "md5": "5d2a2ab82e808ac28c1cbf291d02d767"
+    },
+    {
+      "name": "ymh-2026-10-30T09-19-54Z.dump.part02",
+      "bytes": 94371840,
+      "sha256": "2227ad0dfbdeb9e26f8c5f9e0034f655475049841813a9274323cbad57387df9",
+      "md5": "d373437bf6a5332927d8a11d3b29a01d"
+    },
+    {
+      "name": "ymh-2026-10-30T09-19-54Z.dump.part03",
+      "bytes": 94371840,
+      "sha256": "1a8df388db4c7c58bbcd089584119a4ebe48ec7840ecd68cbeca47ed6eefb3a3",
+      "md5": "d12199732d814a4b029fe9d380481acc"
+    },
+    {
+      "name": "ymh-2026-10-30T09-19-54Z.dump.part04",
+      "bytes": 54952693,
+      "sha256": "9537ca4ec05be7cb034a5859d03d00bf8d80d59e4edf519f9b9aa9848fb86526",
+      "md5": "d5f68f1952a9fb9cbc73d17b40cd6602"
+    }
+  ]
+}
